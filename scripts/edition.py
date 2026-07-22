@@ -5,6 +5,8 @@ from datetime import datetime, timedelta, timezone
 from typing import Any
 from zoneinfo import ZoneInfo
 
+from scripts.creator_rules import select_scored_candidates
+
 UTC = timezone.utc
 VALID_EDITION_KINDS = {"morning", "evening"}
 
@@ -112,7 +114,7 @@ def build_edition(
         item["change_type"] = change
         changed.append(item)
 
-    items = changed[:max_items]
+    items = select_scored_candidates(changed, profile, limit=max_items)
     for item in items:
         story_id = str(item["story_id"])
         new_state["stories"][story_id] = {
