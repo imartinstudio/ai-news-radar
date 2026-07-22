@@ -14,6 +14,16 @@ def test_runbook_documents_required_secrets_and_recovery_commands():
     assert "故障恢复" in text
 
 
+def test_readme_documents_creator_page_and_twice_daily_schedule():
+    text = (ROOT / "README.md").read_text(encoding="utf-8")
+    assert "## AI Coding 创作者版" in text
+    assert "[AI Coding 创作者版](creator/)" in text
+    assert "17 0 * * *" in text
+    assert "47 12 * * *" in text
+    assert "默认每 30 分钟运行一次" not in text
+    assert "feeds/martin-ai-coding.example.opml" in text
+
+
 def test_gitignore_protects_local_secrets_without_hiding_public_creator_data():
     text = (ROOT / ".gitignore").read_text(encoding="utf-8")
     assert ".env.*" in text
