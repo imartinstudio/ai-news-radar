@@ -4,10 +4,14 @@ import argparse
 import hashlib
 import json
 import re
+import sys
 from copy import deepcopy
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
+
+if __package__ in {None, ""}:  # direct `python scripts/creator_pipeline.py`
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from scripts.creator_profile import load_profile
 from scripts.creator_rules import rank_candidates
