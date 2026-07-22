@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="AI Coding 早晚报与内容选题归档" />
+  <title>AI Coding 情报台</title>
+  <link rel="stylesheet" href="./assets/styles.css" />
+</head>
+<body>
+  <main class="page-shell">
+    <header class="hero">
+      <p class="eyebrow">MARTIN · CREATOR INTELLIGENCE</p>
+      <h1>AI Coding 情报台</h1>
+      <p class="hero-copy">每天早晚两次，从工具更新、模型发布和开发者社区信号里，筛出真正值得研究与创作的内容。</p>
+      <div class="hero-meta">
+        <span id="updatedAt">正在加载…</span>
+        <a href="../" class="back-link">返回完整雷达</a>
+      </div>
+    </header>
+
+    <section class="toolbar" aria-label="情报筛选">
+      <label>
+        <span>版次</span>
+        <select id="editionFilter">
+          <option value="all">全部</option>
+          <option value="morning">早报</option>
+          <option value="evening">晚报</option>
+        </select>
+      </label>
+      <label>
+        <span>可信状态</span>
+        <select id="statusFilter">
+          <option value="all">全部</option>
+          <option value="confirmed">已确认</option>
+          <option value="single_source">单一来源</option>
+          <option value="early_signal">早期信号</option>
+          <option value="rumor">待确认</option>
+        </select>
+      </label>
+    </section>
+
+    <section id="editionList" class="edition-list" aria-live="polite">
+      <div class="loading-card">正在读取情报历史…</div>
+    </section>
+  </main>
+
+  <script src="./assets/app.js" defer></script>
+</body>
+</html>

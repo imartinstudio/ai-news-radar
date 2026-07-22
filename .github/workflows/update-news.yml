@@ -8,8 +8,20 @@ on:
         required: false
         default: false
         type: boolean
+      edition:
+        description: "Edition kind"
+        required: false
+        default: auto
+        type: choice
+        options: [auto, morning, evening]
+      publish_telegram:
+        description: "Publish the generated edition to Telegram"
+        required: false
+        default: true
+        type: boolean
   schedule:
-    - cron: "17 * * * *"
+    - cron: "17 0 * * *"
+    - cron: "47 12 * * *"
 
 concurrency:
   group: update-ai-news-${{ github.ref }}
@@ -46,6 +58,9 @@ jobs:
           if [ -n "$FOLLOW_OPML_B64" ]; then
             echo "$FOLLOW_OPML_B64" | base64 --decode > feeds/follow.opml
             echo "Loaded feeds/follow.opml from FOLLOW_OPML_B64 secret"
+          elif [ -f feeds/martin-ai-coding.example.opml ]; then
+            cp feeds/martin-ai-coding.example.opml feeds/follow.opml
+            echo "Loaded AI Coding OPML from feeds/martin-ai-coding.example.opml"
           elif [ -f feeds/follow.example.opml ]; then
             cp feeds/follow.example.opml feeds/follow.opml
             echo "Loaded public demo OPML from feeds/follow.example.opml"
@@ -114,6 +129,46 @@ jobs:
           DEEPSEEK_API_BASE_URL: ${{ vars.DEEPSEEK_API_BASE_URL }}
           DEEPSEEK_MODEL: ${{ vars.DEEPSEEK_MODEL }}
         run: python scripts/persona_score.py --data-dir data
+
+      - name: Resolve edition kind
+        shell: bash
+        run: |
+          requested="${{ inputs.edition || 'auto' }}"
+          if [ "$requested" != "auto" ]; then
+            edition="$requested"
+          elif [ "${{ github.event.schedule }}" = "17 0 * * *" ]; then
+            edition="morning"
+          elif [ "${{ github.event.schedule }}" = "47 12 * * *" ]; then
+            edition="evening"
+          else
+            edition="auto"
+          fi
+          echo "EDITION_KIND=$edition" >> "$GITHUB_ENV"
+
+      - name: Build creator brief
+        env:
+          LLM_PROVIDER: ${{ vars.LLM_PROVIDER || 'deepseek' }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY || secrets.DEEPSEEK_API_KEY }}
+          LLM_BASE_URL: ${{ vars.LLM_BASE_URL || vars.DEEPSEEK_API_BASE_URL }}
+          LLM_MODEL: ${{ vars.LLM_MODEL || vars.DEEPSEEK_MODEL }}
+          LLM_MAX_CALLS_PER_RUN: ${{ vars.LLM_MAX_CALLS_PER_RUN || 12 }}
+        run: |
+          python scripts/creator_pipeline.py \
+            --data-dir data \
+            --profile config/martin-ai-coding.json \
+            --persona personas/martin-creator.md \
+            --edition "$EDITION_KIND"
+
+      - name: Publish Telegram edition
+        if: ${{ github.event_name == 'schedule' || inputs.publish_telegram == true }}
+        env:
+          TELEGRAM_ENABLED: ${{ vars.TELEGRAM_ENABLED || '1' }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+        run: |
+          python scripts/telegram_publish.py \
+            --edition-file data/creator-brief.json \
+            --state-file data/telegram-state.json
 
       - name: Commit and push changes
         env:
