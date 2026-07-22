@@ -1,10 +1,14 @@
 {
-  "generated_at": "2026-07-22T00:12:23.431495Z",
-  "model": "deepseek-v4-flash",
+  "generated_at": "2026-07-22T17:12:57.907776Z",
+  "model": "deepseek-chat",
   "personas": [
     {
       "id": "cynic",
       "name": "毒舌评论员"
+    },
+    {
+      "id": "martin-creator",
+      "name": "马丁创作者"
     },
     {
       "id": "paper-police",
@@ -17,62 +21,62 @@
   ],
   "items": [
     {
-      "story_id": "story_cc9fa5ceb91c",
-      "title": "OpenRouter 上线 Gemini 3.6 Flash 与 3.5 Flash-Lite / Launched today on OpenRouter： Gemini 3.6 Flash and Gemini 3.5 Flash-Lite！ Both strong updates to th…",
-      "url": "https://x.com/OpenRouter/status/2079686435247186015",
+      "story_id": "story_c9adcfe987c9",
+      "title": "Copilot 新增使用指标影响力仪表盘 / New Copilot usage metrics impact dashboard",
+      "url": "https://github.blog/changelog/2026-07-22-new-copilot-usage-metrics-impact-dashboard",
       "rank": 1,
       "reviews": {
         "cynic": {
-          "score": 45,
-          "review": "又是版本号游戏，strong updates 强在哪连个数字都不给。"
+          "score": 72,
+          "review": "仪表盘是好东西，但'影响力'这词儿怕是PR部门加的，先看看数据颗粒度再说。"
         },
         "paper-police": {
-          "score": 20,
-          "review": "仅推文宣布上线，无论文代码或评测，证据严重不足。"
+          "score": 30,
+          "review": "官方博客宣称新功能，无论文无代码无评测，无法独立验证。"
         },
         "pragmatic": {
-          "score": 92,
-          "review": "新模型直接可用，赶紧测测和旧版的差异，优化成本或效果。"
+          "score": 85,
+          "review": "管理Copilot成本更方便，团队可直接看使用数据优化预算。"
         }
       }
     },
     {
-      "story_id": "story_7e78ee445fab",
-      "title": "全新推出 Gemini 3.6 Flash、3.5 Flash-Lite 和 3.5 Flash Cyber / Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
-      "url": "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber",
+      "story_id": "story_96cb9eaf08f7",
+      "title": "Introducing OpenAI Presence",
+      "url": "https://openai.com/index/introducing-openai-presence",
       "rank": 2,
       "reviews": {
         "cynic": {
-          "score": 50,
-          "review": "版本号跳得快，但参数和跑分一个没给，先发PPT定义创新。"
+          "score": 65,
+          "review": "Presence这名字挺唬人，实际就是API加了个参数，别吹成什么重大突破。"
         },
         "paper-police": {
-          "score": 55,
-          "review": "官方博客给了模型细节和数字，但无开源代码与论文，待验证。"
+          "score": 15,
+          "review": "只有官方博客宣称，无论文无代码无第三方评测，证据不足。"
         },
         "pragmatic": {
-          "score": 90,
-          "review": "新模型今天可用，Flash-Lite适合低成本场景，建议直接测试迁移。"
+          "score": 85,
+          "review": "新功能已上线，可控制回复重复性，今天就能调参用。"
         }
       }
     },
     {
-      "story_id": "story_d35a8a618528",
-      "title": "Gemini 3.6 Flash 现已登陆 GitHub Copilot / Gemini 3.6 Flash is now available in GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-07-21-gemini-3-6-flash-is-now-available-in-github-copilot",
+      "story_id": "story_22cea7ebbbb4",
+      "title": "OpenRouter把语音转录塞进同一个API：一份key搞定聊天和转写，Whisper与按token计价STT一并接入",
+      "url": "https://www.aibase.com/news/29805",
       "rank": 3,
       "reviews": {
         "cynic": {
-          "score": 72,
-          "review": "集成一个Flash模型就发官宣，Copilot靠这个翻不了身。"
+          "score": 65,
+          "review": "API整合是好事，但Whisper又不是新东西，按token计价也没说多便宜。"
         },
         "paper-police": {
-          "score": 25,
-          "review": "官方公告，缺乏论文代码和评测数据，无法验证性能。"
+          "score": 10,
+          "review": "只有新闻稿，无论文无代码无benchmark，无法验证API实际效果。"
         },
         "pragmatic": {
-          "score": 90,
-          "review": "直接升级 Copilot 即可用，写代码时体验新模型，今天就能试。"
+          "score": 85,
+          "review": "省一个API key，语音转写直接复用现有接口，批量处理今天就能改代码。"
         }
       }
     }
