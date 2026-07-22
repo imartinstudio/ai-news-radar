@@ -248,17 +248,13 @@ def score_story(story: dict[str, Any], profile: dict[str, Any], now: datetime) -
     return enriched
 
 
-def select_candidates(
+def rank_candidates(
     stories: list[dict[str, Any]],
     profile: dict[str, Any],
     now: datetime,
+    limit: int | None = None,
 ) -> list[dict[str, Any]]:
-    max_items = int(profile["edition"]["max_items"])
     threshold = float(profile["thresholds"]["signal"])
-    product_cap = max(1, math.floor(max_items * float(profile["edition"]["product_cap_ratio"])))
-    ai_target = max(0, min(max_items, round(max_items * float(profile["edition"]["ai_coding_ratio"]))))
-    general_target = max_items - ai_target
-
     ranked = [score_story(story, profile, now) for story in stories]
     ranked = [item for item in ranked if float(item.get("creator_score") or 0) >= threshold]
     ranked.sort(
@@ -269,6 +265,23 @@ def select_candidates(
         ),
         reverse=True,
     )
+    if limit is None:
+        return ranked
+    return ranked[: max(0, int(limit))]
+
+
+def select_scored_candidates(
+    ranked: list[dict[str, Any]],
+    profile: dict[str, Any],
+    limit: int | None = None,
+) -> list[dict[str, Any]]:
+    max_items = int(limit if limit is not None else profile["edition"]["max_items"])
+    max_items = max(0, max_items)
+    if max_items == 0:
+        return []
+    product_cap = max(1, math.floor(max_items * float(profile["edition"]["product_cap_ratio"])))
+    ai_target = max(0, min(max_items, round(max_items * float(profile["edition"]["ai_coding_ratio"]))))
+    general_target = max_items - ai_target
 
     selected: list[dict[str, Any]] = []
     selected_ids: set[str] = set()
@@ -276,7 +289,7 @@ def select_candidates(
 
     def can_take(item: dict[str, Any]) -> bool:
         story_id = str(item.get("story_id") or "")
-        if story_id in selected_ids:
+        if not story_id or story_id in selected_ids:
             return False
         entity = item.get("primary_entity")
         if entity and entity_counts.get(str(entity), 0) >= product_cap:
@@ -308,3 +321,12 @@ def select_candidates(
             take(item)
 
     return selected
+
+
+def select_candidates(
+    stories: list[dict[str, Any]],
+    profile: dict[str, Any],
+    now: datetime,
+) -> list[dict[str, Any]]:
+    ranked = rank_candidates(stories, profile, now)
+    return select_scored_candidates(ranked, profile)
