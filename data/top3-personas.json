@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T17:12:57.907776Z",
+  "generated_at": "2026-07-23T03:31:12.318158Z",
   "model": "deepseek-chat",
   "personas": [
     {
@@ -21,10 +21,30 @@
   ],
   "items": [
     {
+      "story_id": "story_e7155e77e138",
+      "title": "GigaToken 发布：语言模型分词速度最高提升约 1000 倍，可无缝替代 HuggingFace Tokenizers",
+      "url": "https://github.com/marcelroed/gigatoken",
+      "rank": 1,
+      "reviews": {
+        "cynic": {
+          "score": 72,
+          "review": "1000倍？挑了个最慢的基线吧。不过能无缝替换，至少省了改代码的麻烦。"
+        },
+        "paper-police": {
+          "score": 85,
+          "review": "GitHub 仓库有代码和性能数据，但缺论文和独立 benchmark，需自行验证。"
+        },
+        "pragmatic": {
+          "score": 88,
+          "review": "开源库已可用，直接替换 HuggingFace tokenizer，批量推理提速明显。"
+        }
+      }
+    },
+    {
       "story_id": "story_c9adcfe987c9",
       "title": "Copilot 新增使用指标影响力仪表盘 / New Copilot usage metrics impact dashboard",
       "url": "https://github.blog/changelog/2026-07-22-new-copilot-usage-metrics-impact-dashboard",
-      "rank": 1,
+      "rank": 2,
       "reviews": {
         "cynic": {
           "score": 72,
@@ -41,42 +61,22 @@
       }
     },
     {
-      "story_id": "story_96cb9eaf08f7",
-      "title": "Introducing OpenAI Presence",
-      "url": "https://openai.com/index/introducing-openai-presence",
-      "rank": 2,
-      "reviews": {
-        "cynic": {
-          "score": 65,
-          "review": "Presence这名字挺唬人，实际就是API加了个参数，别吹成什么重大突破。"
-        },
-        "paper-police": {
-          "score": 15,
-          "review": "只有官方博客宣称，无论文无代码无第三方评测，证据不足。"
-        },
-        "pragmatic": {
-          "score": 85,
-          "review": "新功能已上线，可控制回复重复性，今天就能调参用。"
-        }
-      }
-    },
-    {
-      "story_id": "story_22cea7ebbbb4",
-      "title": "OpenRouter把语音转录塞进同一个API：一份key搞定聊天和转写，Whisper与按token计价STT一并接入",
-      "url": "https://www.aibase.com/news/29805",
+      "story_id": "story_0ba3ace346fe",
+      "title": "微软 MagenticLite 模型全面开源 / MagenticLite's models are now fully open source. MagenticBrain and Fara 1.5， previously available …",
+      "url": "https://x.com/MSFTResearch/status/2079989338994069511",
       "rank": 3,
       "reviews": {
         "cynic": {
-          "score": 65,
-          "review": "API整合是好事，但Whisper又不是新东西，按token计价也没说多便宜。"
+          "score": 88,
+          "review": "少见的全都敢晒出来，这次没法挑刺。"
         },
         "paper-police": {
-          "score": 10,
-          "review": "只有新闻稿，无论文无代码无benchmark，无法验证API实际效果。"
+          "score": 92,
+          "review": "论文代码都在，跑一遍就知真假，这才叫发布。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "省一个API key，语音转写直接复用现有接口，批量处理今天就能改代码。"
+          "review": "模型开源可自部署，省API费，今天就能clone跑起来。"
         }
       }
     }
