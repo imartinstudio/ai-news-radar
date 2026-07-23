@@ -1375,7 +1375,127 @@
           }
         ]
       }
+    },
+    "f174671a0853e652fcd58327d16606e15f52c97d": {
+      "generated_at": "2026-07-23T15:02:46.820740Z",
+      "enrichment": {
+        "summary_zh": "Modelplane分析称Anthropic以低于成本13倍的价格提供AI编程服务，推测其通过补贴吸引用户，但质疑这种补贴的可持续性。",
+        "why_it_matters": "若补贴不可持续，开发者依赖的廉价AI编程工具可能涨价，影响工作流成本和工具选择。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "Anthropic 13倍补贴AI编程？实测Claude Code真实成本",
+            "angle": "我实测了Claude Code的API调用成本，对比官方定价，看看补贴到底有多大。",
+            "needs_hands_on": true,
+            "risk": "未亲测实际API调用成本与补贴倍数，需自行验证Modelplane的数据来源和计算方法。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "Anthropic补贴AI编程13倍？开发者省钱攻略与避坑指南",
+            "angle": "分享如何利用Anthropic当前补贴降低AI编程成本，以及补贴可能结束的风险。",
+            "needs_hands_on": true,
+            "risk": "补贴倍数基于Modelplane分析，非官方数据，实际补贴幅度可能不同。"
+          },
+          {
+            "platform": "wechat",
+            "title": "AI编程补贴大战：Anthropic 13倍补贴能持续多久？",
+            "angle": "从商业和竞争角度分析Anthropic补贴策略的可持续性，以及对AI编程市场格局的影响。",
+            "needs_hands_on": false,
+            "risk": "补贴倍数和可持续性均为推测，需关注Anthropic官方定价调整。"
+          }
+        ]
+      }
+    },
+    "248dca3763e168ac93532de951cf793347d48c58": {
+      "generated_at": "2026-07-23T15:02:46.820740Z",
+      "enrichment": {
+        "summary_zh": "Every团队在播客中分享如何借助AI工具完成史上最大规模产品发布，涉及AI加速代码审查、优化测试流程等实践，但具体细节因页面访问受限未完全获取。",
+        "why_it_matters": "展示AI在真实大型项目交付中的落地经验，为开发者优化工作流、提升发布效率提供参考。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "Every团队用AI搞定史上最大发布，我试了试他们的方法",
+            "angle": "以开发者视角，尝试复现Every团队提到的AI代码审查和测试优化流程，分享实测效果与坑点。",
+            "needs_hands_on": true,
+            "risk": "原始播客内容因403错误无法直接获取，具体AI工具和方法细节需从其他渠道补充或推测。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "Every团队AI发布复盘：代码审查+测试优化全流程拆解",
+            "angle": "以技术博主身份，结合公开信息推测Every团队可能使用的AI工具（如Copilot、Cursor等），给出步骤化教程和避坑指南。",
+            "needs_hands_on": true,
+            "risk": "未亲测Every团队实际流程，工具和步骤基于行业通用实践推断。"
+          },
+          {
+            "platform": "wechat",
+            "title": "从Every团队看AI如何重塑大型产品发布：代码审查、测试与协作",
+            "angle": "分析AI在大型发布中的角色演变，对比传统流程，探讨对团队协作和工程文化的长期影响。",
+            "needs_hands_on": false,
+            "risk": "原始内容受限，分析需依赖行业通用知识，可能缺乏Every团队独家细节。"
+          }
+        ]
+      }
+    },
+    "d9ae605f1bd4b0a789f60c4f562ce84dcd7c9338": {
+      "generated_at": "2026-07-23T15:02:46.820740Z",
+      "enrichment": {
+        "summary_zh": "Google CEO Pichai表示，Gemini的下一次飞跃需要构建“更大规模的基础模型”，并透露已启动Gemini 4训练。Alphabet将2026年投资预测上调至最高20",
+        "why_it_matters": "表明Google将大幅增加算力投入，可能影响AI Coding工具底层模型能力，开发者需关注Gemini 4对代码生成和云服务的潜在提升。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "Google砸2000亿美元训Gemini 4，AI Coding要变天？",
+            "angle": "刚看到Pichai说Gemini 4已开训，投资飙到2050亿。作为经常用AI写代码的人，我猜更大模型可能意味着更准的代码补全和更少的幻觉。但训练成本这么高，API价格会不会涨？",
+            "needs_hands_on": false,
+            "risk": "Gemini 4具体能力尚未公布，投资额是Alphabet整体预测，非仅Gemini。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "Google Gemini 4要来了？开发者必知的3个变化",
+            "angle": "刚看到新闻，Google CEO说Gemini下一代要靠更大模型，还投了2000亿美元。作为AI Coding重度用户，我总结了3个可能影响：1）代码生成质量提升；2）Cloud服务更贵；3）训练框架可能更新。附上原文链接。",
+            "needs_hands_on": false,
+            "risk": "投资额和模型能力均为预测，实际效果待验证。"
+          },
+          {
+            "platform": "wechat",
+            "title": "Google豪赌2000亿美元：Gemini 4将如何重塑AI Coding生态？",
+            "angle": "从Pichai最新表态看，Google正通过“更大基础模型”策略追赶前沿。结合Cloud增长82%，未来AI Coding工具可能深度绑定Google生态。但巨额投资能否转化为开发者体验提升？本文分析Gemini 4对代码生成、成本和工作流",
+            "needs_hands_on": false,
+            "risk": "Gemini 4尚未发布，投资额包含其他业务，需区分。"
+          }
+        ]
+      }
+    },
+    "cb04f835f272d55f82a199c7985f8326dfd6cabc": {
+      "generated_at": "2026-07-23T15:02:46.820740Z",
+      "enrichment": {
+        "summary_zh": "专家指出，Kimi K3的出色表现并非源于对Anthropic模型Fable的蒸馏，其性能突破可能有其他技术原因。",
+        "why_it_matters": "澄清了Kimi K3性能来源的争议，影响开发者对模型能力归因和蒸馏技术价值的判断。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "Kimi K3不是靠蒸馏Fable？专家说法让我想实测一下",
+            "angle": "作为AI开发者，我原本以为Kimi K3是蒸馏Fable才这么强，但专家说不是。我打算自己跑几个基准测试对比Kimi K3和Fable，看看实际差距。",
+            "needs_hands_on": true,
+            "risk": "未亲测Kimi K3与Fable的对比，专家观点来自单一来源TechCrunch。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "Kimi K3性能真相：不是蒸馏Fable？避坑指南来了",
+            "angle": "最近Kimi K3很火，有人说它是靠蒸馏Anthropic的Fable才这么强。但专家辟谣了！我整理了关键信息，帮大家避免被误导，附上我的实测步骤和结果。",
+            "needs_hands_on": true,
+            "risk": "未亲测，专家观点来自单一来源TechCrunch。"
+          },
+          {
+            "platform": "wechat",
+            "title": "Kimi K3性能之谜：蒸馏争议背后的技术博弈",
+            "angle": "Kimi K3的快速崛起引发蒸馏Anthropic Fable的猜测，但专家认为另有原因。本文梳理事件背景、专家观点，并分析这对中国AI模型研发路线的影响。",
+            "needs_hands_on": false,
+            "risk": "专家观点来自单一来源TechCrunch，需进一步核实。"
+          }
+        ]
+      }
     }
   },
-  "updated_at": "2026-07-23T14:01:46.143354Z"
+  "updated_at": "2026-07-23T15:02:46.820740Z"
 }

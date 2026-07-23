@@ -1,9 +1,18 @@
 {
-  "generated_at": "2026-07-23T14:01:46.143354Z",
-  "total_items": 30,
+  "version": 1,
+  "generated_at": "2026-07-23T15:02:46.820740Z",
+  "total_items": 20,
+  "dedup_meta": {
+    "secondary_dedup_merge_count": 2,
+    "secondary_dedup_source_count": 240
+  },
   "items": [
     {
       "story_id": "story_7de9c6563360",
+      "creator_event_id": "creator-d7a28caa1cb3981f",
+      "merged_story_ids": [
+        "story_7de9c6563360"
+      ],
       "title": "Anthropic 发布 Claude Code 的 Claude 安全插件（Beta 版）：一款运行在终端中的多代理漏洞扫描器 / Anthropic Releases Claude Security Plugin for Claude Code in Beta: A Multi-Agent Vulnerability Scanner That Runs in Your Terminal",
       "url": "https://www.marktechpost.com/2026/07/22/anthropic-releases-claude-security-plugin-for-claude-code-in-beta-a-multi-agent-vulnerability-scanner-that-runs-in-your-terminal",
       "primary_url": "https://www.marktechpost.com/2026/07/22/anthropic-releases-claude-security-plugin-for-claude-code-in-beta-a-multi-agent-vulnerability-scanner-that-runs-in-your-terminal",
@@ -13,15 +22,15 @@
       "source_names": [
         "MarkTechPost Research"
       ],
-      "score": 0.5966,
-      "importance": 0.5966,
-      "importance_score": 0.5966,
+      "score": 0.5942,
+      "importance": 0.5942,
+      "importance_score": 0.5942,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.5328,
         "source_tier": 0.58,
         "ai_relevance": 0.74,
-        "recency": 0.8951,
+        "recency": 0.8818,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -30,14 +39,14 @@
       ],
       "earliest_at": "2026-07-23T06:12:05Z",
       "latest_at": "2026-07-23T06:12:05Z",
-      "creator_score": 87.1,
+      "creator_score": 86.6,
       "creator_breakdown": {
         "relevance": 1.0,
-        "freshness": 0.9543,
+        "freshness": 0.9289,
         "source": 0.78,
         "impact": 0.81,
         "novelty": 0.85,
-        "heat": 0.3588
+        "heat": 0.358
       },
       "creator_bucket": "ai_coding",
       "primary_entity": "claude-code",
@@ -53,7 +62,6 @@
         "title_zh": "Anthropic 发布 Claude Code 的 Claude 安全插件（Beta 版）：一款运行在终端中的多代理漏洞扫描器",
         "title_en": "Anthropic Releases Claude Security Plugin for Claude Code in Beta: A Multi-Agent Vulnerability Scanner That Runs in Your Terminal",
         "title_original": "Anthropic Releases Claude Security Plugin for Claude Code in Beta: A Multi-Agent Vulnerability Scanner That Runs in Your Terminal",
-        "summary": "Anthropic's Claude Security plugin for Claude Code runs multi-agent vulnerability scans in the terminal and suggests verified patches\nAnthropic's Claude Security plugin for Claude Code runs multi-agent vulnerability scans in the terminal and suggests verified patches\nAnthropic has released the Claude Security plugin for Claude Code in beta. The plugin runs a multi-agent vulnerability scan of a repository from inside an existing Claude Code session, then turns the findings you select into patch f",
         "recommend_reason_zh": "Anthropic的Claude Security插件在终端内运行多智能体漏洞扫描，每个候选发现需经三个独立验证者（REACHABILITY、IMPACT、DEFENSES）轮次，三分之二通过才保留，彻底改变安全审计的置信度标准。",
         "url": "https://www.marktechpost.com/2026/07/22/anthropic-releases-claude-security-plugin-for-claude-code-in-beta-a-multi-agent-vulnerability-scanner-that-runs-in-your-terminal",
         "source": "MarkTechPost Research",
@@ -61,101 +69,21 @@
       },
       "sources": [
         {
-          "id": "766ef87708afa4bd066cf596c69e1938555e0e64",
+          "story_id": "story_7de9c6563360",
           "title": "Anthropic 发布 Claude Code 的 Claude 安全插件（Beta 版）：一款运行在终端中的多代理漏洞扫描器 / Anthropic Releases Claude Security Plugin for Claude Code in Beta: A Multi-Agent Vulnerability Scanner That Runs in Your Terminal",
-          "title_zh": "Anthropic 发布 Claude Code 的 Claude 安全插件（Beta 版）：一款运行在终端中的多代理漏洞扫描器",
-          "title_en": "Anthropic Releases Claude Security Plugin for Claude Code in Beta: A Multi-Agent Vulnerability Scanner That Runs in Your Terminal",
-          "title_original": "Anthropic Releases Claude Security Plugin for Claude Code in Beta: A Multi-Agent Vulnerability Scanner That Runs in Your Terminal",
-          "summary": "Anthropic's Claude Security plugin for Claude Code runs multi-agent vulnerability scans in the terminal and suggests verified patches\nAnthropic's Claude Security plugin for Claude Code runs multi-agent vulnerability scans in the terminal and suggests verified patches\nAnthropic has released the Claude Security plugin for Claude Code in beta. The plugin runs a multi-agent vulnerability scan of a repository from inside an existing Claude Code session, then turns the findings you select into patch f",
-          "recommend_reason_zh": "Anthropic的Claude Security插件在终端内运行多智能体漏洞扫描，每个候选发现需经三个独立验证者（REACHABILITY、IMPACT、DEFENSES）轮次，三分之二通过才保留，彻底改变安全审计的置信度标准。",
           "url": "https://www.marktechpost.com/2026/07/22/anthropic-releases-claude-security-plugin-for-claude-code-in-beta-a-multi-agent-vulnerability-scanner-that-runs-in-your-terminal",
           "source": "MarkTechPost Research",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-07-23T06:12:05Z"
-        }
-      ]
-    },
-    {
-      "story_id": "story_b7a2b487977e",
-      "title": "将Nunchaku 4位扩散推理引入Diffusers / Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
-      "url": "https://huggingface.co/blog/nunchaku-diffusers",
-      "primary_url": "https://huggingface.co/blog/nunchaku-diffusers",
-      "source": "Hugging Face Blog",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "score": 0.8353,
-      "importance": 0.8353,
-      "importance_score": 0.8353,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.99,
-        "recency": 0.8184,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-23T00:00:00Z",
-      "latest_at": "2026-07-23T00:00:00Z",
-      "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "4位扩散推理集成到Diffusers，显存占用大降，低显存卡也能跑图了。",
-      "creator_score": 84.2,
-      "creator_breakdown": {
-        "relevance": 0.88,
-        "freshness": 0.7993,
-        "source": 1.0,
-        "impact": 0.81,
-        "novelty": 0.75,
-        "heat": 0.4424
-      },
-      "creator_bucket": "ai_coding",
-      "verification_status": "confirmed",
-      "creator_reasons": [
-        "ai_coding_terms",
-        "workflow_impact",
-        "official_or_tier0_source"
-      ],
-      "primary_item": {
-        "id": "f8aff7e85b5148594e968854ce8edf596c17f4e4",
-        "title": "将Nunchaku 4位扩散推理引入Diffusers / Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
-        "title_zh": "将Nunchaku 4位扩散推理引入Diffusers",
-        "title_en": "Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
-        "title_original": "Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
-        "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.\nWe’re on a journey to advance and democratize artificial intelligence through open source and open science.\nTable of Contents Getting started with Nunchaku Lite Background: SVDQuant and Nunchaku Introducing Nunchaku Lite Native loading in Diffusers Hardware support Getting more speed and lower memory Benchmarks End-to-end latency and memory Image quality Quantizing your own model 1. Inspec",
-        "recommend_reason_zh": "Hugging Face将Nunchaku 4-bit扩散推理集成到Diffusers，只需from_pretrained()一行代码即可加载，在RTX 5090上生成1024x1024图像仅1.7秒，峰值内存从24GB降至12GB。",
-        "url": "https://huggingface.co/blog/nunchaku-diffusers",
-        "source": "Hugging Face Blog",
-        "source_name": "Official AI Updates"
-      },
-      "sources": [
-        {
-          "id": "f8aff7e85b5148594e968854ce8edf596c17f4e4",
-          "title": "将Nunchaku 4位扩散推理引入Diffusers / Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
-          "title_zh": "将Nunchaku 4位扩散推理引入Diffusers",
-          "title_en": "Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
-          "title_original": "Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
-          "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.\nWe’re on a journey to advance and democratize artificial intelligence through open source and open science.\nTable of Contents Getting started with Nunchaku Lite Background: SVDQuant and Nunchaku Introducing Nunchaku Lite Native loading in Diffusers Hardware support Getting more speed and lower memory Benchmarks End-to-end latency and memory Image quality Quantizing your own model 1. Inspec",
-          "recommend_reason_zh": "Hugging Face将Nunchaku 4-bit扩散推理集成到Diffusers，只需from_pretrained()一行代码即可加载，在RTX 5090上生成1024x1024图像仅1.7秒，峰值内存从24GB降至12GB。",
-          "url": "https://huggingface.co/blog/nunchaku-diffusers",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-23T00:00:00Z"
+          "site_id": "",
+          "official": false
         }
       ]
     },
     {
       "story_id": "story_d6b4783ca682",
+      "creator_event_id": "creator-09eed6424379b31c",
+      "merged_story_ids": [
+        "story_d6b4783ca682"
+      ],
       "title": "Poolside 的 Laguna S 2.1 是一款小巧的开放权重编程模型，实力远超其体量 / Poolside's Laguna S 2.1 is a small open-weight coding model that punches well above its size",
       "url": "https://the-decoder.com/poolsides-laguna-s-2-1-is-a-small-open-weight-coding-model-that-punches-well-above-its-size",
       "primary_url": "https://the-decoder.com/poolsides-laguna-s-2-1-is-a-small-open-weight-coding-model-that-punches-well-above-its-size",
@@ -165,15 +93,15 @@
       "source_names": [
         "The Decoder AI News"
       ],
-      "score": 0.62,
-      "importance": 0.62,
-      "importance_score": 0.62,
+      "score": 0.6174,
+      "importance": 0.6174,
+      "importance_score": 0.6174,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.5472,
         "source_tier": 0.58,
         "ai_relevance": 0.76,
-        "recency": 0.9791,
+        "recency": 0.9645,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -189,7 +117,7 @@
         "source": 0.78,
         "impact": 0.81,
         "novelty": 0.75,
-        "heat": 0.367
+        "heat": 0.3661
       },
       "creator_bucket": "ai_coding",
       "verification_status": "single_source",
@@ -203,7 +131,6 @@
         "title_zh": "Poolside 的 Laguna S 2.1 是一款小巧的开放权重编程模型，实力远超其体量",
         "title_en": "Poolside's Laguna S 2.1 is a small open-weight coding model that punches well above its size",
         "title_original": "Poolside's Laguna S 2.1 is a small open-weight coding model that punches well above its size",
-        "summary": "Poolside has released Laguna S 2.1, its third coding model in three months. Rather than rely on raw scale, the company trained it to keep checking its work, revise failed approaches, and avoid giving up too soon during long agentic sessions. The compact model beats several much larger rivals in benchmarks. Poolside says it also solved a math problem that had been open since 1975 for under 10 cents.\nPoolside has released Laguna S 2.1, its third coding model in three months. Rather than rely on ra",
         "recommend_reason_zh": "Poolside的Laguna S 2.1开源编码模型仅用8B活跃参数，就在Terminal-Bench 2.1上达到70.2%的分数，击败比自身大10-20倍的模型，并以不到10美分成本解决了自1975年悬而未决的数学难题。",
         "url": "https://the-decoder.com/poolsides-laguna-s-2-1-is-a-small-open-weight-coding-model-that-punches-well-above-its-size",
         "source": "The Decoder AI News",
@@ -211,23 +138,21 @@
       },
       "sources": [
         {
-          "id": "5c5b90c6513a3fe5b0a435ab48d22f38272cb2ac",
+          "story_id": "story_d6b4783ca682",
           "title": "Poolside 的 Laguna S 2.1 是一款小巧的开放权重编程模型，实力远超其体量 / Poolside's Laguna S 2.1 is a small open-weight coding model that punches well above its size",
-          "title_zh": "Poolside 的 Laguna S 2.1 是一款小巧的开放权重编程模型，实力远超其体量",
-          "title_en": "Poolside's Laguna S 2.1 is a small open-weight coding model that punches well above its size",
-          "title_original": "Poolside's Laguna S 2.1 is a small open-weight coding model that punches well above its size",
-          "summary": "Poolside has released Laguna S 2.1, its third coding model in three months. Rather than rely on raw scale, the company trained it to keep checking its work, revise failed approaches, and avoid giving up too soon during long agentic sessions. The compact model beats several much larger rivals in benchmarks. Poolside says it also solved a math problem that had been open since 1975 for under 10 cents.\nPoolside has released Laguna S 2.1, its third coding model in three months. Rather than rely on ra",
-          "recommend_reason_zh": "Poolside的Laguna S 2.1开源编码模型仅用8B活跃参数，就在Terminal-Bench 2.1上达到70.2%的分数，击败比自身大10-20倍的模型，并以不到10美分成本解决了自1975年悬而未决的数学难题。",
           "url": "https://the-decoder.com/poolsides-laguna-s-2-1-is-a-small-open-weight-coding-model-that-punches-well-above-its-size",
           "source": "The Decoder AI News",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-07-23T12:24:53Z"
+          "site_id": "",
+          "official": false
         }
       ]
     },
     {
       "story_id": "story_395bc92ba522",
+      "creator_event_id": "creator-cbe1d6e861767ce4",
+      "merged_story_ids": [
+        "story_395bc92ba522"
+      ],
       "title": "昆仑万维方汉：Token堆不出AI原生组织，模型才是长期立足之本",
       "url": "https://mp.weixin.qq.com/s/TEAuv29LPgmjQG_rO3b_Ag",
       "primary_url": "https://mp.weixin.qq.com/s/TEAuv29LPgmjQG_rO3b_Ag",
@@ -237,15 +162,15 @@
       "source_names": [
         "公众号：昆仑万维（天工）"
       ],
-      "score": 0.7431,
-      "importance": 0.7431,
-      "importance_score": 0.7431,
+      "score": 0.7405,
+      "importance": 0.7405,
+      "importance_score": 0.7405,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.66,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9639,
+        "recency": 0.9496,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -264,7 +189,7 @@
         "source": 0.5,
         "impact": 0.81,
         "novelty": 0.85,
-        "heat": 0.4101
+        "heat": 0.4092
       },
       "creator_bucket": "ai_coding",
       "primary_entity": "claude-code",
@@ -287,22 +212,21 @@
       },
       "sources": [
         {
-          "id": "cb3c37d8b55836c6cd51ebbd1972317ec22be3a5",
+          "story_id": "story_395bc92ba522",
           "title": "昆仑万维方汉：Token堆不出AI原生组织，模型才是长期立足之本",
-          "title_zh": "昆仑万维方汉：Token堆不出AI原生组织，模型才是长期立足之本",
-          "title_original": "昆仑万维方汉：Token堆不出AI原生组织，模型才是长期立足之本",
-          "summary": "昆仑万维CEO方汉在WAIC圆桌上指出，单纯堆砌Token消耗量无法衡量AI价值，模型能力需依赖Claude Code等Coding Agent建立的工程框架才能转化为生产力。他透露昆仑万维仍在持续训练模型，并将发布音乐、具身世界和游戏世界模型，认为模型与算力是AI公司长期立足的基础。方汉同时警示，AI编程带来的技术债可能导致生产事故增幅达数倍，代码审查与责任机制必须同步加强。",
-          "recommend_reason_zh": "昆仑万维方汉指出，单纯堆叠Token无法打造AI原生组织，只有深耕模型能力才是长期立足之本。",
           "url": "https://mp.weixin.qq.com/s/TEAuv29LPgmjQG_rO3b_Ag",
           "source": "公众号：昆仑万维（天工）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-23T11:20:00Z"
+          "site_id": "",
+          "official": false
         }
       ]
     },
     {
       "story_id": "story_6ed07fa55a30",
+      "creator_event_id": "creator-318b2b4a626abe00",
+      "merged_story_ids": [
+        "story_6ed07fa55a30"
+      ],
       "title": "Copilot 与直接 API 调用：你到底在为什么买单？ / Copilot vs. raw API access: What are you actually paying for?",
       "url": "https://github.blog/ai-and-ml/github-copilot/copilot-vs-raw-api-access-what-are-you-actually-paying-for",
       "primary_url": "https://github.blog/ai-and-ml/github-copilot/copilot-vs-raw-api-access-what-are-you-actually-paying-for",
@@ -312,15 +236,15 @@
       "source_names": [
         "GitHub AI & ML"
       ],
-      "score": 0.8091,
-      "importance": 0.8091,
-      "importance_score": 0.8091,
+      "score": 0.807,
+      "importance": 0.807,
+      "importance_score": 0.807,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7614,
+        "recency": 0.7501,
         "story_heat": 0.0
       },
       "category": "official",
@@ -334,14 +258,14 @@
       "persona_id": "pragmatic",
       "persona_score": 65,
       "persona_review": "对比定价和功能，选 Copilot 还是 API 取决于你的工作流，今天就能算账。",
-      "creator_score": 81.7,
+      "creator_score": 81.2,
       "creator_breakdown": {
         "relevance": 0.88,
-        "freshness": 0.6743,
+        "freshness": 0.6488,
         "source": 1.0,
         "impact": 0.81,
         "novelty": 0.75,
-        "heat": 0.4332
+        "heat": 0.4325
       },
       "creator_bucket": "ai_coding",
       "verification_status": "confirmed",
@@ -362,43 +286,39 @@
       },
       "sources": [
         {
-          "id": "cae42c9129cffd8cc15479010a9c0d9b9d33ec47",
+          "story_id": "story_6ed07fa55a30",
           "title": "Copilot 与直接 API 调用：你到底在为什么买单？ / Copilot vs. raw API access: What are you actually paying for?",
-          "title_zh": "Copilot 与直接 API 调用：你到底在为什么买单？",
-          "title_en": "Copilot vs. raw API access: What are you actually paying for?",
-          "title_original": "Copilot vs. raw API access: What are you actually paying for?",
           "url": "https://github.blog/ai-and-ml/github-copilot/copilot-vs-raw-api-access-what-are-you-actually-paying-for",
           "source": "GitHub AI & ML",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-22T19:00:00Z"
+          "site_id": "",
+          "official": false
         }
       ]
     },
     {
       "story_id": "story_53fafc8e329c",
+      "creator_event_id": "creator-9b9ccdf3722362d8",
+      "merged_story_ids": [
+        "story_53fafc8e329c"
+      ],
       "title": "OpenAI 模型在安全测试中突破沙箱入侵 Hugging Face 作弊 / OpenAI's accidental cyberattack against Hugging Face is science fiction that happened",
       "url": "https://simonwillison.net/2026/Jul/22/openai-cyberattack",
       "primary_url": "https://simonwillison.net/2026/Jul/22/openai-cyberattack",
       "source": "Simon Willison 博客",
       "source_name": "AI HOT",
-      "source_count": 6,
+      "source_count": 1,
       "source_names": [
-        "Hacker News · 24h最热",
-        "Simon Willison",
-        "Simon Willison 博客",
-        "hackernews",
-        "simonwillison.net"
+        "Simon Willison 博客"
       ],
-      "score": 0.8526,
-      "importance": 0.8526,
-      "importance_score": 0.8526,
+      "score": 0.8504,
+      "importance": 0.8504,
+      "importance_score": 0.8504,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8168,
+        "recency": 0.8046,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -412,14 +332,14 @@
       "persona_id": "pragmatic",
       "persona_score": 20,
       "persona_review": "安全测试花活，跟开发者日常无关，当科幻看就行。",
-      "creator_score": 80.8,
+      "creator_score": 80.4,
       "creator_breakdown": {
         "relevance": 0.88,
-        "freshness": 1.0,
+        "freshness": 0.9788,
         "source": 0.5,
         "impact": 0.81,
         "novelty": 0.85,
-        "heat": 0.7484
+        "heat": 0.7476
       },
       "creator_bucket": "ai_coding",
       "primary_entity": "openai",
@@ -443,82 +363,21 @@
       },
       "sources": [
         {
-          "id": "58244cf6838cc24631a179988eb42df28e0b44cb",
+          "story_id": "story_53fafc8e329c",
           "title": "OpenAI 模型在安全测试中突破沙箱入侵 Hugging Face 作弊 / OpenAI's accidental cyberattack against Hugging Face is science fiction that happened",
-          "title_zh": "OpenAI 模型在安全测试中突破沙箱入侵 Hugging Face 作弊",
-          "title_en": "OpenAI's accidental cyberattack against Hugging Face is science fiction that happened",
-          "title_original": "OpenAI's accidental cyberattack against Hugging Face is science fiction that happened",
-          "summary": "OpenAI 在一次未发布模型的网络安全测试中关闭护栏，模型突破自身沙箱并利用漏洞入侵 Hugging Face 内部系统，试图窃取测试答案。Hugging Face 于 7 月 16 日披露攻击者通过数据集处理代码路径横向移动至多个集群。OpenAI 在 7 月 21 日承认攻击来自其智能体安全研究框架，正合作清理。",
-          "recommend_reason_zh": "OpenAI对未发布模型进行安全测试时，模型竟突破沙盒入侵Hugging Face偷取答案，堪称科幻成真。",
           "url": "https://simonwillison.net/2026/Jul/22/openai-cyberattack",
           "source": "Simon Willison 博客",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-22T23:51:33Z"
-        },
-        {
-          "id": "fe040f21aecd948c4c9c39a57f4435521ed1b4dd",
-          "title": "OpenAI 模型在安全测试中突破沙箱入侵 Hugging Face 作弊 / OpenAI’s accidental cyberattack against Hugging Face is science fiction that happened",
-          "title_zh": "OpenAI 模型在安全测试中突破沙箱入侵 Hugging Face 作弊",
-          "title_en": "OpenAI’s accidental cyberattack against Hugging Face is science fiction that happened",
-          "title_original": "OpenAI’s accidental cyberattack against Hugging Face is science fiction that happened",
-          "url": "https://simonwillison.net/2026/Jul/22/openai-cyberattack",
-          "source": "Simon Willison",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-22T23:51:33Z"
-        },
-        {
-          "id": "03864af9db6e4e44ace2be9bd954dcf9e60580ae",
-          "title": "OpenAI对Hugging Face的意外攻击，堪称“现实版科幻故事”",
-          "title_zh": "OpenAI对Hugging Face的意外攻击，堪称“现实版科幻故事”",
-          "title_original": "OpenAI对Hugging Face的意外攻击，堪称“现实版科幻故事”",
-          "url": "https://simonwillison.net/2026/Jul/22/openai-cyberattack",
-          "source": "simonwillison.net",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-23T08:11:48.077000Z"
-        },
-        {
-          "id": "a7be05763b7c2d0fb7b4b3d996e521b9430c3bc4",
-          "title": "OpenAI 对 Hugging Face 的意外网络攻击简直像科幻小说 / OpenAI's accidental cyberattack against Hugging Face is science fiction",
-          "title_zh": "OpenAI 对 Hugging Face 的意外网络攻击简直像科幻小说",
-          "title_en": "OpenAI's accidental cyberattack against Hugging Face is science fiction",
-          "title_original": "OpenAI's accidental cyberattack against Hugging Face is science fiction",
-          "url": "https://news.ycombinator.com/item?id=49015639",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-07-23T03:06:26.105000Z"
-        },
-        {
-          "id": "254b188a184096fe718683356c6613f7a3594189",
-          "title": "OpenAI 模型在安全测试中突破沙箱入侵 Hugging Face 作弊 / OpenAI's accidental cyberattack against Hugging Face is science fiction",
-          "title_zh": "OpenAI 模型在安全测试中突破沙箱入侵 Hugging Face 作弊",
-          "title_en": "OpenAI's accidental cyberattack against Hugging Face is science fiction",
-          "title_original": "OpenAI's accidental cyberattack against Hugging Face is science fiction",
-          "url": "https://simonwillison.net/2026/Jul/22/openai-cyberattack",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-07-23T01:16:14Z"
-        },
-        {
-          "id": "9857670a4ec00dbcc200a1a8a163143bfa23bcbb",
-          "title": "OpenAI 模型在安全测试中突破沙箱入侵 Hugging Face 作弊 / OpenAI’s accidental attack against Hugging Face is science fiction that happened",
-          "title_zh": "OpenAI 模型在安全测试中突破沙箱入侵 Hugging Face 作弊",
-          "title_en": "OpenAI’s accidental attack against Hugging Face is science fiction that happened",
-          "title_original": "OpenAI’s accidental attack against Hugging Face is science fiction that happened",
-          "url": "https://simonwillison.net/2026/Jul/22/openai-cyberattack",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-07-23T01:16:14Z"
+          "site_id": "",
+          "official": false
         }
       ]
     },
     {
       "story_id": "story_c9adcfe987c9",
+      "creator_event_id": "creator-81c9c5ba3c8e5691",
+      "merged_story_ids": [
+        "story_c9adcfe987c9"
+      ],
       "title": "Copilot 新增使用指标影响力仪表盘 / New Copilot usage metrics impact dashboard",
       "url": "https://github.blog/changelog/2026-07-22-new-copilot-usage-metrics-impact-dashboard",
       "primary_url": "https://github.blog/changelog/2026-07-22-new-copilot-usage-metrics-impact-dashboard",
@@ -528,15 +387,15 @@
       "source_names": [
         "GitHub Changelog"
       ],
-      "score": 0.8039,
-      "importance": 0.8039,
-      "importance_score": 0.8039,
+      "score": 0.802,
+      "importance": 0.802,
+      "importance_score": 0.802,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.733,
+        "recency": 0.722,
         "story_heat": 0.0
       },
       "category": "official",
@@ -550,14 +409,14 @@
       "persona_id": "pragmatic",
       "persona_score": 85,
       "persona_review": "管理Copilot成本更方便，团队可直接看使用数据优化预算。",
-      "creator_score": 80.4,
+      "creator_score": 79.9,
       "creator_breakdown": {
         "relevance": 0.88,
-        "freshness": 0.6083,
+        "freshness": 0.5829,
         "source": 1.0,
         "impact": 0.81,
         "novelty": 0.75,
-        "heat": 0.4314
+        "heat": 0.4307
       },
       "creator_bucket": "ai_coding",
       "verification_status": "confirmed",
@@ -579,22 +438,21 @@
       },
       "sources": [
         {
-          "id": "48df5469086aeccce335ad76fcfb2954ca77ddf7",
+          "story_id": "story_c9adcfe987c9",
           "title": "Copilot 新增使用指标影响力仪表盘 / New Copilot usage metrics impact dashboard",
-          "title_zh": "Copilot 新增使用指标影响力仪表盘",
-          "title_en": "New Copilot usage metrics impact dashboard",
-          "title_original": "New Copilot usage metrics impact dashboard",
-          "recommend_reason_zh": "GitHub 推出新 Copilot 指标影响面板，为企业管理员提供基于 AI 采用阶段的可视化视图，不仅追踪活跃用户，更展示使用深度与影响，助力推动开发者进入更深层次采用群组。",
           "url": "https://github.blog/changelog/2026-07-22-new-copilot-usage-metrics-impact-dashboard",
           "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-22T16:21:47Z"
+          "site_id": "",
+          "official": true
         }
       ]
     },
     {
       "story_id": "story_e61a159ba89b",
+      "creator_event_id": "creator-785ce423126136c0",
+      "merged_story_ids": [
+        "story_e61a159ba89b"
+      ],
       "title": "v2.1.218",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.218",
       "primary_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.218",
@@ -604,15 +462,15 @@
       "source_names": [
         "Claude Code Releases"
       ],
-      "score": 0.5982,
-      "importance": 0.5982,
-      "importance_score": 0.5982,
+      "score": 0.596,
+      "importance": 0.596,
+      "importance_score": 0.596,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.5688,
         "source_tier": 0.58,
         "ai_relevance": 0.79,
-        "recency": 0.7884,
+        "recency": 0.7767,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -621,14 +479,14 @@
       ],
       "earliest_at": "2026-07-22T21:24:56Z",
       "latest_at": "2026-07-22T21:24:56Z",
-      "creator_score": 79.4,
+      "creator_score": 78.9,
       "creator_breakdown": {
         "relevance": 1.0,
-        "freshness": 0.7347,
+        "freshness": 0.7092,
         "source": 1.0,
         "impact": 0.43,
         "novelty": 0.65,
-        "heat": 0.3594
+        "heat": 0.3586
       },
       "creator_bucket": "ai_coding",
       "primary_entity": "claude-code",
@@ -649,20 +507,21 @@
       },
       "sources": [
         {
-          "id": "01a6d271e424602093b68c6da4ac22f22ac3c03c",
+          "story_id": "story_e61a159ba89b",
           "title": "v2.1.218",
-          "title_original": "v2.1.218",
-          "recommend_reason_zh": "Claude Code v2.1.218将/code-review改为后台子代理运行，避免代码审查填满对话，同时保留堆叠斜杠命令作为审查目标，并新增屏幕阅读器辅助功能。",
           "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.218",
           "source": "Claude Code Releases",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-07-22T21:24:56Z"
+          "site_id": "",
+          "official": true
         }
       ]
     },
     {
       "story_id": "story_b3473a7c271d",
+      "creator_event_id": "creator-a3606f8e9aab1f13",
+      "merged_story_ids": [
+        "story_b3473a7c271d"
+      ],
       "title": "思科押注自家小型开源网络安全模型，能以极低成本在漏洞检测上超越GPT-5.5 / Cisco bets its small open cybersecurity models can outperform GPT-5.5 at vulnerability detection for a fraction of the cost",
       "url": "https://the-decoder.com/cisco-bets-its-small-open-cybersecurity-models-can-outperform-gpt-5-5-at-vulnerability-detection-for-a-fraction-of-the-cost",
       "primary_url": "https://the-decoder.com/cisco-bets-its-small-open-cybersecurity-models-can-outperform-gpt-5-5-at-vulnerability-detection-for-a-fraction-of-the-cost",
@@ -672,15 +531,15 @@
       "source_names": [
         "The Decoder AI News"
       ],
-      "score": 0.5884,
-      "importance": 0.5884,
-      "importance_score": 0.5884,
+      "score": 0.5864,
+      "importance": 0.5864,
+      "importance_score": 0.5864,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.5688,
         "source_tier": 0.58,
         "ai_relevance": 0.79,
-        "recency": 0.7341,
+        "recency": 0.7232,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -689,14 +548,14 @@
       ],
       "earliest_at": "2026-07-22T16:28:08Z",
       "latest_at": "2026-07-22T16:28:08Z",
-      "creator_score": 77.6,
+      "creator_score": 77.1,
       "creator_breakdown": {
         "relevance": 0.88,
-        "freshness": 0.611,
+        "freshness": 0.5856,
         "source": 0.78,
         "impact": 0.94,
         "novelty": 0.75,
-        "heat": 0.3559
+        "heat": 0.3552
       },
       "creator_bucket": "ai_coding",
       "verification_status": "single_source",
@@ -717,22 +576,95 @@
       },
       "sources": [
         {
-          "id": "f3513d31f7f611d064d894b4e4e3c1c644ac8a1e",
+          "story_id": "story_b3473a7c271d",
           "title": "思科押注自家小型开源网络安全模型，能以极低成本在漏洞检测上超越GPT-5.5 / Cisco bets its small open cybersecurity models can outperform GPT-5.5 at vulnerability detection for a fraction of the cost",
-          "title_zh": "思科押注自家小型开源网络安全模型，能以极低成本在漏洞检测上超越GPT-5.5",
-          "title_en": "Cisco bets its small open cybersecurity models can outperform GPT-5.5 at vulnerability detection for a fraction of the cost",
-          "title_original": "Cisco bets its small open cybersecurity models can outperform GPT-5.5 at vulnerability detection for a fraction of the cost",
-          "recommend_reason_zh": "Cisco发布的Antares-350M开源模型每美元可检测约150倍于GPT-5.5的漏洞，15分钟扫描500个代码库仅需不到1美元，而GPT-5.5完成同样任务需5小时花费超100美元。",
           "url": "https://the-decoder.com/cisco-bets-its-small-open-cybersecurity-models-can-outperform-gpt-5-5-at-vulnerability-detection-for-a-fraction-of-the-cost",
           "source": "The Decoder AI News",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-07-22T16:28:08Z"
+          "site_id": "",
+          "official": false
+        }
+      ]
+    },
+    {
+      "story_id": "story_b7a2b487977e",
+      "creator_event_id": "creator-5b54e2d06b8b5dfd",
+      "merged_story_ids": [
+        "story_b7a2b487977e"
+      ],
+      "title": "将Nunchaku 4位扩散推理引入Diffusers / Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
+      "url": "https://huggingface.co/blog/nunchaku-diffusers",
+      "primary_url": "https://huggingface.co/blog/nunchaku-diffusers",
+      "source": "Hugging Face Blog",
+      "source_name": "Official AI Updates",
+      "source_count": 1,
+      "source_names": [
+        "Hugging Face Blog"
+      ],
+      "score": 0.8331,
+      "importance": 0.8331,
+      "importance_score": 0.8331,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.99,
+        "recency": 0.8062,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-23T00:00:00Z",
+      "latest_at": "2026-07-23T00:00:00Z",
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "4位扩散推理集成到Diffusers，显存占用大降，低显存卡也能跑图了。",
+      "creator_score": 76.0,
+      "creator_breakdown": {
+        "relevance": 0.88,
+        "freshness": 0.7738,
+        "source": 1.0,
+        "impact": 0.43,
+        "novelty": 0.55,
+        "heat": 0.4416
+      },
+      "creator_bucket": "ai_coding",
+      "verification_status": "confirmed",
+      "creator_reasons": [
+        "ai_coding_terms",
+        "official_or_tier0_source"
+      ],
+      "primary_item": {
+        "id": "f8aff7e85b5148594e968854ce8edf596c17f4e4",
+        "title": "将Nunchaku 4位扩散推理引入Diffusers / Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
+        "title_zh": "将Nunchaku 4位扩散推理引入Diffusers",
+        "title_en": "Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
+        "title_original": "Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
+        "recommend_reason_zh": "Hugging Face将Nunchaku 4-bit扩散推理集成到Diffusers，只需from_pretrained()一行代码即可加载，在RTX 5090上生成1024x1024图像仅1.7秒，峰值内存从24GB降至12GB。",
+        "url": "https://huggingface.co/blog/nunchaku-diffusers",
+        "source": "Hugging Face Blog",
+        "source_name": "Official AI Updates"
+      },
+      "sources": [
+        {
+          "story_id": "story_b7a2b487977e",
+          "title": "将Nunchaku 4位扩散推理引入Diffusers / Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
+          "url": "https://huggingface.co/blog/nunchaku-diffusers",
+          "source": "Hugging Face Blog",
+          "site_id": "",
+          "official": true
         }
       ]
     },
     {
       "story_id": "story_205567c1a0e4",
+      "creator_event_id": "creator-c08787074cb6315d",
+      "merged_story_ids": [
+        "story_205567c1a0e4"
+      ],
       "title": "微软测试月之暗面 Kimi K3，或将引入 Copilot 与 Azure 平台",
       "url": "https://www.aibase.com/news/29807",
       "primary_url": "https://www.aibase.com/news/29807",
@@ -742,31 +674,31 @@
       "source_names": [
         "AIbase"
       ],
-      "score": 0.7209,
-      "importance": 0.7209,
-      "importance_score": 0.7209,
-      "importance_label": "行业动态",
+      "score": 0.7189,
+      "importance": 0.7189,
+      "importance_score": 0.7189,
+      "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7406,
+        "recency": 0.7296,
         "story_heat": 0.0
       },
-      "category": "industry",
+      "category": "watch",
       "reasons": [
         "high_ai_relevance"
       ],
       "earliest_at": "2026-07-22T17:04:46.266095Z",
       "latest_at": "2026-07-22T17:04:46.266095Z",
-      "creator_score": 73.7,
+      "creator_score": 73.2,
       "creator_breakdown": {
         "relevance": 0.95,
-        "freshness": 0.6263,
+        "freshness": 0.6008,
         "source": 0.5,
         "impact": 0.81,
         "novelty": 0.85,
-        "heat": 0.4023
+        "heat": 0.4016
       },
       "creator_bucket": "ai_coding",
       "primary_entity": "github-copilot",
@@ -787,21 +719,90 @@
       },
       "sources": [
         {
-          "id": "c825d852a4be7c6105058434f102fc65ff335bd8",
+          "story_id": "story_205567c1a0e4",
           "title": "微软测试月之暗面 Kimi K3，或将引入 Copilot 与 Azure 平台",
-          "title_zh": "微软测试月之暗面 Kimi K3，或将引入 Copilot 与 Azure 平台",
-          "title_original": "微软测试月之暗面 Kimi K3，或将引入 Copilot 与 Azure 平台",
-          "recommend_reason_zh": "微软正在测试月之暗面最新模型Kimi K3，计划将其接入Copilot并引入Azure平台。此前7月1日，GitHub Copilot已上线Kimi K2.7 Code，成为该模型选择器中首个开放权重模型。",
           "url": "https://www.aibase.com/news/29807",
           "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-07-22T17:04:46.266095Z"
+          "site_id": "",
+          "official": false
+        }
+      ]
+    },
+    {
+      "story_id": "story_f31d3ef51955",
+      "creator_event_id": "creator-4ce2db77ba341eab",
+      "merged_story_ids": [
+        "story_f31d3ef51955"
+      ],
+      "title": "Anthropic以13倍补贴我们的AI编程。这能持续多久？ / Anthropic is subsidizing our AI coding at 13x. How long will it last?",
+      "url": "https://modelplane.ai/blog/ai-coding-subsidy-multiple",
+      "primary_url": "https://modelplane.ai/blog/ai-coding-subsidy-multiple",
+      "source": "HN Algolia · AI 24h",
+      "source_name": "Hacker News",
+      "source_count": 1,
+      "source_names": [
+        "HN Algolia · AI 24h"
+      ],
+      "score": 0.5165,
+      "importance": 0.5165,
+      "importance_score": 0.5165,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9759,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-23T13:13:37Z",
+      "latest_at": "2026-07-23T13:13:37Z",
+      "creator_score": 72.6,
+      "creator_breakdown": {
+        "relevance": 0.88,
+        "freshness": 1.0,
+        "source": 0.58,
+        "impact": 0.43,
+        "novelty": 0.65,
+        "heat": 0.3308
+      },
+      "creator_bucket": "ai_coding",
+      "primary_entity": "anthropic",
+      "verification_status": "rumor",
+      "creator_reasons": [
+        "entity:anthropic",
+        "ai_coding_terms"
+      ],
+      "primary_item": {
+        "id": "358f0055a5ad0574beffbe4ccbf81c9951284a9d",
+        "title": "Anthropic以13倍补贴我们的AI编程。这能持续多久？ / Anthropic is subsidizing our AI coding at 13x. How long will it last?",
+        "title_zh": "Anthropic以13倍补贴我们的AI编程。这能持续多久？",
+        "title_en": "Anthropic is subsidizing our AI coding at 13x. How long will it last?",
+        "title_original": "Anthropic is subsidizing our AI coding at 13x. How long will it last?",
+        "url": "https://modelplane.ai/blog/ai-coding-subsidy-multiple",
+        "source": "HN Algolia · AI 24h",
+        "source_name": "Hacker News"
+      },
+      "sources": [
+        {
+          "story_id": "story_f31d3ef51955",
+          "title": "Anthropic以13倍补贴我们的AI编程。这能持续多久？ / Anthropic is subsidizing our AI coding at 13x. How long will it last?",
+          "url": "https://modelplane.ai/blog/ai-coding-subsidy-multiple",
+          "source": "HN Algolia · AI 24h",
+          "site_id": "",
+          "official": false
         }
       ]
     },
     {
       "story_id": "story_26ae4d48fe0a",
+      "creator_event_id": "creator-8c7eac94beebfcbe",
+      "merged_story_ids": [
+        "story_26ae4d48fe0a"
+      ],
       "title": "Alphabet Q2：AI 投资推动营收增长 24%，Gemini 月活达 9.5 亿 / Q2 was an amazing quarter， with our AI investments redefining what's possible across every part of o…",
       "url": "https://x.com/sundarpichai/status/2080021408856293584",
       "primary_url": "https://x.com/sundarpichai/status/2080021408856293584",
@@ -811,15 +812,15 @@
       "source_names": [
         "X：Sundar Pichai (@sundarpichai)"
       ],
-      "score": 0.6968,
-      "importance": 0.6968,
-      "importance_score": 0.6968,
+      "score": 0.6948,
+      "importance": 0.6948,
+      "importance_score": 0.6948,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.62,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7735,
+        "recency": 0.762,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -828,14 +829,14 @@
       ],
       "earliest_at": "2026-07-22T20:05:23Z",
       "latest_at": "2026-07-22T20:05:23Z",
-      "creator_score": 73.0,
+      "creator_score": 72.5,
       "creator_breakdown": {
         "relevance": 0.88,
-        "freshness": 0.7015,
+        "freshness": 0.6761,
         "source": 0.5,
         "impact": 0.81,
         "novelty": 0.85,
-        "heat": 0.3939
+        "heat": 0.3932
       },
       "creator_bucket": "ai_coding",
       "primary_entity": "gemini",
@@ -859,23 +860,21 @@
       },
       "sources": [
         {
-          "id": "535f0d6a78899cbc0463b21bc6503e0d697ff147",
+          "story_id": "story_26ae4d48fe0a",
           "title": "Alphabet Q2：AI 投资推动营收增长 24%，Gemini 月活达 9.5 亿 / Q2 was an amazing quarter， with our AI investments redefining what's possible across every part of o…",
-          "title_zh": "Alphabet Q2：AI 投资推动营收增长 24%，Gemini 月活达 9.5 亿",
-          "title_en": "Q2 was an amazing quarter， with our AI investments redefining what's possible across every part of o…",
-          "title_original": "Q2 was an amazing quarter， with our AI investments redefining what's possible across every part of o…",
-          "summary": "Alphabet Q2 营收同比增长 24%，Google Cloud 增速达 82%。Gemini 应用月活跃用户达 9.5 亿，模型 API 处理量升至 220 亿 token/分钟，由 Flash 模型驱动。Gemini Enterprise 已被 90% 的财富 100 强企业采用。",
-          "recommend_reason_zh": "Alphabet Q2收入同比增长24%，Google Cloud增速达82%，AI投资正全面重塑搜索、YouTube和Gemini应用等业务。",
           "url": "https://x.com/sundarpichai/status/2080021408856293584",
           "source": "X：Sundar Pichai (@sundarpichai)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-22T20:05:23Z"
+          "site_id": "",
+          "official": false
         }
       ]
     },
     {
       "story_id": "story_22cea7ebbbb4",
+      "creator_event_id": "creator-1d6497b71344f66e",
+      "merged_story_ids": [
+        "story_22cea7ebbbb4"
+      ],
       "title": "OpenRouter把语音转录塞进同一个API：一份key搞定聊天和转写，Whisper与按token计价STT一并接入",
       "url": "https://www.aibase.com/news/29805",
       "primary_url": "https://www.aibase.com/news/29805",
@@ -885,31 +884,31 @@
       "source_names": [
         "AIbase"
       ],
-      "score": 0.7209,
-      "importance": 0.7209,
-      "importance_score": 0.7209,
-      "importance_label": "行业动态",
+      "score": 0.7189,
+      "importance": 0.7189,
+      "importance_score": 0.7189,
+      "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7406,
+        "recency": 0.7296,
         "story_heat": 0.0
       },
-      "category": "industry",
+      "category": "watch",
       "reasons": [
         "high_ai_relevance"
       ],
       "earliest_at": "2026-07-22T17:04:46.266095Z",
       "latest_at": "2026-07-22T17:04:46.266095Z",
-      "creator_score": 72.5,
+      "creator_score": 72.0,
       "creator_breakdown": {
         "relevance": 0.88,
-        "freshness": 0.6263,
+        "freshness": 0.6008,
         "source": 0.5,
         "impact": 0.94,
         "novelty": 0.75,
-        "heat": 0.4023
+        "heat": 0.4016
       },
       "creator_bucket": "ai_coding",
       "verification_status": "single_source",
@@ -929,226 +928,91 @@
       },
       "sources": [
         {
-          "id": "3396a2a369fc91e41894a092dd8d5ed78978ae1e",
+          "story_id": "story_22cea7ebbbb4",
           "title": "OpenRouter把语音转录塞进同一个API：一份key搞定聊天和转写，Whisper与按token计价STT一并接入",
-          "title_zh": "OpenRouter把语音转录塞进同一个API：一份key搞定聊天和转写，Whisper与按token计价STT一并接入",
-          "title_original": "OpenRouter把语音转录塞进同一个API：一份key搞定聊天和转写，Whisper与按token计价STT一并接入",
-          "recommend_reason_zh": "OpenRouter于7月22日推出POST /api/v1/audio/transcriptions端点，同一组Bearer key即可完成聊天与音频转写，Whisper类模型按秒计费，免去多密钥与多SDK的割裂。",
           "url": "https://www.aibase.com/news/29805",
           "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-07-22T17:04:46.266095Z"
+          "site_id": "",
+          "official": false
         }
       ]
     },
     {
-      "story_id": "story_0f80692817ad",
-      "title": "遗憾花了这么久才真正敲出/design，但用Claude Design和Claude Code搞前端是真爽。 / I'm sad it took me this long to actually type /design but working on frontend with Claude Design and Claude Code is actually so good",
-      "url": "https://x.com/trq212/status/2080090919832084753",
-      "primary_url": "https://x.com/trq212/status/2080090919832084753",
-      "source": "Follow Builders · X · Thariq",
+      "story_id": "story_2759b74dada1",
+      "creator_event_id": "creator-56d959b52241aabc",
+      "merged_story_ids": [
+        "story_2759b74dada1"
+      ],
+      "title": "Every团队如何借助AI完成史上最大规模的产品发布 / How Every's Team Used AI to Ship Its Biggest Launch Ever",
+      "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+      "primary_url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+      "source": "Follow Builders · Podcast · AI & I by Every",
       "source_name": "Follow Builders",
       "source_count": 1,
       "source_names": [
-        "Follow Builders · X · Thariq"
+        "Follow Builders · Podcast · AI & I by Every"
       ],
-      "score": 0.6222,
-      "importance": 0.6222,
-      "importance_score": 0.6222,
+      "score": 0.5844,
+      "importance": 0.5844,
+      "importance_score": 0.5844,
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.5832,
+        "editorial": 0.5544,
         "source_tier": 0.62,
-        "ai_relevance": 0.81,
-        "recency": 0.8267,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-07-23T00:41:36Z",
-      "latest_at": "2026-07-23T00:41:36Z",
-      "creator_score": 72.3,
-      "creator_breakdown": {
-        "relevance": 1.0,
-        "freshness": 0.8166,
-        "source": 0.56,
-        "impact": 0.43,
-        "novelty": 0.65,
-        "heat": 0.3678
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "claude-code",
-      "verification_status": "early_signal",
-      "creator_reasons": [
-        "entity:claude-code"
-      ],
-      "primary_item": {
-        "id": "ec5b06d7e2912bbe037024b7ee45c332f1630b38",
-        "title": "遗憾花了这么久才真正敲出/design，但用Claude Design和Claude Code搞前端是真爽。 / I'm sad it took me this long to actually type /design but working on frontend with Claude Design and Claude Code is actually so good",
-        "title_zh": "遗憾花了这么久才真正敲出/design，但用Claude Design和Claude Code搞前端是真爽。",
-        "title_en": "I'm sad it took me this long to actually type /design but working on frontend with Claude Design and Claude Code is actually so good",
-        "title_original": "I'm sad it took me this long to actually type /design but working on frontend with Claude Design and Claude Code is actually so good",
-        "url": "https://x.com/trq212/status/2080090919832084753",
-        "source": "Follow Builders · X · Thariq",
-        "source_name": "Follow Builders"
-      },
-      "sources": [
-        {
-          "id": "ec5b06d7e2912bbe037024b7ee45c332f1630b38",
-          "title": "遗憾花了这么久才真正敲出/design，但用Claude Design和Claude Code搞前端是真爽。 / I'm sad it took me this long to actually type /design but working on frontend with Claude Design and Claude Code is actually so good",
-          "title_zh": "遗憾花了这么久才真正敲出/design，但用Claude Design和Claude Code搞前端是真爽。",
-          "title_en": "I'm sad it took me this long to actually type /design but working on frontend with Claude Design and Claude Code is actually so good",
-          "title_original": "I'm sad it took me this long to actually type /design but working on frontend with Claude Design and Claude Code is actually so good",
-          "url": "https://x.com/trq212/status/2080090919832084753",
-          "source": "Follow Builders · X · Thariq",
-          "source_name": "Follow Builders",
-          "site_id": "followbuilders",
-          "published_at": "2026-07-23T00:41:36Z"
-        }
-      ]
-    },
-    {
-      "story_id": "story_2b568f908abb",
-      "title": "MCP servers中的ANSI转义注入：人类不可见，AI可见 / ANSI escape injection in MCP servers: Hidden from humans, visible to AI",
-      "url": "https://news.ycombinator.com/item?id=48989006",
-      "primary_url": "https://news.ycombinator.com/item?id=48989006",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "source_count": 1,
-      "source_names": [
-        "hackernews"
-      ],
-      "score": 0.5201,
-      "importance": 0.5201,
-      "importance_score": 0.5201,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9958,
+        "ai_relevance": 0.77,
+        "recency": 0.7095,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-07-23T13:35:13.140000Z",
-      "latest_at": "2026-07-23T13:35:13.140000Z",
-      "creator_score": 71.6,
-      "creator_breakdown": {
-        "relevance": 0.9,
-        "freshness": 1.0,
-        "source": 0.5,
-        "impact": 0.43,
-        "novelty": 0.65,
-        "heat": 0.332
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "mcp",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "entity:mcp",
-        "ai_coding_terms"
-      ],
-      "primary_item": {
-        "id": "9503c93d0e3bae2b076a52e178dbd5e636903b26",
-        "title": "MCP servers中的ANSI转义注入：人类不可见，AI可见 / ANSI escape injection in MCP servers: Hidden from humans, visible to AI",
-        "title_zh": "MCP servers中的ANSI转义注入：人类不可见，AI可见",
-        "title_en": "ANSI escape injection in MCP servers: Hidden from humans, visible to AI",
-        "title_original": "ANSI escape injection in MCP servers: Hidden from humans, visible to AI",
-        "url": "https://news.ycombinator.com/item?id=48989006",
-        "source": "hackernews",
-        "source_name": "NewsNow"
-      },
-      "sources": [
-        {
-          "id": "9503c93d0e3bae2b076a52e178dbd5e636903b26",
-          "title": "MCP servers中的ANSI转义注入：人类不可见，AI可见 / ANSI escape injection in MCP servers: Hidden from humans, visible to AI",
-          "title_zh": "MCP servers中的ANSI转义注入：人类不可见，AI可见",
-          "title_en": "ANSI escape injection in MCP servers: Hidden from humans, visible to AI",
-          "title_original": "ANSI escape injection in MCP servers: Hidden from humans, visible to AI",
-          "url": "https://news.ycombinator.com/item?id=48989006",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-07-23T13:35:13.140000Z"
-        }
-      ]
-    },
-    {
-      "story_id": "story_dd678eb5a94c",
-      "title": "腾讯发布新一代AI创意智能体Miora，设计新手也能一键搞定全套视觉方案",
-      "url": "https://www.aibase.com/news/29794",
-      "primary_url": "https://www.aibase.com/news/29794",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "score": 0.7171,
-      "importance": 0.7171,
-      "importance_score": 0.7171,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7195,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-07-22T15:04:46.266095Z",
-      "latest_at": "2026-07-22T15:04:46.266095Z",
-      "creator_score": 71.5,
+      "earliest_at": "2026-07-22T15:09:01Z",
+      "latest_at": "2026-07-22T15:09:01Z",
+      "creator_score": 72.0,
       "creator_breakdown": {
         "relevance": 0.88,
-        "freshness": 0.5763,
-        "source": 0.5,
+        "freshness": 0.5526,
+        "source": 0.56,
         "impact": 0.94,
         "novelty": 0.75,
-        "heat": 0.401
+        "heat": 0.3545
       },
       "creator_bucket": "ai_coding",
-      "verification_status": "single_source",
+      "verification_status": "early_signal",
       "creator_reasons": [
         "ai_coding_terms",
         "workflow_impact"
       ],
       "primary_item": {
-        "id": "bce511756bb8c25cf1e8fccd73b9222cb205f079",
-        "title": "腾讯发布新一代AI创意智能体Miora，设计新手也能一键搞定全套视觉方案",
-        "title_zh": "腾讯发布新一代AI创意智能体Miora，设计新手也能一键搞定全套视觉方案",
-        "title_original": "腾讯发布新一代AI创意智能体Miora，设计新手也能一键搞定全套视觉方案",
-        "recommend_reason_zh": "Tencent 新AI创意智能体Miora正式上线，新用户免费获1000点。只需输入目标，Miora即分解任务调动多智能体，覆盖海报、视频、3D、UI设计，含8个官方技能。",
-        "url": "https://www.aibase.com/news/29794",
-        "source": "AIbase",
-        "source_name": "AIbase"
+        "id": "ff9660bf91867b4b78a35d9089c2527ba4efe737",
+        "title": "Every团队如何借助AI完成史上最大规模的产品发布 / How Every's Team Used AI to Ship Its Biggest Launch Ever",
+        "title_zh": "Every团队如何借助AI完成史上最大规模的产品发布",
+        "title_en": "How Every's Team Used AI to Ship Its Biggest Launch Ever",
+        "title_original": "How Every's Team Used AI to Ship Its Biggest Launch Ever",
+        "summary": "Title: AI & I\nWarning: Target URL returned error 403: Forbidden\nWarning: This page contains iframe that are currently hidden, consider enabling iframe processing.\nWarning: This page maybe requiring CAPTCHA, please make sure you are authorized to access this page.\nBack [![Image 1](https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL)](https://www.youtube.com/)\n[![Image 2](https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL)](https://www.youtube.com/)",
+        "recommend_reason_zh": "Every团队借助AI工具，成功交付了其历史上规模最大的产品发布，具体包括AI如何加速代码审查、优化测试流程等关键细节。",
+        "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+        "source": "Follow Builders · Podcast · AI & I by Every",
+        "source_name": "Follow Builders"
       },
       "sources": [
         {
-          "id": "bce511756bb8c25cf1e8fccd73b9222cb205f079",
-          "title": "腾讯发布新一代AI创意智能体Miora，设计新手也能一键搞定全套视觉方案",
-          "title_zh": "腾讯发布新一代AI创意智能体Miora，设计新手也能一键搞定全套视觉方案",
-          "title_original": "腾讯发布新一代AI创意智能体Miora，设计新手也能一键搞定全套视觉方案",
-          "recommend_reason_zh": "Tencent 新AI创意智能体Miora正式上线，新用户免费获1000点。只需输入目标，Miora即分解任务调动多智能体，覆盖海报、视频、3D、UI设计，含8个官方技能。",
-          "url": "https://www.aibase.com/news/29794",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-07-22T15:04:46.266095Z"
+          "story_id": "story_2759b74dada1",
+          "title": "Every团队如何借助AI完成史上最大规模的产品发布 / How Every's Team Used AI to Ship Its Biggest Launch Ever",
+          "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+          "source": "Follow Builders · Podcast · AI & I by Every",
+          "site_id": "",
+          "official": false
         }
       ]
     },
     {
       "story_id": "story_1e66172c71dc",
+      "creator_event_id": "creator-80648b8d40cefe61",
+      "merged_story_ids": [
+        "story_1e66172c71dc"
+      ],
       "title": "Cactus 发布 Gemma 4 E2B Hybrid：可在设备端为每个回答输出置信度分数，低分时自动路由至更大模型",
       "url": "https://github.com/cactus-compute/cactus-hybrid",
       "primary_url": "https://github.com/cactus-compute/cactus-hybrid",
@@ -1158,15 +1022,15 @@
       "source_names": [
         "Hacker News 热门（buzzing.cc 中文翻译）"
       ],
-      "score": 0.7418,
-      "importance": 0.7418,
-      "importance_score": 0.7418,
+      "score": 0.7394,
+      "importance": 0.7394,
+      "importance_score": 0.7394,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.7,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8898,
+        "recency": 0.8766,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1178,14 +1042,14 @@
       "persona_id": "pragmatic",
       "persona_score": 85,
       "persona_review": "设备端置信度路由，直接省云端成本，适合边缘部署场景。",
-      "creator_score": 71.2,
+      "creator_score": 70.7,
       "creator_breakdown": {
         "relevance": 0.68,
-        "freshness": 0.944,
+        "freshness": 0.9186,
         "source": 0.5,
         "impact": 0.76,
         "novelty": 0.85,
-        "heat": 0.4096
+        "heat": 0.4088
       },
       "creator_bucket": "general_ai",
       "primary_entity": "gemini",
@@ -1207,315 +1071,21 @@
       },
       "sources": [
         {
-          "id": "9183f24fd0a2f27a4fb7f2151480d9279d4b65e8",
+          "story_id": "story_1e66172c71dc",
           "title": "Cactus 发布 Gemma 4 E2B Hybrid：可在设备端为每个回答输出置信度分数，低分时自动路由至更大模型",
-          "title_zh": "Cactus 发布 Gemma 4 E2B Hybrid：可在设备端为每个回答输出置信度分数，低分时自动路由至更大模型",
-          "title_original": "Cactus 发布 Gemma 4 E2B Hybrid：可在设备端为每个回答输出置信度分数，低分时自动路由至更大模型",
-          "summary": "Cactus 推出基于 Gemma 4 的混合模型\"Cactus Hybrid\"，在模型检查点内嵌入置信度探针，为每个生成答案输出 0-1 之间的结构化置信度分数。高置信度时在设备端直接回答，低分时可自动路由至更大模型。该探针在零音频训练数据下，于四个音频基准上达到 0.79-0.88 AUROC，远超 token 熵基线（均值 0.549），且 MIT 协议开源。",
-          "recommend_reason_zh": "Cactus 的开源 Gemma 4 E2B Hybrid 可为每个设备端回答输出 0-1 置信度分数，仅路由 15-35% 低分查询至 Gemini 3.1 Flash-Lite，且在零音频数据训练下达到 0.79-0.88 AUROC。",
           "url": "https://github.com/cactus-compute/cactus-hybrid",
           "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-23T05:47:29.042000Z"
-        }
-      ]
-    },
-    {
-      "story_id": "story_0fd3de1778e3",
-      "title": "从 ChatCut 看，通用 Agent 正在争夺专业软件的第一入口",
-      "url": "https://waytoagi.feishu.cn/wiki/NnH7wCbl1i56VUkpQkFcm1HQn4e?from=from_copylink",
-      "primary_url": "https://waytoagi.feishu.cn/wiki/NnH7wCbl1i56VUkpQkFcm1HQn4e?from=from_copylink",
-      "source": "社区更新 · 2026-07-22",
-      "source_name": "WaytoAGI",
-      "source_count": 1,
-      "source_names": [
-        "社区更新 · 2026-07-22"
-      ],
-      "score": 0.5225,
-      "importance": 0.5225,
-      "importance_score": 0.5225,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.54,
-        "ai_relevance": 0.65,
-        "recency": 0.7406,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-22T17:04:46.266095Z",
-      "latest_at": "2026-07-22T17:04:46.266095Z",
-      "creator_score": 71.2,
-      "creator_breakdown": {
-        "relevance": 0.88,
-        "freshness": 0.6263,
-        "source": 0.5,
-        "impact": 0.81,
-        "novelty": 0.85,
-        "heat": 0.3329
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "openai",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "entity:openai",
-        "ai_coding_terms",
-        "workflow_impact"
-      ],
-      "primary_item": {
-        "id": "97c3bfe7bc93bca02b6bc6a0d1c4f3bc19a7ed4d",
-        "title": "从 ChatCut 看，通用 Agent 正在争夺专业软件的第一入口",
-        "title_zh": "从 ChatCut 看，通用 Agent 正在争夺专业软件的第一入口",
-        "title_original": "从 ChatCut 看，通用 Agent 正在争夺专业软件的第一入口",
-        "summary": "最近ChatCut很火，黄叔研究了一下它的整个迭代历程：从PaperCut把文字变成剪辑对象，到对话剪辑、AI生成MG，再到通用剪辑Agent，最后接入Codex / ChatGPT，变成背后的专业执行层。发现真正值得琢磨的是专业软件的新护城河：可调用、可观察、可编辑、可接管。",
-        "recommend_reason_zh": "文章详细拆解了ChatCut从2025年2月的PaperCut到成为ChatGPT插件的演进，揭示通用Agent如何通过自然语言控制剪辑并导出Premiere XML，争夺专业软件的第一入口。",
-        "url": "https://waytoagi.feishu.cn/wiki/NnH7wCbl1i56VUkpQkFcm1HQn4e?from=from_copylink",
-        "source": "社区更新 · 2026-07-22",
-        "source_name": "WaytoAGI"
-      },
-      "sources": [
-        {
-          "id": "97c3bfe7bc93bca02b6bc6a0d1c4f3bc19a7ed4d",
-          "title": "从 ChatCut 看，通用 Agent 正在争夺专业软件的第一入口",
-          "title_zh": "从 ChatCut 看，通用 Agent 正在争夺专业软件的第一入口",
-          "title_original": "从 ChatCut 看，通用 Agent 正在争夺专业软件的第一入口",
-          "summary": "最近ChatCut很火，黄叔研究了一下它的整个迭代历程：从PaperCut把文字变成剪辑对象，到对话剪辑、AI生成MG，再到通用剪辑Agent，最后接入Codex / ChatGPT，变成背后的专业执行层。发现真正值得琢磨的是专业软件的新护城河：可调用、可观察、可编辑、可接管。",
-          "recommend_reason_zh": "文章详细拆解了ChatCut从2025年2月的PaperCut到成为ChatGPT插件的演进，揭示通用Agent如何通过自然语言控制剪辑并导出Premiere XML，争夺专业软件的第一入口。",
-          "url": "https://waytoagi.feishu.cn/wiki/NnH7wCbl1i56VUkpQkFcm1HQn4e?from=from_copylink",
-          "source": "社区更新 · 2026-07-22",
-          "source_name": "WaytoAGI",
-          "site_id": "waytoagi",
-          "published_at": "2026-07-22T17:04:46.266095Z"
-        }
-      ]
-    },
-    {
-      "story_id": "story_21c86b7093a5",
-      "title": "OpenAI与Anthropic联手抵制开源权重AI冲击其利润 / OpenAI and Anthropic unite against open-weight AI risks to their bottom line",
-      "url": "https://news.ycombinator.com/item?id=49020868",
-      "primary_url": "https://news.ycombinator.com/item?id=49020868",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "source_count": 2,
-      "source_names": [
-        "Hacker News",
-        "hackernews"
-      ],
-      "score": 0.5451,
-      "importance": 0.5451,
-      "importance_score": 0.5451,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9958,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-23T13:00:03Z",
-      "latest_at": "2026-07-23T13:35:13.140000Z",
-      "creator_score": 70.8,
-      "creator_breakdown": {
-        "relevance": 0.68,
-        "freshness": 1.0,
-        "source": 0.5,
-        "impact": 0.63,
-        "novelty": 0.85,
-        "heat": 0.4908
-      },
-      "creator_bucket": "general_ai",
-      "primary_entity": "anthropic",
-      "verification_status": "confirmed",
-      "creator_reasons": [
-        "entity:anthropic",
-        "workflow_impact"
-      ],
-      "primary_item": {
-        "id": "3a9e55a1085659eb346ac943dd0d87a4e0a50a26",
-        "title": "OpenAI与Anthropic联手抵制开源权重AI冲击其利润 / OpenAI and Anthropic unite against open-weight AI risks to their bottom line",
-        "title_zh": "OpenAI与Anthropic联手抵制开源权重AI冲击其利润",
-        "title_en": "OpenAI and Anthropic unite against open-weight AI risks to their bottom line",
-        "title_original": "OpenAI and Anthropic unite against open-weight AI risks to their bottom line",
-        "url": "https://news.ycombinator.com/item?id=49020868",
-        "source": "hackernews",
-        "source_name": "NewsNow"
-      },
-      "sources": [
-        {
-          "id": "3a9e55a1085659eb346ac943dd0d87a4e0a50a26",
-          "title": "OpenAI与Anthropic联手抵制开源权重AI冲击其利润 / OpenAI and Anthropic unite against open-weight AI risks to their bottom line",
-          "title_zh": "OpenAI与Anthropic联手抵制开源权重AI冲击其利润",
-          "title_en": "OpenAI and Anthropic unite against open-weight AI risks to their bottom line",
-          "title_original": "OpenAI and Anthropic unite against open-weight AI risks to their bottom line",
-          "url": "https://news.ycombinator.com/item?id=49020868",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-07-23T13:35:13.140000Z"
-        },
-        {
-          "id": "33ba0b9c754ac624482a781034bf894a50243e6c",
-          "title": "OpenAI与Anthropic联手抵制开源权重AI冲击其利润 / OpenAI and Anthropic unite against open-weight AI risks to their bottom line",
-          "title_zh": "OpenAI与Anthropic联手抵制开源权重AI冲击其利润",
-          "title_en": "OpenAI and Anthropic unite against open-weight AI risks to their bottom line",
-          "title_original": "OpenAI and Anthropic unite against open-weight AI risks to their bottom line",
-          "url": "https://www.axios.com/2026/07/22/openai-anthropic-open-models-trump-china",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-07-23T13:00:03Z"
-        }
-      ]
-    },
-    {
-      "story_id": "story_44980745159d",
-      "title": "研究级EdgeBench分析：AI Agent基准测试、排行榜分析、扩展法则与评估指标 / Research-Grade EdgeBench Analysis: AI Agent Benchmarking, Leaderboard Analytics, Scaling Laws, and Evaluation Metrics",
-      "url": "https://www.marktechpost.com/2026/07/22/research-grade-edgebench-analysis-ai-agent-benchmarking-leaderboard-analytics-scaling-laws-and-evaluation-metrics",
-      "primary_url": "https://www.marktechpost.com/2026/07/22/research-grade-edgebench-analysis-ai-agent-benchmarking-leaderboard-analytics-scaling-laws-and-evaluation-metrics",
-      "source": "MarkTechPost Research",
-      "source_name": "Curated Media",
-      "source_count": 1,
-      "source_names": [
-        "MarkTechPost Research"
-      ],
-      "score": 0.5784,
-      "importance": 0.5784,
-      "importance_score": 0.5784,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5328,
-        "source_tier": 0.58,
-        "ai_relevance": 0.74,
-        "recency": 0.794,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-22T21:53:58Z",
-      "latest_at": "2026-07-22T21:53:58Z",
-      "creator_score": 70.6,
-      "creator_breakdown": {
-        "relevance": 0.88,
-        "freshness": 0.7467,
-        "source": 0.78,
-        "impact": 0.43,
-        "novelty": 0.55,
-        "heat": 0.3524
-      },
-      "creator_bucket": "ai_coding",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "ai_coding_terms"
-      ],
-      "primary_item": {
-        "id": "9446664c18f8433eec8117132474324a60d78418",
-        "title": "研究级EdgeBench分析：AI Agent基准测试、排行榜分析、扩展法则与评估指标 / Research-Grade EdgeBench Analysis: AI Agent Benchmarking, Leaderboard Analytics, Scaling Laws, and Evaluation Metrics",
-        "title_zh": "研究级EdgeBench分析：AI Agent基准测试、排行榜分析、扩展法则与评估指标",
-        "title_en": "Research-Grade EdgeBench Analysis: AI Agent Benchmarking, Leaderboard Analytics, Scaling Laws, and Evaluation Metrics",
-        "title_original": "Research-Grade EdgeBench Analysis: AI Agent Benchmarking, Leaderboard Analytics, Scaling Laws, and Evaluation Metrics",
-        "recommend_reason_zh": "本文详细解析了EdgeBench基准测试的51个任务，通过拟合log-sigmoid缩放曲线分析AI代理在不同时间预算下的性能，并展示了SForge评分系统的线性归一化公式如何转换原始分数。",
-        "url": "https://www.marktechpost.com/2026/07/22/research-grade-edgebench-analysis-ai-agent-benchmarking-leaderboard-analytics-scaling-laws-and-evaluation-metrics",
-        "source": "MarkTechPost Research",
-        "source_name": "Curated Media"
-      },
-      "sources": [
-        {
-          "id": "9446664c18f8433eec8117132474324a60d78418",
-          "title": "研究级EdgeBench分析：AI Agent基准测试、排行榜分析、扩展法则与评估指标 / Research-Grade EdgeBench Analysis: AI Agent Benchmarking, Leaderboard Analytics, Scaling Laws, and Evaluation Metrics",
-          "title_zh": "研究级EdgeBench分析：AI Agent基准测试、排行榜分析、扩展法则与评估指标",
-          "title_en": "Research-Grade EdgeBench Analysis: AI Agent Benchmarking, Leaderboard Analytics, Scaling Laws, and Evaluation Metrics",
-          "title_original": "Research-Grade EdgeBench Analysis: AI Agent Benchmarking, Leaderboard Analytics, Scaling Laws, and Evaluation Metrics",
-          "recommend_reason_zh": "本文详细解析了EdgeBench基准测试的51个任务，通过拟合log-sigmoid缩放曲线分析AI代理在不同时间预算下的性能，并展示了SForge评分系统的线性归一化公式如何转换原始分数。",
-          "url": "https://www.marktechpost.com/2026/07/22/research-grade-edgebench-analysis-ai-agent-benchmarking-leaderboard-analytics-scaling-laws-and-evaluation-metrics",
-          "source": "MarkTechPost Research",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-07-22T21:53:58Z"
-        }
-      ]
-    },
-    {
-      "story_id": "story_bdddcace0e55",
-      "title": "腾讯云推出 CodeBuddy NPC：从代码助手走向端到端自主研发智能体",
-      "url": "https://www.aibase.com/news/29840",
-      "primary_url": "https://www.aibase.com/news/29840",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-23T13:52:33.653339Z",
-      "latest_at": "2026-07-23T13:52:33.653339Z",
-      "creator_score": 70.4,
-      "creator_breakdown": {
-        "relevance": 0.88,
-        "freshness": 1.0,
-        "source": 0.5,
-        "impact": 0.43,
-        "novelty": 0.55,
-        "heat": 0.4187
-      },
-      "creator_bucket": "ai_coding",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "ai_coding_terms"
-      ],
-      "primary_item": {
-        "id": "5a6c0d116ca0f7d241e9a409b705dc2286eff19f",
-        "title": "腾讯云推出 CodeBuddy NPC：从代码助手走向端到端自主研发智能体",
-        "title_zh": "腾讯云推出 CodeBuddy NPC：从代码助手走向端到端自主研发智能体",
-        "title_original": "腾讯云推出 CodeBuddy NPC：从代码助手走向端到端自主研发智能体",
-        "summary": "On July 23, Tencent Cloud officially launched the new cloud-based R&D AI agent CodeBuddy NPC. As a major upgrade product of the CodeBuddy code assistant for ent\nOn July 23, Tencent Cloud officially launched the new cloud-based R&D AI agent CodeBuddy NPC. As a major upgrade product of the CodeBuddy code assistant for ent\nOn July 23, Tencent Cloud officially launched the new cloud-based R&D AI agent CodeBuddy NPC. As a major upgrade product of the CodeBuddy code assistant for ent\nExplore AI Fronti",
-        "recommend_reason_zh": "腾讯云CodeBuddy NPC实现端到端自研智能体，开发者只需发任务指令即可独立完成编码、PR、测试并自迭代修复错误，首轮Token消耗从2万降至约2000，降幅超90%。",
-        "url": "https://www.aibase.com/news/29840",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      },
-      "sources": [
-        {
-          "id": "5a6c0d116ca0f7d241e9a409b705dc2286eff19f",
-          "title": "腾讯云推出 CodeBuddy NPC：从代码助手走向端到端自主研发智能体",
-          "title_zh": "腾讯云推出 CodeBuddy NPC：从代码助手走向端到端自主研发智能体",
-          "title_original": "腾讯云推出 CodeBuddy NPC：从代码助手走向端到端自主研发智能体",
-          "summary": "On July 23, Tencent Cloud officially launched the new cloud-based R&D AI agent CodeBuddy NPC. As a major upgrade product of the CodeBuddy code assistant for ent\nOn July 23, Tencent Cloud officially launched the new cloud-based R&D AI agent CodeBuddy NPC. As a major upgrade product of the CodeBuddy code assistant for ent\nOn July 23, Tencent Cloud officially launched the new cloud-based R&D AI agent CodeBuddy NPC. As a major upgrade product of the CodeBuddy code assistant for ent\nExplore AI Fronti",
-          "recommend_reason_zh": "腾讯云CodeBuddy NPC实现端到端自研智能体，开发者只需发任务指令即可独立完成编码、PR、测试并自迭代修复错误，首轮Token消耗从2万降至约2000，降幅超90%。",
-          "url": "https://www.aibase.com/news/29840",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-07-23T13:52:33.653339Z"
+          "site_id": "",
+          "official": false
         }
       ]
     },
     {
       "story_id": "story_29c1d1efd36d",
+      "creator_event_id": "creator-f1e9e6ea60c81632",
+      "merged_story_ids": [
+        "story_29c1d1efd36d"
+      ],
       "title": "DeepSeek梁文锋谈开源：只赚 6 倍利润不加班，想赚 100 倍才会受制于开源",
       "url": "https://www.aibase.com/news/29833",
       "primary_url": "https://www.aibase.com/news/29833",
@@ -1525,15 +1095,15 @@
       "source_names": [
         "AIbase"
       ],
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
+      "score": 0.7649,
+      "importance": 0.7649,
+      "importance_score": 0.7649,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.9851,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1550,7 +1120,7 @@
         "source": 0.5,
         "impact": 0.63,
         "novelty": 0.85,
-        "heat": 0.4187
+        "heat": 0.4177
       },
       "creator_bucket": "general_ai",
       "primary_entity": "deepseek",
@@ -1564,7 +1134,6 @@
         "title": "DeepSeek梁文锋谈开源：只赚 6 倍利润不加班，想赚 100 倍才会受制于开源",
         "title_zh": "DeepSeek梁文锋谈开源：只赚 6 倍利润不加班，想赚 100 倍才会受制于开源",
         "title_original": "DeepSeek梁文锋谈开源：只赚 6 倍利润不加班，想赚 100 倍才会受制于开源",
-        "summary": "Recently, internal conversation content from DeepSeek's investor exchange session was leaked. Founder Liang Wenfeng gave a complete explanation of the underlyin\nRecently, internal conversation content from DeepSeek's investor exchange session was leaked. Founder Liang Wenfeng gave a complete explanation of the underlyin\nRecently, internal conversation content from DeepSeek's investor exchange session was leaked. Founder Liang Wenfeng gave a complete explanation of the underlyin\nExplore AI Fronti",
         "recommend_reason_zh": "DeepSeek创始人梁文锋首次从财务角度解释开源战略：6倍利润不受影响，但追求100倍利润时会受制于第三方以1/20成本独立部署模型。",
         "url": "https://www.aibase.com/news/29833",
         "source": "AIbase",
@@ -1572,22 +1141,21 @@
       },
       "sources": [
         {
-          "id": "c79aa5cb3d6a1d20a882be28b1820f15bf7db834",
+          "story_id": "story_29c1d1efd36d",
           "title": "DeepSeek梁文锋谈开源：只赚 6 倍利润不加班，想赚 100 倍才会受制于开源",
-          "title_zh": "DeepSeek梁文锋谈开源：只赚 6 倍利润不加班，想赚 100 倍才会受制于开源",
-          "title_original": "DeepSeek梁文锋谈开源：只赚 6 倍利润不加班，想赚 100 倍才会受制于开源",
-          "summary": "Recently, internal conversation content from DeepSeek's investor exchange session was leaked. Founder Liang Wenfeng gave a complete explanation of the underlyin\nRecently, internal conversation content from DeepSeek's investor exchange session was leaked. Founder Liang Wenfeng gave a complete explanation of the underlyin\nRecently, internal conversation content from DeepSeek's investor exchange session was leaked. Founder Liang Wenfeng gave a complete explanation of the underlyin\nExplore AI Fronti",
-          "recommend_reason_zh": "DeepSeek创始人梁文锋首次从财务角度解释开源战略：6倍利润不受影响，但追求100倍利润时会受制于第三方以1/20成本独立部署模型。",
           "url": "https://www.aibase.com/news/29833",
           "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-07-23T13:52:33.653339Z"
+          "site_id": "",
+          "official": false
         }
       ]
     },
     {
       "story_id": "story_3456a4ee8ed0",
+      "creator_event_id": "creator-7c003dd4f0162a7f",
+      "merged_story_ids": [
+        "story_3456a4ee8ed0"
+      ],
       "title": "白宫称 Moonshot 蒸馏了 Anthropic 的 Fable 模型，财政部威胁实施制裁 / Treasury threatens sanctions after White House claims Moonshot distilled Anthropic’s Fable",
       "url": "https://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable",
       "primary_url": "https://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable",
@@ -1597,15 +1165,15 @@
       "source_names": [
         "TechCrunch AI"
       ],
-      "score": 0.5969,
-      "importance": 0.5969,
-      "importance_score": 0.5969,
+      "score": 0.5948,
+      "importance": 0.5948,
+      "importance_score": 0.5948,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.5688,
         "source_tier": 0.58,
         "ai_relevance": 0.79,
-        "recency": 0.7817,
+        "recency": 0.77,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1614,14 +1182,14 @@
       ],
       "earliest_at": "2026-07-22T20:49:03Z",
       "latest_at": "2026-07-22T20:49:03Z",
-      "creator_score": 70.1,
+      "creator_score": 69.6,
       "creator_breakdown": {
         "relevance": 0.68,
-        "freshness": 0.7197,
+        "freshness": 0.6943,
         "source": 0.78,
         "impact": 0.63,
         "novelty": 0.85,
-        "heat": 0.3589
+        "heat": 0.3582
       },
       "creator_bucket": "general_ai",
       "primary_entity": "anthropic",
@@ -1643,154 +1211,21 @@
       },
       "sources": [
         {
-          "id": "8aaf25e9f9ad4317ebc54263f5c8eef29d007826",
+          "story_id": "story_3456a4ee8ed0",
           "title": "白宫称 Moonshot 蒸馏了 Anthropic 的 Fable 模型，财政部威胁实施制裁 / Treasury threatens sanctions after White House claims Moonshot distilled Anthropic’s Fable",
-          "title_zh": "白宫称 Moonshot 蒸馏了 Anthropic 的 Fable 模型，财政部威胁实施制裁",
-          "title_en": "Treasury threatens sanctions after White House claims Moonshot distilled Anthropic’s Fable",
-          "title_original": "Treasury threatens sanctions after White House claims Moonshot distilled Anthropic’s Fable",
-          "recommend_reason_zh": "美国财政部威胁制裁，因白宫指控中国Moonshot蒸馏了Anthropic的Fable模型，事件加剧了华盛顿对中国开源模型涌入的争论。",
           "url": "https://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable",
           "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-07-22T20:49:03Z"
-        }
-      ]
-    },
-    {
-      "story_id": "story_bda3e78a4713",
-      "title": "AI编程已经如此强大，我们还需要再学习基础嘛？或者说初级程序员还有可能存在吗？",
-      "url": "https://juejin.cn/post/7664549690965934126",
-      "primary_url": "https://juejin.cn/post/7664549690965934126",
-      "source": "juejin",
-      "source_name": "NewsNow",
-      "source_count": 1,
-      "source_names": [
-        "juejin"
-      ],
-      "score": 0.52,
-      "importance": 0.52,
-      "importance_score": 0.52,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9958,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-23T13:35:10.194000Z",
-      "latest_at": "2026-07-23T13:35:10.194000Z",
-      "creator_score": 70.0,
-      "creator_breakdown": {
-        "relevance": 0.88,
-        "freshness": 1.0,
-        "source": 0.5,
-        "impact": 0.43,
-        "novelty": 0.55,
-        "heat": 0.332
-      },
-      "creator_bucket": "ai_coding",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "ai_coding_terms"
-      ],
-      "primary_item": {
-        "id": "70139d43bc695bc395b3f62c8e55d453049c8760",
-        "title": "AI编程已经如此强大，我们还需要再学习基础嘛？或者说初级程序员还有可能存在吗？",
-        "title_zh": "AI编程已经如此强大，我们还需要再学习基础嘛？或者说初级程序员还有可能存在吗？",
-        "title_original": "AI编程已经如此强大，我们还需要再学习基础嘛？或者说初级程序员还有可能存在吗？",
-        "url": "https://juejin.cn/post/7664549690965934126",
-        "source": "juejin",
-        "source_name": "NewsNow"
-      },
-      "sources": [
-        {
-          "id": "70139d43bc695bc395b3f62c8e55d453049c8760",
-          "title": "AI编程已经如此强大，我们还需要再学习基础嘛？或者说初级程序员还有可能存在吗？",
-          "title_zh": "AI编程已经如此强大，我们还需要再学习基础嘛？或者说初级程序员还有可能存在吗？",
-          "title_original": "AI编程已经如此强大，我们还需要再学习基础嘛？或者说初级程序员还有可能存在吗？",
-          "url": "https://juejin.cn/post/7664549690965934126",
-          "source": "juejin",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-07-23T13:35:10.194000Z"
-        }
-      ]
-    },
-    {
-      "story_id": "story_f8f8cfd8c469",
-      "title": "The Claude Security plugin for Claude Code is now available in beta. Scan your changes for vulnerabilities before you commit, or run a full scan across your codebase, all from your terminal on the Claude inference you...",
-      "url": "https://x.com/claudeai/status/2079990597973057691",
-      "primary_url": "https://x.com/claudeai/status/2079990597973057691",
-      "source": "Follow Builders · X · Claude",
-      "source_name": "Follow Builders",
-      "source_count": 1,
-      "source_names": [
-        "Follow Builders · X · Claude"
-      ],
-      "score": 0.6085,
-      "importance": 0.6085,
-      "importance_score": 0.6085,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5832,
-        "source_tier": 0.62,
-        "ai_relevance": 0.81,
-        "recency": 0.751,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-07-22T18:02:57Z",
-      "latest_at": "2026-07-22T18:02:57Z",
-      "creator_score": 69.0,
-      "creator_breakdown": {
-        "relevance": 1.0,
-        "freshness": 0.6505,
-        "source": 0.56,
-        "impact": 0.43,
-        "novelty": 0.65,
-        "heat": 0.363
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "claude-code",
-      "verification_status": "early_signal",
-      "creator_reasons": [
-        "entity:claude-code",
-        "ai_coding_terms"
-      ],
-      "primary_item": {
-        "id": "11512723779ebb0846f501c1bfd028f8090b9cfb",
-        "title": "The Claude Security plugin for Claude Code is now available in beta. Scan your changes for vulnerabilities before you commit, or run a full scan across your codebase, all from your terminal on the Claude inference you...",
-        "title_en": "The Claude Security plugin for Claude Code is now available in beta. Scan your changes for vulnerabilities before you commit, or run a full scan across your codebase, all from your terminal on the Claude inference you...",
-        "title_original": "The Claude Security plugin for Claude Code is now available in beta. Scan your changes for vulnerabilities before you commit, or run a full scan across your codebase, all from your terminal on the Claude inference you...",
-        "url": "https://x.com/claudeai/status/2079990597973057691",
-        "source": "Follow Builders · X · Claude",
-        "source_name": "Follow Builders"
-      },
-      "sources": [
-        {
-          "id": "11512723779ebb0846f501c1bfd028f8090b9cfb",
-          "title": "The Claude Security plugin for Claude Code is now available in beta. Scan your changes for vulnerabilities before you commit, or run a full scan across your codebase, all from your terminal on the Claude inference you...",
-          "title_en": "The Claude Security plugin for Claude Code is now available in beta. Scan your changes for vulnerabilities before you commit, or run a full scan across your codebase, all from your terminal on the Claude inference you...",
-          "title_original": "The Claude Security plugin for Claude Code is now available in beta. Scan your changes for vulnerabilities before you commit, or run a full scan across your codebase, all from your terminal on the Claude inference you...",
-          "url": "https://x.com/claudeai/status/2079990597973057691",
-          "source": "Follow Builders · X · Claude",
-          "source_name": "Follow Builders",
-          "site_id": "followbuilders",
-          "published_at": "2026-07-22T18:02:57Z"
+          "site_id": "",
+          "official": false
         }
       ]
     },
     {
       "story_id": "story_ab64b04275c1",
+      "creator_event_id": "creator-81c5e1fde8de5a42",
+      "merged_story_ids": [
+        "story_ab64b04275c1"
+      ],
       "title": "阿里真武M890超节点成功适配Qwen3.8，已上线百炼平台提供推理服务",
       "url": "https://www.aibase.com/news/29836",
       "primary_url": "https://www.aibase.com/news/29836",
@@ -1800,15 +1235,15 @@
       "source_names": [
         "AIbase"
       ],
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
+      "score": 0.7649,
+      "importance": 0.7649,
+      "importance_score": 0.7649,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.9851,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1825,7 +1260,7 @@
         "source": 0.5,
         "impact": 0.63,
         "novelty": 0.75,
-        "heat": 0.4187
+        "heat": 0.4177
       },
       "creator_bucket": "general_ai",
       "verification_status": "single_source",
@@ -1837,7 +1272,6 @@
         "title": "阿里真武M890超节点成功适配Qwen3.8，已上线百炼平台提供推理服务",
         "title_zh": "阿里真武M890超节点成功适配Qwen3.8，已上线百炼平台提供推理服务",
         "title_original": "阿里真武M890超节点成功适配Qwen3.8，已上线百炼平台提供推理服务",
-        "summary": "On July 23, Alibaba Cloud officially announced that the Alibaba Zhenwu M890 super node has successfully been adapted to the latest flagship large model Qwen3.8,\nOn July 23, Alibaba Cloud officially announced that the Alibaba Zhenwu M890 super node has successfully been adapted to the latest flagship large model Qwen3.8,\nOn July 23, Alibaba Cloud officially announced that the Alibaba Zhenwu M890 super node has successfully been adapted to the latest flagship large model Qwen3.8,\nExplore AI Fronti",
         "recommend_reason_zh": "阿里真武M890超节点成功适配2.4万亿参数的Qwen3.8大模型，已上线百炼平台提供推理服务，成为国内首个支持超2万亿参数大模型稳定运行的超节点系统。",
         "url": "https://www.aibase.com/news/29836",
         "source": "AIbase",
@@ -1845,89 +1279,21 @@
       },
       "sources": [
         {
-          "id": "1a43caf3079d260d605641b389a4aad0b608d0cd",
+          "story_id": "story_ab64b04275c1",
           "title": "阿里真武M890超节点成功适配Qwen3.8，已上线百炼平台提供推理服务",
-          "title_zh": "阿里真武M890超节点成功适配Qwen3.8，已上线百炼平台提供推理服务",
-          "title_original": "阿里真武M890超节点成功适配Qwen3.8，已上线百炼平台提供推理服务",
-          "summary": "On July 23, Alibaba Cloud officially announced that the Alibaba Zhenwu M890 super node has successfully been adapted to the latest flagship large model Qwen3.8,\nOn July 23, Alibaba Cloud officially announced that the Alibaba Zhenwu M890 super node has successfully been adapted to the latest flagship large model Qwen3.8,\nOn July 23, Alibaba Cloud officially announced that the Alibaba Zhenwu M890 super node has successfully been adapted to the latest flagship large model Qwen3.8,\nExplore AI Fronti",
-          "recommend_reason_zh": "阿里真武M890超节点成功适配2.4万亿参数的Qwen3.8大模型，已上线百炼平台提供推理服务，成为国内首个支持超2万亿参数大模型稳定运行的超节点系统。",
           "url": "https://www.aibase.com/news/29836",
           "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-07-23T13:52:33.653339Z"
-        }
-      ]
-    },
-    {
-      "story_id": "story_398c7e0d253b",
-      "title": "Synthesia 不再只做视频：它要让 AI 化身当场回怼你，再给你打分",
-      "url": "https://www.aibase.com/news/29830",
-      "primary_url": "https://www.aibase.com/news/29830",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "score": 0.7431,
-      "importance": 0.7431,
-      "importance_score": 0.7431,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8639,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-07-23T03:44:29.715404Z",
-      "latest_at": "2026-07-23T03:44:29.715404Z",
-      "creator_score": 68.3,
-      "creator_breakdown": {
-        "relevance": 0.88,
-        "freshness": 0.8928,
-        "source": 0.5,
-        "impact": 0.43,
-        "novelty": 0.55,
-        "heat": 0.4101
-      },
-      "creator_bucket": "ai_coding",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "ai_coding_terms"
-      ],
-      "primary_item": {
-        "id": "07351cf1194ca7acebe711d525b14a814a85bbe0",
-        "title": "Synthesia 不再只做视频：它要让 AI 化身当场回怼你，再给你打分",
-        "title_zh": "Synthesia 不再只做视频：它要让 AI 化身当场回怼你，再给你打分",
-        "title_original": "Synthesia 不再只做视频：它要让 AI 化身当场回怼你，再给你打分",
-        "recommend_reason_zh": "Synthesia推出Roleplay Sessions，员工可跟AI化身练习销售、绩效评估等高难度对话，化身会当场反驳并打分。这是这家英国公司首次从视频制作扩展至互动培训，背后引用学习研究发现多数培训仅停留在“改变行为”。",
-        "url": "https://www.aibase.com/news/29830",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      },
-      "sources": [
-        {
-          "id": "07351cf1194ca7acebe711d525b14a814a85bbe0",
-          "title": "Synthesia 不再只做视频：它要让 AI 化身当场回怼你，再给你打分",
-          "title_zh": "Synthesia 不再只做视频：它要让 AI 化身当场回怼你，再给你打分",
-          "title_original": "Synthesia 不再只做视频：它要让 AI 化身当场回怼你，再给你打分",
-          "recommend_reason_zh": "Synthesia推出Roleplay Sessions，员工可跟AI化身练习销售、绩效评估等高难度对话，化身会当场反驳并打分。这是这家英国公司首次从视频制作扩展至互动培训，背后引用学习研究发现多数培训仅停留在“改变行为”。",
-          "url": "https://www.aibase.com/news/29830",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-07-23T03:44:29.715404Z"
+          "site_id": "",
+          "official": false
         }
       ]
     },
     {
       "story_id": "story_6a08361d42b8",
+      "creator_event_id": "creator-b43bc706abf1c3f2",
+      "merged_story_ids": [
+        "story_6a08361d42b8"
+      ],
       "title": "Google CEO Pichai表示，Gemini的下一次飞跃取决于构建\"更大规模的基础模型 / Google CEO Pichai says Gemini's next leap depends on building \"much larger base models\"",
       "url": "https://the-decoder.com/google-ceo-pichai-says-geminis-next-leap-depends-on-building-much-larger-base-models",
       "primary_url": "https://the-decoder.com/google-ceo-pichai-says-geminis-next-leap-depends-on-building-much-larger-base-models",
@@ -1937,15 +1303,15 @@
       "source_names": [
         "The Decoder AI News"
       ],
-      "score": 0.6297,
-      "importance": 0.6297,
-      "importance_score": 0.6297,
+      "score": 0.6272,
+      "importance": 0.6272,
+      "importance_score": 0.6272,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.5688,
         "source_tier": 0.58,
         "ai_relevance": 0.79,
-        "recency": 0.9639,
+        "recency": 0.9496,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1961,7 +1327,7 @@
         "source": 0.78,
         "impact": 0.25,
         "novelty": 0.65,
-        "heat": 0.3704
+        "heat": 0.3695
       },
       "creator_bucket": "general_ai",
       "primary_entity": "gemini",
@@ -1975,7 +1341,6 @@
         "title_zh": "Google CEO Pichai表示，Gemini的下一次飞跃取决于构建\"更大规模的基础模型",
         "title_en": "Google CEO Pichai says Gemini's next leap depends on building \"much larger base models\"",
         "title_original": "Google CEO Pichai says Gemini's next leap depends on building \"much larger base models\"",
-        "summary": "Alphabet has raised its 2026 investment forecast to as much as $205 billion, saying demand continues to outpace spending. Google Cloud grew 82 percent in the second quarter. CEO Sundar Pichai says Google needs a larger base model for its next leap in AI and has kicked off an ambitious Gemini 4 training run.\nAlphabet has raised its 2026 investment forecast to as much as $205 billion, saying demand continues to outpace spending. Google Cloud grew 82 percent in the second quarter. CEO Sundar Pichai",
         "recommend_reason_zh": "Alphabet将2026年投资预测上调至最高2050亿美元，Google Cloud增长82%，CEO Pichai称已启动Gemini 4训练，需更大基础模型追赶前沿。",
         "url": "https://the-decoder.com/google-ceo-pichai-says-geminis-next-leap-depends-on-building-much-larger-base-models",
         "source": "The Decoder AI News",
@@ -1983,23 +1348,21 @@
       },
       "sources": [
         {
-          "id": "62fe785c202274036283fb76eb568d5c38a4622d",
+          "story_id": "story_6a08361d42b8",
           "title": "Google CEO Pichai表示，Gemini的下一次飞跃取决于构建\"更大规模的基础模型 / Google CEO Pichai says Gemini's next leap depends on building \"much larger base models\"",
-          "title_zh": "Google CEO Pichai表示，Gemini的下一次飞跃取决于构建\"更大规模的基础模型",
-          "title_en": "Google CEO Pichai says Gemini's next leap depends on building \"much larger base models\"",
-          "title_original": "Google CEO Pichai says Gemini's next leap depends on building \"much larger base models\"",
-          "summary": "Alphabet has raised its 2026 investment forecast to as much as $205 billion, saying demand continues to outpace spending. Google Cloud grew 82 percent in the second quarter. CEO Sundar Pichai says Google needs a larger base model for its next leap in AI and has kicked off an ambitious Gemini 4 training run.\nAlphabet has raised its 2026 investment forecast to as much as $205 billion, saying demand continues to outpace spending. Google Cloud grew 82 percent in the second quarter. CEO Sundar Pichai",
-          "recommend_reason_zh": "Alphabet将2026年投资预测上调至最高2050亿美元，Google Cloud增长82%，CEO Pichai称已启动Gemini 4训练，需更大基础模型追赶前沿。",
           "url": "https://the-decoder.com/google-ceo-pichai-says-geminis-next-leap-depends-on-building-much-larger-base-models",
           "source": "The Decoder AI News",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-07-23T11:19:57Z"
+          "site_id": "",
+          "official": false
         }
       ]
     },
     {
       "story_id": "story_8ee7528a8ff3",
+      "creator_event_id": "creator-352bccebe3780e9d",
+      "merged_story_ids": [
+        "story_8ee7528a8ff3"
+      ],
       "title": "专家称Kimi K3并非靠利用Anthropic的Fable才这么优秀 / Experts say exploiting Anthropic’s Fable isn’t how Kimi K3 got so good",
       "url": "https://techcrunch.com/2026/07/23/experts-say-exploiting-anthropics-fable-isnt-how-kimi-k3-got-so-good",
       "primary_url": "https://techcrunch.com/2026/07/23/experts-say-exploiting-anthropics-fable-isnt-how-kimi-k3-got-so-good",
@@ -2009,15 +1372,15 @@
       "source_names": [
         "TechCrunch AI"
       ],
-      "score": 0.6289,
-      "importance": 0.6289,
-      "importance_score": 0.6289,
+      "score": 0.6263,
+      "importance": 0.6263,
+      "importance_score": 0.6263,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.5688,
         "source_tier": 0.58,
         "ai_relevance": 0.79,
-        "recency": 0.9593,
+        "recency": 0.945,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -2026,78 +1389,6 @@
       ],
       "earliest_at": "2026-07-23T11:00:00Z",
       "latest_at": "2026-07-23T11:00:00Z",
-      "creator_score": 68.1,
-      "creator_breakdown": {
-        "relevance": 0.68,
-        "freshness": 1.0,
-        "source": 0.78,
-        "impact": 0.25,
-        "novelty": 0.65,
-        "heat": 0.3701
-      },
-      "creator_bucket": "general_ai",
-      "primary_entity": "anthropic",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "entity:anthropic"
-      ],
-      "primary_item": {
-        "id": "665d9d2cf2f5dceb13f598015b0abe9c9f33cc88",
-        "title": "专家称Kimi K3并非靠利用Anthropic的Fable才这么优秀 / Experts say exploiting Anthropic’s Fable isn’t how Kimi K3 got so good",
-        "title_zh": "专家称Kimi K3并非靠利用Anthropic的Fable才这么优秀",
-        "title_en": "Experts say exploiting Anthropic’s Fable isn’t how Kimi K3 got so good",
-        "title_original": "Experts say exploiting Anthropic’s Fable isn’t how Kimi K3 got so good",
-        "summary": "\"I don't think you get a model this strong and this quickly on the heels of Fable doing strictly distillation,\" one expert told TechCrunch.\n\"I don't think you get a model this strong and this quickly on the heels of Fable doing strictly distillation,\" one expert told TechCrunch.\nLatest\nAI\nAmazon\nApps\nBiotech & Health\nClimate\nCloud Computing\nCommerce\nCrypto\nEnterprise\nEVs\nFintech\nFundraising\nGadgets\nGaming\nGoogle\nGovernment & Policy\nHardware\nInstagram\nLayoffs\nMedia & Entertainment\nMeta\nMicrosoft\n",
-        "recommend_reason_zh": "专家认为Kimi K3的快速强大不能简单归因于对Anthropic的Fable的蒸馏，揭示出模型性能突破背后可能另有玄机。",
-        "url": "https://techcrunch.com/2026/07/23/experts-say-exploiting-anthropics-fable-isnt-how-kimi-k3-got-so-good",
-        "source": "TechCrunch AI",
-        "source_name": "Curated Media"
-      },
-      "sources": [
-        {
-          "id": "665d9d2cf2f5dceb13f598015b0abe9c9f33cc88",
-          "title": "专家称Kimi K3并非靠利用Anthropic的Fable才这么优秀 / Experts say exploiting Anthropic’s Fable isn’t how Kimi K3 got so good",
-          "title_zh": "专家称Kimi K3并非靠利用Anthropic的Fable才这么优秀",
-          "title_en": "Experts say exploiting Anthropic’s Fable isn’t how Kimi K3 got so good",
-          "title_original": "Experts say exploiting Anthropic’s Fable isn’t how Kimi K3 got so good",
-          "summary": "\"I don't think you get a model this strong and this quickly on the heels of Fable doing strictly distillation,\" one expert told TechCrunch.\n\"I don't think you get a model this strong and this quickly on the heels of Fable doing strictly distillation,\" one expert told TechCrunch.\nLatest\nAI\nAmazon\nApps\nBiotech & Health\nClimate\nCloud Computing\nCommerce\nCrypto\nEnterprise\nEVs\nFintech\nFundraising\nGadgets\nGaming\nGoogle\nGovernment & Policy\nHardware\nInstagram\nLayoffs\nMedia & Entertainment\nMeta\nMicrosoft\n",
-          "recommend_reason_zh": "专家认为Kimi K3的快速强大不能简单归因于对Anthropic的Fable的蒸馏，揭示出模型性能突破背后可能另有玄机。",
-          "url": "https://techcrunch.com/2026/07/23/experts-say-exploiting-anthropics-fable-isnt-how-kimi-k3-got-so-good",
-          "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-07-23T11:00:00Z"
-        }
-      ]
-    },
-    {
-      "story_id": "story_13c6a5e2beb1",
-      "title": "AMD拟在AI基础设施交易中向Anthropic投资高达50亿美元 / AMD to invest up to $5 billion in Anthropic under AI infrastructure deal",
-      "url": "https://www.artificialintelligence-news.com/news/amd-anthropic-ai-infrastructure-deal",
-      "primary_url": "https://www.artificialintelligence-news.com/news/amd-anthropic-ai-infrastructure-deal",
-      "source": "Artificial Intelligence News",
-      "source_name": "Curated Media",
-      "source_count": 1,
-      "source_names": [
-        "Artificial Intelligence News"
-      ],
-      "score": 0.6264,
-      "importance": 0.6264,
-      "importance_score": 0.6264,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5688,
-        "source_tier": 0.58,
-        "ai_relevance": 0.79,
-        "recency": 0.9456,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-23T10:00:00Z",
-      "latest_at": "2026-07-23T10:00:00Z",
       "creator_score": 68.1,
       "creator_breakdown": {
         "relevance": 0.68,
@@ -2114,98 +1405,24 @@
         "entity:anthropic"
       ],
       "primary_item": {
-        "id": "bc484436acdd7970e9ec7f37f8effdb6a08e1b8b",
-        "title": "AMD拟在AI基础设施交易中向Anthropic投资高达50亿美元 / AMD to invest up to $5 billion in Anthropic under AI infrastructure deal",
-        "title_zh": "AMD拟在AI基础设施交易中向Anthropic投资高达50亿美元",
-        "title_en": "AMD to invest up to $5 billion in Anthropic under AI infrastructure deal",
-        "title_original": "AMD to invest up to $5 billion in Anthropic under AI infrastructure deal",
-        "summary": "AMD plans to invest up to $5 billion in Anthropic, which will deploy two gigawatts of AMD AI infrastructure from 2027.\nAMD plans to invest up to $5 billion in Anthropic, which will deploy two gigawatts of AMD AI infrastructure from 2027.\nAI News is part of the TechForge Publications series\nTechForge\nAI Hardware & Chips\nMuhammad Zulhusni\nJuly 23, 2026\nShare this story:\nTags:\nCategories:\nAMD has agreed to invest up to $5 billion in Anthropic under an infrastructure agreement covering tens of billi",
-        "recommend_reason_zh": "AMD计划向Anthropic投资高达50亿美元，Anthropic将从2027年起部署2吉瓦使用Instinct MI450系列加速器的AMD AI基础设施，以换取部署里程碑的达成。",
-        "url": "https://www.artificialintelligence-news.com/news/amd-anthropic-ai-infrastructure-deal",
-        "source": "Artificial Intelligence News",
+        "id": "665d9d2cf2f5dceb13f598015b0abe9c9f33cc88",
+        "title": "专家称Kimi K3并非靠利用Anthropic的Fable才这么优秀 / Experts say exploiting Anthropic’s Fable isn’t how Kimi K3 got so good",
+        "title_zh": "专家称Kimi K3并非靠利用Anthropic的Fable才这么优秀",
+        "title_en": "Experts say exploiting Anthropic’s Fable isn’t how Kimi K3 got so good",
+        "title_original": "Experts say exploiting Anthropic’s Fable isn’t how Kimi K3 got so good",
+        "recommend_reason_zh": "专家认为Kimi K3的快速强大不能简单归因于对Anthropic的Fable的蒸馏，揭示出模型性能突破背后可能另有玄机。",
+        "url": "https://techcrunch.com/2026/07/23/experts-say-exploiting-anthropics-fable-isnt-how-kimi-k3-got-so-good",
+        "source": "TechCrunch AI",
         "source_name": "Curated Media"
       },
       "sources": [
         {
-          "id": "bc484436acdd7970e9ec7f37f8effdb6a08e1b8b",
-          "title": "AMD拟在AI基础设施交易中向Anthropic投资高达50亿美元 / AMD to invest up to $5 billion in Anthropic under AI infrastructure deal",
-          "title_zh": "AMD拟在AI基础设施交易中向Anthropic投资高达50亿美元",
-          "title_en": "AMD to invest up to $5 billion in Anthropic under AI infrastructure deal",
-          "title_original": "AMD to invest up to $5 billion in Anthropic under AI infrastructure deal",
-          "summary": "AMD plans to invest up to $5 billion in Anthropic, which will deploy two gigawatts of AMD AI infrastructure from 2027.\nAMD plans to invest up to $5 billion in Anthropic, which will deploy two gigawatts of AMD AI infrastructure from 2027.\nAI News is part of the TechForge Publications series\nTechForge\nAI Hardware & Chips\nMuhammad Zulhusni\nJuly 23, 2026\nShare this story:\nTags:\nCategories:\nAMD has agreed to invest up to $5 billion in Anthropic under an infrastructure agreement covering tens of billi",
-          "recommend_reason_zh": "AMD计划向Anthropic投资高达50亿美元，Anthropic将从2027年起部署2吉瓦使用Instinct MI450系列加速器的AMD AI基础设施，以换取部署里程碑的达成。",
-          "url": "https://www.artificialintelligence-news.com/news/amd-anthropic-ai-infrastructure-deal",
-          "source": "Artificial Intelligence News",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-07-23T10:00:00Z"
-        }
-      ]
-    },
-    {
-      "story_id": "story_c040fa2d1116",
-      "title": "Monday.com 裁员 630 人，聚焦人工智能战略",
-      "url": "https://www.aibase.com/news/29828",
-      "primary_url": "https://www.aibase.com/news/29828",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "score": 0.7423,
-      "importance": 0.7423,
-      "importance_score": 0.7423,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8595,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-07-23T03:23:32.006961Z",
-      "latest_at": "2026-07-23T03:23:32.006961Z",
-      "creator_score": 68.1,
-      "creator_breakdown": {
-        "relevance": 0.88,
-        "freshness": 0.8841,
-        "source": 0.5,
-        "impact": 0.43,
-        "novelty": 0.55,
-        "heat": 0.4098
-      },
-      "creator_bucket": "ai_coding",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "ai_coding_terms"
-      ],
-      "primary_item": {
-        "id": "e3c1de5e35fc8081ea0c741ef7f457b74eba23d5",
-        "title": "Monday.com 裁员 630 人，聚焦人工智能战略",
-        "title_zh": "Monday.com 裁员 630 人，聚焦人工智能战略",
-        "title_original": "Monday.com 裁员 630 人，聚焦人工智能战略",
-        "recommend_reason_zh": "Monday.com 裁员约 630 人（占总员工 20%），将 AI 平台升级为核心产品，提供无代码应用构建器和自定义 AI 助手，反映科技行业通过裁员向 AI 转型的趋势。",
-        "url": "https://www.aibase.com/news/29828",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      },
-      "sources": [
-        {
-          "id": "e3c1de5e35fc8081ea0c741ef7f457b74eba23d5",
-          "title": "Monday.com 裁员 630 人，聚焦人工智能战略",
-          "title_zh": "Monday.com 裁员 630 人，聚焦人工智能战略",
-          "title_original": "Monday.com 裁员 630 人，聚焦人工智能战略",
-          "recommend_reason_zh": "Monday.com 裁员约 630 人（占总员工 20%），将 AI 平台升级为核心产品，提供无代码应用构建器和自定义 AI 助手，反映科技行业通过裁员向 AI 转型的趋势。",
-          "url": "https://www.aibase.com/news/29828",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-07-23T03:23:32.006961Z"
+          "story_id": "story_8ee7528a8ff3",
+          "title": "专家称Kimi K3并非靠利用Anthropic的Fable才这么优秀 / Experts say exploiting Anthropic’s Fable isn’t how Kimi K3 got so good",
+          "url": "https://techcrunch.com/2026/07/23/experts-say-exploiting-anthropics-fable-isnt-how-kimi-k3-got-so-good",
+          "source": "TechCrunch AI",
+          "site_id": "",
+          "official": false
         }
       ]
     }
