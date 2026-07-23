@@ -3,11 +3,18 @@
   "timezone": "Asia/Shanghai",
   "edition": {
     "min_items": 8,
-    "max_items": 12,
-    "candidate_limit": 30,
+    "max_items": 20,
+    "candidate_limit": 50,
     "ai_coding_ratio": 0.7,
     "product_cap_ratio": 0.3,
     "history_limit": 60
+  },
+  "dedup": {
+    "enabled": true,
+    "time_window_hours": 48,
+    "jaccard_threshold": 0.55,
+    "sequence_threshold": 0.72,
+    "min_shared_keywords": 2
   },
   "thresholds": {"focus": 78, "quick": 62, "signal": 50},
   "weights": {
