@@ -32,7 +32,7 @@ class LLMSettings:
     base_url: str = "https://api.deepseek.com"
     model: str = "deepseek-chat"
     timeout: float = 35.0
-    max_calls: int = 12
+    max_calls: int = 20
 
     @classmethod
     def from_env(cls) -> "LLMSettings":
@@ -45,7 +45,7 @@ class LLMSettings:
         model = (os.environ.get("LLM_MODEL") or os.environ.get("DEEPSEEK_MODEL") or "deepseek-chat").strip()
         provider = (os.environ.get("LLM_PROVIDER") or "deepseek").strip().lower()
         timeout = _positive_float(os.environ.get("LLM_TIMEOUT_SECONDS"), 35.0)
-        max_calls = _bounded_int(os.environ.get("LLM_MAX_CALLS_PER_RUN"), 12, 0, 20)
+        max_calls = _bounded_int(os.environ.get("LLM_MAX_CALLS_PER_RUN"), 20, 0, 40)
         return cls(provider, key, base, model, timeout, max_calls)
 
 

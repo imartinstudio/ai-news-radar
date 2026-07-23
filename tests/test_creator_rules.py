@@ -4,7 +4,7 @@ from pathlib import Path
 import pytest
 
 from scripts.creator_profile import load_profile
-from scripts.creator_rules import classify_verification, score_story, select_candidates
+from scripts.creator_rules import classify_verification, score_story, select_candidates, select_scored_candidates
 
 NOW = datetime(2026, 7, 22, 0, 0, tzinfo=timezone.utc)
 
@@ -77,8 +77,41 @@ def test_selection_caps_one_product_and_keeps_general_ai_share(profile):
 
     selected = select_candidates(rows, profile, NOW)
 
-    assert len(selected) == 12
+    assert len(selected) == 16
     claude_count = sum(item.get("primary_entity") == "claude-code" for item in selected)
-    assert claude_count <= 3
+    assert claude_count <= 6
     assert any(item["creator_bucket"] == "general_ai" for item in selected)
     assert all(item["creator_score"] >= profile["thresholds"]["signal"] for item in selected)
+
+
+def test_selection_allows_20_items_without_lowering_threshold(profile):
+    rows = []
+    for index in range(25):
+        rows.append(
+            {
+                "story_id": f"s-{index}",
+                "title": f"Coding agent release feature {index}",
+                "creator_score": 80 - index / 10,
+                "creator_bucket": "ai_coding" if index < 16 else "general_ai",
+                "primary_entity": f"product-{index}",
+                "latest_at": f"2026-07-23T00:{index:02d}:00Z",
+            }
+        )
+    selected = select_scored_candidates(rows, profile)
+    assert len(selected) == 20
+
+
+def test_selection_does_not_fill_with_below_threshold_items(profile):
+    rows = [
+        {
+            "story_id": f"s-{index}",
+            "title": f"Story {index}",
+            "creator_score": 80 if index < 9 else 49,
+            "creator_bucket": "ai_coding",
+            "primary_entity": f"product-{index}",
+            "latest_at": "2026-07-23T00:00:00Z",
+        }
+        for index in range(20)
+    ]
+    selected = select_scored_candidates(rows, profile)
+    assert len(selected) == 9

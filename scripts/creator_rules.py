@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-import math
 import re
 from datetime import datetime, timezone
 from typing import Any
@@ -271,54 +270,70 @@ def rank_candidates(
 
 
 def select_scored_candidates(
-    ranked: list[dict[str, Any]],
+    items: list[dict[str, Any]],
     profile: dict[str, Any],
     limit: int | None = None,
 ) -> list[dict[str, Any]]:
-    max_items = int(limit if limit is not None else profile["edition"]["max_items"])
+    edition = profile["edition"]
+    thresholds = profile["thresholds"]
+    max_items = int(limit if limit is not None else edition["max_items"])
     max_items = max(0, max_items)
     if max_items == 0:
         return []
-    product_cap = max(1, math.floor(max_items * float(profile["edition"]["product_cap_ratio"])))
-    ai_target = max(0, min(max_items, round(max_items * float(profile["edition"]["ai_coding_ratio"]))))
-    general_target = max_items - ai_target
+
+    candidate_limit = int(edition.get("candidate_limit") or max_items)
+    product_limit = max(1, int(max_items * float(edition["product_cap_ratio"])))
+    coding_target = max(0, min(max_items, round(max_items * float(edition["ai_coding_ratio"]))))
+
+    eligible = [
+        item
+        for item in items
+        if float(item.get("creator_score") or 0) >= float(thresholds["signal"])
+    ]
+    eligible.sort(
+        key=lambda item: (
+            float(item.get("creator_score") or 0),
+            str(item.get("latest_at") or ""),
+        ),
+        reverse=True,
+    )
+    eligible = eligible[:candidate_limit]
 
     selected: list[dict[str, Any]] = []
     selected_ids: set[str] = set()
-    entity_counts: dict[str, int] = {}
+    counts: dict[str, int] = {}
 
-    def can_take(item: dict[str, Any]) -> bool:
+    def append_allowed(item: dict[str, Any]) -> bool:
         story_id = str(item.get("story_id") or "")
         if not story_id or story_id in selected_ids:
             return False
-        entity = item.get("primary_entity")
-        if entity and entity_counts.get(str(entity), 0) >= product_cap:
+        entity = str(item.get("primary_entity") or item.get("creator_event_id") or "unknown")
+        if counts.get(entity, 0) >= product_limit:
             return False
+        selected.append(item)
+        selected_ids.add(story_id)
+        counts[entity] = counts.get(entity, 0) + 1
         return True
 
-    def take(item: dict[str, Any]) -> None:
-        selected.append(item)
-        selected_ids.add(str(item.get("story_id") or ""))
-        entity = item.get("primary_entity")
-        if entity:
-            key = str(entity)
-            entity_counts[key] = entity_counts.get(key, 0) + 1
+    for item in eligible:
+        if len(selected) >= coding_target:
+            break
+        if item.get("creator_bucket") == "ai_coding":
+            append_allowed(item)
 
-    def take_bucket(bucket: str, target: int) -> None:
-        for item in ranked:
-            if sum(1 for row in selected if row.get("creator_bucket") == bucket) >= target:
-                break
-            if item.get("creator_bucket") == bucket and can_take(item):
-                take(item)
-
-    take_bucket("ai_coding", ai_target)
-    take_bucket("general_ai", general_target)
-
-    for item in ranked:
+    for item in eligible:
         if len(selected) >= max_items:
             break
-        if can_take(item):
-            take(item)
+        if str(item.get("story_id") or "") in selected_ids:
+            continue
+        if item.get("creator_bucket") == "general_ai":
+            append_allowed(item)
+
+    for item in eligible:
+        if len(selected) >= max_items:
+            break
+        if str(item.get("story_id") or "") not in selected_ids:
+            append_allowed(item)
 
     return selected
 
@@ -328,5 +343,5 @@ def select_candidates(
     profile: dict[str, Any],
     now: datetime,
 ) -> list[dict[str, Any]]:
-    ranked = rank_candidates(stories, profile, now)
-    return select_scored_candidates(ranked, profile)
+    scored = [score_story(story, profile, now) for story in stories]
+    return select_scored_candidates(scored, profile)

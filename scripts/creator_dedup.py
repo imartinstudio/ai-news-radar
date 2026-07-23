@@ -172,12 +172,17 @@ def are_duplicate_events(left: dict, right: dict, profile: dict) -> bool:
         normalize_title(right.get("title", "")),
     ).ratio()
     same_event_id = build_creator_event_id(left) == build_creator_event_id(right)
+    object_overlap = bool(set(event_object_keywords(left)) & set(event_object_keywords(right)))
 
     if same_event_id and shared >= int(config["min_shared_keywords"]):
         return True
-    if jaccard >= float(config["jaccard_threshold"]):
+    if jaccard >= float(config["jaccard_threshold"]) and object_overlap:
         return True
-    return sequence >= float(config["sequence_threshold"]) and shared >= int(config["min_shared_keywords"])
+    return (
+        sequence >= float(config["sequence_threshold"])
+        and shared >= int(config["min_shared_keywords"])
+        and object_overlap
+    )
 
 
 def source_tier(item: dict, profile: dict) -> float:
