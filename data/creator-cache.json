@@ -699,7 +699,367 @@
           }
         ]
       }
+    },
+    "7d35e1debf5f061772e6a2f637d5fffdd6e25c12": {
+      "generated_at": "2026-07-23T03:49:08.983839Z",
+      "enrichment": {
+        "summary_zh": "思科发布两款小型开源网络安全模型Antares-350M和Antares-1B，据其测试，每美元可检测的漏洞数量约为GPT-5.5的150倍，15分钟扫描500个代码库成本不到1美",
+        "why_it_matters": "小模型在特定安全任务上以极低成本超越大模型，可能改变AI Coding安全检测的工具选型和成本结构。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "实测思科Antares-350M：1美元扫500个代码库，真比GPT-5.5强？",
+            "angle": "我第一时间下载了Antares-350M，在自己的几个开源项目上跑了一遍漏洞检测，对比GPT-5.5的结果，看看成本差距和检出率是否如思科所说。",
+            "needs_hands_on": true,
+            "risk": "思科测试数据为自家发布，尚未经第三方独立验证；实际检出率可能因代码库类型而异。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "思科开源安全模型Antares-350M部署教程：15分钟扫500个仓库，成本不到1元",
+            "angle": "手把手教你用Ollama或Docker部署Antares-350M，配置扫描脚本，实测扫描速度与成本，附避坑指南。",
+            "needs_hands_on": true,
+            "risk": "模型依赖特定硬件（如GPU），部署步骤可能因环境不同而失败；成本计算基于思科官方数据。"
+          },
+          {
+            "platform": "wechat",
+            "title": "思科Antares模型：小模型在AI Coding安全检测中的成本优势与工程落地",
+            "angle": "从思科发布的小模型出发，分析AI Coding安全检测领域大模型与小模型的成本、性能权衡，以及开源模型对开发工作流的影响。",
+            "needs_hands_on": false,
+            "risk": "思科测试可能未覆盖所有漏洞类型，且未公开完整测试基准。"
+          }
+        ]
+      }
+    },
+    "f8e380bc5fbc72a0a75359958769bb032c80dda1": {
+      "generated_at": "2026-07-23T03:49:08.983839Z",
+      "enrichment": {
+        "summary_zh": "ChatCut 从 PaperCut 演进为通用剪辑 Agent，最终接入 Codex/ChatGPT，通过自然语言控制剪辑并导出 Premiere XML，争夺专业软件第一入口。",
+        "why_it_matters": "通用 Agent 正通过可调用、可观察、可编辑、可接管的能力，重塑专业软件的工作流，开发者需关注工具链的入口之争。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "ChatCut 实测：用自然语言剪片并导出 Premiere XML 有多靠谱？",
+            "angle": "我试了试 ChatCut 的对话剪辑功能，从文字到成片只需几步，但复杂转场和特效仍需手动调整。",
+            "needs_hands_on": true,
+            "risk": "未亲测 ChatCut 实际剪辑效果和 XML 导出兼容性，依赖单一来源描述。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "ChatCut 接入 ChatGPT 后，剪辑师的工作流要变了？",
+            "angle": "手把手教你用 ChatCut 插件在 ChatGPT 里完成粗剪，导出 XML 到 Premiere 精修，附避坑指南。",
+            "needs_hands_on": true,
+            "risk": "未验证 ChatCut 插件在 ChatGPT 中的实际可用性和稳定性。"
+          },
+          {
+            "platform": "wechat",
+            "title": "从 PaperCut 到 ChatCut：通用 Agent 如何争夺专业软件入口",
+            "angle": "深度拆解 ChatCut 的迭代路径，分析“可调用、可观察、可编辑、可接管”四层护城河对开发者生态的影响。",
+            "needs_hands_on": false,
+            "risk": ""
+          }
+        ]
+      }
+    },
+    "0a1aa698bd6f140720e76465281b21edb890c379": {
+      "generated_at": "2026-07-23T03:49:08.983839Z",
+      "enrichment": {
+        "summary_zh": "Poolside 开源 Laguna S 2.1 模型，118B MoE 架构，1M 超长上下文，Terminal-Bench 2.1 得分 70.2%，免费上线 OpenCode",
+        "why_it_matters": "开源 1M 上下文 + 118B MoE 模型大幅降低代理编码门槛，开发者可本地部署，影响工具选型与工作流。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "Poolside Laguna S 2.1 开源实测：1M 上下文真能跑？",
+            "angle": "第一时间下载模型在 M3 Max 上跑 Terminal-Bench，对比 Claude Code 和 Codex，看长上下文处理真实代码库的效果。",
+            "needs_hands_on": true,
+            "risk": "Terminal-Bench 2.1 得分 70.2% 来自官方，未独立验证；本地运行需 M3 Max 或更高配置。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "手把手教你本地部署 Poolside Laguna S 2.1：免费开源模型搞定 1M 上下文",
+            "angle": "从下载 OpenCode 平台到加载模型，展示步骤、硬件要求和避坑指南，附 Terminal-Bench 实测结果截图。",
+            "needs_hands_on": true,
+            "risk": "开源许可证细节未确认；实际上下文长度可能受硬件限制。"
+          },
+          {
+            "platform": "wechat",
+            "title": "Poolside 开源 Laguna S 2.1：1M 上下文 + 118B MoE 如何改变代理编码格局",
+            "angle": "分析开源对闭源模型（如 Claude Code、Codex）的冲击，讨论长上下文在大型代码库重构中的实际价值与工程挑战。",
+            "needs_hands_on": false,
+            "risk": "开源社区反馈和实际性能数据尚不充分。"
+          }
+        ]
+      }
+    },
+    "084db0125c19fa6001b6842f4cb9ff82f1306f52": {
+      "generated_at": "2026-07-23T03:49:08.983839Z",
+      "enrichment": {
+        "summary_zh": "商汤科技启动银河项目，联合近20家伙伴规模化国产AI芯片基础设施，声称每日处理2.42万亿tokens，预计2026年Q4达10万亿，推理成本效益为Nvidia H系列芯片的1.2",
+        "why_it_matters": "国产AI芯片规模化进展可能影响开发者对推理成本和芯片选型的判断，需关注实际性能与兼容性。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "商汤银河项目实测：国产芯片推理成本真能比H系列低？",
+            "angle": "我第一时间测试了商汤银河项目的API，对比了推理速度和成本，发现……",
+            "needs_hands_on": true,
+            "risk": "成本效益数据来自商汤官方，未独立验证；实际部署环境可能与宣传有差异。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "国产AI芯片选型避坑：商汤银河项目实测步骤与结果",
+            "angle": "手把手教你接入商汤银河项目，附推理成本对比和踩坑记录。",
+            "needs_hands_on": true,
+            "risk": "仅基于单一来源报道，未亲测；实际token处理量可能受模型和负载影响。"
+          },
+          {
+            "platform": "wechat",
+            "title": "商汤银河项目：国产AI芯片规模化能否打破英伟达垄断？",
+            "angle": "从技术路线、合作伙伴和成本效益三个维度分析银河项目对AI开发工作流的长期影响。",
+            "needs_hands_on": false,
+            "risk": "报道为单一来源，缺乏第三方验证；规模化时间表存在不确定性。"
+          }
+        ]
+      }
+    },
+    "b285385b58765d53d78bac1ae3a47b140eb2dd9a": {
+      "generated_at": "2026-07-23T03:49:08.983839Z",
+      "enrichment": {
+        "summary_zh": "Synthesia 推出 Roleplay Sessions，员工可与 AI 化身练习销售、绩效评估等对话，化身会当场反驳并打分，从视频制作扩展至互动培训。",
+        "why_it_matters": "AI 化身从单向输出转向实时互动反馈，可能改变企业培训工作流，降低角色扮演的人力成本。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "Synthesia 新功能实测：AI 化身回怼并打分，培训场景真的能用吗？",
+            "angle": "刚看到 Synthesia 出了 Roleplay Sessions，AI 化身能当场反驳还打分。我试了销售对话，感觉比预期自然，但反驳逻辑有时生硬。",
+            "needs_hands_on": true,
+            "risk": "未亲测，具体反驳逻辑和评分准确性待验证。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "Synthesia 角色扮演功能上手：AI 化身当面试官，怎么用？避坑指南",
+            "angle": "今天试了 Synthesia 的新功能，AI 化身模拟面试官，会反驳还会打分。步骤很简单，但注意要提前设定好角色背景，不然容易跑偏。",
+            "needs_hands_on": true,
+            "risk": "未亲测，具体设定步骤和效果待验证。"
+          },
+          {
+            "platform": "wechat",
+            "title": "Synthesia 从视频到互动：AI 化身培训的进化与局限",
+            "angle": "Synthesia 推出 Roleplay Sessions，标志着 AI 培训从单向视频进入实时互动阶段。但化身反驳的深度和评分标准仍是关键挑战。",
+            "needs_hands_on": false,
+            "risk": "文章未提供具体评分算法和反驳逻辑细节。"
+          }
+        ]
+      }
+    },
+    "b9852309bc1f464c3fafb5908eb0639c976c444f": {
+      "generated_at": "2026-07-23T03:49:08.983839Z",
+      "enrichment": {
+        "summary_zh": "Monday.com 宣布裁员约 630 人（占员工 20%），同时将 AI 平台升级为核心产品，提供无代码应用构建器和自定义 AI 助手。",
+        "why_it_matters": "反映科技行业通过裁员向 AI 转型的趋势，可能影响项目管理工具的选择和 AI Coding 工作流集成。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "Monday.com 裁员 20% 押注 AI，项目管理工具要变天了？",
+            "angle": "作为开发者，我关注 Monday.com 的 AI 平台能否真正提升效率，以及裁员对产品稳定性的影响。",
+            "needs_hands_on": true,
+            "risk": "AI 平台的具体功能和效果尚未亲测，裁员后产品迭代速度可能变化。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "Monday.com 裁员后 AI 平台实测：无代码构建器好用吗？",
+            "angle": "分享 Monday.com 新 AI 平台的使用步骤、结果和避坑指南，帮助开发者判断是否值得迁移。",
+            "needs_hands_on": true,
+            "risk": "AI 平台尚未正式上线或需特定权限，实际体验可能与宣传有出入。"
+          },
+          {
+            "platform": "wechat",
+            "title": "从 Monday.com 裁员看科技行业 AI 转型：项目管理工具的未来",
+            "angle": "分析 Monday.com 裁员和 AI 战略背后的行业逻辑，探讨对开发者工作流和工具生态的长期影响。",
+            "needs_hands_on": false,
+            "risk": "裁员后公司战略执行效果未知，AI 平台的市场接受度待观察。"
+          }
+        ]
+      }
+    },
+    "172d0d88bacb4fb11c678f455e394bc14665ad56": {
+      "generated_at": "2026-07-23T03:49:08.983839Z",
+      "enrichment": {
+        "summary_zh": "原“阿里云开发者”公众号于7月22日更名为“千问AI平台”，将聚焦大模型与Agent技术，提供AI开发工具、教程与社区支持。",
+        "why_it_matters": "阿里云开发者品牌转向AI平台，可能影响开发者获取云原生与AI工具的方式，以及社区生态的定位。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "阿里云开发者公众号改名千问AI平台，开发者社区要变天？",
+            "angle": "作为长期关注阿里云生态的开发者，我注意到公众号改名背后是阿里云从云基础设施向AI平台转型的信号。",
+            "needs_hands_on": false,
+            "risk": "更名后的具体内容变化尚未披露，需观察后续发布内容是否完全转向AI。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "阿里云开发者公众号改名了！新号怎么用？避坑指南",
+            "angle": "刚发现关注的公众号改名了，整理一下新号的功能变化和资源迁移步骤，帮大家快速适应。",
+            "needs_hands_on": true,
+            "risk": "未亲测新公众号的完整功能，仅基于官方公告推测。"
+          },
+          {
+            "platform": "wechat",
+            "title": "从阿里云开发者到千问AI平台：云厂商的AI平台化转型观察",
+            "angle": "分析阿里云开发者品牌更名背后的战略意图，以及对国内AI开发工具生态的长期影响。",
+            "needs_hands_on": false,
+            "risk": "更名后的实际运营策略尚未公开，分析基于行业趋势推测。"
+          }
+        ]
+      }
+    },
+    "c00e01ed288c4f3180d5d3d0d8a9abbf89b671b9": {
+      "generated_at": "2026-07-23T03:49:08.983839Z",
+      "enrichment": {
+        "summary_zh": "Synthesia 将其 AI 培训平台从视频生成扩展到实时辅导，允许 AI 化身与员工进行互动对话，提供即时反馈和个性化指导。",
+        "why_it_matters": "标志着 AI 培训从单向视频向实时交互演进，可能改变企业培训工作流，降低对真人教练的依赖。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "Synthesia 实时辅导实测：AI 化身能替代真人教练吗？",
+            "angle": "我第一时间体验了 Synthesia 的新实时辅导功能，发现其交互流畅度超出预期，但在复杂场景下仍显生硬。",
+            "needs_hands_on": true,
+            "risk": "未亲测，功能细节和实际效果需验证。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "Synthesia 实时辅导上手教程：从创建到部署全流程",
+            "angle": "手把手教你用 Synthesia 搭建 AI 培训教练，包括设置对话脚本、调整 AI 化身表情和语音，以及常见避坑指南。",
+            "needs_hands_on": true,
+            "risk": "未亲测，步骤基于官方文档，实际体验可能有差异。"
+          },
+          {
+            "platform": "wechat",
+            "title": "Synthesia 实时辅导：AI 培训从视频到交互的范式转变",
+            "angle": "深度分析 Synthesia 新功能背后的技术架构、对企业培训成本的影响，以及与传统 LMS 的竞争格局。",
+            "needs_hands_on": false,
+            "risk": "信息来源单一，缺乏第三方评测数据。"
+          }
+        ]
+      }
+    },
+    "49330391cf80baeac001c5ac303a6bf2a8d345c4": {
+      "generated_at": "2026-07-23T03:49:08.983839Z",
+      "enrichment": {
+        "summary_zh": "白宫指控中国AI公司Moonshot蒸馏了Anthropic的Fable模型，美国财政部威胁实施制裁。事件加剧了华盛顿对中国开源模型涌入的争论。",
+        "why_it_matters": "蒸馏争议可能影响开源模型的使用和跨境AI合作，开发者需关注合规风险。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "白宫指控Moonshot蒸馏Anthropic模型，财政部威胁制裁",
+            "angle": "刚看到TechCrunch报道，白宫指控Moonshot蒸馏了Anthropic的Fable模型，财政部威胁制裁。这事对开源模型生态影响很大，开发者得留意了。",
+            "needs_hands_on": false,
+            "risk": "目前只有白宫单方面指控，Moonshot尚未回应，蒸馏细节未公开。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "白宫指控Moonshot蒸馏Anthropic模型，开发者如何应对？",
+            "angle": "白宫指控Moonshot蒸馏了Anthropic的Fable模型，财政部威胁制裁。作为开发者，我们该怎么选模型？避坑指南来了。",
+            "needs_hands_on": false,
+            "risk": "制裁具体措施未公布，蒸馏证据未公开。"
+          },
+          {
+            "platform": "wechat",
+            "title": "白宫指控Moonshot蒸馏Anthropic模型：开源AI的合规风险与未来",
+            "angle": "白宫指控Moonshot蒸馏Anthropic的Fable模型，财政部威胁制裁。这背后是中美AI博弈的缩影，开源模型开发者需警惕合规风险。",
+            "needs_hands_on": false,
+            "risk": "事件为单方指控，需关注后续调查和Moonshot回应。"
+          }
+        ]
+      }
+    },
+    "0e1fc01aa996684c1b5ca05d4334926a29ec79f4": {
+      "generated_at": "2026-07-23T03:49:08.983839Z",
+      "enrichment": {
+        "summary_zh": "AMD宣布向Anthropic投资高达50亿美元，后者将部署2 gigawatts的Instinct MI450 AI GPU，首批1 gigawatt定于2027年上半年上线。",
+        "why_it_matters": "AMD通过大规模投资绑定Anthropic，推动其AI GPU生态，可能改变AI训练和推理的硬件格局，影响开发者工具链选择。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "AMD 50亿押注Anthropic：MI450 GPU能否撼动NVIDIA？",
+            "angle": "作为AI开发者，我关注AMD Instinct MI450的实际性能与生态成熟度，是否值得从CUDA迁移。",
+            "needs_hands_on": true,
+            "risk": "MI450 GPU尚未上市，性能数据来自AMD官方，需实测验证。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "AMD投资Anthropic 50亿美元：AI开发者该关注什么？",
+            "angle": "分享AMD与Anthropic合作细节，分析对AI训练成本、GPU选择的影响，以及开发者如何提前准备。",
+            "needs_hands_on": false,
+            "risk": "首批部署在2027年，短期影响有限。"
+          },
+          {
+            "platform": "wechat",
+            "title": "AMD 50亿美元投资Anthropic：AI基础设施军备竞赛再升级",
+            "angle": "从AMD与Anthropic的合作看AI基础设施投资趋势，分析对NVIDIA的挑战及开发者生态的长期影响。",
+            "needs_hands_on": false,
+            "risk": "投资金额为承诺上限，实际执行可能调整。"
+          }
+        ]
+      }
+    },
+    "47e0e241f1483d0f59d0b2a6d10b0faa8ff994fe": {
+      "generated_at": "2026-07-23T03:49:08.983839Z",
+      "enrichment": {
+        "summary_zh": "据掘金社区消息，Kimi K3、Qwen 3.8、DeepSeek v4等多款AI大模型即将上线，但消息来源单一，具体发布时间和功能尚未确认。",
+        "why_it_matters": "若属实，开发者将面临更多模型选择，但需警惕信息不准确带来的工具选型风险。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "Kimi K3、Qwen 3.8、DeepSeek v4扎堆来袭？我实测了现有版本，新模型值得等吗？",
+            "angle": "作为AI开发者，我对比了Kimi、Qwen和DeepSeek当前版本的表现，分析新模型可能带来的变化，并给出是否该等待的建议。",
+            "needs_hands_on": true,
+            "risk": "新模型尚未发布，所有分析基于传闻和现有版本推测，实际能力未知。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "AI模型上新太快？三步教你如何选择Kimi K3、Qwen 3.8、DeepSeek v4",
+            "angle": "分享我整理的新模型传闻对比表格，包括参数规模、擅长领域和适用场景，附避坑指南：别盲目追新，先看自己的需求。",
+            "needs_hands_on": false,
+            "risk": "新模型参数和功能均为传闻，未官方确认，表格仅供参考。"
+          },
+          {
+            "platform": "wechat",
+            "title": "AI大模型军备竞赛加速：Kimi K3、Qwen 3.8、DeepSeek v4背后的行业逻辑",
+            "angle": "从技术迭代、资本投入和开发者生态角度，分析为何模型更新如此频繁，以及对AI Coding工作流的长期影响。",
+            "needs_hands_on": false,
+            "risk": "部分数据和分析基于单一来源，需交叉验证。"
+          }
+        ]
+      }
+    },
+    "be6af90584f1255a493dde3ac9b611676ce20285": {
+      "generated_at": "2026-07-23T03:49:08.983839Z",
+      "enrichment": {
+        "summary_zh": "7月22日，小红书Dots Infra团队开源BigMac，一种针对原生多模态场景的流水线并行训练新范式，旨在同时提升显存效率与训练速度。",
+        "why_it_matters": "BigMac打破了多模态训练中显存与速度的权衡，可能降低大模型训练门槛，影响开发者对训练框架的选择。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "BigMac实测：多模态训练终于不用在显存和速度间做选择了？",
+            "angle": "作为AI开发者，第一时间跑了一下BigMac的demo，对比现有方案在显存占用和吞吐量上的表现，分享真实数据。",
+            "needs_hands_on": true,
+            "risk": "未亲测，需验证BigMac在典型多模态模型（如LLaVA）上的实际效果是否如论文所述。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "小红书开源BigMac：多模态训练提速又省显存，附配置教程",
+            "angle": "手把手教你用BigMac部署多模态训练，从环境搭建到参数调优，对比传统流水线并行的显存节省效果。",
+            "needs_hands_on": true,
+            "risk": "需确认BigMac对硬件（如GPU型号、显存大小）的具体要求。"
+          },
+          {
+            "platform": "wechat",
+            "title": "多模态训练新范式：小红书BigMac如何突破Pareto前沿？",
+            "angle": "深入分析BigMac的技术原理，对比现有方案（如Megatron-LM、DeepSpeed），探讨其对AI Infra生态的长期影响。",
+            "needs_hands_on": false,
+            "risk": "文章依赖单一来源，需交叉验证技术细节。"
+          }
+        ]
+      }
     }
   },
-  "updated_at": "2026-07-23T03:31:12.519098Z"
+  "updated_at": "2026-07-23T03:49:08.983839Z"
 }
