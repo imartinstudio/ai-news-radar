@@ -95,3 +95,37 @@ def test_history_replaces_same_edition_and_honors_limit():
 def test_resolve_edition_kind_uses_shanghai_dayparts():
     assert resolve_edition_kind(datetime(2026, 7, 22, 0, 17, tzinfo=timezone.utc), "Asia/Shanghai", "auto") == "morning"
     assert resolve_edition_kind(datetime(2026, 7, 22, 12, 47, tzinfo=timezone.utc), "Asia/Shanghai", "auto") == "evening"
+
+
+def test_official_source_upgrade_uses_same_event_state(profile):
+    morning = candidate("media", "early_signal", source_count=1)
+    morning["creator_event_id"] = "creator-event-1"
+    morning["url"] = "https://media.example/event"
+    morning_edition, morning_state = build_edition([morning], {}, profile, NOW, "morning")
+    assert morning_edition["items"][0]["change_type"] == "new"
+
+    official = candidate("official", "confirmed", source_count=2)
+    official["creator_event_id"] = "creator-event-1"
+    official["url"] = "https://official.example/event"
+    official["sources"] = [
+        {"url": "https://official.example/event", "official": True},
+        {"url": "https://media.example/event", "official": False},
+    ]
+    evening_edition, _ = build_edition([official], morning_state, profile, NOW, "evening")
+    assert len(evening_edition["items"]) == 1
+    assert evening_edition["items"][0]["change_type"] == "confirmed"
+
+
+def test_source_reordering_without_content_change_is_not_new(profile):
+    item = candidate("story-a", "confirmed", source_count=2)
+    item["creator_event_id"] = "creator-event-2"
+    item["sources"] = [
+        {"url": "https://official.example/a", "official": True},
+        {"url": "https://media.example/a", "official": False},
+    ]
+    _, state = build_edition([item], {}, profile, NOW, "morning")
+    reordered = dict(item)
+    reordered["story_id"] = "story-b"
+    reordered["sources"] = list(reversed(item["sources"]))
+    evening, _ = build_edition([reordered], state, profile, NOW, "evening")
+    assert evening["items"] == []

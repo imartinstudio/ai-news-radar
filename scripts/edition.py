@@ -40,6 +40,22 @@ def resolve_edition_kind(now: datetime, timezone_name: str, requested: str) -> s
     return "morning" if local.hour < 14 else "evening"
 
 
+def event_state_key(item: dict[str, Any]) -> str:
+    return str(item.get("creator_event_id") or item.get("story_id") or "")
+
+
+def normalized_source_urls(item: dict[str, Any]) -> list[str]:
+    sources = item.get("sources") if isinstance(item.get("sources"), list) else []
+    values = {
+        str(source.get("url") or "").strip()
+        for source in sources
+        if isinstance(source, dict) and source.get("url")
+    }
+    if item.get("url"):
+        values.add(str(item["url"]).strip())
+    return sorted(values)
+
+
 def story_fingerprint(item: dict[str, Any]) -> str:
     try:
         source_count = int(item.get("source_count") or 1)
@@ -51,7 +67,7 @@ def story_fingerprint(item: dict[str, Any]) -> str:
             str(item.get("verification_status") or ""),
             str(source_count),
             title,
-            str(item.get("latest_at") or ""),
+            ",".join(normalized_source_urls(item)),
         ]
     )
 
@@ -103,10 +119,10 @@ def build_edition(
 
     changed: list[dict[str, Any]] = []
     for candidate in candidates:
-        story_id = str(candidate.get("story_id") or "").strip()
-        if not story_id:
+        state_key = event_state_key(candidate).strip()
+        if not state_key:
             continue
-        previous = new_state["stories"].get(story_id)
+        previous = new_state["stories"].get(state_key)
         change = _change_type(candidate, previous if isinstance(previous, dict) else None)
         if change is None:
             continue
@@ -116,12 +132,14 @@ def build_edition(
 
     items = select_scored_candidates(changed, profile, limit=max_items)
     for item in items:
-        story_id = str(item["story_id"])
-        new_state["stories"][story_id] = {
+        state_key = event_state_key(item)
+        new_state["stories"][state_key] = {
             "last_fingerprint": story_fingerprint(item),
             "last_status": str(item.get("verification_status") or ""),
             "last_sent_at": generated_at,
             "last_edition_id": edition_id,
+            "last_story_id": item.get("story_id"),
+            "last_primary_url": item.get("url"),
         }
     new_state["updated_at"] = generated_at
 
