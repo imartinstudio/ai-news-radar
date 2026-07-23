@@ -222,6 +222,45 @@ select {
 .angles strong { line-height: 1.45; }
 .angles p { margin: 4px 0 0; font-size: 14px; }
 
+.source-list {
+  margin-top: 12px;
+  border-top: 1px solid var(--line);
+  padding-top: 10px;
+}
+
+.source-list summary {
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.source-list ul {
+  display: grid;
+  gap: 8px;
+  margin: 10px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.source-list li {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 8px;
+  align-items: start;
+}
+
+.source-list small {
+  display: block;
+  margin-top: 2px;
+  color: var(--muted);
+}
+
+.source-kind {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 2px 7px;
+  font-size: 12px;
+}
+
 @media (max-width: 760px) {
   .page-shell { width: min(100% - 20px, 680px); padding-top: 10px; }
   .hero { padding: 26px 20px; border-radius: 22px; }

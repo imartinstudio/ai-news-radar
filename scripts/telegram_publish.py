@@ -17,8 +17,26 @@ STATUS_ICON = {
     "early_signal": "👀",
     "rumor": "⚠️",
 }
+STATUS_TEXT = {
+    "confirmed": "已确认",
+    "single_source": "单一来源",
+    "early_signal": "早期信号",
+    "rumor": "待确认",
+}
 CHANGE_ICON = {"new": "", "confirmed": "🔄", "updated": "🆕"}
 PLATFORM_LABEL = {"x": "X", "xiaohongshu": "小红书", "wechat": "公众号"}
+
+
+def status_text(status: str) -> str:
+    return STATUS_TEXT.get(str(status or ""), str(status or "单一来源"))
+
+
+def source_count_label(item: dict[str, Any]) -> str:
+    try:
+        count = int(item.get("source_count") or 1)
+    except (TypeError, ValueError):
+        count = 1
+    return f" · 多源 {count}" if count > 1 else ""
 
 
 def _load_json(path: Path, default: Any) -> Any:
@@ -73,7 +91,12 @@ def _render_item(item: dict[str, Any], index: int, target: int) -> str:
         source_line = f'<a href="{source_url}">原始来源</a>' if source_url else ""
         lines = [
             f"<b>{index}. {_escaped(item.get('title'), title_limit)}</b>",
-            f"{STATUS_ICON.get(status, '◻️')} {html.escape(status)}{score_text} {CHANGE_ICON.get(change, '')}".strip(),
+            (
+                f"{STATUS_ICON.get(status, '◻️')} "
+                f"{html.escape(status_text(status))}"
+                f"{html.escape(source_count_label(item))}"
+                f"{score_text} {CHANGE_ICON.get(change, '')}"
+            ).strip(),
             f"发生了什么：{_escaped(item.get('summary_zh'), summary_limit)}",
             f"为什么重要：{_escaped(item.get('why_it_matters'), why_limit)}",
         ]

@@ -75,3 +75,29 @@ def test_state_is_written_only_after_all_fragments_succeed(tmp_path: Path):
     assert send.call_count > 1
     state = json.loads(state_path.read_text(encoding="utf-8"))
     assert state["last_sent_edition_id"] == "2026-07-22-morning"
+
+
+def test_render_shows_multi_source_count():
+    edition = {
+        "edition_id": "2026-07-23-morning",
+        "edition_kind": "morning",
+        "items": [
+            {
+                "title": "Claude Code parallel agents",
+                "url": "https://anthropic.com/news/parallel-agents",
+                "verification_status": "confirmed",
+                "change_type": "new",
+                "summary_zh": "摘要",
+                "why_it_matters": "影响",
+                "creator_score": 90,
+                "source_count": 2,
+                "sources": [
+                    {"source": "Anthropic", "url": "https://anthropic.com/news/parallel-agents", "official": True},
+                    {"source": "Tech Media", "url": "https://media.example/story", "official": False},
+                ],
+                "angles": [],
+            }
+        ],
+    }
+    message = "\n".join(render_messages(edition))
+    assert "多源 2" in message
