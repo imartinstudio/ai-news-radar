@@ -4,7 +4,7 @@
 
 ## 输出
 
-- `data/creator-candidates.json`：本轮规则评分后的候选池，最多 30 条。
+- `data/creator-candidates.json`：本轮规则评分与二次去重后的候选，最多 20 条。
 - `data/creator-brief.json`：当前早报或晚报，供 Telegram 与 Agent 使用。
 - `data/creator-editions.json`：最近 60 个版次的轻量历史，`/creator/` 页面读取它。
 - `data/edition-state.json`：故事最近推送状态，用于晚报去重和状态迁移。
@@ -29,11 +29,15 @@ Secret 只能存放在 GitHub Settings → Secrets and variables → Actions。�
 LLM_PROVIDER=deepseek
 LLM_MODEL=deepseek-chat
 LLM_BASE_URL=https://api.deepseek.com
-LLM_MAX_CALLS_PER_RUN=12
+LLM_MAX_CALLS_PER_RUN=20
 TELEGRAM_ENABLED=1
 ```
 
 现有 `DEEPSEEK_API_BASE_URL`、`DEEPSEEK_MODEL` 仍可作为兼容回退。没有 LLM Key 或达到调用上限时，系统使用规则摘要，不阻断整个 Workflow。
+
+## 二次事件去重
+
+创作者管线在 `stories-merged.json` 之后再次执行确定性去重：同一核心实体、同一事件动作、48 小时内且标题核心内容相似的记录会合并。官方来源优先成为主链接，其他出处保存在 `sources[]`。同一产品的不同功能或不同动作不会合并。
 
 ## 调度
 

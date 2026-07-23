@@ -68,6 +68,33 @@ def calculate_metrics(history: dict[str, Any], feedback: dict[str, Any]) -> dict
         for item in items
     )
 
+    merge_count = sum(
+        int((edition.get("dedup_meta") or {}).get("secondary_dedup_merge_count") or 0)
+        for edition in editions
+    )
+    source_count = sum(
+        int((edition.get("dedup_meta") or {}).get("secondary_dedup_source_count") or 0)
+        for edition in editions
+    )
+
+    event_occurrences: dict[str, int] = {}
+    for edition in editions:
+        seen_in_edition: set[str] = set()
+        for item in edition.get("items", []):
+            if not isinstance(item, dict):
+                continue
+            event_id = str(item.get("creator_event_id") or item.get("story_id") or "")
+            if event_id and event_id in seen_in_edition:
+                event_occurrences[event_id] = event_occurrences.get(event_id, 0) + 1
+            if event_id:
+                seen_in_edition.add(event_id)
+
+    total_displayed = sum(
+        len([item for item in edition.get("items", []) if isinstance(item, dict)])
+        for edition in editions
+    )
+    suspected_duplicates = sum(event_occurrences.values())
+
     return {
         "editions_count": len(editions),
         "total_item_displays": total_items,
@@ -80,6 +107,11 @@ def calculate_metrics(history: dict[str, Any], feedback: dict[str, Any]) -> dict
         "llm_fallback_ratio": _ratio(fallback_count, total_items),
         "source_distribution": _ordered_counts(sources),
         "entity_distribution": _ordered_counts(entities),
+        "secondary_dedup_merge_count": merge_count,
+        "secondary_dedup_source_count": source_count,
+        "suspected_duplicate_rate": (
+            round(suspected_duplicates / total_displayed, 4) if total_displayed else 0.0
+        ),
     }
 
 

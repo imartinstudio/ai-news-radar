@@ -47,3 +47,11 @@ def test_initial_creator_page_data_is_valid_and_empty():
     assert history["editions"] == []
     assert brief["items"] == []
     assert brief["llm_meta"]["calls_used"] == 0
+
+
+def test_docs_describe_20_item_non_filling_policy():
+    readme = (ROOT / "README.md").read_text(encoding="utf-8")
+    runbook = (ROOT / "docs/CREATOR_PIPELINE.md").read_text(encoding="utf-8")
+    assert "最多 20 条" in readme
+    assert "不硬凑" in readme
+    assert "LLM_MAX_CALLS_PER_RUN=20" in runbook

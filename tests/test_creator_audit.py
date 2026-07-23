@@ -55,3 +55,25 @@ def test_audit_report_never_copies_feedback_notes(tmp_path: Path):
     assert "private editorial note" not in output.read_text(encoding="utf-8")
     assert "metrics" in report
     assert report["feedback_summary"]["useful_count"] == 1
+
+
+def test_audit_reports_secondary_dedup_metrics():
+    history = {
+        "editions": [
+            {
+                "edition_id": "d1",
+                "dedup_meta": {
+                    "secondary_dedup_merge_count": 2,
+                    "secondary_dedup_source_count": 12,
+                },
+                "items": [
+                    {"creator_event_id": "e1", "source_count": 2},
+                    {"creator_event_id": "e2", "source_count": 1},
+                ],
+            }
+        ]
+    }
+    metrics = calculate_metrics(history, {"items": {}})
+    assert metrics["secondary_dedup_merge_count"] == 2
+    assert metrics["secondary_dedup_source_count"] == 12
+    assert metrics["suspected_duplicate_rate"] == 0.0
