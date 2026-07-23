@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T03:49:08.830747Z",
+  "generated_at": "2026-07-23T14:01:45.956107Z",
   "model": "deepseek-chat",
   "personas": [
     {
@@ -41,10 +41,30 @@
       }
     },
     {
+      "story_id": "story_b7a2b487977e",
+      "title": "将Nunchaku 4位扩散推理引入Diffusers / Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
+      "url": "https://huggingface.co/blog/nunchaku-diffusers",
+      "rank": 2,
+      "reviews": {
+        "cynic": {
+          "score": 72,
+          "review": "4位推理省显存，但画质损失和速度提升得拿实际跑分说话。"
+        },
+        "paper-police": {
+          "score": 45,
+          "review": "博客有技术细节但无独立验证，等论文或代码开源再评。"
+        },
+        "pragmatic": {
+          "score": 85,
+          "review": "4位扩散推理集成到Diffusers，显存占用大降，低显存卡也能跑图了。"
+        }
+      }
+    },
+    {
       "story_id": "story_c9adcfe987c9",
       "title": "Copilot 新增使用指标影响力仪表盘 / New Copilot usage metrics impact dashboard",
       "url": "https://github.blog/changelog/2026-07-22-new-copilot-usage-metrics-impact-dashboard",
-      "rank": 2,
+      "rank": 3,
       "reviews": {
         "cynic": {
           "score": 72,
@@ -57,26 +77,6 @@
         "pragmatic": {
           "score": 85,
           "review": "管理Copilot成本更方便，团队可直接看使用数据优化预算。"
-        }
-      }
-    },
-    {
-      "story_id": "story_0ba3ace346fe",
-      "title": "微软 MagenticLite 模型全面开源 / MagenticLite's models are now fully open source. MagenticBrain and Fara 1.5， previously available …",
-      "url": "https://x.com/MSFTResearch/status/2079989338994069511",
-      "rank": 3,
-      "reviews": {
-        "cynic": {
-          "score": 88,
-          "review": "少见的全都敢晒出来，这次没法挑刺。"
-        },
-        "paper-police": {
-          "score": 92,
-          "review": "论文代码都在，跑一遍就知真假，这才叫发布。"
-        },
-        "pragmatic": {
-          "score": 85,
-          "review": "模型开源可自部署，省API费，今天就能clone跑起来。"
         }
       }
     }
