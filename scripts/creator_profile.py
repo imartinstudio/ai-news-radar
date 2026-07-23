@@ -14,6 +14,14 @@ def validate_profile(profile: dict) -> None:
     if not 1 <= int(edition.get("min_items", 0)) <= int(edition.get("max_items", 0)) <= 20:
         raise ValueError("edition_item_range")
 
+    candidate_limit = int(edition.get("candidate_limit", 0))
+    max_items = int(edition.get("max_items", 0))
+    if candidate_limit < max_items or candidate_limit > 100:
+        raise ValueError("candidate_limit")
+
+    if max_items != 20:
+        raise ValueError("edition_max_items")
+
     ratio = float(edition.get("ai_coding_ratio", 0))
     if not 0.5 <= ratio <= 1.0:
         raise ValueError("ai_coding_ratio")
@@ -21,6 +29,18 @@ def validate_profile(profile: dict) -> None:
     product_cap = float(edition.get("product_cap_ratio", 0))
     if not 0.1 <= product_cap <= 1.0:
         raise ValueError("product_cap_ratio")
+
+    dedup = profile.get("dedup") or {}
+    if not isinstance(dedup.get("enabled"), bool):
+        raise ValueError("dedup_enabled")
+    if not 1 <= int(dedup.get("time_window_hours", 0)) <= 168:
+        raise ValueError("dedup_time_window_hours")
+    if not 0.0 <= float(dedup.get("jaccard_threshold", -1)) <= 1.0:
+        raise ValueError("dedup_jaccard_threshold")
+    if not 0.0 <= float(dedup.get("sequence_threshold", -1)) <= 1.0:
+        raise ValueError("dedup_sequence_threshold")
+    if not 1 <= int(dedup.get("min_shared_keywords", 0)) <= 10:
+        raise ValueError("dedup_min_shared_keywords")
 
     weights = profile.get("weights") or {}
     if set(weights) != REQUIRED_WEIGHT_KEYS:

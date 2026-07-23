@@ -1,16 +1,24 @@
+from copy import deepcopy
 from pathlib import Path
 
 import pytest
 
-from scripts.creator_profile import load_profile, normalized_aliases
+from scripts.creator_profile import load_profile, normalized_aliases, validate_profile
+
+
+@pytest.fixture
+def profile():
+    return load_profile(Path("config/martin-ai-coding.json"))
 
 
 def test_load_profile_rejects_weights_not_equal_to_100(tmp_path: Path):
     path = tmp_path / "profile.json"
     path.write_text(
         '{"version":1,"timezone":"Asia/Shanghai",'
-        '"edition":{"min_items":8,"max_items":12,"ai_coding_ratio":0.7,'
-        '"product_cap_ratio":0.3,"history_limit":60},'
+        '"edition":{"min_items":8,"max_items":20,"candidate_limit":50,'
+        '"ai_coding_ratio":0.7,"product_cap_ratio":0.3,"history_limit":60},'
+        '"dedup":{"enabled":true,"time_window_hours":48,"jaccard_threshold":0.55,'
+        '"sequence_threshold":0.72,"min_shared_keywords":2},'
         '"thresholds":{"focus":78,"quick":62,"signal":50},'
         '"weights":{"relevance":30,"freshness":20,"source":20,'
         '"impact":15,"novelty":10,"heat":4},'
@@ -25,8 +33,29 @@ def test_load_profile_rejects_weights_not_equal_to_100(tmp_path: Path):
 
 def test_load_profile_accepts_checked_in_profile():
     profile = load_profile(Path("config/martin-ai-coding.json"))
-    assert profile["edition"]["max_items"] == 12
+    assert profile["edition"]["max_items"] == 20
     assert profile["weights"]["heat"] == 5
+
+
+def test_profile_accepts_20_item_edition_and_dedup_settings(profile):
+    validate_profile(profile)
+    assert profile["edition"]["max_items"] == 20
+    assert profile["edition"]["candidate_limit"] == 50
+    assert profile["dedup"]["time_window_hours"] == 48
+
+
+def test_profile_rejects_invalid_dedup_threshold_order(profile):
+    broken = deepcopy(profile)
+    broken["dedup"]["jaccard_threshold"] = 1.1
+    with pytest.raises(ValueError, match="dedup_jaccard_threshold"):
+        validate_profile(broken)
+
+
+def test_profile_rejects_candidate_limit_smaller_than_max_items(profile):
+    broken = deepcopy(profile)
+    broken["edition"]["candidate_limit"] = 19
+    with pytest.raises(ValueError, match="candidate_limit"):
+        validate_profile(broken)
 
 
 def test_normalized_aliases_are_lowercase_and_longest_first():

@@ -5,6 +5,12 @@ from unittest.mock import patch
 from scripts.llm_provider import CallBudget, LLMSettings, OpenAICompatibleProvider
 
 
+def test_default_call_budget_matches_20_item_edition():
+    with patch.dict("os.environ", {}, clear=True):
+        settings = LLMSettings.from_env()
+    assert settings.max_calls == 20
+
+
 def test_settings_prefer_generic_env_and_fallback_to_deepseek_env():
     with patch.dict(
         "os.environ",

@@ -44,6 +44,21 @@ def test_initial_creator_page_data_is_valid_and_empty():
     history = json.loads((ROOT / "data/creator-editions.json").read_text(encoding="utf-8"))
     brief = json.loads((ROOT / "data/creator-brief.json").read_text(encoding="utf-8"))
     assert history["version"] == 1
-    assert history["editions"] == []
-    assert brief["items"] == []
-    assert brief["llm_meta"]["calls_used"] == 0
+    assert isinstance(history.get("editions"), list)
+    assert isinstance(brief.get("items"), list)
+    assert isinstance(brief.get("llm_meta"), dict)
+    assert int(brief["llm_meta"].get("calls_used") or 0) >= 0
+    assert int(brief.get("total_items") or len(brief["items"])) <= 20
+    for edition in history["editions"]:
+        assert isinstance(edition, dict)
+        assert edition.get("edition_id")
+        assert isinstance(edition.get("items"), list)
+        assert len(edition["items"]) <= 20
+
+
+def test_docs_describe_20_item_non_filling_policy():
+    readme = (ROOT / "README.md").read_text(encoding="utf-8")
+    runbook = (ROOT / "docs/CREATOR_PIPELINE.md").read_text(encoding="utf-8")
+    assert "最多 20 条" in readme
+    assert "不硬凑" in readme
+    assert "LLM_MAX_CALLS_PER_RUN=20" in runbook

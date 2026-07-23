@@ -33,3 +33,12 @@ def test_creator_page_has_no_third_party_runtime_dependency():
 
     assert "https://unpkg.com" not in html
     assert "https://cdn.jsdelivr.net" not in html
+
+
+def test_creator_page_supports_expandable_sources():
+    app = read("creator/assets/app.js")
+    styles = read("creator/assets/styles.css")
+    assert "function renderSources" in app
+    assert "source_count" in app
+    assert "source-list" in styles
+    assert "noopener noreferrer" in app

@@ -73,6 +73,28 @@ function renderAngles(angles) {
   return `<div class="angles"><h4>内容角度</h4><ul>${rows}</ul></div>`;
 }
 
+function renderSources(item) {
+  const sources = Array.isArray(item.sources) ? item.sources : [];
+  if (sources.length <= 1 && Number(item.source_count || 0) <= 1) return "";
+  const rows = sources.map((source, index) => {
+    const url = safeUrl(source.url);
+    const label = source.official ? "官方" : index === 0 ? "主来源" : "来源";
+    const title = escapeHtml(source.title || source.source || "未命名来源");
+    const name = escapeHtml(source.source || "未知来源");
+    const content = url
+      ? `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${title}</a>`
+      : title;
+    return `<li><span class="source-kind">${escapeHtml(label)}</span><div>${content}<small>${name}</small></div></li>`;
+  }).join("");
+  const count = sources.length || Number(item.source_count) || 0;
+  if (!rows || count <= 1) return "";
+  return `
+    <details class="source-list">
+      <summary>多源 ${count}</summary>
+      <ul>${rows}</ul>
+    </details>`;
+}
+
 function renderItem(item) {
   const sourceUrl = safeUrl(item.url || item.primary_url);
   const title = escapeHtml(item.title || "未命名资讯");
@@ -97,6 +119,7 @@ function renderItem(item) {
       </div>
       <h3>${titleMarkup}</h3>
       <p class="summary">${escapeHtml(item.summary_zh || "暂无摘要")}</p>
+      ${renderSources(item)}
       <div class="why">
         <span>为什么重要</span>
         <p>${escapeHtml(item.why_it_matters || "暂无影响判断")}</p>

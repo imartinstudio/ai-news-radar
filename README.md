@@ -30,7 +30,7 @@ npx skills add LearnPrompt/ai-news-radar -s ai-radar -g
 
 ## AI Coding 创作者版
 
-本 Fork 增加一条面向个人研究和内容创作的 AI Coding 情报管线：每天北京时间 **08:17 / 20:47** 生成早报和晚报，每期筛选 8–12 条高价值信息，并输出事实摘要、为什么重要以及适合 X、小红书、公众号的选题角度。
+本 Fork 增加一条面向个人研究和内容创作的 AI Coding 情报管线：每天北京时间 **08:17 / 20:47** 生成早报和晚报，每期最多 20 条；质量不足时不硬凑。系统会在上游故事合并之后再次识别同一事件的多个出处，优先展示官方来源，并以“多源 N”保留全部出处。
 
 - 创作者归档页：[`/creator/`](creator/)
 - 完整配置与故障恢复：[`docs/CREATOR_PIPELINE.md`](docs/CREATOR_PIPELINE.md)

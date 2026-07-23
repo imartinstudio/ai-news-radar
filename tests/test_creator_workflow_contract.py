@@ -40,3 +40,7 @@ def test_workflow_supports_manual_edition_and_publish_controls():
     assert "options: [auto, morning, evening]" in WORKFLOW
     assert "publish_telegram:" in WORKFLOW
     assert 'echo "EDITION_KIND=$edition" >> "$GITHUB_ENV"' in WORKFLOW
+
+
+def test_workflow_defaults_to_20_llm_calls():
+    assert "LLM_MAX_CALLS_PER_RUN: ${{ vars.LLM_MAX_CALLS_PER_RUN || 20 }}" in WORKFLOW

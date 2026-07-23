@@ -13,8 +13,9 @@ from typing import Any
 if __package__ in {None, ""}:  # direct `python scripts/creator_pipeline.py`
     sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
+from scripts.creator_dedup import deduplicate_candidates
 from scripts.creator_profile import load_profile
-from scripts.creator_rules import rank_candidates
+from scripts.creator_rules import score_story, select_scored_candidates
 from scripts.edition import append_edition_history, build_edition
 from scripts.llm_provider import LLMSettings, OpenAICompatibleProvider
 
@@ -26,6 +27,8 @@ ALLOWED_PLATFORMS = {"x", "xiaohongshu", "wechat"}
 
 PUBLIC_STORY_FIELDS = (
     "story_id",
+    "creator_event_id",
+    "merged_story_ids",
     "title",
     "url",
     "primary_url",
@@ -55,6 +58,7 @@ PUBLIC_STORY_FIELDS = (
 )
 PUBLIC_SOURCE_FIELDS = (
     "id",
+    "story_id",
     "title",
     "title_zh",
     "title_en",
@@ -66,6 +70,7 @@ PUBLIC_SOURCE_FIELDS = (
     "source_name",
     "site_id",
     "published_at",
+    "official",
 )
 
 
@@ -283,6 +288,17 @@ def _provider_meta(provider: Any) -> tuple[str, str, int]:
     return provider_name, model, calls_used
 
 
+def prepare_creator_candidates(
+    stories: list[dict[str, Any]],
+    profile: dict[str, Any],
+    now: datetime,
+) -> tuple[list[dict[str, Any]], dict[str, Any]]:
+    scored = [score_story(story, profile, now) for story in stories]
+    deduped, dedup_meta = deduplicate_candidates(scored, profile)
+    selected = select_scored_candidates(deduped, profile)
+    return selected, dedup_meta
+
+
 def run_pipeline(
     data_dir: Path,
     profile_path: Path,
@@ -299,8 +315,7 @@ def run_pipeline(
 
     profile = load_profile(profile_path)
     stories = load_stories(data_dir)
-    candidate_limit = int(profile["edition"].get("candidate_limit") or 30)
-    ranked = rank_candidates(stories, profile, current, limit=candidate_limit)
+    selected, dedup_meta = prepare_creator_candidates(stories, profile, current)
 
     state_path = data_dir / "edition-state.json"
     history_path = data_dir / "creator-editions.json"
@@ -309,7 +324,7 @@ def run_pipeline(
     history = _load_json(history_path, {"version": 1, "editions": []})
     cache = _load_cache(cache_path, current)
 
-    edition, next_state = build_edition(ranked, state, profile, current, requested_edition)
+    edition, next_state = build_edition(selected, state, profile, current, requested_edition)
     prompt, persona_sha8 = _load_persona_prompt(persona_path)
     llm_provider = provider or OpenAICompatibleProvider(LLMSettings.from_env())
 
@@ -356,11 +371,14 @@ def run_pipeline(
         "cache_hits": cache_hits,
         "fallback_count": fallback_count,
     }
+    edition["dedup_meta"] = dedup_meta
 
     candidate_payload = {
+        "version": 1,
         "generated_at": _iso(current),
-        "total_items": len(ranked),
-        "items": [public_story_record(item) for item in ranked],
+        "total_items": len(selected),
+        "dedup_meta": dedup_meta,
+        "items": [public_story_record(item) for item in selected],
     }
     next_history = append_edition_history(
         history,
