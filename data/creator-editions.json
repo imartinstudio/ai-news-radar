@@ -1,8 +1,1619 @@
 {
   "version": 1,
-  "generated_at": "2026-07-23T15:02:46.820740Z",
-  "total_editions": 2,
+  "generated_at": "2026-07-24T03:52:37.642241Z",
+  "total_editions": 3,
   "editions": [
+    {
+      "edition_id": "2026-07-24-morning",
+      "edition_kind": "morning",
+      "generated_at": "2026-07-24T03:52:37.642241Z",
+      "timezone": "Asia/Shanghai",
+      "total_items": 16,
+      "summary": {
+        "confirmed": 7,
+        "single_source": 7,
+        "early_signal": 0,
+        "rumor": 2,
+        "new": 16,
+        "updated": 0,
+        "confirmed_updates": 0
+      },
+      "items": [
+        {
+          "story_id": "story_1950d49db06a",
+          "creator_event_id": "creator-21029d004e406ead",
+          "merged_story_ids": [
+            "story_1950d49db06a"
+          ],
+          "title": "GitHub MCP Server 支持下一代 MCP 规范 / GitHub MCP Server supports the next MCP specification",
+          "url": "https://github.blog/changelog/2026-07-23-github-mcp-server-supports-the-next-mcp-specification",
+          "primary_url": "https://github.blog/changelog/2026-07-23-github-mcp-server-supports-the-next-mcp-specification",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "source_count": 1,
+          "source_names": [
+            "GitHub Changelog"
+          ],
+          "score": 0.8345,
+          "importance": 0.8345,
+          "importance_score": 0.8345,
+          "importance_label": "官方更新",
+          "importance_breakdown": {
+            "editorial": 0.9,
+            "source_tier": 1.0,
+            "ai_relevance": 0.91,
+            "recency": 0.9027,
+            "story_heat": 0.0
+          },
+          "category": "official",
+          "reasons": [
+            "official_source",
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-07-23T20:38:22Z",
+          "latest_at": "2026-07-23T20:38:22Z",
+          "persona_id": "pragmatic",
+          "persona_score": 85,
+          "persona_review": "MCP 新规范已落地，GitHub 集成可直接用，Agent 工具链升级趁早。",
+          "creator_score": 92.1,
+          "creator_breakdown": {
+            "relevance": 0.9,
+            "freshness": 0.9691,
+            "source": 1.0,
+            "impact": 1.0,
+            "novelty": 0.85,
+            "heat": 0.4421
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "mcp",
+          "verification_status": "confirmed",
+          "creator_reasons": [
+            "entity:mcp",
+            "ai_coding_terms",
+            "workflow_impact",
+            "official_or_tier0_source"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "08cfb2e1c50fdd903761c005e5754fb3541ba641",
+            "title": "GitHub MCP Server 支持下一代 MCP 规范 / GitHub MCP Server supports the next MCP specification",
+            "title_zh": "GitHub MCP Server 支持下一代 MCP 规范",
+            "title_en": "GitHub MCP Server supports the next MCP specification",
+            "title_original": "GitHub MCP Server supports the next MCP specification",
+            "summary": "The MCP protocol is going stateless on 28th July 2026, and the GitHub MCP Server supports the latest spec ahead of the official release. What’s changing The new stateless core…\nThe MCP protocol is going stateless on 28th July 2026, and the GitHub MCP Server supports the latest spec ahead of the official release.\nSince all tier 1 SDKs have preserved backwards compatibility and they have all already shipped beta support, you don’t need to do anything to maintain support. The GitHub MCP server uses",
+            "recommend_reason_zh": "GitHub MCP Server已提前支持2026年7月28日生效的无状态MCP新规范，采用官方Go SDK，并新增一致性测试，Copilot可据此更可靠地验证AI辅助开发结果。",
+            "url": "https://github.blog/changelog/2026-07-23-github-mcp-server-supports-the-next-mcp-specification",
+            "source": "GitHub Changelog",
+            "source_name": "Official AI Updates"
+          },
+          "sources": [
+            {
+              "story_id": "story_1950d49db06a",
+              "title": "GitHub MCP Server 支持下一代 MCP 规范 / GitHub MCP Server supports the next MCP specification",
+              "url": "https://github.blog/changelog/2026-07-23-github-mcp-server-supports-the-next-mcp-specification",
+              "source": "GitHub Changelog",
+              "site_id": "",
+              "official": true
+            }
+          ],
+          "summary_zh": "GitHub MCP Server 已提前支持 2026 年 7 月 28 日生效的无状态 MCP 新规范，采用官方 Go SDK 并新增一致性测试，Copilot 可据此更可靠地",
+          "why_it_matters": "MCP 协议转向无状态将影响所有 MCP 客户端和服务器的架构设计，开发者需关注向后兼容性与迁移策略。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "GitHub MCP Server 抢先支持无状态 MCP，我实测了迁移体验",
+              "angle": "作为开发者，我第一时间升级了 GitHub MCP Server 并测试了无状态 MCP 的兼容性，发现现有工具链无需改动即可继续使用。",
+              "needs_hands_on": true,
+              "risk": "未亲测所有第三方 MCP 客户端是否完全兼容新规范。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "MCP 协议无状态化：GitHub MCP Server 升级避坑指南",
+              "angle": "手把手教你检查当前 MCP 配置是否兼容新规范，以及如何利用 GitHub 新增的一致性测试验证 AI 开发结果。",
+              "needs_hands_on": true,
+              "risk": "一致性测试的具体使用步骤和效果尚未亲测。"
+            },
+            {
+              "platform": "wechat",
+              "title": "MCP 协议无状态化：GitHub 提前适配背后的工程考量",
+              "angle": "从 MCP 协议演进角度分析无状态化的设计动机、对 AI Coding 工作流的影响，以及 GitHub 采用 Go SDK 和一致性测试的长期意义。",
+              "needs_hands_on": false,
+              "risk": ""
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_11ed83f3e906",
+          "creator_event_id": "creator-aea413f843fa0af9",
+          "merged_story_ids": [
+            "story_11ed83f3e906"
+          ],
+          "title": "GitHub Mobile：用Copilot cloud agent修复失败的Actions检查 / GitHub Mobile: Fix failing Actions checks with Copilot cloud agent",
+          "url": "https://github.blog/changelog/2026-07-23-github-mobile-fix-failing-actions-checks-with-copilot-cloud-agent",
+          "primary_url": "https://github.blog/changelog/2026-07-23-github-mobile-fix-failing-actions-checks-with-copilot-cloud-agent",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "source_count": 1,
+          "source_names": [
+            "GitHub Changelog"
+          ],
+          "score": 0.8385,
+          "importance": 0.8385,
+          "importance_score": 0.8385,
+          "importance_label": "官方更新",
+          "importance_breakdown": {
+            "editorial": 0.9,
+            "source_tier": 1.0,
+            "ai_relevance": 0.94,
+            "recency": 0.8919,
+            "story_heat": 0.0
+          },
+          "category": "official",
+          "reasons": [
+            "official_source",
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-07-23T19:47:58Z",
+          "latest_at": "2026-07-23T19:47:58Z",
+          "persona_id": "pragmatic",
+          "persona_score": 75,
+          "persona_review": "移动端修CI，省了开电脑的功夫，但Copilot agent能力有限，复杂问题还得上桌面。",
+          "creator_score": 90.3,
+          "creator_breakdown": {
+            "relevance": 0.95,
+            "freshness": 0.9481,
+            "source": 1.0,
+            "impact": 0.81,
+            "novelty": 0.85,
+            "heat": 0.4435
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "github-copilot",
+          "verification_status": "confirmed",
+          "creator_reasons": [
+            "entity:github-copilot",
+            "ai_coding_terms",
+            "workflow_impact",
+            "official_or_tier0_source"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "0fe8e8b29bf9368b8e1021c43f95e06837eaf73d",
+            "title": "GitHub Mobile：用Copilot cloud agent修复失败的Actions检查 / GitHub Mobile: Fix failing Actions checks with Copilot cloud agent",
+            "title_zh": "GitHub Mobile：用Copilot cloud agent修复失败的Actions检查",
+            "title_en": "GitHub Mobile: Fix failing Actions checks with Copilot cloud agent",
+            "title_original": "GitHub Mobile: Fix failing Actions checks with Copilot cloud agent",
+            "summary": "Now when a GitHub Actions check fails on your pull request, you can ask Copilot coding agent to investigate and directly fix the problem from GitHub Mobile. From the failed…\nNow when a GitHub Actions check fails on your pull request, you can ask Copilot coding agent to investigate and directly fix the problem from GitHub Mobile. From the failed check, select Fix with Copilot to start the process.\nCopilot opens a new pull request on top of your existing pull request, analyzes the failing check, a",
+            "recommend_reason_zh": "现在在GitHub Mobile上，当GitHub Actions检查失败时，你可以让Copilot coding agent一键调查并修复，它会创建新PR分析问题并等待你审查。",
+            "url": "https://github.blog/changelog/2026-07-23-github-mobile-fix-failing-actions-checks-with-copilot-cloud-agent",
+            "source": "GitHub Changelog",
+            "source_name": "Official AI Updates"
+          },
+          "sources": [
+            {
+              "story_id": "story_11ed83f3e906",
+              "title": "GitHub Mobile：用Copilot cloud agent修复失败的Actions检查 / GitHub Mobile: Fix failing Actions checks with Copilot cloud agent",
+              "url": "https://github.blog/changelog/2026-07-23-github-mobile-fix-failing-actions-checks-with-copilot-cloud-agent",
+              "source": "GitHub Changelog",
+              "site_id": "",
+              "official": true
+            }
+          ],
+          "summary_zh": "GitHub Mobile 新增功能：当 PR 的 Actions 检查失败时，可一键调用 Copilot cloud agent 调查并创建新 PR 修复，用户审查后合并。",
+          "why_it_matters": "将 CI 修复能力带入移动端，开发者可随时处理构建失败，减少上下文切换，提升远程协作效率。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "GitHub Mobile 也能修 CI 了，Copilot 一键开 PR",
+              "angle": "刚在手机上试了试，Actions 失败点 Fix with Copilot，它直接开新 PR 分析日志并改代码，体验很流畅。",
+              "needs_hands_on": true,
+              "risk": "未亲测实际修复准确率，可能仅适用于常见错误模式。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "手机修 CI 失败？GitHub Mobile + Copilot 实操步骤",
+              "angle": "手把手教你用 GitHub Mobile 的 Copilot 修复 Actions 检查失败，从点击到合并全流程截图。",
+              "needs_hands_on": true,
+              "risk": "需验证是否所有 Actions 失败类型都支持，以及新 PR 的代码质量。"
+            },
+            {
+              "platform": "wechat",
+              "title": "GitHub Mobile 新能力：Copilot 代理修复 CI，移动开发工作流再进化",
+              "angle": "分析 GitHub 将 Copilot agent 能力下沉到移动端的战略意义，以及对开发者远程协作和 CI 运维的影响。",
+              "needs_hands_on": false,
+              "risk": ""
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_ab477d357e82",
+          "creator_event_id": "creator-0b8499c6aec8fc64",
+          "merged_story_ids": [
+            "story_ab477d357e82"
+          ],
+          "title": "Show HN: BDFL – 面向Codex和Claude Code的开源监督工具 / Show HN: BDFL – Open-source supervisor for Codex and Claude Code",
+          "url": "https://usebdfl.com",
+          "primary_url": "https://usebdfl.com",
+          "source": "HN Algolia · AI 24h",
+          "source_name": "Hacker News",
+          "source_count": 1,
+          "source_names": [
+            "HN Algolia · AI 24h"
+          ],
+          "score": 0.496,
+          "importance": 0.496,
+          "importance_score": 0.496,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.468,
+            "source_tier": 0.32,
+            "ai_relevance": 0.65,
+            "recency": 0.8622,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-07-23T17:27:40Z",
+          "latest_at": "2026-07-23T17:27:40Z",
+          "creator_score": 81.7,
+          "creator_breakdown": {
+            "relevance": 1.0,
+            "freshness": 0.8896,
+            "source": 0.58,
+            "impact": 0.81,
+            "novelty": 0.85,
+            "heat": 0.3236
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "claude-code",
+          "verification_status": "rumor",
+          "creator_reasons": [
+            "entity:claude-code",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "8f802969a350f9c757f04b3f46db6b8843415886",
+            "title": "Show HN: BDFL – 面向Codex和Claude Code的开源监督工具 / Show HN: BDFL – Open-source supervisor for Codex and Claude Code",
+            "title_zh": "Show HN: BDFL – 面向Codex和Claude Code的开源监督工具",
+            "title_en": "Show HN: BDFL – Open-source supervisor for Codex and Claude Code",
+            "title_original": "Show HN: BDFL – Open-source supervisor for Codex and Claude Code",
+            "url": "https://usebdfl.com",
+            "source": "HN Algolia · AI 24h",
+            "source_name": "Hacker News"
+          },
+          "sources": [
+            {
+              "story_id": "story_ab477d357e82",
+              "title": "Show HN: BDFL – 面向Codex和Claude Code的开源监督工具 / Show HN: BDFL – Open-source supervisor for Codex and Claude Code",
+              "url": "https://usebdfl.com",
+              "source": "HN Algolia · AI 24h",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "BDFL 是一个开源监督工具，可监控 Codex 和 Claude Code 的代码修改，提供审批、回滚和审计日志功能，增强 AI 编码安全。",
+          "why_it_matters": "为 AI 编码工具引入人工监督层，降低自动生成代码引入风险，适合团队协作和合规场景。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "BDFL 实测：给 Claude Code 加个监督员，代码修改不再失控",
+              "angle": "我试用了 BDFL 监控 Claude Code 的每次文件修改，审批流程简单，回滚方便，但需要确认是否支持所有操作。",
+              "needs_hands_on": true,
+              "risk": "未亲测，需验证对 Codex 和 Claude Code 的兼容性及性能影响。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "AI 写代码不放心？BDFL 开源监督工具安装与避坑指南",
+              "angle": "手把手教你安装 BDFL，配置监控规则，避免 AI 误改关键文件，附常见问题。",
+              "needs_hands_on": true,
+              "risk": "安装步骤和兼容性需实测，不同系统可能遇到依赖问题。"
+            },
+            {
+              "platform": "wechat",
+              "title": "AI 编码安全新范式：BDFL 如何为 Codex 和 Claude Code 加上人工护栏",
+              "angle": "从 AI 编码风险出发，分析 BDFL 的监督机制、审计日志价值，以及对开发工作流的长远影响。",
+              "needs_hands_on": false,
+              "risk": ""
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_82f2dc3d3e59",
+          "creator_event_id": "creator-9e9452502dacdfa1",
+          "merged_story_ids": [
+            "story_82f2dc3d3e59"
+          ],
+          "title": "Runway推出生成式媒体AI模型路由平台系统，全面开启开发者架构服务",
+          "url": "https://www.aibase.com/news/29849",
+          "primary_url": "https://www.aibase.com/news/29849",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "source_count": 1,
+          "source_names": [
+            "AIbase"
+          ],
+          "score": 0.7676,
+          "importance": 0.7676,
+          "importance_score": 0.7676,
+          "importance_label": "行业动态",
+          "importance_breakdown": {
+            "editorial": 0.72,
+            "source_tier": 0.78,
+            "ai_relevance": 1.0,
+            "recency": 1.0,
+            "story_heat": 0.0
+          },
+          "category": "industry",
+          "reasons": [
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-07-24T03:43:28.819091Z",
+          "latest_at": "2026-07-24T03:43:28.819091Z",
+          "creator_score": 78.1,
+          "creator_breakdown": {
+            "relevance": 0.88,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.81,
+            "novelty": 0.75,
+            "heat": 0.4187
+          },
+          "creator_bucket": "ai_coding",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "ai_coding_terms",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "ac80a5a94bdaebe1572f4e4056425797024b3211",
+            "title": "Runway推出生成式媒体AI模型路由平台系统，全面开启开发者架构服务",
+            "title_zh": "Runway推出生成式媒体AI模型路由平台系统，全面开启开发者架构服务",
+            "title_original": "Runway推出生成式媒体AI模型路由平台系统，全面开启开发者架构服务",
+            "summary": "Runway officially launched its intelligent model routing system for generative media, the Runway Media Router, on July 23, 2026. This system aims to provide dev\nRunway officially launched its intelligent model routing system for generative media, the Runway Media Router, on July 23, 2026. This system aims to provide dev\nRunway officially launched its intelligent model routing system for generative media, the Runway Media Router, on July 23, 2026. This system aims to provide dev\nExplore AI Fronti",
+            "recommend_reason_zh": "Runway于2026年7月23日推出智能路由系统Runway Media Router，整合至Runway Dev平台，根据开发者对质量、延迟、Token成本的偏好自动选择最优模型，已有Adobe、Cloudflare等6家公司通过API接入。",
+            "url": "https://www.aibase.com/news/29849",
+            "source": "AIbase",
+            "source_name": "AIbase"
+          },
+          "sources": [
+            {
+              "story_id": "story_82f2dc3d3e59",
+              "title": "Runway推出生成式媒体AI模型路由平台系统，全面开启开发者架构服务",
+              "url": "https://www.aibase.com/news/29849",
+              "source": "AIbase",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "Runway于2026年7月23日推出智能模型路由系统Runway Media Router，整合至Runway Dev平台，根据质量、延迟、成本偏好自动选择最优生成式媒体模型，已",
+          "why_it_matters": "为开发者提供统一的媒体生成API，降低多模型集成与调优成本，可能改变视频/图像生成领域的工具选型格局。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "Runway Media Router实测：一次API调用自动选最优模型",
+              "angle": "作为开发者，我第一时间申请了API，测试了不同场景下路由器的模型选择逻辑，发现对延迟敏感的任务它倾向用轻量模型，而高质量需求则自动切换至Gen-3。",
+              "needs_hands_on": true,
+              "risk": "未亲测，路由策略的具体阈值和模型列表尚未公开"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "Runway Media Router接入教程：三步搞定多模型路由",
+              "angle": "手把手教你注册Runway Dev、获取API Key、配置质量/延迟/成本权重，实测生成一段10秒视频的成本对比。",
+              "needs_hands_on": true,
+              "risk": "API定价和免费额度未确认"
+            },
+            {
+              "platform": "wechat",
+              "title": "Runway推出Media Router：生成式媒体API的“智能交换机”",
+              "angle": "从Runway的模型矩阵（Gen-1/2/3、文本转视频、图像生成）切入，分析路由器如何解决开发者“选模型难”的痛点，以及它对Adobe、Cloudflare等合作伙伴生态的影响。",
+              "needs_hands_on": false,
+              "risk": "合作伙伴的具体集成案例细节有限"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_f00350e081a4",
+          "creator_event_id": "creator-848364f6c31ba204",
+          "merged_story_ids": [
+            "story_f00350e081a4"
+          ],
+          "title": "​App Store今年新上线应用或破百万创新高，AI编程工具催生\"垃圾应用\"海啸",
+          "url": "https://www.aibase.com/news/29858",
+          "primary_url": "https://www.aibase.com/news/29858",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "source_count": 1,
+          "source_names": [
+            "AIbase"
+          ],
+          "score": 0.7676,
+          "importance": 0.7676,
+          "importance_score": 0.7676,
+          "importance_label": "行业动态",
+          "importance_breakdown": {
+            "editorial": 0.72,
+            "source_tier": 0.78,
+            "ai_relevance": 1.0,
+            "recency": 1.0,
+            "story_heat": 0.0
+          },
+          "category": "industry",
+          "reasons": [
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-07-24T03:43:28.819091Z",
+          "latest_at": "2026-07-24T03:43:28.819091Z",
+          "creator_score": 78.1,
+          "creator_breakdown": {
+            "relevance": 0.88,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.81,
+            "novelty": 0.75,
+            "heat": 0.4187
+          },
+          "creator_bucket": "ai_coding",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "ai_coding_terms",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "424451efcce6f730319b2f13ad2820522cccb64d",
+            "title": "​App Store今年新上线应用或破百万创新高，AI编程工具催生\"垃圾应用\"海啸",
+            "title_zh": "​App Store今年新上线应用或破百万创新高，AI编程工具催生\"垃圾应用\"海啸",
+            "title_original": "​App Store今年新上线应用或破百万创新高，AI编程工具催生\"垃圾应用\"海啸",
+            "summary": "According to the latest report by data analysis firm Sensor Tower, the number of new apps added to the Apple App Store in just the first half of this year reach\nAccording to the latest report by data analysis firm Sensor Tower, the number of new apps added to the Apple App Store in just the first half of this year reach\nAccording to the latest report by data analysis firm Sensor Tower, the number of new apps added to the Apple App Store in just the first half of this year reach\nExplore AI Fronti",
+            "recommend_reason_zh": "Sensor Tower数据显示，Apple App Store上半年新应用约56万款，预计2026年全年超100万创新高，但用户下载仅增3%，AI编程工具如Replit和Bolt.new催生大量低质“垃圾应用”。",
+            "url": "https://www.aibase.com/news/29858",
+            "source": "AIbase",
+            "source_name": "AIbase"
+          },
+          "sources": [
+            {
+              "story_id": "story_f00350e081a4",
+              "title": "​App Store今年新上线应用或破百万创新高，AI编程工具催生\"垃圾应用\"海啸",
+              "url": "https://www.aibase.com/news/29858",
+              "source": "AIbase",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "Sensor Tower报告显示，2025上半年App Store新增约56万款应用，预计全年超100万创新高，但用户下载量仅增3%。AI编程工具如Replit、Bolt.new降",
+          "why_it_matters": "AI编程工具让应用开发门槛骤降，但质量参差不齐，开发者需警惕低质应用泛滥对用户信任和平台生态的长期影响。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "我用AI编程工具一天生成了10个App，但99%都是垃圾",
+              "angle": "亲测Replit和Bolt.new生成应用，展示从想法到上架的全过程，对比质量与用户反馈，揭示低质应用泛滥的现状。",
+              "needs_hands_on": true,
+              "risk": "未亲测具体生成应用的质量和App Store审核通过率，数据依赖Sensor Tower报告。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "避坑！AI编程工具生成的App为什么没人下载？附3个提升质量技巧",
+              "angle": "分享使用AI编程工具开发App的踩坑经历，给出提升应用质量的具体步骤和技巧，帮助开发者避免沦为“垃圾应用”制造者。",
+              "needs_hands_on": true,
+              "risk": "技巧有效性需实际验证，不同工具效果可能有差异。"
+            },
+            {
+              "platform": "wechat",
+              "title": "AI编程工具催生“垃圾应用”海啸：开发者该如何应对？",
+              "angle": "分析AI编程工具降低开发门槛的利弊，探讨对App Store生态、开发者竞争和用户信任的长期影响，提出应对策略。",
+              "needs_hands_on": false,
+              "risk": "数据来源为Sensor Tower单一报告，需关注后续更多数据验证。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_af2bcbefc6e7",
+          "creator_event_id": "creator-1fd21a3b9b3fd6c0",
+          "merged_story_ids": [
+            "story_af2bcbefc6e7"
+          ],
+          "title": "Show HN：跨重启休眠与恢复 Claude Code 会话 / Show HN: Hibernate and restore Claude Code sessions across reboots",
+          "url": "https://github.com/SteveVitali/claude-hibernate",
+          "primary_url": "https://github.com/SteveVitali/claude-hibernate",
+          "source": "HN Algolia · AI 24h",
+          "source_name": "Hacker News",
+          "source_count": 1,
+          "source_names": [
+            "HN Algolia · AI 24h"
+          ],
+          "score": 0.4915,
+          "importance": 0.4915,
+          "importance_score": 0.4915,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.468,
+            "source_tier": 0.32,
+            "ai_relevance": 0.65,
+            "recency": 0.8371,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-07-23T15:24:26Z",
+          "latest_at": "2026-07-23T15:24:26Z",
+          "creator_score": 72.9,
+          "creator_breakdown": {
+            "relevance": 1.0,
+            "freshness": 0.8383,
+            "source": 0.58,
+            "impact": 0.43,
+            "novelty": 0.65,
+            "heat": 0.322
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "claude-code",
+          "verification_status": "rumor",
+          "creator_reasons": [
+            "entity:claude-code"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "fb151578af05f0e05849f832d2a769dd5a1799e5",
+            "title": "Show HN：跨重启休眠与恢复 Claude Code 会话 / Show HN: Hibernate and restore Claude Code sessions across reboots",
+            "title_zh": "Show HN：跨重启休眠与恢复 Claude Code 会话",
+            "title_en": "Show HN: Hibernate and restore Claude Code sessions across reboots",
+            "title_original": "Show HN: Hibernate and restore Claude Code sessions across reboots",
+            "url": "https://github.com/SteveVitali/claude-hibernate",
+            "source": "HN Algolia · AI 24h",
+            "source_name": "Hacker News"
+          },
+          "sources": [
+            {
+              "story_id": "story_af2bcbefc6e7",
+              "title": "Show HN：跨重启休眠与恢复 Claude Code 会话 / Show HN: Hibernate and restore Claude Code sessions across reboots",
+              "url": "https://github.com/SteveVitali/claude-hibernate",
+              "source": "HN Algolia · AI 24h",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "开发者 SteveVitali 发布开源工具 claude-hibernate，支持跨重启休眠与恢复 Claude Code 会话，避免每次重启后重新加载上下文。",
+          "why_it_matters": "解决 Claude Code 会话无法持久化的问题，提升长时间开发任务的连续性和效率。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "实测 claude-hibernate：Claude Code 会话终于能跨重启了",
+              "angle": "我试了 claude-hibernate，重启后会话恢复成功，但依赖文件路径和 Claude Code 版本，建议先备份。",
+              "needs_hands_on": true,
+              "risk": "未亲测，需验证不同系统和 Claude Code 版本的兼容性。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "Claude Code 会话持久化教程：用 claude-hibernate 跨重启恢复",
+              "angle": "步骤：安装 claude-hibernate，运行 hibernate 保存状态，重启后 restore。注意保存路径和权限问题。",
+              "needs_hands_on": true,
+              "risk": "未亲测，需确认是否支持所有操作系统。"
+            },
+            {
+              "platform": "wechat",
+              "title": "Claude Code 会话持久化：开源工具 claude-hibernate 解析",
+              "angle": "分析 claude-hibernate 的实现原理（序列化会话状态），对比官方方案，讨论对开发工作流的影响。",
+              "needs_hands_on": false,
+              "risk": "工具为社区项目，非官方，长期维护性未知。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_bfadc5abab8d",
+          "creator_event_id": "creator-52387f812139b917",
+          "merged_story_ids": [
+            "story_bfadc5abab8d"
+          ],
+          "title": "DARPA 与美国空军试飞 AI 操控的 F-16 战机",
+          "url": "https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16",
+          "primary_url": "https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "source_count": 1,
+          "source_names": [
+            "Hacker News 热门（buzzing.cc 中文翻译）"
+          ],
+          "score": 0.802,
+          "importance": 0.802,
+          "importance_score": 0.802,
+          "importance_label": "多源热议",
+          "importance_breakdown": {
+            "editorial": 0.73,
+            "source_tier": 0.78,
+            "ai_relevance": 1.0,
+            "recency": 0.8969,
+            "story_heat": 0.5
+          },
+          "category": "multi_source",
+          "reasons": [
+            "multi_source",
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-07-23T13:51:36Z",
+          "latest_at": "2026-07-23T20:11:31.906000Z",
+          "persona_id": "pragmatic",
+          "persona_score": 20,
+          "persona_review": "军事试验离你太远，没有可复用的工具或API，看看就好。",
+          "creator_score": 71.2,
+          "creator_breakdown": {
+            "relevance": 0.88,
+            "freshness": 0.9579,
+            "source": 0.5,
+            "impact": 0.43,
+            "novelty": 0.55,
+            "heat": 0.7307
+          },
+          "creator_bucket": "ai_coding",
+          "verification_status": "confirmed",
+          "creator_reasons": [
+            "ai_coding_terms"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "ddab2ff28daf418d5d3d1338bdc51af6492938b2",
+            "title": "DARPA 与美国空军试飞 AI 操控的 F-16 战机",
+            "title_zh": "DARPA 与美国空军试飞 AI 操控的 F-16 战机",
+            "title_original": "DARPA 与美国空军试飞 AI 操控的 F-16 战机",
+            "summary": "DARPA 与美国空军成功试飞了由人工智能操控的 F-16 战机。该 AI 系统在真实空战环境中完成了自主飞行与战术机动测试，标志着 AI 在军事航空领域的重大进展。",
+            "recommend_reason_zh": "DARPA与美国空军在VENOM项目下成功试飞AI操控的F-16战机，通过VAK套件实现人类与AI控制切换，为可扩展的自主空战AI开发奠定里程碑式基础。",
+            "url": "https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16",
+            "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+            "source_name": "AI HOT"
+          },
+          "sources": [
+            {
+              "story_id": "story_bfadc5abab8d",
+              "title": "DARPA 与美国空军试飞 AI 操控的 F-16 战机",
+              "url": "https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16",
+              "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "DARPA与美国空军成功试飞AI操控的F-16战机，AI在真实空战中完成自主飞行与战术机动，通过VAK套件实现人类与AI控制切换。",
+          "why_it_matters": "AI在军事航空的突破性进展，可能加速自主系统在复杂环境中的部署，对AI安全与决策可靠性提出更高要求。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "AI开战斗机了？DARPA F-16自主空战实测",
+              "angle": "刚看到DARPA的AI F-16试飞新闻，AI在真实空战中完成战术机动，人类与AI控制切换的VAK套件是关键。这比模拟器测试进了一大步，但距离实战还有多远？",
+              "needs_hands_on": false,
+              "risk": ""
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "AI开战斗机？DARPA F-16自主空战全解析",
+              "angle": "DARPA和美国空军成功试飞AI操控的F-16！AI在真实空战中自主飞行和战术机动，VAK套件实现人机切换。步骤：AI训练→模拟测试→实机试飞。避坑：AI决策可靠性仍需验证。",
+              "needs_hands_on": false,
+              "risk": "AI在真实空战中的具体表现细节未公开，需关注后续报告。"
+            },
+            {
+              "platform": "wechat",
+              "title": "AI操控F-16首飞成功：自主空战离我们还有多远？",
+              "angle": "DARPA的VENOM项目下，AI操控的F-16完成真实空战测试。这不仅是军事突破，更折射出AI在复杂动态环境中的决策能力。从模拟到实机，AI安全与伦理挑战随之而来。",
+              "needs_hands_on": false,
+              "risk": "文章未提及AI的具体算法或训练数据，需进一步核实技术细节。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_b17e627022e6",
+          "creator_event_id": "creator-78863a7afc75bff7",
+          "merged_story_ids": [
+            "story_b17e627022e6"
+          ],
+          "title": "微软MAI模型：以更低成本实现前沿能力规模化 / http://x.com/i/article/2080328073724260352",
+          "url": "https://x.com/satyanadella/status/2080329851127669104",
+          "primary_url": "https://x.com/satyanadella/status/2080329851127669104",
+          "source": "X：Satya Nadella (@satyanadella)",
+          "source_name": "AI HOT",
+          "source_count": 1,
+          "source_names": [
+            "X：Satya Nadella (@satyanadella)"
+          ],
+          "score": 0.7197,
+          "importance": 0.7197,
+          "importance_score": 0.7197,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.65,
+            "source_tier": 0.78,
+            "ai_relevance": 1.0,
+            "recency": 0.8506,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "high_ai_relevance"
+          ],
+          "earliest_at": "2026-07-23T16:31:01Z",
+          "latest_at": "2026-07-23T16:31:01Z",
+          "creator_score": 70.8,
+          "creator_breakdown": {
+            "relevance": 0.95,
+            "freshness": 0.866,
+            "source": 0.5,
+            "impact": 0.43,
+            "novelty": 0.65,
+            "heat": 0.4019
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "github-copilot",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:github-copilot"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "d72daa2e5b7b6321ccd98fbe31c3a75f08bef8e2",
+            "title": "微软MAI模型：以更低成本实现前沿能力规模化 / http://x.com/i/article/2080328073724260352",
+            "title_zh": "微软MAI模型：以更低成本实现前沿能力规模化",
+            "title_en": "http://x.com/i/article/2080328073724260352",
+            "title_original": "http://x.com/i/article/2080328073724260352",
+            "summary": "微软CEO Satya Nadella详解MAI模型家族战略：通过优化成本-效果前沿，MAI模型在GitHub Copilot、Excel等产品中已用更少token超越通用前沿模型。核心是构建独立于模型的评估系统，让模型在产品真实环境中学习并完成用户关心的任务。微软正将这一模板通过Foundry平台开放给企业客户。",
+            "url": "https://x.com/satyanadella/status/2080329851127669104",
+            "source": "X：Satya Nadella (@satyanadella)",
+            "source_name": "AI HOT"
+          },
+          "sources": [
+            {
+              "story_id": "story_b17e627022e6",
+              "title": "微软MAI模型：以更低成本实现前沿能力规模化 / http://x.com/i/article/2080328073724260352",
+              "url": "https://x.com/satyanadella/status/2080329851127669104",
+              "source": "X：Satya Nadella (@satyanadella)",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "微软CEO Satya Nadella详解MAI模型家族战略，通过优化成本-效果前沿，在GitHub Copilot等产品中用更少token超越通用前沿模型，并开放Foundry平",
+          "why_it_matters": "MAI模型以更低成本实现同等或更好效果，可能改变开发者对GitHub Copilot等AI Coding工具的选择和成本预期。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "微软MAI模型实测：GitHub Copilot真的更省token了吗？",
+              "angle": "作为开发者，我第一时间在Copilot中对比了MAI模型和GPT-4o的token消耗与代码质量，发现...",
+              "needs_hands_on": true,
+              "risk": "MAI模型在Copilot中的具体token节省比例和效果尚未公开详细基准，需实际测试验证。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "微软MAI模型省钱攻略：Copilot用户如何切换模型省token？",
+              "angle": "手把手教你如何在GitHub Copilot设置中启用MAI模型，实测代码补全和生成的token消耗对比，附避坑指南。",
+              "needs_hands_on": true,
+              "risk": "MAI模型在Copilot中的切换入口和默认模型设置可能因版本而异，需确认当前可用性。"
+            },
+            {
+              "platform": "wechat",
+              "title": "微软MAI模型深度解读：低成本AI Coding背后的工程哲学",
+              "angle": "从Satya Nadella的发言看微软AI战略：MAI模型如何通过产品内评估系统实现更优成本-效果比，以及对开发者工作流的长期影响。",
+              "needs_hands_on": false,
+              "risk": "文章基于单一来源（Satya Nadella的X帖子），缺乏第三方验证和具体性能数据。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_2b568f908abb",
+          "creator_event_id": "creator-615c11792cb80c73",
+          "merged_story_ids": [
+            "story_2b568f908abb"
+          ],
+          "title": "MCP servers中的ANSI转义注入：人类不可见，AI可见 / ANSI escape injection in MCP servers: Hidden from humans, visible to AI",
+          "url": "https://news.ycombinator.com/item?id=48989006",
+          "primary_url": "https://news.ycombinator.com/item?id=48989006",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "source_count": 1,
+          "source_names": [
+            "hackernews"
+          ],
+          "score": 0.4876,
+          "importance": 0.4876,
+          "importance_score": 0.4876,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.468,
+            "source_tier": 0.32,
+            "ai_relevance": 0.65,
+            "recency": 0.8153,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-07-23T13:35:13.140000Z",
+          "latest_at": "2026-07-23T13:35:13.140000Z",
+          "creator_score": 67.4,
+          "creator_breakdown": {
+            "relevance": 0.9,
+            "freshness": 0.7927,
+            "source": 0.5,
+            "impact": 0.43,
+            "novelty": 0.65,
+            "heat": 0.3207
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "mcp",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:mcp",
+            "ai_coding_terms"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "9503c93d0e3bae2b076a52e178dbd5e636903b26",
+            "title": "MCP servers中的ANSI转义注入：人类不可见，AI可见 / ANSI escape injection in MCP servers: Hidden from humans, visible to AI",
+            "title_zh": "MCP servers中的ANSI转义注入：人类不可见，AI可见",
+            "title_en": "ANSI escape injection in MCP servers: Hidden from humans, visible to AI",
+            "title_original": "ANSI escape injection in MCP servers: Hidden from humans, visible to AI",
+            "url": "https://news.ycombinator.com/item?id=48989006",
+            "source": "hackernews",
+            "source_name": "NewsNow"
+          },
+          "sources": [
+            {
+              "story_id": "story_2b568f908abb",
+              "title": "MCP servers中的ANSI转义注入：人类不可见，AI可见 / ANSI escape injection in MCP servers: Hidden from humans, visible to AI",
+              "url": "https://news.ycombinator.com/item?id=48989006",
+              "source": "hackernews",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "安全研究员发现MCP服务器存在ANSI转义注入漏洞，攻击者可隐藏恶意内容不被人类审查，但AI模型仍会读取并执行，威胁AI Coding工具链安全。",
+          "why_it_matters": "该漏洞利用人类与AI对终端输出解析差异，可绕过代码审查，导致AI误信恶意指令，直接影响MCP生态信任度。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "MCP服务器ANSI注入：你的AI助手可能被隐藏指令操控",
+              "angle": "刚看到Hacker News上这个漏洞，赶紧试了下，发现确实能隐藏恶意代码。大家用MCP时一定要小心，别让AI被带偏。",
+              "needs_hands_on": true,
+              "risk": "未亲测，需验证具体注入场景和影响范围"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "MCP服务器ANSI注入漏洞详解：如何保护你的AI Coding工具",
+              "angle": "今天发现一个MCP服务器的安全漏洞，ANSI转义字符能让恶意内容对开发者不可见，但AI会读取。分享几个避坑方法：检查终端输出、限制MCP来源、更新安全策略。",
+              "needs_hands_on": true,
+              "risk": "未亲测，需验证修复方案有效性"
+            },
+            {
+              "platform": "wechat",
+              "title": "MCP生态安全警钟：ANSI转义注入如何威胁AI Coding工作流",
+              "angle": "MCP协议正成为AI Coding基础设施，但新发现的ANSI转义注入漏洞暴露了人机协作的信任盲区。本文分析漏洞原理、攻击场景及对开发工作流的长期影响。",
+              "needs_hands_on": false,
+              "risk": "单源报道，需等待官方确认或更多复现"
+            }
+          ],
+          "enrichment_mode": "cache"
+        },
+        {
+          "story_id": "story_bdddcace0e55",
+          "creator_event_id": "creator-4305a51e0a7fbd8f",
+          "merged_story_ids": [
+            "story_bdddcace0e55"
+          ],
+          "title": "腾讯云推出 CodeBuddy NPC：从代码助手走向端到端自主研发智能体",
+          "url": "https://www.aibase.com/news/29840",
+          "primary_url": "https://www.aibase.com/news/29840",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "source_count": 1,
+          "source_names": [
+            "AIbase"
+          ],
+          "score": 0.735,
+          "importance": 0.735,
+          "importance_score": 0.735,
+          "importance_label": "行业动态",
+          "importance_breakdown": {
+            "editorial": 0.72,
+            "source_tier": 0.78,
+            "ai_relevance": 1.0,
+            "recency": 0.8187,
+            "story_heat": 0.0
+          },
+          "category": "industry",
+          "reasons": [
+            "high_ai_relevance"
+          ],
+          "earliest_at": "2026-07-23T13:52:33.653339Z",
+          "latest_at": "2026-07-23T13:52:33.653339Z",
+          "creator_score": 66.4,
+          "creator_breakdown": {
+            "relevance": 0.88,
+            "freshness": 0.8,
+            "source": 0.5,
+            "impact": 0.43,
+            "novelty": 0.55,
+            "heat": 0.4073
+          },
+          "creator_bucket": "ai_coding",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "ai_coding_terms"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "5a6c0d116ca0f7d241e9a409b705dc2286eff19f",
+            "title": "腾讯云推出 CodeBuddy NPC：从代码助手走向端到端自主研发智能体",
+            "title_zh": "腾讯云推出 CodeBuddy NPC：从代码助手走向端到端自主研发智能体",
+            "title_original": "腾讯云推出 CodeBuddy NPC：从代码助手走向端到端自主研发智能体",
+            "recommend_reason_zh": "腾讯云CodeBuddy NPC实现端到端自研智能体，开发者只需发任务指令即可独立完成编码、PR、测试并自迭代修复错误，首轮Token消耗从2万降至约2000，降幅超90%。",
+            "url": "https://www.aibase.com/news/29840",
+            "source": "AIbase",
+            "source_name": "AIbase"
+          },
+          "sources": [
+            {
+              "story_id": "story_bdddcace0e55",
+              "title": "腾讯云推出 CodeBuddy NPC：从代码助手走向端到端自主研发智能体",
+              "url": "https://www.aibase.com/news/29840",
+              "source": "AIbase",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "腾讯云于7月23日推出CodeBuddy NPC，从代码助手升级为端到端自主研发智能体，开发者只需下达任务即可自动完成编码、PR、测试并修复错误，首轮Token消耗从2万降至约20",
+          "why_it_matters": "标志着AI Coding从辅助工具向自主智能体演进，大幅降低开发者重复劳动，但端到端可靠性仍需验证。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "腾讯云CodeBuddy NPC实测：Token消耗降90%是噱头还是真香？",
+              "angle": "我第一时间体验了CodeBuddy NPC，看看它能否真的独立完成一个PR并自修复bug。",
+              "needs_hands_on": true,
+              "risk": "Token消耗数据来自官方，未亲测复杂场景下的实际效果。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "腾讯CodeBuddy NPC保姆级教程：从安装到自动提PR全流程",
+              "angle": "手把手教你配置CodeBuddy NPC，附避坑指南和实测对比。",
+              "needs_hands_on": true,
+              "risk": "教程基于官方文档，实际使用中可能遇到环境兼容问题。"
+            },
+            {
+              "platform": "wechat",
+              "title": "从CodeBuddy到NPC：腾讯云AI Coding智能体进化路线分析",
+              "angle": "梳理腾讯云在AI Coding领域的布局，对比GitHub Copilot等竞品，探讨端到端智能体的技术挑战与行业影响。",
+              "needs_hands_on": false,
+              "risk": "部分技术细节来自官方宣传，需交叉验证。"
+            }
+          ],
+          "enrichment_mode": "cache"
+        },
+        {
+          "story_id": "story_f9f7c09a26a3",
+          "creator_event_id": "creator-2ee8033a1e486755",
+          "merged_story_ids": [
+            "story_f9f7c09a26a3"
+          ],
+          "title": "ChatGPT 桌面版上线语音控制多智能体 / ChatGPT Voice is now in the desktop app. Control your computer and direct multiple agents running i…",
+          "url": "https://x.com/OpenAI/status/2080378182469857576",
+          "primary_url": "https://x.com/OpenAI/status/2080378182469857576",
+          "source": "X：OpenAI (@OpenAI)",
+          "source_name": "AI HOT",
+          "source_count": 1,
+          "source_names": [
+            "X：OpenAI (@OpenAI)"
+          ],
+          "score": 0.7689,
+          "importance": 0.7689,
+          "importance_score": 0.7689,
+          "importance_label": "行业动态",
+          "importance_breakdown": {
+            "editorial": 0.79,
+            "source_tier": 0.78,
+            "ai_relevance": 1.0,
+            "recency": 0.8908,
+            "story_heat": 0.0
+          },
+          "category": "industry",
+          "reasons": [
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-07-23T19:43:04Z",
+          "latest_at": "2026-07-23T19:43:04Z",
+          "persona_id": "pragmatic",
+          "persona_score": 65,
+          "persona_review": "桌面端语音控多智能体，适合自动化工作流，但需等API开放才能集成。",
+          "creator_score": 79.4,
+          "creator_breakdown": {
+            "relevance": 0.68,
+            "freshness": 0.946,
+            "source": 1.0,
+            "impact": 0.63,
+            "novelty": 0.85,
+            "heat": 0.4191
+          },
+          "creator_bucket": "general_ai",
+          "primary_entity": "openai",
+          "verification_status": "confirmed",
+          "creator_reasons": [
+            "entity:openai",
+            "workflow_impact",
+            "official_or_tier0_source"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "ca78f89ce07d3e329a5f0e5b085de37423eed476",
+            "title": "ChatGPT 桌面版上线语音控制多智能体 / ChatGPT Voice is now in the desktop app. Control your computer and direct multiple agents running i…",
+            "title_zh": "ChatGPT 桌面版上线语音控制多智能体",
+            "title_en": "ChatGPT Voice is now in the desktop app. Control your computer and direct multiple agents running i…",
+            "title_original": "ChatGPT Voice is now in the desktop app. Control your computer and direct multiple agents running i…",
+            "summary": "ChatGPT 语音功能现已登陆桌面应用。\n\n只需使用语音，即可控制你的电脑，并指挥在 ChatGPT Work 或 Codex 中运行的多个智能体。\n\n该功能由 GPT-Live 驱动，因此它能够同时在该应用中说话、聆听并协调工作。\n\n今日起，面向 macOS 和 Windows 平台的 Plus、Pro、Business、Edu 及 Enterprise 计划用户全球推送。",
+            "recommend_reason_zh": "ChatGPT Voice现已登陆桌面app，基于GPT-Live实现语音控制电脑、指挥ChatGPT Work或Codex中的多个agent，支持同时听说与协调工作，今天全球上线。",
+            "url": "https://x.com/OpenAI/status/2080378182469857576",
+            "source": "X：OpenAI (@OpenAI)",
+            "source_name": "AI HOT"
+          },
+          "sources": [
+            {
+              "story_id": "story_f9f7c09a26a3",
+              "title": "ChatGPT 桌面版上线语音控制多智能体 / ChatGPT Voice is now in the desktop app. Control your computer and direct multiple agents running i…",
+              "url": "https://x.com/OpenAI/status/2080378182469857576",
+              "source": "X：OpenAI (@OpenAI)",
+              "site_id": "",
+              "official": true
+            }
+          ],
+          "summary_zh": "OpenAI 宣布 ChatGPT 桌面版语音功能上线，支持语音控制电脑及指挥 ChatGPT Work 或 Codex 中的多个智能体，由 GPT-Live 驱动，今日起向 Pl",
+          "why_it_matters": "语音控制多智能体将改变开发者与 AI 的交互方式，可能提升编码和任务编排效率，但实际延迟和准确度待验证。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "ChatGPT 桌面语音实测：一句话指挥多个 Codex agent 干活",
+              "angle": "我第一时间更新了桌面版，试试用语音同时调度几个 Codex agent 写代码和查文档，看看响应速度和准确度如何。",
+              "needs_hands_on": true,
+              "risk": "未亲测语音控制多 agent 的协调效果和延迟，官方称由 GPT-Live 驱动，但实际表现未知。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "ChatGPT 桌面语音控制多 agent 教程：设置、技巧与避坑",
+              "angle": "手把手教你开启 ChatGPT 桌面语音，如何用语音指挥多个 agent 完成编码任务，以及常见问题（如语音识别不准、agent 冲突）的解决方法。",
+              "needs_hands_on": true,
+              "risk": "需要实际测试不同场景下的语音识别准确率和 agent 协调稳定性。"
+            },
+            {
+              "platform": "wechat",
+              "title": "ChatGPT 桌面语音多智能体上线：AI 编程工作流的新范式？",
+              "angle": "从交互方式演进角度分析，语音控制多 agent 对开发者工作流的影响，对比传统键盘/鼠标操作，探讨效率提升与潜在风险。",
+              "needs_hands_on": false,
+              "risk": "多 agent 协调的实际效果和适用场景尚未有大规模用户反馈，需持续观察。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_542d81ae471d",
+          "creator_event_id": "creator-f3abf78957c8a4d5",
+          "merged_story_ids": [
+            "story_542d81ae471d"
+          ],
+          "title": "Copilot 的 Linear 云代理现已全面可用 / Copilot cloud agent for Linear is now generally available",
+          "url": "https://github.blog/changelog/2026-07-23-copilot-cloud-agent-for-linear-is-now-generally-available",
+          "primary_url": "https://github.blog/changelog/2026-07-23-copilot-cloud-agent-for-linear-is-now-generally-available",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "source_count": 1,
+          "source_names": [
+            "GitHub Changelog"
+          ],
+          "score": 0.845,
+          "importance": 0.845,
+          "importance_score": 0.845,
+          "importance_label": "官方更新",
+          "importance_breakdown": {
+            "editorial": 0.9,
+            "source_tier": 1.0,
+            "ai_relevance": 0.94,
+            "recency": 0.9279,
+            "story_heat": 0.0
+          },
+          "category": "official",
+          "reasons": [
+            "official_source",
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-07-23T22:32:23Z",
+          "latest_at": "2026-07-23T22:32:23Z",
+          "persona_id": "pragmatic",
+          "persona_score": 72,
+          "persona_review": "Linear用户可直接用Copilot代理管理任务，省去手动操作，今天就能试。",
+          "creator_score": 76.0,
+          "creator_breakdown": {
+            "relevance": 0.4957,
+            "freshness": 1.0,
+            "source": 1.0,
+            "impact": 0.76,
+            "novelty": 0.75,
+            "heat": 0.4457
+          },
+          "creator_bucket": "general_ai",
+          "verification_status": "confirmed",
+          "creator_reasons": [
+            "workflow_impact",
+            "official_or_tier0_source"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "09274412181224c288c30c79cc8cd092e8a6df03",
+            "title": "Copilot 的 Linear 云代理现已全面可用 / Copilot cloud agent for Linear is now generally available",
+            "title_zh": "Copilot 的 Linear 云代理现已全面可用",
+            "title_en": "Copilot cloud agent for Linear is now generally available",
+            "title_original": "Copilot cloud agent for Linear is now generally available",
+            "summary": "You can now assign issues in Linear to Copilot cloud agent, our asynchronous, autonomous background agent. When you assign a Linear issue to Copilot, it will: Analyze the issue contents…\nYou can now assign issues in Linear to Copilot cloud agent , our asynchronous, autonomous background agent.\nWhen you assign a Linear issue to Copilot, it will:\nYou now have more control over how the agent runs, right from your Linear workspace:\nSet these per issue, or apply them across your workspace or team wit",
+            "recommend_reason_zh": "GitHub宣布Copilot cloud agent for Linear正式上线，可异步自主处理分配给它的Linear问题，并支持按工作空间或团队设置运行规则，适用于Copilot Pro、Pro+、Business和Enterprise。",
+            "url": "https://github.blog/changelog/2026-07-23-copilot-cloud-agent-for-linear-is-now-generally-available",
+            "source": "GitHub Changelog",
+            "source_name": "Official AI Updates"
+          },
+          "sources": [
+            {
+              "story_id": "story_542d81ae471d",
+              "title": "Copilot 的 Linear 云代理现已全面可用 / Copilot cloud agent for Linear is now generally available",
+              "url": "https://github.blog/changelog/2026-07-23-copilot-cloud-agent-for-linear-is-now-generally-available",
+              "source": "GitHub Changelog",
+              "site_id": "",
+              "official": true
+            }
+          ],
+          "summary_zh": "GitHub 宣布 Copilot cloud agent for Linear 正式上线，可异步自主处理分配给它的 Linear 问题，并支持按工作空间或团队设置运行规则，适用于",
+          "why_it_matters": "开发者可将项目管理任务委托给 AI 代理异步执行，减少手动跟踪和分配工作，提升 Linear 工作流自动化程度。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "Copilot 云代理接管 Linear：我让它处理了一个 Sprint 的全部 Issue",
+              "angle": "实测将 Linear 中的多个 issue 分配给 Copilot cloud agent，观察其分析、分类和更新状态的效果，对比手动操作的时间差。",
+              "needs_hands_on": true,
+              "risk": "未亲测代理在复杂依赖或跨团队协作场景下的表现，可能无法处理需要人工决策的边界情况。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "Copilot 云代理 + Linear 配置指南：三步让 AI 帮你管项目",
+              "angle": "以图文步骤展示如何在 Linear 工作空间中启用 Copilot cloud agent，设置每 issue 或团队级别的运行规则，并分享避坑经验。",
+              "needs_hands_on": true,
+              "risk": "配置界面可能随版本更新变化，需确认当前 UI 与截图一致。"
+            },
+            {
+              "platform": "wechat",
+              "title": "Copilot 云代理全面可用：AI 异步管理项目工作流的新范式",
+              "angle": "分析 Copilot cloud agent 对项目管理流程的长期影响，对比传统手动分配与 AI 代理的优劣，探讨团队协作模式的潜在变化。",
+              "needs_hands_on": false,
+              "risk": "代理的实际准确性和可靠性需长期观察，官方未提供详细基准测试数据。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_67f808f67eb4",
+          "creator_event_id": "creator-9fd5217c853a4fe0",
+          "merged_story_ids": [
+            "story_67f808f67eb4"
+          ],
+          "title": "Anthropic 用更强的模型更新了 Claude 语音模式 / Anthropic updates Claude voice mode with more capable models",
+          "url": "https://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models",
+          "primary_url": "https://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models",
+          "source": "TechCrunch AI",
+          "source_name": "Curated Media",
+          "source_count": 1,
+          "source_names": [
+            "TechCrunch AI"
+          ],
+          "score": 0.6274,
+          "importance": 0.6274,
+          "importance_score": 0.6274,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.5904,
+            "source_tier": 0.58,
+            "ai_relevance": 0.82,
+            "recency": 0.8816,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "high_ai_relevance"
+          ],
+          "earliest_at": "2026-07-23T19:00:00Z",
+          "latest_at": "2026-07-23T19:00:00Z",
+          "creator_score": 74.4,
+          "creator_breakdown": {
+            "relevance": 0.68,
+            "freshness": 0.9281,
+            "source": 0.78,
+            "impact": 0.63,
+            "novelty": 0.85,
+            "heat": 0.3696
+          },
+          "creator_bucket": "general_ai",
+          "primary_entity": "anthropic",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:anthropic",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "75f7257c8151fd2cc9d8f4156fbaa9d8e37e74ab",
+            "title": "Anthropic 用更强的模型更新了 Claude 语音模式 / Anthropic updates Claude voice mode with more capable models",
+            "title_zh": "Anthropic 用更强的模型更新了 Claude 语音模式",
+            "title_en": "Anthropic updates Claude voice mode with more capable models",
+            "title_original": "Anthropic updates Claude voice mode with more capable models",
+            "url": "https://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models",
+            "source": "TechCrunch AI",
+            "source_name": "Curated Media"
+          },
+          "sources": [
+            {
+              "story_id": "story_67f808f67eb4",
+              "title": "Anthropic 用更强的模型更新了 Claude 语音模式 / Anthropic updates Claude voice mode with more capable models",
+              "url": "https://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models",
+              "source": "TechCrunch AI",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "Anthropic 更新了 Claude 语音模式，采用更强模型以提升对话质量和响应速度。",
+          "why_it_matters": "语音交互能力增强，可能改变开发者通过语音与 AI 协作的方式，提升编码效率。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "实测 Claude 新语音模式：编程对话体验如何？",
+              "angle": "我第一时间试用了更新后的 Claude 语音模式，在代码审查和调试场景中测试其响应准确性和延迟。",
+              "needs_hands_on": true,
+              "risk": "未亲测，具体模型版本和性能提升幅度需核实。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "Claude 语音模式升级！手把手教你用语音写代码",
+              "angle": "分享如何利用新语音模式进行代码片段生成、错误解释和架构讨论，附实测步骤和避坑指南。",
+              "needs_hands_on": true,
+              "risk": "语音模式对中文编程术语的识别准确率待验证。"
+            },
+            {
+              "platform": "wechat",
+              "title": "Anthropic 升级 Claude 语音模式：AI 编程交互的下一个入口？",
+              "angle": "分析语音模式增强对开发者工作流的影响，对比 GitHub Copilot Chat 等竞品，探讨语音编程的长期趋势。",
+              "needs_hands_on": false,
+              "risk": "文章为单来源报道，缺乏官方详细技术说明。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_2f6f9986db3e",
+          "creator_event_id": "creator-666da508734343aa",
+          "merged_story_ids": [
+            "story_2f6f9986db3e"
+          ],
+          "title": "Projects和Issues的多选字段公开预览 / Multi-select fields for Projects and Issues in public preview",
+          "url": "https://github.blog/changelog/2026-07-23-multi-select-fields-for-projects-and-issues-in-public-preview",
+          "primary_url": "https://github.blog/changelog/2026-07-23-multi-select-fields-for-projects-and-issues-in-public-preview",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "source_count": 1,
+          "source_names": [
+            "GitHub Changelog"
+          ],
+          "score": 0.8211,
+          "importance": 0.8211,
+          "importance_score": 0.8211,
+          "importance_label": "官方更新",
+          "importance_breakdown": {
+            "editorial": 0.9,
+            "source_tier": 1.0,
+            "ai_relevance": 0.87,
+            "recency": 0.873,
+            "story_heat": 0.0
+          },
+          "category": "official",
+          "reasons": [
+            "official_source",
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-07-23T18:19:14Z",
+          "latest_at": "2026-07-23T18:19:14Z",
+          "persona_id": "pragmatic",
+          "persona_score": 75,
+          "persona_review": "项目管理更灵活了，今天就能用上，适合多标签场景。",
+          "creator_score": 72.0,
+          "creator_breakdown": {
+            "relevance": 0.4874,
+            "freshness": 0.9111,
+            "source": 1.0,
+            "impact": 0.63,
+            "novelty": 0.75,
+            "heat": 0.4374
+          },
+          "creator_bucket": "general_ai",
+          "verification_status": "confirmed",
+          "creator_reasons": [
+            "workflow_impact",
+            "official_or_tier0_source"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "8fa7ae04b69a16a5964a8631df7b060c45ad167d",
+            "title": "Projects和Issues的多选字段公开预览 / Multi-select fields for Projects and Issues in public preview",
+            "title_zh": "Projects和Issues的多选字段公开预览",
+            "title_en": "Multi-select fields for Projects and Issues in public preview",
+            "title_original": "Multi-select fields for Projects and Issues in public preview",
+            "summary": "You can now create multi-select fields in Projects and Issue fields so a single field can hold more than one value. Tag an item with everything it relates to (e.g.,…\nYou can now create multi-select fields in Projects and Issue fields so a single field can hold more than one value. Tag an item with everything it relates to (e.g., multiple teams, modules, or categories) instead of picking just one.\nIssue Fields\nProjects Fields\nTo try it, create or edit a field and choose the multi-select type. You",
+            "recommend_reason_zh": "GitHub 现推出 Projects 和 Issues 的多选字段功能，一个字段可容纳多个值（如团队、模块），从侧边栏设置并筛选，提升项目管理灵活性。",
+            "url": "https://github.blog/changelog/2026-07-23-multi-select-fields-for-projects-and-issues-in-public-preview",
+            "source": "GitHub Changelog",
+            "source_name": "Official AI Updates"
+          },
+          "sources": [
+            {
+              "story_id": "story_2f6f9986db3e",
+              "title": "Projects和Issues的多选字段公开预览 / Multi-select fields for Projects and Issues in public preview",
+              "url": "https://github.blog/changelog/2026-07-23-multi-select-fields-for-projects-and-issues-in-public-preview",
+              "source": "GitHub Changelog",
+              "site_id": "",
+              "official": true
+            }
+          ],
+          "summary_zh": "GitHub 宣布 Projects 和 Issues 的多选字段功能进入公开预览，允许一个字段包含多个值（如团队、模块），可从侧边栏设置并筛选。",
+          "why_it_matters": "提升项目管理灵活性，减少字段冗余，使标签和分类更精确，影响开发者工作流中的任务组织与筛选效率。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "GitHub 多选字段来了，项目管理终于不用建一堆单选框",
+              "angle": "刚试了 GitHub 新的多选字段，一个字段能选多个团队/模块，侧边栏直接筛选，比之前灵活太多。",
+              "needs_hands_on": true,
+              "risk": "公开预览阶段，可能有不稳定或 API 变更，未亲测实际筛选性能。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "GitHub 多选字段设置教程｜项目管理效率翻倍",
+              "angle": "手把手教你创建多选字段，从侧边栏添加多个标签，筛选时一键定位跨团队任务。",
+              "needs_hands_on": true,
+              "risk": "需确认是否支持所有 GitHub 计划（免费/团队/企业），未验证。"
+            },
+            {
+              "platform": "wechat",
+              "title": "GitHub 多选字段公开预览：项目管理字段设计的演进",
+              "angle": "从单选到多选，GitHub 如何解决跨团队标签痛点，以及这对大型项目工作流的长期影响。",
+              "needs_hands_on": false,
+              "risk": ""
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_68b5c660d348",
+          "creator_event_id": "creator-f048048cebcb21e1",
+          "merged_story_ids": [
+            "story_68b5c660d348"
+          ],
+          "title": "OpenAI新发布令软件股雪上加霜 / OpenAI's new release turns a bad week ugly for software stocks",
+          "url": "https://www.businessinsider.com/openai-release-turns-a-bad-week-ugly-for-software-stocks-2026-7",
+          "primary_url": "https://www.businessinsider.com/openai-release-turns-a-bad-week-ugly-for-software-stocks-2026-7",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "source_count": 1,
+          "source_names": [
+            "Business Insider"
+          ],
+          "score": 0.5071,
+          "importance": 0.5071,
+          "importance_score": 0.5071,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.468,
+            "source_tier": 0.32,
+            "ai_relevance": 0.65,
+            "recency": 0.9238,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-07-23T22:14:12Z",
+          "latest_at": "2026-07-23T22:14:12Z",
+          "creator_score": 71.9,
+          "creator_breakdown": {
+            "relevance": 0.68,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.76,
+            "novelty": 0.85,
+            "heat": 0.3275
+          },
+          "creator_bucket": "general_ai",
+          "primary_entity": "openai",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:openai",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "8d19d0b422810ef82aacf3d462728734576a1ca8",
+            "title": "OpenAI新发布令软件股雪上加霜 / OpenAI's new release turns a bad week ugly for software stocks",
+            "title_zh": "OpenAI新发布令软件股雪上加霜",
+            "title_en": "OpenAI's new release turns a bad week ugly for software stocks",
+            "title_original": "OpenAI's new release turns a bad week ugly for software stocks",
+            "url": "https://www.businessinsider.com/openai-release-turns-a-bad-week-ugly-for-software-stocks-2026-7",
+            "source": "Business Insider",
+            "source_name": "TechURLs"
+          },
+          "sources": [
+            {
+              "story_id": "story_68b5c660d348",
+              "title": "OpenAI新发布令软件股雪上加霜 / OpenAI's new release turns a bad week ugly for software stocks",
+              "url": "https://www.businessinsider.com/openai-release-turns-a-bad-week-ugly-for-software-stocks-2026-7",
+              "source": "Business Insider",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "Business Insider报道，OpenAI新发布加剧软件股下跌，市场担忧AI工具将取代传统软件产品，引发投资者抛售。",
+          "why_it_matters": "AI Coding工具可能颠覆传统软件商业模式，开发者需关注工作流与工具链的长期变化。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "OpenAI新发布让软件股暴跌，AI Coding要革SaaS的命？",
+              "angle": "刚看到BI报道，OpenAI新发布后软件股跌惨了。我试用了一下，感觉很多传统软件功能确实能被AI替代。",
+              "needs_hands_on": true,
+              "risk": "未亲测OpenAI新发布的具体能力，市场反应可能过度解读。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "OpenAI新发布后软件股暴跌，我的SaaS订阅该不该退？",
+              "angle": "今天软件股大跌，原因是OpenAI又发新东西了。我对比了AI工具和常用软件的功能，发现有些真的可以替代。",
+              "needs_hands_on": true,
+              "risk": "未实际对比所有软件功能，替代性需具体验证。"
+            },
+            {
+              "platform": "wechat",
+              "title": "OpenAI新发布引发软件股恐慌：AI Coding如何重塑SaaS格局",
+              "angle": "OpenAI最新发布导致软件板块大跌，市场担忧AI将取代传统软件。本文分析AI Coding对开发者工具链和软件商业模式的长期影响。",
+              "needs_hands_on": false,
+              "risk": "报道仅基于单一来源，需关注后续市场反应和产品细节。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_1650bfbff40b",
+          "creator_event_id": "creator-e3eda98ed367f47a",
+          "merged_story_ids": [
+            "story_1650bfbff40b"
+          ],
+          "title": "GitHub Issues 中的 Agent 自动化控制现已公开预览 / Agent automation controls in GitHub Issues in public preview",
+          "url": "https://github.blog/changelog/2026-07-23-agent-automation-controls-in-github-issues-in-public-preview",
+          "primary_url": "https://github.blog/changelog/2026-07-23-agent-automation-controls-in-github-issues-in-public-preview",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "source_count": 1,
+          "source_names": [
+            "GitHub Changelog"
+          ],
+          "score": 0.8149,
+          "importance": 0.8149,
+          "importance_score": 0.8149,
+          "importance_label": "官方更新",
+          "importance_breakdown": {
+            "editorial": 0.9,
+            "source_tier": 1.0,
+            "ai_relevance": 0.87,
+            "recency": 0.8383,
+            "story_heat": 0.0
+          },
+          "category": "official",
+          "reasons": [
+            "official_source",
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-07-23T15:30:29Z",
+          "latest_at": "2026-07-23T15:30:29Z",
+          "persona_id": "pragmatic",
+          "persona_score": 75,
+          "persona_review": "能自动化处理Issue，减少手动操作，今天就能试，但注意是公开预览。",
+          "creator_score": 70.5,
+          "creator_breakdown": {
+            "relevance": 0.4852,
+            "freshness": 0.8408,
+            "source": 1.0,
+            "impact": 0.63,
+            "novelty": 0.75,
+            "heat": 0.4352
+          },
+          "creator_bucket": "general_ai",
+          "verification_status": "confirmed",
+          "creator_reasons": [
+            "workflow_impact",
+            "official_or_tier0_source"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "bc43672efad43350530cee56250f555e6a0d9b73",
+            "title": "GitHub Issues 中的 Agent 自动化控制现已公开预览 / Agent automation controls in GitHub Issues in public preview",
+            "title_zh": "GitHub Issues 中的 Agent 自动化控制现已公开预览",
+            "title_en": "Agent automation controls in GitHub Issues in public preview",
+            "title_original": "Agent automation controls in GitHub Issues in public preview",
+            "summary": "Agent automations increasingly label, type, assign, and close issues for you. GitHub Issues now shows the reason behind each change and lets you review them before they’re applied, so you…\nAgent automations increasingly label, type, assign, and close issues for you. GitHub Issues now shows the reason behind each change and lets you review them before they’re applied, so you decide how much to automate and when to stay in the loop.\nWe’ve released three new capabilities:\nUse has:suggestions in iss",
+            "recommend_reason_zh": "GitHub Issues公开预览新增agent自动化控制，支持has:suggestions搜索待审变更，允许仓库管理员设置置信度阈值，自动或手动应用标签、字段、类型、关闭和指派等操作。",
+            "url": "https://github.blog/changelog/2026-07-23-agent-automation-controls-in-github-issues-in-public-preview",
+            "source": "GitHub Changelog",
+            "source_name": "Official AI Updates"
+          },
+          "sources": [
+            {
+              "story_id": "story_1650bfbff40b",
+              "title": "GitHub Issues 中的 Agent 自动化控制现已公开预览 / Agent automation controls in GitHub Issues in public preview",
+              "url": "https://github.blog/changelog/2026-07-23-agent-automation-controls-in-github-issues-in-public-preview",
+              "source": "GitHub Changelog",
+              "site_id": "",
+              "official": true
+            }
+          ],
+          "summary_zh": "GitHub Issues 公开预览新增 Agent 自动化控制，支持 has:suggestions 搜索待审变更，管理员可设置信度阈值，自动或手动应用标签、字段、关闭和指派等操",
+          "why_it_matters": "开发者可精细控制 AI 对 Issue 的自动化操作，减少误操作风险，提升工作流效率与可审计性。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "GitHub Issues Agent 自动化控制上手实测：has:suggestions 搜索与置信度阈值",
+              "angle": "刚试了 GitHub Issues 新的 Agent 自动化控制，用 has:suggestions 搜索待审变更，设置置信度阈值后自动应用标签和指派，效果不错。",
+              "needs_hands_on": true,
+              "risk": "需验证 has:suggestions 搜索是否支持所有 Issue 视图，以及置信度阈值对误判的实际影响。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "GitHub Issues Agent 自动化控制配置教程：从搜索到自动应用",
+              "angle": "手把手教你开启 GitHub Issues Agent 自动化控制，设置 has:suggestions 搜索和置信度阈值，实现自动标签、指派和关闭，附避坑指南。",
+              "needs_hands_on": true,
+              "risk": "需确认仓库管理员权限要求，以及不同置信度阈值下的实际表现。"
+            },
+            {
+              "platform": "wechat",
+              "title": "GitHub Issues 引入 Agent 自动化控制：AI 辅助 Issue 管理的演进与影响",
+              "angle": "GitHub Issues 新增 Agent 自动化控制，从被动响应到主动建议，分析其对开源协作和项目管理流程的长期影响。",
+              "needs_hands_on": false,
+              "risk": "需关注该功能在大型仓库中的性能表现和社区反馈。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        }
+      ],
+      "llm_meta": {
+        "provider": "deepseek",
+        "model": "deepseek-chat",
+        "calls_used": 14,
+        "cache_hits": 2,
+        "fallback_count": 0
+      },
+      "dedup_meta": {
+        "secondary_dedup_merge_count": 3,
+        "secondary_dedup_source_count": 202
+      }
+    },
     {
       "edition_id": "2026-07-23-evening",
       "edition_kind": "evening",

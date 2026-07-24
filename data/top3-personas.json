@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T15:02:46.624079Z",
+  "generated_at": "2026-07-24T03:52:37.440305Z",
   "model": "deepseek-chat",
   "personas": [
     {
@@ -21,62 +21,62 @@
   ],
   "items": [
     {
-      "story_id": "story_e7155e77e138",
-      "title": "GigaToken 发布：语言模型分词速度最高提升约 1000 倍，可无缝替代 HuggingFace Tokenizers",
-      "url": "https://github.com/marcelroed/gigatoken",
+      "story_id": "story_1950d49db06a",
+      "title": "GitHub MCP Server 支持下一代 MCP 规范 / GitHub MCP Server supports the next MCP specification",
+      "url": "https://github.blog/changelog/2026-07-23-github-mcp-server-supports-the-next-mcp-specification",
       "rank": 1,
       "reviews": {
         "cynic": {
-          "score": 72,
-          "review": "1000倍？挑了个最慢的基线吧。不过能无缝替换，至少省了改代码的麻烦。"
+          "score": 68,
+          "review": "支持新规范是好事，但“下一代”这种词用多了容易闪腰。"
         },
         "paper-police": {
-          "score": 85,
-          "review": "GitHub 仓库有代码和性能数据，但缺论文和独立 benchmark，需自行验证。"
+          "score": 25,
+          "review": "只有官方博客宣称支持，无论文无代码无评测，无法验证。"
         },
         "pragmatic": {
-          "score": 88,
-          "review": "开源库已可用，直接替换 HuggingFace tokenizer，批量推理提速明显。"
+          "score": 85,
+          "review": "MCP 新规范已落地，GitHub 集成可直接用，Agent 工具链升级趁早。"
         }
       }
     },
     {
-      "story_id": "story_b7a2b487977e",
-      "title": "将Nunchaku 4位扩散推理引入Diffusers / Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
-      "url": "https://huggingface.co/blog/nunchaku-diffusers",
+      "story_id": "story_37037fdc465b",
+      "title": "Anthropic升级Claude语音模式：支持Opus/Sonnet/Haiku三档切换，可直接调用Gmail和Notion等外部应用",
+      "url": "https://www.aibase.com/news/29850",
       "rank": 2,
       "reviews": {
         "cynic": {
-          "score": 72,
-          "review": "4位推理省显存，但画质损失和速度提升得拿实际跑分说话。"
+          "score": 65,
+          "review": "三档切换是良心，但调用Gmail这种2015年的功能也值得吹？"
         },
         "paper-police": {
-          "score": 45,
-          "review": "博客有技术细节但无独立验证，等论文或代码开源再评。"
+          "score": 8,
+          "review": "只有新闻稿，无论文无代码无评测，无法验证性能。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "4位扩散推理集成到Diffusers，显存占用大降，低显存卡也能跑图了。"
+          "review": "三档模型切换+外部应用调用，做语音助手或自动化流程的今天就能集成。"
         }
       }
     },
     {
-      "story_id": "story_c9adcfe987c9",
-      "title": "Copilot 新增使用指标影响力仪表盘 / New Copilot usage metrics impact dashboard",
-      "url": "https://github.blog/changelog/2026-07-22-new-copilot-usage-metrics-impact-dashboard",
+      "story_id": "story_92dd58586306",
+      "title": "通义千问发布Qwen-Audio-3.0-TTS，登顶TTS排行榜 / Introducing the Qwen-Audio-3.0-TTS. Our latest text-to-speech model， in two flavors： • Flash： real-…",
+      "url": "https://x.com/Alibaba_Qwen/status/2080270065547809133",
       "rank": 3,
       "reviews": {
         "cynic": {
           "score": 72,
-          "review": "仪表盘是好东西，但'影响力'这词儿怕是PR部门加的，先看看数据颗粒度再说。"
+          "review": "登顶榜单不稀奇，关键是这榜单水分多大？等第三方盲测再说。"
         },
         "paper-police": {
-          "score": 30,
-          "review": "官方博客宣称新功能，无论文无代码无评测，无法独立验证。"
+          "score": 25,
+          "review": "只有X帖子宣称登顶，无论文无代码无评测细节，无法验证。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "管理Copilot成本更方便，团队可直接看使用数据优化预算。"
+          "review": "Flash版已开源可clone，TTS任务直接换模型跑，省去训练时间。"
         }
       }
     }
