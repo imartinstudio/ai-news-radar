@@ -1,8 +1,151 @@
 {
-  "generated_at": "2026-07-24T03:43:28.819091Z",
+  "generated_at": "2026-07-24T14:27:34.138553Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
+    {
+      "story_id": "story_ce28d04e10f8",
+      "title": "Claude-thermos：保持 Claude 会话缓存热度，避免重新编码费用",
+      "url": "https://github.com/izeigerman/claude-thermos",
+      "primary_url": "https://github.com/izeigerman/claude-thermos",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "b506f9f06b58edb7fdab55edf5c29946861094d1",
+          "title": "Claude-thermos：保持 Claude 会话缓存热度，避免重新编码费用",
+          "title_zh": "Claude-thermos：保持 Claude 会话缓存热度，避免重新编码费用",
+          "title_en": null,
+          "title_original": "Claude-thermos：保持 Claude 会话缓存热度，避免重新编码费用",
+          "summary": "Claude-thermos 通过本地反向代理监控 Claude Code 会话，在主智能体因等待子智能体而空闲超过 5 分钟时，自动发送预热请求刷新提示缓存。实测约 185 次本地会话中，缓存过期导致的重新编码占账单约 22%。工具以 uvx 运行，支持自定义空闲阈值和预热间隔。",
+          "recommend_reason_zh": "claude-thermos通过后台warming避免主agent等待子agent超过5分钟导致的缓存过期，防止每次重新编码200K到500K tokens的高昂写入费用（约占账单22%），利用0.1x读价替代1.25x写价。",
+          "url": "https://github.com/izeigerman/claude-thermos",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-24T09:47:29.601000Z"
+        },
+        {
+          "id": "ac54013370dcbcd288acd2bb35928d408174a926",
+          "title": "Show HN: Claude-thermos 能为您保持 Claude 会话的热度",
+          "title_zh": "Show HN: Claude-thermos 能为您保持 Claude 会话的热度",
+          "title_en": null,
+          "title_original": "Show HN: Claude-thermos 能为您保持 Claude 会话的热度",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://github.com/izeigerman/claude-thermos",
+          "source": "github.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-07-24T09:47:29.601000Z"
+        },
+        {
+          "id": "9367f8bd112d25db837377eebac82a74a46839b1",
+          "title": "Claude-thermos：保持 Claude 会话缓存热度，避免重新编码费用 / Show HN: Claude-thermos keeps your Claude session warm for you",
+          "title_zh": "Claude-thermos：保持 Claude 会话缓存热度，避免重新编码费用",
+          "title_en": "Show HN: Claude-thermos keeps your Claude session warm for you",
+          "title_original": "Show HN: Claude-thermos keeps your Claude session warm for you",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://github.com/izeigerman/claude-thermos",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-07-23T17:06:22Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "Hacker News 热门（buzzing.cc 中文翻译）",
+        "github.com"
+      ],
+      "items": [
+        {
+          "id": "b506f9f06b58edb7fdab55edf5c29946861094d1",
+          "title": "Claude-thermos：保持 Claude 会话缓存热度，避免重新编码费用",
+          "title_zh": "Claude-thermos：保持 Claude 会话缓存热度，避免重新编码费用",
+          "title_en": null,
+          "title_original": "Claude-thermos：保持 Claude 会话缓存热度，避免重新编码费用",
+          "summary": "Claude-thermos 通过本地反向代理监控 Claude Code 会话，在主智能体因等待子智能体而空闲超过 5 分钟时，自动发送预热请求刷新提示缓存。实测约 185 次本地会话中，缓存过期导致的重新编码占账单约 22%。工具以 uvx 运行，支持自定义空闲阈值和预热间隔。",
+          "recommend_reason_zh": "claude-thermos通过后台warming避免主agent等待子agent超过5分钟导致的缓存过期，防止每次重新编码200K到500K tokens的高昂写入费用（约占账单22%），利用0.1x读价替代1.25x写价。",
+          "url": "https://github.com/izeigerman/claude-thermos",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-24T09:47:29.601000Z"
+        },
+        {
+          "id": "ac54013370dcbcd288acd2bb35928d408174a926",
+          "title": "Show HN: Claude-thermos 能为您保持 Claude 会话的热度",
+          "title_zh": "Show HN: Claude-thermos 能为您保持 Claude 会话的热度",
+          "title_en": null,
+          "title_original": "Show HN: Claude-thermos 能为您保持 Claude 会话的热度",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://github.com/izeigerman/claude-thermos",
+          "source": "github.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-07-24T09:47:29.601000Z"
+        },
+        {
+          "id": "9367f8bd112d25db837377eebac82a74a46839b1",
+          "title": "Claude-thermos：保持 Claude 会话缓存热度，避免重新编码费用 / Show HN: Claude-thermos keeps your Claude session warm for you",
+          "title_zh": "Claude-thermos：保持 Claude 会话缓存热度，避免重新编码费用",
+          "title_en": "Show HN: Claude-thermos keeps your Claude session warm for you",
+          "title_original": "Show HN: Claude-thermos keeps your Claude session warm for you",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://github.com/izeigerman/claude-thermos",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-07-23T17:06:22Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.8269,
+      "importance": 0.8269,
+      "importance_score": 0.8269,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.79,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9348,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-23T17:06:22Z",
+      "latest_at": "2026-07-24T09:47:29.601000Z",
+      "primary_item": {
+        "id": "b506f9f06b58edb7fdab55edf5c29946861094d1",
+        "title": "Claude-thermos：保持 Claude 会话缓存热度，避免重新编码费用",
+        "title_zh": "Claude-thermos：保持 Claude 会话缓存热度，避免重新编码费用",
+        "title_en": null,
+        "title_original": "Claude-thermos：保持 Claude 会话缓存热度，避免重新编码费用",
+        "summary": "Claude-thermos 通过本地反向代理监控 Claude Code 会话，在主智能体因等待子智能体而空闲超过 5 分钟时，自动发送预热请求刷新提示缓存。实测约 185 次本地会话中，缓存过期导致的重新编码占账单约 22%。工具以 uvx 运行，支持自定义空闲阈值和预热间隔。",
+        "recommend_reason_zh": "claude-thermos通过后台warming避免主agent等待子agent超过5分钟导致的缓存过期，防止每次重新编码200K到500K tokens的高昂写入费用（约占账单22%），利用0.1x读价替代1.25x写价。",
+        "url": "https://github.com/izeigerman/claude-thermos",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "省缓存费用的实用工具，API调用频繁的团队今天就能用上。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-chat",
+        "scored_at": "2026-07-24T14:36:22.999025Z"
+      }
+    },
     {
       "story_id": "story_542d81ae471d",
       "title": "Copilot 的 Linear 云代理现已全面可用 / Copilot cloud agent for Linear is now generally available",
@@ -17,7 +160,7 @@
           "title_zh": "Copilot 的 Linear 云代理现已全面可用",
           "title_en": "Copilot cloud agent for Linear is now generally available",
           "title_original": "Copilot cloud agent for Linear is now generally available",
-          "summary": "You can now assign issues in Linear to Copilot cloud agent, our asynchronous, autonomous background agent. When you assign a Linear issue to Copilot, it will: Analyze the issue contents…\nYou can now assign issues in Linear to Copilot cloud agent , our asynchronous, autonomous background agent.\nWhen you assign a Linear issue to Copilot, it will:\nYou now have more control over how the agent runs, right from your Linear workspace:\nSet these per issue, or apply them across your workspace or team wit",
+          "summary": null,
           "recommend_reason_zh": "GitHub宣布Copilot cloud agent for Linear正式上线，可异步自主处理分配给它的Linear问题，并支持按工作空间或团队设置运行规则，适用于Copilot Pro、Pro+、Business和Enterprise。",
           "url": "https://github.blog/changelog/2026-07-23-copilot-cloud-agent-for-linear-is-now-generally-available",
           "source": "GitHub Changelog",
@@ -37,7 +180,7 @@
           "title_zh": "Copilot 的 Linear 云代理现已全面可用",
           "title_en": "Copilot cloud agent for Linear is now generally available",
           "title_original": "Copilot cloud agent for Linear is now generally available",
-          "summary": "You can now assign issues in Linear to Copilot cloud agent, our asynchronous, autonomous background agent. When you assign a Linear issue to Copilot, it will: Analyze the issue contents…\nYou can now assign issues in Linear to Copilot cloud agent , our asynchronous, autonomous background agent.\nWhen you assign a Linear issue to Copilot, it will:\nYou now have more control over how the agent runs, right from your Linear workspace:\nSet these per issue, or apply them across your workspace or team wit",
+          "summary": null,
           "recommend_reason_zh": "GitHub宣布Copilot cloud agent for Linear正式上线，可异步自主处理分配给它的Linear问题，并支持按工作空间或团队设置运行规则，适用于Copilot Pro、Pro+、Business和Enterprise。",
           "url": "https://github.blog/changelog/2026-07-23-copilot-cloud-agent-for-linear-is-now-generally-available",
           "source": "GitHub Changelog",
@@ -48,15 +191,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.845,
-      "importance": 0.845,
-      "importance_score": 0.845,
+      "score": 0.821,
+      "importance": 0.821,
+      "importance_score": 0.821,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.94,
-        "recency": 0.9279,
+        "recency": 0.7946,
         "story_heat": 0.0
       },
       "category": "official",
@@ -73,7 +216,7 @@
         "title_zh": "Copilot 的 Linear 云代理现已全面可用",
         "title_en": "Copilot cloud agent for Linear is now generally available",
         "title_original": "Copilot cloud agent for Linear is now generally available",
-        "summary": "You can now assign issues in Linear to Copilot cloud agent, our asynchronous, autonomous background agent. When you assign a Linear issue to Copilot, it will: Analyze the issue contents…\nYou can now assign issues in Linear to Copilot cloud agent , our asynchronous, autonomous background agent.\nWhen you assign a Linear issue to Copilot, it will:\nYou now have more control over how the agent runs, right from your Linear workspace:\nSet these per issue, or apply them across your workspace or team wit",
+        "summary": null,
         "recommend_reason_zh": "GitHub宣布Copilot cloud agent for Linear正式上线，可异步自主处理分配给它的Linear问题，并支持按工作空间或团队设置运行规则，适用于Copilot Pro、Pro+、Business和Enterprise。",
         "url": "https://github.blog/changelog/2026-07-23-copilot-cloud-agent-for-linear-is-now-generally-available",
         "source": "GitHub Changelog",
@@ -85,7 +228,91 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-07-24T03:51:31.703297Z"
+        "scored_at": "2026-07-24T14:36:22.999025Z"
+      }
+    },
+    {
+      "story_id": "story_a69b2a307509",
+      "title": "Runway Agent 推出自然语言工作流功能 / Introducing Workflows in Runway Agent. Now you can build， run or edit your node-based workflows thro…",
+      "url": "https://x.com/runwayml/status/2080649234672439389",
+      "primary_url": "https://x.com/runwayml/status/2080649234672439389",
+      "source": "X：Runway (@runwayml)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "38b19e75307d67f7ea16deda84f93dc8f08bf77a",
+          "title": "Runway Agent 推出自然语言工作流功能 / Introducing Workflows in Runway Agent. Now you can build， run or edit your node-based workflows thro…",
+          "title_zh": "Runway Agent 推出自然语言工作流功能",
+          "title_en": "Introducing Workflows in Runway Agent. Now you can build， run or edit your node-based workflows thro…",
+          "title_original": "Introducing Workflows in Runway Agent. Now you can build， run or edit your node-based workflows thro…",
+          "summary": "在 Runway Agent 中引入工作流。现在你可以通过自然语言构建、运行或编辑基于节点的工作流。工作流可大规模解锁高质量输出。\n\n立即尝试，点击下方链接调用 / Workflow 技能。",
+          "recommend_reason_zh": "Runway Agent推出Workflows功能，用户通过自然语言即可构建、运行或编辑节点式工作流，实现高质量规模化输出，提升AI视频制作效率。",
+          "url": "https://x.com/runwayml/status/2080649234672439389",
+          "source": "X：Runway (@runwayml)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-24T13:40:08Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Runway (@runwayml)"
+      ],
+      "items": [
+        {
+          "id": "38b19e75307d67f7ea16deda84f93dc8f08bf77a",
+          "title": "Runway Agent 推出自然语言工作流功能 / Introducing Workflows in Runway Agent. Now you can build， run or edit your node-based workflows thro…",
+          "title_zh": "Runway Agent 推出自然语言工作流功能",
+          "title_en": "Introducing Workflows in Runway Agent. Now you can build， run or edit your node-based workflows thro…",
+          "title_original": "Introducing Workflows in Runway Agent. Now you can build， run or edit your node-based workflows thro…",
+          "summary": "在 Runway Agent 中引入工作流。现在你可以通过自然语言构建、运行或编辑基于节点的工作流。工作流可大规模解锁高质量输出。\n\n立即尝试，点击下方链接调用 / Workflow 技能。",
+          "recommend_reason_zh": "Runway Agent推出Workflows功能，用户通过自然语言即可构建、运行或编辑节点式工作流，实现高质量规模化输出，提升AI视频制作效率。",
+          "url": "https://x.com/runwayml/status/2080649234672439389",
+          "source": "X：Runway (@runwayml)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-24T13:40:08Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.811,
+      "importance": 0.811,
+      "importance_score": 0.811,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.71,
+        "source_tier": 1.0,
+        "ai_relevance": 1.0,
+        "recency": 0.9886,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-24T13:40:08Z",
+      "latest_at": "2026-07-24T13:40:08Z",
+      "primary_item": {
+        "id": "38b19e75307d67f7ea16deda84f93dc8f08bf77a",
+        "title": "Runway Agent 推出自然语言工作流功能 / Introducing Workflows in Runway Agent. Now you can build， run or edit your node-based workflows thro…",
+        "title_zh": "Runway Agent 推出自然语言工作流功能",
+        "title_en": "Introducing Workflows in Runway Agent. Now you can build， run or edit your node-based workflows thro…",
+        "title_original": "Introducing Workflows in Runway Agent. Now you can build， run or edit your node-based workflows thro…",
+        "summary": "在 Runway Agent 中引入工作流。现在你可以通过自然语言构建、运行或编辑基于节点的工作流。工作流可大规模解锁高质量输出。\n\n立即尝试，点击下方链接调用 / Workflow 技能。",
+        "recommend_reason_zh": "Runway Agent推出Workflows功能，用户通过自然语言即可构建、运行或编辑节点式工作流，实现高质量规模化输出，提升AI视频制作效率。",
+        "url": "https://x.com/runwayml/status/2080649234672439389",
+        "source": "X：Runway (@runwayml)",
+        "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "Runway Agent 支持自然语言构建工作流，做视频生成的今天就能试，省去拖节点。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-chat",
+        "scored_at": "2026-07-24T14:36:22.999025Z"
       }
     },
     {
@@ -102,7 +329,7 @@
           "title_zh": "GitHub Mobile：用Copilot cloud agent修复失败的Actions检查",
           "title_en": "GitHub Mobile: Fix failing Actions checks with Copilot cloud agent",
           "title_original": "GitHub Mobile: Fix failing Actions checks with Copilot cloud agent",
-          "summary": "Now when a GitHub Actions check fails on your pull request, you can ask Copilot coding agent to investigate and directly fix the problem from GitHub Mobile. From the failed…\nNow when a GitHub Actions check fails on your pull request, you can ask Copilot coding agent to investigate and directly fix the problem from GitHub Mobile. From the failed check, select Fix with Copilot to start the process.\nCopilot opens a new pull request on top of your existing pull request, analyzes the failing check, a",
+          "summary": null,
           "recommend_reason_zh": "现在在GitHub Mobile上，当GitHub Actions检查失败时，你可以让Copilot coding agent一键调查并修复，它会创建新PR分析问题并等待你审查。",
           "url": "https://github.blog/changelog/2026-07-23-github-mobile-fix-failing-actions-checks-with-copilot-cloud-agent",
           "source": "GitHub Changelog",
@@ -122,7 +349,7 @@
           "title_zh": "GitHub Mobile：用Copilot cloud agent修复失败的Actions检查",
           "title_en": "GitHub Mobile: Fix failing Actions checks with Copilot cloud agent",
           "title_original": "GitHub Mobile: Fix failing Actions checks with Copilot cloud agent",
-          "summary": "Now when a GitHub Actions check fails on your pull request, you can ask Copilot coding agent to investigate and directly fix the problem from GitHub Mobile. From the failed…\nNow when a GitHub Actions check fails on your pull request, you can ask Copilot coding agent to investigate and directly fix the problem from GitHub Mobile. From the failed check, select Fix with Copilot to start the process.\nCopilot opens a new pull request on top of your existing pull request, analyzes the failing check, a",
+          "summary": null,
           "recommend_reason_zh": "现在在GitHub Mobile上，当GitHub Actions检查失败时，你可以让Copilot coding agent一键调查并修复，它会创建新PR分析问题并等待你审查。",
           "url": "https://github.blog/changelog/2026-07-23-github-mobile-fix-failing-actions-checks-with-copilot-cloud-agent",
           "source": "GitHub Changelog",
@@ -133,15 +360,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8385,
-      "importance": 0.8385,
-      "importance_score": 0.8385,
+      "score": 0.8155,
+      "importance": 0.8155,
+      "importance_score": 0.8155,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.94,
-        "recency": 0.8919,
+        "recency": 0.7638,
         "story_heat": 0.0
       },
       "category": "official",
@@ -158,7 +385,7 @@
         "title_zh": "GitHub Mobile：用Copilot cloud agent修复失败的Actions检查",
         "title_en": "GitHub Mobile: Fix failing Actions checks with Copilot cloud agent",
         "title_original": "GitHub Mobile: Fix failing Actions checks with Copilot cloud agent",
-        "summary": "Now when a GitHub Actions check fails on your pull request, you can ask Copilot coding agent to investigate and directly fix the problem from GitHub Mobile. From the failed…\nNow when a GitHub Actions check fails on your pull request, you can ask Copilot coding agent to investigate and directly fix the problem from GitHub Mobile. From the failed check, select Fix with Copilot to start the process.\nCopilot opens a new pull request on top of your existing pull request, analyzes the failing check, a",
+        "summary": null,
         "recommend_reason_zh": "现在在GitHub Mobile上，当GitHub Actions检查失败时，你可以让Copilot coding agent一键调查并修复，它会创建新PR分析问题并等待你审查。",
         "url": "https://github.blog/changelog/2026-07-23-github-mobile-fix-failing-actions-checks-with-copilot-cloud-agent",
         "source": "GitHub Changelog",
@@ -170,150 +397,571 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-07-24T03:51:31.703297Z"
+        "scored_at": "2026-07-24T14:36:22.999025Z"
       }
     },
     {
-      "story_id": "story_bfadc5abab8d",
-      "title": "DARPA 与美国空军试飞 AI 操控的 F-16 战机",
-      "url": "https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16",
-      "primary_url": "https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "story_id": "story_c64ef4eed3f2",
+      "title": "Kimi K3 在网络安全漏洞利用测试中大幅落后美国前沿模型，知识蒸馏或为原因 / Kimi K3 trails frontier US models by a wide margin on cyber exploits， and distillation may explain why",
+      "url": "https://the-decoder.com/kimi-k3-trails-frontier-us-models-by-a-wide-margin-on-cyber-exploits-and-distillation-may-explain-why",
+      "primary_url": "https://the-decoder.com/kimi-k3-trails-frontier-us-models-by-a-wide-margin-on-cyber-exploits-and-distillation-may-explain-why",
+      "source": "The Decoder：AI News（RSS）",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "ddab2ff28daf418d5d3d1338bdc51af6492938b2",
-          "title": "DARPA 与美国空军试飞 AI 操控的 F-16 战机",
-          "title_zh": "DARPA 与美国空军试飞 AI 操控的 F-16 战机",
-          "title_en": null,
-          "title_original": "DARPA 与美国空军试飞 AI 操控的 F-16 战机",
-          "summary": "DARPA 与美国空军成功试飞了由人工智能操控的 F-16 战机。该 AI 系统在真实空战环境中完成了自主飞行与战术机动测试，标志着 AI 在军事航空领域的重大进展。",
-          "recommend_reason_zh": "DARPA与美国空军在VENOM项目下成功试飞AI操控的F-16战机，通过VAK套件实现人类与AI控制切换，为可扩展的自主空战AI开发奠定里程碑式基础。",
-          "url": "https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "id": "722d6426546a0d39a3d3bead58ca13fc3915bff9",
+          "title": "Kimi K3 在网络安全漏洞利用测试中大幅落后美国前沿模型，知识蒸馏或为原因 / Kimi K3 trails frontier US models by a wide margin on cyber exploits， and distillation may explain why",
+          "title_zh": "Kimi K3 在网络安全漏洞利用测试中大幅落后美国前沿模型，知识蒸馏或为原因",
+          "title_en": "Kimi K3 trails frontier US models by a wide margin on cyber exploits， and distillation may explain why",
+          "title_original": "Kimi K3 trails frontier US models by a wide margin on cyber exploits， and distillation may explain why",
+          "summary": "英国AI安全研究所与美国AI标准与创新中心联合评估显示，月之暗面的Kimi K3在ExploitBench基准上得分32.2%，远低于美国领先模型的76.2%，但优于智谱GLM-5.2的24.4%。",
+          "recommend_reason_zh": "英美国安机构测试发现，Moonshot AI的Kimi K3在ExploitBench上仅得32%，远低于美国领先模型的76%，且安全防护失灵，其强通用基准与弱网络能力的不匹配也指向蒸馏自Anthropic模型的指控。",
+          "url": "https://the-decoder.com/kimi-k3-trails-frontier-us-models-by-a-wide-margin-on-cyber-exploits-and-distillation-may-explain-why",
+          "source": "The Decoder：AI News（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-07-23T20:11:31.906000Z"
+          "published_at": "2026-07-24T09:48:32Z"
         },
         {
-          "id": "c4c7faebfc9cea5cf488d3f9f4881425a345456b",
-          "title": "美国国防高级研究计划局（DARPA）与美国空军试飞了由人工智能操控的F-16战机",
-          "title_zh": "美国国防高级研究计划局（DARPA）与美国空军试飞了由人工智能操控的F-16战机",
-          "title_en": null,
-          "title_original": "美国国防高级研究计划局（DARPA）与美国空军试飞了由人工智能操控的F-16战机",
+          "id": "c25b286ba4b4b718a1db39c9eb9d736205ecab88",
+          "title": "Kimi K3 在网络安全漏洞利用测试中大幅落后美国前沿模型，知识蒸馏或为原因 / Kimi K3 trails frontier US models by a wide margin on cyber exploits, and distillation may explain why",
+          "title_zh": "Kimi K3 在网络安全漏洞利用测试中大幅落后美国前沿模型，知识蒸馏或为原因",
+          "title_en": "Kimi K3 trails frontier US models by a wide margin on cyber exploits, and distillation may explain why",
+          "title_original": "Kimi K3 trails frontier US models by a wide margin on cyber exploits, and distillation may explain why",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16",
-          "source": "www.darpa.mil",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-23T20:11:31.906000Z"
-        },
-        {
-          "id": "7d1b9510d7c491b557fff9dc39ca2d6504386a93",
-          "title": "DARPA 与美国空军试飞 AI 操控的 F-16 战机 / DARPA, U.S. Air Force fly AI-controlled F-16",
-          "title_zh": "DARPA 与美国空军试飞 AI 操控的 F-16 战机",
-          "title_en": "DARPA, U.S. Air Force fly AI-controlled F-16",
-          "title_original": "DARPA, U.S. Air Force fly AI-controlled F-16",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-23T13:51:36Z"
+          "url": "https://the-decoder.com/kimi-k3-trails-frontier-us-models-by-a-wide-margin-on-cyber-exploits-and-distillation-may-explain-why",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-07-24T09:48:32Z"
         }
       ],
-      "source_count": 3,
+      "source_count": 2,
       "source_names": [
-        "Hacker News (黑客新闻)",
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        "www.darpa.mil"
+        "The Decoder AI News",
+        "The Decoder：AI News（RSS）"
       ],
       "items": [
         {
-          "id": "ddab2ff28daf418d5d3d1338bdc51af6492938b2",
-          "title": "DARPA 与美国空军试飞 AI 操控的 F-16 战机",
-          "title_zh": "DARPA 与美国空军试飞 AI 操控的 F-16 战机",
-          "title_en": null,
-          "title_original": "DARPA 与美国空军试飞 AI 操控的 F-16 战机",
-          "summary": "DARPA 与美国空军成功试飞了由人工智能操控的 F-16 战机。该 AI 系统在真实空战环境中完成了自主飞行与战术机动测试，标志着 AI 在军事航空领域的重大进展。",
-          "recommend_reason_zh": "DARPA与美国空军在VENOM项目下成功试飞AI操控的F-16战机，通过VAK套件实现人类与AI控制切换，为可扩展的自主空战AI开发奠定里程碑式基础。",
-          "url": "https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "id": "722d6426546a0d39a3d3bead58ca13fc3915bff9",
+          "title": "Kimi K3 在网络安全漏洞利用测试中大幅落后美国前沿模型，知识蒸馏或为原因 / Kimi K3 trails frontier US models by a wide margin on cyber exploits， and distillation may explain why",
+          "title_zh": "Kimi K3 在网络安全漏洞利用测试中大幅落后美国前沿模型，知识蒸馏或为原因",
+          "title_en": "Kimi K3 trails frontier US models by a wide margin on cyber exploits， and distillation may explain why",
+          "title_original": "Kimi K3 trails frontier US models by a wide margin on cyber exploits， and distillation may explain why",
+          "summary": "英国AI安全研究所与美国AI标准与创新中心联合评估显示，月之暗面的Kimi K3在ExploitBench基准上得分32.2%，远低于美国领先模型的76.2%，但优于智谱GLM-5.2的24.4%。",
+          "recommend_reason_zh": "英美国安机构测试发现，Moonshot AI的Kimi K3在ExploitBench上仅得32%，远低于美国领先模型的76%，且安全防护失灵，其强通用基准与弱网络能力的不匹配也指向蒸馏自Anthropic模型的指控。",
+          "url": "https://the-decoder.com/kimi-k3-trails-frontier-us-models-by-a-wide-margin-on-cyber-exploits-and-distillation-may-explain-why",
+          "source": "The Decoder：AI News（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-07-23T20:11:31.906000Z"
+          "published_at": "2026-07-24T09:48:32Z"
         },
         {
-          "id": "c4c7faebfc9cea5cf488d3f9f4881425a345456b",
-          "title": "美国国防高级研究计划局（DARPA）与美国空军试飞了由人工智能操控的F-16战机",
-          "title_zh": "美国国防高级研究计划局（DARPA）与美国空军试飞了由人工智能操控的F-16战机",
-          "title_en": null,
-          "title_original": "美国国防高级研究计划局（DARPA）与美国空军试飞了由人工智能操控的F-16战机",
+          "id": "c25b286ba4b4b718a1db39c9eb9d736205ecab88",
+          "title": "Kimi K3 在网络安全漏洞利用测试中大幅落后美国前沿模型，知识蒸馏或为原因 / Kimi K3 trails frontier US models by a wide margin on cyber exploits, and distillation may explain why",
+          "title_zh": "Kimi K3 在网络安全漏洞利用测试中大幅落后美国前沿模型，知识蒸馏或为原因",
+          "title_en": "Kimi K3 trails frontier US models by a wide margin on cyber exploits, and distillation may explain why",
+          "title_original": "Kimi K3 trails frontier US models by a wide margin on cyber exploits, and distillation may explain why",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16",
-          "source": "www.darpa.mil",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-23T20:11:31.906000Z"
-        },
-        {
-          "id": "7d1b9510d7c491b557fff9dc39ca2d6504386a93",
-          "title": "DARPA 与美国空军试飞 AI 操控的 F-16 战机 / DARPA, U.S. Air Force fly AI-controlled F-16",
-          "title_zh": "DARPA 与美国空军试飞 AI 操控的 F-16 战机",
-          "title_en": "DARPA, U.S. Air Force fly AI-controlled F-16",
-          "title_original": "DARPA, U.S. Air Force fly AI-controlled F-16",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-23T13:51:36Z"
+          "url": "https://the-decoder.com/kimi-k3-trails-frontier-us-models-by-a-wide-margin-on-cyber-exploits-and-distillation-may-explain-why",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-07-24T09:48:32Z"
         }
       ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.802,
-      "importance": 0.802,
-      "importance_score": 0.802,
-      "importance_label": "多源热议",
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7839,
+      "importance": 0.7839,
+      "importance_score": 0.7839,
+      "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8969,
-        "story_heat": 0.5
+        "recency": 0.935,
+        "story_heat": 0.25
       },
-      "category": "multi_source",
+      "category": "industry",
       "reasons": [
         "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-07-23T13:51:36Z",
-      "latest_at": "2026-07-23T20:11:31.906000Z",
+      "earliest_at": "2026-07-24T09:48:32Z",
+      "latest_at": "2026-07-24T09:48:32Z",
       "primary_item": {
-        "id": "ddab2ff28daf418d5d3d1338bdc51af6492938b2",
-        "title": "DARPA 与美国空军试飞 AI 操控的 F-16 战机",
-        "title_zh": "DARPA 与美国空军试飞 AI 操控的 F-16 战机",
+        "id": "722d6426546a0d39a3d3bead58ca13fc3915bff9",
+        "title": "Kimi K3 在网络安全漏洞利用测试中大幅落后美国前沿模型，知识蒸馏或为原因 / Kimi K3 trails frontier US models by a wide margin on cyber exploits， and distillation may explain why",
+        "title_zh": "Kimi K3 在网络安全漏洞利用测试中大幅落后美国前沿模型，知识蒸馏或为原因",
+        "title_en": "Kimi K3 trails frontier US models by a wide margin on cyber exploits， and distillation may explain why",
+        "title_original": "Kimi K3 trails frontier US models by a wide margin on cyber exploits， and distillation may explain why",
+        "summary": "英国AI安全研究所与美国AI标准与创新中心联合评估显示，月之暗面的Kimi K3在ExploitBench基准上得分32.2%，远低于美国领先模型的76.2%，但优于智谱GLM-5.2的24.4%。",
+        "recommend_reason_zh": "英美国安机构测试发现，Moonshot AI的Kimi K3在ExploitBench上仅得32%，远低于美国领先模型的76%，且安全防护失灵，其强通用基准与弱网络能力的不匹配也指向蒸馏自Anthropic模型的指控。",
+        "url": "https://the-decoder.com/kimi-k3-trails-frontier-us-models-by-a-wide-margin-on-cyber-exploits-and-distillation-may-explain-why",
+        "source": "The Decoder：AI News（RSS）",
+        "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 45,
+      "persona_review": "benchmark差距不等于实际能力，等开源或API再看，别急着下结论。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-chat",
+        "scored_at": "2026-07-24T14:36:22.999025Z"
+      }
+    },
+    {
+      "story_id": "story_a1def1d5869a",
+      "title": "蚂蚁百灵发布Ling-3.0-flash原生混合推理模型",
+      "url": "https://mp.weixin.qq.com/s/5ic54FCsy334JJsQcyBr1g",
+      "primary_url": "https://mp.weixin.qq.com/s/5ic54FCsy334JJsQcyBr1g",
+      "source": "公众号：蚂蚁百灵（Ling）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "cc31beb6a04d5fe1892b55856a826870a83fd214",
+          "title": "蚂蚁百灵发布Ling-3.0-flash原生混合推理模型",
+          "title_zh": "蚂蚁百灵发布Ling-3.0-flash原生混合推理模型",
+          "title_en": null,
+          "title_original": "蚂蚁百灵发布Ling-3.0-flash原生混合推理模型",
+          "summary": "蚂蚁百灵发布新一代原生混合推理模型Ling-3.0-flash，总参数量124B，激活参数量仅5.1B，在传统推理、指令遵循与长文本等指标上对标甚至超越上一代旗舰Ring-2.6-1T。模型采用原生混合线性注意力架构与1/64稀疏MoE，并扩展至10，000+可交互训练环境，长输入下TTFT降低60%至80%以上。",
+          "recommend_reason_zh": "蚂蚁百灵发布Ling-3.0-flash原生混合推理模型，强调“智以密胜”，揭示了其在推理密度与智能效率上的新突破。",
+          "url": "https://mp.weixin.qq.com/s/5ic54FCsy334JJsQcyBr1g",
+          "source": "公众号：蚂蚁百灵（Ling）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-24T13:40:30Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "公众号：蚂蚁百灵（Ling）"
+      ],
+      "items": [
+        {
+          "id": "cc31beb6a04d5fe1892b55856a826870a83fd214",
+          "title": "蚂蚁百灵发布Ling-3.0-flash原生混合推理模型",
+          "title_zh": "蚂蚁百灵发布Ling-3.0-flash原生混合推理模型",
+          "title_en": null,
+          "title_original": "蚂蚁百灵发布Ling-3.0-flash原生混合推理模型",
+          "summary": "蚂蚁百灵发布新一代原生混合推理模型Ling-3.0-flash，总参数量124B，激活参数量仅5.1B，在传统推理、指令遵循与长文本等指标上对标甚至超越上一代旗舰Ring-2.6-1T。模型采用原生混合线性注意力架构与1/64稀疏MoE，并扩展至10，000+可交互训练环境，长输入下TTFT降低60%至80%以上。",
+          "recommend_reason_zh": "蚂蚁百灵发布Ling-3.0-flash原生混合推理模型，强调“智以密胜”，揭示了其在推理密度与智能效率上的新突破。",
+          "url": "https://mp.weixin.qq.com/s/5ic54FCsy334JJsQcyBr1g",
+          "source": "公众号：蚂蚁百灵（Ling）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-24T13:40:30Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7746,
+      "importance": 0.7746,
+      "importance_score": 0.7746,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.75,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9887,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-24T13:40:30Z",
+      "latest_at": "2026-07-24T13:40:30Z",
+      "primary_item": {
+        "id": "cc31beb6a04d5fe1892b55856a826870a83fd214",
+        "title": "蚂蚁百灵发布Ling-3.0-flash原生混合推理模型",
+        "title_zh": "蚂蚁百灵发布Ling-3.0-flash原生混合推理模型",
         "title_en": null,
-        "title_original": "DARPA 与美国空军试飞 AI 操控的 F-16 战机",
-        "summary": "DARPA 与美国空军成功试飞了由人工智能操控的 F-16 战机。该 AI 系统在真实空战环境中完成了自主飞行与战术机动测试，标志着 AI 在军事航空领域的重大进展。",
-        "recommend_reason_zh": "DARPA与美国空军在VENOM项目下成功试飞AI操控的F-16战机，通过VAK套件实现人类与AI控制切换，为可扩展的自主空战AI开发奠定里程碑式基础。",
-        "url": "https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "title_original": "蚂蚁百灵发布Ling-3.0-flash原生混合推理模型",
+        "summary": "蚂蚁百灵发布新一代原生混合推理模型Ling-3.0-flash，总参数量124B，激活参数量仅5.1B，在传统推理、指令遵循与长文本等指标上对标甚至超越上一代旗舰Ring-2.6-1T。模型采用原生混合线性注意力架构与1/64稀疏MoE，并扩展至10，000+可交互训练环境，长输入下TTFT降低60%至80%以上。",
+        "recommend_reason_zh": "蚂蚁百灵发布Ling-3.0-flash原生混合推理模型，强调“智以密胜”，揭示了其在推理密度与智能效率上的新突破。",
+        "url": "https://mp.weixin.qq.com/s/5ic54FCsy334JJsQcyBr1g",
+        "source": "公众号：蚂蚁百灵（Ling）",
+        "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 65,
+      "persona_review": "混合推理模型有实用场景，但需看API开放和定价，先观望。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-chat",
+        "scored_at": "2026-07-24T14:36:22.999025Z"
+      }
+    },
+    {
+      "story_id": "story_6f64216575d4",
+      "title": "微软阐述开源模型助力美国竞争力路径 / Open-weight models are essential to a healthy AI ecosystem. Together with others across our industry…",
+      "url": "https://x.com/satyanadella/status/2080646162483417097",
+      "primary_url": "https://x.com/satyanadella/status/2080646162483417097",
+      "source": "X：Satya Nadella (@satyanadella)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "635efd919bc4925c89ab2f7436e3a380f683f93e",
+          "title": "微软阐述开源模型助力美国竞争力路径 / Open-weight models are essential to a healthy AI ecosystem. Together with others across our industry…",
+          "title_zh": "微软阐述开源模型助力美国竞争力路径",
+          "title_en": "Open-weight models are essential to a healthy AI ecosystem. Together with others across our industry…",
+          "title_original": "Open-weight models are essential to a healthy AI ecosystem. Together with others across our industry…",
+          "summary": "开放权重模型对健康的 AI 生态系统至关重要。我们与行业同仁一道，正在规划一条路径，让开放权重模型在保护国家安全的同时，增强美国竞争力并扩大经济机会。",
+          "recommend_reason_zh": "这篇文章强调开放权重模型对AI生态系统健康至关重要，并联合行业人士规划路径，以增强美国竞争力、扩大经济机会同时保护国家安全。",
+          "url": "https://x.com/satyanadella/status/2080646162483417097",
+          "source": "X：Satya Nadella (@satyanadella)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-24T13:27:56Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Satya Nadella (@satyanadella)"
+      ],
+      "items": [
+        {
+          "id": "635efd919bc4925c89ab2f7436e3a380f683f93e",
+          "title": "微软阐述开源模型助力美国竞争力路径 / Open-weight models are essential to a healthy AI ecosystem. Together with others across our industry…",
+          "title_zh": "微软阐述开源模型助力美国竞争力路径",
+          "title_en": "Open-weight models are essential to a healthy AI ecosystem. Together with others across our industry…",
+          "title_original": "Open-weight models are essential to a healthy AI ecosystem. Together with others across our industry…",
+          "summary": "开放权重模型对健康的 AI 生态系统至关重要。我们与行业同仁一道，正在规划一条路径，让开放权重模型在保护国家安全的同时，增强美国竞争力并扩大经济机会。",
+          "recommend_reason_zh": "这篇文章强调开放权重模型对AI生态系统健康至关重要，并联合行业人士规划路径，以增强美国竞争力、扩大经济机会同时保护国家安全。",
+          "url": "https://x.com/satyanadella/status/2080646162483417097",
+          "source": "X：Satya Nadella (@satyanadella)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-24T13:27:56Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.771,
+      "importance": 0.771,
+      "importance_score": 0.771,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.74,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9857,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-24T13:27:56Z",
+      "latest_at": "2026-07-24T13:27:56Z",
+      "primary_item": {
+        "id": "635efd919bc4925c89ab2f7436e3a380f683f93e",
+        "title": "微软阐述开源模型助力美国竞争力路径 / Open-weight models are essential to a healthy AI ecosystem. Together with others across our industry…",
+        "title_zh": "微软阐述开源模型助力美国竞争力路径",
+        "title_en": "Open-weight models are essential to a healthy AI ecosystem. Together with others across our industry…",
+        "title_original": "Open-weight models are essential to a healthy AI ecosystem. Together with others across our industry…",
+        "summary": "开放权重模型对健康的 AI 生态系统至关重要。我们与行业同仁一道，正在规划一条路径，让开放权重模型在保护国家安全的同时，增强美国竞争力并扩大经济机会。",
+        "recommend_reason_zh": "这篇文章强调开放权重模型对AI生态系统健康至关重要，并联合行业人士规划路径，以增强美国竞争力、扩大经济机会同时保护国家安全。",
+        "url": "https://x.com/satyanadella/status/2080646162483417097",
+        "source": "X：Satya Nadella (@satyanadella)",
         "source_name": "AI HOT"
       },
       "persona_id": "pragmatic",
       "persona_score": 20,
-      "persona_review": "军事试验离你太远，没有可复用的工具或API，看看就好。",
+      "persona_review": "政治表态，不写代码，不调API，等有具体动作再关注。",
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-07-24T03:51:31.703297Z"
+        "scored_at": "2026-07-24T14:36:22.999025Z"
+      }
+    },
+    {
+      "story_id": "story_2b29fdc342a6",
+      "title": "ChatGPT桌面应用上线语音模式：口述需求AI多线程干活，冲杯咖啡的功夫会议纪要就备好了",
+      "url": "https://www.aibase.com/news/29868",
+      "primary_url": "https://www.aibase.com/news/29868",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "fffe3486c09bd6abbe8f32fe1d2223a4af225b7c",
+          "title": "ChatGPT桌面应用上线语音模式：口述需求AI多线程干活，冲杯咖啡的功夫会议纪要就备好了",
+          "title_zh": "ChatGPT桌面应用上线语音模式：口述需求AI多线程干活，冲杯咖啡的功夫会议纪要就备好了",
+          "title_en": null,
+          "title_original": "ChatGPT桌面应用上线语音模式：口述需求AI多线程干活，冲杯咖啡的功夫会议纪要就备好了",
+          "summary": "OpenAI announced an update to the ChatGPT desktop application (now integrated with Codex), introducing a ChatGPT Voice mode powered by the GPT-Live model. Users\nOpenAI announced an update to the ChatGPT desktop application (now integrated with Codex), introducing a ChatGPT Voice mode powered by the GPT-Live model. Users\nOpenAI announced an update to the ChatGPT desktop application (now integrated with Codex), introducing a ChatGPT Voice mode powered by the GPT-Live model. Users\nExplore AI Fronti",
+          "recommend_reason_zh": "ChatGPT桌面应用更新，集成Codex并推出GPT-Live模型语音模式，支持全双工语音同时听说，用户口述需求即可在聊天、工作、编程三区域启动多线程任务，冲杯咖啡的功夫会议纪要就备好了。",
+          "url": "https://www.aibase.com/news/29868",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-07-24T14:27:34.138553Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "fffe3486c09bd6abbe8f32fe1d2223a4af225b7c",
+          "title": "ChatGPT桌面应用上线语音模式：口述需求AI多线程干活，冲杯咖啡的功夫会议纪要就备好了",
+          "title_zh": "ChatGPT桌面应用上线语音模式：口述需求AI多线程干活，冲杯咖啡的功夫会议纪要就备好了",
+          "title_en": null,
+          "title_original": "ChatGPT桌面应用上线语音模式：口述需求AI多线程干活，冲杯咖啡的功夫会议纪要就备好了",
+          "summary": "OpenAI announced an update to the ChatGPT desktop application (now integrated with Codex), introducing a ChatGPT Voice mode powered by the GPT-Live model. Users\nOpenAI announced an update to the ChatGPT desktop application (now integrated with Codex), introducing a ChatGPT Voice mode powered by the GPT-Live model. Users\nOpenAI announced an update to the ChatGPT desktop application (now integrated with Codex), introducing a ChatGPT Voice mode powered by the GPT-Live model. Users\nExplore AI Fronti",
+          "recommend_reason_zh": "ChatGPT桌面应用更新，集成Codex并推出GPT-Live模型语音模式，支持全双工语音同时听说，用户口述需求即可在聊天、工作、编程三区域启动多线程任务，冲杯咖啡的功夫会议纪要就备好了。",
+          "url": "https://www.aibase.com/news/29868",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-07-24T14:27:34.138553Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-24T14:27:34.138553Z",
+      "latest_at": "2026-07-24T14:27:34.138553Z",
+      "primary_item": {
+        "id": "fffe3486c09bd6abbe8f32fe1d2223a4af225b7c",
+        "title": "ChatGPT桌面应用上线语音模式：口述需求AI多线程干活，冲杯咖啡的功夫会议纪要就备好了",
+        "title_zh": "ChatGPT桌面应用上线语音模式：口述需求AI多线程干活，冲杯咖啡的功夫会议纪要就备好了",
+        "title_en": null,
+        "title_original": "ChatGPT桌面应用上线语音模式：口述需求AI多线程干活，冲杯咖啡的功夫会议纪要就备好了",
+        "summary": "OpenAI announced an update to the ChatGPT desktop application (now integrated with Codex), introducing a ChatGPT Voice mode powered by the GPT-Live model. Users\nOpenAI announced an update to the ChatGPT desktop application (now integrated with Codex), introducing a ChatGPT Voice mode powered by the GPT-Live model. Users\nOpenAI announced an update to the ChatGPT desktop application (now integrated with Codex), introducing a ChatGPT Voice mode powered by the GPT-Live model. Users\nExplore AI Fronti",
+        "recommend_reason_zh": "ChatGPT桌面应用更新，集成Codex并推出GPT-Live模型语音模式，支持全双工语音同时听说，用户口述需求即可在聊天、工作、编程三区域启动多线程任务，冲杯咖啡的功夫会议纪要就备好了。",
+        "url": "https://www.aibase.com/news/29868",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 65,
+      "persona_review": "桌面端语音输入省了打字，适合快速记想法，但多线程干活还得看实际体验。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-chat",
+        "scored_at": "2026-07-24T14:36:22.999025Z"
+      }
+    },
+    {
+      "story_id": "story_b10cb29baa4b",
+      "title": "FLUX 3 x mimic：新一代视频动作模型",
+      "url": "https://bfl.ai/blog/flux-3-mimic",
+      "primary_url": "https://bfl.ai/blog/flux-3-mimic",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "fd77d4f467151087a7e14015ce2e68234888ff71",
+          "title": "FLUX 3 x mimic：新一代视频动作模型",
+          "title_zh": "FLUX 3 x mimic：新一代视频动作模型",
+          "title_en": null,
+          "title_original": "FLUX 3 x mimic：新一代视频动作模型",
+          "summary": "Black Forest Labs 发布多模态基础模型 FLUX 3，联合训练图像、视频和音频，其中视频预测占训练算力的 95% 以上。该模型与机器人公司 mimic 合作推出 FLUX-mimic，已在奥迪生产线上测试部署。加入动作预测后，视频生成质量最初下降最多 10%，但经 3500 步训练后恢复原有水平。",
+          "recommend_reason_zh": "FLUX 3与mimic合作开发的视频动作模型已在Audi部署，训练中视频预测占计算成本95%以上，加入动作预测后视频生成质量短暂下降10%，3500步后恢复。",
+          "url": "https://bfl.ai/blog/flux-3-mimic",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-24T11:55:45.885000Z"
+        },
+        {
+          "id": "d9d8a3a19c48f68d00c49361a52d4242cbdaae6e",
+          "title": "FLUX 3 x mimic：新一代视频动作模型 / Flux 3 X Mimic: The Next Generation of Video-Action Models",
+          "title_zh": "FLUX 3 x mimic：新一代视频动作模型",
+          "title_en": "Flux 3 X Mimic: The Next Generation of Video-Action Models",
+          "title_original": "Flux 3 X Mimic: The Next Generation of Video-Action Models",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://bfl.ai/blog/flux-3-mimic",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-07-24T09:31:48Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "Hacker News 热门（buzzing.cc 中文翻译）"
+      ],
+      "items": [
+        {
+          "id": "fd77d4f467151087a7e14015ce2e68234888ff71",
+          "title": "FLUX 3 x mimic：新一代视频动作模型",
+          "title_zh": "FLUX 3 x mimic：新一代视频动作模型",
+          "title_en": null,
+          "title_original": "FLUX 3 x mimic：新一代视频动作模型",
+          "summary": "Black Forest Labs 发布多模态基础模型 FLUX 3，联合训练图像、视频和音频，其中视频预测占训练算力的 95% 以上。该模型与机器人公司 mimic 合作推出 FLUX-mimic，已在奥迪生产线上测试部署。加入动作预测后，视频生成质量最初下降最多 10%，但经 3500 步训练后恢复原有水平。",
+          "recommend_reason_zh": "FLUX 3与mimic合作开发的视频动作模型已在Audi部署，训练中视频预测占计算成本95%以上，加入动作预测后视频生成质量短暂下降10%，3500步后恢复。",
+          "url": "https://bfl.ai/blog/flux-3-mimic",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-24T11:55:45.885000Z"
+        },
+        {
+          "id": "d9d8a3a19c48f68d00c49361a52d4242cbdaae6e",
+          "title": "FLUX 3 x mimic：新一代视频动作模型 / Flux 3 X Mimic: The Next Generation of Video-Action Models",
+          "title_zh": "FLUX 3 x mimic：新一代视频动作模型",
+          "title_en": "Flux 3 X Mimic: The Next Generation of Video-Action Models",
+          "title_original": "Flux 3 X Mimic: The Next Generation of Video-Action Models",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://bfl.ai/blog/flux-3-mimic",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-07-24T09:31:48Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7951,
+      "importance": 0.7951,
+      "importance_score": 0.7951,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.75,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9641,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-24T09:31:48Z",
+      "latest_at": "2026-07-24T11:55:45.885000Z",
+      "primary_item": {
+        "id": "fd77d4f467151087a7e14015ce2e68234888ff71",
+        "title": "FLUX 3 x mimic：新一代视频动作模型",
+        "title_zh": "FLUX 3 x mimic：新一代视频动作模型",
+        "title_en": null,
+        "title_original": "FLUX 3 x mimic：新一代视频动作模型",
+        "summary": "Black Forest Labs 发布多模态基础模型 FLUX 3，联合训练图像、视频和音频，其中视频预测占训练算力的 95% 以上。该模型与机器人公司 mimic 合作推出 FLUX-mimic，已在奥迪生产线上测试部署。加入动作预测后，视频生成质量最初下降最多 10%，但经 3500 步训练后恢复原有水平。",
+        "recommend_reason_zh": "FLUX 3与mimic合作开发的视频动作模型已在Audi部署，训练中视频预测占计算成本95%以上，加入动作预测后视频生成质量短暂下降10%，3500步后恢复。",
+        "url": "https://bfl.ai/blog/flux-3-mimic",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 65,
+      "persona_review": "视频动作模型新选择，但需等API或开源才能评估实用性。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-chat",
+        "scored_at": "2026-07-24T14:36:22.999025Z"
+      }
+    },
+    {
+      "story_id": "story_31e9766f60d4",
+      "title": "Black Forest Labs 发布 FLUX 3 多模态模型，支持单次生成 20 秒视频与原生音频",
+      "url": "https://www.ithome.com/0/981/137.htm",
+      "primary_url": "https://www.ithome.com/0/981/137.htm",
+      "source": "IT之家（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "50ab6583849f884bd6093cd24bb4f14edf02de34",
+          "title": "Black Forest Labs 发布 FLUX 3 多模态模型，支持单次生成 20 秒视频与原生音频",
+          "title_zh": "Black Forest Labs 发布 FLUX 3 多模态模型，支持单次生成 20 秒视频与原生音频",
+          "title_en": null,
+          "title_original": "Black Forest Labs 发布 FLUX 3 多模态模型，支持单次生成 20 秒视频与原生音频",
+          "summary": "Black Forest Labs 以 Early Access 方式推出 FLUX 3 多模态基础模型，采用统一架构联合学习图像、视频和音频。该模型基于 Self-Flow 学习框架扩展，可在单次生成中输出最长 20 秒视频并附带原生音频，支持文生视频、图生视频、多镜头串联等任务。",
+          "recommend_reason_zh": "Black Forest Labs 以 Early Access 发布 Flux 3，支持单次生成20秒视频与原生音频，在人工评测中对Grok Imagine Video胜率69%，对Seedance 2.0和Gemini Omni Flash均为52%。",
+          "url": "https://www.ithome.com/0/981/137.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-24T06:48:04Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "IT之家（RSS）"
+      ],
+      "items": [
+        {
+          "id": "50ab6583849f884bd6093cd24bb4f14edf02de34",
+          "title": "Black Forest Labs 发布 FLUX 3 多模态模型，支持单次生成 20 秒视频与原生音频",
+          "title_zh": "Black Forest Labs 发布 FLUX 3 多模态模型，支持单次生成 20 秒视频与原生音频",
+          "title_en": null,
+          "title_original": "Black Forest Labs 发布 FLUX 3 多模态模型，支持单次生成 20 秒视频与原生音频",
+          "summary": "Black Forest Labs 以 Early Access 方式推出 FLUX 3 多模态基础模型，采用统一架构联合学习图像、视频和音频。该模型基于 Self-Flow 学习框架扩展，可在单次生成中输出最长 20 秒视频并附带原生音频，支持文生视频、图生视频、多镜头串联等任务。",
+          "recommend_reason_zh": "Black Forest Labs 以 Early Access 发布 Flux 3，支持单次生成20秒视频与原生音频，在人工评测中对Grok Imagine Video胜率69%，对Seedance 2.0和Gemini Omni Flash均为52%。",
+          "url": "https://www.ithome.com/0/981/137.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-24T06:48:04Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7518,
+      "importance": 0.7518,
+      "importance_score": 0.7518,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.73,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8953,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-24T06:48:04Z",
+      "latest_at": "2026-07-24T06:48:04Z",
+      "primary_item": {
+        "id": "50ab6583849f884bd6093cd24bb4f14edf02de34",
+        "title": "Black Forest Labs 发布 FLUX 3 多模态模型，支持单次生成 20 秒视频与原生音频",
+        "title_zh": "Black Forest Labs 发布 FLUX 3 多模态模型，支持单次生成 20 秒视频与原生音频",
+        "title_en": null,
+        "title_original": "Black Forest Labs 发布 FLUX 3 多模态模型，支持单次生成 20 秒视频与原生音频",
+        "summary": "Black Forest Labs 以 Early Access 方式推出 FLUX 3 多模态基础模型，采用统一架构联合学习图像、视频和音频。该模型基于 Self-Flow 学习框架扩展，可在单次生成中输出最长 20 秒视频并附带原生音频，支持文生视频、图生视频、多镜头串联等任务。",
+        "recommend_reason_zh": "Black Forest Labs 以 Early Access 发布 Flux 3，支持单次生成20秒视频与原生音频，在人工评测中对Grok Imagine Video胜率69%，对Seedance 2.0和Gemini Omni Flash均为52%。",
+        "url": "https://www.ithome.com/0/981/137.htm",
+        "source": "IT之家（RSS）",
+        "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "多模态生成一步到位，做视频和音频的今天就能试，省去拼接流程。",
+      "persona_meta": {
+        "mode": "llm",
+        "model": "deepseek-chat",
+        "scored_at": "2026-07-24T14:36:22.999025Z"
       }
     },
     {
@@ -330,7 +978,7 @@
           "title_zh": "GitHub MCP Server 支持下一代 MCP 规范",
           "title_en": "GitHub MCP Server supports the next MCP specification",
           "title_original": "GitHub MCP Server supports the next MCP specification",
-          "summary": "The MCP protocol is going stateless on 28th July 2026, and the GitHub MCP Server supports the latest spec ahead of the official release. What’s changing The new stateless core…\nThe MCP protocol is going stateless on 28th July 2026, and the GitHub MCP Server supports the latest spec ahead of the official release.\nSince all tier 1 SDKs have preserved backwards compatibility and they have all already shipped beta support, you don’t need to do anything to maintain support. The GitHub MCP server uses",
+          "summary": null,
           "recommend_reason_zh": "GitHub MCP Server已提前支持2026年7月28日生效的无状态MCP新规范，采用官方Go SDK，并新增一致性测试，Copilot可据此更可靠地验证AI辅助开发结果。",
           "url": "https://github.blog/changelog/2026-07-23-github-mcp-server-supports-the-next-mcp-specification",
           "source": "GitHub Changelog",
@@ -350,7 +998,7 @@
           "title_zh": "GitHub MCP Server 支持下一代 MCP 规范",
           "title_en": "GitHub MCP Server supports the next MCP specification",
           "title_original": "GitHub MCP Server supports the next MCP specification",
-          "summary": "The MCP protocol is going stateless on 28th July 2026, and the GitHub MCP Server supports the latest spec ahead of the official release. What’s changing The new stateless core…\nThe MCP protocol is going stateless on 28th July 2026, and the GitHub MCP Server supports the latest spec ahead of the official release.\nSince all tier 1 SDKs have preserved backwards compatibility and they have all already shipped beta support, you don’t need to do anything to maintain support. The GitHub MCP server uses",
+          "summary": null,
           "recommend_reason_zh": "GitHub MCP Server已提前支持2026年7月28日生效的无状态MCP新规范，采用官方Go SDK，并新增一致性测试，Copilot可据此更可靠地验证AI辅助开发结果。",
           "url": "https://github.blog/changelog/2026-07-23-github-mcp-server-supports-the-next-mcp-specification",
           "source": "GitHub Changelog",
@@ -361,15 +1009,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8345,
-      "importance": 0.8345,
-      "importance_score": 0.8345,
+      "score": 0.8112,
+      "importance": 0.8112,
+      "importance_score": 0.8112,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9027,
+        "recency": 0.7731,
         "story_heat": 0.0
       },
       "category": "official",
@@ -386,7 +1034,7 @@
         "title_zh": "GitHub MCP Server 支持下一代 MCP 规范",
         "title_en": "GitHub MCP Server supports the next MCP specification",
         "title_original": "GitHub MCP Server supports the next MCP specification",
-        "summary": "The MCP protocol is going stateless on 28th July 2026, and the GitHub MCP Server supports the latest spec ahead of the official release. What’s changing The new stateless core…\nThe MCP protocol is going stateless on 28th July 2026, and the GitHub MCP Server supports the latest spec ahead of the official release.\nSince all tier 1 SDKs have preserved backwards compatibility and they have all already shipped beta support, you don’t need to do anything to maintain support. The GitHub MCP server uses",
+        "summary": null,
         "recommend_reason_zh": "GitHub MCP Server已提前支持2026年7月28日生效的无状态MCP新规范，采用官方Go SDK，并新增一致性测试，Copilot可据此更可靠地验证AI辅助开发结果。",
         "url": "https://github.blog/changelog/2026-07-23-github-mcp-server-supports-the-next-mcp-specification",
         "source": "GitHub Changelog",
@@ -398,91 +1046,90 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-07-24T03:51:31.703297Z"
+        "scored_at": "2026-07-24T14:36:22.999025Z"
       }
     },
     {
-      "story_id": "story_8df1b0bf002d",
-      "title": "佛州男子因相信 ChatGPT 拒绝就医而险些丧命，起诉 OpenAI 及 CEO 奥尔特曼",
-      "url": "https://www.ithome.com/0/980/890.htm",
-      "primary_url": "https://www.ithome.com/0/980/890.htm",
-      "source": "IT之家（RSS）",
+      "story_id": "story_066596f2dc30",
+      "title": "百度搭子更新：电脑手机接力、桌面端内嵌浏览器上线，复杂任务可跨端连续执行",
+      "url": "https://mp.weixin.qq.com/s/HRySK1LU53clPe2I_M-Fug",
+      "primary_url": "https://mp.weixin.qq.com/s/HRySK1LU53clPe2I_M-Fug",
+      "source": "公众号：百度智能云（文心）",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "8bc90c40a6536a690373cc42456b6735218b4d67",
-          "title": "佛州男子因相信 ChatGPT 拒绝就医而险些丧命，起诉 OpenAI 及 CEO 奥尔特曼",
-          "title_zh": "佛州男子因相信 ChatGPT 拒绝就医而险些丧命，起诉 OpenAI 及 CEO 奥尔特曼",
+          "id": "9dfb04799b08d1104c703b3b7a11eb2b33fb90bc",
+          "title": "百度搭子更新：电脑手机接力、桌面端内嵌浏览器上线，复杂任务可跨端连续执行",
+          "title_zh": "百度搭子更新：电脑手机接力、桌面端内嵌浏览器上线，复杂任务可跨端连续执行",
           "title_en": null,
-          "title_original": "佛州男子因相信 ChatGPT 拒绝就医而险些丧命，起诉 OpenAI 及 CEO 奥尔特曼",
-          "summary": "美国佛罗里达州 55 岁男子 Scott Winters 起诉 OpenAI，称 ChatGPT-4o 多次建议其无需就医，导致其因双肺血栓引发大面积肺栓塞，一度濒临死亡。诉状指控 OpenAI 存在疏忽和\"无证行医\"行为，要求经济赔偿并暂停 ChatGPT Health 服务。OpenAI 回应称 ChatGPT 不是医生，不应替代专业医疗护理。",
-          "recommend_reason_zh": "美国佛州男子Scott Winters因相信ChatGPT-4o的多次“无需就医”建议，最终因双肺血栓引发肺栓塞濒死，已起诉OpenAI及CEO Sam Altman。",
-          "url": "https://www.ithome.com/0/980/890.htm",
-          "source": "IT之家（RSS）",
+          "title_original": "百度搭子更新：电脑手机接力、桌面端内嵌浏览器上线，复杂任务可跨端连续执行",
+          "summary": "百度搭子在近期AI Day上推出多项升级，支持电脑与手机双端互联，同步任务上下文与执行进度，用户可跨设备接力完成复杂工作。桌面端内嵌浏览器正式上线，能自动打开多个网页执行调研、下载等操作，手机端支持云端远程操控。智能路由自动匹配任务模式，平均任务耗时降低20%，Token利用率提升25%；简单任务完成度达100%，复杂任务高交付率94%，积分消耗最高降低75%。",
+          "recommend_reason_zh": "百度搭子更新支持电脑手机接力，新增桌面端内嵌浏览器，复杂任务可跨设备连续执行，提升多屏协作效率。",
+          "url": "https://mp.weixin.qq.com/s/HRySK1LU53clPe2I_M-Fug",
+          "source": "公众号：百度智能云（文心）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-07-23T23:30:43Z"
+          "published_at": "2026-07-24T12:28:24Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "IT之家（RSS）"
+        "公众号：百度智能云（文心）"
       ],
       "items": [
         {
-          "id": "8bc90c40a6536a690373cc42456b6735218b4d67",
-          "title": "佛州男子因相信 ChatGPT 拒绝就医而险些丧命，起诉 OpenAI 及 CEO 奥尔特曼",
-          "title_zh": "佛州男子因相信 ChatGPT 拒绝就医而险些丧命，起诉 OpenAI 及 CEO 奥尔特曼",
+          "id": "9dfb04799b08d1104c703b3b7a11eb2b33fb90bc",
+          "title": "百度搭子更新：电脑手机接力、桌面端内嵌浏览器上线，复杂任务可跨端连续执行",
+          "title_zh": "百度搭子更新：电脑手机接力、桌面端内嵌浏览器上线，复杂任务可跨端连续执行",
           "title_en": null,
-          "title_original": "佛州男子因相信 ChatGPT 拒绝就医而险些丧命，起诉 OpenAI 及 CEO 奥尔特曼",
-          "summary": "美国佛罗里达州 55 岁男子 Scott Winters 起诉 OpenAI，称 ChatGPT-4o 多次建议其无需就医，导致其因双肺血栓引发大面积肺栓塞，一度濒临死亡。诉状指控 OpenAI 存在疏忽和\"无证行医\"行为，要求经济赔偿并暂停 ChatGPT Health 服务。OpenAI 回应称 ChatGPT 不是医生，不应替代专业医疗护理。",
-          "recommend_reason_zh": "美国佛州男子Scott Winters因相信ChatGPT-4o的多次“无需就医”建议，最终因双肺血栓引发肺栓塞濒死，已起诉OpenAI及CEO Sam Altman。",
-          "url": "https://www.ithome.com/0/980/890.htm",
-          "source": "IT之家（RSS）",
+          "title_original": "百度搭子更新：电脑手机接力、桌面端内嵌浏览器上线，复杂任务可跨端连续执行",
+          "summary": "百度搭子在近期AI Day上推出多项升级，支持电脑与手机双端互联，同步任务上下文与执行进度，用户可跨设备接力完成复杂工作。桌面端内嵌浏览器正式上线，能自动打开多个网页执行调研、下载等操作，手机端支持云端远程操控。智能路由自动匹配任务模式，平均任务耗时降低20%，Token利用率提升25%；简单任务完成度达100%，复杂任务高交付率94%，积分消耗最高降低75%。",
+          "recommend_reason_zh": "百度搭子更新支持电脑手机接力，新增桌面端内嵌浏览器，复杂任务可跨设备连续执行，提升多屏协作效率。",
+          "url": "https://mp.weixin.qq.com/s/HRySK1LU53clPe2I_M-Fug",
+          "source": "公众号：百度智能云（文心）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-07-23T23:30:43Z"
+          "published_at": "2026-07-24T12:28:24Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.772,
-      "importance": 0.772,
-      "importance_score": 0.772,
+      "score": 0.7475,
+      "importance": 0.7475,
+      "importance_score": 0.7475,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.77,
+        "editorial": 0.67,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.941,
+        "recency": 0.9717,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
-      "earliest_at": "2026-07-23T23:30:43Z",
-      "latest_at": "2026-07-23T23:30:43Z",
+      "earliest_at": "2026-07-24T12:28:24Z",
+      "latest_at": "2026-07-24T12:28:24Z",
       "primary_item": {
-        "id": "8bc90c40a6536a690373cc42456b6735218b4d67",
-        "title": "佛州男子因相信 ChatGPT 拒绝就医而险些丧命，起诉 OpenAI 及 CEO 奥尔特曼",
-        "title_zh": "佛州男子因相信 ChatGPT 拒绝就医而险些丧命，起诉 OpenAI 及 CEO 奥尔特曼",
+        "id": "9dfb04799b08d1104c703b3b7a11eb2b33fb90bc",
+        "title": "百度搭子更新：电脑手机接力、桌面端内嵌浏览器上线，复杂任务可跨端连续执行",
+        "title_zh": "百度搭子更新：电脑手机接力、桌面端内嵌浏览器上线，复杂任务可跨端连续执行",
         "title_en": null,
-        "title_original": "佛州男子因相信 ChatGPT 拒绝就医而险些丧命，起诉 OpenAI 及 CEO 奥尔特曼",
-        "summary": "美国佛罗里达州 55 岁男子 Scott Winters 起诉 OpenAI，称 ChatGPT-4o 多次建议其无需就医，导致其因双肺血栓引发大面积肺栓塞，一度濒临死亡。诉状指控 OpenAI 存在疏忽和\"无证行医\"行为，要求经济赔偿并暂停 ChatGPT Health 服务。OpenAI 回应称 ChatGPT 不是医生，不应替代专业医疗护理。",
-        "recommend_reason_zh": "美国佛州男子Scott Winters因相信ChatGPT-4o的多次“无需就医”建议，最终因双肺血栓引发肺栓塞濒死，已起诉OpenAI及CEO Sam Altman。",
-        "url": "https://www.ithome.com/0/980/890.htm",
-        "source": "IT之家（RSS）",
+        "title_original": "百度搭子更新：电脑手机接力、桌面端内嵌浏览器上线，复杂任务可跨端连续执行",
+        "summary": "百度搭子在近期AI Day上推出多项升级，支持电脑与手机双端互联，同步任务上下文与执行进度，用户可跨设备接力完成复杂工作。桌面端内嵌浏览器正式上线，能自动打开多个网页执行调研、下载等操作，手机端支持云端远程操控。智能路由自动匹配任务模式，平均任务耗时降低20%，Token利用率提升25%；简单任务完成度达100%，复杂任务高交付率94%，积分消耗最高降低75%。",
+        "recommend_reason_zh": "百度搭子更新支持电脑手机接力，新增桌面端内嵌浏览器，复杂任务可跨设备连续执行，提升多屏协作效率。",
+        "url": "https://mp.weixin.qq.com/s/HRySK1LU53clPe2I_M-Fug",
+        "source": "公众号：百度智能云（文心）",
         "source_name": "AI HOT"
       },
       "persona_id": "pragmatic",
-      "persona_score": 20,
-      "persona_review": "个案法律纠纷，不影响模型使用或开发，看个乐就行。",
+      "persona_score": 45,
+      "persona_review": "跨端接力实用，但仅限百度生态，非百度用户无影响。",
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-07-24T03:51:31.703297Z"
+        "scored_at": "2026-07-24T14:36:22.999025Z"
       }
     },
     {
@@ -530,21 +1177,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7689,
-      "importance": 0.7689,
-      "importance_score": 0.7689,
+      "score": 0.7459,
+      "importance": 0.7459,
+      "importance_score": 0.7459,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8908,
+        "recency": 0.7629,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-07-23T19:43:04Z",
       "latest_at": "2026-07-23T19:43:04Z",
@@ -566,30 +1212,30 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-07-24T03:51:31.703297Z"
+        "scored_at": "2026-07-24T14:36:22.999025Z"
       }
     },
     {
-      "story_id": "story_35e9cf099ba2",
-      "title": "Alphabet 押注 Anthropic 浮盈千亿：股份价值飙升至约 1240 亿美元",
-      "url": "https://www.aibase.com/news/29854",
-      "primary_url": "https://www.aibase.com/news/29854",
+      "story_id": "story_e8f0a452a534",
+      "title": "Google Q2 资本开支翻番破纪录：449 亿美元砸向 AI 基建，云业务利润率几乎翻倍",
+      "url": "https://www.aibase.com/news/29870",
+      "primary_url": "https://www.aibase.com/news/29870",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "197bca315ac314dc4a157e6a952edc64b88104bd",
-          "title": "Alphabet 押注 Anthropic 浮盈千亿：股份价值飙升至约 1240 亿美元",
-          "title_zh": "Alphabet 押注 Anthropic 浮盈千亿：股份价值飙升至约 1240 亿美元",
+          "id": "c585b7b5321a3a10cca7de27bbd36f5e698ce3af",
+          "title": "Google Q2 资本开支翻番破纪录：449 亿美元砸向 AI 基建，云业务利润率几乎翻倍",
+          "title_zh": "Google Q2 资本开支翻番破纪录：449 亿美元砸向 AI 基建，云业务利润率几乎翻倍",
           "title_en": null,
-          "title_original": "Alphabet 押注 Anthropic 浮盈千亿：股份价值飙升至约 1240 亿美元",
-          "summary": "Alphabet's bet on the AI startup Anthropic has now grown into a huge mountain. Documents disclosed on Thursday show that as of June 30, Alphabet's investments i\nAlphabet's bet on the AI startup Anthropic has now grown into a huge mountain. Documents disclosed on Thursday show that as of June 30, Alphabet's investments i\nAlphabet's bet on the AI startup Anthropic has now grown into a huge mountain. Documents disclosed on Thursday show that as of June 30, Alphabet's investments i\nExplore AI Fronti",
-          "recommend_reason_zh": "Alphabet对Anthropic的投资浮盈千亿，股份价值飙升至约1240亿美元，成为其史上最成功投资之一，揭示了AI巨头间资本与算力的复杂纽带。",
-          "url": "https://www.aibase.com/news/29854",
+          "title_original": "Google Q2 资本开支翻番破纪录：449 亿美元砸向 AI 基建，云业务利润率几乎翻倍",
+          "summary": "Google's computing power bill is rising at an alarming rate. Alphabet's second-quarter financial report shows that capital expenditures jumped 100% year-over-ye\nGoogle's computing power bill is rising at an alarming rate. Alphabet's second-quarter financial report shows that capital expenditures jumped 100% year-over-ye\nGoogle's computing power bill is rising at an alarming rate. Alphabet's second-quarter financial report shows that capital expenditures jumped 100% year-over-ye\nExplore AI Fronti",
+          "recommend_reason_zh": "Google Q2资本开支达449亿美元翻番创纪录，云业务利润率几乎翻倍至35.6%，收入248亿美元，月活用户9.5亿的Gemini每分钟处理220亿token。",
+          "url": "https://www.aibase.com/news/29870",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-07-24T03:43:28.819091Z"
+          "published_at": "2026-07-24T14:27:34.138553Z"
         }
       ],
       "source_count": 1,
@@ -598,18 +1244,18 @@
       ],
       "items": [
         {
-          "id": "197bca315ac314dc4a157e6a952edc64b88104bd",
-          "title": "Alphabet 押注 Anthropic 浮盈千亿：股份价值飙升至约 1240 亿美元",
-          "title_zh": "Alphabet 押注 Anthropic 浮盈千亿：股份价值飙升至约 1240 亿美元",
+          "id": "c585b7b5321a3a10cca7de27bbd36f5e698ce3af",
+          "title": "Google Q2 资本开支翻番破纪录：449 亿美元砸向 AI 基建，云业务利润率几乎翻倍",
+          "title_zh": "Google Q2 资本开支翻番破纪录：449 亿美元砸向 AI 基建，云业务利润率几乎翻倍",
           "title_en": null,
-          "title_original": "Alphabet 押注 Anthropic 浮盈千亿：股份价值飙升至约 1240 亿美元",
-          "summary": "Alphabet's bet on the AI startup Anthropic has now grown into a huge mountain. Documents disclosed on Thursday show that as of June 30, Alphabet's investments i\nAlphabet's bet on the AI startup Anthropic has now grown into a huge mountain. Documents disclosed on Thursday show that as of June 30, Alphabet's investments i\nAlphabet's bet on the AI startup Anthropic has now grown into a huge mountain. Documents disclosed on Thursday show that as of June 30, Alphabet's investments i\nExplore AI Fronti",
-          "recommend_reason_zh": "Alphabet对Anthropic的投资浮盈千亿，股份价值飙升至约1240亿美元，成为其史上最成功投资之一，揭示了AI巨头间资本与算力的复杂纽带。",
-          "url": "https://www.aibase.com/news/29854",
+          "title_original": "Google Q2 资本开支翻番破纪录：449 亿美元砸向 AI 基建，云业务利润率几乎翻倍",
+          "summary": "Google's computing power bill is rising at an alarming rate. Alphabet's second-quarter financial report shows that capital expenditures jumped 100% year-over-ye\nGoogle's computing power bill is rising at an alarming rate. Alphabet's second-quarter financial report shows that capital expenditures jumped 100% year-over-ye\nGoogle's computing power bill is rising at an alarming rate. Alphabet's second-quarter financial report shows that capital expenditures jumped 100% year-over-ye\nExplore AI Fronti",
+          "recommend_reason_zh": "Google Q2资本开支达449亿美元翻番创纪录，云业务利润率几乎翻倍至35.6%，收入248亿美元，月活用户9.5亿的Gemini每分钟处理220亿token。",
+          "url": "https://www.aibase.com/news/29870",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-07-24T03:43:28.819091Z"
+          "published_at": "2026-07-24T14:27:34.138553Z"
         }
       ],
       "item_count": 1,
@@ -630,141 +1276,27 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-07-24T03:43:28.819091Z",
-      "latest_at": "2026-07-24T03:43:28.819091Z",
+      "earliest_at": "2026-07-24T14:27:34.138553Z",
+      "latest_at": "2026-07-24T14:27:34.138553Z",
       "primary_item": {
-        "id": "197bca315ac314dc4a157e6a952edc64b88104bd",
-        "title": "Alphabet 押注 Anthropic 浮盈千亿：股份价值飙升至约 1240 亿美元",
-        "title_zh": "Alphabet 押注 Anthropic 浮盈千亿：股份价值飙升至约 1240 亿美元",
+        "id": "c585b7b5321a3a10cca7de27bbd36f5e698ce3af",
+        "title": "Google Q2 资本开支翻番破纪录：449 亿美元砸向 AI 基建，云业务利润率几乎翻倍",
+        "title_zh": "Google Q2 资本开支翻番破纪录：449 亿美元砸向 AI 基建，云业务利润率几乎翻倍",
         "title_en": null,
-        "title_original": "Alphabet 押注 Anthropic 浮盈千亿：股份价值飙升至约 1240 亿美元",
-        "summary": "Alphabet's bet on the AI startup Anthropic has now grown into a huge mountain. Documents disclosed on Thursday show that as of June 30, Alphabet's investments i\nAlphabet's bet on the AI startup Anthropic has now grown into a huge mountain. Documents disclosed on Thursday show that as of June 30, Alphabet's investments i\nAlphabet's bet on the AI startup Anthropic has now grown into a huge mountain. Documents disclosed on Thursday show that as of June 30, Alphabet's investments i\nExplore AI Fronti",
-        "recommend_reason_zh": "Alphabet对Anthropic的投资浮盈千亿，股份价值飙升至约1240亿美元，成为其史上最成功投资之一，揭示了AI巨头间资本与算力的复杂纽带。",
-        "url": "https://www.aibase.com/news/29854",
+        "title_original": "Google Q2 资本开支翻番破纪录：449 亿美元砸向 AI 基建，云业务利润率几乎翻倍",
+        "summary": "Google's computing power bill is rising at an alarming rate. Alphabet's second-quarter financial report shows that capital expenditures jumped 100% year-over-ye\nGoogle's computing power bill is rising at an alarming rate. Alphabet's second-quarter financial report shows that capital expenditures jumped 100% year-over-ye\nGoogle's computing power bill is rising at an alarming rate. Alphabet's second-quarter financial report shows that capital expenditures jumped 100% year-over-ye\nExplore AI Fronti",
+        "recommend_reason_zh": "Google Q2资本开支达449亿美元翻番创纪录，云业务利润率几乎翻倍至35.6%，收入248亿美元，月活用户9.5亿的Gemini每分钟处理220亿token。",
+        "url": "https://www.aibase.com/news/29870",
         "source": "AIbase",
         "source_name": "AIbase"
       },
       "persona_id": "pragmatic",
       "persona_score": 20,
-      "persona_review": "浮盈数字不写代码，对开发者选型零影响。",
+      "persona_review": "资本开支不写代码，云利润率涨了也不代表你的项目能省钱。",
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-07-24T03:51:31.703297Z"
-      }
-    },
-    {
-      "story_id": "story_2d16f31e4c0e",
-      "title": "Apple 起诉 OpenAI 窃取硬件制造机密 / Apple's OpenAI lawsuit is about who gets to define the post-smartphone era",
-      "url": "https://www.theverge.com/podcast/968787/apple-openai-trade-secrets-lawsuit-ai-hardware-smartphone-jony-ive",
-      "primary_url": "https://www.theverge.com/podcast/968787/apple-openai-trade-secrets-lawsuit-ai-hardware-smartphone-jony-ive",
-      "source": "The Verge：AI（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "794df629b7a6322acb25902743aaec5346a26e71",
-          "title": "Apple 起诉 OpenAI 窃取硬件制造机密 / Apple's OpenAI lawsuit is about who gets to define the post-smartphone era",
-          "title_zh": "Apple 起诉 OpenAI 窃取硬件制造机密",
-          "title_en": "Apple's OpenAI lawsuit is about who gets to define the post-smartphone era",
-          "title_original": "Apple's OpenAI lawsuit is about who gets to define the post-smartphone era",
-          "summary": "Apple 指控多名前员工在 OpenAI 面试中窃取硬件制造机密，甚至将设备带出办公室进行\"展示\"。OpenAI 否认指控，但法律专家指出 Apple 是出了名的缠讼者，此前曾通过版权和专利诉讼分别对抗 Microsoft 与 Samsung。",
-          "recommend_reason_zh": "Apple起诉OpenAI盗取商业机密，指控前员工在面试中要求透露硬件制造文件，而OpenAI曾花65亿美元收购Jony Ive的AI硬件初创公司io Products。",
-          "url": "https://www.theverge.com/podcast/968787/apple-openai-trade-secrets-lawsuit-ai-hardware-smartphone-jony-ive",
-          "source": "The Verge：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-23T14:00:00Z"
-        },
-        {
-          "id": "2d4fc4509f6b2b68ee8e0e251439b8df2901292b",
-          "title": "Apple 起诉 OpenAI 窃取硬件制造机密 / Apple’s OpenAI lawsuit is about who gets to define the post-smartphone era",
-          "title_zh": "Apple 起诉 OpenAI 窃取硬件制造机密",
-          "title_en": "Apple’s OpenAI lawsuit is about who gets to define the post-smartphone era",
-          "title_original": "Apple’s OpenAI lawsuit is about who gets to define the post-smartphone era",
-          "summary": null,
-          "recommend_reason_zh": "OpenAI斥资65亿美元收购Jony Ive的AI硬件初创公司后，被Apple起诉窃取商业机密——这场诉讼关系到谁将定义后智能手机时代，而OpenAI正现金流吃紧、高管频繁更迭。",
-          "url": "https://www.theverge.com/podcast/968787/apple-openai-trade-secrets-lawsuit-ai-hardware-smartphone-jony-ive",
-          "source": "The Verge",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-07-23T14:00:00Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "The Verge",
-        "The Verge：AI（RSS）"
-      ],
-      "items": [
-        {
-          "id": "794df629b7a6322acb25902743aaec5346a26e71",
-          "title": "Apple 起诉 OpenAI 窃取硬件制造机密 / Apple's OpenAI lawsuit is about who gets to define the post-smartphone era",
-          "title_zh": "Apple 起诉 OpenAI 窃取硬件制造机密",
-          "title_en": "Apple's OpenAI lawsuit is about who gets to define the post-smartphone era",
-          "title_original": "Apple's OpenAI lawsuit is about who gets to define the post-smartphone era",
-          "summary": "Apple 指控多名前员工在 OpenAI 面试中窃取硬件制造机密，甚至将设备带出办公室进行\"展示\"。OpenAI 否认指控，但法律专家指出 Apple 是出了名的缠讼者，此前曾通过版权和专利诉讼分别对抗 Microsoft 与 Samsung。",
-          "recommend_reason_zh": "Apple起诉OpenAI盗取商业机密，指控前员工在面试中要求透露硬件制造文件，而OpenAI曾花65亿美元收购Jony Ive的AI硬件初创公司io Products。",
-          "url": "https://www.theverge.com/podcast/968787/apple-openai-trade-secrets-lawsuit-ai-hardware-smartphone-jony-ive",
-          "source": "The Verge：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-23T14:00:00Z"
-        },
-        {
-          "id": "2d4fc4509f6b2b68ee8e0e251439b8df2901292b",
-          "title": "Apple 起诉 OpenAI 窃取硬件制造机密 / Apple’s OpenAI lawsuit is about who gets to define the post-smartphone era",
-          "title_zh": "Apple 起诉 OpenAI 窃取硬件制造机密",
-          "title_en": "Apple’s OpenAI lawsuit is about who gets to define the post-smartphone era",
-          "title_original": "Apple’s OpenAI lawsuit is about who gets to define the post-smartphone era",
-          "summary": null,
-          "recommend_reason_zh": "OpenAI斥资65亿美元收购Jony Ive的AI硬件初创公司后，被Apple起诉窃取商业机密——这场诉讼关系到谁将定义后智能手机时代，而OpenAI正现金流吃紧、高管频繁更迭。",
-          "url": "https://www.theverge.com/podcast/968787/apple-openai-trade-secrets-lawsuit-ai-hardware-smartphone-jony-ive",
-          "source": "The Verge",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-07-23T14:00:00Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7602,
-      "importance": 0.7602,
-      "importance_score": 0.7602,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8202,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-23T14:00:00Z",
-      "latest_at": "2026-07-23T14:00:00Z",
-      "primary_item": {
-        "id": "794df629b7a6322acb25902743aaec5346a26e71",
-        "title": "Apple 起诉 OpenAI 窃取硬件制造机密 / Apple's OpenAI lawsuit is about who gets to define the post-smartphone era",
-        "title_zh": "Apple 起诉 OpenAI 窃取硬件制造机密",
-        "title_en": "Apple's OpenAI lawsuit is about who gets to define the post-smartphone era",
-        "title_original": "Apple's OpenAI lawsuit is about who gets to define the post-smartphone era",
-        "summary": "Apple 指控多名前员工在 OpenAI 面试中窃取硬件制造机密，甚至将设备带出办公室进行\"展示\"。OpenAI 否认指控，但法律专家指出 Apple 是出了名的缠讼者，此前曾通过版权和专利诉讼分别对抗 Microsoft 与 Samsung。",
-        "recommend_reason_zh": "Apple起诉OpenAI盗取商业机密，指控前员工在面试中要求透露硬件制造文件，而OpenAI曾花65亿美元收购Jony Ive的AI硬件初创公司io Products。",
-        "url": "https://www.theverge.com/podcast/968787/apple-openai-trade-secrets-lawsuit-ai-hardware-smartphone-jony-ive",
-        "source": "The Verge：AI（RSS）",
-        "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 20,
-      "persona_review": "诉讼离代码太远，等判决结果或产品变化再关注。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-chat",
-        "scored_at": "2026-07-24T03:51:31.703297Z"
+        "scored_at": "2026-07-24T14:36:22.999025Z"
       }
     },
     {
@@ -812,21 +1344,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7574,
-      "importance": 0.7574,
-      "importance_score": 0.7574,
+      "score": 0.7343,
+      "importance": 0.7343,
+      "importance_score": 0.7343,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.75,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8935,
+        "recency": 0.7652,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-07-23T19:55:29.530000Z",
       "latest_at": "2026-07-23T19:55:29.530000Z",
@@ -848,424 +1379,90 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-07-24T03:51:31.703297Z"
+        "scored_at": "2026-07-24T14:36:22.999025Z"
       }
     },
     {
-      "story_id": "story_92dd58586306",
-      "title": "通义千问发布Qwen-Audio-3.0-TTS，登顶TTS排行榜 / Introducing the Qwen-Audio-3.0-TTS. Our latest text-to-speech model， in two flavors： • Flash： real-…",
-      "url": "https://x.com/Alibaba_Qwen/status/2080270065547809133",
-      "primary_url": "https://x.com/Alibaba_Qwen/status/2080270065547809133",
-      "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+      "story_id": "story_8df1b0bf002d",
+      "title": "佛州男子因相信 ChatGPT 拒绝就医而险些丧命，起诉 OpenAI 及 CEO 奥尔特曼",
+      "url": "https://www.ithome.com/0/980/890.htm",
+      "primary_url": "https://www.ithome.com/0/980/890.htm",
+      "source": "IT之家（RSS）",
       "source_name": "AI HOT",
       "sources": [
         {
-          "id": "ef228568bf7b0662d6a048c9788f440173cc69fc",
-          "title": "通义千问发布Qwen-Audio-3.0-TTS，登顶TTS排行榜 / Introducing the Qwen-Audio-3.0-TTS. Our latest text-to-speech model， in two flavors： • Flash： real-…",
-          "title_zh": "通义千问发布Qwen-Audio-3.0-TTS，登顶TTS排行榜",
-          "title_en": "Introducing the Qwen-Audio-3.0-TTS. Our latest text-to-speech model， in two flavors： • Flash： real-…",
-          "title_original": "Introducing the Qwen-Audio-3.0-TTS. Our latest text-to-speech model， in two flavors： • Flash： real-…",
-          "summary": "阿里通义千问推出最新文本转语音模型Qwen-Audio-3.0-TTS，提供Flash（实时交互）和Plus（高质量生成）两个版本。新功能包括细粒度内联标签控制（如【whisper】、【angry】）、自然语言风格控制、支持16种语言，以及一次生成长达3分钟的长文本。该模型目前在Artificial Analysis TTS排行榜上排名第一。",
-          "recommend_reason_zh": "阿里发布Qwen-Audio-3.0-TTS文本转语音模型，推出Flash实时交互版与Plus高质量生成版，支持[whisper]、[angry]等细粒度内联标签及自由风格自然语言控制。",
-          "url": "https://x.com/Alibaba_Qwen/status/2080270065547809133",
-          "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-23T12:33:27Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：通义千问 / Qwen (@Alibaba_Qwen)"
-      ],
-      "items": [
-        {
-          "id": "ef228568bf7b0662d6a048c9788f440173cc69fc",
-          "title": "通义千问发布Qwen-Audio-3.0-TTS，登顶TTS排行榜 / Introducing the Qwen-Audio-3.0-TTS. Our latest text-to-speech model， in two flavors： • Flash： real-…",
-          "title_zh": "通义千问发布Qwen-Audio-3.0-TTS，登顶TTS排行榜",
-          "title_en": "Introducing the Qwen-Audio-3.0-TTS. Our latest text-to-speech model， in two flavors： • Flash： real-…",
-          "title_original": "Introducing the Qwen-Audio-3.0-TTS. Our latest text-to-speech model， in two flavors： • Flash： real-…",
-          "summary": "阿里通义千问推出最新文本转语音模型Qwen-Audio-3.0-TTS，提供Flash（实时交互）和Plus（高质量生成）两个版本。新功能包括细粒度内联标签控制（如【whisper】、【angry】）、自然语言风格控制、支持16种语言，以及一次生成长达3分钟的长文本。该模型目前在Artificial Analysis TTS排行榜上排名第一。",
-          "recommend_reason_zh": "阿里发布Qwen-Audio-3.0-TTS文本转语音模型，推出Flash实时交互版与Plus高质量生成版，支持[whisper]、[angry]等细粒度内联标签及自由风格自然语言控制。",
-          "url": "https://x.com/Alibaba_Qwen/status/2080270065547809133",
-          "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-23T12:33:27Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7532,
-      "importance": 0.7532,
-      "importance_score": 0.7532,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.79,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8033,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-23T12:33:27Z",
-      "latest_at": "2026-07-23T12:33:27Z",
-      "primary_item": {
-        "id": "ef228568bf7b0662d6a048c9788f440173cc69fc",
-        "title": "通义千问发布Qwen-Audio-3.0-TTS，登顶TTS排行榜 / Introducing the Qwen-Audio-3.0-TTS. Our latest text-to-speech model， in two flavors： • Flash： real-…",
-        "title_zh": "通义千问发布Qwen-Audio-3.0-TTS，登顶TTS排行榜",
-        "title_en": "Introducing the Qwen-Audio-3.0-TTS. Our latest text-to-speech model， in two flavors： • Flash： real-…",
-        "title_original": "Introducing the Qwen-Audio-3.0-TTS. Our latest text-to-speech model， in two flavors： • Flash： real-…",
-        "summary": "阿里通义千问推出最新文本转语音模型Qwen-Audio-3.0-TTS，提供Flash（实时交互）和Plus（高质量生成）两个版本。新功能包括细粒度内联标签控制（如【whisper】、【angry】）、自然语言风格控制、支持16种语言，以及一次生成长达3分钟的长文本。该模型目前在Artificial Analysis TTS排行榜上排名第一。",
-        "recommend_reason_zh": "阿里发布Qwen-Audio-3.0-TTS文本转语音模型，推出Flash实时交互版与Plus高质量生成版，支持[whisper]、[angry]等细粒度内联标签及自由风格自然语言控制。",
-        "url": "https://x.com/Alibaba_Qwen/status/2080270065547809133",
-        "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
-        "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "Flash版已开源可clone，TTS任务直接换模型跑，省去训练时间。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-chat",
-        "scored_at": "2026-07-24T03:51:31.703297Z"
-      }
-    },
-    {
-      "story_id": "story_39ba2312dcea",
-      "title": "Anthropic 升级 Claude 语音模式:支持旗舰模型与第三方应用跨生态联动",
-      "url": "https://www.aibase.com/news/29848",
-      "primary_url": "https://www.aibase.com/news/29848",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "c937b54990992105f2a742fc1f7e1471aa5ad1c2",
-          "title": "Anthropic 升级 Claude 语音模式:支持旗舰模型与第三方应用跨生态联动",
-          "title_zh": "Anthropic 升级 Claude 语音模式:支持旗舰模型与第三方应用跨生态联动",
+          "id": "8bc90c40a6536a690373cc42456b6735218b4d67",
+          "title": "佛州男子因相信 ChatGPT 拒绝就医而险些丧命，起诉 OpenAI 及 CEO 奥尔特曼",
+          "title_zh": "佛州男子因相信 ChatGPT 拒绝就医而险些丧命，起诉 OpenAI 及 CEO 奥尔特曼",
           "title_en": null,
-          "title_original": "Anthropic 升级 Claude 语音模式:支持旗舰模型与第三方应用跨生态联动",
-          "summary": "&nbsp;Anthropic announced on July 23, 2026, a major update to the voice mode of its conversational assistant Claude, officially introducing support for the Opus\n&nbsp;Anthropic announced on July 23, 2026, a major update to the voice mode of its conversational assistant Claude, officially introducing support for the Opus\n&nbsp;Anthropic announced on July 23, 2026, a major update to the voice mode of its conversational assistant Claude, officially introducing support for the Opus\nExplore AI Fronti",
-          "recommend_reason_zh": "Anthropic 在 2026 年 7 月 23 日将 Claude 语音模式升级为支持 Opus 和 Sonnet 旗舰模型，并接入 Gmail、Slack 等五个第三方应用生态，让语音指令直接完成更新日程、起草邮件等复杂操作。",
-          "url": "https://www.aibase.com/news/29848",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-07-24T03:43:28.819091Z"
+          "title_original": "佛州男子因相信 ChatGPT 拒绝就医而险些丧命，起诉 OpenAI 及 CEO 奥尔特曼",
+          "summary": "美国佛罗里达州 55 岁男子 Scott Winters 起诉 OpenAI，称 ChatGPT-4o 多次建议其无需就医，导致其因双肺血栓引发大面积肺栓塞，一度濒临死亡。诉状指控 OpenAI 存在疏忽和\"无证行医\"行为，要求经济赔偿并暂停 ChatGPT Health 服务。OpenAI 回应称 ChatGPT 不是医生，不应替代专业医疗护理。",
+          "recommend_reason_zh": "美国佛州男子Scott Winters因相信ChatGPT-4o的多次“无需就医”建议，最终因双肺血栓引发肺栓塞濒死，已起诉OpenAI及CEO Sam Altman。",
+          "url": "https://www.ithome.com/0/980/890.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-23T23:30:43Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "AIbase"
+        "IT之家（RSS）"
       ],
       "items": [
         {
-          "id": "c937b54990992105f2a742fc1f7e1471aa5ad1c2",
-          "title": "Anthropic 升级 Claude 语音模式:支持旗舰模型与第三方应用跨生态联动",
-          "title_zh": "Anthropic 升级 Claude 语音模式:支持旗舰模型与第三方应用跨生态联动",
+          "id": "8bc90c40a6536a690373cc42456b6735218b4d67",
+          "title": "佛州男子因相信 ChatGPT 拒绝就医而险些丧命，起诉 OpenAI 及 CEO 奥尔特曼",
+          "title_zh": "佛州男子因相信 ChatGPT 拒绝就医而险些丧命，起诉 OpenAI 及 CEO 奥尔特曼",
           "title_en": null,
-          "title_original": "Anthropic 升级 Claude 语音模式:支持旗舰模型与第三方应用跨生态联动",
-          "summary": "&nbsp;Anthropic announced on July 23, 2026, a major update to the voice mode of its conversational assistant Claude, officially introducing support for the Opus\n&nbsp;Anthropic announced on July 23, 2026, a major update to the voice mode of its conversational assistant Claude, officially introducing support for the Opus\n&nbsp;Anthropic announced on July 23, 2026, a major update to the voice mode of its conversational assistant Claude, officially introducing support for the Opus\nExplore AI Fronti",
-          "recommend_reason_zh": "Anthropic 在 2026 年 7 月 23 日将 Claude 语音模式升级为支持 Opus 和 Sonnet 旗舰模型，并接入 Gmail、Slack 等五个第三方应用生态，让语音指令直接完成更新日程、起草邮件等复杂操作。",
-          "url": "https://www.aibase.com/news/29848",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-07-24T03:43:28.819091Z"
+          "title_original": "佛州男子因相信 ChatGPT 拒绝就医而险些丧命，起诉 OpenAI 及 CEO 奥尔特曼",
+          "summary": "美国佛罗里达州 55 岁男子 Scott Winters 起诉 OpenAI，称 ChatGPT-4o 多次建议其无需就医，导致其因双肺血栓引发大面积肺栓塞，一度濒临死亡。诉状指控 OpenAI 存在疏忽和\"无证行医\"行为，要求经济赔偿并暂停 ChatGPT Health 服务。OpenAI 回应称 ChatGPT 不是医生，不应替代专业医疗护理。",
+          "recommend_reason_zh": "美国佛州男子Scott Winters因相信ChatGPT-4o的多次“无需就医”建议，最终因双肺血栓引发肺栓塞濒死，已起诉OpenAI及CEO Sam Altman。",
+          "url": "https://www.ithome.com/0/980/890.htm",
+          "source": "IT之家（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-23T23:30:43Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
+      "score": 0.7477,
+      "importance": 0.7477,
+      "importance_score": 0.7477,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.72,
+        "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-24T03:43:28.819091Z",
-      "latest_at": "2026-07-24T03:43:28.819091Z",
-      "primary_item": {
-        "id": "c937b54990992105f2a742fc1f7e1471aa5ad1c2",
-        "title": "Anthropic 升级 Claude 语音模式:支持旗舰模型与第三方应用跨生态联动",
-        "title_zh": "Anthropic 升级 Claude 语音模式:支持旗舰模型与第三方应用跨生态联动",
-        "title_en": null,
-        "title_original": "Anthropic 升级 Claude 语音模式:支持旗舰模型与第三方应用跨生态联动",
-        "summary": "&nbsp;Anthropic announced on July 23, 2026, a major update to the voice mode of its conversational assistant Claude, officially introducing support for the Opus\n&nbsp;Anthropic announced on July 23, 2026, a major update to the voice mode of its conversational assistant Claude, officially introducing support for the Opus\n&nbsp;Anthropic announced on July 23, 2026, a major update to the voice mode of its conversational assistant Claude, officially introducing support for the Opus\nExplore AI Fronti",
-        "recommend_reason_zh": "Anthropic 在 2026 年 7 月 23 日将 Claude 语音模式升级为支持 Opus 和 Sonnet 旗舰模型，并接入 Gmail、Slack 等五个第三方应用生态，让语音指令直接完成更新日程、起草邮件等复杂操作。",
-        "url": "https://www.aibase.com/news/29848",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 65,
-      "persona_review": "语音模式支持旗舰模型，可集成第三方应用，适合做语音交互产品的开发者试水。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-chat",
-        "scored_at": "2026-07-24T03:51:31.703297Z"
-      }
-    },
-    {
-      "story_id": "story_63e67b950746",
-      "title": "Google Gemini 月活用户逼近 9.5 亿，有望成为下一个十亿级产品 / Google closes in on another billion- user product with Gemini",
-      "url": "https://techcrunch.com/2026/07/23/google-closes-in-on-another-billion-user-product-with-gemini",
-      "primary_url": "https://techcrunch.com/2026/07/23/google-closes-in-on-another-billion-user-product-with-gemini",
-      "source": "TechCrunch：AI（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "fa328c231b7b7dd15d90e5a0a7e84bb354c54288",
-          "title": "Google Gemini 月活用户逼近 9.5 亿，有望成为下一个十亿级产品 / Google closes in on another billion- user product with Gemini",
-          "title_zh": "Google Gemini 月活用户逼近 9.5 亿，有望成为下一个十亿级产品",
-          "title_en": "Google closes in on another billion- user product with Gemini",
-          "title_original": "Google closes in on another billion- user product with Gemini",
-          "summary": "Google 在 Q2 2026 财报电话会上宣布，AI 助手 Gemini 月活跃用户已超过 9.5 亿，用户数较去年增长三倍。Gemini 正与月活突破 10 亿的 ChatGPT 展开更直接竞争，其 AI 搜索模式用户也已超过 10 亿。Sensor Tower 报告显示，Gemini 在 AI 助手市场份额升至 27.7%，而 ChatGPT 份额首次跌破 50%。",
-          "recommend_reason_zh": null,
-          "url": "https://techcrunch.com/2026/07/23/google-closes-in-on-another-billion-user-product-with-gemini",
-          "source": "TechCrunch：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-23T14:52:44Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch：AI（RSS）"
-      ],
-      "items": [
-        {
-          "id": "fa328c231b7b7dd15d90e5a0a7e84bb354c54288",
-          "title": "Google Gemini 月活用户逼近 9.5 亿，有望成为下一个十亿级产品 / Google closes in on another billion- user product with Gemini",
-          "title_zh": "Google Gemini 月活用户逼近 9.5 亿，有望成为下一个十亿级产品",
-          "title_en": "Google closes in on another billion- user product with Gemini",
-          "title_original": "Google closes in on another billion- user product with Gemini",
-          "summary": "Google 在 Q2 2026 财报电话会上宣布，AI 助手 Gemini 月活跃用户已超过 9.5 亿，用户数较去年增长三倍。Gemini 正与月活突破 10 亿的 ChatGPT 展开更直接竞争，其 AI 搜索模式用户也已超过 10 亿。Sensor Tower 报告显示，Gemini 在 AI 助手市场份额升至 27.7%，而 ChatGPT 份额首次跌破 50%。",
-          "recommend_reason_zh": null,
-          "url": "https://techcrunch.com/2026/07/23/google-closes-in-on-another-billion-user-product-with-gemini",
-          "source": "TechCrunch：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-23T14:52:44Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7371,
-      "importance": 0.7371,
-      "importance_score": 0.7371,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8307,
+        "recency": 0.8059,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
         "high_ai_relevance"
       ],
-      "earliest_at": "2026-07-23T14:52:44Z",
-      "latest_at": "2026-07-23T14:52:44Z",
+      "earliest_at": "2026-07-23T23:30:43Z",
+      "latest_at": "2026-07-23T23:30:43Z",
       "primary_item": {
-        "id": "fa328c231b7b7dd15d90e5a0a7e84bb354c54288",
-        "title": "Google Gemini 月活用户逼近 9.5 亿，有望成为下一个十亿级产品 / Google closes in on another billion- user product with Gemini",
-        "title_zh": "Google Gemini 月活用户逼近 9.5 亿，有望成为下一个十亿级产品",
-        "title_en": "Google closes in on another billion- user product with Gemini",
-        "title_original": "Google closes in on another billion- user product with Gemini",
-        "summary": "Google 在 Q2 2026 财报电话会上宣布，AI 助手 Gemini 月活跃用户已超过 9.5 亿，用户数较去年增长三倍。Gemini 正与月活突破 10 亿的 ChatGPT 展开更直接竞争，其 AI 搜索模式用户也已超过 10 亿。Sensor Tower 报告显示，Gemini 在 AI 助手市场份额升至 27.7%，而 ChatGPT 份额首次跌破 50%。",
-        "recommend_reason_zh": null,
-        "url": "https://techcrunch.com/2026/07/23/google-closes-in-on-another-billion-user-product-with-gemini",
-        "source": "TechCrunch：AI（RSS）",
+        "id": "8bc90c40a6536a690373cc42456b6735218b4d67",
+        "title": "佛州男子因相信 ChatGPT 拒绝就医而险些丧命，起诉 OpenAI 及 CEO 奥尔特曼",
+        "title_zh": "佛州男子因相信 ChatGPT 拒绝就医而险些丧命，起诉 OpenAI 及 CEO 奥尔特曼",
+        "title_en": null,
+        "title_original": "佛州男子因相信 ChatGPT 拒绝就医而险些丧命，起诉 OpenAI 及 CEO 奥尔特曼",
+        "summary": "美国佛罗里达州 55 岁男子 Scott Winters 起诉 OpenAI，称 ChatGPT-4o 多次建议其无需就医，导致其因双肺血栓引发大面积肺栓塞，一度濒临死亡。诉状指控 OpenAI 存在疏忽和\"无证行医\"行为，要求经济赔偿并暂停 ChatGPT Health 服务。OpenAI 回应称 ChatGPT 不是医生，不应替代专业医疗护理。",
+        "recommend_reason_zh": "美国佛州男子Scott Winters因相信ChatGPT-4o的多次“无需就医”建议，最终因双肺血栓引发肺栓塞濒死，已起诉OpenAI及CEO Sam Altman。",
+        "url": "https://www.ithome.com/0/980/890.htm",
+        "source": "IT之家（RSS）",
         "source_name": "AI HOT"
       },
       "persona_id": "pragmatic",
       "persona_score": 20,
-      "persona_review": "用户数再大也不开放API，对开发者没用。",
+      "persona_review": "个案法律纠纷，不影响模型使用或开发，看个乐就行。",
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-07-24T03:51:31.703297Z"
-      }
-    },
-    {
-      "story_id": "story_79c2ff005240",
-      "title": "OpenAI Workspace Agents 漏洞：一个 ChatGPT 链接即可创建恶意 AI 智能体 / One tampered ChatGPT link could spawn a rogue AI agent that took orders from an attacker every five minutes",
-      "url": "https://the-decoder.com/one-tampered-chatgpt-link-could-spawn-a-rogue-ai-agent-that-took-orders-from-an-attacker-every-five-minutes",
-      "primary_url": "https://the-decoder.com/one-tampered-chatgpt-link-could-spawn-a-rogue-ai-agent-that-took-orders-from-an-attacker-every-five-minutes",
-      "source": "The Decoder：AI News（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "39ca60e336078bc560f5427e1deef672799be840",
-          "title": "OpenAI Workspace Agents 漏洞：一个 ChatGPT 链接即可创建恶意 AI 智能体 / One tampered ChatGPT link could spawn a rogue AI agent that took orders from an attacker every five minutes",
-          "title_zh": "OpenAI Workspace Agents 漏洞：一个 ChatGPT 链接即可创建恶意 AI 智能体",
-          "title_en": "One tampered ChatGPT link could spawn a rogue AI agent that took orders from an attacker every five minutes",
-          "title_original": "One tampered ChatGPT link could spawn a rogue AI agent that took orders from an attacker every five minutes",
-          "summary": "安全公司 Zenity Labs 发现 OpenAI Workspace Agents 存在\"AgentForger\"漏洞，攻击者发送一个含恶意提示词的 ChatGPT 链接，即可在受害者账户下创建自主 AI 智能体。该智能体继承受害者身份和已授权应用权限，绕过安全审批，并设置每五分钟运行一次的定时任务，从攻击者邮箱获取指令执行。OpenAI 在四天内修复了该漏洞。",
-          "recommend_reason_zh": "Zenity Labs发现的AgentForger漏洞，只需一个被篡改的ChatGPT链接即可创建自主AI代理，继承受害者身份和权限，每五分钟从攻击者收件箱拉取新指令。",
-          "url": "https://the-decoder.com/one-tampered-chatgpt-link-could-spawn-a-rogue-ai-agent-that-took-orders-from-an-attacker-every-five-minutes",
-          "source": "The Decoder：AI News（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-23T17:01:30Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "The Decoder：AI News（RSS）"
-      ],
-      "items": [
-        {
-          "id": "39ca60e336078bc560f5427e1deef672799be840",
-          "title": "OpenAI Workspace Agents 漏洞：一个 ChatGPT 链接即可创建恶意 AI 智能体 / One tampered ChatGPT link could spawn a rogue AI agent that took orders from an attacker every five minutes",
-          "title_zh": "OpenAI Workspace Agents 漏洞：一个 ChatGPT 链接即可创建恶意 AI 智能体",
-          "title_en": "One tampered ChatGPT link could spawn a rogue AI agent that took orders from an attacker every five minutes",
-          "title_original": "One tampered ChatGPT link could spawn a rogue AI agent that took orders from an attacker every five minutes",
-          "summary": "安全公司 Zenity Labs 发现 OpenAI Workspace Agents 存在\"AgentForger\"漏洞，攻击者发送一个含恶意提示词的 ChatGPT 链接，即可在受害者账户下创建自主 AI 智能体。该智能体继承受害者身份和已授权应用权限，绕过安全审批，并设置每五分钟运行一次的定时任务，从攻击者邮箱获取指令执行。OpenAI 在四天内修复了该漏洞。",
-          "recommend_reason_zh": "Zenity Labs发现的AgentForger漏洞，只需一个被篡改的ChatGPT链接即可创建自主AI代理，继承受害者身份和权限，每五分钟从攻击者收件箱拉取新指令。",
-          "url": "https://the-decoder.com/one-tampered-chatgpt-link-could-spawn-a-rogue-ai-agent-that-took-orders-from-an-attacker-every-five-minutes",
-          "source": "The Decoder：AI News（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-23T17:01:30Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7358,
-      "importance": 0.7358,
-      "importance_score": 0.7358,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.7,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8568,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-07-23T17:01:30Z",
-      "latest_at": "2026-07-23T17:01:30Z",
-      "primary_item": {
-        "id": "39ca60e336078bc560f5427e1deef672799be840",
-        "title": "OpenAI Workspace Agents 漏洞：一个 ChatGPT 链接即可创建恶意 AI 智能体 / One tampered ChatGPT link could spawn a rogue AI agent that took orders from an attacker every five minutes",
-        "title_zh": "OpenAI Workspace Agents 漏洞：一个 ChatGPT 链接即可创建恶意 AI 智能体",
-        "title_en": "One tampered ChatGPT link could spawn a rogue AI agent that took orders from an attacker every five minutes",
-        "title_original": "One tampered ChatGPT link could spawn a rogue AI agent that took orders from an attacker every five minutes",
-        "summary": "安全公司 Zenity Labs 发现 OpenAI Workspace Agents 存在\"AgentForger\"漏洞，攻击者发送一个含恶意提示词的 ChatGPT 链接，即可在受害者账户下创建自主 AI 智能体。该智能体继承受害者身份和已授权应用权限，绕过安全审批，并设置每五分钟运行一次的定时任务，从攻击者邮箱获取指令执行。OpenAI 在四天内修复了该漏洞。",
-        "recommend_reason_zh": "Zenity Labs发现的AgentForger漏洞，只需一个被篡改的ChatGPT链接即可创建自主AI代理，继承受害者身份和权限，每五分钟从攻击者收件箱拉取新指令。",
-        "url": "https://the-decoder.com/one-tampered-chatgpt-link-could-spawn-a-rogue-ai-agent-that-took-orders-from-an-attacker-every-five-minutes",
-        "source": "The Decoder：AI News（RSS）",
-        "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 40,
-      "persona_review": "安全漏洞需关注，但非通用攻击面，暂时不影响日常开发。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-chat",
-        "scored_at": "2026-07-24T03:51:31.703297Z"
-      }
-    },
-    {
-      "story_id": "story_8e78ef3b778a",
-      "title": "ChatGPT 向美国用户推出健康功能 / Launching Health in ChatGPT to U.S. users. 300 million people use ChatGPT each week for health quer…",
-      "url": "https://x.com/gdb/status/2080351159638704615",
-      "primary_url": "https://x.com/gdb/status/2080351159638704615",
-      "source": "X：Greg Brockman (@gdb)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "1e12c1d4ffe597b0ee121de37cd70ccb28dd59ef",
-          "title": "ChatGPT 向美国用户推出健康功能 / Launching Health in ChatGPT to U.S. users. 300 million people use ChatGPT each week for health quer…",
-          "title_zh": "ChatGPT 向美国用户推出健康功能",
-          "title_en": "Launching Health in ChatGPT to U.S. users. 300 million people use ChatGPT each week for health quer…",
-          "title_original": "Launching Health in ChatGPT to U.S. users. 300 million people use ChatGPT each week for health quer…",
-          "summary": "OpenAI 宣布向美国用户推出 ChatGPT 健康功能，支持安全连接 Apple Health 及受支持的医疗记录。每周有 3 亿用户使用 ChatGPT 进行健康咨询，新功能可让 ChatGPT 理解个人健康上下文，追踪变化并提供更个性化的帮助。",
-          "recommend_reason_zh": "每周3亿人用ChatGPT进行健康查询，现在美国用户可安全连接支持的医疗记录，让ChatGPT了解个人背景从而提供更有针对性的帮助。",
-          "url": "https://x.com/gdb/status/2080351159638704615",
-          "source": "X：Greg Brockman (@gdb)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-23T17:55:42Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：Greg Brockman (@gdb)"
-      ],
-      "items": [
-        {
-          "id": "1e12c1d4ffe597b0ee121de37cd70ccb28dd59ef",
-          "title": "ChatGPT 向美国用户推出健康功能 / Launching Health in ChatGPT to U.S. users. 300 million people use ChatGPT each week for health quer…",
-          "title_zh": "ChatGPT 向美国用户推出健康功能",
-          "title_en": "Launching Health in ChatGPT to U.S. users. 300 million people use ChatGPT each week for health quer…",
-          "title_original": "Launching Health in ChatGPT to U.S. users. 300 million people use ChatGPT each week for health quer…",
-          "summary": "OpenAI 宣布向美国用户推出 ChatGPT 健康功能，支持安全连接 Apple Health 及受支持的医疗记录。每周有 3 亿用户使用 ChatGPT 进行健康咨询，新功能可让 ChatGPT 理解个人健康上下文，追踪变化并提供更个性化的帮助。",
-          "recommend_reason_zh": "每周3亿人用ChatGPT进行健康查询，现在美国用户可安全连接支持的医疗记录，让ChatGPT了解个人背景从而提供更有针对性的帮助。",
-          "url": "https://x.com/gdb/status/2080351159638704615",
-          "source": "X：Greg Brockman (@gdb)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-23T17:55:42Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7349,
-      "importance": 0.7349,
-      "importance_score": 0.7349,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.69,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8681,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-07-23T17:55:42Z",
-      "latest_at": "2026-07-23T17:55:42Z",
-      "primary_item": {
-        "id": "1e12c1d4ffe597b0ee121de37cd70ccb28dd59ef",
-        "title": "ChatGPT 向美国用户推出健康功能 / Launching Health in ChatGPT to U.S. users. 300 million people use ChatGPT each week for health quer…",
-        "title_zh": "ChatGPT 向美国用户推出健康功能",
-        "title_en": "Launching Health in ChatGPT to U.S. users. 300 million people use ChatGPT each week for health quer…",
-        "title_original": "Launching Health in ChatGPT to U.S. users. 300 million people use ChatGPT each week for health quer…",
-        "summary": "OpenAI 宣布向美国用户推出 ChatGPT 健康功能，支持安全连接 Apple Health 及受支持的医疗记录。每周有 3 亿用户使用 ChatGPT 进行健康咨询，新功能可让 ChatGPT 理解个人健康上下文，追踪变化并提供更个性化的帮助。",
-        "recommend_reason_zh": "每周3亿人用ChatGPT进行健康查询，现在美国用户可安全连接支持的医疗记录，让ChatGPT了解个人背景从而提供更有针对性的帮助。",
-        "url": "https://x.com/gdb/status/2080351159638704615",
-        "source": "X：Greg Brockman (@gdb)",
-        "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 40,
-      "persona_review": "健康功能有合规门槛，国内开发者暂时用不上，先观望。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-chat",
-        "scored_at": "2026-07-24T03:51:31.703297Z"
+        "scored_at": "2026-07-24T14:36:22.999025Z"
       }
     },
     {
@@ -1282,7 +1479,7 @@
           "title_zh": "Projects和Issues的多选字段公开预览",
           "title_en": "Multi-select fields for Projects and Issues in public preview",
           "title_original": "Multi-select fields for Projects and Issues in public preview",
-          "summary": "You can now create multi-select fields in Projects and Issue fields so a single field can hold more than one value. Tag an item with everything it relates to (e.g.,…\nYou can now create multi-select fields in Projects and Issue fields so a single field can hold more than one value. Tag an item with everything it relates to (e.g., multiple teams, modules, or categories) instead of picking just one.\nIssue Fields\nProjects Fields\nTo try it, create or edit a field and choose the multi-select type. You",
+          "summary": null,
           "recommend_reason_zh": "GitHub 现推出 Projects 和 Issues 的多选字段功能，一个字段可容纳多个值（如团队、模块），从侧边栏设置并筛选，提升项目管理灵活性。",
           "url": "https://github.blog/changelog/2026-07-23-multi-select-fields-for-projects-and-issues-in-public-preview",
           "source": "GitHub Changelog",
@@ -1302,7 +1499,7 @@
           "title_zh": "Projects和Issues的多选字段公开预览",
           "title_en": "Multi-select fields for Projects and Issues in public preview",
           "title_original": "Multi-select fields for Projects and Issues in public preview",
-          "summary": "You can now create multi-select fields in Projects and Issue fields so a single field can hold more than one value. Tag an item with everything it relates to (e.g.,…\nYou can now create multi-select fields in Projects and Issue fields so a single field can hold more than one value. Tag an item with everything it relates to (e.g., multiple teams, modules, or categories) instead of picking just one.\nIssue Fields\nProjects Fields\nTo try it, create or edit a field and choose the multi-select type. You",
+          "summary": null,
           "recommend_reason_zh": "GitHub 现推出 Projects 和 Issues 的多选字段功能，一个字段可容纳多个值（如团队、模块），从侧边栏设置并筛选，提升项目管理灵活性。",
           "url": "https://github.blog/changelog/2026-07-23-multi-select-fields-for-projects-and-issues-in-public-preview",
           "source": "GitHub Changelog",
@@ -1313,15 +1510,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8211,
-      "importance": 0.8211,
-      "importance_score": 0.8211,
+      "score": 0.7986,
+      "importance": 0.7986,
+      "importance_score": 0.7986,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.873,
+        "recency": 0.7477,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1338,7 +1535,7 @@
         "title_zh": "Projects和Issues的多选字段公开预览",
         "title_en": "Multi-select fields for Projects and Issues in public preview",
         "title_original": "Multi-select fields for Projects and Issues in public preview",
-        "summary": "You can now create multi-select fields in Projects and Issue fields so a single field can hold more than one value. Tag an item with everything it relates to (e.g.,…\nYou can now create multi-select fields in Projects and Issue fields so a single field can hold more than one value. Tag an item with everything it relates to (e.g., multiple teams, modules, or categories) instead of picking just one.\nIssue Fields\nProjects Fields\nTo try it, create or edit a field and choose the multi-select type. You",
+        "summary": null,
         "recommend_reason_zh": "GitHub 现推出 Projects 和 Issues 的多选字段功能，一个字段可容纳多个值（如团队、模块），从侧边栏设置并筛选，提升项目管理灵活性。",
         "url": "https://github.blog/changelog/2026-07-23-multi-select-fields-for-projects-and-issues-in-public-preview",
         "source": "GitHub Changelog",
@@ -1350,197 +1547,30 @@
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-07-24T03:51:31.703297Z"
+        "scored_at": "2026-07-24T14:36:22.999025Z"
       }
     },
     {
-      "story_id": "story_f1c63e292752",
-      "title": "小红书HELMSMAN：全闪存服务器实现高性能向量检索，硬件成本节省超90%",
-      "url": "https://mp.weixin.qq.com/s/WCYE6itbTBPU0Q_3BfQxkA",
-      "primary_url": "https://mp.weixin.qq.com/s/WCYE6itbTBPU0Q_3BfQxkA",
-      "source": "公众号：小红书技术（dots.llm）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "4c73c7c8afcb262fb794bd2cca00819ef9338379",
-          "title": "小红书HELMSMAN：全闪存服务器实现高性能向量检索，硬件成本节省超90%",
-          "title_zh": "小红书HELMSMAN：全闪存服务器实现高性能向量检索，硬件成本节省超90%",
-          "title_en": null,
-          "title_original": "小红书HELMSMAN：全闪存服务器实现高性能向量检索，硬件成本节省超90%",
-          "summary": "小红书引擎架构团队在OSDI 2026提出HELMSMAN，一个面向全闪存服务器的高性能向量近似最近邻搜索系统。该系统通过聚类式索引、定制化存储栈和分层学习式搜索剪枝，用约40台全闪存服务器承载了过去约35，000 CPU Core和约350 TB DRAM的负载，硬件成本节省超过90%。",
-          "recommend_reason_zh": "小红书自研HELMSMAN全闪存服务器，针对搜索、推荐、广告等向量检索任务，实现硬件成本节省超90%，并提升检索性能。",
-          "url": "https://mp.weixin.qq.com/s/WCYE6itbTBPU0Q_3BfQxkA",
-          "source": "公众号：小红书技术（dots.llm）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-23T04:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "公众号：小红书技术（dots.llm）"
-      ],
-      "items": [
-        {
-          "id": "4c73c7c8afcb262fb794bd2cca00819ef9338379",
-          "title": "小红书HELMSMAN：全闪存服务器实现高性能向量检索，硬件成本节省超90%",
-          "title_zh": "小红书HELMSMAN：全闪存服务器实现高性能向量检索，硬件成本节省超90%",
-          "title_en": null,
-          "title_original": "小红书HELMSMAN：全闪存服务器实现高性能向量检索，硬件成本节省超90%",
-          "summary": "小红书引擎架构团队在OSDI 2026提出HELMSMAN，一个面向全闪存服务器的高性能向量近似最近邻搜索系统。该系统通过聚类式索引、定制化存储栈和分层学习式搜索剪枝，用约40台全闪存服务器承载了过去约35，000 CPU Core和约350 TB DRAM的负载，硬件成本节省超过90%。",
-          "recommend_reason_zh": "小红书自研HELMSMAN全闪存服务器，针对搜索、推荐、广告等向量检索任务，实现硬件成本节省超90%，并提升检索性能。",
-          "url": "https://mp.weixin.qq.com/s/WCYE6itbTBPU0Q_3BfQxkA",
-          "source": "公众号：小红书技术（dots.llm）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-23T04:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7304,
-      "importance": 0.7304,
-      "importance_score": 0.7304,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.77,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7099,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-07-23T04:00:00Z",
-      "latest_at": "2026-07-23T04:00:00Z",
-      "primary_item": {
-        "id": "4c73c7c8afcb262fb794bd2cca00819ef9338379",
-        "title": "小红书HELMSMAN：全闪存服务器实现高性能向量检索，硬件成本节省超90%",
-        "title_zh": "小红书HELMSMAN：全闪存服务器实现高性能向量检索，硬件成本节省超90%",
-        "title_en": null,
-        "title_original": "小红书HELMSMAN：全闪存服务器实现高性能向量检索，硬件成本节省超90%",
-        "summary": "小红书引擎架构团队在OSDI 2026提出HELMSMAN，一个面向全闪存服务器的高性能向量近似最近邻搜索系统。该系统通过聚类式索引、定制化存储栈和分层学习式搜索剪枝，用约40台全闪存服务器承载了过去约35，000 CPU Core和约350 TB DRAM的负载，硬件成本节省超过90%。",
-        "recommend_reason_zh": "小红书自研HELMSMAN全闪存服务器，针对搜索、推荐、广告等向量检索任务，实现硬件成本节省超90%，并提升检索性能。",
-        "url": "https://mp.weixin.qq.com/s/WCYE6itbTBPU0Q_3BfQxkA",
-        "source": "公众号：小红书技术（dots.llm）",
-        "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "全闪存方案省90%硬件成本，向量检索场景可直接抄作业。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-chat",
-        "scored_at": "2026-07-24T03:51:31.703297Z"
-      }
-    },
-    {
-      "story_id": "story_5024eb5536d2",
-      "title": "TheNumbers.com 因 AI 爬虫与安全攻击导致网站崩溃重建",
-      "url": "https://stephenfollows.com/p/what-just-happened-to-thenumberscom-should-worry-us-all",
-      "primary_url": "https://stephenfollows.com/p/what-just-happened-to-thenumberscom-should-worry-us-all",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "d5cf8ad28a2fb89768aef8293251d6cb6142fa2f",
-          "title": "TheNumbers.com 因 AI 爬虫与安全攻击导致网站崩溃重建",
-          "title_zh": "TheNumbers.com 因 AI 爬虫与安全攻击导致网站崩溃重建",
-          "title_en": null,
-          "title_original": "TheNumbers.com 因 AI 爬虫与安全攻击导致网站崩溃重建",
-          "summary": "电影数据权威网站 The Numbers 于 2026 年 3 月 5 日突然下线，一周后仅以精简版恢复上线，历史图表、电影页面和 Report Builder 均被移除。创始人 Bruce Nash 透露，AI 爬虫和智能体流量占其总流量的 90%，服务器在持续重压下崩溃，日志还显示存在针对后门的恶意攻击。团队被迫放弃运行 30 年、包含 16 万源文件的旧系统，在新基础设施上重建网站。",
-          "recommend_reason_zh": "The Numbers 追踪超过78,000部电影和236,000人的数据，每年超800万访问量，却在今年3月5日因AI爬虫与安全攻击导致网站崩溃一周，重建后规模大幅缩减。",
-          "url": "https://stephenfollows.com/p/what-just-happened-to-thenumberscom-should-worry-us-all",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-23T18:35:29.016000Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Hacker News 热门（buzzing.cc 中文翻译）"
-      ],
-      "items": [
-        {
-          "id": "d5cf8ad28a2fb89768aef8293251d6cb6142fa2f",
-          "title": "TheNumbers.com 因 AI 爬虫与安全攻击导致网站崩溃重建",
-          "title_zh": "TheNumbers.com 因 AI 爬虫与安全攻击导致网站崩溃重建",
-          "title_en": null,
-          "title_original": "TheNumbers.com 因 AI 爬虫与安全攻击导致网站崩溃重建",
-          "summary": "电影数据权威网站 The Numbers 于 2026 年 3 月 5 日突然下线，一周后仅以精简版恢复上线，历史图表、电影页面和 Report Builder 均被移除。创始人 Bruce Nash 透露，AI 爬虫和智能体流量占其总流量的 90%，服务器在持续重压下崩溃，日志还显示存在针对后门的恶意攻击。团队被迫放弃运行 30 年、包含 16 万源文件的旧系统，在新基础设施上重建网站。",
-          "recommend_reason_zh": "The Numbers 追踪超过78,000部电影和236,000人的数据，每年超800万访问量，却在今年3月5日因AI爬虫与安全攻击导致网站崩溃一周，重建后规模大幅缩减。",
-          "url": "https://stephenfollows.com/p/what-just-happened-to-thenumberscom-should-worry-us-all",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-23T18:35:29.016000Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7544,
-      "importance": 0.7544,
-      "importance_score": 0.7544,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.75,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8764,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-23T18:35:29.016000Z",
-      "latest_at": "2026-07-23T18:35:29.016000Z",
-      "primary_item": {
-        "id": "d5cf8ad28a2fb89768aef8293251d6cb6142fa2f",
-        "title": "TheNumbers.com 因 AI 爬虫与安全攻击导致网站崩溃重建",
-        "title_zh": "TheNumbers.com 因 AI 爬虫与安全攻击导致网站崩溃重建",
-        "title_en": null,
-        "title_original": "TheNumbers.com 因 AI 爬虫与安全攻击导致网站崩溃重建",
-        "summary": "电影数据权威网站 The Numbers 于 2026 年 3 月 5 日突然下线，一周后仅以精简版恢复上线，历史图表、电影页面和 Report Builder 均被移除。创始人 Bruce Nash 透露，AI 爬虫和智能体流量占其总流量的 90%，服务器在持续重压下崩溃，日志还显示存在针对后门的恶意攻击。团队被迫放弃运行 30 年、包含 16 万源文件的旧系统，在新基础设施上重建网站。",
-        "recommend_reason_zh": "The Numbers 追踪超过78,000部电影和236,000人的数据，每年超800万访问量，却在今年3月5日因AI爬虫与安全攻击导致网站崩溃一周，重建后规模大幅缩减。",
-        "url": "https://stephenfollows.com/p/what-just-happened-to-thenumberscom-should-worry-us-all",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 45,
-      "persona_review": "对开发者提醒：注意爬虫和攻击防护，但非直接可用工具信息。",
-      "persona_meta": {
-        "mode": "llm",
-        "model": "deepseek-chat",
-        "scored_at": "2026-07-24T03:51:31.703297Z"
-      }
-    },
-    {
-      "story_id": "story_37037fdc465b",
-      "title": "Anthropic升级Claude语音模式：支持Opus/Sonnet/Haiku三档切换，可直接调用Gmail和Notion等外部应用",
-      "url": "https://www.aibase.com/news/29850",
-      "primary_url": "https://www.aibase.com/news/29850",
+      "story_id": "story_29cdb0f6765b",
+      "title": "Kimi K3 攻防考卷翻车：漏洞利用只到美国前沿模型四成，蒸馏疑云被安全机构摆上台",
+      "url": "https://www.aibase.com/news/29881",
+      "primary_url": "https://www.aibase.com/news/29881",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "4a9a496a099764737f53de7d441ac2fc46e608cd",
-          "title": "Anthropic升级Claude语音模式：支持Opus/Sonnet/Haiku三档切换，可直接调用Gmail和Notion等外部应用",
-          "title_zh": "Anthropic升级Claude语音模式：支持Opus/Sonnet/Haiku三档切换，可直接调用Gmail和Notion等外部应用",
+          "id": "a3404a9d2a7b48d96b1c4c0e8850bc3d474446e5",
+          "title": "Kimi K3 攻防考卷翻车：漏洞利用只到美国前沿模型四成，蒸馏疑云被安全机构摆上台",
+          "title_zh": "Kimi K3 攻防考卷翻车：漏洞利用只到美国前沿模型四成，蒸馏疑云被安全机构摆上台",
           "title_en": null,
-          "title_original": "Anthropic升级Claude语音模式：支持Opus/Sonnet/Haiku三档切换，可直接调用Gmail和Notion等外部应用",
-          "summary": "Several weeks after OpenAI launched its new generation of dialogue models and upgraded the voice function of ChatGPT, Anthropic officially released a major upda\nSeveral weeks after OpenAI launched its new generation of dialogue models and upgraded the voice function of ChatGPT, Anthropic officially released a major upda\nSeveral weeks after OpenAI launched its new generation of dialogue models and upgraded the voice function of ChatGPT, Anthropic officially released a major upda\nExplore AI Fronti",
-          "recommend_reason_zh": "Anthropic于7月23日升级Claude语音模式，支持Opus、Sonnet、Haiku三档自由切换，并可直接调用Gmail、Notion等外部应用，让语音助手从简单对话进阶为多功能协同工具。",
-          "url": "https://www.aibase.com/news/29850",
+          "title_original": "Kimi K3 攻防考卷翻车：漏洞利用只到美国前沿模型四成，蒸馏疑云被安全机构摆上台",
+          "summary": "A joint evaluation by two major AI safety institutions in the UK and the US has exposed the \"other side\" of Moonshot's latest model, Kimi K3. The UK Artificial\nA joint evaluation by two major AI safety institutions in the UK and the US has exposed the \"other side\" of Moonshot's latest model, Kimi K3. The UK Artificial\nA joint evaluation by two major AI safety institutions in the UK and the US has exposed the \"other side\" of Moonshot's latest model, Kimi K3. The UK Artificial\nExplore AI Frontiers",
+          "recommend_reason_zh": "英美安全机构联合评估显示，Moonshot的Kimi K3在漏洞利用测试中仅得32.2%，远不及美国前沿模型平均76.2%，且其安全屏障几乎未起作用。",
+          "url": "https://www.aibase.com/news/29881",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-07-24T03:43:28.819091Z"
+          "published_at": "2026-07-24T14:27:34.138553Z"
         }
       ],
       "source_count": 1,
@@ -1549,18 +1579,18 @@
       ],
       "items": [
         {
-          "id": "4a9a496a099764737f53de7d441ac2fc46e608cd",
-          "title": "Anthropic升级Claude语音模式：支持Opus/Sonnet/Haiku三档切换，可直接调用Gmail和Notion等外部应用",
-          "title_zh": "Anthropic升级Claude语音模式：支持Opus/Sonnet/Haiku三档切换，可直接调用Gmail和Notion等外部应用",
+          "id": "a3404a9d2a7b48d96b1c4c0e8850bc3d474446e5",
+          "title": "Kimi K3 攻防考卷翻车：漏洞利用只到美国前沿模型四成，蒸馏疑云被安全机构摆上台",
+          "title_zh": "Kimi K3 攻防考卷翻车：漏洞利用只到美国前沿模型四成，蒸馏疑云被安全机构摆上台",
           "title_en": null,
-          "title_original": "Anthropic升级Claude语音模式：支持Opus/Sonnet/Haiku三档切换，可直接调用Gmail和Notion等外部应用",
-          "summary": "Several weeks after OpenAI launched its new generation of dialogue models and upgraded the voice function of ChatGPT, Anthropic officially released a major upda\nSeveral weeks after OpenAI launched its new generation of dialogue models and upgraded the voice function of ChatGPT, Anthropic officially released a major upda\nSeveral weeks after OpenAI launched its new generation of dialogue models and upgraded the voice function of ChatGPT, Anthropic officially released a major upda\nExplore AI Fronti",
-          "recommend_reason_zh": "Anthropic于7月23日升级Claude语音模式，支持Opus、Sonnet、Haiku三档自由切换，并可直接调用Gmail、Notion等外部应用，让语音助手从简单对话进阶为多功能协同工具。",
-          "url": "https://www.aibase.com/news/29850",
+          "title_original": "Kimi K3 攻防考卷翻车：漏洞利用只到美国前沿模型四成，蒸馏疑云被安全机构摆上台",
+          "summary": "A joint evaluation by two major AI safety institutions in the UK and the US has exposed the \"other side\" of Moonshot's latest model, Kimi K3. The UK Artificial\nA joint evaluation by two major AI safety institutions in the UK and the US has exposed the \"other side\" of Moonshot's latest model, Kimi K3. The UK Artificial\nA joint evaluation by two major AI safety institutions in the UK and the US has exposed the \"other side\" of Moonshot's latest model, Kimi K3. The UK Artificial\nExplore AI Frontiers",
+          "recommend_reason_zh": "英美安全机构联合评估显示，Moonshot的Kimi K3在漏洞利用测试中仅得32.2%，远不及美国前沿模型平均76.2%，且其安全屏障几乎未起作用。",
+          "url": "https://www.aibase.com/news/29881",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-07-24T03:43:28.819091Z"
+          "published_at": "2026-07-24T14:27:34.138553Z"
         }
       ],
       "item_count": 1,
@@ -1581,135 +1611,164 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-07-24T03:43:28.819091Z",
-      "latest_at": "2026-07-24T03:43:28.819091Z",
+      "earliest_at": "2026-07-24T14:27:34.138553Z",
+      "latest_at": "2026-07-24T14:27:34.138553Z",
       "primary_item": {
-        "id": "4a9a496a099764737f53de7d441ac2fc46e608cd",
-        "title": "Anthropic升级Claude语音模式：支持Opus/Sonnet/Haiku三档切换，可直接调用Gmail和Notion等外部应用",
-        "title_zh": "Anthropic升级Claude语音模式：支持Opus/Sonnet/Haiku三档切换，可直接调用Gmail和Notion等外部应用",
+        "id": "a3404a9d2a7b48d96b1c4c0e8850bc3d474446e5",
+        "title": "Kimi K3 攻防考卷翻车：漏洞利用只到美国前沿模型四成，蒸馏疑云被安全机构摆上台",
+        "title_zh": "Kimi K3 攻防考卷翻车：漏洞利用只到美国前沿模型四成，蒸馏疑云被安全机构摆上台",
         "title_en": null,
-        "title_original": "Anthropic升级Claude语音模式：支持Opus/Sonnet/Haiku三档切换，可直接调用Gmail和Notion等外部应用",
-        "summary": "Several weeks after OpenAI launched its new generation of dialogue models and upgraded the voice function of ChatGPT, Anthropic officially released a major upda\nSeveral weeks after OpenAI launched its new generation of dialogue models and upgraded the voice function of ChatGPT, Anthropic officially released a major upda\nSeveral weeks after OpenAI launched its new generation of dialogue models and upgraded the voice function of ChatGPT, Anthropic officially released a major upda\nExplore AI Fronti",
-        "recommend_reason_zh": "Anthropic于7月23日升级Claude语音模式，支持Opus、Sonnet、Haiku三档自由切换，并可直接调用Gmail、Notion等外部应用，让语音助手从简单对话进阶为多功能协同工具。",
-        "url": "https://www.aibase.com/news/29850",
+        "title_original": "Kimi K3 攻防考卷翻车：漏洞利用只到美国前沿模型四成，蒸馏疑云被安全机构摆上台",
+        "summary": "A joint evaluation by two major AI safety institutions in the UK and the US has exposed the \"other side\" of Moonshot's latest model, Kimi K3. The UK Artificial\nA joint evaluation by two major AI safety institutions in the UK and the US has exposed the \"other side\" of Moonshot's latest model, Kimi K3. The UK Artificial\nA joint evaluation by two major AI safety institutions in the UK and the US has exposed the \"other side\" of Moonshot's latest model, Kimi K3. The UK Artificial\nExplore AI Frontiers",
+        "recommend_reason_zh": "英美安全机构联合评估显示，Moonshot的Kimi K3在漏洞利用测试中仅得32.2%，远不及美国前沿模型平均76.2%，且其安全屏障几乎未起作用。",
+        "url": "https://www.aibase.com/news/29881",
         "source": "AIbase",
         "source_name": "AIbase"
       },
       "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "三档模型切换+外部应用调用，做语音助手或自动化流程的今天就能集成。",
+      "persona_score": 30,
+      "persona_review": "安全测试结果，对选型参考有限，等官方回应和修复再看。",
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-07-24T03:51:31.703297Z"
+        "scored_at": "2026-07-24T14:36:22.999025Z"
       }
     },
     {
-      "story_id": "story_1650bfbff40b",
-      "title": "GitHub Issues 中的 Agent 自动化控制现已公开预览 / Agent automation controls in GitHub Issues in public preview",
-      "url": "https://github.blog/changelog/2026-07-23-agent-automation-controls-in-github-issues-in-public-preview",
-      "primary_url": "https://github.blog/changelog/2026-07-23-agent-automation-controls-in-github-issues-in-public-preview",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
+      "story_id": "story_58bb7e7fe49d",
+      "title": "DARPA 与美国空军试飞 AI 操控的 F-16 战机",
+      "url": "https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16",
+      "primary_url": "https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
       "sources": [
         {
-          "id": "bc43672efad43350530cee56250f555e6a0d9b73",
-          "title": "GitHub Issues 中的 Agent 自动化控制现已公开预览 / Agent automation controls in GitHub Issues in public preview",
-          "title_zh": "GitHub Issues 中的 Agent 自动化控制现已公开预览",
-          "title_en": "Agent automation controls in GitHub Issues in public preview",
-          "title_original": "Agent automation controls in GitHub Issues in public preview",
-          "summary": "Agent automations increasingly label, type, assign, and close issues for you. GitHub Issues now shows the reason behind each change and lets you review them before they’re applied, so you…\nAgent automations increasingly label, type, assign, and close issues for you. GitHub Issues now shows the reason behind each change and lets you review them before they’re applied, so you decide how much to automate and when to stay in the loop.\nWe’ve released three new capabilities:\nUse has:suggestions in iss",
-          "recommend_reason_zh": "GitHub Issues公开预览新增agent自动化控制，支持has:suggestions搜索待审变更，允许仓库管理员设置置信度阈值，自动或手动应用标签、字段、类型、关闭和指派等操作。",
-          "url": "https://github.blog/changelog/2026-07-23-agent-automation-controls-in-github-issues-in-public-preview",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-23T15:30:29Z"
+          "id": "ddab2ff28daf418d5d3d1338bdc51af6492938b2",
+          "title": "DARPA 与美国空军试飞 AI 操控的 F-16 战机",
+          "title_zh": "DARPA 与美国空军试飞 AI 操控的 F-16 战机",
+          "title_en": null,
+          "title_original": "DARPA 与美国空军试飞 AI 操控的 F-16 战机",
+          "summary": "DARPA 与美国空军成功试飞了由人工智能操控的 F-16 战机。该 AI 系统在真实空战环境中完成了自主飞行与战术机动测试，标志着 AI 在军事航空领域的重大进展。",
+          "recommend_reason_zh": "DARPA与美国空军在VENOM项目下成功试飞AI操控的F-16战机，通过VAK套件实现人类与AI控制切换，为可扩展的自主空战AI开发奠定里程碑式基础。",
+          "url": "https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-23T20:11:31.906000Z"
+        },
+        {
+          "id": "c4c7faebfc9cea5cf488d3f9f4881425a345456b",
+          "title": "美国国防高级研究计划局（DARPA）与美国空军试飞了由人工智能操控的F-16战机",
+          "title_zh": "美国国防高级研究计划局（DARPA）与美国空军试飞了由人工智能操控的F-16战机",
+          "title_en": null,
+          "title_original": "美国国防高级研究计划局（DARPA）与美国空军试飞了由人工智能操控的F-16战机",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16",
+          "source": "www.darpa.mil",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-07-23T20:11:31.906000Z"
         }
       ],
-      "source_count": 1,
+      "source_count": 2,
       "source_names": [
-        "GitHub Changelog"
+        "Hacker News 热门（buzzing.cc 中文翻译）",
+        "www.darpa.mil"
       ],
       "items": [
         {
-          "id": "bc43672efad43350530cee56250f555e6a0d9b73",
-          "title": "GitHub Issues 中的 Agent 自动化控制现已公开预览 / Agent automation controls in GitHub Issues in public preview",
-          "title_zh": "GitHub Issues 中的 Agent 自动化控制现已公开预览",
-          "title_en": "Agent automation controls in GitHub Issues in public preview",
-          "title_original": "Agent automation controls in GitHub Issues in public preview",
-          "summary": "Agent automations increasingly label, type, assign, and close issues for you. GitHub Issues now shows the reason behind each change and lets you review them before they’re applied, so you…\nAgent automations increasingly label, type, assign, and close issues for you. GitHub Issues now shows the reason behind each change and lets you review them before they’re applied, so you decide how much to automate and when to stay in the loop.\nWe’ve released three new capabilities:\nUse has:suggestions in iss",
-          "recommend_reason_zh": "GitHub Issues公开预览新增agent自动化控制，支持has:suggestions搜索待审变更，允许仓库管理员设置置信度阈值，自动或手动应用标签、字段、类型、关闭和指派等操作。",
-          "url": "https://github.blog/changelog/2026-07-23-agent-automation-controls-in-github-issues-in-public-preview",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-23T15:30:29Z"
+          "id": "ddab2ff28daf418d5d3d1338bdc51af6492938b2",
+          "title": "DARPA 与美国空军试飞 AI 操控的 F-16 战机",
+          "title_zh": "DARPA 与美国空军试飞 AI 操控的 F-16 战机",
+          "title_en": null,
+          "title_original": "DARPA 与美国空军试飞 AI 操控的 F-16 战机",
+          "summary": "DARPA 与美国空军成功试飞了由人工智能操控的 F-16 战机。该 AI 系统在真实空战环境中完成了自主飞行与战术机动测试，标志着 AI 在军事航空领域的重大进展。",
+          "recommend_reason_zh": "DARPA与美国空军在VENOM项目下成功试飞AI操控的F-16战机，通过VAK套件实现人类与AI控制切换，为可扩展的自主空战AI开发奠定里程碑式基础。",
+          "url": "https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-23T20:11:31.906000Z"
+        },
+        {
+          "id": "c4c7faebfc9cea5cf488d3f9f4881425a345456b",
+          "title": "美国国防高级研究计划局（DARPA）与美国空军试飞了由人工智能操控的F-16战机",
+          "title_zh": "美国国防高级研究计划局（DARPA）与美国空军试飞了由人工智能操控的F-16战机",
+          "title_en": null,
+          "title_original": "美国国防高级研究计划局（DARPA）与美国空军试飞了由人工智能操控的F-16战机",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16",
+          "source": "www.darpa.mil",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-07-23T20:11:31.906000Z"
         }
       ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8149,
-      "importance": 0.8149,
-      "importance_score": 0.8149,
-      "importance_label": "官方更新",
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7539,
+      "importance": 0.7539,
+      "importance_score": 0.7539,
+      "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.8383,
-        "story_heat": 0.0
+        "editorial": 0.73,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7681,
+        "story_heat": 0.25
       },
-      "category": "official",
+      "category": "industry",
       "reasons": [
-        "official_source",
+        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-07-23T15:30:29Z",
-      "latest_at": "2026-07-23T15:30:29Z",
+      "earliest_at": "2026-07-23T20:11:31.906000Z",
+      "latest_at": "2026-07-23T20:11:31.906000Z",
       "primary_item": {
-        "id": "bc43672efad43350530cee56250f555e6a0d9b73",
-        "title": "GitHub Issues 中的 Agent 自动化控制现已公开预览 / Agent automation controls in GitHub Issues in public preview",
-        "title_zh": "GitHub Issues 中的 Agent 自动化控制现已公开预览",
-        "title_en": "Agent automation controls in GitHub Issues in public preview",
-        "title_original": "Agent automation controls in GitHub Issues in public preview",
-        "summary": "Agent automations increasingly label, type, assign, and close issues for you. GitHub Issues now shows the reason behind each change and lets you review them before they’re applied, so you…\nAgent automations increasingly label, type, assign, and close issues for you. GitHub Issues now shows the reason behind each change and lets you review them before they’re applied, so you decide how much to automate and when to stay in the loop.\nWe’ve released three new capabilities:\nUse has:suggestions in iss",
-        "recommend_reason_zh": "GitHub Issues公开预览新增agent自动化控制，支持has:suggestions搜索待审变更，允许仓库管理员设置置信度阈值，自动或手动应用标签、字段、类型、关闭和指派等操作。",
-        "url": "https://github.blog/changelog/2026-07-23-agent-automation-controls-in-github-issues-in-public-preview",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
+        "id": "ddab2ff28daf418d5d3d1338bdc51af6492938b2",
+        "title": "DARPA 与美国空军试飞 AI 操控的 F-16 战机",
+        "title_zh": "DARPA 与美国空军试飞 AI 操控的 F-16 战机",
+        "title_en": null,
+        "title_original": "DARPA 与美国空军试飞 AI 操控的 F-16 战机",
+        "summary": "DARPA 与美国空军成功试飞了由人工智能操控的 F-16 战机。该 AI 系统在真实空战环境中完成了自主飞行与战术机动测试，标志着 AI 在军事航空领域的重大进展。",
+        "recommend_reason_zh": "DARPA与美国空军在VENOM项目下成功试飞AI操控的F-16战机，通过VAK套件实现人类与AI控制切换，为可扩展的自主空战AI开发奠定里程碑式基础。",
+        "url": "https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "source_name": "AI HOT"
       },
       "persona_id": "pragmatic",
-      "persona_score": 75,
-      "persona_review": "能自动化处理Issue，减少手动操作，今天就能试，但注意是公开预览。",
+      "persona_score": 30,
+      "persona_review": "军事试验，离民用和开发者太远，看看就好。",
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-07-24T03:51:31.703297Z"
+        "scored_at": "2026-07-24T14:36:22.999025Z"
       }
     },
     {
-      "story_id": "story_1fc027519cfe",
-      "title": "ChatGPT Health 全美敞开：接入 Apple Health 与电子病历，你的体检单它能读懂了",
-      "url": "https://www.aibase.com/news/29847",
-      "primary_url": "https://www.aibase.com/news/29847",
+      "story_id": "story_d7d984c2df20",
+      "title": "Runway推出Media Router：自动切换AI模型帮你省Token，创意验证到成片一条龙搞定",
+      "url": "https://www.aibase.com/news/29877",
+      "primary_url": "https://www.aibase.com/news/29877",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "ed379c947a4a29aba45c7648f12efacf233c93e8",
-          "title": "ChatGPT Health 全美敞开：接入 Apple Health 与电子病历，你的体检单它能读懂了",
-          "title_zh": "ChatGPT Health 全美敞开：接入 Apple Health 与电子病历，你的体检单它能读懂了",
+          "id": "59cda7b7c747964fd514cc6ab0465d0d8a39c572",
+          "title": "Runway推出Media Router：自动切换AI模型帮你省Token，创意验证到成片一条龙搞定",
+          "title_zh": "Runway推出Media Router：自动切换AI模型帮你省Token，创意验证到成片一条龙搞定",
           "title_en": null,
-          "title_original": "ChatGPT Health 全美敞开：接入 Apple Health 与电子病历，你的体检单它能读懂了",
-          "summary": "OpenAI has handed out a key to all users in the U.S. who are 18 years old and above today — officially removing the waitlist and fully launching the new Health\nOpenAI has handed out a key to all users in the U.S. who are 18 years old and above today — officially removing the waitlist and fully launching the new Health\nOpenAI has handed out a key to all users in the U.S. who are 18 years old and above today — officially removing the waitlist and fully launching the new Health\nExplore AI Frontiers",
-          "recommend_reason_zh": "OpenAI全美18岁以上用户无需等待即可使用ChatGPT Health，该功能已接入Apple Health与One Medical等电子病历，基于超3亿用户咨询反馈升级，能综合分析药物、化验结果与运动数据。",
-          "url": "https://www.aibase.com/news/29847",
+          "title_original": "Runway推出Media Router：自动切换AI模型帮你省Token，创意验证到成片一条龙搞定",
+          "summary": "Runway announced the launch of Runway Media Router, which allows flexible switching between AI models for generating images, videos, and audio based on the use\nRunway announced the launch of Runway Media Router, which allows flexible switching between AI models for generating images, videos, and audio based on the use\nRunway announced the launch of Runway Media Router, which allows flexible switching between AI models for generating images, videos, and audio based on the use\nExplore AI Frontiers",
+          "recommend_reason_zh": "Runway Media Router自动在质量、速度、成本三个维度切换AI模型，节省Token，适配创意验证到成片三个场景，省去开发者手动比对和切换模型的麻烦。",
+          "url": "https://www.aibase.com/news/29877",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-07-24T03:43:28.819091Z"
+          "published_at": "2026-07-24T14:27:34.138553Z"
         }
       ],
       "source_count": 1,
@@ -1718,18 +1777,18 @@
       ],
       "items": [
         {
-          "id": "ed379c947a4a29aba45c7648f12efacf233c93e8",
-          "title": "ChatGPT Health 全美敞开：接入 Apple Health 与电子病历，你的体检单它能读懂了",
-          "title_zh": "ChatGPT Health 全美敞开：接入 Apple Health 与电子病历，你的体检单它能读懂了",
+          "id": "59cda7b7c747964fd514cc6ab0465d0d8a39c572",
+          "title": "Runway推出Media Router：自动切换AI模型帮你省Token，创意验证到成片一条龙搞定",
+          "title_zh": "Runway推出Media Router：自动切换AI模型帮你省Token，创意验证到成片一条龙搞定",
           "title_en": null,
-          "title_original": "ChatGPT Health 全美敞开：接入 Apple Health 与电子病历，你的体检单它能读懂了",
-          "summary": "OpenAI has handed out a key to all users in the U.S. who are 18 years old and above today — officially removing the waitlist and fully launching the new Health\nOpenAI has handed out a key to all users in the U.S. who are 18 years old and above today — officially removing the waitlist and fully launching the new Health\nOpenAI has handed out a key to all users in the U.S. who are 18 years old and above today — officially removing the waitlist and fully launching the new Health\nExplore AI Frontiers",
-          "recommend_reason_zh": "OpenAI全美18岁以上用户无需等待即可使用ChatGPT Health，该功能已接入Apple Health与One Medical等电子病历，基于超3亿用户咨询反馈升级，能综合分析药物、化验结果与运动数据。",
-          "url": "https://www.aibase.com/news/29847",
+          "title_original": "Runway推出Media Router：自动切换AI模型帮你省Token，创意验证到成片一条龙搞定",
+          "summary": "Runway announced the launch of Runway Media Router, which allows flexible switching between AI models for generating images, videos, and audio based on the use\nRunway announced the launch of Runway Media Router, which allows flexible switching between AI models for generating images, videos, and audio based on the use\nRunway announced the launch of Runway Media Router, which allows flexible switching between AI models for generating images, videos, and audio based on the use\nExplore AI Frontiers",
+          "recommend_reason_zh": "Runway Media Router自动在质量、速度、成本三个维度切换AI模型，节省Token，适配创意验证到成片三个场景，省去开发者手动比对和切换模型的麻烦。",
+          "url": "https://www.aibase.com/news/29877",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-07-24T03:43:28.819091Z"
+          "published_at": "2026-07-24T14:27:34.138553Z"
         }
       ],
       "item_count": 1,
@@ -1750,27 +1809,27 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-07-24T03:43:28.819091Z",
-      "latest_at": "2026-07-24T03:43:28.819091Z",
+      "earliest_at": "2026-07-24T14:27:34.138553Z",
+      "latest_at": "2026-07-24T14:27:34.138553Z",
       "primary_item": {
-        "id": "ed379c947a4a29aba45c7648f12efacf233c93e8",
-        "title": "ChatGPT Health 全美敞开：接入 Apple Health 与电子病历，你的体检单它能读懂了",
-        "title_zh": "ChatGPT Health 全美敞开：接入 Apple Health 与电子病历，你的体检单它能读懂了",
+        "id": "59cda7b7c747964fd514cc6ab0465d0d8a39c572",
+        "title": "Runway推出Media Router：自动切换AI模型帮你省Token，创意验证到成片一条龙搞定",
+        "title_zh": "Runway推出Media Router：自动切换AI模型帮你省Token，创意验证到成片一条龙搞定",
         "title_en": null,
-        "title_original": "ChatGPT Health 全美敞开：接入 Apple Health 与电子病历，你的体检单它能读懂了",
-        "summary": "OpenAI has handed out a key to all users in the U.S. who are 18 years old and above today — officially removing the waitlist and fully launching the new Health\nOpenAI has handed out a key to all users in the U.S. who are 18 years old and above today — officially removing the waitlist and fully launching the new Health\nOpenAI has handed out a key to all users in the U.S. who are 18 years old and above today — officially removing the waitlist and fully launching the new Health\nExplore AI Frontiers",
-        "recommend_reason_zh": "OpenAI全美18岁以上用户无需等待即可使用ChatGPT Health，该功能已接入Apple Health与One Medical等电子病历，基于超3亿用户咨询反馈升级，能综合分析药物、化验结果与运动数据。",
-        "url": "https://www.aibase.com/news/29847",
+        "title_original": "Runway推出Media Router：自动切换AI模型帮你省Token，创意验证到成片一条龙搞定",
+        "summary": "Runway announced the launch of Runway Media Router, which allows flexible switching between AI models for generating images, videos, and audio based on the use\nRunway announced the launch of Runway Media Router, which allows flexible switching between AI models for generating images, videos, and audio based on the use\nRunway announced the launch of Runway Media Router, which allows flexible switching between AI models for generating images, videos, and audio based on the use\nExplore AI Frontiers",
+        "recommend_reason_zh": "Runway Media Router自动在质量、速度、成本三个维度切换AI模型，节省Token，适配创意验证到成片三个场景，省去开发者手动比对和切换模型的麻烦。",
+        "url": "https://www.aibase.com/news/29877",
         "source": "AIbase",
         "source_name": "AIbase"
       },
       "persona_id": "pragmatic",
       "persona_score": 65,
-      "persona_review": "Apple Health数据对接，做医疗AI的可以研究下API，但个人用户暂时没大用。",
+      "persona_review": "省Token的自动路由工具，适合多模型调优场景，但需实测兼容性。",
       "persona_meta": {
         "mode": "llm",
         "model": "deepseek-chat",
-        "scored_at": "2026-07-24T03:51:31.703297Z"
+        "scored_at": "2026-07-24T14:36:22.999025Z"
       }
     }
   ]

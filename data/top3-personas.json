@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T03:52:37.440305Z",
+  "generated_at": "2026-07-24T14:37:12.439408Z",
   "model": "deepseek-chat",
   "personas": [
     {
@@ -21,10 +21,30 @@
   ],
   "items": [
     {
+      "story_id": "story_ce28d04e10f8",
+      "title": "Claude-thermos：保持 Claude 会话缓存热度，避免重新编码费用",
+      "url": "https://github.com/izeigerman/claude-thermos",
+      "rank": 1,
+      "reviews": {
+        "cynic": {
+          "score": 65,
+          "review": "给Claude续命省钱的工具，想法不错，但依赖API稳定性，哪天改个接口就凉了。"
+        },
+        "paper-police": {
+          "score": 85,
+          "review": "GitHub开源代码，功能明确可复现，但缺少论文和benchmark验证。"
+        },
+        "pragmatic": {
+          "score": 85,
+          "review": "省缓存费用的实用工具，API调用频繁的团队今天就能用上。"
+        }
+      }
+    },
+    {
       "story_id": "story_1950d49db06a",
       "title": "GitHub MCP Server 支持下一代 MCP 规范 / GitHub MCP Server supports the next MCP specification",
       "url": "https://github.blog/changelog/2026-07-23-github-mcp-server-supports-the-next-mcp-specification",
-      "rank": 1,
+      "rank": 2,
       "reviews": {
         "cynic": {
           "score": 68,
@@ -41,42 +61,22 @@
       }
     },
     {
-      "story_id": "story_37037fdc465b",
-      "title": "Anthropic升级Claude语音模式：支持Opus/Sonnet/Haiku三档切换，可直接调用Gmail和Notion等外部应用",
-      "url": "https://www.aibase.com/news/29850",
-      "rank": 2,
-      "reviews": {
-        "cynic": {
-          "score": 65,
-          "review": "三档切换是良心，但调用Gmail这种2015年的功能也值得吹？"
-        },
-        "paper-police": {
-          "score": 8,
-          "review": "只有新闻稿，无论文无代码无评测，无法验证性能。"
-        },
-        "pragmatic": {
-          "score": 85,
-          "review": "三档模型切换+外部应用调用，做语音助手或自动化流程的今天就能集成。"
-        }
-      }
-    },
-    {
-      "story_id": "story_92dd58586306",
-      "title": "通义千问发布Qwen-Audio-3.0-TTS，登顶TTS排行榜 / Introducing the Qwen-Audio-3.0-TTS. Our latest text-to-speech model， in two flavors： • Flash： real-…",
-      "url": "https://x.com/Alibaba_Qwen/status/2080270065547809133",
+      "story_id": "story_a69b2a307509",
+      "title": "Runway Agent 推出自然语言工作流功能 / Introducing Workflows in Runway Agent. Now you can build， run or edit your node-based workflows thro…",
+      "url": "https://x.com/runwayml/status/2080649234672439389",
       "rank": 3,
       "reviews": {
         "cynic": {
-          "score": 72,
-          "review": "登顶榜单不稀奇，关键是这榜单水分多大？等第三方盲测再说。"
+          "score": 65,
+          "review": "自然语言调节点？听起来像给流程图配了个语音助手，但别指望它能理解复杂逻辑。"
         },
         "paper-police": {
-          "score": 25,
-          "review": "只有X帖子宣称登顶，无论文无代码无评测细节，无法验证。"
+          "score": 15,
+          "review": "只有X帖子宣称功能，无论文无代码无评测，无法验证。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "Flash版已开源可clone，TTS任务直接换模型跑，省去训练时间。"
+          "review": "Runway Agent 支持自然语言构建工作流，做视频生成的今天就能试，省去拖节点。"
         }
       }
     }
