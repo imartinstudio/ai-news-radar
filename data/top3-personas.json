@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T14:37:12.439408Z",
+  "generated_at": "2026-07-25T03:44:50.447585Z",
   "model": "deepseek-chat",
   "personas": [
     {
@@ -21,50 +21,10 @@
   ],
   "items": [
     {
-      "story_id": "story_ce28d04e10f8",
-      "title": "Claude-thermos：保持 Claude 会话缓存热度，避免重新编码费用",
-      "url": "https://github.com/izeigerman/claude-thermos",
-      "rank": 1,
-      "reviews": {
-        "cynic": {
-          "score": 65,
-          "review": "给Claude续命省钱的工具，想法不错，但依赖API稳定性，哪天改个接口就凉了。"
-        },
-        "paper-police": {
-          "score": 85,
-          "review": "GitHub开源代码，功能明确可复现，但缺少论文和benchmark验证。"
-        },
-        "pragmatic": {
-          "score": 85,
-          "review": "省缓存费用的实用工具，API调用频繁的团队今天就能用上。"
-        }
-      }
-    },
-    {
-      "story_id": "story_1950d49db06a",
-      "title": "GitHub MCP Server 支持下一代 MCP 规范 / GitHub MCP Server supports the next MCP specification",
-      "url": "https://github.blog/changelog/2026-07-23-github-mcp-server-supports-the-next-mcp-specification",
-      "rank": 2,
-      "reviews": {
-        "cynic": {
-          "score": 68,
-          "review": "支持新规范是好事，但“下一代”这种词用多了容易闪腰。"
-        },
-        "paper-police": {
-          "score": 25,
-          "review": "只有官方博客宣称支持，无论文无代码无评测，无法验证。"
-        },
-        "pragmatic": {
-          "score": 85,
-          "review": "MCP 新规范已落地，GitHub 集成可直接用，Agent 工具链升级趁早。"
-        }
-      }
-    },
-    {
       "story_id": "story_a69b2a307509",
       "title": "Runway Agent 推出自然语言工作流功能 / Introducing Workflows in Runway Agent. Now you can build， run or edit your node-based workflows thro…",
       "url": "https://x.com/runwayml/status/2080649234672439389",
-      "rank": 3,
+      "rank": 1,
       "reviews": {
         "cynic": {
           "score": 65,
@@ -77,6 +37,30 @@
         "pragmatic": {
           "score": 85,
           "review": "Runway Agent 支持自然语言构建工作流，做视频生成的今天就能试，省去拖节点。"
+        }
+      }
+    },
+    {
+      "story_id": "story_31e9766f60d4",
+      "title": "Black Forest Labs 发布 FLUX 3 多模态模型，支持单次生成 20 秒视频与原生音频",
+      "url": "https://www.ithome.com/0/981/137.htm",
+      "rank": 2,
+      "reviews": {
+        "pragmatic": {
+          "score": 85,
+          "review": "多模态生成一步到位，做视频和音频的今天就能试，省去拼接流程。"
+        }
+      }
+    },
+    {
+      "story_id": "story_b10cb29baa4b",
+      "title": "FLUX 3 x mimic：新一代视频动作模型",
+      "url": "https://bfl.ai/blog/flux-3-mimic",
+      "rank": 3,
+      "reviews": {
+        "pragmatic": {
+          "score": 65,
+          "review": "视频动作模型新选择，但需等API或开源才能评估实用性。"
         }
       }
     }
