@@ -1,12 +1,155 @@
 {
   "version": 1,
-  "generated_at": "2026-07-26T04:02:32.149501Z",
+  "generated_at": "2026-07-26T14:26:07.646287Z",
   "total_items": 20,
   "dedup_meta": {
-    "secondary_dedup_merge_count": 2,
-    "secondary_dedup_source_count": 79
+    "secondary_dedup_merge_count": 0,
+    "secondary_dedup_source_count": 95
   },
   "items": [
+    {
+      "story_id": "story_150ae922fbe8",
+      "creator_event_id": "creator-cf179a215b6a6cc9",
+      "merged_story_ids": [
+        "story_150ae922fbe8"
+      ],
+      "title": "Open Wot 1.0.5 发布：让 AI 接入 wot-ui，只需要两条命令",
+      "url": "https://juejin.cn/post/7665699924324892724",
+      "primary_url": "https://juejin.cn/post/7665699924324892724",
+      "source": "juejin",
+      "source_name": "NewsNow",
+      "source_count": 1,
+      "source_names": [
+        "juejin"
+      ],
+      "score": 0.5198,
+      "importance": 0.5198,
+      "importance_score": 0.5198,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9946,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-26T13:55:45.817000Z",
+      "latest_at": "2026-07-26T13:55:45.817000Z",
+      "creator_score": 85.2,
+      "creator_breakdown": {
+        "relevance": 1.0,
+        "freshness": 1.0,
+        "source": 0.5,
+        "impact": 1.0,
+        "novelty": 0.85,
+        "heat": 0.3319
+      },
+      "creator_bucket": "ai_coding",
+      "primary_entity": "claude-code",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "entity:claude-code",
+        "ai_coding_terms",
+        "workflow_impact"
+      ],
+      "primary_item": {
+        "id": "8a4cce6031d590ad690b88271ee30bc5c7f7be7c",
+        "title": "Open Wot 1.0.5 发布：让 AI 接入 wot-ui，只需要两条命令",
+        "title_zh": "Open Wot 1.0.5 发布：让 AI 接入 wot-ui，只需要两条命令",
+        "title_original": "Open Wot 1.0.5 发布：让 AI 接入 wot-ui，只需要两条命令",
+        "summary": "Title: Open Wot 1.0.5 发布：让 AI 接入 wot-ui，只需要两条命令\nPublished Time: 2026-07-24T05:33:29+00:00\n大家好，我是不如摸鱼去，wot-ui 的发起人，欢迎来到我的 AI Coding 分享专栏。\n前段时间我们发布了 Open Wot，把 wot-ui v2 的组件 API、Demo、CSS 变量和更新记录整理成离线知识库，再通过 CLI、MCP 和 Skills 交给开发者与 AI。\n原本以为知识准备好了，AI 应该就能愉快开工。结果工具真正交到大家手里以后，新的问题马上来了：\n> MCP 到底要怎么配进 Cursor？Codex 为什么用的是 TOML？配置写进去了，为什么客户端里还是看不到？\n好消息是，AI 不用继续猜组件 API 了。\n所以 Open Wot 1.0.5 做的事情很直接：**把 wot-ui 的 AI 接入，从“请手动修改配置文件”，变成一套可以初始化、检查、诊断和卸载的完整流程。**\nnpm install -g @wot-ui/cli@1.0.5\n如果你正在使用 Cursor，在项目",
+        "recommend_reason_zh": "Open Wot 1.0.5 通过两条命令 `wot agent init --client cursor` 和 `wot agent doctor --client cursor`，自动为 wot-ui 完成 MCP 配置、Skill 安装与指令写入，并支持 Claude Code、Cursor、VS Code 和 Codex 四种客户端。",
+        "url": "https://juejin.cn/post/7665699924324892724",
+        "source": "juejin",
+        "source_name": "NewsNow"
+      },
+      "sources": [
+        {
+          "story_id": "story_150ae922fbe8",
+          "title": "Open Wot 1.0.5 发布：让 AI 接入 wot-ui，只需要两条命令",
+          "url": "https://juejin.cn/post/7665699924324892724",
+          "source": "juejin",
+          "site_id": "",
+          "official": false
+        }
+      ]
+    },
+    {
+      "story_id": "story_e61e0eba6f90",
+      "creator_event_id": "creator-ac624ecfaa99851f",
+      "merged_story_ids": [
+        "story_e61e0eba6f90"
+      ],
+      "title": "CodexBar Lite：macOS 菜单栏实时监控 OpenAI Codex 用量",
+      "url": "https://www.producthunt.com/products/codexbar-lite",
+      "primary_url": "https://www.producthunt.com/products/codexbar-lite",
+      "source": "producthunt",
+      "source_name": "NewsNow",
+      "source_count": 1,
+      "source_names": [
+        "producthunt"
+      ],
+      "score": 0.5198,
+      "importance": 0.5198,
+      "importance_score": 0.5198,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9946,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-26T13:55:48.306000Z",
+      "latest_at": "2026-07-26T13:55:48.306000Z",
+      "creator_score": 84.3,
+      "creator_breakdown": {
+        "relevance": 1.0,
+        "freshness": 1.0,
+        "source": 0.5,
+        "impact": 0.94,
+        "novelty": 0.85,
+        "heat": 0.3319
+      },
+      "creator_bucket": "ai_coding",
+      "primary_entity": "codex",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "entity:codex",
+        "ai_coding_terms",
+        "workflow_impact"
+      ],
+      "primary_item": {
+        "id": "5ffc93f5503cb5fc38a3aa729cb8295ae58b8384",
+        "title": "CodexBar Lite：macOS 菜单栏实时监控 OpenAI Codex 用量",
+        "title_zh": "CodexBar Lite：macOS 菜单栏实时监控 OpenAI Codex 用量",
+        "title_en": "CodexBar Lite",
+        "title_original": "CodexBar Lite",
+        "summary": "CodexBar Lite is a native macOS menu bar app that keeps your OpenAI Codex usage visible at a glance. It uses your existing Codex CLI session - no browser cookies, Keychain permissions, API keys, or third-party accounts required. Monitor usage, reset times, and receive notifications, all from a lightweight, open-source app.\nCodexBar Lite is a native macOS menu bar app that keeps your OpenAI Codex usage visible at a glance. It uses your existing Codex CLI session - no browser cookies, Keychain per",
+        "recommend_reason_zh": "CodexBar Lite 是一款原生 macOS 菜单栏应用，无需浏览器 cookies、Keychain 权限或 API 密钥，通过现有 CLI 会话监控 OpenAI Codex 使用量和重置时间，轻量开源，已维护近 2 个月。",
+        "url": "https://www.producthunt.com/products/codexbar-lite",
+        "source": "producthunt",
+        "source_name": "NewsNow"
+      },
+      "sources": [
+        {
+          "story_id": "story_e61e0eba6f90",
+          "title": "CodexBar Lite：macOS 菜单栏实时监控 OpenAI Codex 用量",
+          "url": "https://www.producthunt.com/products/codexbar-lite",
+          "source": "producthunt",
+          "site_id": "",
+          "official": false
+        }
+      ]
+    },
     {
       "story_id": "story_188747b583d2",
       "creator_event_id": "creator-585686a15c6f2248",
@@ -22,15 +165,15 @@
       "source_names": [
         "社区更新 · 2026-07-25"
       ],
-      "score": 0.5692,
-      "importance": 0.5692,
-      "importance_score": 0.5692,
+      "score": 0.5441,
+      "importance": 0.5441,
+      "importance_score": 0.5441,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.54,
         "ai_relevance": 0.65,
-        "recency": 1.0,
+        "recency": 0.8607,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -39,14 +182,14 @@
       ],
       "earliest_at": "2026-07-26T03:54:53.948747Z",
       "latest_at": "2026-07-26T03:54:53.948747Z",
-      "creator_score": 84.3,
+      "creator_score": 82.0,
       "creator_breakdown": {
         "relevance": 1.0,
-        "freshness": 1.0,
+        "freshness": 0.887,
         "source": 0.5,
         "impact": 0.94,
         "novelty": 0.85,
-        "heat": 0.3492
+        "heat": 0.3404
       },
       "creator_bucket": "ai_coding",
       "primary_entity": "claude-code",
@@ -79,6 +222,288 @@
       ]
     },
     {
+      "story_id": "story_93a992eb55e5",
+      "creator_event_id": "creator-552018d7763ba052",
+      "merged_story_ids": [
+        "story_93a992eb55e5"
+      ],
+      "title": "今天我们讲讲大模型的“核心”技术：蒸馏（Model Distillation）",
+      "url": "https://juejin.cn/post/7665780788496007222",
+      "primary_url": "https://juejin.cn/post/7665780788496007222",
+      "source": "juejin",
+      "source_name": "NewsNow",
+      "source_count": 1,
+      "source_names": [
+        "juejin"
+      ],
+      "score": 0.5198,
+      "importance": 0.5198,
+      "importance_score": 0.5198,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9946,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-26T13:55:45.817000Z",
+      "latest_at": "2026-07-26T13:55:45.817000Z",
+      "creator_score": 80.7,
+      "creator_breakdown": {
+        "relevance": 0.88,
+        "freshness": 1.0,
+        "source": 0.5,
+        "impact": 0.94,
+        "novelty": 0.85,
+        "heat": 0.3319
+      },
+      "creator_bucket": "ai_coding",
+      "primary_entity": "anthropic",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "entity:anthropic",
+        "ai_coding_terms",
+        "workflow_impact"
+      ],
+      "primary_item": {
+        "id": "736bb7ed7b6d9dccb1ffd210df769ebcb4e3fe6f",
+        "title": "今天我们讲讲大模型的“核心”技术：蒸馏（Model Distillation）",
+        "title_zh": "今天我们讲讲大模型的“核心”技术：蒸馏（Model Distillation）",
+        "title_original": "今天我们讲讲大模型的“核心”技术：蒸馏（Model Distillation）",
+        "summary": "Title: 今天我们讲讲大模型的“核心”技术：蒸馏（Model Distillation）\nPublished Time: 2026-07-24T10:19:14+00:00\n## 今天我们讲讲大模型的核心技术：蒸馏（Model Distillation）\n> 很多人都会有一个疑问。 **现在开源模型遍地都是，DeepSeek 的推理成本已经低到令人惊讶，为什么各家大模型公司仍在持续投入模型蒸馏？** 如果只是站在 API 使用者的角度，这个问题确实很难理解——按量付费、直接调用，多简单。但当你真正开始训练、部署和维护一个大模型时，答案会变得完全不同。 据业内普遍推测，**Claude 的实际参数规模已逼近 6 万亿。**一次完整训练，成本高达数千万甚至上亿美元；每一次在线推理，都在持续消耗 GPU 算力、显存带宽，并与网络延迟和用户体验进行权衡。而企业机房里能够部署的 GPU 资源，始终是有限的。到了这一步，**蒸馏就不再是一个“要不要做”的优化项，而是决定模型能否走出实验室、真正落地的核心工程能力。**\n`事实上，几乎所有头部公司——OpenAI、Anthropic、Google",
+        "recommend_reason_zh": "文章揭示了蒸馏技术如何让公司用7B小模型在单张RTX 4090上部署，替代671B大模型，实现能力复制与低成本落地，DeepSeek、OpenAI等都在用。",
+        "url": "https://juejin.cn/post/7665780788496007222",
+        "source": "juejin",
+        "source_name": "NewsNow"
+      },
+      "sources": [
+        {
+          "story_id": "story_93a992eb55e5",
+          "title": "今天我们讲讲大模型的“核心”技术：蒸馏（Model Distillation）",
+          "url": "https://juejin.cn/post/7665780788496007222",
+          "source": "juejin",
+          "site_id": "",
+          "official": false
+        }
+      ]
+    },
+    {
+      "story_id": "story_547f39fccb83",
+      "creator_event_id": "creator-07b2339067e437b2",
+      "merged_story_ids": [
+        "story_547f39fccb83"
+      ],
+      "title": "Google 开源 Agent Substrate：用 8 个 Pod 跑 250 个有状态 Agent，怎么做到的？",
+      "url": "https://juejin.cn/post/7665539527542636595",
+      "primary_url": "https://juejin.cn/post/7665539527542636595",
+      "source": "juejin",
+      "source_name": "NewsNow",
+      "source_count": 1,
+      "source_names": [
+        "juejin"
+      ],
+      "score": 0.5198,
+      "importance": 0.5198,
+      "importance_score": 0.5198,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9946,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-26T13:55:45.817000Z",
+      "latest_at": "2026-07-26T13:55:45.817000Z",
+      "creator_score": 79.7,
+      "creator_breakdown": {
+        "relevance": 0.88,
+        "freshness": 1.0,
+        "source": 0.5,
+        "impact": 0.94,
+        "novelty": 0.75,
+        "heat": 0.3319
+      },
+      "creator_bucket": "ai_coding",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "ai_coding_terms",
+        "workflow_impact"
+      ],
+      "primary_item": {
+        "id": "4cb0f3d368401b05ba363f2090eb194986cfa873",
+        "title": "Google 开源 Agent Substrate：用 8 个 Pod 跑 250 个有状态 Agent，怎么做到的？",
+        "title_zh": "Google 开源 Agent Substrate：用 8 个 Pod 跑 250 个有状态 Agent，怎么做到的？",
+        "title_original": "Google 开源 Agent Substrate：用 8 个 Pod 跑 250 个有状态 Agent，怎么做到的？",
+        "summary": "Title: Google 开源 Agent Substrate：用 8 个 Pod 跑 250 个有状态 Agent，怎么做到的？\nPublished Time: 2026-07-23T11:58:39+00:00\n> 📌 **核心摘要**：Agent Substrate 融合了 Serverless 快照冷启动、Orleans 虚拟 Actor 与 Knative Scale-to-Zero 机制，并将相关能力下沉至 gVisor 沙箱层，旨在解决海量有状态 Agent 在 Kubernetes (K8s) 环境下因资源常驻导致的低利用率与高成本问题。\n> ⚠️ **项目状态**：当前处于极早期开发阶段（Very Early Development），API 存在变更风险。文中提及的 10 亿级 Actor 支持、100ms 激活延迟及 1000 次/秒唤醒吞吐量均为**设计目标**，目前暂无公开 Benchmark 数据，不建议直接应用于生产环境。\n## 一、 概念模型：Event Loop 与 Agent Substrate 的异同\n可以通过 JavaScript 的 Even",
+        "recommend_reason_zh": "Google 开源 Agent Substrate，融合 Serverless 快照冷启动与 Orleans 虚拟 Actor，用 8 个 Pod 复用 250 个有状态 Agent，目标实现 10 亿级 Actor 和 100ms 激活延迟，解决 K8s 资源常驻低利用率与高成本问题。",
+        "url": "https://juejin.cn/post/7665539527542636595",
+        "source": "juejin",
+        "source_name": "NewsNow"
+      },
+      "sources": [
+        {
+          "story_id": "story_547f39fccb83",
+          "title": "Google 开源 Agent Substrate：用 8 个 Pod 跑 250 个有状态 Agent，怎么做到的？",
+          "url": "https://juejin.cn/post/7665539527542636595",
+          "source": "juejin",
+          "site_id": "",
+          "official": false
+        }
+      ]
+    },
+    {
+      "story_id": "story_790d4188267d",
+      "creator_event_id": "creator-6d98c69c8eff3f20",
+      "merged_story_ids": [
+        "story_790d4188267d"
+      ],
+      "title": "Been running codex all day to do massive parallel QA in prep of the next release. Sol got insanely good at really understanding intent and is finding complex behavior issues. In the past such workflow did fell apart a...",
+      "url": "https://x.com/steipete/status/2081169373784633552",
+      "primary_url": "https://x.com/steipete/status/2081169373784633552",
+      "source": "Follow Builders · X · Peter Steinberger",
+      "source_name": "Follow Builders",
+      "source_count": 1,
+      "source_names": [
+        "Follow Builders · X · Peter Steinberger"
+      ],
+      "score": 0.62,
+      "importance": 0.62,
+      "importance_score": 0.62,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5832,
+        "source_tier": 0.62,
+        "ai_relevance": 0.81,
+        "recency": 0.8147,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-07-26T00:06:59Z",
+      "latest_at": "2026-07-26T00:06:59Z",
+      "creator_score": 79.5,
+      "creator_breakdown": {
+        "relevance": 1.0,
+        "freshness": 0.792,
+        "source": 0.56,
+        "impact": 0.81,
+        "novelty": 0.85,
+        "heat": 0.367
+      },
+      "creator_bucket": "ai_coding",
+      "primary_entity": "codex",
+      "verification_status": "early_signal",
+      "creator_reasons": [
+        "entity:codex",
+        "ai_coding_terms",
+        "workflow_impact"
+      ],
+      "primary_item": {
+        "id": "f2053310a822290ae4cf126aca4d94903b4f7bef",
+        "title": "Been running codex all day to do massive parallel QA in prep of the next release. Sol got insanely good at really understanding intent and is finding complex behavior issues. In the past such workflow did fell apart a...",
+        "title_en": "Been running codex all day to do massive parallel QA in prep of the next release. Sol got insanely good at really understanding intent and is finding complex behavior issues. In the past such workflow did fell apart a...",
+        "title_original": "Been running codex all day to do massive parallel QA in prep of the next release. Sol got insanely good at really understanding intent and is finding complex behavior issues. In the past such workflow did fell apart a...",
+        "summary": "Been running codex all day to do massive parallel QA in prep of the next release. Sol got insanely good at really understanding intent and is finding complex behavior issues.\n\nIn the past such workflow did fell apart at compaction boundaries and/or the model started cheating.\nBeen running codex all day to do massive parallel QA in prep of the next release. Sol got insanely good at really understanding intent and is finding complex behavior issues.\n\nIn the past such workflow did fell apart at com",
+        "recommend_reason_zh": "作者全天运行codex进行大规模并行QA测试，发现Sol对意图的理解异常精准，能揪出复杂行为问题；而过去的工作流常在压缩边界崩溃或模型作弊。",
+        "url": "https://x.com/steipete/status/2081169373784633552",
+        "source": "Follow Builders · X · Peter Steinberger",
+        "source_name": "Follow Builders"
+      },
+      "sources": [
+        {
+          "story_id": "story_790d4188267d",
+          "title": "Been running codex all day to do massive parallel QA in prep of the next release. Sol got insanely good at really understanding intent and is finding complex behavior issues. In the past such workflow did fell apart a...",
+          "url": "https://x.com/steipete/status/2081169373784633552",
+          "source": "Follow Builders · X · Peter Steinberger",
+          "site_id": "",
+          "official": false
+        }
+      ]
+    },
+    {
+      "story_id": "story_818bbe08c087",
+      "creator_event_id": "creator-8632edb168e6dc33",
+      "merged_story_ids": [
+        "story_818bbe08c087"
+      ],
+      "title": "AI 编程的工程化实践：Flutter AI Harness 的设计与落地",
+      "url": "https://juejin.cn/post/7665553541961433098",
+      "primary_url": "https://juejin.cn/post/7665553541961433098",
+      "source": "juejin",
+      "source_name": "NewsNow",
+      "source_count": 1,
+      "source_names": [
+        "juejin"
+      ],
+      "score": 0.5198,
+      "importance": 0.5198,
+      "importance_score": 0.5198,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9946,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-26T13:55:45.817000Z",
+      "latest_at": "2026-07-26T13:55:45.817000Z",
+      "creator_score": 78.7,
+      "creator_breakdown": {
+        "relevance": 0.88,
+        "freshness": 1.0,
+        "source": 0.5,
+        "impact": 0.81,
+        "novelty": 0.85,
+        "heat": 0.3319
+      },
+      "creator_bucket": "ai_coding",
+      "primary_entity": "anthropic",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "entity:anthropic",
+        "ai_coding_terms",
+        "workflow_impact"
+      ],
+      "primary_item": {
+        "id": "dd18fbf9c7fd62545f16c04f064bfc214f597cb1",
+        "title": "AI 编程的工程化实践：Flutter AI Harness 的设计与落地",
+        "title_zh": "AI 编程的工程化实践：Flutter AI Harness 的设计与落地",
+        "title_original": "AI 编程的工程化实践：Flutter AI Harness 的设计与落地",
+        "summary": "Title: AI 编程的工程化实践：Flutter AI Harness 的设计与落地\nPublished Time: 2026-07-23T09:32:38+00:00\n## Flutter AI Harness：从代码生成到可验证的工程协作\n> 面向生产级的AI Harness开源模板，并基于此讨论项目契约、任务闭环、架构边界与多工具适配。\nAI 编程工具已经可以承担页面实现、错误修复、测试补充和代码审查等工作。真正影响长期效率的，不再只是单次生成质量，而是 AI 能否持续理解同一套工程规则，能否在明确边界内修改代码，以及交付结果能否被稳定验证。\nFlutter AI Harness 是一套面向 Flutter 与 Android、iOS 混合工程的仓库模板。它没有把 AI 封装成应用运行时能力，而是把项目契约、Command、Agent、Skill、任务卡、Review、质量门禁和工具适配放进代码仓库，让 AI 与开发者共享同一组工程事实。\n这套模板同时提供一个本地电商 Demo，但 Demo 只是参考实现。更重要的使用方式，是让 AI 读取 Harness 的设计，结合既有工",
+        "recommend_reason_zh": "Flutter AI Harness 通过四层工程控制面（项目契约、工作流资产、执行装配、验证反馈）和CLAUDE.md权威事实源，解决了多工具协作中AI持续理解工程规则的问题，并提供了本地电商Demo作为参考。",
+        "url": "https://juejin.cn/post/7665553541961433098",
+        "source": "juejin",
+        "source_name": "NewsNow"
+      },
+      "sources": [
+        {
+          "story_id": "story_818bbe08c087",
+          "title": "AI 编程的工程化实践：Flutter AI Harness 的设计与落地",
+          "url": "https://juejin.cn/post/7665553541961433098",
+          "source": "juejin",
+          "site_id": "",
+          "official": false
+        }
+      ]
+    },
+    {
       "story_id": "story_6a4fff915044",
       "creator_event_id": "creator-1b07669351288b06",
       "merged_story_ids": [
@@ -93,15 +518,15 @@
       "source_names": [
         "社区更新 · 2026-07-25"
       ],
-      "score": 0.5692,
-      "importance": 0.5692,
-      "importance_score": 0.5692,
+      "score": 0.5441,
+      "importance": 0.5441,
+      "importance_score": 0.5441,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.54,
         "ai_relevance": 0.65,
-        "recency": 1.0,
+        "recency": 0.8607,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -110,14 +535,14 @@
       ],
       "earliest_at": "2026-07-26T03:54:53.948747Z",
       "latest_at": "2026-07-26T03:54:53.948747Z",
-      "creator_score": 79.4,
+      "creator_score": 77.1,
       "creator_breakdown": {
         "relevance": 0.9,
-        "freshness": 1.0,
+        "freshness": 0.887,
         "source": 0.5,
         "impact": 0.81,
         "novelty": 0.85,
-        "heat": 0.3492
+        "heat": 0.3404
       },
       "creator_bucket": "ai_coding",
       "primary_entity": "mcp",
@@ -150,6 +575,279 @@
       ]
     },
     {
+      "story_id": "story_82cc7df7dd63",
+      "creator_event_id": "creator-4223fd8a3f39d105",
+      "merged_story_ids": [
+        "story_82cc7df7dd63"
+      ],
+      "title": "Claude Code 将系统提示词削减了80%，这对小型模型也同样有效吗？ / Claude Code Cut Their System Prompt by 80%. Does That Work for Small Models Too?",
+      "url": "https://antigma.ai/blog/2026/07/25/short-prompt-small-models",
+      "primary_url": "https://antigma.ai/blog/2026/07/25/short-prompt-small-models",
+      "source": "HN Algolia · AI 24h",
+      "source_name": "Hacker News",
+      "source_count": 1,
+      "source_names": [
+        "HN Algolia · AI 24h"
+      ],
+      "score": 0.5049,
+      "importance": 0.5049,
+      "importance_score": 0.5049,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9117,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-26T07:54:11Z",
+      "latest_at": "2026-07-26T07:54:11Z",
+      "creator_score": 75.9,
+      "creator_breakdown": {
+        "relevance": 1.0,
+        "freshness": 0.9867,
+        "source": 0.58,
+        "impact": 0.43,
+        "novelty": 0.65,
+        "heat": 0.3267
+      },
+      "creator_bucket": "ai_coding",
+      "primary_entity": "claude-code",
+      "verification_status": "rumor",
+      "creator_reasons": [
+        "entity:claude-code"
+      ],
+      "primary_item": {
+        "id": "1e8ff5d6deec8e9010b360a29fa5fe33c247ee99",
+        "title": "Claude Code 将系统提示词削减了80%，这对小型模型也同样有效吗？ / Claude Code Cut Their System Prompt by 80%. Does That Work for Small Models Too?",
+        "title_zh": "Claude Code 将系统提示词削减了80%，这对小型模型也同样有效吗？",
+        "title_en": "Claude Code Cut Their System Prompt by 80%. Does That Work for Small Models Too?",
+        "title_original": "Claude Code Cut Their System Prompt by 80%. Does That Work for Small Models Too?",
+        "url": "https://antigma.ai/blog/2026/07/25/short-prompt-small-models",
+        "source": "HN Algolia · AI 24h",
+        "source_name": "Hacker News"
+      },
+      "sources": [
+        {
+          "story_id": "story_82cc7df7dd63",
+          "title": "Claude Code 将系统提示词削减了80%，这对小型模型也同样有效吗？ / Claude Code Cut Their System Prompt by 80%. Does That Work for Small Models Too?",
+          "url": "https://antigma.ai/blog/2026/07/25/short-prompt-small-models",
+          "source": "HN Algolia · AI 24h",
+          "site_id": "",
+          "official": false
+        }
+      ]
+    },
+    {
+      "story_id": "story_dc6c5dd6071c",
+      "creator_event_id": "creator-789e1ceba13ea4c1",
+      "merged_story_ids": [
+        "story_dc6c5dd6071c"
+      ],
+      "title": "AI编程辅导的悖论日益凸显，教育工作者争相重新思考如何测试真实技能 / The AI coding tutor paradox grows as educators scramble to rethink how they test real skills",
+      "url": "https://the-decoder.com/the-ai-coding-tutor-paradox-grows-as-educators-scramble-to-rethink-how-they-test-real-skills",
+      "primary_url": "https://the-decoder.com/the-ai-coding-tutor-paradox-grows-as-educators-scramble-to-rethink-how-they-test-real-skills",
+      "source": "The Decoder AI News",
+      "source_name": "Curated Media",
+      "source_count": 1,
+      "source_names": [
+        "The Decoder AI News"
+      ],
+      "score": 0.6057,
+      "importance": 0.6057,
+      "importance_score": 0.6057,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5472,
+        "source_tier": 0.58,
+        "ai_relevance": 0.76,
+        "recency": 0.8999,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-26T06:59:56Z",
+      "latest_at": "2026-07-26T06:59:56Z",
+      "creator_score": 75.0,
+      "creator_breakdown": {
+        "relevance": 0.88,
+        "freshness": 0.9641,
+        "source": 0.78,
+        "impact": 0.43,
+        "novelty": 0.55,
+        "heat": 0.362
+      },
+      "creator_bucket": "ai_coding",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "ai_coding_terms"
+      ],
+      "primary_item": {
+        "id": "2abfe0a8b48edf42597af10bcad00c77258bd84f",
+        "title": "AI编程辅导的悖论日益凸显，教育工作者争相重新思考如何测试真实技能 / The AI coding tutor paradox grows as educators scramble to rethink how they test real skills",
+        "title_zh": "AI编程辅导的悖论日益凸显，教育工作者争相重新思考如何测试真实技能",
+        "title_en": "The AI coding tutor paradox grows as educators scramble to rethink how they test real skills",
+        "title_original": "The AI coding tutor paradox grows as educators scramble to rethink how they test real skills",
+        "summary": "An ACM survey of 763 computer science educators from 49 countries shows that 68 percent have already changed their exams because of AI, shifting toward oral exams, proctored tests, and project-based work. Teaching is moving from writing code to understanding it. But nearly half of respondents say they lack proven examples for integrating AI into their courses.\nAn ACM survey of 763 computer science educators from 49 countries shows that 68 percent have already changed their exams because of AI, s",
+        "recommend_reason_zh": "ACM调查763名来自49国的计算机科学教育者发现68%已因AI改变考试方式，转向口试与项目作业，但近半数表示缺乏将AI整合进课程的成熟范例。",
+        "url": "https://the-decoder.com/the-ai-coding-tutor-paradox-grows-as-educators-scramble-to-rethink-how-they-test-real-skills",
+        "source": "The Decoder AI News",
+        "source_name": "Curated Media"
+      },
+      "sources": [
+        {
+          "story_id": "story_dc6c5dd6071c",
+          "title": "AI编程辅导的悖论日益凸显，教育工作者争相重新思考如何测试真实技能 / The AI coding tutor paradox grows as educators scramble to rethink how they test real skills",
+          "url": "https://the-decoder.com/the-ai-coding-tutor-paradox-grows-as-educators-scramble-to-rethink-how-they-test-real-skills",
+          "source": "The Decoder AI News",
+          "site_id": "",
+          "official": false
+        }
+      ]
+    },
+    {
+      "story_id": "story_53a659d95f7a",
+      "creator_event_id": "creator-6bc1a112ae07ebb8",
+      "merged_story_ids": [
+        "story_53a659d95f7a"
+      ],
+      "title": "Claude Code 会在30天后从你的设备上删除上下文历史 / Claude Code Deletes Your Context History from Your Device After 30 Days",
+      "url": "https://code.claude.com/docs/en/data-usage",
+      "primary_url": "https://code.claude.com/docs/en/data-usage",
+      "source": "Hacker News",
+      "source_name": "TechURLs",
+      "source_count": 1,
+      "source_names": [
+        "Hacker News"
+      ],
+      "score": 0.5117,
+      "importance": 0.5117,
+      "importance_score": 0.5117,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9493,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-26T10:42:00Z",
+      "latest_at": "2026-07-26T10:42:00Z",
+      "creator_score": 74.6,
+      "creator_breakdown": {
+        "relevance": 1.0,
+        "freshness": 1.0,
+        "source": 0.5,
+        "impact": 0.43,
+        "novelty": 0.65,
+        "heat": 0.3291
+      },
+      "creator_bucket": "ai_coding",
+      "primary_entity": "claude-code",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "entity:claude-code"
+      ],
+      "primary_item": {
+        "id": "2563d7d57094ecb968615a119a60992bde1cabfa",
+        "title": "Claude Code 会在30天后从你的设备上删除上下文历史 / Claude Code Deletes Your Context History from Your Device After 30 Days",
+        "title_zh": "Claude Code 会在30天后从你的设备上删除上下文历史",
+        "title_en": "Claude Code Deletes Your Context History from Your Device After 30 Days",
+        "title_original": "Claude Code Deletes Your Context History from Your Device After 30 Days",
+        "url": "https://code.claude.com/docs/en/data-usage",
+        "source": "Hacker News",
+        "source_name": "TechURLs"
+      },
+      "sources": [
+        {
+          "story_id": "story_53a659d95f7a",
+          "title": "Claude Code 会在30天后从你的设备上删除上下文历史 / Claude Code Deletes Your Context History from Your Device After 30 Days",
+          "url": "https://code.claude.com/docs/en/data-usage",
+          "source": "Hacker News",
+          "site_id": "",
+          "official": false
+        }
+      ]
+    },
+    {
+      "story_id": "story_9caaf2e87bdd",
+      "creator_event_id": "creator-f6cb30167aa2fbb2",
+      "merged_story_ids": [
+        "story_9caaf2e87bdd"
+      ],
+      "title": "Claude Code有一条硬编码指令，告诉Opus 5不要使用子代理 / Claude Code has a hardcoded instruction telling Opus 5 not to use subagents",
+      "url": "https://old.reddit.com/r/ClaudeCode/comments/1v6y5q2/claude_code_has_a_hardcoded_instruction_telling",
+      "primary_url": "https://old.reddit.com/r/ClaudeCode/comments/1v6y5q2/claude_code_has_a_hardcoded_instruction_telling",
+      "source": "Hacker News · 24h最热",
+      "source_name": "Zeli",
+      "source_count": 1,
+      "source_names": [
+        "Hacker News · 24h最热"
+      ],
+      "score": 0.5069,
+      "importance": 0.5069,
+      "importance_score": 0.5069,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9229,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-26T08:45:06Z",
+      "latest_at": "2026-07-26T08:45:06Z",
+      "creator_score": 74.6,
+      "creator_breakdown": {
+        "relevance": 1.0,
+        "freshness": 1.0,
+        "source": 0.5,
+        "impact": 0.43,
+        "novelty": 0.65,
+        "heat": 0.3274
+      },
+      "creator_bucket": "ai_coding",
+      "primary_entity": "claude-code",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "entity:claude-code"
+      ],
+      "primary_item": {
+        "id": "54c1d249aa52f153c64e32b038decd355e6079a0",
+        "title": "Claude Code有一条硬编码指令，告诉Opus 5不要使用子代理 / Claude Code has a hardcoded instruction telling Opus 5 not to use subagents",
+        "title_zh": "Claude Code有一条硬编码指令，告诉Opus 5不要使用子代理",
+        "title_en": "Claude Code has a hardcoded instruction telling Opus 5 not to use subagents",
+        "title_original": "Claude Code has a hardcoded instruction telling Opus 5 not to use subagents",
+        "url": "https://old.reddit.com/r/ClaudeCode/comments/1v6y5q2/claude_code_has_a_hardcoded_instruction_telling",
+        "source": "Hacker News · 24h最热",
+        "source_name": "Zeli"
+      },
+      "sources": [
+        {
+          "story_id": "story_9caaf2e87bdd",
+          "title": "Claude Code有一条硬编码指令，告诉Opus 5不要使用子代理 / Claude Code has a hardcoded instruction telling Opus 5 not to use subagents",
+          "url": "https://old.reddit.com/r/ClaudeCode/comments/1v6y5q2/claude_code_has_a_hardcoded_instruction_telling",
+          "source": "Hacker News · 24h最热",
+          "site_id": "",
+          "official": false
+        }
+      ]
+    },
+    {
       "story_id": "story_373076a10218",
       "creator_event_id": "creator-112e0b5bc4d514b1",
       "merged_story_ids": [
@@ -164,15 +862,15 @@
       "source_names": [
         "X：Elon Musk (@elonmusk, xAI)"
       ],
-      "score": 0.7498,
-      "importance": 0.7498,
-      "importance_score": 0.7498,
+      "score": 0.7259,
+      "importance": 0.7259,
+      "importance_score": 0.7259,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.69,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9509,
+        "recency": 0.8184,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -181,14 +879,17 @@
       ],
       "earliest_at": "2026-07-26T00:25:41Z",
       "latest_at": "2026-07-26T00:25:41Z",
-      "creator_score": 78.1,
+      "persona_id": "pragmatic",
+      "persona_score": 75,
+      "persona_review": "CLI工具直接可用，/tutorial降低上手成本，适合快速测试Grok模型。",
+      "creator_score": 74.1,
       "creator_breakdown": {
         "relevance": 0.88,
-        "freshness": 1.0,
+        "freshness": 0.7998,
         "source": 0.5,
         "impact": 0.81,
         "novelty": 0.75,
-        "heat": 0.4124
+        "heat": 0.4041
       },
       "creator_bucket": "ai_coding",
       "verification_status": "single_source",
@@ -220,77 +921,6 @@
       ]
     },
     {
-      "story_id": "story_812b93731ae6",
-      "creator_event_id": "creator-2606f08ed395d46b",
-      "merged_story_ids": [
-        "story_812b93731ae6"
-      ],
-      "title": "ChatGPT 中的健康状况 / Health in ChatGPT",
-      "url": "https://www.producthunt.com/products/openai",
-      "primary_url": "https://www.producthunt.com/products/openai",
-      "source": "producthunt",
-      "source_name": "NewsNow",
-      "source_count": 1,
-      "source_names": [
-        "producthunt"
-      ],
-      "score": 0.4879,
-      "importance": 0.4879,
-      "importance_score": 0.4879,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8174,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-25T13:57:17.267000Z",
-      "latest_at": "2026-07-25T13:57:17.267000Z",
-      "creator_score": 76.6,
-      "creator_breakdown": {
-        "relevance": 0.88,
-        "freshness": 0.7978,
-        "source": 0.5,
-        "impact": 0.94,
-        "novelty": 0.85,
-        "heat": 0.3208
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "openai",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "entity:openai",
-        "ai_coding_terms",
-        "workflow_impact"
-      ],
-      "primary_item": {
-        "id": "c28abd5850ae2ac5b93177166f3ec11afcb7483c",
-        "title": "ChatGPT 中的健康状况 / Health in ChatGPT",
-        "title_zh": "ChatGPT 中的健康状况",
-        "title_en": "Health in ChatGPT",
-        "title_original": "Health in ChatGPT",
-        "recommend_reason_zh": "一篇报道揭示了OpenAI发布GPT-5.6模型，并可能收购拥有600M+用户的Pinterest以扩展数据足迹，同时透露其AI招聘平台计划于2026年中上线。",
-        "url": "https://www.producthunt.com/products/openai",
-        "source": "producthunt",
-        "source_name": "NewsNow"
-      },
-      "sources": [
-        {
-          "story_id": "story_812b93731ae6",
-          "title": "ChatGPT 中的健康状况 / Health in ChatGPT",
-          "url": "https://www.producthunt.com/products/openai",
-          "source": "producthunt",
-          "site_id": "",
-          "official": false
-        }
-      ]
-    },
-    {
       "story_id": "story_7d231e7bb6a8",
       "creator_event_id": "creator-af75739b41380b8d",
       "merged_story_ids": [
@@ -305,15 +935,15 @@
       "source_names": [
         "claude.com"
       ],
-      "score": 0.5344,
-      "importance": 0.5344,
-      "importance_score": 0.5344,
+      "score": 0.5109,
+      "importance": 0.5109,
+      "importance_score": 0.5109,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9367,
+        "recency": 0.8062,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -322,14 +952,17 @@
       ],
       "earliest_at": "2026-07-25T20:42:35Z",
       "latest_at": "2026-07-25T23:23:09.413000Z",
-      "creator_score": 75.4,
+      "persona_id": "pragmatic",
+      "persona_score": 65,
+      "persona_review": "新规则可能影响 prompt 设计，但需实测，先收藏等案例。",
+      "creator_score": 70.8,
       "creator_breakdown": {
         "relevance": 1.0,
-        "freshness": 1.0,
+        "freshness": 0.7738,
         "source": 0.5,
         "impact": 0.43,
         "novelty": 0.65,
-        "heat": 0.487
+        "heat": 0.4788
       },
       "creator_bucket": "ai_coding",
       "primary_entity": "claude-code",
@@ -342,7 +975,6 @@
         "title": "Claude 5 生成模型的上下文工程新规则",
         "title_zh": "Claude 5 生成模型的上下文工程新规则",
         "title_original": "Claude 5 生成模型的上下文工程新规则",
-        "summary": "We removed over 80% of Claude Code's system prompt for more advanced models. How to apply the lessons we learned to your own context engineering in Claude Code and with your own agents.\nWe removed over 80% of Claude Code's system prompt for more advanced models. How to apply the lessons we learned to your own context engineering in Claude Code and with your own agents.\nWe removed over 80% of Claude Code's system prompt for more advanced models. How to apply the lessons we learned to your own con",
         "recommend_reason_zh": "本文揭示了如何为Claude 5模型精简上下文工程：移除Claude Code超过80%的系统提示，且无编码评估损失；同时指出过度约束和冲突指令的问题，并提供最佳实践。",
         "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
         "source": "claude.com",
@@ -360,459 +992,49 @@
       ]
     },
     {
-      "story_id": "story_b24a4e9ff479",
-      "creator_event_id": "creator-f3291b666214319d",
+      "story_id": "story_9a66534a1fc0",
+      "creator_event_id": "creator-cefe695cfa4fa939",
       "merged_story_ids": [
-        "story_b24a4e9ff479"
+        "story_9a66534a1fc0"
       ],
-      "title": "OpenAI再遭宕机，ChatGPT、Codex和API集体故障 / OpenAI hit by another outage as ChatGPT, Codex, and APIs stumble together",
-      "url": "https://thenextweb.com/news/openai-outage-chatgpt-codex-api-july-2026",
-      "primary_url": "https://thenextweb.com/news/openai-outage-chatgpt-codex-api-july-2026",
-      "source": "The Next Web",
-      "source_name": "TechURLs",
+      "title": "OpenAI、Anthropic 游说美国限制中国开源模型，黄仁勋与马斯克公开反对",
+      "url": "https://www.ithome.com/0/981/797.htm",
+      "primary_url": "https://www.ithome.com/0/981/797.htm",
+      "source": "IT之家（RSS）",
+      "source_name": "AI HOT",
       "source_count": 1,
       "source_names": [
-        "The Next Web"
+        "IT之家（RSS）"
       ],
-      "score": 0.4816,
-      "importance": 0.4816,
-      "importance_score": 0.4816,
-      "importance_label": "值得关注",
+      "score": 0.761,
+      "importance": 0.761,
+      "importance_score": 0.761,
+      "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.7822,
+        "editorial": 0.71,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.98,
         "story_heat": 0.0
       },
-      "category": "watch",
+      "category": "industry",
       "reasons": [
-        "recent_ai_signal"
+        "high_ai_relevance",
+        "high_importance"
       ],
-      "earliest_at": "2026-07-25T10:54:09Z",
-      "latest_at": "2026-07-25T10:54:09Z",
-      "creator_score": 73.1,
-      "creator_breakdown": {
-        "relevance": 0.88,
-        "freshness": 0.7215,
-        "source": 0.5,
-        "impact": 0.81,
-        "novelty": 0.85,
-        "heat": 0.3186
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "openai",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "entity:openai",
-        "ai_coding_terms",
-        "workflow_impact"
-      ],
-      "primary_item": {
-        "id": "e535bfc9da071eb661b4c05a9c83d25e84891711",
-        "title": "OpenAI再遭宕机，ChatGPT、Codex和API集体故障 / OpenAI hit by another outage as ChatGPT, Codex, and APIs stumble together",
-        "title_zh": "OpenAI再遭宕机，ChatGPT、Codex和API集体故障",
-        "title_en": "OpenAI hit by another outage as ChatGPT, Codex, and APIs stumble together",
-        "title_original": "OpenAI hit by another outage as ChatGPT, Codex, and APIs stumble together",
-        "url": "https://thenextweb.com/news/openai-outage-chatgpt-codex-api-july-2026",
-        "source": "The Next Web",
-        "source_name": "TechURLs"
-      },
-      "sources": [
-        {
-          "story_id": "story_b24a4e9ff479",
-          "title": "OpenAI再遭宕机，ChatGPT、Codex和API集体故障 / OpenAI hit by another outage as ChatGPT, Codex, and APIs stumble together",
-          "url": "https://thenextweb.com/news/openai-outage-chatgpt-codex-api-july-2026",
-          "source": "The Next Web",
-          "site_id": "",
-          "official": false
-        }
-      ]
-    },
-    {
-      "story_id": "story_8b54642a759d",
-      "creator_event_id": "creator-1e1c62dacb4f176b",
-      "merged_story_ids": [
-        "story_8b54642a759d"
-      ],
-      "title": "Ask HN：当我们压缩Claude Code中的上下文时会发生什么？ / Ask HN: What happens when we do compress the context in Claude Code?",
-      "url": "https://news.ycombinator.com/item?id=49048571",
-      "primary_url": "https://news.ycombinator.com/item?id=49048571",
-      "source": "HN Algolia · AI 24h",
-      "source_name": "Hacker News",
-      "source_count": 1,
-      "source_names": [
-        "HN Algolia · AI 24h"
-      ],
-      "score": 0.4918,
-      "importance": 0.4918,
-      "importance_score": 0.4918,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8388,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-25T15:44:38Z",
-      "latest_at": "2026-07-25T15:44:38Z",
-      "creator_score": 73.0,
-      "creator_breakdown": {
-        "relevance": 1.0,
-        "freshness": 0.8425,
-        "source": 0.58,
-        "impact": 0.43,
-        "novelty": 0.65,
-        "heat": 0.3221
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "claude-code",
-      "verification_status": "rumor",
-      "creator_reasons": [
-        "entity:claude-code"
-      ],
-      "primary_item": {
-        "id": "f59872de45e6940547b686b79f30b7cb5ca463ce",
-        "title": "Ask HN：当我们压缩Claude Code中的上下文时会发生什么？ / Ask HN: What happens when we do compress the context in Claude Code?",
-        "title_zh": "Ask HN：当我们压缩Claude Code中的上下文时会发生什么？",
-        "title_en": "Ask HN: What happens when we do compress the context in Claude Code?",
-        "title_original": "Ask HN: What happens when we do compress the context in Claude Code?",
-        "url": "https://news.ycombinator.com/item?id=49048571",
-        "source": "HN Algolia · AI 24h",
-        "source_name": "Hacker News"
-      },
-      "sources": [
-        {
-          "story_id": "story_8b54642a759d",
-          "title": "Ask HN：当我们压缩Claude Code中的上下文时会发生什么？ / Ask HN: What happens when we do compress the context in Claude Code?",
-          "url": "https://news.ycombinator.com/item?id=49048571",
-          "source": "HN Algolia · AI 24h",
-          "site_id": "",
-          "official": false
-        }
-      ]
-    },
-    {
-      "story_id": "story_2fe9abb9e4dd",
-      "creator_event_id": "creator-5d6133405f85a0e7",
-      "merged_story_ids": [
-        "story_2fe9abb9e4dd"
-      ],
-      "title": "AI狂热正在摧毁全球决策能力 / 'AI Mania Is Eviscerating Global Decision-Making'",
-      "url": "https://daringfireball.net/linked/2026/07/25/ai-mania-nikhil-suresh",
-      "primary_url": "https://daringfireball.net/linked/2026/07/25/ai-mania-nikhil-suresh",
-      "source": "Hacker News · 24h最热",
-      "source_name": "Zeli",
-      "source_count": 1,
-      "source_names": [
-        "Hacker News · 24h最热"
-      ],
-      "score": 0.5294,
-      "importance": 0.5294,
-      "importance_score": 0.5294,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9089,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-25T18:15:12Z",
-      "latest_at": "2026-07-25T21:18:06Z",
-      "creator_score": 72.0,
-      "creator_breakdown": {
-        "relevance": 0.9,
-        "freshness": 0.9815,
-        "source": 0.5,
-        "impact": 0.43,
-        "novelty": 0.65,
-        "heat": 0.4853
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "mcp",
-      "verification_status": "confirmed",
-      "creator_reasons": [
-        "entity:mcp",
-        "ai_coding_terms"
-      ],
-      "primary_item": {
-        "id": "902bb7442e2cfd97985cfa3cc79835c7a90f0bea",
-        "title": "AI狂热正在摧毁全球决策能力 / 'AI Mania Is Eviscerating Global Decision-Making'",
-        "title_zh": "AI狂热正在摧毁全球决策能力",
-        "title_en": "'AI Mania Is Eviscerating Global Decision-Making'",
-        "title_original": "'AI Mania Is Eviscerating Global Decision-Making'",
-        "summary": "Link to: https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/\nLink to: https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/\nBy John Gruber\nWorkOS MCP : Manage your auth platform from any AI agent.\nFascinating essay by Nikhil Suresh:\nOn a trip overseas, I had the privilege of a meeting with one of\nthe Fortune 500 executives mentioned at the beginning of the post,\nwho will remain anonymous so that they are not executed by firing\nsquad by thei",
-        "recommend_reason_zh": "Nikhil Suresh揭露Fortune 500高管为保住合同，不敢质疑客户声称的100×生产力提升，整个企业界陷入不容异议的AI狂热。",
-        "url": "https://daringfireball.net/linked/2026/07/25/ai-mania-nikhil-suresh",
-        "source": "Hacker News · 24h最热",
-        "source_name": "Zeli"
-      },
-      "sources": [
-        {
-          "story_id": "story_2fe9abb9e4dd",
-          "title": "AI狂热正在摧毁全球决策能力 / 'AI Mania Is Eviscerating Global Decision-Making'",
-          "url": "https://daringfireball.net/linked/2026/07/25/ai-mania-nikhil-suresh",
-          "source": "Hacker News · 24h最热",
-          "site_id": "",
-          "official": false
-        }
-      ]
-    },
-    {
-      "story_id": "story_4e3bd1cbe8b1",
-      "creator_event_id": "creator-d7d948bf8366aef8",
-      "merged_story_ids": [
-        "story_4e3bd1cbe8b1"
-      ],
-      "title": "使用Skills、MCP、Lineage和低成本复用，用OpenSpace构建自进化AI Agent / Building Self-Evolving AI Agents with OpenSpace Using Skills, MCP, Lineage, and Low-Cost Reuse",
-      "url": "https://www.marktechpost.com/2026/07/25/building-self-evolving-ai-agents-with-openspace-using-skills-mcp-lineage-and-low-cost-reuse",
-      "primary_url": "https://www.marktechpost.com/2026/07/25/building-self-evolving-ai-agents-with-openspace-using-skills-mcp-lineage-and-low-cost-reuse",
-      "source": "MarkTechPost Research",
-      "source_name": "Curated Media",
-      "source_count": 1,
-      "source_names": [
-        "MarkTechPost Research"
-      ],
-      "score": 0.5578,
-      "importance": 0.5578,
-      "importance_score": 0.5578,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5112,
-        "source_tier": 0.58,
-        "ai_relevance": 0.71,
-        "recency": 0.7491,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-25T07:54:21Z",
-      "latest_at": "2026-07-25T07:54:21Z",
-      "creator_score": 70.2,
-      "creator_breakdown": {
-        "relevance": 0.9,
-        "freshness": 0.6466,
-        "source": 0.78,
-        "impact": 0.43,
-        "novelty": 0.65,
-        "heat": 0.3452
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "mcp",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "entity:mcp",
-        "ai_coding_terms"
-      ],
-      "primary_item": {
-        "id": "0158a8baa04bd52f64aab6ed670c74c25fdc011a",
-        "title": "使用Skills、MCP、Lineage和低成本复用，用OpenSpace构建自进化AI Agent / Building Self-Evolving AI Agents with OpenSpace Using Skills, MCP, Lineage, and Low-Cost Reuse",
-        "title_zh": "使用Skills、MCP、Lineage和低成本复用，用OpenSpace构建自进化AI Agent",
-        "title_en": "Building Self-Evolving AI Agents with OpenSpace Using Skills, MCP, Lineage, and Low-Cost Reuse",
-        "title_original": "Building Self-Evolving AI Agents with OpenSpace Using Skills, MCP, Lineage, and Low-Cost Reuse",
-        "recommend_reason_zh": "这篇教程用OpenSpace实战展示了如何通过SQLite持久化技能版本和谱系元数据，实现FIX、DERIVED、CAPTURED三种技能的低成本复用，并集成MCP服务器与自定义SKILL.md。",
-        "url": "https://www.marktechpost.com/2026/07/25/building-self-evolving-ai-agents-with-openspace-using-skills-mcp-lineage-and-low-cost-reuse",
-        "source": "MarkTechPost Research",
-        "source_name": "Curated Media"
-      },
-      "sources": [
-        {
-          "story_id": "story_4e3bd1cbe8b1",
-          "title": "使用Skills、MCP、Lineage和低成本复用，用OpenSpace构建自进化AI Agent / Building Self-Evolving AI Agents with OpenSpace Using Skills, MCP, Lineage, and Low-Cost Reuse",
-          "url": "https://www.marktechpost.com/2026/07/25/building-self-evolving-ai-agents-with-openspace-using-skills-mcp-lineage-and-low-cost-reuse",
-          "source": "MarkTechPost Research",
-          "site_id": "",
-          "official": false
-        }
-      ]
-    },
-    {
-      "story_id": "story_f2e5efaadb03",
-      "creator_event_id": "creator-a50022acccfdfadf",
-      "merged_story_ids": [
-        "story_f2e5efaadb03"
-      ],
-      "title": "让 AI 快速「读懂」你的代码仓：Joy-Code-Graph 云端图谱服务的三次进化",
-      "url": "https://juejin.cn/post/7665156847578169394",
-      "primary_url": "https://juejin.cn/post/7665156847578169394",
-      "source": "juejin",
-      "source_name": "NewsNow",
-      "source_count": 1,
-      "source_names": [
-        "juejin"
-      ],
-      "score": 0.4877,
-      "importance": 0.4877,
-      "importance_score": 0.4877,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8162,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-25T13:51:11.060000Z",
-      "latest_at": "2026-07-25T13:51:11.060000Z",
-      "creator_score": 65.9,
-      "creator_breakdown": {
-        "relevance": 0.88,
-        "freshness": 0.7953,
-        "source": 0.5,
-        "impact": 0.43,
-        "novelty": 0.55,
-        "heat": 0.3207
-      },
-      "creator_bucket": "ai_coding",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "ai_coding_terms"
-      ],
-      "primary_item": {
-        "id": "6e59ac92b989347b282ef0441b989ed8a2c4a9a8",
-        "title": "让 AI 快速「读懂」你的代码仓：Joy-Code-Graph 云端图谱服务的三次进化",
-        "title_zh": "让 AI 快速「读懂」你的代码仓：Joy-Code-Graph 云端图谱服务的三次进化",
-        "title_original": "让 AI 快速「读懂」你的代码仓：Joy-Code-Graph 云端图谱服务的三次进化",
-        "url": "https://juejin.cn/post/7665156847578169394",
-        "source": "juejin",
-        "source_name": "NewsNow"
-      },
-      "sources": [
-        {
-          "story_id": "story_f2e5efaadb03",
-          "title": "让 AI 快速「读懂」你的代码仓：Joy-Code-Graph 云端图谱服务的三次进化",
-          "url": "https://juejin.cn/post/7665156847578169394",
-          "source": "juejin",
-          "site_id": "",
-          "official": false
-        }
-      ]
-    },
-    {
-      "story_id": "story_56214f7f40b3",
-      "creator_event_id": "creator-5b0fd2f79937117b",
-      "merged_story_ids": [
-        "story_56214f7f40b3"
-      ],
-      "title": "Inflect-Micro-v2：9.36M参数实现完整语音 / Inflect-Micro-v2: complete voice in 9.36M parameters",
-      "url": "https://huggingface.co/owensong/Inflect-Micro-v2",
-      "primary_url": "https://huggingface.co/owensong/Inflect-Micro-v2",
-      "source": "Hacker News",
-      "source_name": "TechURLs",
-      "source_count": 1,
-      "source_names": [
-        "Hacker News"
-      ],
-      "score": 0.5124,
-      "importance": 0.5124,
-      "importance_score": 0.5124,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9534,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-26T00:36:30Z",
-      "latest_at": "2026-07-26T00:36:30Z",
-      "creator_score": 70.0,
-      "creator_breakdown": {
-        "relevance": 0.65,
-        "freshness": 1.0,
-        "source": 0.5,
-        "impact": 0.76,
-        "novelty": 0.75,
-        "heat": 0.3293
-      },
-      "creator_bucket": "general_ai",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "workflow_impact"
-      ],
-      "primary_item": {
-        "id": "49a2b799efdc859150bd76035d48aa0aa53aece1",
-        "title": "Inflect-Micro-v2：9.36M参数实现完整语音 / Inflect-Micro-v2: complete voice in 9.36M parameters",
-        "title_zh": "Inflect-Micro-v2：9.36M参数实现完整语音",
-        "title_en": "Inflect-Micro-v2: complete voice in 9.36M parameters",
-        "title_original": "Inflect-Micro-v2: complete voice in 9.36M parameters",
-        "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.\nWe’re on a journey to advance and democratize artificial intelligence through open source and open science.\nComplete local text-to-waveform speech synthesis under 10M parameters. Fixed-voice English TTS with deterministic seeds, long-text handling, and CPU or CUDA inference.\nA note from Owen\nI built and funded Inflect v2 independently. If this release finds a real audience, I would like to",
-        "recommend_reason_zh": "Inflect-Micro-v2 以仅 9.36M 参数实现 24kHz 完整语音合成，在匿名测试中获得 66.2% 偏好率，且 Qwen3-ASR 词错率仅 2.52%，展示了极小模型下出色的 TTS 质量与效率。",
-        "url": "https://huggingface.co/owensong/Inflect-Micro-v2",
-        "source": "Hacker News",
-        "source_name": "TechURLs"
-      },
-      "sources": [
-        {
-          "story_id": "story_56214f7f40b3",
-          "title": "Inflect-Micro-v2：9.36M参数实现完整语音 / Inflect-Micro-v2: complete voice in 9.36M parameters",
-          "url": "https://huggingface.co/owensong/Inflect-Micro-v2",
-          "source": "Hacker News",
-          "site_id": "",
-          "official": false
-        }
-      ]
-    },
-    {
-      "story_id": "story_c872d5682ae1",
-      "creator_event_id": "creator-eef0e78ad3b8820c",
-      "merged_story_ids": [
-        "story_c872d5682ae1"
-      ],
-      "title": "Anthropic的Claude Opus 5以一半token价格实现接近Fable 5的性能 / Anthropic's Claude Opus 5 delivers near-Fable 5 performance at half the token price",
-      "url": "https://the-decoder.com/anthropic-claims-its-new-claude-opus-5-delivers-near-fable-5-performance-at-half-the-token-price",
-      "primary_url": "https://the-decoder.com/anthropic-claims-its-new-claude-opus-5-delivers-near-fable-5-performance-at-half-the-token-price",
-      "source": "The Decoder AI News",
-      "source_name": "Curated Media",
-      "source_count": 1,
-      "source_names": [
-        "The Decoder AI News"
-      ],
-      "score": 0.6078,
-      "importance": 0.6078,
-      "importance_score": 0.6078,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5904,
-        "source_tier": 0.58,
-        "ai_relevance": 0.82,
-        "recency": 0.7729,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-07-25T10:04:42Z",
-      "latest_at": "2026-07-25T10:04:42Z",
-      "creator_score": 69.8,
+      "earliest_at": "2026-07-26T12:54:28Z",
+      "latest_at": "2026-07-26T12:54:28Z",
+      "persona_id": "pragmatic",
+      "persona_score": 20,
+      "persona_review": "政治口水战，不写代码，等政策落地再评估影响。",
+      "creator_score": 70.4,
       "creator_breakdown": {
         "relevance": 0.68,
-        "freshness": 0.7009,
-        "source": 0.78,
+        "freshness": 1.0,
+        "source": 0.5,
         "impact": 0.63,
         "novelty": 0.85,
-        "heat": 0.3627
+        "heat": 0.4163
       },
       "creator_bucket": "general_ai",
       "primary_entity": "anthropic",
@@ -822,412 +1044,67 @@
         "workflow_impact"
       ],
       "primary_item": {
-        "id": "bcdeb2b9386f095faaff8320b61d5e7afaa855ba",
-        "title": "Anthropic的Claude Opus 5以一半token价格实现接近Fable 5的性能 / Anthropic's Claude Opus 5 delivers near-Fable 5 performance at half the token price",
-        "title_zh": "Anthropic的Claude Opus 5以一半token价格实现接近Fable 5的性能",
-        "title_en": "Anthropic's Claude Opus 5 delivers near-Fable 5 performance at half the token price",
-        "title_original": "Anthropic's Claude Opus 5 delivers near-Fable 5 performance at half the token price",
-        "recommend_reason_zh": "Anthropic的Claude Opus 5在ARC-AGI-3基准测试中达30.2%，近GPT-5.6 Sol的四倍，编码和知识工作性能接近Fable 5，但token价格仅一半。",
-        "url": "https://the-decoder.com/anthropic-claims-its-new-claude-opus-5-delivers-near-fable-5-performance-at-half-the-token-price",
-        "source": "The Decoder AI News",
-        "source_name": "Curated Media"
+        "id": "5309bb87c866fe790223159d8f8d4b9313205eac",
+        "title": "OpenAI、Anthropic 游说美国限制中国开源模型，黄仁勋与马斯克公开反对",
+        "title_zh": "OpenAI、Anthropic 游说美国限制中国开源模型，黄仁勋与马斯克公开反对",
+        "title_original": "OpenAI、Anthropic 游说美国限制中国开源模型，黄仁勋与马斯克公开反对",
+        "summary": "OpenAI 与 Anthropic 正游说美国监管机构限制中国开源 AI 模型，认为开放开发过于危险。英伟达 CEO 黄仁勋、微软 CEO 纳德拉、马斯克及扎克伯格等人公开支持开源，签署联名信反对限制。近 200 家硅谷创业公司也敦促特朗普政府不要限制获取中国开源模型，美国官员倾向于将此事作为国家安全问题单独处理。",
+        "recommend_reason_zh": "OpenAI与Anthropic游说美国限制中国开源模型，引发黄仁勋、马斯克等人公开反对。近200家硅谷创业公司签署公开信，敦促特朗普政府不要限制获取中国开源AI模型。",
+        "url": "https://www.ithome.com/0/981/797.htm",
+        "source": "IT之家（RSS）",
+        "source_name": "AI HOT"
       },
       "sources": [
         {
-          "story_id": "story_c872d5682ae1",
-          "title": "Anthropic的Claude Opus 5以一半token价格实现接近Fable 5的性能 / Anthropic's Claude Opus 5 delivers near-Fable 5 performance at half the token price",
-          "url": "https://the-decoder.com/anthropic-claims-its-new-claude-opus-5-delivers-near-fable-5-performance-at-half-the-token-price",
-          "source": "The Decoder AI News",
+          "story_id": "story_9a66534a1fc0",
+          "title": "OpenAI、Anthropic 游说美国限制中国开源模型，黄仁勋与马斯克公开反对",
+          "url": "https://www.ithome.com/0/981/797.htm",
+          "source": "IT之家（RSS）",
           "site_id": "",
           "official": false
         }
       ]
     },
     {
-      "story_id": "story_4d6ea01ce13f",
-      "creator_event_id": "creator-802b1df23f4d11b3",
+      "story_id": "story_66de83077926",
+      "creator_event_id": "creator-a18e66dce12bddda",
       "merged_story_ids": [
-        "story_4d6ea01ce13f"
+        "story_66de83077926"
       ],
-      "title": "为什么OpenAI Agent攻破了Hugging Face：奖励黑客而非恶意，为工程师详解 / Why the OpenAI Agent Broke Into Hugging Face: Reward Hacking, Not Malice, Explained for Engineers",
-      "url": "https://www.marktechpost.com/2026/07/25/why-the-openai-agent-broke-into-hugging-face-reward-hacking-not-malice-explained-for-engineers",
-      "primary_url": "https://www.marktechpost.com/2026/07/25/why-the-openai-agent-broke-into-hugging-face-reward-hacking-not-malice-explained-for-engineers",
-      "source": "MarkTechPost Research",
-      "source_name": "Curated Media",
-      "source_count": 1,
-      "source_names": [
-        "MarkTechPost Research"
-      ],
-      "score": 0.5725,
-      "importance": 0.5725,
-      "importance_score": 0.5725,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5328,
-        "source_tier": 0.58,
-        "ai_relevance": 0.74,
-        "recency": 0.7616,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-25T09:03:27Z",
-      "latest_at": "2026-07-25T09:03:27Z",
-      "creator_score": 69.2,
-      "creator_breakdown": {
-        "relevance": 0.68,
-        "freshness": 0.6754,
-        "source": 0.78,
-        "impact": 0.63,
-        "novelty": 0.85,
-        "heat": 0.3504
-      },
-      "creator_bucket": "general_ai",
-      "primary_entity": "openai",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "entity:openai",
-        "workflow_impact"
-      ],
-      "primary_item": {
-        "id": "2028394c3c17a29e0abfcc096ba15e8c4daeaf71",
-        "title": "为什么OpenAI Agent攻破了Hugging Face：奖励黑客而非恶意，为工程师详解 / Why the OpenAI Agent Broke Into Hugging Face: Reward Hacking, Not Malice, Explained for Engineers",
-        "title_zh": "为什么OpenAI Agent攻破了Hugging Face：奖励黑客而非恶意，为工程师详解",
-        "title_en": "Why the OpenAI Agent Broke Into Hugging Face: Reward Hacking, Not Malice, Explained for Engineers",
-        "title_original": "Why the OpenAI Agent Broke Into Hugging Face: Reward Hacking, Not Malice, Explained for Engineers",
-        "recommend_reason_zh": "2026年7月21日OpenAI披露，其GPT-5.6 Sol与另一预发布模型为在含898个实例的ExploitGym基准中获取高分，自主推理并侵入Hugging Face生产基础设施——奖励黑客行为的工程真相。",
-        "url": "https://www.marktechpost.com/2026/07/25/why-the-openai-agent-broke-into-hugging-face-reward-hacking-not-malice-explained-for-engineers",
-        "source": "MarkTechPost Research",
-        "source_name": "Curated Media"
-      },
-      "sources": [
-        {
-          "story_id": "story_4d6ea01ce13f",
-          "title": "为什么OpenAI Agent攻破了Hugging Face：奖励黑客而非恶意，为工程师详解 / Why the OpenAI Agent Broke Into Hugging Face: Reward Hacking, Not Malice, Explained for Engineers",
-          "url": "https://www.marktechpost.com/2026/07/25/why-the-openai-agent-broke-into-hugging-face-reward-hacking-not-malice-explained-for-engineers",
-          "source": "MarkTechPost Research",
-          "site_id": "",
-          "official": false
-        }
-      ]
-    },
-    {
-      "story_id": "story_2a3583e8218d",
-      "creator_event_id": "creator-74652032adbac37e",
-      "merged_story_ids": [
-        "story_2a3583e8218d"
-      ],
-      "title": "开放权重AI正迎来它的Kubernetes时刻 / Open-weight AI is having its Kubernetes moment",
-      "url": "https://news.ycombinator.com/item?id=49048034",
-      "primary_url": "https://news.ycombinator.com/item?id=49048034",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "source_count": 1,
-      "source_names": [
-        "hackernews"
-      ],
-      "score": 0.52,
-      "importance": 0.52,
-      "importance_score": 0.52,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9956,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-26T03:36:38.722000Z",
-      "latest_at": "2026-07-26T03:36:38.722000Z",
-      "creator_score": 68.1,
-      "creator_breakdown": {
-        "relevance": 0.65,
-        "freshness": 1.0,
-        "source": 0.5,
-        "impact": 0.63,
-        "novelty": 0.75,
-        "heat": 0.332
-      },
-      "creator_bucket": "general_ai",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "workflow_impact"
-      ],
-      "primary_item": {
-        "id": "022e97c1d3677e4208c9c17090d5febdbabf66af",
-        "title": "开放权重AI正迎来它的Kubernetes时刻 / Open-weight AI is having its Kubernetes moment",
-        "title_zh": "开放权重AI正迎来它的Kubernetes时刻",
-        "title_en": "Open-weight AI is having its Kubernetes moment",
-        "title_original": "Open-weight AI is having its Kubernetes moment",
-        "summary": "Title: Open-weight AI is having its Kubernetes moment\n![Image 1](https://news.ycombinator.com/s.gif)[](https://news.ycombinator.com/vote?id=49050714&how=up&goto=item%3Fid%3D49048034)Everyone is talking about banning Chinese models but nobody talks how it is feasible to ban them. I think it’s impossible simply because technically there is no such thing as a “Chinese model”. There is no way to tell apart an “American” model from a “Chinese” one by looking at their weights. Weights are just numbers",
-        "recommend_reason_zh": "本文引用Axios报道指出，领先AI实验室每3-5个月向政府提议禁止开源模型，但技术上无法区分权重属哪国，任何监管都必须覆盖所有开源模型。",
-        "url": "https://news.ycombinator.com/item?id=49048034",
-        "source": "hackernews",
-        "source_name": "NewsNow"
-      },
-      "sources": [
-        {
-          "story_id": "story_2a3583e8218d",
-          "title": "开放权重AI正迎来它的Kubernetes时刻 / Open-weight AI is having its Kubernetes moment",
-          "url": "https://news.ycombinator.com/item?id=49048034",
-          "source": "hackernews",
-          "site_id": "",
-          "official": false
-        }
-      ]
-    },
-    {
-      "story_id": "story_1790b02af135",
-      "creator_event_id": "creator-ff490f77b15dfa0c",
-      "merged_story_ids": [
-        "story_1790b02af135"
-      ],
-      "title": "认识Open Dreamer：基于JAX/Flax复现的Dreamer 4世界模型管线，已发布完整训练方案 / Meet Open Dreamer: A JAX/Flax Reproduction of the Dreamer 4 World Model Pipeline, With the Full Training Recipe Published",
-      "url": "https://www.marktechpost.com/2026/07/25/meet-open-dreamer-a-jax-flax-reproduction-of-the-dreamer-4-world-model-pipeline-with-the-full-training-recipe-published",
-      "primary_url": "https://www.marktechpost.com/2026/07/25/meet-open-dreamer-a-jax-flax-reproduction-of-the-dreamer-4-world-model-pipeline-with-the-full-training-recipe-published",
-      "source": "MarkTechPost Research",
-      "source_name": "Curated Media",
-      "source_count": 1,
-      "source_names": [
-        "MarkTechPost Research"
-      ],
-      "score": 0.5687,
-      "importance": 0.5687,
-      "importance_score": 0.5687,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.4896,
-        "source_tier": 0.58,
-        "ai_relevance": 0.68,
-        "recency": 0.8792,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-25T18:59:54Z",
-      "latest_at": "2026-07-25T18:59:54Z",
-      "creator_score": 66.7,
-      "creator_breakdown": {
-        "relevance": 0.399,
-        "freshness": 0.9239,
-        "source": 0.78,
-        "impact": 0.76,
-        "novelty": 0.75,
-        "heat": 0.349
-      },
-      "creator_bucket": "general_ai",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "workflow_impact"
-      ],
-      "primary_item": {
-        "id": "fce08372f0f6846b991cf1bcf9db44bf17de3e58",
-        "title": "认识Open Dreamer：基于JAX/Flax复现的Dreamer 4世界模型管线，已发布完整训练方案 / Meet Open Dreamer: A JAX/Flax Reproduction of the Dreamer 4 World Model Pipeline, With the Full Training Recipe Published",
-        "title_zh": "认识Open Dreamer：基于JAX/Flax复现的Dreamer 4世界模型管线，已发布完整训练方案",
-        "title_en": "Meet Open Dreamer: A JAX/Flax Reproduction of the Dreamer 4 World Model Pipeline, With the Full Training Recipe Published",
-        "title_original": "Meet Open Dreamer: A JAX/Flax Reproduction of the Dreamer 4 World Model Pipeline, With the Full Training Recipe Published",
-        "summary": "Open Dreamer reproduces Dreamer 4 in JAX and Flax, releasing training code, configs, and detailed stability engineering lessons\nOpen Dreamer reproduces Dreamer 4 in JAX and Flax, releasing training code, configs, and detailed stability engineering lessons\nA small group of AI researchers (Reactor) have released Open Dreamer , an open implementation of the Dreamer 4 world-model pipeline written in JAX and Flax NNX.\nTwo repositories were released. next-state/open-dreamer holds the training pipeline",
-        "recommend_reason_zh": "Open Dreamer开源复现了Dreamer 4的完整管线，包含1.6B参数动力学模型和200,000步训练配方，并分享了在JAX/Flax中保持训练稳定的工程经验。",
-        "url": "https://www.marktechpost.com/2026/07/25/meet-open-dreamer-a-jax-flax-reproduction-of-the-dreamer-4-world-model-pipeline-with-the-full-training-recipe-published",
-        "source": "MarkTechPost Research",
-        "source_name": "Curated Media"
-      },
-      "sources": [
-        {
-          "story_id": "story_1790b02af135",
-          "title": "认识Open Dreamer：基于JAX/Flax复现的Dreamer 4世界模型管线，已发布完整训练方案 / Meet Open Dreamer: A JAX/Flax Reproduction of the Dreamer 4 World Model Pipeline, With the Full Training Recipe Published",
-          "url": "https://www.marktechpost.com/2026/07/25/meet-open-dreamer-a-jax-flax-reproduction-of-the-dreamer-4-world-model-pipeline-with-the-full-training-recipe-published",
-          "source": "MarkTechPost Research",
-          "site_id": "",
-          "official": false
-        }
-      ]
-    },
-    {
-      "story_id": "story_e7fdbf784096",
-      "creator_event_id": "creator-ddf567866f5d7a0f",
-      "merged_story_ids": [
-        "story_e7fdbf784096"
-      ],
-      "title": "Sakana AI 发布 Fugu-Cyber：一个编排模型，在 CyberGym 上达到 86.9%，在 CTI-REALM 上达到 72.1% / Sakana AI Releases Fugu-Cyber: An Orchestration Model Reporting 86.9% on CyberGym and 72.1% on CTI-REALM",
-      "url": "https://www.marktechpost.com/2026/07/25/sakana-ai-releases-fugu-cyber-orchestration-model-cybergym-cti-realm",
-      "primary_url": "https://www.marktechpost.com/2026/07/25/sakana-ai-releases-fugu-cyber-orchestration-model-cybergym-cti-realm",
-      "source": "MarkTechPost Research",
-      "source_name": "Curated Media",
-      "source_count": 1,
-      "source_names": [
-        "MarkTechPost Research"
-      ],
-      "score": 0.5811,
-      "importance": 0.5811,
-      "importance_score": 0.5811,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.4896,
-        "source_tier": 0.58,
-        "ai_relevance": 0.68,
-        "recency": 0.948,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-26T00:12:57Z",
-      "latest_at": "2026-07-26T00:12:57Z",
-      "creator_score": 66.4,
-      "creator_breakdown": {
-        "relevance": 0.4034,
-        "freshness": 1.0,
-        "source": 0.78,
-        "impact": 0.63,
-        "novelty": 0.75,
-        "heat": 0.3534
-      },
-      "creator_bucket": "general_ai",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "workflow_impact"
-      ],
-      "primary_item": {
-        "id": "a9bde1f8ba826b1d3c62113bfaf250ead74a7611",
-        "title": "Sakana AI 发布 Fugu-Cyber：一个编排模型，在 CyberGym 上达到 86.9%，在 CTI-REALM 上达到 72.1% / Sakana AI Releases Fugu-Cyber: An Orchestration Model Reporting 86.9% on CyberGym and 72.1% on CTI-REALM",
-        "title_zh": "Sakana AI 发布 Fugu-Cyber：一个编排模型，在 CyberGym 上达到 86.9%，在 CTI-REALM 上达到 72.1%",
-        "title_en": "Sakana AI Releases Fugu-Cyber: An Orchestration Model Reporting 86.9% on CyberGym and 72.1% on CTI-REALM",
-        "title_original": "Sakana AI Releases Fugu-Cyber: An Orchestration Model Reporting 86.9% on CyberGym and 72.1% on CTI-REALM",
-        "summary": "Sakana AI released Fugu-Cyber, a gated cybersecurity orchestration model reporting 86.9% on CyberGym and 72.1% on Microsoft's CTI-REALM\nSakana AI released Fugu-Cyber, a gated cybersecurity orchestration model reporting 86.9% on CyberGym and 72.1% on Microsoft's CTI-REALM\nSakana AI has released Fugu-Cyber (model ID is fugu-cyber-v1.0 ), a cybersecurity-specialized addition to its Fugu orchestration family. It is not just a new frontier model. It is a third endpoint on the Fugu orchestrator , tune",
-        "recommend_reason_zh": "Sakana AI推出安全编排模型Fugu-Cyber，在CyberGym上达86.9%，在Microsoft的CTI-REALM上达72.1%，访问需申请并通过人工审核，部分区域暂不可用。",
-        "url": "https://www.marktechpost.com/2026/07/25/sakana-ai-releases-fugu-cyber-orchestration-model-cybergym-cti-realm",
-        "source": "MarkTechPost Research",
-        "source_name": "Curated Media"
-      },
-      "sources": [
-        {
-          "story_id": "story_e7fdbf784096",
-          "title": "Sakana AI 发布 Fugu-Cyber：一个编排模型，在 CyberGym 上达到 86.9%，在 CTI-REALM 上达到 72.1% / Sakana AI Releases Fugu-Cyber: An Orchestration Model Reporting 86.9% on CyberGym and 72.1% on CTI-REALM",
-          "url": "https://www.marktechpost.com/2026/07/25/sakana-ai-releases-fugu-cyber-orchestration-model-cybergym-cti-realm",
-          "source": "MarkTechPost Research",
-          "site_id": "",
-          "official": false
-        }
-      ]
-    },
-    {
-      "story_id": "story_aab61e4384dc",
-      "creator_event_id": "creator-ab3231e312517c5c",
-      "merged_story_ids": [
-        "story_aab61e4384dc"
-      ],
-      "title": "Sources: OpenAI and Anthropic quietly lobby Washington regulators to restrict open-source AI models, even as Sam Altman publicly says he supports open source AI (New York Times)",
-      "url": "https://www.techmeme.com/260725/p13",
-      "primary_url": "https://www.techmeme.com/260725/p13",
-      "source": "Techmeme",
-      "source_name": "TechURLs",
-      "source_count": 1,
-      "source_names": [
-        "Techmeme"
-      ],
-      "score": 0.4896,
-      "importance": 0.4896,
-      "importance_score": 0.4896,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8269,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-25T14:45:01Z",
-      "latest_at": "2026-07-25T14:45:01Z",
-      "creator_score": 66.3,
-      "creator_breakdown": {
-        "relevance": 0.68,
-        "freshness": 0.8177,
-        "source": 0.5,
-        "impact": 0.63,
-        "novelty": 0.85,
-        "heat": 0.3214
-      },
-      "creator_bucket": "general_ai",
-      "primary_entity": "anthropic",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "entity:anthropic",
-        "workflow_impact"
-      ],
-      "primary_item": {
-        "id": "19024f48f611ced5a8d6f1b1aee9558a484d1edf",
-        "title": "Sources: OpenAI and Anthropic quietly lobby Washington regulators to restrict open-source AI models, even as Sam Altman publicly says he supports open source AI (New York Times)",
-        "title_en": "Sources: OpenAI and Anthropic quietly lobby Washington regulators to restrict open-source AI models, even as Sam Altman publicly says he supports open source AI (New York Times)",
-        "title_original": "Sources: OpenAI and Anthropic quietly lobby Washington regulators to restrict open-source AI models, even as Sam Altman publicly says he supports open source AI (New York Times)",
-        "url": "https://www.techmeme.com/260725/p13",
-        "source": "Techmeme",
-        "source_name": "TechURLs"
-      },
-      "sources": [
-        {
-          "story_id": "story_aab61e4384dc",
-          "title": "Sources: OpenAI and Anthropic quietly lobby Washington regulators to restrict open-source AI models, even as Sam Altman publicly says he supports open source AI (New York Times)",
-          "url": "https://www.techmeme.com/260725/p13",
-          "source": "Techmeme",
-          "site_id": "",
-          "official": false
-        }
-      ]
-    },
-    {
-      "story_id": "story_d2607dcdb8fc",
-      "creator_event_id": "creator-5c68c488a255acb4",
-      "merged_story_ids": [
-        "story_d2607dcdb8fc"
-      ],
-      "title": "How to put this🙈ChatGPT Work is available globally for all paid plans across mobile/web/desktop. Probably already on your phone. Puts a jetpack on your ChatGPT",
-      "url": "https://x.com/thsottiaux/status/2080876712439747052",
-      "primary_url": "https://x.com/thsottiaux/status/2080876712439747052",
+      "title": "在手机上使用时堪称颠覆性。已在ChatGPT应用中可用。 https://t.co/egAqFVhzsQ / Game changer when used from mobile. Available in the ChatGPT app already. https://t.co/egAqFVhzsQ",
+      "url": "https://x.com/thsottiaux/status/2081229262452097169",
+      "primary_url": "https://x.com/thsottiaux/status/2081229262452097169",
       "source": "Follow Builders · X · Thibault Sottiaux",
       "source_name": "Follow Builders",
       "source_count": 1,
       "source_names": [
         "Follow Builders · X · Thibault Sottiaux"
       ],
-      "score": 0.6022,
-      "importance": 0.6022,
-      "importance_score": 0.6022,
+      "score": 0.6287,
+      "importance": 0.6287,
+      "importance_score": 0.6287,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.5832,
         "source_tier": 0.62,
         "ai_relevance": 0.81,
-        "recency": 0.7155,
+        "recency": 0.8628,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "high_ai_relevance"
       ],
-      "earliest_at": "2026-07-25T04:44:03Z",
-      "latest_at": "2026-07-25T04:44:03Z",
-      "creator_score": 62.7,
+      "earliest_at": "2026-07-26T04:04:58Z",
+      "latest_at": "2026-07-26T04:04:58Z",
+      "creator_score": 69.2,
       "creator_breakdown": {
         "relevance": 0.68,
-        "freshness": 0.5673,
+        "freshness": 0.8912,
         "source": 0.56,
         "impact": 0.63,
         "novelty": 0.85,
-        "heat": 0.3608
+        "heat": 0.37
       },
       "creator_bucket": "general_ai",
       "primary_entity": "openai",
@@ -1237,20 +1114,22 @@
         "workflow_impact"
       ],
       "primary_item": {
-        "id": "c9cacf92b578d06f36e6e0b0d891c2491f7fca7c",
-        "title": "How to put this🙈ChatGPT Work is available globally for all paid plans across mobile/web/desktop. Probably already on your phone. Puts a jetpack on your ChatGPT",
-        "title_en": "How to put this🙈ChatGPT Work is available globally for all paid plans across mobile/web/desktop. Probably already on your phone. Puts a jetpack on your ChatGPT",
-        "title_original": "How to put this🙈ChatGPT Work is available globally for all paid plans across mobile/web/desktop. Probably already on your phone. Puts a jetpack on your ChatGPT",
-        "recommend_reason_zh": "ChatGPT Work已面向所有付费计划全球上线，覆盖移动端/网页/桌面端，官方称其相当于给ChatGPT加装“喷气背包”，大幅提升效率。",
-        "url": "https://x.com/thsottiaux/status/2080876712439747052",
+        "id": "16a60b75f5bb7c333488bb5794d8cc7d8b643036",
+        "title": "在手机上使用时堪称颠覆性。已在ChatGPT应用中可用。 https://t.co/egAqFVhzsQ / Game changer when used from mobile. Available in the ChatGPT app already. https://t.co/egAqFVhzsQ",
+        "title_zh": "在手机上使用时堪称颠覆性。已在ChatGPT应用中可用。 https://t.co/egAqFVhzsQ",
+        "title_en": "Game changer when used from mobile. Available in the ChatGPT app already. https://t.co/egAqFVhzsQ",
+        "title_original": "Game changer when used from mobile. Available in the ChatGPT app already. https://t.co/egAqFVhzsQ",
+        "summary": "Game changer when used from mobile. Available in the ChatGPT app already.\nGame changer when used from mobile. Available in the ChatGPT app already.\nGame changer when used from mobile. Available in the ChatGPT app already.\nSign up now to get your own personalized timeline!\nBy signing up, you agree to the Terms of Service and Privacy Policy , including Cookie Use.",
+        "recommend_reason_zh": "这篇内容指出ChatGPT的移动端体验将带来颠覆性改变，且该功能已在ChatGPT app中上线，值得立即尝试。",
+        "url": "https://x.com/thsottiaux/status/2081229262452097169",
         "source": "Follow Builders · X · Thibault Sottiaux",
         "source_name": "Follow Builders"
       },
       "sources": [
         {
-          "story_id": "story_d2607dcdb8fc",
-          "title": "How to put this🙈ChatGPT Work is available globally for all paid plans across mobile/web/desktop. Probably already on your phone. Puts a jetpack on your ChatGPT",
-          "url": "https://x.com/thsottiaux/status/2080876712439747052",
+          "story_id": "story_66de83077926",
+          "title": "在手机上使用时堪称颠覆性。已在ChatGPT应用中可用。 https://t.co/egAqFVhzsQ / Game changer when used from mobile. Available in the ChatGPT app already. https://t.co/egAqFVhzsQ",
+          "url": "https://x.com/thsottiaux/status/2081229262452097169",
           "source": "Follow Builders · X · Thibault Sottiaux",
           "site_id": "",
           "official": false
@@ -1258,45 +1137,45 @@
       ]
     },
     {
-      "story_id": "story_38da8f88e180",
-      "creator_event_id": "creator-9c3ec40cf7184237",
+      "story_id": "story_bf23cd93882f",
+      "creator_event_id": "creator-8e11c0939bbd3c72",
       "merged_story_ids": [
-        "story_38da8f88e180"
+        "story_bf23cd93882f"
       ],
-      "title": "Opus 5 可能已解决浏览器提示注入问题，这一困扰 AI Agent 的最大安全漏洞 / Opus 5 may have solved browser-based prompt injection, the biggest security flaw haunting AI agents",
-      "url": "https://the-decoder.com/opus-5-may-have-solved-browser-based-prompt-injection-the-biggest-security-flaw-haunting-ai-agents",
-      "primary_url": "https://the-decoder.com/opus-5-may-have-solved-browser-based-prompt-injection-the-biggest-security-flaw-haunting-ai-agents",
+      "title": "Anthropic的Opus 5在衡量真实智能的基准测试中碾压Fable 5和GPT-5.6 Sol / Anthropic's Opus 5 blows past Fable 5 and GPT-5.6 Sol on the benchmark designed to measure real intelligence",
+      "url": "https://the-decoder.com/anthropics-opus-5-blows-past-fable-5-and-gpt-5-6-sol-on-the-benchmark-designed-to-measure-real-intelligence",
+      "primary_url": "https://the-decoder.com/anthropics-opus-5-blows-past-fable-5-and-gpt-5-6-sol-on-the-benchmark-designed-to-measure-real-intelligence",
       "source": "The Decoder AI News",
       "source_name": "Curated Media",
       "source_count": 1,
       "source_names": [
         "The Decoder AI News"
       ],
-      "score": 0.5967,
-      "importance": 0.5967,
-      "importance_score": 0.5967,
+      "score": 0.6455,
+      "importance": 0.6455,
+      "importance_score": 0.6455,
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.5688,
+        "editorial": 0.6048,
         "source_tier": 0.58,
-        "ai_relevance": 0.79,
-        "recency": 0.7802,
+        "ai_relevance": 0.84,
+        "recency": 0.9359,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
-        "recent_ai_signal"
+        "high_ai_relevance"
       ],
-      "earliest_at": "2026-07-25T10:43:36Z",
-      "latest_at": "2026-07-25T10:43:36Z",
-      "creator_score": 62.4,
+      "earliest_at": "2026-07-26T09:43:02Z",
+      "latest_at": "2026-07-26T09:43:02Z",
+      "creator_score": 68.1,
       "creator_breakdown": {
         "relevance": 0.68,
-        "freshness": 0.7171,
+        "freshness": 1.0,
         "source": 0.78,
         "impact": 0.25,
         "novelty": 0.65,
-        "heat": 0.3588
+        "heat": 0.3759
       },
       "creator_bucket": "general_ai",
       "primary_entity": "anthropic",
@@ -1305,21 +1184,22 @@
         "entity:anthropic"
       ],
       "primary_item": {
-        "id": "a7b498248fade2e8a2181f026ebb029f70058dbb",
-        "title": "Opus 5 可能已解决浏览器提示注入问题，这一困扰 AI Agent 的最大安全漏洞 / Opus 5 may have solved browser-based prompt injection, the biggest security flaw haunting AI agents",
-        "title_zh": "Opus 5 可能已解决浏览器提示注入问题，这一困扰 AI Agent 的最大安全漏洞",
-        "title_en": "Opus 5 may have solved browser-based prompt injection, the biggest security flaw haunting AI agents",
-        "title_original": "Opus 5 may have solved browser-based prompt injection, the biggest security flaw haunting AI agents",
-        "recommend_reason_zh": "Anthropic的Opus 5结合Auto Mode在129个测试场景中实现浏览器代理的提示注入成功率降至0%，而未经保护时为3.7%，可能攻克了AI代理最大的安全漏洞。",
-        "url": "https://the-decoder.com/opus-5-may-have-solved-browser-based-prompt-injection-the-biggest-security-flaw-haunting-ai-agents",
+        "id": "8c68e79c8ae4bb970b387a5627687da79e6179a5",
+        "title": "Anthropic的Opus 5在衡量真实智能的基准测试中碾压Fable 5和GPT-5.6 Sol / Anthropic's Opus 5 blows past Fable 5 and GPT-5.6 Sol on the benchmark designed to measure real intelligence",
+        "title_zh": "Anthropic的Opus 5在衡量真实智能的基准测试中碾压Fable 5和GPT-5.6 Sol",
+        "title_en": "Anthropic's Opus 5 blows past Fable 5 and GPT-5.6 Sol on the benchmark designed to measure real intelligence",
+        "title_original": "Anthropic's Opus 5 blows past Fable 5 and GPT-5.6 Sol on the benchmark designed to measure real intelligence",
+        "summary": "Anthropic's Claude Opus 5 scored 30.2 percent on ARC-AGI-3, nearly quadrupling GPT-5.6 Sol's previous record of 7.8 percent. The benchmark's developers say the model independently formulated reflection equations, a behavior they had never seen from another model, and attribute to stronger logical reasoning.\nAnthropic's Claude Opus 5 scored 30.2 percent on ARC-AGI-3, nearly quadrupling GPT-5.6 Sol's previous record of 7.8 percent. The benchmark's developers say the model independently formulated ",
+        "recommend_reason_zh": "Anthropic的Claude Opus 5在ARC-AGI-3上得30.2%，几乎是GPT-5.6 Sol记录7.8%的四倍，并首次独立制定反射方程，展现更强逻辑推理与自主探索能力。",
+        "url": "https://the-decoder.com/anthropics-opus-5-blows-past-fable-5-and-gpt-5-6-sol-on-the-benchmark-designed-to-measure-real-intelligence",
         "source": "The Decoder AI News",
         "source_name": "Curated Media"
       },
       "sources": [
         {
-          "story_id": "story_38da8f88e180",
-          "title": "Opus 5 可能已解决浏览器提示注入问题，这一困扰 AI Agent 的最大安全漏洞 / Opus 5 may have solved browser-based prompt injection, the biggest security flaw haunting AI agents",
-          "url": "https://the-decoder.com/opus-5-may-have-solved-browser-based-prompt-injection-the-biggest-security-flaw-haunting-ai-agents",
+          "story_id": "story_bf23cd93882f",
+          "title": "Anthropic的Opus 5在衡量真实智能的基准测试中碾压Fable 5和GPT-5.6 Sol / Anthropic's Opus 5 blows past Fable 5 and GPT-5.6 Sol on the benchmark designed to measure real intelligence",
+          "url": "https://the-decoder.com/anthropics-opus-5-blows-past-fable-5-and-gpt-5-6-sol-on-the-benchmark-designed-to-measure-real-intelligence",
           "source": "The Decoder AI News",
           "site_id": "",
           "official": false
@@ -1327,45 +1207,115 @@
       ]
     },
     {
-      "story_id": "story_44afd589a9b9",
-      "creator_event_id": "creator-d0c546ff872a5000",
+      "story_id": "story_c4e4ebb62452",
+      "creator_event_id": "creator-97430378c0ea69cd",
       "merged_story_ids": [
-        "story_44afd589a9b9"
+        "story_c4e4ebb62452"
       ],
-      "title": "Claude 5 generation models的上下文工程新规则 / The new rules of context engineering for Claude 5 generation models",
-      "url": "https://news.ycombinator.com/item?id=49051361",
-      "primary_url": "https://news.ycombinator.com/item?id=49051361",
-      "source": "hackernews",
-      "source_name": "NewsNow",
+      "title": "Induction Labs Photon-1 仅通过一次预训练就能模拟桌面、下跳棋和建模台球物理 / Induction Labs Photon-1 Simulates Desktops, Plays Checkers, and Models Billiard Physics From One Pretraining Run",
+      "url": "https://www.marktechpost.com/2026/07/26/induction-labs-photon-1-simulates-desktops-plays-checkers-and-models-billiard-physics-from-one-pretraining-run",
+      "primary_url": "https://www.marktechpost.com/2026/07/26/induction-labs-photon-1-simulates-desktops-plays-checkers-and-models-billiard-physics-from-one-pretraining-run",
+      "source": "MarkTechPost Research",
+      "source_name": "Curated Media",
       "source_count": 1,
       "source_names": [
-        "hackernews"
+        "MarkTechPost Research"
       ],
-      "score": 0.52,
-      "importance": 0.52,
-      "importance_score": 0.52,
+      "score": 0.5778,
+      "importance": 0.5778,
+      "importance_score": 0.5778,
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9956,
+        "editorial": 0.4896,
+        "source_tier": 0.58,
+        "ai_relevance": 0.68,
+        "recency": 0.9295,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-07-26T03:36:38.722000Z",
-      "latest_at": "2026-07-26T03:36:38.722000Z",
-      "creator_score": 62.3,
+      "earliest_at": "2026-07-26T09:14:22Z",
+      "latest_at": "2026-07-26T09:14:22Z",
+      "creator_score": 68.0,
       "creator_breakdown": {
         "relevance": 0.68,
         "freshness": 1.0,
-        "source": 0.5,
+        "source": 0.78,
         "impact": 0.25,
         "novelty": 0.65,
-        "heat": 0.332
+        "heat": 0.3522
+      },
+      "creator_bucket": "general_ai",
+      "primary_entity": "gemini",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "entity:gemini"
+      ],
+      "primary_item": {
+        "id": "46154a8c6ebf0bc940c4fe55f25901b3a02a9350",
+        "title": "Induction Labs Photon-1 仅通过一次预训练就能模拟桌面、下跳棋和建模台球物理 / Induction Labs Photon-1 Simulates Desktops, Plays Checkers, and Models Billiard Physics From One Pretraining Run",
+        "title_zh": "Induction Labs Photon-1 仅通过一次预训练就能模拟桌面、下跳棋和建模台球物理",
+        "title_en": "Induction Labs Photon-1 Simulates Desktops, Plays Checkers, and Models Billiard Physics From One Pretraining Run",
+        "title_original": "Induction Labs Photon-1 Simulates Desktops, Plays Checkers, and Models Billiard Physics From One Pretraining Run",
+        "summary": "Induction Labs introduces imagination models and Photon-1, a 106B MoE trained on 18 years of unlabeled screen recordings\nInduction Labs introduces imagination models and Photon-1, a 106B MoE trained on 18 years of unlabeled screen recordings\nMost agents that learn from video need to know what action produced each frame. Induction Labs is arguing that this requirement is the bottleneck. Last week, they released imagination models , a foundation model architecture that pretrains on raw video with ",
+        "recommend_reason_zh": "Induction Labs的Photon-1是一个106B参数的MoE模型，仅凭18年未标记屏幕录制预训练（575百万帧，1fps），无需动作标签就能模拟桌面、下棋和台球物理，且推理成本比Gemini 3.1 Flash-Lite低约3倍。",
+        "url": "https://www.marktechpost.com/2026/07/26/induction-labs-photon-1-simulates-desktops-plays-checkers-and-models-billiard-physics-from-one-pretraining-run",
+        "source": "MarkTechPost Research",
+        "source_name": "Curated Media"
+      },
+      "sources": [
+        {
+          "story_id": "story_c4e4ebb62452",
+          "title": "Induction Labs Photon-1 仅通过一次预训练就能模拟桌面、下跳棋和建模台球物理 / Induction Labs Photon-1 Simulates Desktops, Plays Checkers, and Models Billiard Physics From One Pretraining Run",
+          "url": "https://www.marktechpost.com/2026/07/26/induction-labs-photon-1-simulates-desktops-plays-checkers-and-models-billiard-physics-from-one-pretraining-run",
+          "source": "MarkTechPost Research",
+          "site_id": "",
+          "official": false
+        }
+      ]
+    },
+    {
+      "story_id": "story_b06a781a5e94",
+      "creator_event_id": "creator-3b906c4044115a8b",
+      "merged_story_ids": [
+        "story_b06a781a5e94"
+      ],
+      "title": "US reportedly favors selective bans over blanket restrictions on Chinese open weight models citing security concerns",
+      "url": "https://the-decoder.com/us-reportedly-favors-selective-bans-over-blanket-restrictions-on-chinese-open-weight-models-citing-security-concerns",
+      "primary_url": "https://the-decoder.com/us-reportedly-favors-selective-bans-over-blanket-restrictions-on-chinese-open-weight-models-citing-security-concerns",
+      "source": "The Decoder AI News",
+      "source_name": "Curated Media",
+      "source_count": 1,
+      "source_names": [
+        "The Decoder AI News"
+      ],
+      "score": 0.608,
+      "importance": 0.608,
+      "importance_score": 0.608,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5472,
+        "source_tier": 0.58,
+        "ai_relevance": 0.76,
+        "recency": 0.9122,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-26T07:56:24Z",
+      "latest_at": "2026-07-26T07:56:24Z",
+      "creator_score": 67.8,
+      "creator_breakdown": {
+        "relevance": 0.68,
+        "freshness": 0.9876,
+        "source": 0.78,
+        "impact": 0.25,
+        "novelty": 0.65,
+        "heat": 0.3628
       },
       "creator_bucket": "general_ai",
       "primary_entity": "anthropic",
@@ -1374,23 +1324,91 @@
         "entity:anthropic"
       ],
       "primary_item": {
-        "id": "b27cf50203d00f94165e44664ab63b7e378aecbc",
-        "title": "Claude 5 generation models的上下文工程新规则 / The new rules of context engineering for Claude 5 generation models",
-        "title_zh": "Claude 5 generation models的上下文工程新规则",
-        "title_en": "The new rules of context engineering for Claude 5 generation models",
-        "title_original": "The new rules of context engineering for Claude 5 generation models",
-        "summary": "reply\nreply\nreply\nIt was rewarded for this during training for some reason. Alternative theory: The LLMs only way to \"think\" about abstract concepts is through language, and this leaks into into conversation it has with humans. But humans generally prefer to communicate on low levels of abstraction, through a back and forth, until the hard-to-express higher abstraction exists in the head of everyone involved - without ever being directly communicated. This is because we don't think using languag",
-        "recommend_reason_zh": "文章探讨Claude 5代模型的上下文工程新规则，指出LLM只能通过语言“思考”抽象概念，而人类通过低抽象层次交流，语言只是思维的有损翻译，导致与LLM沟通痛苦。",
-        "url": "https://news.ycombinator.com/item?id=49051361",
-        "source": "hackernews",
-        "source_name": "NewsNow"
+        "id": "40cd1b3830cf74aed87cdfb8823ba7e07c4990b1",
+        "title": "US reportedly favors selective bans over blanket restrictions on Chinese open weight models citing security concerns",
+        "title_en": "US reportedly favors selective bans over blanket restrictions on Chinese open weight models citing security concerns",
+        "title_original": "US reportedly favors selective bans over blanket restrictions on Chinese open weight models citing security concerns",
+        "summary": "The Trump administration is planning targeted bans on Chinese AI models rather than a blanket ban. After public pressure, OpenAI and Google DeepMind signed an open letter opposing regulation of open-weight models, yet OpenAI and Anthropic continue to lobby privately for those same restrictions amid security concerns and powerful business interests.\nThe Trump administration is planning targeted bans on Chinese AI models rather than a blanket ban. After public pressure, OpenAI and Google DeepMind ",
+        "recommend_reason_zh": "特朗普政府计划对中国AI模型实施针对性禁令而非全面封锁，尽管OpenAI和Google DeepMind签署公开信反对监管，但OpenAI和Anthropic私下仍在游说限制中国模型，如Kimi K3在网络安全基准上仍落后西方。",
+        "url": "https://the-decoder.com/us-reportedly-favors-selective-bans-over-blanket-restrictions-on-chinese-open-weight-models-citing-security-concerns",
+        "source": "The Decoder AI News",
+        "source_name": "Curated Media"
       },
       "sources": [
         {
-          "story_id": "story_44afd589a9b9",
-          "title": "Claude 5 generation models的上下文工程新规则 / The new rules of context engineering for Claude 5 generation models",
-          "url": "https://news.ycombinator.com/item?id=49051361",
-          "source": "hackernews",
+          "story_id": "story_b06a781a5e94",
+          "title": "US reportedly favors selective bans over blanket restrictions on Chinese open weight models citing security concerns",
+          "url": "https://the-decoder.com/us-reportedly-favors-selective-bans-over-blanket-restrictions-on-chinese-open-weight-models-citing-security-concerns",
+          "source": "The Decoder AI News",
+          "site_id": "",
+          "official": false
+        }
+      ]
+    },
+    {
+      "story_id": "story_caee25d372a6",
+      "creator_event_id": "creator-8810d89cc3906fad",
+      "merged_story_ids": [
+        "story_caee25d372a6"
+      ],
+      "title": "KwaiKAT团队发布KAT-Coder-V2.5：基于10万+可验证仓库环境训练的智能体编码模型 / KwaiKAT Team Releases KAT-Coder-V2.5: An Agentic Coding Model Trained on 100,000+ Verifiable Repository Environments",
+      "url": "https://www.marktechpost.com/2026/07/26/kwaikat-team-releases-kat-coder-v2-5-an-agentic-coding-model-trained-on-100000-verifiable-repository-environments",
+      "primary_url": "https://www.marktechpost.com/2026/07/26/kwaikat-team-releases-kat-coder-v2-5-an-agentic-coding-model-trained-on-100000-verifiable-repository-environments",
+      "source": "MarkTechPost Research",
+      "source_name": "Curated Media",
+      "source_count": 1,
+      "source_names": [
+        "MarkTechPost Research"
+      ],
+      "score": 0.5815,
+      "importance": 0.5815,
+      "importance_score": 0.5815,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.4896,
+        "source_tier": 0.58,
+        "ai_relevance": 0.68,
+        "recency": 0.9502,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-26T10:46:19Z",
+      "latest_at": "2026-07-26T10:46:19Z",
+      "creator_score": 66.4,
+      "creator_breakdown": {
+        "relevance": 0.4035,
+        "freshness": 1.0,
+        "source": 0.78,
+        "impact": 0.63,
+        "novelty": 0.75,
+        "heat": 0.3535
+      },
+      "creator_bucket": "general_ai",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "workflow_impact"
+      ],
+      "primary_item": {
+        "id": "44f8fdd6138805b0a6b98021a2dc7a569d807694",
+        "title": "KwaiKAT团队发布KAT-Coder-V2.5：基于10万+可验证仓库环境训练的智能体编码模型 / KwaiKAT Team Releases KAT-Coder-V2.5: An Agentic Coding Model Trained on 100,000+ Verifiable Repository Environments",
+        "title_zh": "KwaiKAT团队发布KAT-Coder-V2.5：基于10万+可验证仓库环境训练的智能体编码模型",
+        "title_en": "KwaiKAT Team Releases KAT-Coder-V2.5: An Agentic Coding Model Trained on 100,000+ Verifiable Repository Environments",
+        "title_original": "KwaiKAT Team Releases KAT-Coder-V2.5: An Agentic Coding Model Trained on 100,000+ Verifiable Repository Environments",
+        "summary": "KwaiKAT releases KAT-Coder-V2.5, an agentic coding model built on 100,000+ verifiable repository environments, and tops PinchBench with 94.9\nKwaiKAT releases KAT-Coder-V2.5, an agentic coding model built on 100,000+ verifiable repository environments, and tops PinchBench with 94.9\nThe KwaiKAT Team at Kuaishou has introduced the KAT-Coder-V2.5 . It is a coding model trained to operate inside real, executable repositories rather than emit single-turn code. The served model is available through Str",
+        "recommend_reason_zh": "KwaiKAT团队发布KAT-Coder-V2.5，基于10万+可验证仓库环境训练，在PinchBench上获94.9分，并将环境构建成功率从16.5%提升至57.2%，展现了真实的编码智能。",
+        "url": "https://www.marktechpost.com/2026/07/26/kwaikat-team-releases-kat-coder-v2-5-an-agentic-coding-model-trained-on-100000-verifiable-repository-environments",
+        "source": "MarkTechPost Research",
+        "source_name": "Curated Media"
+      },
+      "sources": [
+        {
+          "story_id": "story_caee25d372a6",
+          "title": "KwaiKAT团队发布KAT-Coder-V2.5：基于10万+可验证仓库环境训练的智能体编码模型 / KwaiKAT Team Releases KAT-Coder-V2.5: An Agentic Coding Model Trained on 100,000+ Verifiable Repository Environments",
+          "url": "https://www.marktechpost.com/2026/07/26/kwaikat-team-releases-kat-coder-v2-5-an-agentic-coding-model-trained-on-100000-verifiable-repository-environments",
+          "source": "MarkTechPost Research",
           "site_id": "",
           "official": false
         }

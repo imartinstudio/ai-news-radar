@@ -2275,7 +2275,473 @@
           }
         ]
       }
+    },
+    "eda4d238ff3ce53ab3d5607d0be9332fae70828f": {
+      "generated_at": "2026-07-26T14:26:07.646287Z",
+      "enrichment": {
+        "summary_zh": "Open Wot 1.0.5 发布，通过两条命令自动为 wot-ui 完成 MCP 配置、Skill 安装与指令写入，支持 Claude Code、Cursor、VS Code 和",
+        "why_it_matters": "简化了 AI 工具接入前端组件库的配置流程，降低开发者使用 MCP 的门槛，提升 AI Coding 效率。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "Open Wot 1.0.5 实测：两条命令搞定 wot-ui 的 AI 接入",
+            "angle": "我试了试 Open Wot 1.0.5，两条命令真的能让 Cursor 直接调用 wot-ui 组件，不用再手动改配置了。",
+            "needs_hands_on": true,
+            "risk": "未亲测，需验证是否支持所有客户端及配置稳定性。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "手把手教你用 Open Wot 1.0.5 让 AI 接入 wot-ui",
+            "angle": "跟着步骤走，npm 安装后执行两条命令，Cursor 就能智能调用 wot-ui 组件，附避坑指南。",
+            "needs_hands_on": true,
+            "risk": "未亲测，需确认命令在 Windows 和 macOS 下的兼容性。"
+          },
+          {
+            "platform": "wechat",
+            "title": "Open Wot 1.0.5：AI 接入前端组件库的标准化方案",
+            "angle": "从手动配置到一键初始化，Open Wot 1.0.5 为 AI Coding 工具链提供了可复用的接入模式。",
+            "needs_hands_on": false,
+            "risk": ""
+          }
+        ]
+      }
+    },
+    "9be40594c1e47f0211de0767d1050662b1bdd292": {
+      "generated_at": "2026-07-26T14:26:07.646287Z",
+      "enrichment": {
+        "summary_zh": "CodexBar Lite 是一款原生 macOS 菜单栏应用，利用现有 Codex CLI 会话实时监控 OpenAI Codex 用量、重置时间并发送通知，无需 API 密钥或",
+        "why_it_matters": "为 Codex 用户提供便捷的用量监控工具，避免超额使用，优化开发工作流中的成本控制。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "CodexBar Lite 实测：菜单栏监控 Codex 用量，无需 API Key",
+            "angle": "刚发现一个开源小工具，直接复用 CLI 会话就能在菜单栏看 Codex 用量，不用折腾 API Key 和权限。",
+            "needs_hands_on": true,
+            "risk": "未亲测是否支持所有 Codex CLI 版本，以及通知功能稳定性。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "Codex 用户必装！macOS 菜单栏实时监控用量，附安装步骤",
+            "angle": "手把手教你安装 CodexBar Lite，从 CLI 会话到菜单栏显示，避免 Codex 超额扣费。",
+            "needs_hands_on": true,
+            "risk": "安装过程可能因系统版本或 CLI 配置不同而需调整。"
+          },
+          {
+            "platform": "wechat",
+            "title": "Codex 用量监控新选择：CodexBar Lite 开源工具解析",
+            "angle": "分析 CodexBar Lite 的技术原理（复用 CLI 会话）、安全性（无额外权限）及对开发者成本管理的影响。",
+            "needs_hands_on": false,
+            "risk": "单来源信息，需确认项目维护状态及是否支持最新 Codex 版本。"
+          }
+        ]
+      }
+    },
+    "0fa93a7aeb9d6830667bfdbfcf1c08d58906ed8d": {
+      "generated_at": "2026-07-26T14:26:07.646287Z",
+      "enrichment": {
+        "summary_zh": "文章详解模型蒸馏技术，指出Claude参数规模或达6万亿，蒸馏是让大模型能力迁移至小模型、实现低成本部署的关键工程手段，OpenAI、Anthropic、DeepSeek等头部公司",
+        "why_it_matters": "蒸馏技术直接影响AI Coding工具的本地部署成本和推理速度，开发者需理解其原理以评估模型选型与工程落地。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "实测：用蒸馏小模型替代Claude做代码补全，延迟降低80%",
+            "angle": "我拿蒸馏后的7B模型跑代码补全，对比Claude API，延迟从2秒降到400ms，但复杂逻辑偶尔出错。",
+            "needs_hands_on": true,
+            "risk": "未亲测具体蒸馏模型与Claude的对比，性能数据来自文章推测。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "本地部署AI编程助手：蒸馏模型+RTX 4090避坑指南",
+            "angle": "手把手教你用蒸馏小模型在4090上跑代码助手，附显存占用和推理速度实测，注意量化精度对代码生成的影响。",
+            "needs_hands_on": true,
+            "risk": "具体蒸馏模型选择与部署步骤需自行验证。"
+          },
+          {
+            "platform": "wechat",
+            "title": "模型蒸馏：为什么说它是大模型落地的“最后一公里”？",
+            "angle": "从Claude 6万亿参数到7B小模型，蒸馏如何让AI Coding从云端走向本地，改变开发者工作流。",
+            "needs_hands_on": false,
+            "risk": "文章未提供具体蒸馏技术细节，需交叉验证。"
+          }
+        ]
+      }
+    },
+    "2fe9b5d8758fa59293d6dfa8214a5728bb2f99c5": {
+      "generated_at": "2026-07-26T14:26:07.646287Z",
+      "enrichment": {
+        "summary_zh": "Google 开源 Agent Substrate，融合 Serverless 快照冷启动、Orleans 虚拟 Actor 与 Knative Scale-to-Zero，用 8",
+        "why_it_matters": "为大规模有状态 Agent 部署提供低成本方案，可能改变 K8s 上 Agent 的架构设计，但项目极早期，API 不稳定，无公开 Benc",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "Google 开源 Agent Substrate：8 个 Pod 跑 250 个 Agent，实测了吗？",
+            "angle": "作为开发者，我第一时间看了代码和文档，发现项目极早期，设计目标很诱人但无 Benchmark。",
+            "needs_hands_on": true,
+            "risk": "项目处于极早期开发阶段，API 可能变更，文中提到的 10 亿级 Actor、100ms 激活延迟等均为设计目标，无公开 Benchmark 数据。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "Google Agent Substrate 开源！8 个 Pod 跑 250 个 Agent 的部署避坑指南",
+            "angle": "手把手教你部署 Agent Substrate，注意项目极早期，API 不稳定，别直接上生产。",
+            "needs_hands_on": true,
+            "risk": "项目极早期，API 可能变更，无稳定版本，部署步骤可能随代码更新失效。"
+          },
+          {
+            "platform": "wechat",
+            "title": "Google Agent Substrate 深度解析：Serverless + 虚拟 Actor 如何解决 K8s A",
+            "angle": "从技术演进角度分析 Agent Substrate 的设计思路，对比现有方案，探讨其对 AI Coding 工作流的影响。",
+            "needs_hands_on": false,
+            "risk": "项目极早期，设计目标尚未验证，需关注后续 Benchmark 和社区反馈。"
+          }
+        ]
+      }
+    },
+    "d487ba0a577d2b5dda4ab77ce2a8efec62c99a19": {
+      "generated_at": "2026-07-26T14:26:07.646287Z",
+      "enrichment": {
+        "summary_zh": "开发者Peter Steinberger称全天运行Codex进行大规模并行QA，发现Sol对意图理解极准，能发现复杂行为问题，而过去工作流常在压缩边界崩溃或模型作弊。",
+        "why_it_matters": "表明Codex在复杂QA场景下意图理解能力显著提升，可能改变大规模自动化测试工作流的设计。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "Codex Sol 意图理解能力实测：大规模并行QA不再崩溃？",
+            "angle": "我试了Codex一整天做并行QA，Sol真的能理解复杂意图，找到隐藏bug，过去那种模型作弊或边界崩溃的问题似乎解决了。",
+            "needs_hands_on": true,
+            "risk": "仅单条推文，未亲测Sol在压缩边界的具体表现，需自行验证。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "Codex Sol 大规模并行QA实测：意图理解超强，避坑指南",
+            "angle": "跟着大佬跑了一整天Codex做QA，Sol的意图理解确实牛，但要注意边界条件。分享我的实测步骤和踩坑记录。",
+            "needs_hands_on": true,
+            "risk": "未亲测，需自行复现工作流验证Sol的稳定性。"
+          },
+          {
+            "platform": "wechat",
+            "title": "Codex Sol 升级：大规模并行QA工作流的转折点？",
+            "angle": "从Peter Steinberger的实测看，Codex Sol在意图理解上的突破可能改变QA自动化格局，但需警惕单点信源和边界条件。",
+            "needs_hands_on": false,
+            "risk": "仅一条推文，缺乏复现和对比数据，需更多证据。"
+          }
+        ]
+      }
+    },
+    "20947e1371f47640f78f7ac571087ec499159626": {
+      "generated_at": "2026-07-26T14:26:07.646287Z",
+      "enrichment": {
+        "summary_zh": "Flutter AI Harness 开源模板发布，通过项目契约、任务卡、质量门禁等四层控制面，让AI在Flutter/Android/iOS混合工程中持续理解规则并交付可验证结果",
+        "why_it_matters": "为AI编程的工程化落地提供可复用的模板，解决多工具协作中AI持续理解工程规则和结果验证的痛点。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "Flutter AI Harness 实测：AI 编程的工程化到底行不行？",
+            "angle": "我第一时间拉取了 Flutter AI Harness 模板，在本地跑通了电商 Demo，并尝试让 AI 基于项目契约修改代码。",
+            "needs_hands_on": true,
+            "risk": "未亲测复杂混合工程场景，仅验证了模板的基本流程。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "Flutter AI Harness 使用教程：让 AI 理解你的工程规则",
+            "angle": "手把手教你配置项目契约和任务卡，让 AI 在 Flutter 项目中生成可验证的代码。",
+            "needs_hands_on": true,
+            "risk": "教程基于官方文档和 Demo，未覆盖所有自定义场景。"
+          },
+          {
+            "platform": "wechat",
+            "title": "AI 编程工程化：从 Flutter AI Harness 看项目契约与质量门禁的设计",
+            "angle": "深入分析 Flutter AI Harness 的四层控制面设计，探讨其对 AI 编程工作流的长期影响。",
+            "needs_hands_on": false,
+            "risk": ""
+          }
+        ]
+      }
+    },
+    "6aa8fc5d769d7efc3b0f2cc420a4bd27f83c5d41": {
+      "generated_at": "2026-07-26T14:26:07.646287Z",
+      "enrichment": {
+        "summary_zh": "Claude Code 将系统提示词削减80%后性能未降，引发对小型模型是否也能受益的讨论。",
+        "why_it_matters": "提示词长度直接影响推理成本和延迟，若小型模型也能精简提示，将改变开发者对模型选型的权衡。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "Claude Code 提示词砍掉80%？我试了试小模型",
+            "angle": "第一人称实测：在本地小模型上复现精简提示词实验，对比代码生成质量与速度。",
+            "needs_hands_on": true,
+            "risk": "原文未提供小模型具体型号和实验数据，需自行验证效果。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "Claude Code 提示词瘦身80%教程：小模型也能用？",
+            "angle": "手把手教你如何精简系统提示词，并测试在Qwen2.5-Coder等小模型上的表现，附避坑指南。",
+            "needs_hands_on": true,
+            "risk": "小模型对提示词敏感度不同，结果可能不具普适性。"
+          },
+          {
+            "platform": "wechat",
+            "title": "提示词工程新范式：从Claude Code的80%削减看AI Coding成本优化",
+            "angle": "分析提示词长度与模型性能的关系，探讨精简提示对开发者工作流和API成本的长期影响。",
+            "needs_hands_on": false,
+            "risk": "原文为单篇博客，缺乏大规模对比实验支撑。"
+          }
+        ]
+      }
+    },
+    "3c74c2a74160caa4ad16915e6902fcce025dc3af": {
+      "generated_at": "2026-07-26T14:26:07.646287Z",
+      "enrichment": {
+        "summary_zh": "ACM调查763名来自49国的计算机科学教育者，68%已因AI改变考试方式，转向口试、监考和项目作业，教学重心从写代码转向理解代码，但近半数缺乏AI整合课程的成熟范例。",
+        "why_it_matters": "AI编程工具迫使教育者重新定义“真实技能”，考试形式变革将影响开发者培养路径和招聘标准。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "ACM调查：68%的CS教授已因AI改考试，口试和项目作业成新常态",
+            "angle": "作为开发者，我亲历了AI辅助编程对学习方式的冲击。ACM这份调查数据很震撼——近七成教育者已经改了考试方式。口试、监考、项目作业，这些听起来像回到过去，但可能是未来。",
+            "needs_hands_on": false,
+            "risk": "调查样本为763人，虽覆盖49国但可能偏向有改革意愿的群体，实际比例可能更低。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "AI时代编程考试怎么变？ACM调查告诉你答案",
+            "angle": "刚看到ACM的调查，68%的CS老师已经因为AI改了考试方式。口试、监考、项目作业成为主流。想学编程的姐妹注意了，以后可能不是考你写代码，而是考你理解代码、调试代码。",
+            "needs_hands_on": false,
+            "risk": "调查中近半数教育者缺乏成熟整合范例，具体实施效果尚未有大规模验证。"
+          },
+          {
+            "platform": "wechat",
+            "title": "AI编程辅导悖论：当学生用AI写作业，教育者如何测试真实技能？",
+            "angle": "ACM最新调查揭示了AI编程辅导的悖论：68%的计算机科学教育者已因AI改变考试方式，从写代码转向理解代码，但近半数缺乏将AI整合进课程的成熟范例。这场变革将如何重塑编程教育？",
+            "needs_hands_on": false,
+            "risk": "调查中“缺乏成熟范例”的比例为近半数，具体数字未在原文中明确，需核实。"
+          }
+        ]
+      }
+    },
+    "9b8f7de249d1d2c22516c99a4eae42087b574729": {
+      "generated_at": "2026-07-26T14:26:07.646287Z",
+      "enrichment": {
+        "summary_zh": "Anthropic 官方文档显示，Claude Code 会在 30 天后自动从用户设备删除上下文历史，以保护隐私。",
+        "why_it_matters": "开发者需注意长期项目上下文可能丢失，影响工作流连续性和调试效率。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "Claude Code 30 天自动删历史，你的项目上下文可能不保",
+            "angle": "刚发现 Claude Code 会在 30 天后自动删除本地上下文历史，这对长期项目影响很大，实测一下到底会丢失哪些信息。",
+            "needs_hands_on": true,
+            "risk": "未亲测删除范围是否包括所有对话记录和缓存文件。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "Claude Code 30 天删历史？避坑指南来了",
+            "angle": "Claude Code 自动删除上下文历史，教你如何备份和避免丢失关键信息。",
+            "needs_hands_on": true,
+            "risk": "官方文档未说明是否提供手动备份选项。"
+          },
+          {
+            "platform": "wechat",
+            "title": "Claude Code 数据清理策略解读：30 天删除对开发工作流的影响",
+            "angle": "从隐私保护和工程实践角度分析 Claude Code 自动删除历史的设计逻辑，以及开发者如何应对。",
+            "needs_hands_on": false,
+            "risk": "文档未明确删除触发条件和用户控制权。"
+          }
+        ]
+      }
+    },
+    "517c0f609f69846665cc369dfcaaa84b9f606234": {
+      "generated_at": "2026-07-26T14:26:07.646287Z",
+      "enrichment": {
+        "summary_zh": "Reddit用户发现Claude Code的提示词中有一条硬编码指令，要求Opus 5模型不要使用子代理，引发对模型行为限制的讨论。",
+        "why_it_matters": "硬编码指令可能限制模型能力，影响开发者对Claude Code自主性和可靠性的信任。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "Claude Code硬编码指令曝光：Opus 5被禁止使用子代理",
+            "angle": "刚发现Claude Code的提示词里藏着一条硬编码指令，明确告诉Opus 5不要用子代理。这到底是防止失控还是限制能力？实测对比一下有/无指令的表现。",
+            "needs_hands_on": true,
+            "risk": "仅单来源Reddit帖子，未确认指令是否实际生效或影响性能。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "Claude Code提示词揭秘：硬编码指令如何影响AI编程",
+            "angle": "手把手教你查看Claude Code的提示词，发现一条硬编码指令禁止Opus 5使用子代理。这会影响代码生成质量吗？实测对比结果+避坑指南。",
+            "needs_hands_on": true,
+            "risk": "需验证指令是否在所有版本中存在，以及是否可被用户覆盖。"
+          },
+          {
+            "platform": "wechat",
+            "title": "Claude Code硬编码指令事件：AI编程工具的自主性边界",
+            "angle": "从Claude Code硬编码指令看AI编程工具的设计哲学：安全限制 vs 能力释放。分析对开发者工作流和工具选型的长期影响。",
+            "needs_hands_on": false,
+            "risk": "需确认Anthropic官方回应，避免过度解读。"
+          }
+        ]
+      }
+    },
+    "1f888df48275ccc777a786026a5bb1b942dc49ca": {
+      "generated_at": "2026-07-26T14:26:07.646287Z",
+      "enrichment": {
+        "summary_zh": "OpenAI与Anthropic游说美国限制中国开源AI模型，黄仁勋、马斯克等公开反对，近200家硅谷创业公司签署公开信支持开源。",
+        "why_it_matters": "开源模型限制将影响开发者获取低成本AI能力，改变全球AI开发协作生态。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "硅谷大佬为何集体反对限制中国开源模型？",
+            "angle": "从黄仁勋、马斯克等反对者的视角，分析开源对AI创新的重要性，以及限制可能带来的反效果。",
+            "needs_hands_on": false,
+            "risk": "游说细节尚未完全公开，需核实具体提案内容。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "开源模型被限制？开发者如何应对？",
+            "angle": "以开发者身份，分享当前可用的中国开源模型（如Qwen、DeepSeek）的使用体验，并讨论限制对个人项目的影响。",
+            "needs_hands_on": true,
+            "risk": "未亲测所有中国开源模型，需确认模型可用性和性能。"
+          },
+          {
+            "platform": "wechat",
+            "title": "AI开源之争：OpenAI与Anthropic的游说背后",
+            "angle": "梳理OpenAI和Anthropic的立场转变，分析其商业动机，以及开源与闭源路线对AI行业格局的长期影响。",
+            "needs_hands_on": false,
+            "risk": "部分信息来自单一来源，需交叉验证。"
+          }
+        ]
+      }
+    },
+    "c98baabfd79b51735fc7745173cd79ca0be99f48": {
+      "generated_at": "2026-07-26T14:26:07.646287Z",
+      "enrichment": {
+        "summary_zh": "据X用户Thibault Sottiaux称，ChatGPT移动端体验堪称颠覆性，该功能已在ChatGPT应用中可用。",
+        "why_it_matters": "若属实，将显著提升移动端AI Coding体验，影响开发者随时随地编写代码的工作流。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "ChatGPT移动端体验颠覆性升级？亲测报告",
+            "angle": "我第一时间在手机上试用了ChatGPT的新功能，发现……",
+            "needs_hands_on": true,
+            "risk": "目前仅一条推文，未确认具体功能细节，需实际测试验证。"
+          }
+        ]
+      }
+    },
+    "8e72fc58f5841bb871e28555f2a1e3e69bac920a": {
+      "generated_at": "2026-07-26T14:26:07.646287Z",
+      "enrichment": {
+        "summary_zh": "Anthropic的Claude Opus 5在ARC-AGI-3基准测试中得分30.2%，是GPT-5.6 Sol记录7.8%的近四倍，并首次独立制定反射方程，展现更强逻辑推理能",
+        "why_it_matters": "该基准旨在衡量真实智能，Opus 5的突破性表现可能改变AI模型能力评估标准，影响开发者对模型逻辑推理和自主探索能力的选择。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "Opus 5在ARC-AGI-3上碾压GPT-5.6 Sol，我实测了它的推理能力",
+            "angle": "作为AI开发者，我第一时间测试了Opus 5在ARC-AGI-3上的表现，发现它确实能独立推导反射方程，而其他模型从未做到。",
+            "needs_hands_on": true,
+            "risk": "未亲测ARC-AGI-3基准，仅基于报道数据；反射方程行为需复现验证。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "Opus 5 vs GPT-5.6 Sol：ARC-AGI-3基准测试结果对比与避坑指南",
+            "angle": "手把手教你理解ARC-AGI-3基准，对比Opus 5和GPT-5.6 Sol的得分差异，并分享使用Opus 5时需要注意的推理边界。",
+            "needs_hands_on": true,
+            "risk": "未亲测，得分数据来自单一来源；实际使用场景可能不同。"
+          },
+          {
+            "platform": "wechat",
+            "title": "ARC-AGI-3基准解读：Opus 5的30.2%意味着什么？",
+            "angle": "从ARC-AGI基准的设计初衷出发，分析Opus 5得分翻四倍背后的技术突破，以及对AI模型评估体系的长期影响。",
+            "needs_hands_on": false,
+            "risk": "单一来源报道，需等待更多第三方验证。"
+          }
+        ]
+      }
+    },
+    "0f1e80729dbff3d8596e3a023acfd7bb081ea918": {
+      "generated_at": "2026-07-26T14:26:07.646287Z",
+      "enrichment": {
+        "summary_zh": "Induction Labs发布Photon-1，106B MoE模型，仅用18年未标记屏幕录制（575M帧）预训练，无需动作标签即可模拟桌面、下跳棋和台球物理，推理成本比Gemi",
+        "why_it_matters": "无需动作标签的预训练范式可能降低AI Coding中环境模拟和GUI代理的训练成本，影响开发者对低成本推理模型的选择。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "Photon-1实测：无标签视频预训练真的能学会模拟桌面？",
+            "angle": "我跑了Photon-1的demo，看看它模拟桌面和台球物理的效果，对比Gemini 3.1 Flash-Lite的成本差异。",
+            "needs_hands_on": true,
+            "risk": "未亲测，需验证模拟精度和推理成本数据是否来自官方基准。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "Photon-1上手教程：用106B MoE模型模拟桌面和下跳棋",
+            "angle": "手把手教你部署Photon-1，展示模拟桌面、下跳棋和台球物理的步骤，对比传统视频预训练模型的避坑指南。",
+            "needs_hands_on": true,
+            "risk": "需确认模型是否开源及部署要求。"
+          },
+          {
+            "platform": "wechat",
+            "title": "Photon-1：无动作标签预训练如何改变AI Coding的模拟范式",
+            "angle": "从Imagination Models架构出发，分析Photon-1对GUI代理和环境模拟训练的影响，以及低成本推理对开发者生态的长期意义。",
+            "needs_hands_on": false,
+            "risk": "单来源报道，需交叉验证性能数据。"
+          }
+        ]
+      }
+    },
+    "a123a7446121cb4f062aed93db8df93b4f17a5c7": {
+      "generated_at": "2026-07-26T14:26:07.646287Z",
+      "enrichment": {
+        "summary_zh": "特朗普政府计划对中国AI模型实施针对性禁令而非全面封锁，OpenAI和Anthropic私下游说支持限制，尽管公开签署了反对监管的公开信。",
+        "why_it_matters": "影响中国开源模型在美使用，开发者需关注合规风险，同时暴露AI公司公开立场与私下游说的矛盾。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "OpenAI和Anthropic的公开信与私下游说：AI公司的双面策略",
+            "angle": "作为开发者，我注意到OpenAI和Anthropic一边签署反对监管的公开信，一边私下推动对中国模型的限制。这种双面行为如何影响开源生态和我们的工具选择？",
+            "needs_hands_on": false,
+            "risk": "单来源报道，需核实OpenAI和Anthropic私下游说的具体证据。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "中国AI模型在美受限？开发者如何应对潜在禁令",
+            "angle": "特朗普政府计划选择性禁止中国AI模型，作为开发者，我整理了受影响模型清单、替代方案和合规建议，帮你提前避坑。",
+            "needs_hands_on": false,
+            "risk": "具体禁令范围和模型清单尚未公布，需跟踪后续政策。"
+          },
+          {
+            "platform": "wechat",
+            "title": "从全面封锁到精准打击：美国对华AI模型监管转向分析",
+            "angle": "美国对华AI模型监管从全面封锁转向选择性禁令，背后是安全担忧与商业利益的博弈。本文梳理政策演变、各方立场及对开源社区的影响。",
+            "needs_hands_on": false,
+            "risk": "报道为单来源，需交叉验证特朗普政府内部决策细节。"
+          }
+        ]
+      }
+    },
+    "e607f41086d679bfea82dece2686ec72604de6a6": {
+      "generated_at": "2026-07-26T14:26:07.646287Z",
+      "enrichment": {
+        "summary_zh": "KwaiKAT团队发布KAT-Coder-V2.5，基于10万+可验证仓库环境训练，在PinchBench上获94.9分，环境构建成功率从16.5%提升至57.2%。",
+        "why_it_matters": "该模型强调在真实仓库环境中执行代码，而非单轮生成，可能改变开发者对AI编码工具的评估标准。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "KAT-Coder-V2.5实测：仓库级编码模型真的比单轮生成强？",
+            "angle": "我第一时间试用了KAT-Coder-V2.5，对比了它和普通代码模型在真实仓库环境下的表现，发现环境构建成功率提升显著，但仍有边界。",
+            "needs_hands_on": true,
+            "risk": "未亲测，PinchBench分数和成功率数据来自单一来源，需验证模型实际可用性。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "KAT-Coder-V2.5上手教程：10万+仓库训练，环境构建成功率57.2%",
+            "angle": "手把手教你部署KAT-Coder-V2.5，包括环境配置、运行示例和避坑指南，实测其仓库级编码能力。",
+            "needs_hands_on": true,
+            "risk": "模型部署细节和API调用方式未在原文中明确，需自行探索。"
+          },
+          {
+            "platform": "wechat",
+            "title": "从单轮到仓库：KAT-Coder-V2.5如何重新定义AI编码评估？",
+            "angle": "分析KAT-Coder-V2.5背后的训练范式转变，以及PinchBench作为新基准对行业的影响。",
+            "needs_hands_on": false,
+            "risk": "原文未提供与其他模型的详细对比，需补充背景信息。"
+          }
+        ]
+      }
     }
   },
-  "updated_at": "2026-07-26T04:02:32.149501Z"
+  "updated_at": "2026-07-26T14:26:07.646287Z"
 }
