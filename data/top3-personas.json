@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T13:00:05.791784Z",
+  "generated_at": "2026-07-27T23:07:23.519518Z",
   "model": "deepseek-chat",
   "personas": [
     {
@@ -21,62 +21,62 @@
   ],
   "items": [
     {
-      "story_id": "story_b6a9a859e99e",
-      "title": "Claude 会话分享链接被搜索引擎\"误抓\"，大量含私钥与隐私的对话遭公开索引",
-      "url": "https://www.aibase.com/news/29910",
+      "story_id": "story_112bcb1d3a8b",
+      "title": "Kimi K3 开源：2.8T MoE 模型与技术报告 / Releasing the model weights and technical report of Kimi K3. Kimi K3 is our most capable model： a 2…",
+      "url": "https://x.com/Kimi_Moonshot/status/2081760186235289764",
       "rank": 1,
       "reviews": {
         "cynic": {
-          "score": 25,
-          "review": "又一家AI公司教用户什么叫'默认不安全'，安全团队该换人了。"
+          "score": 82,
+          "review": "2.8T MoE 开源是硬货，但技术报告里避谈训练成本和推理效率，留了藏一手的地方。"
         },
         "paper-police": {
-          "score": 5,
-          "review": "只有新闻报道，无官方确认或技术分析，证据不足。"
+          "score": 85,
+          "review": "开源权重+技术报告，三件套缺benchmark，但可复现，证据链完整。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "检查你的Claude分享链接是否泄露了敏感信息，立即撤销不必要的公开分享。"
+          "review": "开源即用，2.8T MoE 权重和技术报告已出，可本地部署或微调，直接省去预训练成本。"
         }
       }
     },
     {
-      "story_id": "story_1ea579ee44b6",
-      "title": "Claude分享链接配置翻车：用户私钥、公司机密被Google公开收录",
-      "url": "https://www.aibase.com/news/29917",
+      "story_id": "story_6a580af5bd08",
+      "title": "SGLang 和 Miles 为月之暗面 2.8T 参数 Kimi K3 模型提供发布当日支持 / Blog SGLang and Miles Add Day-0 Support for Kimi K3 We are excited to announce Day-0 support for Kimi K3 in SGLang and Miles. K3 is the first open-source model in the 3-trillion-parameter class， and its hybrid architecture departs from convention in al… SGLang Team",
+      "url": "https://www.lmsys.org/blog/2026-07-27-kimi-k3-day0-support",
       "rank": 2,
       "reviews": {
         "cynic": {
-          "score": 25,
-          "review": "连基本权限控制都做不好，还谈什么AI安全？"
+          "score": 82,
+          "review": "2.8T参数开源，SGLang当天适配，诚意够但别吹成‘颠覆’，先跑个推理成本看看。"
         },
         "paper-police": {
-          "score": 5,
-          "review": "只有新闻报道，无官方确认、无技术报告、无复现证据，无法核实。"
+          "score": 0,
+          "review": "只有博客宣称支持，无论文无代码无评测，三无信息零分处理。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "赶紧检查你的Claude分享链接是否暴露了敏感信息，立即撤销并清理缓存。"
+          "review": "2.8T开源模型当天可用，SGLang用户直接部署，跑大模型推理的今天就能试。"
         }
       }
     },
     {
-      "story_id": "story_2d4e47d50fc6",
-      "title": "Kimi-K3 于 7 月 27 日在 HuggingFace 上发布",
-      "url": "https://huggingface.co/moonshotai/Kimi-K3",
+      "story_id": "story_e85da4d1892f",
+      "title": "Kimi K3 上线 Modal，支持无损加速推理 / Excited to have @modal as Day 0 launch partner for Kimi K3！ They trained a custom DFlash speculator…",
+      "url": "https://x.com/Kimi_Moonshot/status/2081767591887122564",
       "rank": 3,
       "reviews": {
         "cynic": {
-          "score": 75,
-          "review": "开源模型，但没提训练细节和成本，先观望下实际表现。"
+          "score": 72,
+          "review": "无损加速？先看看对比基线是不是自家上一代，别又玩文字游戏。"
         },
         "paper-police": {
-          "score": 85,
-          "review": "HuggingFace 有模型权重和论文链接，代码未明确开源，但可下载复现。"
+          "score": 15,
+          "review": "只有推文宣称，无论文无代码无评测，无法验证无损加速。"
         },
         "pragmatic": {
           "score": 85,
-          "review": "HuggingFace 可直接下载，今天就能跑推理或微调，省去排队等 API。"
+          "review": "Modal 上直接跑 K3 推理，无损加速，今天就能试。"
         }
       }
     }
