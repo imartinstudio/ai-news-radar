@@ -20,8 +20,8 @@ on:
         default: true
         type: boolean
   schedule:
-    - cron: "17 0 * * *"
-    - cron: "47 12 * * *"
+    - cron: "0 22 * * *"
+    - cron: "0 10 * * *"
 
 concurrency:
   group: update-ai-news-${{ github.ref }}

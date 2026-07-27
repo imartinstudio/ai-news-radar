@@ -4,9 +4,9 @@ WORKFLOW = Path(".github/workflows/update-news.yml").read_text(encoding="utf-8")
 
 
 def test_workflow_runs_at_beijing_morning_and_evening_only():
-    assert 'cron: "17 0 * * *"' in WORKFLOW
-    assert 'cron: "47 12 * * *"' in WORKFLOW
-    assert 'cron: "17 * * * *"' not in WORKFLOW
+    assert 'cron: "0 22 * * *"' in WORKFLOW
+    assert 'cron: "0 10 * * *"' in WORKFLOW
+    assert 'cron: "0 * * * *"' not in WORKFLOW
 
 
 def test_workflow_builds_creator_brief_before_telegram_and_commit():
