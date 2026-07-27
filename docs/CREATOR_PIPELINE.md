@@ -44,8 +44,8 @@ TELEGRAM_ENABLED=1
 Workflow 使用 UTC cron，对应北京时间：
 
 ```text
-00:17 UTC → 08:17 早报
-12:47 UTC → 20:47 晚报
+22:00 UTC → 次日 06:00 早报
+10:00 UTC → 18:00 晚报
 ```
 
 手动运行时可选择 `auto`、`morning`、`evening`，并决定是否发送 Telegram。
