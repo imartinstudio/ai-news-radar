@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T23:07:23.519518Z",
+  "generated_at": "2026-07-28T12:01:16.173434Z",
   "model": "deepseek-chat",
   "personas": [
     {
@@ -21,10 +21,50 @@
   ],
   "items": [
     {
+      "story_id": "story_f76284dbfab9",
+      "title": "火山引擎上线豆包搜索服务，为AI Agent提供可信联网检索能力",
+      "url": "https://www.aibase.com/news/29952",
+      "rank": 1,
+      "reviews": {
+        "cynic": {
+          "score": 45,
+          "review": "联网搜索不新鲜，豆包这波是给Agent加了个浏览器插件，别吹成革命。"
+        },
+        "paper-police": {
+          "score": 12,
+          "review": "官方公告称上线服务，无论文无代码无benchmark，仅凭新闻稿无法验证。"
+        },
+        "pragmatic": {
+          "score": 85,
+          "review": "Agent开发者可直接调用，减少自建搜索成本，今天就能集成。"
+        }
+      }
+    },
+    {
+      "story_id": "story_c3c7b4228b8c",
+      "title": "Kimi K3 开放日：模型权重、技术报告和关键 Infra 技术同步开放",
+      "url": "https://mp.weixin.qq.com/s/IW9BdyA3hLvuuiX_aMCJEQ",
+      "rank": 2,
+      "reviews": {
+        "cynic": {
+          "score": 82,
+          "review": "全链路开源，连Infra都晒了，这次水分不多，但别指望别人能复现你的集群规模。"
+        },
+        "paper-police": {
+          "score": 85,
+          "review": "权重、报告、Infra全开放，三件套齐全，可复现验证。"
+        },
+        "pragmatic": {
+          "score": 85,
+          "review": "权重和技术报告都开放了，今天就能拉下来跑实验或做二次开发。"
+        }
+      }
+    },
+    {
       "story_id": "story_112bcb1d3a8b",
       "title": "Kimi K3 开源：2.8T MoE 模型与技术报告 / Releasing the model weights and technical report of Kimi K3. Kimi K3 is our most capable model： a 2…",
       "url": "https://x.com/Kimi_Moonshot/status/2081760186235289764",
-      "rank": 1,
+      "rank": 3,
       "reviews": {
         "cynic": {
           "score": 82,
@@ -37,46 +77,6 @@
         "pragmatic": {
           "score": 85,
           "review": "开源即用，2.8T MoE 权重和技术报告已出，可本地部署或微调，直接省去预训练成本。"
-        }
-      }
-    },
-    {
-      "story_id": "story_6a580af5bd08",
-      "title": "SGLang 和 Miles 为月之暗面 2.8T 参数 Kimi K3 模型提供发布当日支持 / Blog SGLang and Miles Add Day-0 Support for Kimi K3 We are excited to announce Day-0 support for Kimi K3 in SGLang and Miles. K3 is the first open-source model in the 3-trillion-parameter class， and its hybrid architecture departs from convention in al… SGLang Team",
-      "url": "https://www.lmsys.org/blog/2026-07-27-kimi-k3-day0-support",
-      "rank": 2,
-      "reviews": {
-        "cynic": {
-          "score": 82,
-          "review": "2.8T参数开源，SGLang当天适配，诚意够但别吹成‘颠覆’，先跑个推理成本看看。"
-        },
-        "paper-police": {
-          "score": 0,
-          "review": "只有博客宣称支持，无论文无代码无评测，三无信息零分处理。"
-        },
-        "pragmatic": {
-          "score": 85,
-          "review": "2.8T开源模型当天可用，SGLang用户直接部署，跑大模型推理的今天就能试。"
-        }
-      }
-    },
-    {
-      "story_id": "story_e85da4d1892f",
-      "title": "Kimi K3 上线 Modal，支持无损加速推理 / Excited to have @modal as Day 0 launch partner for Kimi K3！ They trained a custom DFlash speculator…",
-      "url": "https://x.com/Kimi_Moonshot/status/2081767591887122564",
-      "rank": 3,
-      "reviews": {
-        "cynic": {
-          "score": 72,
-          "review": "无损加速？先看看对比基线是不是自家上一代，别又玩文字游戏。"
-        },
-        "paper-police": {
-          "score": 15,
-          "review": "只有推文宣称，无论文无代码无评测，无法验证无损加速。"
-        },
-        "pragmatic": {
-          "score": 85,
-          "review": "Modal 上直接跑 K3 推理，无损加速，今天就能试。"
         }
       }
     }

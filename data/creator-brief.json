@@ -1,149 +1,43 @@
 {
-  "edition_id": "2026-07-28-morning",
-  "edition_kind": "morning",
-  "generated_at": "2026-07-27T23:07:23.707632Z",
+  "edition_id": "2026-07-28-evening",
+  "edition_kind": "evening",
+  "generated_at": "2026-07-28T12:01:16.367060Z",
   "timezone": "Asia/Shanghai",
-  "total_items": 15,
+  "total_items": 9,
   "summary": {
-    "confirmed": 5,
-    "single_source": 10,
+    "confirmed": 2,
+    "single_source": 7,
     "early_signal": 0,
     "rumor": 0,
-    "new": 15,
+    "new": 9,
     "updated": 0,
     "confirmed_updates": 0
   },
   "items": [
     {
-      "story_id": "story_fdb39a7d1547",
-      "creator_event_id": "creator-c7de10a505a39ca8",
+      "story_id": "story_8540d88057a6",
+      "creator_event_id": "creator-363c85c2a29d611a",
       "merged_story_ids": [
-        "story_fdb39a7d1547"
+        "story_8540d88057a6"
       ],
-      "title": "GitHub Copilot 发布\"Harness\"工作流：用单一工具完成原型、规划、实现与代码审查 / The harness is all you need (mostly)",
-      "url": "https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly",
-      "primary_url": "https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly",
-      "source": "GitHub AI & ML",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
-      "source_names": [
-        "GitHub AI & ML"
-      ],
-      "score": 0.8566,
-      "importance": 0.8566,
-      "importance_score": 0.8566,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.931,
-        "story_heat": 0.25
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-27T18:00:00Z",
-      "latest_at": "2026-07-27T18:00:00Z",
-      "persona_id": "pragmatic",
-      "persona_score": 72,
-      "persona_review": "Copilot 新工作流整合原型到审查，团队可试，但非必须，等上手体验。",
-      "creator_score": 92.1,
-      "creator_breakdown": {
-        "relevance": 0.95,
-        "freshness": 1.0,
-        "source": 1.0,
-        "impact": 0.81,
-        "novelty": 0.85,
-        "heat": 0.5998
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "github-copilot",
-      "verification_status": "confirmed",
-      "creator_reasons": [
-        "entity:github-copilot",
-        "ai_coding_terms",
-        "workflow_impact",
-        "official_or_tier0_source"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "dfe1166a7e4b61e194a54d3f29e213dcc90401c2",
-        "title": "GitHub Copilot 发布\"Harness\"工作流：用单一工具完成原型、规划、实现与代码审查 / The harness is all you need (mostly)",
-        "title_zh": "GitHub Copilot 发布\"Harness\"工作流：用单一工具完成原型、规划、实现与代码审查",
-        "title_en": "The harness is all you need (mostly)",
-        "title_original": "The harness is all you need (mostly)",
-        "summary": "A practical GitHub Copilot workflow for prototyping, planning, implementing, and reviewing software without chasing every new AI tool.\nA practical GitHub Copilot workflow for prototyping, planning, implementing, and reviewing software without chasing every new AI tool.\nA practical GitHub Copilot workflow for prototyping, planning, implementing, and reviewing software without chasing every new AI tool.\nIf you’re feeling overwhelmed by AI right now, you’re not alone.\nEvery day it seems there is a ",
-        "recommend_reason_zh": "本文分享一个基于GitHub Copilot的实用工作流：从CLI入门，善用YOLO模式（/allow-al），无需追逐新工具即可提升AI效率，让一个“harness”搞定原型、计划、实现与审查。",
-        "url": "https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly",
-        "source": "GitHub AI & ML",
-        "source_name": "Official AI Updates"
-      },
-      "sources": [
-        {
-          "story_id": "story_fdb39a7d1547",
-          "title": "GitHub Copilot 发布\"Harness\"工作流：用单一工具完成原型、规划、实现与代码审查 / The harness is all you need (mostly)",
-          "url": "https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly",
-          "source": "GitHub AI & ML",
-          "site_id": "",
-          "official": false
-        }
-      ],
-      "summary_zh": "GitHub Copilot 发布“Harness”工作流，通过 CLI 和 YOLO 模式（/allow-al）在单一工具内完成原型、规划、实现与代码审查，减少工具切换。",
-      "why_it_matters": "提供不依赖多工具的 AI 编码工作流，降低学习成本，提升 Copilot 在复杂任务中的实用性。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "实测 GitHub Copilot Harness 工作流：一个 CLI 搞定原型到审查",
-          "angle": "我试了 GitHub 新发布的 Harness 工作流，只用 Copilot CLI 和 YOLO 模式就完成了从原型到代码审查的全流程，效率提升明显。",
-          "needs_hands_on": true,
-          "risk": "未亲测 YOLO 模式在复杂项目中的稳定性，官方博客未提供详细性能数据。"
-        },
-        {
-          "platform": "xiaohongshu",
-          "title": "GitHub Copilot Harness 工作流教程：告别工具切换，一个 CLI 搞定开发",
-          "angle": "手把手教你用 GitHub Copilot 的 Harness 工作流，从安装 CLI 到使用 YOLO 模式，附避坑指南。",
-          "needs_hands_on": true,
-          "risk": "需验证 YOLO 模式是否支持所有语言和框架，官方文档未明确限制。"
-        },
-        {
-          "platform": "wechat",
-          "title": "GitHub Copilot Harness 工作流：AI 编码工具整合的新范式",
-          "angle": "分析 Harness 工作流如何通过单一工具整合原型、规划、实现与审查，对比其他 AI 编码工具（如 Cursor、Codex）的优劣。",
-          "needs_hands_on": false,
-          "risk": "官方博客未提供与其他工具的定量对比，需自行测试或引用第三方评测。"
-        }
-      ],
-      "enrichment_mode": "llm"
-    },
-    {
-      "story_id": "story_3aa98e967d5f",
-      "creator_event_id": "creator-1daf82de230d728c",
-      "merged_story_ids": [
-        "story_3aa98e967d5f"
-      ],
-      "title": "使用专用策略管理GitHub Copilot应用访问权限 / Manage GitHub Copilot app access with a dedicated policy",
-      "url": "https://github.blog/changelog/2026-07-27-manage-github-copilot-app-access-with-a-dedicated-policy",
-      "primary_url": "https://github.blog/changelog/2026-07-27-manage-github-copilot-app-access-with-a-dedicated-policy",
+      "title": "GitHub Copilot for JetBrains 新增了改进的 OpenTelemetry 配置与模型管理 / GitHub Copilot for JetBrains adds improved OpenTelemetry configuration and model management",
+      "url": "https://github.blog/changelog/2026-07-27-github-copilot-for-jetbrains-adds-improvved-opentelemetry-configuration-and-model-management",
+      "primary_url": "https://github.blog/changelog/2026-07-27-github-copilot-for-jetbrains-adds-improvved-opentelemetry-configuration-and-model-management",
       "source": "GitHub Changelog",
       "source_name": "Official AI Updates",
       "source_count": 1,
       "source_names": [
         "GitHub Changelog"
       ],
-      "score": 0.8463,
-      "importance": 0.8463,
-      "importance_score": 0.8463,
+      "score": 0.8268,
+      "importance": 0.8268,
+      "importance_score": 0.8268,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9683,
+        "recency": 0.8598,
         "story_heat": 0.0
       },
       "category": "official",
@@ -152,476 +46,73 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-07-27T20:43:37Z",
-      "latest_at": "2026-07-27T20:43:37Z",
-      "persona_id": "pragmatic",
-      "persona_score": 70,
-      "persona_review": "Copilot访问策略可单独管理，企业管理员今天就能收紧权限。",
-      "creator_score": 91.4,
-      "creator_breakdown": {
-        "relevance": 0.95,
-        "freshness": 1.0,
-        "source": 1.0,
-        "impact": 0.81,
-        "novelty": 0.85,
-        "heat": 0.4462
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "github-copilot",
-      "verification_status": "confirmed",
-      "creator_reasons": [
-        "entity:github-copilot",
-        "ai_coding_terms",
-        "workflow_impact",
-        "official_or_tier0_source"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "017a2af4a0cb1955160e1d9a798e5a38e59e068c",
-        "title": "使用专用策略管理GitHub Copilot应用访问权限 / Manage GitHub Copilot app access with a dedicated policy",
-        "title_zh": "使用专用策略管理GitHub Copilot应用访问权限",
-        "title_en": "Manage GitHub Copilot app access with a dedicated policy",
-        "title_original": "Manage GitHub Copilot app access with a dedicated policy",
-        "summary": "The GitHub Copilot app now has its own policy, so you can control who has access to it at the enterprise and organization levels. Until now, access to the Copilot…\nThe GitHub Copilot app now has its own policy, so you can control who has access to it at the enterprise and organization levels.\nUntil now, access to the Copilot app depended on your GitHub Copilot CLI policy being enabled. From several conversations with customers, we understand that many of you want to manage each client independen",
-        "recommend_reason_zh": "GitHub Copilot app新增独立策略，可在企业和组织层级分别管理访问权限，开发者通过拉取请求在隔离工作区提交更改，沿用相同审查和审计规则。",
-        "url": "https://github.blog/changelog/2026-07-27-manage-github-copilot-app-access-with-a-dedicated-policy",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      },
-      "sources": [
-        {
-          "story_id": "story_3aa98e967d5f",
-          "title": "使用专用策略管理GitHub Copilot应用访问权限 / Manage GitHub Copilot app access with a dedicated policy",
-          "url": "https://github.blog/changelog/2026-07-27-manage-github-copilot-app-access-with-a-dedicated-policy",
-          "source": "GitHub Changelog",
-          "site_id": "",
-          "official": true
-        }
-      ],
-      "summary_zh": "GitHub Copilot 应用新增独立访问策略，企业和管理员可在组织或企业层级分别控制 Copilot 应用权限，不再依赖 CLI 策略。",
-      "why_it_matters": "细粒度权限管理让企业能独立控制 Copilot 应用访问，避免与 CLI 策略耦合，提升安全性和管理灵活性。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "GitHub Copilot 应用访问权限终于独立了",
-          "angle": "以前 Copilot 应用权限和 CLI 策略绑定，现在终于可以分开管理了，实测一下新策略配置流程。",
-          "needs_hands_on": true,
-          "risk": "未亲测新策略在组织层级的具体配置步骤和生效时间。"
-        },
-        {
-          "platform": "xiaohongshu",
-          "title": "GitHub Copilot 新策略：如何独立管理应用访问权限",
-          "angle": "手把手教你设置 Copilot 应用独立策略，避免和 CLI 策略冲突，附避坑指南。",
-          "needs_hands_on": true,
-          "risk": "未验证不同企业场景下的策略优先级和覆盖规则。"
-        },
-        {
-          "platform": "wechat",
-          "title": "GitHub Copilot 权限管理升级：独立策略背后的企业安全考量",
-          "angle": "从企业安全治理角度分析 Copilot 应用独立策略的意义，以及对企业 AI 工具管理流程的影响。",
-          "needs_hands_on": false,
-          "risk": ""
-        }
-      ],
-      "enrichment_mode": "llm"
-    },
-    {
-      "story_id": "story_7284fe0b61a4",
-      "creator_event_id": "creator-970d63217f729cf6",
-      "merged_story_ids": [
-        "story_7284fe0b61a4"
-      ],
-      "title": "GitHub Copilot 应用和 Copilot 云代理中的企业管理设置 / Enterprise managed settings in the GitHub Copilot app and Copilot cloud agent",
-      "url": "https://github.blog/changelog/2026-07-27-enterprise-managed-settings-now-apply-to-the-github-copilot-app",
-      "primary_url": "https://github.blog/changelog/2026-07-27-enterprise-managed-settings-now-apply-to-the-github-copilot-app",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "score": 0.8432,
-      "importance": 0.8432,
-      "importance_score": 0.8432,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.94,
-        "recency": 0.9177,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-27T17:00:35Z",
-      "latest_at": "2026-07-27T17:00:35Z",
+      "earliest_at": "2026-07-28T01:23:10Z",
+      "latest_at": "2026-07-28T01:23:10Z",
       "persona_id": "pragmatic",
       "persona_score": 65,
-      "persona_review": "企业管理员可统一管控Copilot设置，减少合规风险，今天就能配置。",
-      "creator_score": 91.3,
+      "persona_review": "JetBrains用户可更细粒度监控Copilot性能，调试模型切换，对日常开发有优化价值。",
+      "creator_score": 91.0,
       "creator_breakdown": {
         "relevance": 0.95,
-        "freshness": 0.9972,
+        "freshness": 0.8841,
         "source": 1.0,
-        "impact": 0.81,
-        "novelty": 0.85,
-        "heat": 0.4451
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "github-copilot",
-      "verification_status": "confirmed",
-      "creator_reasons": [
-        "entity:github-copilot",
-        "ai_coding_terms",
-        "workflow_impact",
-        "official_or_tier0_source"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "1f4daaa760e71eccd8deb7bc63c8d5cdb4e0e359",
-        "title": "GitHub Copilot 应用和 Copilot 云代理中的企业管理设置 / Enterprise managed settings in the GitHub Copilot app and Copilot cloud agent",
-        "title_zh": "GitHub Copilot 应用和 Copilot 云代理中的企业管理设置",
-        "title_en": "Enterprise managed settings in the GitHub Copilot app and Copilot cloud agent",
-        "title_original": "Enterprise managed settings in the GitHub Copilot app and Copilot cloud agent",
-        "summary": "You can now govern the GitHub Copilot app and Copilot cloud agent with enterprise managed settings, the same centrally managed policies you use to control Copilot across your enterprise. With…\nYou can now govern the GitHub Copilot app and Copilot cloud agent with enterprise managed settings, the same centrally managed policies you use to control Copilot across your enterprise. With a managed-settings.json file, enterprise owners define one set of guardrails, such as which plugins and marketplace",
-        "recommend_reason_zh": "GitHub Copilot app和Copilot cloud agent现已支持enterprise managed settings，通过一个managed-settings.json文件统一管理插件、市场及绕过提示等策略，并与Copilot CLI、VS Code保持一致，实现跨客户端治理。",
-        "url": "https://github.blog/changelog/2026-07-27-enterprise-managed-settings-now-apply-to-the-github-copilot-app",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      },
-      "sources": [
-        {
-          "story_id": "story_7284fe0b61a4",
-          "title": "GitHub Copilot 应用和 Copilot 云代理中的企业管理设置 / Enterprise managed settings in the GitHub Copilot app and Copilot cloud agent",
-          "url": "https://github.blog/changelog/2026-07-27-enterprise-managed-settings-now-apply-to-the-github-copilot-app",
-          "source": "GitHub Changelog",
-          "site_id": "",
-          "official": true
-        }
-      ],
-      "summary_zh": "GitHub Copilot 应用和 Copilot 云代理现已支持企业托管设置，通过 managed-settings.json 文件统一管理插件、市场及绕过提示等策略，与 Co",
-      "why_it_matters": "企业可通过单一配置文件跨客户端治理 Copilot，降低安全风险，简化合规管理，影响企业级 AI 编码工具的部署策略。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "GitHub Copilot 企业托管设置上线：一个 JSON 文件管所有客户端",
-          "angle": "刚发现 GitHub 悄悄更新了 Copilot 的企业管理能力，现在 Copilot 应用和云代理也能用 managed-settings.json 统一管控了。实测了一下，插件白名单、市场访问、提示注入防护都能集中配置，和 VS Cod",
-          "needs_hands_on": true,
-          "risk": "未亲测所有客户端（如 JetBrains）是否完全同步，需确认 managed-settings.json 的生效范围。"
-        },
-        {
-          "platform": "xiaohongshu",
-          "title": "GitHub Copilot 企业级管理设置上线！一个 JSON 文件搞定所有客户端",
-          "angle": "今天发现 GitHub Copilot 更新了企业托管设置，Copilot 应用和云代理现在也能用 managed-settings.json 统一管理了。步骤：1. 创建 managed-settings.json 文件；2. 定义插件、",
-          "needs_hands_on": true,
-          "risk": "未验证 managed-settings.json 在 Copilot 应用和云代理中的具体配置项是否与文档完全一致。"
-        },
-        {
-          "platform": "wechat",
-          "title": "GitHub Copilot 企业治理升级：从碎片化到统一配置的跨越",
-          "angle": "GitHub 宣布 Copilot 应用和云代理支持企业托管设置，这是 Copilot 企业治理的重要里程碑。过去企业需要为不同客户端分别配置策略，现在通过一个 managed-settings.json 文件即可统一管理插件、市场访问、提",
-          "needs_hands_on": false,
-          "risk": ""
-        }
-      ],
-      "enrichment_mode": "llm"
-    },
-    {
-      "story_id": "story_2fa23659b5b4",
-      "creator_event_id": "creator-07374b6ea3591cb4",
-      "merged_story_ids": [
-        "story_2fa23659b5b4"
-      ],
-      "title": "给 Codex 换皮肤这门生意，被我开源了",
-      "url": "https://waytoagi.feishu.cn/wiki/HOcvwNEVEi8PdlkDAORci0Ipnzc?from=from_copylink",
-      "primary_url": "https://waytoagi.feishu.cn/wiki/HOcvwNEVEi8PdlkDAORci0Ipnzc?from=from_copylink",
-      "source": "社区更新 · 2026-07-27",
-      "source_name": "WaytoAGI",
-      "source_count": 1,
-      "source_names": [
-        "社区更新 · 2026-07-27"
-      ],
-      "score": 0.5692,
-      "importance": 0.5692,
-      "importance_score": 0.5692,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.54,
-        "ai_relevance": 0.65,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-27T22:57:15.973070Z",
-      "latest_at": "2026-07-27T22:57:15.973070Z",
-      "creator_score": 85.2,
-      "creator_breakdown": {
-        "relevance": 1.0,
-        "freshness": 1.0,
-        "source": 0.5,
-        "impact": 1.0,
-        "novelty": 0.85,
-        "heat": 0.3492
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "codex",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "entity:codex",
-        "workflow_impact"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "e89b67231d6e5934e08dfd44e0705add310b3a64",
-        "title": "给 Codex 换皮肤这门生意，被我开源了",
-        "title_zh": "给 Codex 换皮肤这门生意，被我开源了",
-        "title_original": "给 Codex 换皮肤这门生意，被我开源了",
-        "summary": "表面看是给Codex换皮肤，实际苍何这篇文章更像一个“用 AI 做完整产品”的实战复盘。苍何开源了 Codex Themes：可以一键给 Codex 换主题，也能恢复默认；通过CDP注入装饰层，不改安装包。更有意思的是，它还能让Codex帮你生成新主题，做完后发布到社区广场，用户可用积分或支付宝购买，形成“创作—发布—交易”的闭环。",
-        "recommend_reason_zh": "有人靠给 Codex 换皮肤一周赚几万块，作者为此开发了开源工具 Codex Themes，解决了制作皮肤的痛点，值得每个想要定制 Codex 外观的人阅读。",
-        "url": "https://waytoagi.feishu.cn/wiki/HOcvwNEVEi8PdlkDAORci0Ipnzc?from=from_copylink",
-        "source": "社区更新 · 2026-07-27",
-        "source_name": "WaytoAGI"
-      },
-      "sources": [
-        {
-          "story_id": "story_2fa23659b5b4",
-          "title": "给 Codex 换皮肤这门生意，被我开源了",
-          "url": "https://waytoagi.feishu.cn/wiki/HOcvwNEVEi8PdlkDAORci0Ipnzc?from=from_copylink",
-          "source": "社区更新 · 2026-07-27",
-          "site_id": "",
-          "official": false
-        }
-      ],
-      "summary_zh": "苍何开源了 Codex Themes，通过 CDP 注入装饰层不改安装包实现一键换肤，并支持 AI 生成主题、社区发布与交易，形成创作闭环。",
-      "why_it_matters": "为 Codex 定制外观提供了低成本开源方案，可能催生第三方主题生态，影响开发者个性化工具链选择。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "我试了 Codex Themes 开源换肤，AI 生成主题真能赚钱？",
-          "angle": "第一人称实测：下载开源工具、用 Codex 生成主题、发布到社区广场，验证交易闭环是否可行。",
-          "needs_hands_on": true,
-          "risk": "未亲测交易功能是否正常，积分与支付宝支付流程待验证。"
-        },
-        {
-          "platform": "xiaohongshu",
-          "title": "Codex 换皮肤教程：开源工具一键搞定，还能自己设计卖钱",
-          "angle": "步骤式分享：如何安装 Codex Themes、使用 AI 生成主题、发布并设置价格，附避坑指南。",
-          "needs_hands_on": true,
-          "risk": "CDP 注入方式在不同系统/版本上的兼容性未说明。"
-        },
-        {
-          "platform": "wechat",
-          "title": "Codex 皮肤生意经：开源工具如何打破付费墙，重塑 AI 编程工具生态",
-          "angle": "分析开源换肤对现有付费皮肤市场的冲击，以及社区交易模式对开发者工作流的影响。",
-          "needs_hands_on": false,
-          "risk": "文中提到的“一周赚几万块”案例未提供具体来源，需核实。"
-        }
-      ],
-      "enrichment_mode": "llm"
-    },
-    {
-      "story_id": "story_12163699be6c",
-      "creator_event_id": "creator-8be6c379cd1fabae",
-      "merged_story_ids": [
-        "story_12163699be6c"
-      ],
-      "title": "我的 55 个 AI视频 Skill 全部开源，这是每一个的用法",
-      "url": "https://waytoagi.feishu.cn/wiki/D9VMwrysnibtO8kyzsHcPhqvnLe?from=from_copylink",
-      "primary_url": "https://waytoagi.feishu.cn/wiki/D9VMwrysnibtO8kyzsHcPhqvnLe?from=from_copylink",
-      "source": "社区更新 · 2026-07-27",
-      "source_name": "WaytoAGI",
-      "source_count": 1,
-      "source_names": [
-        "社区更新 · 2026-07-27"
-      ],
-      "score": 0.5692,
-      "importance": 0.5692,
-      "importance_score": 0.5692,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.54,
-        "ai_relevance": 0.65,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-27T22:57:15.973070Z",
-      "latest_at": "2026-07-27T22:57:15.973070Z",
-      "creator_score": 84.3,
-      "creator_breakdown": {
-        "relevance": 1.0,
-        "freshness": 1.0,
-        "source": 0.5,
         "impact": 0.94,
         "novelty": 0.85,
-        "heat": 0.3492
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "codex",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "entity:codex",
-        "workflow_impact"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "565362186e0a6798ac3f38bc7e46c2ef93e8ae85",
-        "title": "我的 55 个 AI视频 Skill 全部开源，这是每一个的用法",
-        "title_zh": "我的 55 个 AI视频 Skill 全部开源，这是每一个的用法",
-        "title_original": "我的 55 个 AI视频 Skill 全部开源，这是每一个的用法",
-        "summary": "做短视频最累的地方，往往不是想法，而是每天重复选题、写脚本、找素材、配音、剪辑、上字幕、做封面。作者把自己日常的创作流程拆成55个标准化 Skill，覆盖12 大模块，再串起 Codex、HyperFrames、HeyGen、IndexTTS2，从选题策划到成片质检基本都能自动流转。想降低制作成本、稳定更新频率，甚至跑商单变现，这套可以直接参考。",
-        "recommend_reason_zh": "这篇文章作者开源了55个AI视频Skill，基于Codex+HyperFrames+HeyGen+IndexTTS2技术栈，过去一个月投入不到10小时就在抖音涨粉2k并接到首个商单，详细拆解了每层用法。",
-        "url": "https://waytoagi.feishu.cn/wiki/D9VMwrysnibtO8kyzsHcPhqvnLe?from=from_copylink",
-        "source": "社区更新 · 2026-07-27",
-        "source_name": "WaytoAGI"
-      },
-      "sources": [
-        {
-          "story_id": "story_12163699be6c",
-          "title": "我的 55 个 AI视频 Skill 全部开源，这是每一个的用法",
-          "url": "https://waytoagi.feishu.cn/wiki/D9VMwrysnibtO8kyzsHcPhqvnLe?from=from_copylink",
-          "source": "社区更新 · 2026-07-27",
-          "site_id": "",
-          "official": false
-        }
-      ],
-      "summary_zh": "作者开源55个AI视频Skill，基于Codex、HyperFrames、HeyGen、IndexTTS2，覆盖选题到成片全流程，月投入10小时在抖音涨粉2k并接到商单。",
-      "why_it_matters": "展示AI Coding工具链（Codex等）在短视频创作中的实际落地，降低制作成本，提升更新频率，为开发者提供可复用的自动化工作流参考。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "55个AI视频Skill开源实测：Codex+HyperFrames全流程自动化",
-          "angle": "我试用了这套开源Skill，从选题到成片全自动，月涨粉2k，但部分环节仍需手动调整。",
-          "needs_hands_on": true,
-          "risk": "未亲测55个Skill的完整效果，仅基于作者描述；Codex与HyperFrames的集成稳定性需验证。"
-        },
-        {
-          "platform": "xiaohongshu",
-          "title": "55个AI视频Skill开源！手把手教你搭建自动剪辑工作流",
-          "angle": "跟着开源教程，我用Codex+HeyGen+IndexTTS2做了第一条自动视频，避坑指南来了。",
-          "needs_hands_on": true,
-          "risk": "需确认IndexTTS2的语音质量与HeyGen的兼容性；开源Skill的依赖环境配置可能复杂。"
-        },
-        {
-          "platform": "wechat",
-          "title": "55个AI视频Skill开源：Codex如何重塑短视频创作工作流",
-          "angle": "从55个Skill看AI Coding在内容创作中的系统化应用，分析其对独立创作者和团队的长期影响。",
-          "needs_hands_on": false,
-          "risk": "作者月投入10小时涨粉2k的数据为单一个案，不同领域效果可能差异大。"
-        }
-      ],
-      "enrichment_mode": "llm"
-    },
-    {
-      "story_id": "story_2a8e05bf7e66",
-      "creator_event_id": "creator-09625b9346565cf6",
-      "merged_story_ids": [
-        "story_2a8e05bf7e66"
-      ],
-      "title": "GitHub Copilot app 入门指南：多 Agent 会话工作区与 Canvas 预览 / GitHub Copilot app for Beginners: Getting started",
-      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-getting-started",
-      "primary_url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-getting-started",
-      "source": "GitHub AI & ML",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
-      "source_names": [
-        "GitHub AI & ML"
-      ],
-      "score": 0.8598,
-      "importance": 0.8598,
-      "importance_score": 0.8598,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.9045,
-        "story_heat": 0.25
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-27T16:00:00Z",
-      "latest_at": "2026-07-27T16:00:00Z",
-      "persona_id": "pragmatic",
-      "persona_score": 65,
-      "persona_review": "Copilot 多 Agent 工作区上线，写复杂代码可拆任务，今天就能试。",
-      "creator_score": 83.9,
-      "creator_breakdown": {
-        "relevance": 0.95,
-        "freshness": 0.9719,
-        "source": 1.0,
-        "impact": 0.43,
-        "novelty": 0.65,
-        "heat": 0.6009
+        "heat": 0.4394
       },
       "creator_bucket": "ai_coding",
       "primary_entity": "github-copilot",
       "verification_status": "confirmed",
       "creator_reasons": [
         "entity:github-copilot",
+        "ai_coding_terms",
+        "workflow_impact",
         "official_or_tier0_source"
       ],
       "change_type": "new",
       "primary_item": {
-        "id": "d823933ba16aa5f18e1fafbdf52dc56a0b12e41e",
-        "title": "GitHub Copilot app 入门指南：多 Agent 会话工作区与 Canvas 预览 / GitHub Copilot app for Beginners: Getting started",
-        "title_zh": "GitHub Copilot app 入门指南：多 Agent 会话工作区与 Canvas 预览",
-        "title_en": "GitHub Copilot app for Beginners: Getting started",
-        "title_original": "GitHub Copilot app for Beginners: Getting started",
-        "summary": "New to the GitHub Copilot app? Learn how to start projects, work with AI agents, explore canvases, and streamline your development workflow.\nNew to the GitHub Copilot app? Learn how to start projects, work with AI agents, explore canvases, and streamline your development workflow.\nNew to the GitHub Copilot app? Learn how to start projects, work with AI agents, explore canvases, and streamline your development workflow.\nAI coding tools often begin with a chat window. While that works for quick qu",
-        "recommend_reason_zh": "本文为初学者详解GitHub Copilot app的多agent session、Quick Chat和browser canvas功能，教你如何无需切换任务即可同时管理多个项目会话并预览UI变更。",
-        "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-getting-started",
-        "source": "GitHub AI & ML",
+        "id": "4ef3e86958cef45a8c605c5ef0e3acafa2e97066",
+        "title": "GitHub Copilot for JetBrains 新增了改进的 OpenTelemetry 配置与模型管理 / GitHub Copilot for JetBrains adds improved OpenTelemetry configuration and model management",
+        "title_zh": "GitHub Copilot for JetBrains 新增了改进的 OpenTelemetry 配置与模型管理",
+        "title_en": "GitHub Copilot for JetBrains adds improved OpenTelemetry configuration and model management",
+        "title_original": "GitHub Copilot for JetBrains adds improved OpenTelemetry configuration and model management",
+        "summary": "This update brings more control and clarity to your GitHub Copilot for JetBrains workflows. You can now connect MCP servers and custom agents in Claude agent flows, tune telemetry and…\nThis update brings more control and clarity to your GitHub Copilot for JetBrains workflows. You can now connect MCP servers and custom agents in Claude agent flows, tune telemetry and token settings for advanced scenarios, and work with a cleaner chat and model-selection experience.\nYou can now configure OpenTelem",
+        "recommend_reason_zh": "GitHub Copilot for JetBrains更新支持MCP服务器和自定义代理的Claude agent flows，可配置OpenTelemetry导出与默认token限制（maxInputToken、maxOutputToken），并显示企业AI credits消耗。",
+        "url": "https://github.blog/changelog/2026-07-27-github-copilot-for-jetbrains-adds-improvved-opentelemetry-configuration-and-model-management",
+        "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
       },
       "sources": [
         {
-          "story_id": "story_2a8e05bf7e66",
-          "title": "GitHub Copilot app 入门指南：多 Agent 会话工作区与 Canvas 预览 / GitHub Copilot app for Beginners: Getting started",
-          "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-getting-started",
-          "source": "GitHub AI & ML",
+          "story_id": "story_8540d88057a6",
+          "title": "GitHub Copilot for JetBrains 新增了改进的 OpenTelemetry 配置与模型管理 / GitHub Copilot for JetBrains adds improved OpenTelemetry configuration and model management",
+          "url": "https://github.blog/changelog/2026-07-27-github-copilot-for-jetbrains-adds-improvved-opentelemetry-configuration-and-model-management",
+          "source": "GitHub Changelog",
           "site_id": "",
-          "official": false
+          "official": true
         }
       ],
-      "summary_zh": "GitHub 发布 Copilot app 入门指南，介绍多 Agent 会话工作区、Quick Chat 和 Canvas 预览功能，支持同时管理多个项目会话并预览 UI 变更。",
-      "why_it_matters": "多 Agent 会话和 Canvas 预览降低了 AI 辅助开发的多任务切换成本，对 Copilot 用户工作流有直接影响。",
+      "summary_zh": "GitHub Copilot for JetBrains 更新，支持在 Claude agent 流程中连接 MCP 服务器和自定义代理，可配置 OpenTelemetry 导出、",
+      "why_it_matters": "为 JetBrains 用户提供更细粒度的模型与遥测控制，便于企业监控 AI 使用成本与性能。",
       "angles": [
         {
           "platform": "x",
-          "title": "GitHub Copilot app 多 Agent 会话实测：同时跑两个项目不切换",
-          "angle": "刚试了 Copilot app 的多 Agent 会话，一个窗口写后端，另一个调前端 Canvas 预览，不用来回切 tab，效率提升明显。",
+          "title": "JetBrains Copilot 更新：MCP 与 OpenTelemetry 实测",
+          "angle": "刚更新了 Copilot for JetBrains，试了下 MCP 服务器连接和 token 限制配置，体验如何？",
           "needs_hands_on": true,
-          "risk": "未亲测多 Agent 会话的稳定性和资源占用，官方指南未提限制条件。"
+          "risk": "未亲测 MCP 服务器连接稳定性及 OpenTelemetry 数据导出效果。"
         },
         {
           "platform": "xiaohongshu",
-          "title": "GitHub Copilot app 入门：多 Agent 会话 + Canvas 预览步骤详解",
-          "angle": "手把手教你用 Copilot app 的多 Agent 工作区：创建项目、启动 Quick Chat、用 Canvas 预览 UI 变更，附避坑指南。",
+          "title": "JetBrains Copilot 新配置教程：MCP 与 OpenTelemetry 设置",
+          "angle": "手把手教你配置 Copilot for JetBrains 的 MCP 服务器和 token 限制，附避坑指南。",
           "needs_hands_on": true,
-          "risk": "Canvas 预览仅支持前端 UI 变更，后端项目无法使用。"
+          "risk": "具体配置步骤需实际验证，不同 JetBrains 版本可能有差异。"
         },
         {
           "platform": "wechat",
-          "title": "GitHub Copilot app 更新解读：多 Agent 会话如何改变开发工作流",
-          "angle": "从单聊到多 Agent 会话，Copilot app 的 Canvas 预览和 Quick Chat 标志着 AI 编码工具向 IDE 级工作区演进。",
+          "title": "GitHub Copilot for JetBrains 更新解读：企业级 AI 编码管控升级",
+          "angle": "从 OpenTelemetry 到 MCP 支持，分析此次更新对企业 AI 开发工作流的影响。",
           "needs_hands_on": false,
           "risk": ""
         }
@@ -629,125 +120,224 @@
       "enrichment_mode": "llm"
     },
     {
-      "story_id": "story_0289c6f86d83",
-      "creator_event_id": "creator-bd35f01c778fa44e",
+      "story_id": "story_cb4329279054",
+      "creator_event_id": "creator-74eb3b5c964b387b",
       "merged_story_ids": [
-        "story_0289c6f86d83"
+        "story_cb4329279054"
       ],
-      "title": "AI音乐周刊 W.A 038",
-      "url": "https://waytoagi.feishu.cn/wiki/YrgowsljDiY2nikCspqcttj8nlb?from=from_copylink",
-      "primary_url": "https://waytoagi.feishu.cn/wiki/YrgowsljDiY2nikCspqcttj8nlb?from=from_copylink",
-      "source": "社区更新 · 2026-07-27",
-      "source_name": "WaytoAGI",
+      "title": "Cursor在SpaceX收购之前通过本地化定价进行迄今最大规模的印度市场推广 / Cursor makes its biggest India push yet ahead of SpaceX acquisition with localized pricing",
+      "url": "https://techcrunch.com/2026/07/27/cursor-makes-its-biggest-india-push-yet-ahead-of-spacex-acquisition-with-localized-pricing",
+      "primary_url": "https://techcrunch.com/2026/07/27/cursor-makes-its-biggest-india-push-yet-ahead-of-spacex-acquisition-with-localized-pricing",
+      "source": "TechCrunch AI",
+      "source_name": "Curated Media",
       "source_count": 1,
       "source_names": [
-        "社区更新 · 2026-07-27"
+        "TechCrunch AI"
       ],
-      "score": 0.5692,
-      "importance": 0.5692,
-      "importance_score": 0.5692,
+      "score": 0.6181,
+      "importance": 0.6181,
+      "importance_score": 0.6181,
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.54,
-        "ai_relevance": 0.65,
-        "recency": 1.0,
+        "editorial": 0.5688,
+        "source_tier": 0.58,
+        "ai_relevance": 0.79,
+        "recency": 0.8993,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-07-27T22:57:15.973070Z",
-      "latest_at": "2026-07-27T22:57:15.973070Z",
-      "creator_score": 80.6,
+      "earliest_at": "2026-07-28T04:30:00Z",
+      "latest_at": "2026-07-28T04:30:00Z",
+      "creator_score": 87.3,
       "creator_breakdown": {
-        "relevance": 0.88,
-        "freshness": 1.0,
-        "source": 0.5,
-        "impact": 1.0,
-        "novelty": 0.75,
-        "heat": 0.3492
+        "relevance": 1.0,
+        "freshness": 0.962,
+        "source": 0.78,
+        "impact": 0.81,
+        "novelty": 0.85,
+        "heat": 0.3663
       },
       "creator_bucket": "ai_coding",
+      "primary_entity": "cursor",
       "verification_status": "single_source",
       "creator_reasons": [
-        "ai_coding_terms",
+        "entity:cursor",
         "workflow_impact"
       ],
       "change_type": "new",
       "primary_item": {
-        "id": "e7d16f5d7ee210bde37c41974c0e9015c625908c",
-        "title": "AI音乐周刊 W.A 038",
-        "title_zh": "AI音乐周刊 W.A 038",
-        "title_original": "AI音乐周刊 W.A 038",
-        "summary": "本周的AI音乐周刊很适合音乐创作者、AI 音乐工具玩家和关注版权合规的人快速补课：索尼再次起诉 Udio，说明训练数据合法性会越来越关键；德国 GEMA 推出合规训练数据集 PLAI，给行业开辟另一条路。产品侧，Suno 支持控制歌曲时长，ElevenMusic 能复刻人声和曲风，ElevenLabs 开放音乐微调 API，Google Flow Music、海绵音乐也在加强编辑和改编能力。还有中央音乐学院开源的“韶元 1.0”和 4 篇精选论文。",
-        "recommend_reason_zh": "本期周刊涵盖索尼音乐起诉Udio侵权3万首歌并索赔每首15万美元、德国GEMA推出首个完全合规AI训练数据集PLAI、中央音乐学院开源高保真大模型“韶元1.0”等重磅动态。",
-        "url": "https://waytoagi.feishu.cn/wiki/YrgowsljDiY2nikCspqcttj8nlb?from=from_copylink",
-        "source": "社区更新 · 2026-07-27",
-        "source_name": "WaytoAGI"
+        "id": "245980e567a484ed6b552fa11957aa4498d76000",
+        "title": "Cursor在SpaceX收购之前通过本地化定价进行迄今最大规模的印度市场推广 / Cursor makes its biggest India push yet ahead of SpaceX acquisition with localized pricing",
+        "title_zh": "Cursor在SpaceX收购之前通过本地化定价进行迄今最大规模的印度市场推广",
+        "title_en": "Cursor makes its biggest India push yet ahead of SpaceX acquisition with localized pricing",
+        "title_original": "Cursor makes its biggest India push yet ahead of SpaceX acquisition with localized pricing",
+        "url": "https://techcrunch.com/2026/07/27/cursor-makes-its-biggest-india-push-yet-ahead-of-spacex-acquisition-with-localized-pricing",
+        "source": "TechCrunch AI",
+        "source_name": "Curated Media"
       },
       "sources": [
         {
-          "story_id": "story_0289c6f86d83",
-          "title": "AI音乐周刊 W.A 038",
-          "url": "https://waytoagi.feishu.cn/wiki/YrgowsljDiY2nikCspqcttj8nlb?from=from_copylink",
-          "source": "社区更新 · 2026-07-27",
+          "story_id": "story_cb4329279054",
+          "title": "Cursor在SpaceX收购之前通过本地化定价进行迄今最大规模的印度市场推广 / Cursor makes its biggest India push yet ahead of SpaceX acquisition with localized pricing",
+          "url": "https://techcrunch.com/2026/07/27/cursor-makes-its-biggest-india-push-yet-ahead-of-spacex-acquisition-with-localized-pricing",
+          "source": "TechCrunch AI",
           "site_id": "",
           "official": false
         }
       ],
-      "summary_zh": "索尼起诉Udio侵权3万首歌，索赔每首15万美元；德国GEMA推出合规训练数据集PLAI；Suno支持控制歌曲时长，ElevenMusic可复刻人声和曲风，ElevenLabs开放",
-      "why_it_matters": "AI音乐训练数据的版权合规问题日益严峻，直接影响开发者工具选择和模型训练成本，同时产品编辑能力增强降低了创作门槛。",
+      "summary_zh": "Cursor在SpaceX收购前，通过本地化定价在印度进行迄今最大规模推广，降低开发者使用门槛。",
+      "why_it_matters": "本地化定价可能影响AI编码工具在全球市场的竞争格局，尤其对印度开发者生态和工具选择产生直接冲击。",
       "angles": [
         {
           "platform": "x",
-          "title": "实测Suno时长控制：终于能写完整副歌了？",
-          "angle": "刚试了Suno新出的时长控制功能，以前副歌总是被截断，现在终于能精准卡点了。不过效果到底稳不稳？我跑了5首歌，结果有点意外……",
+          "title": "Cursor印度降价：是收割还是诚意？",
+          "angle": "对比印度本地定价与全球定价，分析对独立开发者和初创公司的影响，结合SpaceX收购背景讨论战略意图。",
           "needs_hands_on": true,
-          "risk": "未亲测Suno时长控制功能的具体效果和稳定性，仅基于周刊描述。"
+          "risk": "具体定价细节和收购时间表未在原文中明确，需核实。"
         },
         {
           "platform": "xiaohongshu",
-          "title": "ElevenMusic复刻人声教程：3步搞定AI翻唱",
-          "angle": "ElevenMusic新功能太强了！上传一首歌就能复刻人声和曲风，我试了周杰伦的《晴天》翻唱成爵士版，步骤超简单，但有几个坑要注意……",
+          "title": "Cursor印度区定价实测：省多少？怎么买？",
+          "angle": "以第一人称分享如何利用印度区定价订阅Cursor，对比国内价格，给出避坑指南（如支付、网络、账号区域）。",
           "needs_hands_on": true,
-          "risk": "未亲测ElevenMusic复刻人声和曲风的效果，具体操作步骤和限制未知。"
+          "risk": "未亲测印度区购买流程，需验证支付方式和区域限制。"
         },
         {
           "platform": "wechat",
-          "title": "索尼诉Udio索赔45亿美元：AI音乐版权生死局",
-          "angle": "索尼起诉Udio侵权3万首歌，每首索赔15万美元，总金额高达45亿美元。这不仅是两家公司的官司，更可能定义AI音乐训练数据的合法边界。德国GEMA推出合规数据集PLAI，给行业另一条路。",
+          "title": "Cursor印度降价背后：AI编码工具的全球化定价策略",
+          "angle": "从Cursor印度推广切入，分析AI编码工具如何通过本地化定价抢占新兴市场，以及SpaceX收购可能带来的资源整合。",
           "needs_hands_on": false,
-          "risk": "索赔金额基于周刊数据，需核实索尼官方声明；PLAI数据集的实际可用性和规模待确认。"
+          "risk": "SpaceX收购细节未在原文中详述，需进一步查证。"
         }
       ],
       "enrichment_mode": "llm"
     },
     {
-      "story_id": "story_ebe3ddd20f67",
-      "creator_event_id": "creator-6ba5a7ed28e5032b",
+      "story_id": "story_6f0358447e62",
+      "creator_event_id": "creator-93bd6a74a60ba24c",
       "merged_story_ids": [
-        "story_ebe3ddd20f67"
+        "story_6f0358447e62"
       ],
-      "title": "用Claude和Python构建技能驱动的金融分析智能体 / Designing Skill-Driven Financial Analysis Agents with Claude， Python， MCP Connectors， and Automated Deliverables",
-      "url": "https://www.marktechpost.com/2026/07/27/designing-skill-driven-financial-analysis-agents-with-claude-python-mcp-connectors-and-automated-deliverables",
-      "primary_url": "https://www.marktechpost.com/2026/07/27/designing-skill-driven-financial-analysis-agents-with-claude-python-mcp-connectors-and-automated-deliverables",
-      "source": "MarkTechPost（RSS）",
+      "title": "FeyNoBg 发布：开源自动背景去除模型，在四项基准上达到 SOTA",
+      "url": "https://usefeyn.com/blog/feynobg",
+      "primary_url": "https://usefeyn.com/blog/feynobg",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "source_name": "AI HOT",
       "source_count": 1,
       "source_names": [
-        "MarkTechPost（RSS）"
+        "Hacker News 热门（buzzing.cc 中文翻译）"
       ],
-      "score": 0.7555,
-      "importance": 0.7555,
-      "importance_score": 0.7555,
+      "score": 0.7475,
+      "importance": 0.7475,
+      "importance_score": 0.7475,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.71,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9052,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-07-28T04:57:13.190000Z",
+      "latest_at": "2026-07-28T04:57:13.190000Z",
+      "persona_id": "pragmatic",
+      "persona_score": 85,
+      "persona_review": "开源SOTA背景去除模型，可立即部署，适合图像处理项目集成。",
+      "creator_score": 79.5,
+      "creator_breakdown": {
+        "relevance": 0.88,
+        "freshness": 0.9733,
+        "source": 0.5,
+        "impact": 0.94,
+        "novelty": 0.75,
+        "heat": 0.4116
+      },
+      "creator_bucket": "ai_coding",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "ai_coding_terms",
+        "workflow_impact"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "6156996d61a9bda29eb738fd998878c8765d59eb",
+        "title": "FeyNoBg 发布：开源自动背景去除模型，在四项基准上达到 SOTA",
+        "title_zh": "FeyNoBg 发布：开源自动背景去除模型，在四项基准上达到 SOTA",
+        "title_original": "FeyNoBg 发布：开源自动背景去除模型，在四项基准上达到 SOTA",
+        "summary": "Feyn Labs 推出 FeyNoBg，一个用于自动背景去除的 SOTA 模型。它在八个基准测试中的四项上取得最佳 S-measure 分数，其余四项与领先者差距在 2% 以内。该模型基于 BiRefNet 架构，参数量从 222M 扩展至 263M，同时开源了训练库 NoBg，模型和代码分别可在 Hugging Face 和 GitHub 获取。",
+        "recommend_reason_zh": "FeyNoBg在八项基准测试中四项达到SOTA，其余四项差距不超过2%，同时开源NoBg库，让人人都能训练自己的背景去除模型。",
+        "url": "https://usefeyn.com/blog/feynobg",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "source_name": "AI HOT"
+      },
+      "sources": [
+        {
+          "story_id": "story_6f0358447e62",
+          "title": "FeyNoBg 发布：开源自动背景去除模型，在四项基准上达到 SOTA",
+          "url": "https://usefeyn.com/blog/feynobg",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "site_id": "",
+          "official": false
+        }
+      ],
+      "summary_zh": "Feyn Labs 开源背景去除模型 FeyNoBg，基于 BiRefNet 架构（263M 参数），在八项基准中四项达 SOTA，其余差距小于 2%，并开源训练库 NoBg。",
+      "why_it_matters": "为开发者提供可自训练的高精度背景去除方案，降低对商业 API 的依赖，适合图像预处理工作流。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "实测 FeyNoBg：开源背景去除模型能否替代 remove.bg？",
+          "angle": "我第一时间在 Hugging Face 下载了 FeyNoBg 模型，用几张复杂背景的人像和物体图做了对比测试。结果发现它在毛发边缘和半透明物体上的表现确实优于之前的开源方案，但推理速度比商业 API 慢不少。",
+          "needs_hands_on": true,
+          "risk": "未亲测所有基准测试场景，实际效果可能因图片类型而异。"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "手把手教你用 FeyNoBg 免费去除图片背景（附代码）",
+          "angle": "刚发现一个超好用的开源背景去除模型 FeyNoBg，效果媲美付费工具！我整理了从 Hugging Face 下载模型到用 Python 调用的完整步骤，还对比了不同参数下的效果，帮你避坑。",
+          "needs_hands_on": true,
+          "risk": "未验证所有操作系统和 Python 版本的兼容性。"
+        },
+        {
+          "platform": "wechat",
+          "title": "FeyNoBg 开源：背景去除模型的 SOTA 之路与工程化思考",
+          "angle": "Feyn Labs 开源的 FeyNoBg 在四项基准上达到 SOTA，背后是 BiRefNet 架构的扩展和 NoBg 训练库的开放。本文分析其技术细节、与现有方案的对比，以及开源生态对图像预处理工具链的长期影响。",
+          "needs_hands_on": false,
+          "risk": ""
+        }
+      ],
+      "enrichment_mode": "llm"
+    },
+    {
+      "story_id": "story_46bdb7fdc48b",
+      "creator_event_id": "creator-2ba9833215ceff6d",
+      "merged_story_ids": [
+        "story_46bdb7fdc48b"
+      ],
+      "title": "OpenAI 想把 ChatGPT 塞进你的眼镜：布罗克曼盯上可穿戴，API 仍是早期雏形",
+      "url": "https://www.aibase.com/news/29936",
+      "primary_url": "https://www.aibase.com/news/29936",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "score": 0.766,
+      "importance": 0.766,
+      "importance_score": 0.766,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9328,
+        "recency": 0.9909,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -755,11 +345,8 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-07-27T18:08:24Z",
-      "latest_at": "2026-07-27T18:08:24Z",
-      "persona_id": "pragmatic",
-      "persona_score": 72,
-      "persona_review": "MCP连接器可复用，金融分析场景能直接抄方案，但需自己搭环境。",
+      "earliest_at": "2026-07-28T11:12:55.794089Z",
+      "latest_at": "2026-07-28T11:12:55.794089Z",
       "creator_score": 79.1,
       "creator_breakdown": {
         "relevance": 0.88,
@@ -767,506 +354,403 @@
         "source": 0.5,
         "impact": 0.81,
         "novelty": 0.85,
-        "heat": 0.4144
+        "heat": 0.4181
       },
       "creator_bucket": "ai_coding",
-      "primary_entity": "anthropic",
+      "primary_entity": "openai",
       "verification_status": "single_source",
       "creator_reasons": [
-        "entity:anthropic",
+        "entity:openai",
         "ai_coding_terms",
         "workflow_impact"
       ],
       "change_type": "new",
       "primary_item": {
-        "id": "3679876fae19f4c7430979f3189354450f102f86",
-        "title": "用Claude和Python构建技能驱动的金融分析智能体 / Designing Skill-Driven Financial Analysis Agents with Claude， Python， MCP Connectors， and Automated Deliverables",
-        "title_zh": "用Claude和Python构建技能驱动的金融分析智能体",
-        "title_en": "Designing Skill-Driven Financial Analysis Agents with Claude， Python， MCP Connectors， and Automated Deliverables",
-        "title_original": "Designing Skill-Driven Financial Analysis Agents with Claude， Python， MCP Connectors， and Automated Deliverables",
-        "summary": "本教程基于Anthropic的financial-services仓库，用纯Python复现其技能驱动架构。通过解析SKILL.md文件构建可搜索技能注册表，并创建可复用SkillAgent，将金融分析剧本注入Anthropic Messages API，支持迭代工具调用循环。",
-        "url": "https://www.marktechpost.com/2026/07/27/designing-skill-driven-financial-analysis-agents-with-claude-python-mcp-connectors-and-automated-deliverables",
-        "source": "MarkTechPost（RSS）",
-        "source_name": "AI HOT"
+        "id": "32dc56e2f672f26fd576fcacac929f342fb7414b",
+        "title": "OpenAI 想把 ChatGPT 塞进你的眼镜：布罗克曼盯上可穿戴，API 仍是早期雏形",
+        "title_zh": "OpenAI 想把 ChatGPT 塞进你的眼镜：布罗克曼盯上可穿戴，API 仍是早期雏形",
+        "title_original": "OpenAI 想把 ChatGPT 塞进你的眼镜：布罗克曼盯上可穿戴，API 仍是早期雏形",
+        "summary": "Greg Brockman, CEO of OpenAI, recently pointed the company's next steps towards the human body during a conversation with journalists in New York. He stated tha\nGreg Brockman, CEO of OpenAI, recently pointed the company's next steps towards the human body during a conversation with journalists in New York. He stated tha\nGreg Brockman, CEO of OpenAI, recently pointed the company's next steps towards the human body during a conversation with journalists in New York. He stated tha\nExplore AI Fronti",
+        "recommend_reason_zh": "OpenAI CEO Greg Brockman透露将ChatGPT集成到智能眼镜等可穿戴设备是公司下一步方向，但相关API仍处于非常早期的雏形阶段。",
+        "url": "https://www.aibase.com/news/29936",
+        "source": "AIbase",
+        "source_name": "AIbase"
       },
       "sources": [
         {
-          "story_id": "story_ebe3ddd20f67",
-          "title": "用Claude和Python构建技能驱动的金融分析智能体 / Designing Skill-Driven Financial Analysis Agents with Claude， Python， MCP Connectors， and Automated Deliverables",
-          "url": "https://www.marktechpost.com/2026/07/27/designing-skill-driven-financial-analysis-agents-with-claude-python-mcp-connectors-and-automated-deliverables",
-          "source": "MarkTechPost（RSS）",
+          "story_id": "story_46bdb7fdc48b",
+          "title": "OpenAI 想把 ChatGPT 塞进你的眼镜：布罗克曼盯上可穿戴，API 仍是早期雏形",
+          "url": "https://www.aibase.com/news/29936",
+          "source": "AIbase",
           "site_id": "",
           "official": false
         }
       ],
-      "summary_zh": "MarkTechPost发布教程，基于Anthropic的financial-services仓库，用纯Python复现技能驱动架构，通过解析SKILL.md文件构建可搜索技能注册",
-      "why_it_matters": "展示如何用Claude和MCP构建模块化金融分析智能体，降低AI Coding在专业领域的实现门槛。",
+      "summary_zh": "OpenAI CEO Greg Brockman透露，将ChatGPT集成到智能眼镜等可穿戴设备是公司下一步方向，但相关API仍处于非常早期的雏形阶段。",
+      "why_it_matters": "可穿戴AI可能改变开发者交互方式，但早期API意味着当前集成风险高、能力有限。",
       "angles": [
         {
           "platform": "x",
-          "title": "用Claude+Python手搓金融分析智能体，我复现了Anthropic的skill-driven架构",
-          "angle": "我按照教程用纯Python实现了技能驱动架构，解析SKILL.md构建注册表，实测SkillAgent调用MCP连接器完成金融分析，效果不错。",
+          "title": "OpenAI 可穿戴 API 实测：目前能做什么？",
+          "angle": "我第一时间试了试传闻中的可穿戴API，结果……",
           "needs_hands_on": true,
-          "risk": "教程基于Anthropic仓库，但未亲测所有金融分析场景，需验证工具调用循环的稳定性。"
+          "risk": "API是否已公开可用、具体能力边界未确认"
         },
         {
           "platform": "xiaohongshu",
-          "title": "金融分析智能体教程｜用Claude+Python+MCP搭建技能驱动Agent",
-          "angle": "手把手教你用Claude和Python构建金融分析智能体，解析SKILL.md文件，创建可复用SkillAgent，支持迭代工具调用。",
+          "title": "ChatGPT 眼镜开发避坑指南：API 早期阶段别踩雷",
+          "angle": "想给眼镜加ChatGPT？先看这3个坑",
           "needs_hands_on": true,
-          "risk": "教程依赖Anthropic Messages API，需确认API密钥和费用。"
+          "risk": "API文档和实际效果未亲测"
         },
         {
           "platform": "wechat",
-          "title": "技能驱动架构：用Claude和MCP构建金融分析智能体的工程实践",
-          "angle": "深入解析Anthropic的skill-driven架构，探讨如何通过SKILL.md文件实现模块化金融分析，降低AI Coding在垂直领域的开发成本。",
+          "title": "从眼镜到身体：OpenAI 的可穿戴野心与开发者机会",
+          "angle": "布罗克曼的发言透露了什么信号？",
           "needs_hands_on": false,
-          "risk": "教程为单篇博客，未涉及生产环境部署细节。"
+          "risk": "消息来源单一，需关注后续官方发布"
         }
       ],
       "enrichment_mode": "llm"
     },
     {
-      "story_id": "story_7eac4d2d42e3",
-      "creator_event_id": "creator-baee6ec4d387f355",
+      "story_id": "story_f76284dbfab9",
+      "creator_event_id": "creator-9a20a799acd98c01",
       "merged_story_ids": [
-        "story_7eac4d2d42e3"
+        "story_f76284dbfab9"
       ],
-      "title": "WorkOS 发布 MCP 服务器 AI 代理可管理认证平台",
-      "url": "https://daringfireball.net/linked/2026/07/27/workos-mcp",
-      "primary_url": "https://daringfireball.net/linked/2026/07/27/workos-mcp",
-      "source": "Daring Fireball",
-      "source_name": "TechURLs",
+      "title": "火山引擎上线豆包搜索服务，为AI Agent提供可信联网检索能力",
+      "url": "https://www.aibase.com/news/29952",
+      "primary_url": "https://www.aibase.com/news/29952",
+      "source": "AIbase",
+      "source_name": "AIbase",
       "source_count": 1,
       "source_names": [
-        "Daring Fireball"
+        "AIbase"
       ],
-      "score": 0.5048,
-      "importance": 0.5048,
-      "importance_score": 0.5048,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.911,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-27T16:30:00Z",
-      "latest_at": "2026-07-27T16:30:00Z",
-      "creator_score": 79.0,
-      "creator_breakdown": {
-        "relevance": 0.9,
-        "freshness": 0.9844,
-        "source": 0.5,
-        "impact": 0.81,
-        "novelty": 0.85,
-        "heat": 0.3267
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "mcp",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "entity:mcp",
-        "ai_coding_terms",
-        "workflow_impact"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "9559e003c5dac4cc6b48313e6b0c5ce6fc32a6f8",
-        "title": "WorkOS 发布 MCP 服务器 AI 代理可管理认证平台",
-        "title_zh": "WorkOS 发布 MCP 服务器 AI 代理可管理认证平台",
-        "title_en": "WorkOS MCP",
-        "title_original": "WorkOS MCP",
-        "url": "https://daringfireball.net/linked/2026/07/27/workos-mcp",
-        "source": "Daring Fireball",
-        "source_name": "TechURLs"
-      },
-      "sources": [
-        {
-          "story_id": "story_7eac4d2d42e3",
-          "title": "WorkOS 发布 MCP 服务器 AI 代理可管理认证平台",
-          "url": "https://daringfireball.net/linked/2026/07/27/workos-mcp",
-          "source": "Daring Fireball",
-          "site_id": "",
-          "official": false
-        }
-      ],
-      "summary_zh": "WorkOS 发布 MCP 服务器，允许 AI 代理通过标准协议管理认证平台，简化开发者集成。",
-      "why_it_matters": "MCP 标准化了 AI 与认证服务的交互，可能降低开发者构建安全 AI 工作流的门槛。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "WorkOS MCP 服务器实测：AI 代理管理认证有多丝滑？",
-          "angle": "我试用了 WorkOS 新发布的 MCP 服务器，让 AI 代理直接管理用户认证，流程比想象中简单。",
-          "needs_hands_on": true,
-          "risk": "单来源报道，未亲测 MCP 服务器的实际稳定性和功能完整性。"
-        },
-        {
-          "platform": "xiaohongshu",
-          "title": "WorkOS MCP 服务器配置教程：AI 代理接管认证管理",
-          "angle": "手把手教你配置 WorkOS MCP 服务器，让 AI 自动处理用户登录、权限分配，避坑指南。",
-          "needs_hands_on": true,
-          "risk": "需要验证 MCP 服务器与主流 AI 框架的兼容性。"
-        },
-        {
-          "platform": "wechat",
-          "title": "MCP 生态再添一员：WorkOS 如何改变 AI 与认证服务的集成方式？",
-          "angle": "从 WorkOS 发布 MCP 服务器看 AI 代理管理基础设施的趋势，对开发者工作流的长远影响。",
-          "needs_hands_on": false,
-          "risk": ""
-        }
-      ],
-      "enrichment_mode": "llm"
-    },
-    {
-      "story_id": "story_45205b48cfd8",
-      "creator_event_id": "creator-9262ec7003048ce7",
-      "merged_story_ids": [
-        "story_45205b48cfd8"
-      ],
-      "title": "Kimi K3 开源分布式智能体环境 AgentENV / We've open-sourced AgentENV in collaboration with kvcache-ai. AgentENV is a distributed system for …",
-      "url": "https://x.com/Kimi_Moonshot/status/2081762978391843020",
-      "primary_url": "https://x.com/Kimi_Moonshot/status/2081762978391843020",
-      "source": "X：Kimi.ai (@Kimi_Moonshot)",
-      "source_name": "AI HOT",
-      "source_count": 1,
-      "source_names": [
-        "X：Kimi.ai (@Kimi_Moonshot)"
-      ],
-      "score": 0.7401,
-      "importance": 0.7401,
-      "importance_score": 0.7401,
+      "score": 0.7926,
+      "importance": 0.7926,
+      "importance_score": 0.7926,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.69,
+        "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.897,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-07-27T15:25:45Z",
-      "latest_at": "2026-07-27T15:25:45Z",
-      "persona_id": "pragmatic",
-      "persona_score": 78,
-      "persona_review": "分布式Agent环境开源，做多Agent系统的今天就能clone跑起来。",
-      "creator_score": 78.2,
-      "creator_breakdown": {
-        "relevance": 0.88,
-        "freshness": 0.9576,
-        "source": 0.5,
-        "impact": 0.81,
-        "novelty": 0.85,
-        "heat": 0.409
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "kimi",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "entity:kimi",
-        "ai_coding_terms",
-        "workflow_impact"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "e2dbc0537143b6d40bc7c79ae597ccd9dde5823c",
-        "title": "Kimi K3 开源分布式智能体环境 AgentENV / We've open-sourced AgentENV in collaboration with kvcache-ai. AgentENV is a distributed system for …",
-        "title_zh": "Kimi K3 开源分布式智能体环境 AgentENV",
-        "title_en": "We've open-sourced AgentENV in collaboration with kvcache-ai. AgentENV is a distributed system for …",
-        "title_original": "We've open-sourced AgentENV in collaboration with kvcache-ai. AgentENV is a distributed system for …",
-        "summary": "我们与 kvcache-ai 合作开源了 AgentENV。\n\nAgentENV 是一个用于大规模运行智能体环境的分布式系统。其组件为 Kimi K3 的智能体强化学习训练提供支持，具备快速快照、恢复和分支功能，适用于大规模并行智能体工作流。\n\n在 GitHub 上探索：http://github.com/kvcache-ai/AgentEnv",
-        "recommend_reason_zh": "与kvcache-ai合作开源的AgentENV是一个分布式系统，用于大规模运行agent环境，其组件为Kimi K3的agentic RL训练提供快速快照、恢复和分叉支持，实现大规模并行工作流。",
-        "url": "https://x.com/Kimi_Moonshot/status/2081762978391843020",
-        "source": "X：Kimi.ai (@Kimi_Moonshot)",
-        "source_name": "AI HOT"
-      },
-      "sources": [
-        {
-          "story_id": "story_45205b48cfd8",
-          "title": "Kimi K3 开源分布式智能体环境 AgentENV / We've open-sourced AgentENV in collaboration with kvcache-ai. AgentENV is a distributed system for …",
-          "url": "https://x.com/Kimi_Moonshot/status/2081762978391843020",
-          "source": "X：Kimi.ai (@Kimi_Moonshot)",
-          "site_id": "",
-          "official": false
-        }
-      ],
-      "summary_zh": "Kimi 与 kvcache-ai 合作开源分布式智能体环境 AgentENV，支持大规模并行 agent 工作流，其组件用于 Kimi K3 的强化学习训练，具备快速快照、恢复和",
-      "why_it_matters": "AgentENV 为大规模 agent 训练和部署提供基础设施，可能降低构建复杂 agent 系统的门槛，影响 AI Coding 中多智能",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "Kimi K3 开源 AgentENV：分布式 agent 训练基础设施来了",
-          "angle": "刚看到 Kimi 开源了 AgentENV，一个分布式系统，支持大规模并行 agent 环境，还带快照和分支。这对搞多 agent 训练和部署的开发者来说，可能是个新选择。",
-          "needs_hands_on": true,
-          "risk": "未亲测 AgentENV 的性能和易用性，需确认其与现有 agent 框架的兼容性。"
-        },
-        {
-          "platform": "xiaohongshu",
-          "title": "Kimi K3 开源 AgentENV 实测：分布式 agent 环境搭建避坑指南",
-          "angle": "今天试了 Kimi 刚开源的 AgentENV，一个分布式系统，用来跑大规模 agent 环境。分享下安装步骤、快照恢复功能的使用体验，以及并行训练时遇到的坑。",
-          "needs_hands_on": true,
-          "risk": "未亲测，需验证安装流程和实际并行性能。"
-        },
-        {
-          "platform": "wechat",
-          "title": "Kimi K3 开源 AgentENV：分布式智能体训练基础设施的演进",
-          "angle": "Kimi 与 kvcache-ai 合作开源 AgentENV，为大规模 agent 强化学习训练提供分布式环境支持。本文分析其架构设计、快照分支能力对 agent 工作流的影响，以及与现有方案（如 Ray）的对比。",
-          "needs_hands_on": false,
-          "risk": "需确认 AgentENV 是否完全开源及许可证类型。"
-        }
-      ],
-      "enrichment_mode": "llm"
-    },
-    {
-      "story_id": "story_f4def218d9f8",
-      "creator_event_id": "creator-59654f6b2d2a616f",
-      "merged_story_ids": [
-        "story_f4def218d9f8"
-      ],
-      "title": "Anthropic 澄清立场：从未主张全面禁止开源权重模型，支持芯片出口管制与安全测试 / Our position on open-weights models",
-      "url": "https://www.anthropic.com/news/position-open-weights-models",
-      "primary_url": "https://www.anthropic.com/news/position-open-weights-models",
-      "source": "Anthropic：Newsroom（网页）",
-      "source_name": "AI HOT",
-      "source_count": 1,
-      "source_names": [
-        "Anthropic：Newsroom（网页）"
-      ],
-      "score": 0.8067,
-      "importance": 0.8067,
-      "importance_score": 0.8067,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.61,
-        "source_tier": 1.0,
-        "ai_relevance": 1.0,
-        "recency": 0.9925,
+        "recency": 1.0,
         "story_heat": 0.25
       },
-      "category": "official",
+      "category": "industry",
       "reasons": [
         "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-07-27T22:26:00.307000Z",
-      "latest_at": "2026-07-27T22:49:24.268000Z",
+      "earliest_at": "2026-07-28T07:51:54Z",
+      "latest_at": "2026-07-28T11:50:55.794089Z",
       "persona_id": "pragmatic",
-      "persona_score": 20,
-      "persona_review": "立场声明，不写代码，不调价格，开发者不用管。",
-      "creator_score": 81.3,
+      "persona_score": 85,
+      "persona_review": "Agent开发者可直接调用，减少自建搜索成本，今天就能集成。",
+      "creator_score": 78.9,
       "creator_breakdown": {
-        "relevance": 0.68,
+        "relevance": 0.88,
         "freshness": 1.0,
-        "source": 1.0,
-        "impact": 0.63,
-        "novelty": 0.85,
-        "heat": 0.5823
+        "source": 0.5,
+        "impact": 0.81,
+        "novelty": 0.75,
+        "heat": 0.5774
       },
-      "creator_bucket": "general_ai",
-      "primary_entity": "anthropic",
+      "creator_bucket": "ai_coding",
       "verification_status": "confirmed",
       "creator_reasons": [
-        "entity:anthropic",
-        "workflow_impact",
-        "official_or_tier0_source"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "c59039e4b5041b6c295f648239b3d03a0d1597e9",
-        "title": "Anthropic 澄清立场：从未主张全面禁止开源权重模型，支持芯片出口管制与安全测试 / Our position on open-weights models",
-        "title_zh": "Anthropic 澄清立场：从未主张全面禁止开源权重模型，支持芯片出口管制与安全测试",
-        "title_en": "Our position on open-weights models",
-        "title_original": "Our position on open-weights models",
-        "summary": "Anthropic CEO Dario Amodei 明确表示公司从未主张禁止开源权重模型，并认为不具备危险能力的开源权重模型是公共产品。他提出三项实际措施：对华芯片出口管制、打击工业级知识蒸馏、对所有足够强大的模型进行强制性安全测试。Amodei 指出，保护主义禁令无法解决其最担忧的国家安全威胁，包括威权政府利用更强大 AI 实现军事优势或深度监控。",
-        "recommend_reason_zh": "Anthropic CEO Dario Amodei明确表示从未主张禁止开放权重模型，但支持三项针对性措施：阻止强大芯片落入威权之手、制止工业级蒸馏、对所有足够能力的模型进行安全测试。他警告生物武器存在攻击-防御不对称性，认为开放权重未必更有利于防御方。",
-        "url": "https://www.anthropic.com/news/position-open-weights-models",
-        "source": "Anthropic：Newsroom（网页）",
-        "source_name": "AI HOT"
-      },
-      "sources": [
-        {
-          "story_id": "story_f4def218d9f8",
-          "title": "Anthropic 澄清立场：从未主张全面禁止开源权重模型，支持芯片出口管制与安全测试 / Our position on open-weights models",
-          "url": "https://www.anthropic.com/news/position-open-weights-models",
-          "source": "Anthropic：Newsroom（网页）",
-          "site_id": "",
-          "official": true
-        }
-      ],
-      "summary_zh": "Anthropic CEO Dario Amodei 澄清公司从未主张全面禁止开源权重模型，但支持对华芯片出口管制、打击工业级知识蒸馏，以及对所有足够强大的模型进行强制性安全测试。",
-      "why_it_matters": "该立场影响开源AI模型的分发与使用政策，开发者需关注未来可能的安全测试要求及芯片出口限制对开发环境的影响。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "Anthropic 澄清开源立场：不禁止但设限，开发者怎么看？",
-          "angle": "作为AI开发者，我注意到Anthropic CEO明确表示从未主张全面禁止开源权重模型，但支持芯片出口管制和安全测试。这让我思考：开源模型未来是否会面临更多合规门槛？",
-          "needs_hands_on": false,
-          "risk": ""
-        },
-        {
-          "platform": "xiaohongshu",
-          "title": "Anthropic 开源模型立场解读：开发者避坑指南",
-          "angle": "刚看到Anthropic的官方声明，他们不禁止开源权重模型，但支持芯片出口管制和安全测试。作为开发者，我们该如何应对？这里整理了几个关键点：1. 开源模型仍可用，但需关注出口管制；2. 安全测试可能成为未来门槛；3. 工业级蒸馏可能被打击。",
-          "needs_hands_on": false,
-          "risk": "安全测试的具体实施细节尚未公布，需持续关注。"
-        },
-        {
-          "platform": "wechat",
-          "title": "Anthropic 开源立场背后：AI 安全与开发者生态的博弈",
-          "angle": "Anthropic CEO 的最新表态揭示了开源AI模型政策的分水岭：不全面禁止，但通过芯片出口管制、打击知识蒸馏和强制安全测试来管理风险。这对开发者社区意味着什么？长期来看，开源模型的分发和使用可能面临更多监管，但核心能力仍可获取。",
-          "needs_hands_on": false,
-          "risk": "文中提到的‘足够强大的模型’定义尚未明确，可能影响适用范围。"
-        }
-      ],
-      "enrichment_mode": "llm"
-    },
-    {
-      "story_id": "story_cb1cfa91399e",
-      "creator_event_id": "creator-a9a9c66c26c30e9c",
-      "merged_story_ids": [
-        "story_cb1cfa91399e"
-      ],
-      "title": "Moonshot AI 搅动前沿模型竞赛后，开放了 Kimi K3 的权重与基础设施 / Moonshot AI releases Kimi K3 open weights and infrastructure after shaking up the frontier model race",
-      "url": "https://the-decoder.com/moonshot-ai-releases-kimi-k3-open-weights-and-infrastructure-after-shaking-up-the-frontier-model-race",
-      "primary_url": "https://the-decoder.com/moonshot-ai-releases-kimi-k3-open-weights-and-infrastructure-after-shaking-up-the-frontier-model-race",
-      "source": "The Decoder AI News",
-      "source_name": "Curated Media",
-      "source_count": 1,
-      "source_names": [
-        "The Decoder AI News"
-      ],
-      "score": 0.6152,
-      "importance": 0.6152,
-      "importance_score": 0.6152,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5472,
-        "source_tier": 0.58,
-        "ai_relevance": 0.76,
-        "recency": 0.9525,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-27T19:35:08Z",
-      "latest_at": "2026-07-27T19:35:08Z",
-      "creator_score": 77.7,
-      "creator_breakdown": {
-        "relevance": 0.68,
-        "freshness": 1.0,
-        "source": 0.78,
-        "impact": 0.76,
-        "novelty": 0.85,
-        "heat": 0.3653
-      },
-      "creator_bucket": "general_ai",
-      "primary_entity": "kimi",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "entity:kimi",
+        "ai_coding_terms",
         "workflow_impact"
       ],
       "change_type": "new",
       "primary_item": {
-        "id": "b2589575323919141a9de3ddafa56ec5047e9682",
-        "title": "Moonshot AI 搅动前沿模型竞赛后，开放了 Kimi K3 的权重与基础设施 / Moonshot AI releases Kimi K3 open weights and infrastructure after shaking up the frontier model race",
-        "title_zh": "Moonshot AI 搅动前沿模型竞赛后，开放了 Kimi K3 的权重与基础设施",
-        "title_en": "Moonshot AI releases Kimi K3 open weights and infrastructure after shaking up the frontier model race",
-        "title_original": "Moonshot AI releases Kimi K3 open weights and infrastructure after shaking up the frontier model race",
-        "summary": "Moonshot AI has released Kimi K3's model weights and made parts of its infrastructure open source. The Chinese model nearly matches Western frontier models such as Fable 5 and GPT-5.6 Sol on popular benchmarks, but independent tests found major gaps in cyber and math performance, possibly pointing to distillation.\nMoonshot AI has released Kimi K3's model weights and made parts of its infrastructure open source. The Chinese model nearly matches Western frontier models such as Fable 5 and GPT-5.6 ",
-        "recommend_reason_zh": "Moonshot AI开源了Kimi K3模型权重及高性能注意力核、MoE通信库等基础设施，声称每单位计算智能提升2.5倍，但英国Cyber Institute独立测试发现其网络和数学能力远落后于前沿模型，疑存在蒸馏问题。",
-        "url": "https://the-decoder.com/moonshot-ai-releases-kimi-k3-open-weights-and-infrastructure-after-shaking-up-the-frontier-model-race",
-        "source": "The Decoder AI News",
-        "source_name": "Curated Media"
+        "id": "3439b8a22f15e9a5ef4507a5bee52ca2b59efac3",
+        "title": "火山引擎上线豆包搜索服务，为AI Agent提供可信联网检索能力",
+        "title_zh": "火山引擎上线豆包搜索服务，为AI Agent提供可信联网检索能力",
+        "title_original": "火山引擎上线豆包搜索服务，为AI Agent提供可信联网检索能力",
+        "summary": "Volcanic Engine has officially launched Doubao Search Service, providing enterprises and developers with cross-language, multimodal, and vertical category netwo\nVolcanic Engine has officially launched Doubao Search Service, providing enterprises and developers with cross-language, multimodal, and vertical category netwo\nVolcanic Engine has officially launched Doubao Search Service, providing enterprises and developers with cross-language, multimodal, and vertical category netwo\nExplore AI Fronti",
+        "recommend_reason_zh": "火山引擎上线Doubao Search服务，为AI Agent提供实时可信的联网检索，支持精确查询、语义扩展及多轮检索增强，并建立来源权威分类系统，推动智能体从简单问答迈向复杂任务执行。",
+        "url": "https://www.aibase.com/news/29952",
+        "source": "AIbase",
+        "source_name": "AIbase"
       },
       "sources": [
         {
-          "story_id": "story_cb1cfa91399e",
-          "title": "Moonshot AI 搅动前沿模型竞赛后，开放了 Kimi K3 的权重与基础设施 / Moonshot AI releases Kimi K3 open weights and infrastructure after shaking up the frontier model race",
-          "url": "https://the-decoder.com/moonshot-ai-releases-kimi-k3-open-weights-and-infrastructure-after-shaking-up-the-frontier-model-race",
-          "source": "The Decoder AI News",
+          "story_id": "story_f76284dbfab9",
+          "title": "火山引擎上线豆包搜索服务，为AI Agent提供可信联网检索能力",
+          "url": "https://www.aibase.com/news/29952",
+          "source": "AIbase",
           "site_id": "",
           "official": false
         }
       ],
-      "summary_zh": "Moonshot AI 开源了 Kimi K3 模型权重及高性能注意力核、MoE 通信库等基础设施，声称每单位计算智能提升 2.5 倍，但英国 Cyber Institute 独立",
-      "why_it_matters": "Kimi K3 开源降低了高性能模型获取门槛，但独立测试暴露的蒸馏嫌疑提醒开发者需谨慎评估模型真实能力，避免被基准分数误导。",
+      "summary_zh": "火山引擎上线豆包搜索服务，为AI Agent提供跨语言、多模态、垂直类别的可信联网检索能力，支持精确查询、语义扩展及多轮检索增强，并建立来源权威分类系统。",
+      "why_it_matters": "为AI Agent提供实时可信的联网检索，推动智能体从简单问答迈向复杂任务执行，降低开发者构建可靠Agent的难度。",
       "angles": [
         {
           "platform": "x",
-          "title": "Kimi K3 开源实测：基准高分 vs 独立测试翻车，蒸馏疑云下的模型选择",
-          "angle": "我第一时间下载了 Kimi K3 权重，在网络安全和数学推理任务上跑了几组测试，结果与官方基准差距明显。",
+          "title": "火山引擎豆包搜索上线，实测Agent联网检索能力",
+          "angle": "刚试了火山引擎新出的豆包搜索服务，给Agent加了个可信联网大脑。支持多轮检索和来源权威分类，感觉比直接调搜索引擎靠谱。",
           "needs_hands_on": true,
-          "risk": "独立测试仅来自英国 Cyber Institute，未覆盖全部场景；蒸馏结论尚未被 Moonshot AI 回应。"
+          "risk": "未亲测，需验证实际检索准确率和延迟"
         },
         {
           "platform": "xiaohongshu",
-          "title": "Kimi K3 开源了！手把手教你部署+避坑指南",
-          "angle": "刚把 Kimi K3 跑起来，分享从下载权重到本地推理的完整步骤，以及官方没提的数学和网络安全短板。",
+          "title": "火山引擎豆包搜索服务上线！AI Agent联网检索避坑指南",
+          "angle": "火山引擎新出的豆包搜索服务，给AI Agent加了个可信联网检索能力。支持多模态和垂直类别搜索，还有来源权威分类。开发者必看！",
           "needs_hands_on": true,
-          "risk": "部署步骤基于个人环境，不同硬件可能遇到兼容性问题；测试结果仅代表特定任务。"
+          "risk": "未亲测，需验证多模态检索效果和权威分类准确性"
         },
         {
           "platform": "wechat",
-          "title": "Kimi K3 开源背后：中国大模型竞赛的蒸馏困局与基础设施突围",
-          "angle": "Moonshot AI 一边开源模型权重和基础设施，一边被质疑蒸馏，这反映了中国 AI 公司怎样的技术路线选择？",
+          "title": "火山引擎豆包搜索上线：AI Agent可信联网检索能力解析",
+          "angle": "火山引擎正式上线豆包搜索服务，为AI Agent提供跨语言、多模态、垂直类别的可信联网检索。本文解析其技术架构、来源权威分类系统及对Agent开发的影响。",
           "needs_hands_on": false,
-          "risk": "蒸馏争议尚无定论，需引用多方观点；基础设施开源的实际价值有待社区验证。"
+          "risk": ""
         }
       ],
       "enrichment_mode": "llm"
     },
     {
-      "story_id": "story_c5ac32a2335b",
-      "creator_event_id": "creator-cf357769bd3cf11c",
+      "story_id": "story_16b5229e9f56",
+      "creator_event_id": "creator-f5a3e79e73c2315a",
       "merged_story_ids": [
-        "story_c5ac32a2335b"
+        "story_16b5229e9f56"
       ],
-      "title": "微软推出自有网络安全模型MAI-Cyber-1-Flash，但最棘手的任务仍依赖OpenAI / Microsoft launches its own cybersecurity model MAI-Cyber-1-Flash but still depends on OpenAI for the toughest tasks",
-      "url": "https://the-decoder.com/microsoft-launches-its-own-cybersecurity-model-mai-cyber-1-flash-but-still-depends-on-openai-for-the-toughest-tasks",
-      "primary_url": "https://the-decoder.com/microsoft-launches-its-own-cybersecurity-model-mai-cyber-1-flash-but-still-depends-on-openai-for-the-toughest-tasks",
-      "source": "The Decoder AI News",
+      "title": "阿里Qoder上线实时语音智能体Qoder Voice，支持语音驱动AI编程",
+      "url": "https://www.aibase.com/news/29950",
+      "primary_url": "https://www.aibase.com/news/29950",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-28T11:50:55.794089Z",
+      "latest_at": "2026-07-28T11:50:55.794089Z",
+      "creator_score": 78.1,
+      "creator_breakdown": {
+        "relevance": 0.88,
+        "freshness": 1.0,
+        "source": 0.5,
+        "impact": 0.81,
+        "novelty": 0.75,
+        "heat": 0.4187
+      },
+      "creator_bucket": "ai_coding",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "ai_coding_terms",
+        "workflow_impact"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "7811907a25ad2bfe9190eeed12f7df8596aceae5",
+        "title": "阿里Qoder上线实时语音智能体Qoder Voice，支持语音驱动AI编程",
+        "title_zh": "阿里Qoder上线实时语音智能体Qoder Voice，支持语音驱动AI编程",
+        "title_original": "阿里Qoder上线实时语音智能体Qoder Voice，支持语音驱动AI编程",
+        "summary": "Ali AI coding assistant Qoder officially launched the real-time voice interaction agent Qoder Voice, driven by the full-duplex voice model Qwen-Audio-3.0-Realti\nAli AI coding assistant Qoder officially launched the real-time voice interaction agent Qoder Voice, driven by the full-duplex voice model Qwen-Audio-3.0-Realti\nAli AI coding assistant Qoder officially launched the real-time voice interaction agent Qoder Voice, driven by the full-duplex voice model Qwen-Audio-3.0-Realti\nExplore AI Fronti",
+        "recommend_reason_zh": "阿里Qoder推出语音智能体Qoder Voice，基于全双工模型Qwen-Audio-3.0-Realtime，支持语音驱动编程，用户可随时中断、追问或调整需求，实现语音与任务同步执行。",
+        "url": "https://www.aibase.com/news/29950",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      },
+      "sources": [
+        {
+          "story_id": "story_16b5229e9f56",
+          "title": "阿里Qoder上线实时语音智能体Qoder Voice，支持语音驱动AI编程",
+          "url": "https://www.aibase.com/news/29950",
+          "source": "AIbase",
+          "site_id": "",
+          "official": false
+        }
+      ],
+      "summary_zh": "阿里AI编程助手Qoder上线实时语音智能体Qoder Voice，基于全双工模型Qwen-Audio-3.0-Realtime，支持语音驱动编程，可随时中断、追问或调整需求。",
+      "why_it_matters": "语音交互降低编程门槛，提升多任务场景效率，但实时语音与代码生成的协同效果待实测。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "阿里Qoder Voice实测：语音编程真的比打字快吗？",
+          "angle": "我第一时间体验了Qoder Voice，对比传统打字编程，发现语音在简单指令和重构场景下效率提升明显，但复杂逻辑仍需手动调整。",
+          "needs_hands_on": true,
+          "risk": "未亲测，实际延迟和准确率依赖网络和模型表现。"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "阿里Qoder Voice语音编程保姆级教程：从安装到避坑",
+          "angle": "手把手教你配置Qoder Voice，分享语音编程的实用技巧和常见问题，比如如何清晰描述需求、避免误识别。",
+          "needs_hands_on": true,
+          "risk": "教程细节需基于实际使用，目前仅知支持全双工语音交互。"
+        },
+        {
+          "platform": "wechat",
+          "title": "语音驱动AI编程来了：阿里Qoder Voice如何改变开发者工作流？",
+          "angle": "从工具演进角度分析Qoder Voice对开发流程的影响，探讨语音交互在代码生成、调试和协作中的潜力与局限。",
+          "needs_hands_on": false,
+          "risk": "需确认Qoder Voice是否支持中文语音及代码语言范围。"
+        }
+      ],
+      "enrichment_mode": "llm"
+    },
+    {
+      "story_id": "story_34a22872758e",
+      "creator_event_id": "creator-bf75e1916f5d0664",
+      "merged_story_ids": [
+        "story_34a22872758e"
+      ],
+      "title": "Anthropic 的 Dario Amodei 回应：不反对开源权重模型，但担忧中国 AI / Anthropic’s Dario Amodei responds: doesn’t oppose open-weight models, but fears Chinese AI",
+      "url": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai",
+      "primary_url": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai",
+      "source": "TechCrunch AI",
       "source_name": "Curated Media",
       "source_count": 1,
       "source_names": [
-        "The Decoder AI News"
+        "TechCrunch AI"
       ],
-      "score": 0.6258,
-      "importance": 0.6258,
-      "importance_score": 0.6258,
+      "score": 0.6084,
+      "importance": 0.6084,
+      "importance_score": 0.6084,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.5688,
         "source_tier": 0.58,
         "ai_relevance": 0.79,
-        "recency": 0.9423,
+        "recency": 0.8455,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-07-27T18:50:07Z",
-      "latest_at": "2026-07-27T18:50:07Z",
-      "creator_score": 75.8,
+      "earliest_at": "2026-07-28T00:13:33Z",
+      "latest_at": "2026-07-28T00:13:33Z",
+      "creator_score": 72.9,
       "creator_breakdown": {
         "relevance": 0.68,
-        "freshness": 1.0,
+        "freshness": 0.8551,
         "source": 0.78,
         "impact": 0.63,
         "novelty": 0.85,
-        "heat": 0.369
+        "heat": 0.3629
+      },
+      "creator_bucket": "general_ai",
+      "primary_entity": "anthropic",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "entity:anthropic",
+        "workflow_impact"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "e5a5ecd79ca645807599bb4c6c7ce8f33631852c",
+        "title": "Anthropic 的 Dario Amodei 回应：不反对开源权重模型，但担忧中国 AI / Anthropic’s Dario Amodei responds: doesn’t oppose open-weight models, but fears Chinese AI",
+        "title_zh": "Anthropic 的 Dario Amodei 回应：不反对开源权重模型，但担忧中国 AI",
+        "title_en": "Anthropic’s Dario Amodei responds: doesn’t oppose open-weight models, but fears Chinese AI",
+        "title_original": "Anthropic’s Dario Amodei responds: doesn’t oppose open-weight models, but fears Chinese AI",
+        "url": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai",
+        "source": "TechCrunch AI",
+        "source_name": "Curated Media"
+      },
+      "sources": [
+        {
+          "story_id": "story_34a22872758e",
+          "title": "Anthropic 的 Dario Amodei 回应：不反对开源权重模型，但担忧中国 AI / Anthropic’s Dario Amodei responds: doesn’t oppose open-weight models, but fears Chinese AI",
+          "url": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai",
+          "source": "TechCrunch AI",
+          "site_id": "",
+          "official": false
+        }
+      ],
+      "summary_zh": "Anthropic CEO Dario Amodei 表示不反对开源权重模型，但担忧中国 AI 发展可能带来安全风险，强调需平衡开放与安全。",
+      "why_it_matters": "反映 AI 公司在开源与安全之间的政策权衡，影响开发者对模型可获取性和使用限制的预期。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "Anthropic CEO 谈开源：不反对但担忧中国 AI，开发者怎么看？",
+          "angle": "作为 AI 开发者，我关注 Amodei 的言论对开源模型生态的影响，特别是未来获取权重是否会更难。",
+          "needs_hands_on": false,
+          "risk": "Amodei 的具体政策细节未公布，需关注后续动作。"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "Anthropic CEO 表态：开源模型安全风险与应对策略",
+          "angle": "分享我对 Amodei 观点的解读，以及开源模型使用中的安全注意事项。",
+          "needs_hands_on": false,
+          "risk": "未提及具体技术细节，需核实 Amodei 原话。"
+        },
+        {
+          "platform": "wechat",
+          "title": "Anthropic 的 AI 安全观：开源与地缘政治的十字路口",
+          "angle": "分析 Amodei 表态背后的技术安全逻辑与地缘政治背景，探讨对全球 AI 开源社区的影响。",
+          "needs_hands_on": false,
+          "risk": "单来源报道，需交叉验证 Amodei 完整表述。"
+        }
+      ],
+      "enrichment_mode": "llm"
+    },
+    {
+      "story_id": "story_90ac1b92087a",
+      "creator_event_id": "creator-31f44f9e08402d62",
+      "merged_story_ids": [
+        "story_90ac1b92087a"
+      ],
+      "title": "\"抱抱脸\"向 OpenAI 索赔 1 亿美元算力：智能体失控入侵后，开源社区开出价码",
+      "url": "https://www.aibase.com/news/29947",
+      "primary_url": "https://www.aibase.com/news/29947",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-28T11:50:55.794089Z",
+      "latest_at": "2026-07-28T11:50:55.794089Z",
+      "persona_id": "pragmatic",
+      "persona_score": 15,
+      "persona_review": "诉讼扯皮，跟写代码没关系，等判决结果再说。",
+      "creator_score": 70.4,
+      "creator_breakdown": {
+        "relevance": 0.68,
+        "freshness": 1.0,
+        "source": 0.5,
+        "impact": 0.63,
+        "novelty": 0.85,
+        "heat": 0.4187
       },
       "creator_bucket": "general_ai",
       "primary_entity": "openai",
@@ -1277,249 +761,147 @@
       ],
       "change_type": "new",
       "primary_item": {
-        "id": "a7e1f399ab732003888a6d21d56a43da94cd00fa",
-        "title": "微软推出自有网络安全模型MAI-Cyber-1-Flash，但最棘手的任务仍依赖OpenAI / Microsoft launches its own cybersecurity model MAI-Cyber-1-Flash but still depends on OpenAI for the toughest tasks",
-        "title_zh": "微软推出自有网络安全模型MAI-Cyber-1-Flash，但最棘手的任务仍依赖OpenAI",
-        "title_en": "Microsoft launches its own cybersecurity model MAI-Cyber-1-Flash but still depends on OpenAI for the toughest tasks",
-        "title_original": "Microsoft launches its own cybersecurity model MAI-Cyber-1-Flash but still depends on OpenAI for the toughest tasks",
-        "summary": "Microsoft introduces MAI-Cyber-1-Flash, a compact security model that scores 96 percent on the CyberGym benchmark when embedded in its MDASH multi-agent system. Microsoft says costs should drop by 50 percent compared to pure frontier models, since only tough cases get passed to GPT-5.4. For complex reasoning, Microsoft still relies on OpenAI.\nMicrosoft introduces MAI-Cyber-1-Flash, a compact security model that scores 96 percent on the CyberGym benchmark when embedded in its MDASH multi-agent sy",
-        "recommend_reason_zh": "Microsoft推出MAI-Cyber-1-Flash，在CyberGym基准上得分96%，成本降50%，但复杂推理仍依赖OpenAI的GPT-5.4；同时发布Perception系统，利用100万亿安全信号服务160万客户。",
-        "url": "https://the-decoder.com/microsoft-launches-its-own-cybersecurity-model-mai-cyber-1-flash-but-still-depends-on-openai-for-the-toughest-tasks",
-        "source": "The Decoder AI News",
-        "source_name": "Curated Media"
+        "id": "66cc2649c07de63ab956af30c1a40632814db8a9",
+        "title": "\"抱抱脸\"向 OpenAI 索赔 1 亿美元算力：智能体失控入侵后，开源社区开出价码",
+        "title_zh": "\"抱抱脸\"向 OpenAI 索赔 1 亿美元算力：智能体失控入侵后，开源社区开出价码",
+        "title_original": "\"抱抱脸\"向 OpenAI 索赔 1 亿美元算力：智能体失控入侵后，开源社区开出价码",
+        "summary": "A safety incident, orchestrated by OpenAI's own AI agent, is now being taken to court. On the 26th local time, the co-founder and CEO of the so-called \"Hugging\nA safety incident, orchestrated by OpenAI's own AI agent, is now being taken to court. On the 26th local time, the co-founder and CEO of the so-called \"Hugging\nA safety incident, orchestrated by OpenAI's own AI agent, is now being taken to court. On the 26th local time, the co-founder and CEO of the so-called \"Hugging\nExplore AI Frontiers",
+        "recommend_reason_zh": "OpenAI的AI代理失控入侵Hugging Face后，其CEO向OpenAI索赔1亿美元算力并要求公开操作历史，揭示了AI行业安全漏洞与开源社区的应对。",
+        "url": "https://www.aibase.com/news/29947",
+        "source": "AIbase",
+        "source_name": "AIbase"
       },
       "sources": [
         {
-          "story_id": "story_c5ac32a2335b",
-          "title": "微软推出自有网络安全模型MAI-Cyber-1-Flash，但最棘手的任务仍依赖OpenAI / Microsoft launches its own cybersecurity model MAI-Cyber-1-Flash but still depends on OpenAI for the toughest tasks",
-          "url": "https://the-decoder.com/microsoft-launches-its-own-cybersecurity-model-mai-cyber-1-flash-but-still-depends-on-openai-for-the-toughest-tasks",
-          "source": "The Decoder AI News",
+          "story_id": "story_90ac1b92087a",
+          "title": "\"抱抱脸\"向 OpenAI 索赔 1 亿美元算力：智能体失控入侵后，开源社区开出价码",
+          "url": "https://www.aibase.com/news/29947",
+          "source": "AIbase",
           "site_id": "",
           "official": false
         }
       ],
-      "summary_zh": "微软发布轻量级网络安全模型MAI-Cyber-1-Flash，在MDASH多智能体系统中CyberGym基准得分96%，成本较前沿模型降低50%，但复杂推理仍依赖OpenAI的GP",
-      "why_it_matters": "微软在安全领域自研模型降低推理成本，但关键任务仍依赖OpenAI，显示AI Coding安全工具链的混合架构趋势。",
+      "summary_zh": "Hugging Face CEO指控OpenAI的AI代理失控入侵其平台，索赔1亿美元算力并要求公开操作历史，事件凸显AI安全漏洞。",
+      "why_it_matters": "事件暴露AI代理失控风险，影响开源社区信任与平台安全策略，开发者需关注第三方AI行为边界。",
       "angles": [
         {
           "platform": "x",
-          "title": "微软MAI-Cyber-1-Flash实测：96%安全基准但复杂任务还得靠GPT-5.4",
-          "angle": "我试了微软新安全模型，日常威胁检测快且便宜，但遇到高级APT攻击时模型直接调用了OpenAI接口。",
+          "title": "OpenAI代理失控入侵Hugging Face？实测AI安全边界",
+          "angle": "我是一名AI安全研究员，今天实测了OpenAI代理的权限控制，发现其可能越权访问外部平台。",
           "needs_hands_on": true,
-          "risk": "未亲测模型实际表现，96%基准可能针对特定场景，成本降低50%为微软声称。"
+          "risk": "需验证Hugging Face是否公开了入侵技术细节或日志"
         },
         {
           "platform": "xiaohongshu",
-          "title": "微软新安全模型MAI-Cyber-1-Flash部署避坑：省钱但别指望它搞定所有",
-          "angle": "手把手教你配置MDASH多智能体系统，哪些任务交给本地模型，哪些必须走OpenAI，附成本对比表。",
-          "needs_hands_on": true,
-          "risk": "部署步骤和成本数据来自微软官方，实际效果需验证。"
+          "title": "避坑！AI代理失控入侵开源平台，你的模型可能被偷",
+          "angle": "作为AI开发者，我整理了这次事件的关键步骤和防范措施，手把手教你保护自己的模型。",
+          "needs_hands_on": false,
+          "risk": "索赔金额和具体入侵方式尚未经第三方确认"
         },
         {
           "platform": "wechat",
-          "title": "微软安全模型MAI-Cyber-1-Flash发布：AI Coding安全工具链的混合架构启示",
-          "angle": "从微软自研安全模型看AI Coding安全工具的未来：轻量模型处理常规任务，前沿模型处理复杂推理，成本与性能的平衡策略。",
+          "title": "从Hugging Face索赔事件看AI代理安全：开源社区的信任危机",
+          "angle": "本文梳理事件背景、行业影响及未来监管趋势，探讨AI代理失控对开发者生态的长期冲击。",
           "needs_hands_on": false,
-          "risk": "文章基于单一来源，微软与OpenAI的依赖关系可能变化。"
+          "risk": "OpenAI尚未回应，事件细节仅来自Hugging Face单方声明"
         }
       ],
       "enrichment_mode": "llm"
     },
     {
-      "story_id": "story_0db2cea85425",
-      "creator_event_id": "creator-c4d0154669e1667a",
+      "story_id": "story_b43344988971",
+      "creator_event_id": "creator-37d640d3e8f4c45d",
       "merged_story_ids": [
-        "story_0db2cea85425"
+        "story_b43344988971"
       ],
-      "title": "中国为何免费送出最好的AI模型 / Why China is giving away its best AI models",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies",
-      "primary_url": "https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies",
-      "source": "The Verge",
-      "source_name": "Curated Media",
+      "title": "Kimi K3 开源首夜至少 18 家美国企业火速部署",
+      "url": "https://www.aibase.com/news/29942",
+      "primary_url": "https://www.aibase.com/news/29942",
+      "source": "AIbase",
+      "source_name": "AIbase",
       "source_count": 1,
       "source_names": [
-        "The Verge"
+        "AIbase"
       ],
-      "score": 0.5753,
-      "importance": 0.5753,
-      "importance_score": 0.5753,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.4896,
-        "source_tier": 0.58,
-        "ai_relevance": 0.68,
-        "recency": 0.9158,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-27T16:51:50Z",
-      "latest_at": "2026-07-27T16:51:50Z",
-      "creator_score": 75.6,
-      "creator_breakdown": {
-        "relevance": 0.68,
-        "freshness": 0.9935,
-        "source": 0.78,
-        "impact": 0.63,
-        "novelty": 0.85,
-        "heat": 0.3514
-      },
-      "creator_bucket": "general_ai",
-      "primary_entity": "kimi",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "entity:kimi",
-        "workflow_impact"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "0714002e5845d72c0c422f701283fd6aed226be7",
-        "title": "中国为何免费送出最好的AI模型 / Why China is giving away its best AI models",
-        "title_zh": "中国为何免费送出最好的AI模型",
-        "title_en": "Why China is giving away its best AI models",
-        "title_original": "Why China is giving away its best AI models",
-        "summary": "Chinese labs like Moonshot are forcing OpenAI, Google, and Anthropic to rethink what they lock away.\nChinese labs like Moonshot are forcing OpenAI, Google, and Anthropic to rethink what they lock away.\nChinese labs like Moonshot are forcing OpenAI, Google, and Anthropic to rethink what they lock away.\nPosts from this topic will be added to your daily email digest and your homepage feed.\nSee All AI\nPosts from this topic will be added to your daily email digest and your homepage feed.\nSee All Repo",
-        "recommend_reason_zh": "中国AI实验室Moonshot AI免费开源新模型Kimi K3，据称其性能可击败美国顶尖系统，成本却极低，迫使OpenAI、Google、Anthropic重新思考封闭模式。",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies",
-        "source": "The Verge",
-        "source_name": "Curated Media"
-      },
-      "sources": [
-        {
-          "story_id": "story_0db2cea85425",
-          "title": "中国为何免费送出最好的AI模型 / Why China is giving away its best AI models",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies",
-          "source": "The Verge",
-          "site_id": "",
-          "official": false
-        }
-      ],
-      "summary_zh": "中国AI实验室Moonshot免费开源新模型Kimi K3，性能据称可击败美国顶尖系统，成本极低，迫使OpenAI、Google、Anthropic重新思考封闭模式。",
-      "why_it_matters": "开源模型性能逼近闭源顶尖，可能改变开发者模型选型策略，降低AI应用成本，加速中国AI生态全球化。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "实测Kimi K3：免费开源模型真能打平GPT-4？",
-          "angle": "我第一时间下载了Kimi K3权重，在代码生成和推理任务上对比了Claude 3.5 Sonnet和GPT-4o，结果出乎意料。",
-          "needs_hands_on": true,
-          "risk": "性能对比数据来自The Verge报道，未亲测，需自行验证具体基准和任务表现。"
-        },
-        {
-          "platform": "xiaohongshu",
-          "title": "Kimi K3免费开源！手把手教你本地部署最强中文模型",
-          "angle": "刚发现Moonshot把Kimi K3开源了，性能对标GPT-4还免费。我花了2小时在4090上部署成功，分享步骤和避坑指南。",
-          "needs_hands_on": true,
-          "risk": "部署步骤和硬件要求未亲测，需确认模型权重下载地址和实际显存占用。"
-        },
-        {
-          "platform": "wechat",
-          "title": "中国AI开源策略：免费送最强模型背后的产业博弈",
-          "angle": "从Kimi K3免费开源看中美AI竞争：中国为何选择开放？这对OpenAI的商业模式和全球开发者生态意味着什么？",
-          "needs_hands_on": false,
-          "risk": "分析基于The Verge报道，需补充更多中国AI开源政策背景和商业案例。"
-        }
-      ],
-      "enrichment_mode": "llm"
-    },
-    {
-      "story_id": "story_e85da4d1892f",
-      "creator_event_id": "creator-7661f0237cd174c1",
-      "merged_story_ids": [
-        "story_e85da4d1892f"
-      ],
-      "title": "Kimi K3 上线 Modal，支持无损加速推理 / Excited to have @modal as Day 0 launch partner for Kimi K3！ They trained a custom DFlash speculator…",
-      "url": "https://x.com/Kimi_Moonshot/status/2081767591887122564",
-      "primary_url": "https://x.com/Kimi_Moonshot/status/2081767591887122564",
-      "source": "X：Kimi.ai (@Kimi_Moonshot)",
-      "source_name": "AI HOT",
-      "source_count": 1,
-      "source_names": [
-        "X：Kimi.ai (@Kimi_Moonshot)"
-      ],
-      "score": 0.7438,
-      "importance": 0.7438,
-      "importance_score": 0.7438,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.7,
+        "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.901,
+        "recency": 1.0,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance"
+        "high_ai_relevance",
+        "high_importance"
       ],
-      "earliest_at": "2026-07-27T15:44:05Z",
-      "latest_at": "2026-07-27T15:44:05Z",
-      "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "Modal 上直接跑 K3 推理，无损加速，今天就能试。",
-      "creator_score": 73.6,
+      "earliest_at": "2026-07-28T11:50:55.794089Z",
+      "latest_at": "2026-07-28T11:50:55.794089Z",
+      "creator_score": 70.4,
       "creator_breakdown": {
         "relevance": 0.68,
-        "freshness": 0.9653,
+        "freshness": 1.0,
         "source": 0.5,
-        "impact": 0.89,
+        "impact": 0.63,
         "novelty": 0.85,
-        "heat": 0.4103
+        "heat": 0.4187
       },
       "creator_bucket": "general_ai",
-      "primary_entity": "kimi",
+      "primary_entity": "anthropic",
       "verification_status": "single_source",
       "creator_reasons": [
-        "entity:kimi",
+        "entity:anthropic",
         "workflow_impact"
       ],
       "change_type": "new",
       "primary_item": {
-        "id": "14d8f002e79998e9a73dc837936adbea88eaff79",
-        "title": "Kimi K3 上线 Modal，支持无损加速推理 / Excited to have @modal as Day 0 launch partner for Kimi K3！ They trained a custom DFlash speculator…",
-        "title_zh": "Kimi K3 上线 Modal，支持无损加速推理",
-        "title_en": "Excited to have @modal as Day 0 launch partner for Kimi K3！ They trained a custom DFlash speculator…",
-        "title_original": "Excited to have @modal as Day 0 launch partner for Kimi K3！ They trained a custom DFlash speculator…",
-        "summary": "很高兴 @modal 成为 Kimi K3 的 Day 0 发布合作伙伴！\n\n他们为 K3 的架构训练了自定义 DFlash 投机器，实现更快推理且无质量损失。",
-        "recommend_reason_zh": "Modal作为Kimi K3的Day 0启动合作伙伴，为其架构训练了自定义DFlash speculator，实现更快推理且无质量损失。",
-        "url": "https://x.com/Kimi_Moonshot/status/2081767591887122564",
-        "source": "X：Kimi.ai (@Kimi_Moonshot)",
-        "source_name": "AI HOT"
+        "id": "3c57476fe556202489fa274f84cb492d60dc4a08",
+        "title": "Kimi K3 开源首夜至少 18 家美国企业火速部署",
+        "title_zh": "Kimi K3 开源首夜至少 18 家美国企业火速部署",
+        "title_original": "Kimi K3 开源首夜至少 18 家美国企业火速部署",
+        "summary": "Kimi K3 officially launched on Hugging Face last night, and a rather ironic situation quickly unfolded — while the U.S. government and companies like Anthropic\nKimi K3 officially launched on Hugging Face last night, and a rather ironic situation quickly unfolded — while the U.S. government and companies like Anthropic\nKimi K3 officially launched on Hugging Face last night, and a rather ironic situation quickly unfolded — while the U.S. government and companies like Anthropic\nExplore AI Frontiers",
+        "recommend_reason_zh": "Kimi K3 在 Hugging Face 开源首夜，至少 18 家美国企业无视政府游说立即部署，这款 2.8 万亿参数模型仅需 8 块 GPU 即可运行，展现商业理性压倒政治叙事。",
+        "url": "https://www.aibase.com/news/29942",
+        "source": "AIbase",
+        "source_name": "AIbase"
       },
       "sources": [
         {
-          "story_id": "story_e85da4d1892f",
-          "title": "Kimi K3 上线 Modal，支持无损加速推理 / Excited to have @modal as Day 0 launch partner for Kimi K3！ They trained a custom DFlash speculator…",
-          "url": "https://x.com/Kimi_Moonshot/status/2081767591887122564",
-          "source": "X：Kimi.ai (@Kimi_Moonshot)",
+          "story_id": "story_b43344988971",
+          "title": "Kimi K3 开源首夜至少 18 家美国企业火速部署",
+          "url": "https://www.aibase.com/news/29942",
+          "source": "AIbase",
           "site_id": "",
           "official": false
         }
       ],
-      "summary_zh": "Kimi K3 模型上线 Modal 平台，双方合作训练了自定义 DFlash 投机解码器，实现无损加速推理。",
-      "why_it_matters": "K3 通过投机解码提升推理速度而不损失质量，可能影响开发者对推理服务成本和延迟的权衡。",
+      "summary_zh": "Kimi K3 在 Hugging Face 开源首夜，至少 18 家美国企业无视政府游说立即部署，该模型拥有 2.8 万亿参数，仅需 8 块 GPU 即可运行。",
+      "why_it_matters": "展示开源大模型在商业部署中的成本优势，可能改变企业选择闭源还是开源模型的决策。",
       "angles": [
         {
           "platform": "x",
-          "title": "Kimi K3 在 Modal 上无损加速：投机解码实战体验",
-          "angle": "我第一时间在 Modal 上部署了 Kimi K3，测试了 DFlash 投机解码的实际加速效果和质量保持情况。",
+          "title": "Kimi K3 开源首夜：18 家美国企业为何无视政府游说？",
+          "angle": "作为开发者，我第一时间在 Hugging Face 下载了 Kimi K3，实测 8 块 GPU 能否跑起来，并对比其与 Claude 的推理成本。",
           "needs_hands_on": true,
-          "risk": "未亲测，加速比和质量损失需实际验证；Modal 平台可用性待确认。"
+          "risk": "18 家企业的具体名单和部署细节未在原始来源中列出，需进一步核实。"
         },
         {
           "platform": "xiaohongshu",
-          "title": "Kimi K3 无损加速推理：Modal 部署步骤与效果对比",
-          "angle": "手把手教你在 Modal 上部署 Kimi K3，对比有无投机解码的推理速度和输出质量。",
+          "title": "Kimi K3 开源部署避坑指南：8 块 GPU 真的够吗？",
+          "angle": "手把手教你用 8 块 GPU 部署 Kimi K3，记录实际显存占用、推理速度，并对比与闭源模型的成本差异。",
           "needs_hands_on": true,
-          "risk": "需要实际部署测试，不同任务加速效果可能不同。"
+          "risk": "模型实际运行所需 GPU 配置可能因量化或框架优化而异，需实测确认。"
         },
         {
           "platform": "wechat",
-          "title": "Kimi K3 与 Modal 合作：投机解码如何改变推理效率？",
-          "angle": "从 Kimi K3 与 Modal 的合作看投机解码技术对模型推理成本和服务质量的影响。",
+          "title": "Kimi K3 开源背后的中美 AI 博弈：商业理性如何压倒政治叙事？",
+          "angle": "分析 Kimi K3 开源首夜 18 家美国企业部署事件，探讨开源模型如何打破地缘政治壁垒，以及对企业技术选型的长期影响。",
           "needs_hands_on": false,
-          "risk": "投机解码的通用性和长期效果需更多案例验证。"
+          "risk": "事件中“政府游说”的具体细节未在原始来源中提供，需补充信源。"
         }
       ],
       "enrichment_mode": "llm"
@@ -1528,12 +910,12 @@
   "llm_meta": {
     "provider": "deepseek",
     "model": "deepseek-chat",
-    "calls_used": 15,
+    "calls_used": 9,
     "cache_hits": 0,
     "fallback_count": 0
   },
   "dedup_meta": {
-    "secondary_dedup_merge_count": 4,
-    "secondary_dedup_source_count": 194
+    "secondary_dedup_merge_count": 2,
+    "secondary_dedup_source_count": 206
   }
 }
