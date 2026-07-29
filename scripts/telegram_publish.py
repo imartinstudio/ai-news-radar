@@ -88,7 +88,7 @@ def _render_item(item: dict[str, Any], index: int, target: int) -> str:
         score = item.get("creator_score")
         score_text = f"｜评分 {score:g}" if isinstance(score, (int, float)) else ""
         source_url = _safe_url(item.get("url") or item.get("primary_url"))
-        source_line = f'<a href="{source_url}">原始来源</a>' if source_url else ""
+        source_line = f'原始来源： <a href="{source_url}">{source_url}</a>' if source_url else ""
         lines = [
             f"<b>{index}. {_escaped(item.get('title'), title_limit)}</b>",
             (
