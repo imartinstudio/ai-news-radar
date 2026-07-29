@@ -1,8 +1,533 @@
 {
   "version": 1,
-  "generated_at": "2026-07-29T02:57:22.921245Z",
-  "total_editions": 13,
+  "generated_at": "2026-07-29T12:05:01.502863Z",
+  "total_editions": 14,
   "editions": [
+    {
+      "edition_id": "2026-07-29-evening",
+      "edition_kind": "evening",
+      "generated_at": "2026-07-29T12:05:01.502863Z",
+      "timezone": "Asia/Shanghai",
+      "total_items": 5,
+      "summary": {
+        "confirmed": 1,
+        "single_source": 4,
+        "early_signal": 0,
+        "rumor": 0,
+        "new": 5,
+        "updated": 0,
+        "confirmed_updates": 0
+      },
+      "items": [
+        {
+          "story_id": "story_3db5c5522788",
+          "creator_event_id": "creator-a61eef332e731206",
+          "merged_story_ids": [
+            "story_3db5c5522788"
+          ],
+          "title": "CodeQL 2.26.1 提升分析准确率与框架覆盖范围 / CodeQL 2.26.1 improves analysis accuracy and framework coverage",
+          "url": "https://github.blog/changelog/2026-07-29-codeql-2-26-1-improves-analysis-accuracy-and-framework-coverage",
+          "primary_url": "https://github.blog/changelog/2026-07-29-codeql-2-26-1-improves-analysis-accuracy-and-framework-coverage",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "source_count": 1,
+          "source_names": [
+            "GitHub Changelog"
+          ],
+          "score": 0.8385,
+          "importance": 0.8385,
+          "importance_score": 0.8385,
+          "importance_label": "官方更新",
+          "importance_breakdown": {
+            "editorial": 0.9,
+            "source_tier": 1.0,
+            "ai_relevance": 0.87,
+            "recency": 0.9692,
+            "story_heat": 0.0
+          },
+          "category": "official",
+          "reasons": [
+            "official_source",
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-07-29T09:45:11Z",
+          "latest_at": "2026-07-29T09:45:11Z",
+          "persona_id": "pragmatic",
+          "persona_score": 72,
+          "persona_review": "安全扫描工具小版本更新，修了误报和新增框架支持，CI里直接换版本就行。",
+          "creator_score": 88.3,
+          "creator_breakdown": {
+            "relevance": 0.88,
+            "freshness": 1.0,
+            "source": 1.0,
+            "impact": 0.81,
+            "novelty": 0.75,
+            "heat": 0.4435
+          },
+          "creator_bucket": "ai_coding",
+          "verification_status": "confirmed",
+          "creator_reasons": [
+            "ai_coding_terms",
+            "workflow_impact",
+            "official_or_tier0_source"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "74b8e193bdc9d3b7244e04a3929fe7acea33e92c",
+            "title": "CodeQL 2.26.1 提升分析准确率与框架覆盖范围 / CodeQL 2.26.1 improves analysis accuracy and framework coverage",
+            "title_zh": "CodeQL 2.26.1 提升分析准确率与框架覆盖范围",
+            "title_en": "CodeQL 2.26.1 improves analysis accuracy and framework coverage",
+            "title_original": "CodeQL 2.26.1 improves analysis accuracy and framework coverage",
+            "summary": "CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We’ve recently released CodeQL 2.26.1, which improves framework coverage for Go,…\nCodeQL is the static analysis engine behind GitHub code scanning , which finds and remediates security issues in your code. We’ve recently released CodeQL 2.26.1 , which improves framework coverage for Go, Java/Kotlin, and JavaScript/TypeScript, and reduces false positives in Rust analysis.\nC/C",
+            "recommend_reason_zh": "CodeQL 2.26.1 改进了对 Go、Java/Kotlin、JavaScript/TypeScript 的框架覆盖，并减少了 Rust 分析的误报，值得安全开发者关注。",
+            "url": "https://github.blog/changelog/2026-07-29-codeql-2-26-1-improves-analysis-accuracy-and-framework-coverage",
+            "source": "GitHub Changelog",
+            "source_name": "Official AI Updates"
+          },
+          "sources": [
+            {
+              "story_id": "story_3db5c5522788",
+              "title": "CodeQL 2.26.1 提升分析准确率与框架覆盖范围 / CodeQL 2.26.1 improves analysis accuracy and framework coverage",
+              "url": "https://github.blog/changelog/2026-07-29-codeql-2-26-1-improves-analysis-accuracy-and-framework-coverage",
+              "source": "GitHub Changelog",
+              "site_id": "",
+              "official": true
+            }
+          ],
+          "summary_zh": "GitHub 发布 CodeQL 2.26.1，改进 Go、Java/Kotlin、JavaScript/TypeScript 框架覆盖，并减少 Rust 分析误报，提升静态分析准",
+          "why_it_matters": "CodeQL 是 GitHub 代码扫描的核心引擎，更新直接影响安全漏洞检测的准确性和覆盖范围，降低误报可减少开发者审查负担。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "CodeQL 2.26.1 实测：Rust 误报减少多少？",
+              "angle": "我第一时间升级了 CodeQL 2.26.1，在 Rust 项目上跑了一遍，看看误报率到底降了多少。",
+              "needs_hands_on": true,
+              "risk": "未亲测具体误报减少比例，官方未给出量化数据。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "CodeQL 2.26.1 升级指南：框架覆盖提升与避坑",
+              "angle": "手把手教你升级 CodeQL 2.26.1，对比新旧版本在 Go/Java/JS 项目上的分析结果，注意新框架的配置变化。",
+              "needs_hands_on": true,
+              "risk": "未验证所有框架的覆盖提升细节，可能有个别框架需要额外配置。"
+            },
+            {
+              "platform": "wechat",
+              "title": "CodeQL 2.26.1 发布：静态分析工具如何影响你的 CI/CD 安全？",
+              "angle": "从 CodeQL 2.26.1 的更新看静态分析趋势：框架覆盖扩大、误报减少，对开发安全左移的长期影响。",
+              "needs_hands_on": false,
+              "risk": ""
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_cde9a0613492",
+          "creator_event_id": "creator-6c166ddfe772493b",
+          "merged_story_ids": [
+            "story_cde9a0613492"
+          ],
+          "title": "OpenAI 开源 Codex Security CLI，帮助开发者从命令行发现并修复漏洞 / OpenAI open-sources Codex Security CLI to help developers find and fix vulnerabilities from the command line",
+          "url": "https://the-decoder.com/openai-open-sources-codex-security-cli-to-help-developers-find-and-fix-vulnerabilities-from-the-command-line",
+          "primary_url": "https://the-decoder.com/openai-open-sources-codex-security-cli-to-help-developers-find-and-fix-vulnerabilities-from-the-command-line",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "source_count": 1,
+          "source_names": [
+            "The Decoder AI News"
+          ],
+          "score": 0.6569,
+          "importance": 0.6569,
+          "importance_score": 0.6569,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.6048,
+            "source_tier": 0.58,
+            "ai_relevance": 0.84,
+            "recency": 0.999,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "high_ai_relevance"
+          ],
+          "earliest_at": "2026-07-29T11:50:56Z",
+          "latest_at": "2026-07-29T11:50:56Z",
+          "creator_score": 84.5,
+          "creator_breakdown": {
+            "relevance": 0.88,
+            "freshness": 1.0,
+            "source": 0.78,
+            "impact": 0.81,
+            "novelty": 0.85,
+            "heat": 0.3799
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "anthropic",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:anthropic",
+            "ai_coding_terms",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "3714aea66cb95a74b504d8adfa4a70cc2951f133",
+            "title": "OpenAI 开源 Codex Security CLI，帮助开发者从命令行发现并修复漏洞 / OpenAI open-sources Codex Security CLI to help developers find and fix vulnerabilities from the command line",
+            "title_zh": "OpenAI 开源 Codex Security CLI，帮助开发者从命令行发现并修复漏洞",
+            "title_en": "OpenAI open-sources Codex Security CLI to help developers find and fix vulnerabilities from the command line",
+            "title_original": "OpenAI open-sources Codex Security CLI to help developers find and fix vulnerabilities from the command line",
+            "summary": "OpenAI has released Codex Security CLI, an open-source tool that automatically detects and fixes vulnerabilities in code repositories. Previously known internally as \"Aardvark,\" the system has already helped fix more than 3,000 critical security flaws, according to OpenAI. It competes directly with Anthropic's Claude Security, as both AI companies race to match the growing automation of cyberattacks with AI-powered defense.\nOpenAI has released Codex Security CLI, an open-source tool that automat",
+            "recommend_reason_zh": "OpenAI开源了Codex Security CLI（原内部代号Aardvark），这款命令行工具已帮助修复超过3000个关键安全漏洞，并与Anthropic的Claude Security直接竞争。",
+            "url": "https://the-decoder.com/openai-open-sources-codex-security-cli-to-help-developers-find-and-fix-vulnerabilities-from-the-command-line",
+            "source": "The Decoder AI News",
+            "source_name": "Curated Media"
+          },
+          "sources": [
+            {
+              "story_id": "story_cde9a0613492",
+              "title": "OpenAI 开源 Codex Security CLI，帮助开发者从命令行发现并修复漏洞 / OpenAI open-sources Codex Security CLI to help developers find and fix vulnerabilities from the command line",
+              "url": "https://the-decoder.com/openai-open-sources-codex-security-cli-to-help-developers-find-and-fix-vulnerabilities-from-the-command-line",
+              "source": "The Decoder AI News",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "OpenAI 开源 Codex Security CLI（原内部代号 Aardvark），可自动检测并修复代码仓库中的漏洞，已修复超 3000 个关键安全缺陷，与 Anthropi",
+          "why_it_matters": "为开发者提供命令行安全扫描与修复能力，降低漏洞修复门槛，推动 AI 在安全领域的应用竞争。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "实测 OpenAI Codex Security CLI：能否替代 Claude Security？",
+              "angle": "我第一时间下载了 Codex Security CLI，在几个开源项目上跑了一遍，看看它和 Claude Security 的检测能力、修复建议有何差异。",
+              "needs_hands_on": true,
+              "risk": "未亲测，需验证实际检测准确率和修复效果，以及是否支持所有主流语言。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "手把手教你用 OpenAI Codex Security CLI 给代码做安全体检",
+              "angle": "从安装到扫描再到自动修复，一步步截图演示，分享常见报错和避坑指南。",
+              "needs_hands_on": true,
+              "risk": "需确认安装步骤和兼容性，不同系统可能遇到依赖问题。"
+            },
+            {
+              "platform": "wechat",
+              "title": "AI 安全工具军备竞赛：OpenAI 开源 Codex Security CLI 意味着什么？",
+              "angle": "分析 OpenAI 与 Anthropic 在 AI 安全领域的布局，对比两款工具的技术路线、开源策略及对开发工作流的影响。",
+              "needs_hands_on": false,
+              "risk": "需核实 OpenAI 声称的“已修复超 3000 个漏洞”的具体来源和统计口径。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_732de5564915",
+          "creator_event_id": "creator-7c5dc2ef2fdb062f",
+          "merged_story_ids": [
+            "story_732de5564915"
+          ],
+          "title": "MCP协议迎来问世以来最大改版：彻底\"无状态\"，全面适配Serverless",
+          "url": "https://www.aibase.com/news/29983",
+          "primary_url": "https://www.aibase.com/news/29983",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "source_count": 1,
+          "source_names": [
+            "AIbase"
+          ],
+          "score": 0.7676,
+          "importance": 0.7676,
+          "importance_score": 0.7676,
+          "importance_label": "行业动态",
+          "importance_breakdown": {
+            "editorial": 0.72,
+            "source_tier": 0.78,
+            "ai_relevance": 1.0,
+            "recency": 1.0,
+            "story_heat": 0.0
+          },
+          "category": "industry",
+          "reasons": [
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-07-29T11:55:01.948616Z",
+          "latest_at": "2026-07-29T11:55:01.948616Z",
+          "creator_score": 79.7,
+          "creator_breakdown": {
+            "relevance": 0.9,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.81,
+            "novelty": 0.85,
+            "heat": 0.4187
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "mcp",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:mcp",
+            "ai_coding_terms",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "cffdf5b5a4b7864fc3d5fedaf647373fb496a81c",
+            "title": "MCP协议迎来问世以来最大改版：彻底\"无状态\"，全面适配Serverless",
+            "title_zh": "MCP协议迎来问世以来最大改版：彻底\"无状态\"，全面适配Serverless",
+            "title_original": "MCP协议迎来问世以来最大改版：彻底\"无状态\"，全面适配Serverless",
+            "summary": "Anthropic released version 5 of the Model Context Protocol on July 28, officially calling it the largest and most systematic overhaul since the protocol's incep\nAnthropic released version 5 of the Model Context Protocol on July 28, officially calling it the largest and most systematic overhaul since the protocol's incep\nAnthropic released version 5 of the Model Context Protocol on July 28, officially calling it the largest and most systematic overhaul since the protocol's incep\nExplore AI Fronti",
+            "recommend_reason_zh": "Anthropic在7月28日发布MCP v5，彻底转向无状态设计，移除握手和session ID，让每个请求独立，完美适配AWS Lambda、Cloudflare Workers等Serverless架构。",
+            "url": "https://www.aibase.com/news/29983",
+            "source": "AIbase",
+            "source_name": "AIbase"
+          },
+          "sources": [
+            {
+              "story_id": "story_732de5564915",
+              "title": "MCP协议迎来问世以来最大改版：彻底\"无状态\"，全面适配Serverless",
+              "url": "https://www.aibase.com/news/29983",
+              "source": "AIbase",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "Anthropic于7月28日发布MCP v5，这是协议问世以来最大改版，彻底转向无状态设计，移除握手和session ID，每个请求独立，全面适配Serverless架构如AWS",
+          "why_it_matters": "MCP无状态化大幅降低AI工具与Serverless集成的复杂度，开发者可更灵活地部署轻量级、可扩展的AI Coding工作流。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "MCP v5无状态化实测：Serverless部署AI工具链有多爽？",
+              "angle": "第一时间体验MCP v5，对比旧版握手流程，展示在Cloudflare Workers上部署的简化步骤和性能提升。",
+              "needs_hands_on": true,
+              "risk": "未亲测MCP v5实际API变更，需确认移除session ID后认证与状态管理方案。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "MCP v5无状态改造保姆级教程：从零部署AI Coding助手到Lambda",
+              "angle": "以开发者视角，图文并茂展示MCP v5新特性，重点讲解如何利用无状态特性快速将AI Coding工具部署到Serverless平台，附避坑指南。",
+              "needs_hands_on": true,
+              "risk": "需验证MCP v5与主流Serverless平台的兼容性，以及现有MCP客户端（如Claude Desktop）的升级路径。"
+            },
+            {
+              "platform": "wechat",
+              "title": "MCP v5深度解读：无状态化如何重塑AI Coding基础设施",
+              "angle": "从协议演进角度分析MCP v5的设计哲学，对比HTTP/2到HTTP/3的变迁，探讨无状态对AI工具链生态、成本和安全性的长期影响。",
+              "needs_hands_on": false,
+              "risk": "需引用Anthropic官方文档确认v5的具体变更细节，避免过度解读。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_d04138fbcd38",
+          "creator_event_id": "creator-2735d4d12d37584c",
+          "merged_story_ids": [
+            "story_d04138fbcd38"
+          ],
+          "title": "OpenRouter 推出专用 LangChain 集成包 一行字符串切 400 款模型，故障自动绕行",
+          "url": "https://www.aibase.com/news/29969",
+          "primary_url": "https://www.aibase.com/news/29969",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "source_count": 1,
+          "source_names": [
+            "AIbase"
+          ],
+          "score": 0.7664,
+          "importance": 0.7664,
+          "importance_score": 0.7664,
+          "importance_label": "行业动态",
+          "importance_breakdown": {
+            "editorial": 0.72,
+            "source_tier": 0.78,
+            "ai_relevance": 1.0,
+            "recency": 0.9935,
+            "story_heat": 0.0
+          },
+          "category": "industry",
+          "reasons": [
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-07-29T11:28:01.948616Z",
+          "latest_at": "2026-07-29T11:28:01.948616Z",
+          "creator_score": 78.1,
+          "creator_breakdown": {
+            "relevance": 0.88,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.81,
+            "novelty": 0.75,
+            "heat": 0.4182
+          },
+          "creator_bucket": "ai_coding",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "ai_coding_terms",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "4a8337065f8401e8f77f22fa80f6cc5fce941e55",
+            "title": "OpenRouter 推出专用 LangChain 集成包 一行字符串切 400 款模型，故障自动绕行",
+            "title_zh": "OpenRouter 推出专用 LangChain 集成包 一行字符串切 400 款模型，故障自动绕行",
+            "title_original": "OpenRouter 推出专用 LangChain 集成包 一行字符串切 400 款模型，故障自动绕行",
+            "summary": "OpenRouter has integrated its model routing capabilities into the official LangChain integration package for the first time. On the Python side, it's called lan\nOpenRouter has integrated its model routing capabilities into the official LangChain integration package for the first time. On the Python side, it's called lan\nOpenRouter has integrated its model routing capabilities into the official LangChain integration package for the first time. On the Python side, it's called lan\nExplore AI Fronti",
+            "recommend_reason_zh": "OpenRouter 正式发布 langchain-openrouter 和 @langchain/openrouter，一行代码就能连上 400 多款模型、70 多家供应商，还能自动避开 30 秒内出故障的提供商。",
+            "url": "https://www.aibase.com/news/29969",
+            "source": "AIbase",
+            "source_name": "AIbase"
+          },
+          "sources": [
+            {
+              "story_id": "story_d04138fbcd38",
+              "title": "OpenRouter 推出专用 LangChain 集成包 一行字符串切 400 款模型，故障自动绕行",
+              "url": "https://www.aibase.com/news/29969",
+              "source": "AIbase",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "OpenRouter 首次推出官方 LangChain 集成包 langchain-openrouter 和 @langchain/openrouter，一行代码可调用 400 多",
+          "why_it_matters": "简化多模型切换与故障处理，降低 LangChain 开发者集成多供应商的复杂度，提升 AI 应用稳定性。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "OpenRouter 官方 LangChain 包实测：一行代码切换 400 模型",
+              "angle": "我试了 OpenRouter 新出的 LangChain 集成包，真的只用一行字符串就能换模型，故障自动绕行也很稳。",
+              "needs_hands_on": true,
+              "risk": "未亲测故障绕行效果和实际兼容性，需验证是否支持所有模型。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "OpenRouter LangChain 集成包使用教程：一行代码调用 400+ 模型",
+              "angle": "手把手教你安装 langchain-openrouter，一行代码切换模型，自动避开故障供应商，附代码示例和避坑指南。",
+              "needs_hands_on": true,
+              "risk": "未验证所有模型和供应商的兼容性，部分模型可能需额外配置。"
+            },
+            {
+              "platform": "wechat",
+              "title": "OpenRouter 官方 LangChain 集成：多模型路由的标准化与工程实践",
+              "angle": "从 LangChain 生态看 OpenRouter 集成包的意义：降低多供应商切换成本，自动故障绕行如何提升 AI 应用可靠性。",
+              "needs_hands_on": false,
+              "risk": "信息来自单一来源 AIbase，需确认官方文档细节。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_587e7e5b946a",
+          "creator_event_id": "creator-4eb4bbaa128d5263",
+          "merged_story_ids": [
+            "story_587e7e5b946a"
+          ],
+          "title": "ChatGPT周活用户逼近 10 亿大关：晚了 7 个月，但上线不到四年",
+          "url": "https://www.aibase.com/news/29977",
+          "primary_url": "https://www.aibase.com/news/29977",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "source_count": 1,
+          "source_names": [
+            "AIbase"
+          ],
+          "score": 0.7676,
+          "importance": 0.7676,
+          "importance_score": 0.7676,
+          "importance_label": "行业动态",
+          "importance_breakdown": {
+            "editorial": 0.72,
+            "source_tier": 0.78,
+            "ai_relevance": 1.0,
+            "recency": 1.0,
+            "story_heat": 0.0
+          },
+          "category": "industry",
+          "reasons": [
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-07-29T11:55:01.948616Z",
+          "latest_at": "2026-07-29T11:55:01.948616Z",
+          "creator_score": 70.4,
+          "creator_breakdown": {
+            "relevance": 0.68,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.63,
+            "novelty": 0.85,
+            "heat": 0.4187
+          },
+          "creator_bucket": "general_ai",
+          "primary_entity": "anthropic",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:anthropic",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "cd45b57a667c8c59ce4b0ecad528f6454e1af77b",
+            "title": "ChatGPT周活用户逼近 10 亿大关：晚了 7 个月，但上线不到四年",
+            "title_zh": "ChatGPT周活用户逼近 10 亿大关：晚了 7 个月，但上线不到四年",
+            "title_original": "ChatGPT周活用户逼近 10 亿大关：晚了 7 个月，但上线不到四年",
+            "summary": "According to internal disclosures from OpenAI, the weekly active users of its chatbot ChatGPT are about to exceed 1 billion. This milestone was originally plann\nAccording to internal disclosures from OpenAI, the weekly active users of its chatbot ChatGPT are about to exceed 1 billion. This milestone was originally plann\nAccording to internal disclosures from OpenAI, the weekly active users of its chatbot ChatGPT are about to exceed 1 billion. This milestone was originally plann\nExplore AI Fronti",
+            "recommend_reason_zh": "ChatGPT周活用户逼近10亿，比原计划晚了7个月，但上线不到四年即达此规模；GPT-5遭广泛批评，Anthropic的Claude也抢占了部分市场份额。",
+            "url": "https://www.aibase.com/news/29977",
+            "source": "AIbase",
+            "source_name": "AIbase"
+          },
+          "sources": [
+            {
+              "story_id": "story_587e7e5b946a",
+              "title": "ChatGPT周活用户逼近 10 亿大关：晚了 7 个月，但上线不到四年",
+              "url": "https://www.aibase.com/news/29977",
+              "source": "AIbase",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "OpenAI内部披露ChatGPT周活用户即将突破10亿，比原计划晚7个月，但上线不到四年即达此规模。GPT-5遭批评，Anthropic的Claude抢占部分份额。",
+          "why_it_matters": "用户规模逼近10亿表明AI聊天工具已主流化，开发者需关注平台生态变化及竞争格局对API定价、模型选择的影响。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "ChatGPT周活逼近10亿，但GPT-5被批，Claude在抢地盘",
+              "angle": "作为AI开发者，我注意到ChatGPT用户量虽大但口碑分化，GPT-5的批评和Claude的崛起可能改变开发者的模型选择偏好。",
+              "needs_hands_on": false,
+              "risk": "GPT-5被批评的具体细节和Claude市场份额数据未在原文中提供，需进一步核实。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "ChatGPT周活10亿？实测对比GPT-5和Claude的代码能力",
+              "angle": "我最近对比了GPT-5和Claude在代码生成上的表现，发现Claude在某些任务上更优，分享我的实测步骤和避坑经验。",
+              "needs_hands_on": true,
+              "risk": "GPT-5和Claude的具体能力对比需亲测，原文未提供详细评测数据。"
+            },
+            {
+              "platform": "wechat",
+              "title": "ChatGPT用户量逼近10亿背后：AI聊天工具的竞争与开发者生态",
+              "angle": "从ChatGPT用户增长看AI聊天工具市场格局变化，分析GPT-5的争议和Claude的崛起对开发者工作流和API选择的长期影响。",
+              "needs_hands_on": false,
+              "risk": "GPT-5被批评的具体内容和Claude市场份额数据需从其他来源核实。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        }
+      ],
+      "llm_meta": {
+        "provider": "deepseek",
+        "model": "deepseek-chat",
+        "calls_used": 5,
+        "cache_hits": 0,
+        "fallback_count": 0
+      },
+      "dedup_meta": {
+        "secondary_dedup_merge_count": 5,
+        "secondary_dedup_source_count": 231
+      }
+    },
     {
       "edition_id": "2026-07-29-morning",
       "edition_kind": "morning",

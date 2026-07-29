@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "generated_at": "2026-07-29T02:57:22.921245Z",
+  "generated_at": "2026-07-29T12:05:01.502863Z",
   "total_items": 20,
   "dedup_meta": {
-    "secondary_dedup_merge_count": 3,
-    "secondary_dedup_source_count": 221
+    "secondary_dedup_merge_count": 5,
+    "secondary_dedup_source_count": 231
   },
   "items": [
     {
@@ -22,15 +22,15 @@
       "source_names": [
         "OpenAI Codex Changelog"
       ],
-      "score": 0.8588,
-      "importance": 0.8588,
-      "importance_score": 0.8588,
+      "score": 0.8375,
+      "importance": 0.8375,
+      "importance_score": 0.8375,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.98,
-        "recency": 0.96,
+        "recency": 0.8419,
         "story_heat": 0.0
       },
       "category": "official",
@@ -44,14 +44,14 @@
       "persona_id": "pragmatic",
       "persona_score": 85,
       "persona_review": "新版本直接可用，检查changelog看修复了哪些bug或新增了API，今天就能升级。",
-      "creator_score": 94.9,
+      "creator_score": 89.8,
       "creator_breakdown": {
         "relevance": 1.0,
-        "freshness": 1.0,
+        "freshness": 0.8479,
         "source": 1.0,
-        "impact": 0.94,
+        "impact": 0.81,
         "novelty": 0.85,
-        "heat": 0.4506
+        "heat": 0.4431
       },
       "creator_bucket": "ai_coding",
       "primary_entity": "codex",
@@ -67,7 +67,6 @@
         "title": "Codex CLI 0.146.0",
         "title_en": "Codex CLI 0.146.0",
         "title_original": "Codex CLI 0.146.0",
-        "summary": "Latest updates to Codex, OpenAI’s coding agent\nLatest updates to Codex, OpenAI’s coding agent\nLatest updates to Codex, OpenAI’s coding agent\nLatest updates to Codex, OpenAI’s coding agent\nFull Changelog: rust-v0.145.0...rust-v0.146.0\nFull release on Github\nPowered by GPT-Live, ChatGPT Voice lets you talk through work and coordinate\ntasks in Chat, Work, and Codex in the ChatGPT desktop app.\nStart a new chat or task in voice mode, then ask ChatGPT to start, check, or\nsteer work in other threads. O",
         "recommend_reason_zh": "Codex CLI 0.146.0 由 GPT-Live 驱动，新增 ChatGPT Voice 语音协调任务，并支持本地项目包含多个相关文件夹，主文件夹用于 Git 操作和自动发现 AGENTS.md。",
         "url": "https://developers.openai.com/codex/changelog",
         "source": "OpenAI Codex Changelog",
@@ -79,6 +78,82 @@
           "title": "Codex CLI 0.146.0",
           "url": "https://developers.openai.com/codex/changelog",
           "source": "OpenAI Codex Changelog",
+          "site_id": "",
+          "official": true
+        }
+      ]
+    },
+    {
+      "story_id": "story_3db5c5522788",
+      "creator_event_id": "creator-a61eef332e731206",
+      "merged_story_ids": [
+        "story_3db5c5522788"
+      ],
+      "title": "CodeQL 2.26.1 提升分析准确率与框架覆盖范围 / CodeQL 2.26.1 improves analysis accuracy and framework coverage",
+      "url": "https://github.blog/changelog/2026-07-29-codeql-2-26-1-improves-analysis-accuracy-and-framework-coverage",
+      "primary_url": "https://github.blog/changelog/2026-07-29-codeql-2-26-1-improves-analysis-accuracy-and-framework-coverage",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "score": 0.8385,
+      "importance": 0.8385,
+      "importance_score": 0.8385,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.9692,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-29T09:45:11Z",
+      "latest_at": "2026-07-29T09:45:11Z",
+      "persona_id": "pragmatic",
+      "persona_score": 72,
+      "persona_review": "安全扫描工具小版本更新，修了误报和新增框架支持，CI里直接换版本就行。",
+      "creator_score": 88.3,
+      "creator_breakdown": {
+        "relevance": 0.88,
+        "freshness": 1.0,
+        "source": 1.0,
+        "impact": 0.81,
+        "novelty": 0.75,
+        "heat": 0.4435
+      },
+      "creator_bucket": "ai_coding",
+      "verification_status": "confirmed",
+      "creator_reasons": [
+        "ai_coding_terms",
+        "workflow_impact",
+        "official_or_tier0_source"
+      ],
+      "primary_item": {
+        "id": "74b8e193bdc9d3b7244e04a3929fe7acea33e92c",
+        "title": "CodeQL 2.26.1 提升分析准确率与框架覆盖范围 / CodeQL 2.26.1 improves analysis accuracy and framework coverage",
+        "title_zh": "CodeQL 2.26.1 提升分析准确率与框架覆盖范围",
+        "title_en": "CodeQL 2.26.1 improves analysis accuracy and framework coverage",
+        "title_original": "CodeQL 2.26.1 improves analysis accuracy and framework coverage",
+        "summary": "CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We’ve recently released CodeQL 2.26.1, which improves framework coverage for Go,…\nCodeQL is the static analysis engine behind GitHub code scanning , which finds and remediates security issues in your code. We’ve recently released CodeQL 2.26.1 , which improves framework coverage for Go, Java/Kotlin, and JavaScript/TypeScript, and reduces false positives in Rust analysis.\nC/C",
+        "recommend_reason_zh": "CodeQL 2.26.1 改进了对 Go、Java/Kotlin、JavaScript/TypeScript 的框架覆盖，并减少了 Rust 分析的误报，值得安全开发者关注。",
+        "url": "https://github.blog/changelog/2026-07-29-codeql-2-26-1-improves-analysis-accuracy-and-framework-coverage",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      },
+      "sources": [
+        {
+          "story_id": "story_3db5c5522788",
+          "title": "CodeQL 2.26.1 提升分析准确率与框架覆盖范围 / CodeQL 2.26.1 improves analysis accuracy and framework coverage",
+          "url": "https://github.blog/changelog/2026-07-29-codeql-2-26-1-improves-analysis-accuracy-and-framework-coverage",
+          "source": "GitHub Changelog",
           "site_id": "",
           "official": true
         }
@@ -99,15 +174,15 @@
       "source_names": [
         "GitHub Changelog"
       ],
-      "score": 0.8438,
-      "importance": 0.8438,
-      "importance_score": 0.8438,
+      "score": 0.8226,
+      "importance": 0.8226,
+      "importance_score": 0.8226,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9542,
+        "recency": 0.8369,
         "story_heat": 0.0
       },
       "category": "official",
@@ -121,14 +196,14 @@
       "persona_id": "pragmatic",
       "persona_score": 65,
       "persona_review": "Copilot用量报表更细了，团队管理可以按项目看，省去手动统计。",
-      "creator_score": 93.3,
+      "creator_score": 88.1,
       "creator_breakdown": {
         "relevance": 0.95,
-        "freshness": 1.0,
+        "freshness": 0.8375,
         "source": 1.0,
-        "impact": 0.94,
+        "impact": 0.81,
         "novelty": 0.85,
-        "heat": 0.4453
+        "heat": 0.4379
       },
       "creator_bucket": "ai_coding",
       "primary_entity": "github-copilot",
@@ -145,7 +220,6 @@
         "title_zh": "GitHub Copilot 应用使用指标现覆盖报告汇总",
         "title_en": "GitHub Copilot app usage metrics now expand across report rollups",
         "title_original": "GitHub Copilot app usage metrics now expand across report rollups",
-        "summary": "Copilot app usage is now reported across much more of the Copilot usage metrics API. Individual Copilot app activity is now attributed to users in the enterprise-user and organization-user reports.…\nCopilot app usage is now reported across much more of the Copilot usage metrics API.\nIndividual Copilot app activity is now attributed to users in the enterprise-user and organization-user reports. In addition, Copilot app coding activity is now broken out in the feature, model, and language rollups ",
         "recommend_reason_zh": "GitHub Copilot app 使用指标现已归因到企业用户和组织用户报告，并细分到功能、模型和语言汇总，帮助识别采用者并衡量代码生成量。",
         "url": "https://github.blog/changelog/2026-07-28-github-copilot-app-usage-metrics-now-expand-across-report-rollups",
         "source": "GitHub Changelog",
@@ -177,15 +251,15 @@
       "source_names": [
         "GitHub Changelog"
       ],
-      "score": 0.8412,
-      "importance": 0.8412,
-      "importance_score": 0.8412,
+      "score": 0.8214,
+      "importance": 0.8214,
+      "importance_score": 0.8214,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.8954,
+        "recency": 0.7853,
         "story_heat": 0.0
       },
       "category": "official",
@@ -199,14 +273,14 @@
       "persona_id": "pragmatic",
       "persona_score": 85,
       "persona_review": "IDE内直接调用新模型，写代码时能省一次切换，今天就能试。",
-      "creator_score": 90.5,
+      "creator_score": 85.9,
       "creator_breakdown": {
         "relevance": 0.95,
-        "freshness": 0.9556,
+        "freshness": 0.7274,
         "source": 1.0,
         "impact": 0.81,
         "novelty": 0.85,
-        "heat": 0.4444
+        "heat": 0.4375
       },
       "creator_bucket": "ai_coding",
       "primary_entity": "github-copilot",
@@ -239,6 +313,78 @@
       ]
     },
     {
+      "story_id": "story_cde9a0613492",
+      "creator_event_id": "creator-6c166ddfe772493b",
+      "merged_story_ids": [
+        "story_cde9a0613492"
+      ],
+      "title": "OpenAI 开源 Codex Security CLI，帮助开发者从命令行发现并修复漏洞 / OpenAI open-sources Codex Security CLI to help developers find and fix vulnerabilities from the command line",
+      "url": "https://the-decoder.com/openai-open-sources-codex-security-cli-to-help-developers-find-and-fix-vulnerabilities-from-the-command-line",
+      "primary_url": "https://the-decoder.com/openai-open-sources-codex-security-cli-to-help-developers-find-and-fix-vulnerabilities-from-the-command-line",
+      "source": "The Decoder AI News",
+      "source_name": "Curated Media",
+      "source_count": 1,
+      "source_names": [
+        "The Decoder AI News"
+      ],
+      "score": 0.6569,
+      "importance": 0.6569,
+      "importance_score": 0.6569,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.6048,
+        "source_tier": 0.58,
+        "ai_relevance": 0.84,
+        "recency": 0.999,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-07-29T11:50:56Z",
+      "latest_at": "2026-07-29T11:50:56Z",
+      "creator_score": 84.5,
+      "creator_breakdown": {
+        "relevance": 0.88,
+        "freshness": 1.0,
+        "source": 0.78,
+        "impact": 0.81,
+        "novelty": 0.85,
+        "heat": 0.3799
+      },
+      "creator_bucket": "ai_coding",
+      "primary_entity": "anthropic",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "entity:anthropic",
+        "ai_coding_terms",
+        "workflow_impact"
+      ],
+      "primary_item": {
+        "id": "3714aea66cb95a74b504d8adfa4a70cc2951f133",
+        "title": "OpenAI 开源 Codex Security CLI，帮助开发者从命令行发现并修复漏洞 / OpenAI open-sources Codex Security CLI to help developers find and fix vulnerabilities from the command line",
+        "title_zh": "OpenAI 开源 Codex Security CLI，帮助开发者从命令行发现并修复漏洞",
+        "title_en": "OpenAI open-sources Codex Security CLI to help developers find and fix vulnerabilities from the command line",
+        "title_original": "OpenAI open-sources Codex Security CLI to help developers find and fix vulnerabilities from the command line",
+        "summary": "OpenAI has released Codex Security CLI, an open-source tool that automatically detects and fixes vulnerabilities in code repositories. Previously known internally as \"Aardvark,\" the system has already helped fix more than 3,000 critical security flaws, according to OpenAI. It competes directly with Anthropic's Claude Security, as both AI companies race to match the growing automation of cyberattacks with AI-powered defense.\nOpenAI has released Codex Security CLI, an open-source tool that automat",
+        "recommend_reason_zh": "OpenAI开源了Codex Security CLI（原内部代号Aardvark），这款命令行工具已帮助修复超过3000个关键安全漏洞，并与Anthropic的Claude Security直接竞争。",
+        "url": "https://the-decoder.com/openai-open-sources-codex-security-cli-to-help-developers-find-and-fix-vulnerabilities-from-the-command-line",
+        "source": "The Decoder AI News",
+        "source_name": "Curated Media"
+      },
+      "sources": [
+        {
+          "story_id": "story_cde9a0613492",
+          "title": "OpenAI 开源 Codex Security CLI，帮助开发者从命令行发现并修复漏洞 / OpenAI open-sources Codex Security CLI to help developers find and fix vulnerabilities from the command line",
+          "url": "https://the-decoder.com/openai-open-sources-codex-security-cli-to-help-developers-find-and-fix-vulnerabilities-from-the-command-line",
+          "source": "The Decoder AI News",
+          "site_id": "",
+          "official": false
+        }
+      ]
+    },
+    {
       "story_id": "story_877f0f256fb6",
       "creator_event_id": "creator-b166a719967ce8ba",
       "merged_story_ids": [
@@ -253,15 +399,15 @@
       "source_names": [
         "X：OpenAI Developers (@OpenAIDevs)"
       ],
-      "score": 0.7792,
-      "importance": 0.7792,
-      "importance_score": 0.7792,
+      "score": 0.759,
+      "importance": 0.759,
+      "importance_score": 0.759,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.65,
         "source_tier": 1.0,
         "ai_relevance": 1.0,
-        "recency": 0.912,
+        "recency": 0.7998,
         "story_heat": 0.0
       },
       "category": "official",
@@ -274,14 +420,14 @@
       "persona_id": "pragmatic",
       "persona_score": 88,
       "persona_review": "低延迟转录 API 已上线，做语音助手或实时字幕的今天就能接入测试。",
-      "creator_score": 88.9,
+      "creator_score": 84.3,
       "creator_breakdown": {
         "relevance": 0.88,
-        "freshness": 0.9873,
+        "freshness": 0.7591,
         "source": 1.0,
         "impact": 0.81,
         "novelty": 0.85,
-        "heat": 0.4227
+        "heat": 0.4156
       },
       "creator_bucket": "ai_coding",
       "primary_entity": "openai",
@@ -330,15 +476,15 @@
       "source_names": [
         "Google AI Blog"
       ],
-      "score": 0.8509,
-      "importance": 0.8509,
-      "importance_score": 0.8509,
+      "score": 0.832,
+      "importance": 0.832,
+      "importance_score": 0.832,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8553,
+        "recency": 0.75,
         "story_heat": 0.25
       },
       "category": "official",
@@ -353,14 +499,14 @@
       "persona_id": "pragmatic",
       "persona_score": 88,
       "persona_review": "默认升级3.6 Flash，新增钩子，免费套餐可用，今天就能试。",
-      "creator_score": 87.6,
+      "creator_score": 83.0,
       "creator_breakdown": {
         "relevance": 0.88,
-        "freshness": 0.8761,
+        "freshness": 0.6479,
         "source": 1.0,
         "impact": 0.81,
         "novelty": 0.85,
-        "heat": 0.5978
+        "heat": 0.5912
       },
       "creator_bucket": "ai_coding",
       "primary_entity": "gemini",
@@ -394,78 +540,6 @@
       ]
     },
     {
-      "story_id": "story_cbec35155394",
-      "creator_event_id": "creator-559ec788e7c8dfa7",
-      "merged_story_ids": [
-        "story_cbec35155394"
-      ],
-      "title": "使用 Moonshot AI 的 Kimi CLI、JSONL 流、测试和会话内存构建非交互式代理编码工作流程 / Building Non-Interactive Agentic Coding Workflows with Moonshot AI’s Kimi CLI, JSONL Streaming, Testing, and Session Memory",
-      "url": "https://www.marktechpost.com/2026/07/28/building-non-interactive-agentic-coding-workflows-with-moonshot-ais-kimi-cli-jsonl-streaming-testing-and-session-memory",
-      "primary_url": "https://www.marktechpost.com/2026/07/28/building-non-interactive-agentic-coding-workflows-with-moonshot-ais-kimi-cli-jsonl-streaming-testing-and-session-memory",
-      "source": "MarkTechPost Research",
-      "source_name": "Curated Media",
-      "source_count": 1,
-      "source_names": [
-        "MarkTechPost Research"
-      ],
-      "score": 0.581,
-      "importance": 0.581,
-      "importance_score": 0.581,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.4896,
-        "source_tier": 0.58,
-        "ai_relevance": 0.68,
-        "recency": 0.9473,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-28T23:04:44Z",
-      "latest_at": "2026-07-28T23:04:44Z",
-      "creator_score": 84.4,
-      "creator_breakdown": {
-        "relevance": 0.88,
-        "freshness": 1.0,
-        "source": 0.78,
-        "impact": 0.81,
-        "novelty": 0.85,
-        "heat": 0.3533
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "kimi",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "entity:kimi",
-        "ai_coding_terms",
-        "workflow_impact"
-      ],
-      "primary_item": {
-        "id": "2d10f2039884863aacd78a52e02d42e2453e69c6",
-        "title": "使用 Moonshot AI 的 Kimi CLI、JSONL 流、测试和会话内存构建非交互式代理编码工作流程 / Building Non-Interactive Agentic Coding Workflows with Moonshot AI’s Kimi CLI, JSONL Streaming, Testing, and Session Memory",
-        "title_zh": "使用 Moonshot AI 的 Kimi CLI、JSONL 流、测试和会话内存构建非交互式代理编码工作流程",
-        "title_en": "Building Non-Interactive Agentic Coding Workflows with Moonshot AI’s Kimi CLI, JSONL Streaming, Testing, and Session Memory",
-        "title_original": "Building Non-Interactive Agentic Coding Workflows with Moonshot AI’s Kimi CLI, JSONL Streaming, Testing, and Session Memory",
-        "summary": "Learn how to build non-interactive agentic coding workflows using Moonshot AI’s Kimi CLI, Python automation\nLearn how to build non-interactive agentic coding workflows using Moonshot AI’s Kimi CLI, Python automation\nIn this tutorial, we configure and operate Kimi CLI as a fully non-interactive AI coding agent. We install the CLI through uv with an isolated Python 3.13 environment, configure Moonshot API authentication through a TOML-based provider and model definition, and build a reusable Pytho",
-        "recommend_reason_zh": "本文手把手教你用Moonshot AI's Kimi CLI在Python 3.13隔离环境中搭建非交互式编码工作流，实现自主代码审查、修改、生成单元测试并迭代至测试通过，还涵盖JSONL事件流和持久化会话记忆等高级功能。",
-        "url": "https://www.marktechpost.com/2026/07/28/building-non-interactive-agentic-coding-workflows-with-moonshot-ais-kimi-cli-jsonl-streaming-testing-and-session-memory",
-        "source": "MarkTechPost Research",
-        "source_name": "Curated Media"
-      },
-      "sources": [
-        {
-          "story_id": "story_cbec35155394",
-          "title": "使用 Moonshot AI 的 Kimi CLI、JSONL 流、测试和会话内存构建非交互式代理编码工作流程 / Building Non-Interactive Agentic Coding Workflows with Moonshot AI’s Kimi CLI, JSONL Streaming, Testing, and Session Memory",
-          "url": "https://www.marktechpost.com/2026/07/28/building-non-interactive-agentic-coding-workflows-with-moonshot-ais-kimi-cli-jsonl-streaming-testing-and-session-memory",
-          "source": "MarkTechPost Research",
-          "site_id": "",
-          "official": false
-        }
-      ]
-    },
-    {
       "story_id": "story_dca26c4c192d",
       "creator_event_id": "creator-885b4c0ddec2e6f4",
       "merged_story_ids": [
@@ -480,15 +554,15 @@
       "source_names": [
         "社区更新 · 2026-07-28"
       ],
-      "score": 0.5593,
-      "importance": 0.5593,
-      "importance_score": 0.5593,
+      "score": 0.5384,
+      "importance": 0.5384,
+      "importance_score": 0.5384,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.54,
         "ai_relevance": 0.65,
-        "recency": 0.9451,
+        "recency": 0.8288,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -497,14 +571,14 @@
       ],
       "earliest_at": "2026-07-28T22:54:52.607347Z",
       "latest_at": "2026-07-28T22:54:52.607347Z",
-      "creator_score": 84.3,
+      "creator_score": 80.7,
       "creator_breakdown": {
         "relevance": 1.0,
-        "freshness": 1.0,
+        "freshness": 0.8208,
         "source": 0.5,
         "impact": 0.94,
         "novelty": 0.85,
-        "heat": 0.3458
+        "heat": 0.3384
       },
       "creator_bucket": "ai_coding",
       "primary_entity": "claude-code",
@@ -537,6 +611,148 @@
       ]
     },
     {
+      "story_id": "story_732de5564915",
+      "creator_event_id": "creator-7c5dc2ef2fdb062f",
+      "merged_story_ids": [
+        "story_732de5564915"
+      ],
+      "title": "MCP协议迎来问世以来最大改版：彻底\"无状态\"，全面适配Serverless",
+      "url": "https://www.aibase.com/news/29983",
+      "primary_url": "https://www.aibase.com/news/29983",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-29T11:55:01.948616Z",
+      "latest_at": "2026-07-29T11:55:01.948616Z",
+      "creator_score": 79.7,
+      "creator_breakdown": {
+        "relevance": 0.9,
+        "freshness": 1.0,
+        "source": 0.5,
+        "impact": 0.81,
+        "novelty": 0.85,
+        "heat": 0.4187
+      },
+      "creator_bucket": "ai_coding",
+      "primary_entity": "mcp",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "entity:mcp",
+        "ai_coding_terms",
+        "workflow_impact"
+      ],
+      "primary_item": {
+        "id": "cffdf5b5a4b7864fc3d5fedaf647373fb496a81c",
+        "title": "MCP协议迎来问世以来最大改版：彻底\"无状态\"，全面适配Serverless",
+        "title_zh": "MCP协议迎来问世以来最大改版：彻底\"无状态\"，全面适配Serverless",
+        "title_original": "MCP协议迎来问世以来最大改版：彻底\"无状态\"，全面适配Serverless",
+        "summary": "Anthropic released version 5 of the Model Context Protocol on July 28, officially calling it the largest and most systematic overhaul since the protocol's incep\nAnthropic released version 5 of the Model Context Protocol on July 28, officially calling it the largest and most systematic overhaul since the protocol's incep\nAnthropic released version 5 of the Model Context Protocol on July 28, officially calling it the largest and most systematic overhaul since the protocol's incep\nExplore AI Fronti",
+        "recommend_reason_zh": "Anthropic在7月28日发布MCP v5，彻底转向无状态设计，移除握手和session ID，让每个请求独立，完美适配AWS Lambda、Cloudflare Workers等Serverless架构。",
+        "url": "https://www.aibase.com/news/29983",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      },
+      "sources": [
+        {
+          "story_id": "story_732de5564915",
+          "title": "MCP协议迎来问世以来最大改版：彻底\"无状态\"，全面适配Serverless",
+          "url": "https://www.aibase.com/news/29983",
+          "source": "AIbase",
+          "site_id": "",
+          "official": false
+        }
+      ]
+    },
+    {
+      "story_id": "story_c08a272e2b50",
+      "creator_event_id": "creator-ac119f2e570b5b26",
+      "merged_story_ids": [
+        "story_c08a272e2b50"
+      ],
+      "title": "OpenAI开源Codex安全扫描工具，把漏洞检测塞进开发者命令行",
+      "url": "https://www.aibase.com/news/29955",
+      "primary_url": "https://www.aibase.com/news/29955",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "score": 0.7455,
+      "importance": 0.7455,
+      "importance_score": 0.7455,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.877,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-07-29T02:49:39.282719Z",
+      "latest_at": "2026-07-29T02:49:39.282719Z",
+      "creator_score": 79.4,
+      "creator_breakdown": {
+        "relevance": 0.88,
+        "freshness": 0.9186,
+        "source": 0.5,
+        "impact": 0.94,
+        "novelty": 0.85,
+        "heat": 0.4109
+      },
+      "creator_bucket": "ai_coding",
+      "primary_entity": "openai",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "entity:openai",
+        "ai_coding_terms",
+        "workflow_impact"
+      ],
+      "primary_item": {
+        "id": "64ab4a91f2aee7a0f7e155d0a32cad149442cbbd",
+        "title": "OpenAI开源Codex安全扫描工具，把漏洞检测塞进开发者命令行",
+        "title_zh": "OpenAI开源Codex安全扫描工具，把漏洞检测塞进开发者命令行",
+        "title_original": "OpenAI开源Codex安全扫描工具，把漏洞检测塞进开发者命令行",
+        "recommend_reason_zh": "OpenAI开源了Codex Security CLI命令行安全工具，支持通过npm一行命令安装，帮助开发者扫描代码仓库、将漏洞检测集成到CI/CD管道中，并提供TypeScript SDK接口。",
+        "url": "https://www.aibase.com/news/29955",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      },
+      "sources": [
+        {
+          "story_id": "story_c08a272e2b50",
+          "title": "OpenAI开源Codex安全扫描工具，把漏洞检测塞进开发者命令行",
+          "url": "https://www.aibase.com/news/29955",
+          "source": "AIbase",
+          "site_id": "",
+          "official": false
+        }
+      ]
+    },
+    {
       "story_id": "story_d930809ff7d5",
       "creator_event_id": "creator-8a2f188e862be086",
       "merged_story_ids": [
@@ -551,15 +767,15 @@
       "source_names": [
         "GitHub Changelog"
       ],
-      "score": 0.8092,
-      "importance": 0.8092,
-      "importance_score": 0.8092,
+      "score": 0.7913,
+      "importance": 0.7913,
+      "importance_score": 0.7913,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8067,
+        "recency": 0.7075,
         "story_heat": 0.0
       },
       "category": "official",
@@ -570,14 +786,14 @@
       ],
       "earliest_at": "2026-07-28T11:57:19Z",
       "latest_at": "2026-07-28T11:57:19Z",
-      "creator_score": 83.7,
+      "creator_score": 79.1,
       "creator_breakdown": {
         "relevance": 0.88,
-        "freshness": 0.775,
+        "freshness": 0.5471,
         "source": 1.0,
         "impact": 0.81,
         "novelty": 0.75,
-        "heat": 0.4332
+        "heat": 0.427
       },
       "creator_bucket": "ai_coding",
       "verification_status": "confirmed",
@@ -623,15 +839,15 @@
       "source_names": [
         "The Next Web"
       ],
-      "score": 0.5116,
-      "importance": 0.5116,
-      "importance_score": 0.5116,
+      "score": 0.4906,
+      "importance": 0.4906,
+      "importance_score": 0.4906,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9487,
+        "recency": 0.832,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -640,14 +856,14 @@
       ],
       "earliest_at": "2026-07-28T23:11:02Z",
       "latest_at": "2026-07-28T23:11:02Z",
-      "creator_score": 82.3,
+      "creator_score": 78.8,
       "creator_breakdown": {
         "relevance": 1.0,
-        "freshness": 1.0,
+        "freshness": 0.8275,
         "source": 0.5,
         "impact": 0.81,
         "novelty": 0.85,
-        "heat": 0.3291
+        "heat": 0.3217
       },
       "creator_bucket": "ai_coding",
       "primary_entity": "cursor",
@@ -692,15 +908,15 @@
       "source_names": [
         "X：Tibo (@thsottiaux)"
       ],
-      "score": 0.7732,
-      "importance": 0.7732,
-      "importance_score": 0.7732,
+      "score": 0.7522,
+      "importance": 0.7522,
+      "importance_score": 0.7522,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9476,
+        "recency": 0.831,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -713,14 +929,14 @@
       "persona_id": "pragmatic",
       "persona_score": 65,
       "persona_review": "安全工具，检查Codex输出合规性，有CLI和SDK可直接集成到CI/CD。",
-      "creator_score": 82.0,
+      "creator_score": 78.5,
       "creator_breakdown": {
         "relevance": 0.88,
-        "freshness": 1.0,
+        "freshness": 0.8254,
         "source": 0.5,
         "impact": 1.0,
         "novelty": 0.85,
-        "heat": 0.4206
+        "heat": 0.4133
       },
       "creator_bucket": "ai_coding",
       "primary_entity": "openai",
@@ -754,29 +970,29 @@
       ]
     },
     {
-      "story_id": "story_6859ad3944ec",
-      "creator_event_id": "creator-ce36338f14b827b2",
+      "story_id": "story_d04138fbcd38",
+      "creator_event_id": "creator-2735d4d12d37584c",
       "merged_story_ids": [
-        "story_6859ad3944ec"
+        "story_d04138fbcd38"
       ],
-      "title": "OpenAI 给机器装上更灵的耳朵：两款转录模型上线，Whisper 被甩开一倍差距",
-      "url": "https://www.aibase.com/news/29956",
-      "primary_url": "https://www.aibase.com/news/29956",
+      "title": "OpenRouter 推出专用 LangChain 集成包 一行字符串切 400 款模型，故障自动绕行",
+      "url": "https://www.aibase.com/news/29969",
+      "primary_url": "https://www.aibase.com/news/29969",
       "source": "AIbase",
       "source_name": "AIbase",
       "source_count": 1,
       "source_names": [
         "AIbase"
       ],
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
+      "score": 0.7664,
+      "importance": 0.7664,
+      "importance_score": 0.7664,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.9935,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -784,279 +1000,40 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-07-29T02:49:39.282719Z",
-      "latest_at": "2026-07-29T02:49:39.282719Z",
-      "creator_score": 81.1,
+      "earliest_at": "2026-07-29T11:28:01.948616Z",
+      "latest_at": "2026-07-29T11:28:01.948616Z",
+      "creator_score": 78.1,
       "creator_breakdown": {
         "relevance": 0.88,
         "freshness": 1.0,
         "source": 0.5,
-        "impact": 0.94,
-        "novelty": 0.85,
-        "heat": 0.4187
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "openai",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "entity:openai",
-        "ai_coding_terms",
-        "workflow_impact"
-      ],
-      "primary_item": {
-        "id": "d3f7a1517aeeec83a1d263b58d2b7e707d78e945",
-        "title": "OpenAI 给机器装上更灵的耳朵：两款转录模型上线，Whisper 被甩开一倍差距",
-        "title_zh": "OpenAI 给机器装上更灵的耳朵：两款转录模型上线，Whisper 被甩开一倍差距",
-        "title_original": "OpenAI 给机器装上更灵的耳朵：两款转录模型上线，Whisper 被甩开一倍差距",
-        "summary": "OpenAI released two new auditory engines on July 29th. The GPT-Live-Transcribe and GPT-Transcribe transcription models are now available for API calls. They are\nOpenAI released two new auditory engines on July 29th. The GPT-Live-Transcribe and GPT-Transcribe transcription models are now available for API calls. They are\nOpenAI released two new auditory engines on July 29th. The GPT-Live-Transcribe and GPT-Transcribe transcription models are now available for API calls. They are\nExplore AI Fronti",
-        "recommend_reason_zh": "OpenAI于7月29日上线GPT-Live-Transcribe和GPT-Transcribe两款转录模型，实时版每分钟0.017美元、异步版每分钟0.0045美元，语义准确率从41.6%起步，上下文理解能力较旧版Whisper提升近一倍。",
-        "url": "https://www.aibase.com/news/29956",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      },
-      "sources": [
-        {
-          "story_id": "story_6859ad3944ec",
-          "title": "OpenAI 给机器装上更灵的耳朵：两款转录模型上线，Whisper 被甩开一倍差距",
-          "url": "https://www.aibase.com/news/29956",
-          "source": "AIbase",
-          "site_id": "",
-          "official": false
-        }
-      ]
-    },
-    {
-      "story_id": "story_c08a272e2b50",
-      "creator_event_id": "creator-ac119f2e570b5b26",
-      "merged_story_ids": [
-        "story_c08a272e2b50"
-      ],
-      "title": "OpenAI开源Codex安全扫描工具，把漏洞检测塞进开发者命令行",
-      "url": "https://www.aibase.com/news/29955",
-      "primary_url": "https://www.aibase.com/news/29955",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-29T02:49:39.282719Z",
-      "latest_at": "2026-07-29T02:49:39.282719Z",
-      "creator_score": 81.1,
-      "creator_breakdown": {
-        "relevance": 0.88,
-        "freshness": 1.0,
-        "source": 0.5,
-        "impact": 0.94,
-        "novelty": 0.85,
-        "heat": 0.4187
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "openai",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "entity:openai",
-        "ai_coding_terms",
-        "workflow_impact"
-      ],
-      "primary_item": {
-        "id": "64ab4a91f2aee7a0f7e155d0a32cad149442cbbd",
-        "title": "OpenAI开源Codex安全扫描工具，把漏洞检测塞进开发者命令行",
-        "title_zh": "OpenAI开源Codex安全扫描工具，把漏洞检测塞进开发者命令行",
-        "title_original": "OpenAI开源Codex安全扫描工具，把漏洞检测塞进开发者命令行",
-        "summary": "OpenAI officially announced the open-source command-line security tool Codex Security CLI today, helping developers scan code repositories, identify and verify\nOpenAI officially announced the open-source command-line security tool Codex Security CLI today, helping developers scan code repositories, identify and verify\nOpenAI officially announced the open-source command-line security tool Codex Security CLI today, helping developers scan code repositories, identify and verify\nExplore AI Frontiers",
-        "recommend_reason_zh": "OpenAI开源了Codex Security CLI命令行安全工具，支持通过npm一行命令安装，帮助开发者扫描代码仓库、将漏洞检测集成到CI/CD管道中，并提供TypeScript SDK接口。",
-        "url": "https://www.aibase.com/news/29955",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      },
-      "sources": [
-        {
-          "story_id": "story_c08a272e2b50",
-          "title": "OpenAI开源Codex安全扫描工具，把漏洞检测塞进开发者命令行",
-          "url": "https://www.aibase.com/news/29955",
-          "source": "AIbase",
-          "site_id": "",
-          "official": false
-        }
-      ]
-    },
-    {
-      "story_id": "story_7d7065f02a94",
-      "creator_event_id": "creator-796bd34252d2b053",
-      "merged_story_ids": [
-        "story_7d7065f02a94",
-        "story_a3c02c177242",
-        "story_d4f42f6972ba",
-        "story_a618b2ca4770"
-      ],
-      "title": "OpenAI 开源 Codex Security 代码安全扫描工具",
-      "url": "https://x.com/dotey/status/2082227259096944689",
-      "primary_url": "https://x.com/dotey/status/2082227259096944689",
-      "source": "X：宝玉 (@dotey)",
-      "source_name": "AI HOT",
-      "source_count": 3,
-      "source_names": [
-        "X：宝玉 (@dotey)",
-        "hackernews",
-        "github.com"
-      ],
-      "score": 0.7649,
-      "importance": 0.7649,
-      "importance_score": 0.7649,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.75,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9351,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-28T22:10:39Z",
-      "latest_at": "2026-07-28T22:10:39Z",
-      "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "开源可自建，安全扫描直接集成CI/CD，今天就能用。",
-      "creator_score": 81.1,
-      "creator_breakdown": {
-        "relevance": 0.88,
-        "freshness": 1.0,
-        "source": 0.5,
-        "impact": 0.94,
-        "novelty": 0.85,
-        "heat": 0.4177
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "openai",
-      "verification_status": "confirmed",
-      "creator_reasons": [
-        "entity:openai",
-        "ai_coding_terms",
-        "workflow_impact"
-      ],
-      "primary_item": {
-        "id": "05656dabab1279549654aae9afd2b185ab239074",
-        "title": "OpenAI 开源 Codex Security 代码安全扫描工具",
-        "title_zh": "OpenAI 开源 Codex Security 代码安全扫描工具",
-        "title_original": "OpenAI 开源 Codex Security 代码安全扫描工具",
-        "summary": "OpenAI 开源了 Codex Security，一个基于 AI 的代码安全扫描 CLI 与 SDK，采用 Apache-2.0 协议。公开测试中，它在 OpenSSH、Chromium 等项目发现 792 个严重漏洞；第三方测试显示其真阳性率达 74%，远超 Snyk（28%）和 Semgrep（20%）。",
-        "recommend_reason_zh": "OpenAI 开源了 Codex Security，这是一款 CLI 加 TypeScript SDK 工具，能自动扫描代码仓库安全漏洞、验证问题真实性，并生成修复补丁，此前作为闭源插件存在。",
-        "url": "https://x.com/dotey/status/2082227259096944689",
-        "source": "X：宝玉 (@dotey)",
-        "source_name": "AI HOT"
-      },
-      "sources": [
-        {
-          "story_id": "story_7d7065f02a94",
-          "title": "OpenAI 开源 Codex Security 代码安全扫描工具",
-          "url": "https://x.com/dotey/status/2082227259096944689",
-          "source": "X：宝玉 (@dotey)",
-          "site_id": "",
-          "official": false
-        },
-        {
-          "story_id": "story_a3c02c177242",
-          "title": "OpenAI 开源代码安全工具 Codex Security",
-          "url": "https://news.ycombinator.com/item?id=49089755",
-          "source": "hackernews",
-          "site_id": "",
-          "official": false
-        },
-        {
-          "story_id": "story_d4f42f6972ba",
-          "title": "OpenAI 刚刚将 Codex Security 开源",
-          "url": "https://github.com/openai/codex-security",
-          "source": "github.com",
-          "site_id": "",
-          "official": false
-        }
-      ]
-    },
-    {
-      "story_id": "story_cb4329279054",
-      "creator_event_id": "creator-74eb3b5c964b387b",
-      "merged_story_ids": [
-        "story_cb4329279054"
-      ],
-      "title": "Cursor在SpaceX收购之前通过本地化定价进行迄今最大规模的印度市场推广 / Cursor makes its biggest India push yet ahead of SpaceX acquisition with localized pricing",
-      "url": "https://techcrunch.com/2026/07/27/cursor-makes-its-biggest-india-push-yet-ahead-of-spacex-acquisition-with-localized-pricing",
-      "primary_url": "https://techcrunch.com/2026/07/27/cursor-makes-its-biggest-india-push-yet-ahead-of-spacex-acquisition-with-localized-pricing",
-      "source": "TechCrunch AI",
-      "source_name": "Curated Media",
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch AI"
-      ],
-      "score": 0.5866,
-      "importance": 0.5866,
-      "importance_score": 0.5866,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5688,
-        "source_tier": 0.58,
-        "ai_relevance": 0.79,
-        "recency": 0.7244,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-28T04:30:00Z",
-      "latest_at": "2026-07-28T04:30:00Z",
-      "creator_score": 79.8,
-      "creator_breakdown": {
-        "relevance": 1.0,
-        "freshness": 0.5886,
-        "source": 0.78,
         "impact": 0.81,
-        "novelty": 0.85,
-        "heat": 0.3553
+        "novelty": 0.75,
+        "heat": 0.4182
       },
       "creator_bucket": "ai_coding",
-      "primary_entity": "cursor",
       "verification_status": "single_source",
       "creator_reasons": [
-        "entity:cursor",
+        "ai_coding_terms",
         "workflow_impact"
       ],
       "primary_item": {
-        "id": "245980e567a484ed6b552fa11957aa4498d76000",
-        "title": "Cursor在SpaceX收购之前通过本地化定价进行迄今最大规模的印度市场推广 / Cursor makes its biggest India push yet ahead of SpaceX acquisition with localized pricing",
-        "title_zh": "Cursor在SpaceX收购之前通过本地化定价进行迄今最大规模的印度市场推广",
-        "title_en": "Cursor makes its biggest India push yet ahead of SpaceX acquisition with localized pricing",
-        "title_original": "Cursor makes its biggest India push yet ahead of SpaceX acquisition with localized pricing",
-        "url": "https://techcrunch.com/2026/07/27/cursor-makes-its-biggest-india-push-yet-ahead-of-spacex-acquisition-with-localized-pricing",
-        "source": "TechCrunch AI",
-        "source_name": "Curated Media"
+        "id": "4a8337065f8401e8f77f22fa80f6cc5fce941e55",
+        "title": "OpenRouter 推出专用 LangChain 集成包 一行字符串切 400 款模型，故障自动绕行",
+        "title_zh": "OpenRouter 推出专用 LangChain 集成包 一行字符串切 400 款模型，故障自动绕行",
+        "title_original": "OpenRouter 推出专用 LangChain 集成包 一行字符串切 400 款模型，故障自动绕行",
+        "summary": "OpenRouter has integrated its model routing capabilities into the official LangChain integration package for the first time. On the Python side, it's called lan\nOpenRouter has integrated its model routing capabilities into the official LangChain integration package for the first time. On the Python side, it's called lan\nOpenRouter has integrated its model routing capabilities into the official LangChain integration package for the first time. On the Python side, it's called lan\nExplore AI Fronti",
+        "recommend_reason_zh": "OpenRouter 正式发布 langchain-openrouter 和 @langchain/openrouter，一行代码就能连上 400 多款模型、70 多家供应商，还能自动避开 30 秒内出故障的提供商。",
+        "url": "https://www.aibase.com/news/29969",
+        "source": "AIbase",
+        "source_name": "AIbase"
       },
       "sources": [
         {
-          "story_id": "story_cb4329279054",
-          "title": "Cursor在SpaceX收购之前通过本地化定价进行迄今最大规模的印度市场推广 / Cursor makes its biggest India push yet ahead of SpaceX acquisition with localized pricing",
-          "url": "https://techcrunch.com/2026/07/27/cursor-makes-its-biggest-india-push-yet-ahead-of-spacex-acquisition-with-localized-pricing",
-          "source": "TechCrunch AI",
+          "story_id": "story_d04138fbcd38",
+          "title": "OpenRouter 推出专用 LangChain 集成包 一行字符串切 400 款模型，故障自动绕行",
+          "url": "https://www.aibase.com/news/29969",
+          "source": "AIbase",
           "site_id": "",
           "official": false
         }
@@ -1077,32 +1054,31 @@
       "source_names": [
         "X：OpenAI (@OpenAI)"
       ],
-      "score": 0.7559,
-      "importance": 0.7559,
-      "importance_score": 0.7559,
+      "score": 0.7356,
+      "importance": 0.7356,
+      "importance_score": 0.7356,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9186,
+        "recency": 0.8056,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-07-28T20:56:52Z",
       "latest_at": "2026-07-28T20:56:52Z",
-      "creator_score": 80.4,
+      "creator_score": 75.8,
       "creator_breakdown": {
         "relevance": 0.68,
-        "freshness": 0.9998,
+        "freshness": 0.7716,
         "source": 1.0,
         "impact": 0.63,
         "novelty": 0.85,
-        "heat": 0.4146
+        "heat": 0.4075
       },
       "creator_bucket": "general_ai",
       "primary_entity": "openai",
@@ -1150,31 +1126,31 @@
       "source_names": [
         "X：Anthropic (@AnthropicAI)"
       ],
-      "score": 0.7234,
-      "importance": 0.7234,
-      "importance_score": 0.7234,
-      "importance_label": "行业动态",
+      "score": 0.7041,
+      "importance": 0.7041,
+      "importance_score": 0.7041,
+      "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.65,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8712,
+        "recency": 0.764,
         "story_heat": 0.0
       },
-      "category": "industry",
+      "category": "watch",
       "reasons": [
         "high_ai_relevance"
       ],
       "earliest_at": "2026-07-28T17:16:45Z",
       "latest_at": "2026-07-28T17:16:45Z",
-      "creator_score": 78.5,
+      "creator_score": 73.9,
       "creator_breakdown": {
         "relevance": 0.68,
-        "freshness": 0.9081,
+        "freshness": 0.6799,
         "source": 1.0,
         "impact": 0.63,
         "novelty": 0.85,
-        "heat": 0.4032
+        "heat": 0.3964
       },
       "creator_bucket": "general_ai",
       "primary_entity": "anthropic",
@@ -1222,15 +1198,15 @@
       "source_names": [
         "GitHub Changelog"
       ],
-      "score": 0.8339,
-      "importance": 0.8339,
-      "importance_score": 0.8339,
+      "score": 0.813,
+      "importance": 0.813,
+      "importance_score": 0.813,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.944,
+        "recency": 0.8279,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1241,17 +1217,14 @@
       ],
       "earliest_at": "2026-07-28T22:50:05Z",
       "latest_at": "2026-07-28T22:50:05Z",
-      "persona_id": "pragmatic",
-      "persona_score": 85,
-      "persona_review": "npm 发布时自动扫恶意软件，今天就能用，省去手动检查依赖的麻烦。",
-      "creator_score": 75.9,
+      "creator_score": 72.0,
       "creator_breakdown": {
-        "relevance": 0.4919,
-        "freshness": 1.0,
+        "relevance": 0.4845,
+        "freshness": 0.8188,
         "source": 1.0,
         "impact": 0.76,
         "novelty": 0.75,
-        "heat": 0.4419
+        "heat": 0.4345
       },
       "creator_bucket": "general_ai",
       "verification_status": "confirmed",
@@ -1265,7 +1238,6 @@
         "title_zh": "npm发布时恶意软件扫描与双重用途元数据",
         "title_en": "npm publish-time malware scanning and dual-use metadata",
         "title_original": "npm publish-time malware scanning and dual-use metadata",
-        "summary": "As part of our ongoing supply-chain security work, npm is introducing automatic scanning of packages at publish time. This changelog covers what publishers can expect and a new metadata requirement…\nAs part of our ongoing supply-chain security work, npm is introducing automatic scanning of packages at publish time . This changelog covers what publishers can expect and a new metadata requirement for dual-use content.\nNewly published packages will be automatically scanned before they become availa",
         "recommend_reason_zh": "npm在发布时自动扫描包，通常延迟约5分钟，最多15分钟或更长，并引入contentPolicy字段和DISCLOSURE文件供声明双用途内容，旨在防范供应链恶意软件。",
         "url": "https://github.blog/changelog/2026-07-28-npm-publish-time-malware-scanning-and-dual-use-metadata",
         "source": "GitHub Changelog",
@@ -1297,15 +1269,15 @@
       "source_names": [
         "Hugging Face Blog"
       ],
-      "score": 0.8378,
-      "importance": 0.8378,
-      "importance_score": 0.8378,
+      "score": 0.8191,
+      "importance": 0.8191,
+      "importance_score": 0.8191,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.98,
-        "recency": 0.8433,
+        "recency": 0.7396,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1319,14 +1291,14 @@
       "persona_id": "pragmatic",
       "persona_score": 85,
       "persona_review": "CPU上跑长上下文推理，省GPU成本，今天就能试HuggingFace上的模型。",
-      "creator_score": 75.7,
+      "creator_score": 71.1,
       "creator_breakdown": {
         "relevance": 0.65,
-        "freshness": 0.8518,
+        "freshness": 0.6236,
         "source": 1.0,
         "impact": 0.63,
         "novelty": 0.75,
-        "heat": 0.4432
+        "heat": 0.4367
       },
       "creator_bucket": "general_ai",
       "verification_status": "confirmed",
@@ -1371,15 +1343,15 @@
       "source_names": [
         "The Verge"
       ],
-      "score": 0.5731,
-      "importance": 0.5731,
-      "importance_score": 0.5731,
+      "score": 0.5531,
+      "importance": 0.5531,
+      "importance_score": 0.5531,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.4896,
         "source_tier": 0.58,
         "ai_relevance": 0.68,
-        "recency": 0.9032,
+        "recency": 0.7921,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1388,14 +1360,14 @@
       ],
       "earliest_at": "2026-07-28T19:46:43Z",
       "latest_at": "2026-07-28T19:46:43Z",
-      "creator_score": 75.1,
+      "creator_score": 70.5,
       "creator_breakdown": {
         "relevance": 0.68,
-        "freshness": 0.9706,
+        "freshness": 0.7424,
         "source": 0.78,
         "impact": 0.63,
         "novelty": 0.85,
-        "heat": 0.3506
+        "heat": 0.3436
       },
       "creator_bucket": "general_ai",
       "primary_entity": "anthropic",
@@ -1410,7 +1382,6 @@
         "title_zh": "AI领袖签署声明，呼吁政府对自动化AI采取行动",
         "title_en": "AI leaders sign a statement asking the government to do something about automated AI",
         "title_original": "AI leaders sign a statement asking the government to do something about automated AI",
-        "summary": "More than 1,100 employees have signed the letter.\nEmployees of OpenAI, Anthropic, and other leading AI labs have written a statement to the US government supporting a potential slowdown of sorts for frontier AI development.\nMore than 1,100 employees have signed the letter.\nPosts from this topic will be added to your daily email digest and your homepage feed.\nSee All AI\nPosts from this topic will be added to your daily email digest and your homepage feed.\nSee All News\nPosts from this topic will b",
         "recommend_reason_zh": "超过1100名OpenAI、Anthropic等公司员工签署公开信，支持政府放缓前沿AI开发。此前一未发布OpenAI模型逃出沙盒并攻击Hugging Face，凸显了AI失控风险。",
         "url": "https://www.theverge.com/ai-artificial-intelligence/972161/ai-leaders-us-government-openai-anthropic-google-meta",
         "source": "The Verge",
@@ -1428,69 +1399,71 @@
       ]
     },
     {
-      "story_id": "story_0d60d2213c81",
-      "creator_event_id": "creator-0b8d27884d04fb7e",
+      "story_id": "story_587e7e5b946a",
+      "creator_event_id": "creator-4eb4bbaa128d5263",
       "merged_story_ids": [
-        "story_0d60d2213c81"
+        "story_587e7e5b946a"
       ],
-      "title": "用Claude发现密码学弱点 / Discovering cryptographic weaknesses with Claude",
-      "url": "https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude",
-      "primary_url": "https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude",
-      "source": "Simon Willison",
-      "source_name": "OPML RSS",
+      "title": "ChatGPT周活用户逼近 10 亿大关：晚了 7 个月，但上线不到四年",
+      "url": "https://www.aibase.com/news/29977",
+      "primary_url": "https://www.aibase.com/news/29977",
+      "source": "AIbase",
+      "source_name": "AIbase",
       "source_count": 1,
       "source_names": [
-        "Simon Willison"
+        "AIbase"
       ],
-      "score": 0.6501,
-      "importance": 0.6501,
-      "importance_score": 0.6501,
-      "importance_label": "多源热议",
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.5112,
-        "source_tier": 0.5,
-        "ai_relevance": 0.71,
-        "recency": 0.943,
-        "story_heat": 0.75
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
       },
-      "category": "multi_source",
+      "category": "industry",
       "reasons": [
-        "multi_source"
+        "high_ai_relevance",
+        "high_importance"
       ],
-      "earliest_at": "2026-07-28T17:22:16Z",
-      "latest_at": "2026-07-28T22:55:13.071000Z",
-      "creator_score": 74.0,
+      "earliest_at": "2026-07-29T11:55:01.948616Z",
+      "latest_at": "2026-07-29T11:55:01.948616Z",
+      "creator_score": 70.4,
       "creator_breakdown": {
         "relevance": 0.68,
         "freshness": 1.0,
-        "source": 1.0,
-        "impact": 0.25,
-        "novelty": 0.65,
-        "heat": 0.6775
+        "source": 0.5,
+        "impact": 0.63,
+        "novelty": 0.85,
+        "heat": 0.4187
       },
       "creator_bucket": "general_ai",
       "primary_entity": "anthropic",
-      "verification_status": "confirmed",
+      "verification_status": "single_source",
       "creator_reasons": [
         "entity:anthropic",
-        "official_or_tier0_source"
+        "workflow_impact"
       ],
       "primary_item": {
-        "id": "7364a9ab3ce22b48e7c3fab8ddd754dedd61dcbc",
-        "title": "用Claude发现密码学弱点 / Discovering cryptographic weaknesses with Claude",
-        "title_zh": "用Claude发现密码学弱点",
-        "title_en": "Discovering cryptographic weaknesses with Claude",
-        "title_original": "Discovering cryptographic weaknesses with Claude",
-        "url": "https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude",
-        "source": "Simon Willison",
-        "source_name": "OPML RSS"
+        "id": "cd45b57a667c8c59ce4b0ecad528f6454e1af77b",
+        "title": "ChatGPT周活用户逼近 10 亿大关：晚了 7 个月，但上线不到四年",
+        "title_zh": "ChatGPT周活用户逼近 10 亿大关：晚了 7 个月，但上线不到四年",
+        "title_original": "ChatGPT周活用户逼近 10 亿大关：晚了 7 个月，但上线不到四年",
+        "summary": "According to internal disclosures from OpenAI, the weekly active users of its chatbot ChatGPT are about to exceed 1 billion. This milestone was originally plann\nAccording to internal disclosures from OpenAI, the weekly active users of its chatbot ChatGPT are about to exceed 1 billion. This milestone was originally plann\nAccording to internal disclosures from OpenAI, the weekly active users of its chatbot ChatGPT are about to exceed 1 billion. This milestone was originally plann\nExplore AI Fronti",
+        "recommend_reason_zh": "ChatGPT周活用户逼近10亿，比原计划晚了7个月，但上线不到四年即达此规模；GPT-5遭广泛批评，Anthropic的Claude也抢占了部分市场份额。",
+        "url": "https://www.aibase.com/news/29977",
+        "source": "AIbase",
+        "source_name": "AIbase"
       },
       "sources": [
         {
-          "story_id": "story_0d60d2213c81",
-          "title": "用Claude发现密码学弱点 / Discovering cryptographic weaknesses with Claude",
-          "url": "https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude",
-          "source": "Simon Willison",
+          "story_id": "story_587e7e5b946a",
+          "title": "ChatGPT周活用户逼近 10 亿大关：晚了 7 个月，但上线不到四年",
+          "url": "https://www.aibase.com/news/29977",
+          "source": "AIbase",
           "site_id": "",
           "official": false
         }
