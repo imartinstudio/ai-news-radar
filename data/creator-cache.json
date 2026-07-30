@@ -5681,7 +5681,420 @@
           }
         ]
       }
+    },
+    "450b00e30fc7bde84ffa43aa7608a409bf5e5abf": {
+      "generated_at": "2026-07-30T11:55:46.418564Z",
+      "enrichment": {
+        "summary_zh": "OpenAI 发现启用 retained reasoning 和 compaction 两项 API 设置后，GPT-5.6 Sol 在 ARC-AGI-3 基准得分从 13.3%",
+        "why_it_matters": "API 配置对模型推理能力影响巨大，开发者需关注这些设置以优化成本和性能。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "实测 GPT-5.6 Sol：两个 API 参数让 ARC-AGI-3 得分翻三倍",
+            "angle": "我立刻在 OpenAI API 上启用了 retained reasoning 和 compaction，对比默认设置下的推理结果，发现得分从 13.3% 飙升到 38.3%，token 消耗反而降低。",
+            "needs_hands_on": true,
+            "risk": "未亲测，需确认具体 API 参数名称和默认值。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "GPT-5.6 隐藏设置：两步操作让推理能力暴涨 3 倍",
+            "angle": "手把手教你开启 OpenAI API 的 retained reasoning 和 compaction，实测 ARC-AGI-3 得分从 13% 到 38%，输出 token 减少 6 倍，避坑指南。",
+            "needs_hands_on": true,
+            "risk": "需验证 API 设置是否对所有用户开放。"
+          },
+          {
+            "platform": "wechat",
+            "title": "GPT-5.6 的 API 配置革命：两个参数如何重塑推理效率",
+            "angle": "从 ARC-AGI-3 基准测试看，retained reasoning 保留推理链，compaction 压缩输出，两者协同使得分提升 3 倍、成本降低 6 倍，对开发者工作流影响深远。",
+            "needs_hands_on": false,
+            "risk": ""
+          }
+        ]
+      }
+    },
+    "3ca9eee8a8f8bd996fde9a49199430553bb26cf6": {
+      "generated_at": "2026-07-30T11:55:46.418564Z",
+      "enrichment": {
+        "summary_zh": "OpenAI称GPT-5.6 Sol通过自家Responses API的Retained Reasoning和Compaction设置，在ARC-AGI-3上得分38.3%，超过C",
+        "why_it_matters": "模型在标准化基准上的表现因API设置差异而大幅波动，提醒开发者依赖单一基准选型存在风险，需关注实际部署环境。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "GPT-5.6 Sol ARC-AGI-3得分38.3% vs 7.8%：API设置如何让分数翻5倍？",
+            "angle": "我实测了GPT-5.6 Sol在官方标准测试和启用Retained Reasoning+Compaction后的表现，差距惊人。",
+            "needs_hands_on": true,
+            "risk": "未亲测，需确认OpenAI API中这两项设置的具体效果及对推理结果的影响。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "避坑指南：用GPT-5.6 Sol跑ARC-AGI-3，别忘开这两个API设置",
+            "angle": "手把手教你开启Retained Reasoning和Compaction，实测得分从7.8%飙升到38.3%。",
+            "needs_hands_on": true,
+            "risk": "需验证设置是否对所有任务有效，以及是否增加成本或延迟。"
+          },
+          {
+            "platform": "wechat",
+            "title": "ARC-AGI-3争议背后：AI基准测试的公平性危机",
+            "angle": "从OpenAI vs Anthropic的分数之争，看API设置如何扭曲模型能力评估，开发者如何避免被基准误导。",
+            "needs_hands_on": false,
+            "risk": "需确认ARC Prize是否更新测试环境以兼容不同API。"
+          }
+        ]
+      }
+    },
+    "32af9c590d459fc8e85f06153da69b4b1ca8039f": {
+      "generated_at": "2026-07-30T11:55:46.418564Z",
+      "enrichment": {
+        "summary_zh": "Marktechpost AI 团队发布 Token Saver，一款开源 MCP 扩展，通过本地混合 RAG 在设备端检索 PDF，无需上传文件，可将 Claude PDF to",
+        "why_it_matters": "大幅降低 Claude 处理 PDF 的 token 成本，同时保护数据隐私，可能改变开发者使用 AI 处理本地文档的工作流。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "Token Saver 实测：Claude PDF token 消耗直降 92% 的开源 MCP 扩展",
+            "angle": "我试用了 Token Saver，用本地 RAG 处理 PDF，token 消耗从 10 万降到 800，速度还快。",
+            "needs_hands_on": true,
+            "risk": "未亲测，需验证 token 削减比例和实际效果。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "Claude 看 PDF 太贵？这个开源 MCP 扩展帮你省 90% token",
+            "angle": "步骤：安装 Token Saver MCP 扩展，无需 Python 环境，直接本地检索 PDF，token 消耗从 10 万降到 800。",
+            "needs_hands_on": true,
+            "risk": "需确认安装步骤是否真如描述般简单。"
+          },
+          {
+            "platform": "wechat",
+            "title": "Token Saver 开源：本地混合 RAG 如何将 Claude PDF token 成本削减 99%",
+            "angle": "Token Saver 通过本地混合 RAG 实现 token 节省，对比传统全量上传，成本降低 92%-99%，且数据不出设备。",
+            "needs_hands_on": false,
+            "risk": "单来源报道，需更多验证。"
+          }
+        ]
+      }
+    },
+    "7a1f72b3d97067fdfe98240511aaf5d7bdf4dd55": {
+      "generated_at": "2026-07-30T11:55:46.418564Z",
+      "enrichment": {
+        "summary_zh": "扎克伯格在Meta Q2财报电话会上表示，企业AI机遇远不止智能体，还涵盖API、计算和内部软件，展现Meta全面布局。",
+        "why_it_matters": "Meta将AI机会拓展至API和基础设施，可能影响开发者选择AI平台和工具链的决策。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "Meta的企业AI布局：不止Agent，还有API和计算",
+            "angle": "扎克伯格说企业AI机会不止Agent，我实测Meta的API和计算服务，看看对开发者意味着什么。",
+            "needs_hands_on": true,
+            "risk": "Meta具体API和计算服务细节未公布，需核实实际可用性。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "Meta企业AI新方向：API和计算服务怎么用？",
+            "angle": "手把手教你接入Meta的AI API和计算资源，避坑指南。",
+            "needs_hands_on": true,
+            "risk": "Meta尚未发布详细文档，操作步骤基于推测。"
+          },
+          {
+            "platform": "wechat",
+            "title": "从Agent到API：Meta企业AI战略的全面解读",
+            "angle": "分析Meta企业AI布局对开发者和行业的影响，以及与其他平台的对比。",
+            "needs_hands_on": false,
+            "risk": ""
+          }
+        ]
+      }
+    },
+    "e16ea7216b02792649d128414a60a305e649c229": {
+      "generated_at": "2026-07-30T11:55:46.418564Z",
+      "enrichment": {
+        "summary_zh": "OpenAI推出GPT-5.6模型家族，包括旗舰Sol、平衡型Terra和高性价比Luna。Sol在编码代理基准测试中性能超竞品，API成本不到一半；Terra性能不变价格减半，L",
+        "why_it_matters": "新模型家族提供不同性价比选择，可能改变AI Coding工具的成本结构和性能基准，影响开发者对模型选型的决策。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "GPT-5.6 Sol实测：编码代理性能超竞品，成本减半？",
+            "angle": "我第一时间测试了Sol在复杂代码生成和调试任务上的表现，对比Claude和Gemini，发现速度提升明显，但某些边缘场景仍有问题。",
+            "needs_hands_on": true,
+            "risk": "性能数据来自OpenAI官方，需独立验证；API成本对比需确认具体定价。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "GPT-5.6三款模型怎么选？Sol/Terra/Luna实测对比与避坑指南",
+            "angle": "作为AI Coding重度用户，我分别用Sol、Terra、Luna完成了三个项目，告诉你哪个最适合日常开发、哪个性价比最高。",
+            "needs_hands_on": true,
+            "risk": "需实际测试三款模型在相同任务上的表现和成本。"
+          },
+          {
+            "platform": "wechat",
+            "title": "OpenAI GPT-5.6模型家族解读：Sol、Terra、Luna如何影响AI Coding生态",
+            "angle": "从模型架构、定价策略到编码代理基准，分析GPT-5.6家族对现有AI Coding工具（如Cursor、Copilot）的竞争格局和开发者工作流的长期影响。",
+            "needs_hands_on": false,
+            "risk": "部分分析基于官方信息，需关注第三方独立评测。"
+          }
+        ]
+      }
+    },
+    "d910815bdaff123e7889fcaaf0f891d2fc932eb2": {
+      "generated_at": "2026-07-30T11:55:46.418564Z",
+      "enrichment": {
+        "summary_zh": "OpenAI称，使用其Responses API的GPT-5.6 Sol在ARC-AGI-3测试中得分是官方基准的3倍，且消耗更少token；此前官方基准得分为7.8%。",
+        "why_it_matters": "表明API调用方式可显著影响模型推理效率与性能，开发者需关注工具链选择对成本与结果的影响。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "实测OpenAI Responses API：GPT-5.6 Sol ARC得分翻三倍，但官方基准仅7.8%",
+            "angle": "我第一时间用Responses API跑了一遍ARC-AGI-3，对比官方基准，结果确实惊人，但token节省是否稳定？",
+            "needs_hands_on": true,
+            "risk": "OpenAI声明为单方说法，未提供第三方复现结果；7.8%基准分数来源需确认。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "OpenAI新API让GPT-5.6 Sol ARC得分翻3倍？手把手教你复现并避坑",
+            "angle": "分享使用Responses API复现GPT-5.6 Sol高分的步骤，包括参数设置、token消耗对比和常见错误。",
+            "needs_hands_on": true,
+            "risk": "API调用方式可能因版本或配额不同导致结果差异，需实测验证。"
+          },
+          {
+            "platform": "wechat",
+            "title": "OpenAI Responses API vs 官方基准：GPT-5.6 Sol的ARC-AGI-3得分为何差3倍？",
+            "angle": "分析API harness与官方基准的差异，探讨对AI Coding工作流中模型评估与部署的启示。",
+            "needs_hands_on": false,
+            "risk": "OpenAI未公开具体实现细节，分析基于有限信息。"
+          }
+        ]
+      }
+    },
+    "c1aa72227152b8f706079b467695c5d40eff08fd": {
+      "generated_at": "2026-07-30T11:55:46.418564Z",
+      "enrichment": {
+        "summary_zh": "腾讯开源AngelSpec框架，通过多token预测和块扩散模型等策略，提升大模型在真实场景下的推理吞吐量，降低解码成本。",
+        "why_it_matters": "该框架针对高熵对话和代码/数学推理等不同场景优化，有望降低大模型部署成本，提升AI Coding等应用的响应速度。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "实测腾讯AngelSpec：推理速度提升多少？",
+            "angle": "我第一时间下载了腾讯刚开源的AngelSpec框架，在本地部署的代码模型上跑了一下，看看多token预测和块扩散模型到底能带来多少加速。",
+            "needs_hands_on": true,
+            "risk": "尚未亲测，具体性能提升数据需实际验证，且框架依赖特定模型和硬件环境。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "腾讯AngelSpec开源！手把手教你配置多token推理加速",
+            "angle": "刚发现腾讯开源了一个叫AngelSpec的推理加速框架，支持多token预测和块扩散。我按照文档配置了环境，实测代码生成任务，步骤和避坑点都整理好了。",
+            "needs_hands_on": true,
+            "risk": "配置过程可能因环境差异遇到问题，需确认文档完整性。"
+          },
+          {
+            "platform": "wechat",
+            "title": "腾讯AngelSpec：大模型推理效率的下一站？",
+            "angle": "从自回归解码的瓶颈出发，分析AngelSpec如何通过多token预测和块扩散模型分别优化高熵对话与代码/数学推理，并探讨其对AI Coding工作流的潜在影响。",
+            "needs_hands_on": false,
+            "risk": "框架实际效果和兼容性需进一步验证，目前仅基于官方介绍。"
+          }
+        ]
+      }
+    },
+    "bc02af375e7c1ad5d7e4cfc260a74c059b871ed0": {
+      "generated_at": "2026-07-30T11:55:46.418564Z",
+      "enrichment": {
+        "summary_zh": "Agent-Manager 是一个基于 Tmux 的终端 UI 工具，支持同时运行 Claude Code、Codex 和 OpenCode 等多个 AI 编码代理，方便开发者管理",
+        "why_it_matters": "为开发者提供统一界面管理多个 AI 编码代理，简化工作流，提升多代理协作效率。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "Agent-Manager 实测：一个 Tmux TUI 同时跑 Claude Code 和 Codex",
+            "angle": "我试用了 Agent-Manager，在 Tmux 里同时启动 Claude Code 和 Codex，体验如何？",
+            "needs_hands_on": true,
+            "risk": "未亲测，需验证多代理同时运行的稳定性与资源占用。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "用 Agent-Manager 管理多个 AI 编码代理：步骤与避坑",
+            "angle": "手把手教你安装和配置 Agent-Manager，同时运行 Claude Code、Codex 和 OpenCode，并分享常见问题。",
+            "needs_hands_on": true,
+            "risk": "需确认 Tmux 版本兼容性及代理配置细节。"
+          },
+          {
+            "platform": "wechat",
+            "title": "多代理协作新工具：Agent-Manager 如何改变 AI 编码工作流",
+            "angle": "从单代理到多代理管理，Agent-Manager 的出现对开发者工具链意味着什么？",
+            "needs_hands_on": false,
+            "risk": ""
+          }
+        ]
+      }
+    },
+    "3e539735125dd5ffa8a998c9a72b6e7c44e4457b": {
+      "generated_at": "2026-07-30T11:55:46.418564Z",
+      "enrichment": {
+        "summary_zh": "Cursor Crane 是一款新工具，旨在简化 Cursor 编辑器中的文件管理和项目导航，提升开发效率。",
+        "why_it_matters": "为 Cursor 用户提供更高效的文件操作方式，可能改善大型项目的开发工作流。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "Cursor Crane 初体验：文件管理新利器？",
+            "angle": "刚发现 Cursor Crane，试了一下感觉文件拖拽和导航确实顺滑，但不确定是否值得从默认方案切换。",
+            "needs_hands_on": true,
+            "risk": "未亲测，功能细节和稳定性未知。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "Cursor Crane 使用教程：三步提升文件管理效率",
+            "angle": "分享安装和配置步骤，对比默认文件面板，展示实际效果和避坑点。",
+            "needs_hands_on": true,
+            "risk": "未亲测，具体操作步骤和兼容性需验证。"
+          }
+        ]
+      }
+    },
+    "a0d6393f17deb7c031bab06e9364762a31f765b4": {
+      "generated_at": "2026-07-30T11:55:46.418564Z",
+      "enrichment": {
+        "summary_zh": "LangWatch 推出 Claude Code 使用追踪功能，帮助开发者监控和分析 AI 编码助手的调用情况。",
+        "why_it_matters": "为团队提供 Claude Code 使用数据，辅助成本控制和效率优化，影响 AI 编码工具的管理方式。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "实测 LangWatch 追踪 Claude Code：我的编码习惯被看光了？",
+            "angle": "第一人称体验，展示追踪数据如何暴露自己的编码模式，讨论隐私与效率的平衡。",
+            "needs_hands_on": true,
+            "risk": "未亲测 LangWatch 实际追踪效果，需验证数据准确性和隐私保护措施。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "用 LangWatch 监控 Claude Code 使用：步骤与避坑指南",
+            "angle": "分享配置 LangWatch 追踪 Claude Code 的详细步骤，展示结果截图，提醒注意 API 密钥安全。",
+            "needs_hands_on": true,
+            "risk": "未亲测集成过程，需确认 LangWatch 与 Claude Code 的兼容性及配置复杂度。"
+          },
+          {
+            "platform": "wechat",
+            "title": "AI 编码工具管理新范式：LangWatch 如何让 Claude Code 使用透明化",
+            "angle": "从团队管理角度分析 LangWatch 对 Claude Code 使用追踪的意义，讨论成本优化与开发效率的长期影响。",
+            "needs_hands_on": false,
+            "risk": "LangWatch 功能细节来自单一来源，需核实其追踪深度和报告能力。"
+          }
+        ]
+      }
+    },
+    "881b88e946fa51b819ffb5a34039c8c650cb1f3a": {
+      "generated_at": "2026-07-30T11:55:46.418564Z",
+      "enrichment": {
+        "summary_zh": "微软CEO纳德拉在财报电话会议中确认，今年将推出整合Copilot聊天、GitHub Copilot编程助手及智能代理的AI超级应用，覆盖消费与商业场景。",
+        "why_it_matters": "若落地，开发者可能在一个应用内完成聊天、编码和代理任务，改变现有工具链和工作流。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "微软Copilot超级应用来了：聊天+编程+代理，一个应用全搞定？",
+            "angle": "刚看到微软确认要搞Copilot超级应用，把聊天、编程和智能代理全塞进去。这要是真成了，Cursor、Codex这些工具是不是得慌？我打算第一时间实测，看看它到底能不能替代现有工作流。",
+            "needs_hands_on": true,
+            "risk": "目前仅CEO在财报会议提及，具体发布时间、功能边界、是否免费等细节未公布。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "微软Copilot超级应用实测预告：聊天+编程+代理，一个应用能替代多少工具？",
+            "angle": "微软确认要出Copilot超级应用，整合聊天、编程和智能代理。作为开发者，我准备等上线后第一时间下载，测试它的编程能力、代理任务执行效果，以及和现有工具（如Cursor、GitHub Copilot插件）的对比。关注我，后续出详细评测和避坑",
+            "needs_hands_on": true,
+            "risk": "应用尚未发布，评测基于官方预告，实际体验可能不同。"
+          },
+          {
+            "platform": "wechat",
+            "title": "微软Copilot超级应用：从聊天到编程，AI开发者的新入口？",
+            "angle": "微软CEO纳德拉在财报电话会议中确认，今年将推出整合Copilot聊天、GitHub Copilot编程助手及智能代理的AI超级应用。这标志着微软将AI能力从单一工具向平台化演进。本文分析该战略对开发者工作流、工具选择及微软生态的影响，并探",
+            "needs_hands_on": false,
+            "risk": "信息源单一（仅财报会议），产品细节和发布时间待官方进一步披露。"
+          }
+        ]
+      }
+    },
+    "d288088515ce141f5ecca07f85eb9b1be3ebd3e7": {
+      "generated_at": "2026-07-30T11:55:46.418564Z",
+      "enrichment": {
+        "summary_zh": "Feyn团队发布开源背景移除模型FeyNoBg，基于BiRefNet架构，参数增至263M，在多个基准上达到SOTA，同时发布配套数据集NoBg-4K。",
+        "why_it_matters": "为开发者提供高质量、可自托管的背景移除方案，降低对商业API的依赖，适合图像处理工作流集成。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "实测FeyNoBg：开源背景移除模型能否替代remove.bg？",
+            "angle": "我第一时间下载了FeyNoBg模型，在几张复杂背景图片上测试了分割效果和速度，对比了rembg和remove.bg API。",
+            "needs_hands_on": true,
+            "risk": "模型实际推理速度与显存占用未亲测，官方宣称的SOTA需在个人数据集上验证。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "手把手教你用FeyNoBg免费去除图片背景（附代码）",
+            "angle": "刚发现一个超好用的开源背景移除模型，不用联网、不用付费，本地跑一下就能出图。",
+            "needs_hands_on": true,
+            "risk": "安装依赖和模型下载步骤可能因环境不同出错，需提供常见问题解决方案。"
+          },
+          {
+            "platform": "wechat",
+            "title": "FeyNoBg发布：背景移除模型的新SOTA，开源社区再添利器",
+            "angle": "从BiRefNet到FeyNoBg，背景移除技术的最新进展及其对开发者生态的影响。",
+            "needs_hands_on": false,
+            "risk": "文章需引用官方论文和数据集细节，避免夸大性能。"
+          }
+        ]
+      }
+    },
+    "e5cad3ebe2e6e94640b24703837d7279a5c49742": {
+      "generated_at": "2026-07-30T11:55:46.418564Z",
+      "enrichment": {
+        "summary_zh": "微软周三向华尔街展示自家AI模型、工具及Mythos竞品，公开与OpenAI、Anthropic竞争，宣告持续增长计划。",
+        "why_it_matters": "微软从投资方转向直接竞争，开发者需重新评估AI模型选型、工具链及平台依赖风险。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "微软与OpenAI、Anthropic公开竞争：开发者如何应对？",
+            "angle": "微软展示自家模型和工具，与OpenAI、Anthropic正面竞争。作为开发者，我担心平台锁定和模型切换成本。",
+            "needs_hands_on": false,
+            "risk": "微软具体模型名称、性能及Mythos竞品细节尚未披露。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "微软AI模型实测：与OpenAI、Anthropic对比避坑指南",
+            "angle": "微软推出自家AI模型，我第一时间对比了代码生成、推理能力，发现这些坑要注意。",
+            "needs_hands_on": true,
+            "risk": "未亲测微软模型，实际性能、API兼容性及定价未知。"
+          },
+          {
+            "platform": "wechat",
+            "title": "微软与OpenAI、Anthropic竞争升级：AI开发者的生态变局",
+            "angle": "微软从投资到亲自下场，AI开发工具链面临重构，长期影响包括模型选择、成本与平台策略。",
+            "needs_hands_on": false,
+            "risk": "文章基于单一来源，微软具体产品路线图未确认。"
+          }
+        ]
+      }
+    },
+    "ffb05359faaf5726b852c46efce65f5b66e355d4": {
+      "generated_at": "2026-07-30T11:55:46.418564Z",
+      "enrichment": {
+        "summary_zh": "Delta、Virgin等航司加速引入AI动态定价技术，通过分析购买行为、需求等数十种因素实时调价，热门航线低价票供应将减少，未来“捡漏”更难。",
+        "why_it_matters": "AI动态定价将改变消费者购票策略，开发者需关注算法对价格透明度的影响及可能的合规风险。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "AI动态定价让机票“捡漏”更难？实测对比传统与AI定价差异",
+            "angle": "我对比了同一航线在AI定价前后的价格波动，发现低价窗口明显缩短。",
+            "needs_hands_on": true,
+            "risk": "未亲测具体航司的AI定价系统，数据来自新闻报道，需实际验证价格变化。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "AI抢票攻略：如何应对航司动态定价？实测3个技巧",
+            "angle": "分享我实测的应对AI动态定价的购票步骤和避坑经验。",
+            "needs_hands_on": true,
+            "risk": "技巧有效性依赖具体航司算法，未在多家航司验证。"
+          },
+          {
+            "platform": "wechat",
+            "title": "AI定价重塑航空业：从“捡漏”到“精准收割”，消费者如何应对？",
+            "angle": "分析AI动态定价的技术原理、对消费者权益的影响及未来监管趋势。",
+            "needs_hands_on": false,
+            "risk": "监管趋势部分为推测，需引用更多政策来源。"
+          }
+        ]
+      }
     }
   },
-  "updated_at": "2026-07-29T23:06:03.986525Z"
+  "updated_at": "2026-07-30T11:55:46.418564Z"
 }
