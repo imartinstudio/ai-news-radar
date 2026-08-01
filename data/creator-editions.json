@@ -1,8 +1,930 @@
 {
   "version": 1,
-  "generated_at": "2026-07-31T23:14:57.842221Z",
-  "total_editions": 19,
+  "generated_at": "2026-08-01T11:34:54.820721Z",
+  "total_editions": 20,
   "editions": [
+    {
+      "edition_id": "2026-08-01-evening",
+      "edition_kind": "evening",
+      "generated_at": "2026-08-01T11:34:54.820721Z",
+      "timezone": "Asia/Shanghai",
+      "total_items": 9,
+      "summary": {
+        "confirmed": 1,
+        "single_source": 8,
+        "early_signal": 0,
+        "rumor": 0,
+        "new": 9,
+        "updated": 0,
+        "confirmed_updates": 0
+      },
+      "items": [
+        {
+          "story_id": "story_3406ca2b4f10",
+          "creator_event_id": "creator-7963cc9177ce857e",
+          "merged_story_ids": [
+            "story_3406ca2b4f10"
+          ],
+          "title": "Supabase 发布 Evals：一个开源基准测试，在真实 Supabase 任务上评测 Claude Code、Codex 和 OpenCode / Supabase Releases Evals: an Open Source Benchmark That Scores Claude Code, Codex and OpenCode on Real Supabase Tasks",
+          "url": "https://www.marktechpost.com/2026/08/01/supabase-releases-evals-an-open-source-benchmark-that-scores-claude-code-codex-and-opencode-on-real-supabase-tasks",
+          "primary_url": "https://www.marktechpost.com/2026/08/01/supabase-releases-evals-an-open-source-benchmark-that-scores-claude-code-codex-and-opencode-on-real-supabase-tasks",
+          "source": "MarkTechPost Research",
+          "source_name": "Curated Media",
+          "source_count": 1,
+          "source_names": [
+            "MarkTechPost Research"
+          ],
+          "score": 0.6204,
+          "importance": 0.6204,
+          "importance_score": 0.6204,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.5472,
+            "source_tier": 0.58,
+            "ai_relevance": 0.76,
+            "recency": 0.9814,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-08-01T09:52:49Z",
+          "latest_at": "2026-08-01T09:52:49Z",
+          "creator_score": 90.9,
+          "creator_breakdown": {
+            "relevance": 1.0,
+            "freshness": 1.0,
+            "source": 0.78,
+            "impact": 1.0,
+            "novelty": 0.85,
+            "heat": 0.3671
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "claude-code",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:claude-code",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "34cd4a150a88b3ab46f8d7334ec78684c57fc44c",
+            "title": "Supabase 发布 Evals：一个开源基准测试，在真实 Supabase 任务上评测 Claude Code、Codex 和 OpenCode / Supabase Releases Evals: an Open Source Benchmark That Scores Claude Code, Codex and OpenCode on Real Supabase Tasks",
+            "title_zh": "Supabase 发布 Evals：一个开源基准测试，在真实 Supabase 任务上评测 Claude Code、Codex 和 OpenCode",
+            "title_en": "Supabase Releases Evals: an Open Source Benchmark That Scores Claude Code, Codex and OpenCode on Real Supabase Tasks",
+            "title_original": "Supabase Releases Evals: an Open Source Benchmark That Scores Claude Code, Codex and OpenCode on Real Supabase Tasks",
+            "summary": "Supabase open sourced Supabase Evals, an Apache-2.0 benchmark that scores how well AI coding agents build with Supabase\nSupabase open sourced Supabase Evals, an Apache-2.0 benchmark that scores how well AI coding agents build with Supabase\nSupabase has open sourced Supabase Evals , its benchmark and framework for testing how well AI agents build using Supabase. It runs coding agents including Claude Code , Codex, and OpenCode against real tasks, such as building a schema, debugging a failed Edge",
+            "recommend_reason_zh": "Supabase开源Apache-2.0基准测试平台Supabase Evals，用构建schema、调试Edge Function等真实任务给Claude Code、Codex、OpenCode评分，并公开排行榜；数据显示Opus 5与Kimi K3在Build阶段获100%。",
+            "url": "https://www.marktechpost.com/2026/08/01/supabase-releases-evals-an-open-source-benchmark-that-scores-claude-code-codex-and-opencode-on-real-supabase-tasks",
+            "source": "MarkTechPost Research",
+            "source_name": "Curated Media"
+          },
+          "sources": [
+            {
+              "story_id": "story_3406ca2b4f10",
+              "title": "Supabase 发布 Evals：一个开源基准测试，在真实 Supabase 任务上评测 Claude Code、Codex 和 OpenCode / Supabase Releases Evals: an Open Source Benchmark That Scores Claude Code, Codex and OpenCode on Real Supabase Tasks",
+              "url": "https://www.marktechpost.com/2026/08/01/supabase-releases-evals-an-open-source-benchmark-that-scores-claude-code-codex-and-opencode-on-real-supabase-tasks",
+              "source": "MarkTechPost Research",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "Supabase 开源了 Apache-2.0 基准测试 Supabase Evals，用真实任务（如构建 schema、调试 Edge Function）评测 Claude Co",
+          "why_it_matters": "该基准测试为 AI 编程代理在真实后端任务上的表现提供了可量化参考，影响开发者选择编码代理和评估其工程能力，尤其针对 Supabase 生态",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "实测 Supabase Evals：Claude Code 和 Codex 谁更会建 schema？",
+              "angle": "分享自己用 Supabase Evals 跑本地测试的体验，对比不同代理在真实任务上的表现，突出意外结果。",
+              "needs_hands_on": true,
+              "risk": "未亲测，需确认测试环境配置和结果复现性。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "Supabase Evals 避坑指南：如何用官方基准测试选对 AI 编程代理",
+              "angle": "以第一人称分享使用 Supabase Evals 的步骤、注意事项和结果解读，帮助开发者避免踩坑。",
+              "needs_hands_on": true,
+              "risk": "需验证测试任务的具体细节和评分标准。"
+            },
+            {
+              "platform": "wechat",
+              "title": "Supabase Evals 发布：AI 编程代理基准测试的里程碑与局限",
+              "angle": "从行业角度分析 Supabase Evals 对 AI 编程代理评估体系的影响，讨论其设计思路和潜在局限。",
+              "needs_hands_on": false,
+              "risk": "需核实排行榜数据及测试任务覆盖范围。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_999d6bfa2f68",
+          "creator_event_id": "creator-b0ababa037260063",
+          "merged_story_ids": [
+            "story_999d6bfa2f68"
+          ],
+          "title": "MiniMax 推出全模态视频模型 MiniMax H3，可生成带原生立体声的 15 秒 2K 片段 / MiniMax Releases MiniMax H3: An Omni-Modal Video Model That Generates 15-Second 2K Clips With Native Stereo Audio",
+          "url": "https://www.marktechpost.com/2026/08/01/minimax-releases-minimax-h3-an-omni-modal-video-model-that-generates-15-second-2k-clips-with-native-stereo-audio",
+          "primary_url": "https://www.marktechpost.com/2026/08/01/minimax-releases-minimax-h3-an-omni-modal-video-model-that-generates-15-second-2k-clips-with-native-stereo-audio",
+          "source": "MarkTechPost Research",
+          "source_name": "Curated Media",
+          "source_count": 1,
+          "source_names": [
+            "MarkTechPost Research"
+          ],
+          "score": 0.5836,
+          "importance": 0.5836,
+          "importance_score": 0.5836,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.4896,
+            "source_tier": 0.58,
+            "ai_relevance": 0.68,
+            "recency": 0.9616,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-08-01T08:28:07Z",
+          "latest_at": "2026-08-01T08:28:07Z",
+          "creator_score": 83.4,
+          "creator_breakdown": {
+            "relevance": 0.88,
+            "freshness": 1.0,
+            "source": 0.78,
+            "impact": 0.81,
+            "novelty": 0.75,
+            "heat": 0.3543
+          },
+          "creator_bucket": "ai_coding",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "ai_coding_terms",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "47883f7c7247b50a24b267eef6e0da17b38abe61",
+            "title": "MiniMax 推出全模态视频模型 MiniMax H3，可生成带原生立体声的 15 秒 2K 片段 / MiniMax Releases MiniMax H3: An Omni-Modal Video Model That Generates 15-Second 2K Clips With Native Stereo Audio",
+            "title_zh": "MiniMax 推出全模态视频模型 MiniMax H3，可生成带原生立体声的 15 秒 2K 片段",
+            "title_en": "MiniMax Releases MiniMax H3: An Omni-Modal Video Model That Generates 15-Second 2K Clips With Native Stereo Audio",
+            "title_original": "MiniMax Releases MiniMax H3: An Omni-Modal Video Model That Generates 15-Second 2K Clips With Native Stereo Audio",
+            "summary": "MiniMax H3 generates 15-second 2K video with native stereo audio from unified text, image, video, and audio context\nMiniMax H3 generates 15-second 2K video with native stereo audio from unified text, image, video, and audio context\nMiniMax releases MiniMax H3 , a general-purpose multimodal generation model. MiniMax H3 is not a text-to-video model with add-ons. MiniMax describes it as a general-purpose multimodal generation model that reads text, images, video, and audio as one unified context an",
+            "recommend_reason_zh": "MiniMax H3将文本、图像、视频和音频作为统一上下文，直接生成带原生立体声的15秒2K视频；2K每秒定价$0.13（15秒约$1.95），训练吞吐量提升近30%，已通过API以MiniMax-H3模型ID开放。",
+            "url": "https://www.marktechpost.com/2026/08/01/minimax-releases-minimax-h3-an-omni-modal-video-model-that-generates-15-second-2k-clips-with-native-stereo-audio",
+            "source": "MarkTechPost Research",
+            "source_name": "Curated Media"
+          },
+          "sources": [
+            {
+              "story_id": "story_999d6bfa2f68",
+              "title": "MiniMax 推出全模态视频模型 MiniMax H3，可生成带原生立体声的 15 秒 2K 片段 / MiniMax Releases MiniMax H3: An Omni-Modal Video Model That Generates 15-Second 2K Clips With Native Stereo Audio",
+              "url": "https://www.marktechpost.com/2026/08/01/minimax-releases-minimax-h3-an-omni-modal-video-model-that-generates-15-second-2k-clips-with-native-stereo-audio",
+              "source": "MarkTechPost Research",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "MiniMax 发布全模态视频模型 MiniMax H3，可将文本、图像、视频和音频作为统一上下文，直接生成带原生立体声的 15 秒 2K 视频。API 已开放，2K 定价每秒 $",
+          "why_it_matters": "H3 将多模态输入统一处理，简化视频生成工作流，降低多步骤管线成本，对 AI 视频创作和自动化内容生产有直接影响。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "实测 MiniMax H3：15 秒 2K 带原生立体声，效果如何？",
+              "angle": "作为开发者，我第一时间调用 API 生成了一段视频，对比其他模型，分享真实体验和生成质量。",
+              "needs_hands_on": true,
+              "risk": "未亲测，需验证生成质量、立体声效果及 API 稳定性。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "MiniMax H3 视频生成教程：如何用 API 生成带声音的 2K 视频",
+              "angle": "手把手教你调用 MiniMax H3 API，包括参数设置、成本估算和避坑指南。",
+              "needs_hands_on": true,
+              "risk": "未亲测，需确认 API 文档和实际调用步骤。"
+            },
+            {
+              "platform": "wechat",
+              "title": "MiniMax H3 发布：全模态视频生成将如何改变内容创作？",
+              "angle": "从技术演进角度分析 H3 对 AI 视频生成领域的影响，以及开发者如何应对。",
+              "needs_hands_on": false,
+              "risk": "需核实官方技术细节和定价信息。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_5f7b5ebc21a9",
+          "creator_event_id": "creator-bad6ded8e1fb4b14",
+          "merged_story_ids": [
+            "story_5f7b5ebc21a9"
+          ],
+          "title": "OpenAI Astra 以约2000美元证明10项数学难题 / ten significant advances in mathematics and theoretical computer science. solved using an internal …",
+          "url": "https://x.com/gdb/status/2083457463337287721",
+          "primary_url": "https://x.com/gdb/status/2083457463337287721",
+          "source": "X：Greg Brockman (@gdb)",
+          "source_name": "AI HOT",
+          "source_count": 1,
+          "source_names": [
+            "X：Greg Brockman (@gdb)"
+          ],
+          "score": 0.7527,
+          "importance": 0.7527,
+          "importance_score": 0.7527,
+          "importance_label": "行业动态",
+          "importance_breakdown": {
+            "editorial": 0.7,
+            "source_tier": 0.78,
+            "ai_relevance": 1.0,
+            "recency": 0.9503,
+            "story_heat": 0.0
+          },
+          "category": "industry",
+          "reasons": [
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-08-01T07:39:02Z",
+          "latest_at": "2026-08-01T07:39:02Z",
+          "persona_id": "pragmatic",
+          "persona_score": 45,
+          "persona_review": "数学难题证明离工程落地远，先看能否复现再动手。",
+          "creator_score": 81.1,
+          "creator_breakdown": {
+            "relevance": 0.88,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.94,
+            "novelty": 0.85,
+            "heat": 0.4134
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "openai",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:openai",
+            "ai_coding_terms",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "5388e09d34b8b96f7241cc196d2cde3bb212a98d",
+            "title": "OpenAI Astra 以约2000美元证明10项数学难题 / ten significant advances in mathematics and theoretical computer science. solved using an internal …",
+            "title_zh": "OpenAI Astra 以约2000美元证明10项数学难题",
+            "title_en": "ten significant advances in mathematics and theoretical computer science. solved using an internal …",
+            "title_original": "ten significant advances in mathematics and theoretical computer science. solved using an internal …",
+            "summary": "OpenAI 用下一代模型 Astra 内部版解决了数学与理论计算机科学领域的10项重大进展，总成本约2000美元（按 Sol API 价格计算）。Astra 证明了非 sofic 群的存在，并推翻 Connes 刚性猜想，成果涵盖 von Neumann 代数、高维球堆积、电路复杂度等。OpenAI 已发布全部10项证明，附 Lean 证书与 CoT 逐步推导。",
+            "recommend_reason_zh": "用内部版Astra解决了数学和理论计算机科学领域十项重大进展，总成本仅约2000美元（按Sol API价格计算），展现了下一代模型在科学发现上的惊人效率。",
+            "url": "https://x.com/gdb/status/2083457463337287721",
+            "source": "X：Greg Brockman (@gdb)",
+            "source_name": "AI HOT"
+          },
+          "sources": [
+            {
+              "story_id": "story_5f7b5ebc21a9",
+              "title": "OpenAI Astra 以约2000美元证明10项数学难题 / ten significant advances in mathematics and theoretical computer science. solved using an internal …",
+              "url": "https://x.com/gdb/status/2083457463337287721",
+              "source": "X：Greg Brockman (@gdb)",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "OpenAI 内部版 Astra 模型以约2000美元成本解决了数学与理论计算机科学领域10项重大难题，包括证明非 sofic 群存在、推翻 Connes 刚性猜想，并发布全部证明",
+          "why_it_matters": "Astra 以极低成本完成高难度数学证明，展示 AI 在科学发现中的潜力，可能改变研究范式，对开发者意味着更强大的推理工具。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "OpenAI Astra 用2000美元解决数学难题，我实测了它的推理能力",
+              "angle": "作为开发者，我尝试用类似方法解决编程问题，对比 Astra 的推理效率与成本。",
+              "needs_hands_on": true,
+              "risk": "未亲测 Astra 实际能力，仅基于公开信息，需验证其推理质量。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "AI 证明数学难题？OpenAI Astra 的 Lean 证书使用指南",
+              "angle": "分享如何利用 Lean 证书验证 AI 证明，以及这对学习数学和编程的启发。",
+              "needs_hands_on": true,
+              "risk": "Lean 证书的具体使用步骤未亲测，需参考官方文档。"
+            },
+            {
+              "platform": "wechat",
+              "title": "从 AlphaGo 到 Astra：AI 在科学发现中的角色演变",
+              "angle": "分析 AI 在数学和计算机科学领域的应用历史，探讨 Astra 的突破对研究生态的长期影响。",
+              "needs_hands_on": false,
+              "risk": "历史背景需核实，避免过度解读。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_79d51cf14ed1",
+          "creator_event_id": "creator-97474af778ca9c08",
+          "merged_story_ids": [
+            "story_79d51cf14ed1"
+          ],
+          "title": "Simon Willison发布llm-mcp-client 0.1a0：LLM可直接使用MCP服务器工具",
+          "url": "https://simonwillison.net/2026/Jul/31/llm-mcp-client",
+          "primary_url": "https://simonwillison.net/2026/Jul/31/llm-mcp-client",
+          "source": "Simon Willison",
+          "source_name": "OPML RSS",
+          "source_count": 1,
+          "source_names": [
+            "Simon Willison"
+          ],
+          "score": 0.5731,
+          "importance": 0.5731,
+          "importance_score": 0.5731,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.54,
+            "source_tier": 0.5,
+            "ai_relevance": 0.75,
+            "recency": 0.8395,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-07-31T23:03:47Z",
+          "latest_at": "2026-07-31T23:03:47Z",
+          "creator_score": 80.1,
+          "creator_breakdown": {
+            "relevance": 0.9,
+            "freshness": 0.837,
+            "source": 0.7,
+            "impact": 0.81,
+            "novelty": 0.85,
+            "heat": 0.3506
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "mcp",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:mcp",
+            "ai_coding_terms",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "cd2703fdea2f077ee993b9c3277462729a528840",
+            "title": "Simon Willison发布llm-mcp-client 0.1a0：LLM可直接使用MCP服务器工具",
+            "title_zh": "Simon Willison发布llm-mcp-client 0.1a0：LLM可直接使用MCP服务器工具",
+            "title_en": "llm-mcp-client 0.1a0",
+            "title_original": "llm-mcp-client 0.1a0",
+            "summary": "Access tools from MCP servers as LLM tools\n31st July 2026\nSee this blog entry .\nThis is a beat by Simon Willison, posted on 31st July 2026 .\nSponsor me for $10/month and get a curated email digest of the month's most important LLM developments.\nPay me to send you less!",
+            "recommend_reason_zh": "Simon Willison于2026年7月31日发布llm-mcp-client 0.1a0，实现从MCP服务器访问工具并作为LLM工具使用。这个早期版本打通了MCP与LLM工具互操作的关键环节，值得开发者关注。",
+            "url": "https://simonwillison.net/2026/Jul/31/llm-mcp-client",
+            "source": "Simon Willison",
+            "source_name": "OPML RSS"
+          },
+          "sources": [
+            {
+              "story_id": "story_79d51cf14ed1",
+              "title": "Simon Willison发布llm-mcp-client 0.1a0：LLM可直接使用MCP服务器工具",
+              "url": "https://simonwillison.net/2026/Jul/31/llm-mcp-client",
+              "source": "Simon Willison",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "Simon Willison于2026年7月31日发布llm-mcp-client 0.1a0，该工具允许LLM直接访问MCP服务器上的工具，实现MCP与LLM工具互操作。",
+          "why_it_matters": "该工具简化了MCP服务器与LLM的集成，可能影响开发者构建AI Coding工作流时的工具选择，降低集成成本。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "llm-mcp-client 0.1a0实测：MCP工具接入LLM有多简单？",
+              "angle": "作为开发者，我第一时间尝试了llm-mcp-client，分享接入MCP服务器的步骤和体验。",
+              "needs_hands_on": true,
+              "risk": "未亲测，需验证实际功能和稳定性。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "MCP工具接入LLM新方案：llm-mcp-client 0.1a0避坑指南",
+              "angle": "分享使用llm-mcp-client的详细步骤、常见问题及解决方案，帮助新手快速上手。",
+              "needs_hands_on": true,
+              "risk": "未亲测，需验证安装和使用细节。"
+            },
+            {
+              "platform": "wechat",
+              "title": "MCP与LLM互操作：llm-mcp-client 0.1a0的定位与影响",
+              "angle": "从MCP生态发展角度，分析该工具对AI Coding工作流和工具链的长期影响。",
+              "needs_hands_on": false,
+              "risk": ""
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_fde4275cea8e",
+          "creator_event_id": "creator-69860625e63d5baf",
+          "merged_story_ids": [
+            "story_fde4275cea8e"
+          ],
+          "title": "DeepSeek V4-Flash 更新：代码与 Agent 能力全面增强",
+          "url": "https://juejin.cn/post/7668540866239529010",
+          "primary_url": "https://juejin.cn/post/7668540866239529010",
+          "source": "juejin",
+          "source_name": "NewsNow",
+          "source_count": 1,
+          "source_names": [
+            "juejin"
+          ],
+          "score": 0.5208,
+          "importance": 0.5208,
+          "importance_score": 0.5208,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.468,
+            "source_tier": 0.32,
+            "ai_relevance": 0.65,
+            "recency": 1.0,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-08-01T11:11:15.038000Z",
+          "latest_at": "2026-08-01T11:11:15.038000Z",
+          "creator_score": 78.7,
+          "creator_breakdown": {
+            "relevance": 0.88,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.81,
+            "novelty": 0.85,
+            "heat": 0.3323
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "deepseek",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:deepseek",
+            "ai_coding_terms",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "1eb7a598ff4f4d33852773fb4562045e2007aa59",
+            "title": "DeepSeek V4-Flash 更新：代码与 Agent 能力全面增强",
+            "title_zh": "DeepSeek V4-Flash 更新：代码与 Agent 能力全面增强",
+            "title_original": "DeepSeek V4-Flash 更新：代码与 Agent 能力全面增强",
+            "url": "https://juejin.cn/post/7668540866239529010",
+            "source": "juejin",
+            "source_name": "NewsNow"
+          },
+          "sources": [
+            {
+              "story_id": "story_fde4275cea8e",
+              "title": "DeepSeek V4-Flash 更新：代码与 Agent 能力全面增强",
+              "url": "https://juejin.cn/post/7668540866239529010",
+              "source": "juejin",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "DeepSeek 发布 V4-Flash 更新，宣称代码生成与 Agent 能力全面增强。目前仅有单一来源报道，具体改进细节和性能数据尚未公布，需进一步验证。",
+          "why_it_matters": "若属实，将影响开发者对代码生成工具的选择，可能提升 Agent 在复杂任务中的表现，但需关注实际效果与现有工具的对比。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "DeepSeek V4-Flash 更新实测：代码能力真的更强了吗？",
+              "angle": "第一时间下载体验，对比旧版本和主流模型，分享真实代码生成和 Agent 任务表现。",
+              "needs_hands_on": true,
+              "risk": "目前仅有单一来源，未亲测，需确认更新是否真实存在及具体版本号。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "DeepSeek V4-Flash 更新避坑指南：这些细节你需要知道",
+              "angle": "以用户视角整理更新要点，提醒大家注意信息来源单一，建议等待官方公告或更多评测。",
+              "needs_hands_on": false,
+              "risk": "需核实官方是否发布更新，避免传播不实信息。"
+            },
+            {
+              "platform": "wechat",
+              "title": "DeepSeek V4-Flash 更新背后：AI Coding 工具竞争加剧",
+              "angle": "分析此次更新对 AI 编程工具市场的影响，探讨 DeepSeek 的定位与未来趋势。",
+              "needs_hands_on": false,
+              "risk": "需确认更新真实性，避免基于传闻做深度分析。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_a15f3c26a3b8",
+          "creator_event_id": "creator-6d20482c50a54cb8",
+          "merged_story_ids": [
+            "story_a15f3c26a3b8"
+          ],
+          "title": "DeepSeek-V4-Flash-0731发布，支持编程、文档阅读与长对话",
+          "url": "https://www.producthunt.com/products/deepseek",
+          "primary_url": "https://www.producthunt.com/products/deepseek",
+          "source": "producthunt",
+          "source_name": "NewsNow",
+          "source_count": 1,
+          "source_names": [
+            "producthunt"
+          ],
+          "score": 0.5208,
+          "importance": 0.5208,
+          "importance_score": 0.5208,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.468,
+            "source_tier": 0.32,
+            "ai_relevance": 0.65,
+            "recency": 1.0,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-08-01T11:11:15.038000Z",
+          "latest_at": "2026-08-01T11:11:15.038000Z",
+          "creator_score": 78.7,
+          "creator_breakdown": {
+            "relevance": 0.88,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.81,
+            "novelty": 0.85,
+            "heat": 0.3323
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "deepseek",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:deepseek",
+            "ai_coding_terms",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "4132184651fab80c70a4c25effd04d3d705e618b",
+            "title": "DeepSeek-V4-Flash-0731发布，支持编程、文档阅读与长对话",
+            "title_zh": "DeepSeek-V4-Flash-0731发布，支持编程、文档阅读与长对话",
+            "title_en": "DeepSeek-V4-Flash-0731",
+            "title_original": "DeepSeek-V4-Flash-0731",
+            "url": "https://www.producthunt.com/products/deepseek",
+            "source": "producthunt",
+            "source_name": "NewsNow"
+          },
+          "sources": [
+            {
+              "story_id": "story_a15f3c26a3b8",
+              "title": "DeepSeek-V4-Flash-0731发布，支持编程、文档阅读与长对话",
+              "url": "https://www.producthunt.com/products/deepseek",
+              "source": "producthunt",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "DeepSeek-V4-Flash-0731 发布，支持编程、文档阅读与长对话，信息来自 Product Hunt 单一来源，尚未官方确认。",
+          "why_it_matters": "若属实，将影响开发者对编程模型的选择，可能提供更高效的长对话处理能力，需关注其性能与兼容性。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "DeepSeek-V4-Flash 实测：编程与长对话体验如何？",
+              "angle": "作为开发者，第一时间尝试新模型，分享编程任务中的实际表现和长对话处理能力。",
+              "needs_hands_on": true,
+              "risk": "模型尚未官方发布，需确认可用性及性能数据。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "DeepSeek-V4-Flash 上手教程：编程、文档阅读与长对话技巧",
+              "angle": "以教程形式展示如何利用新模型进行编程辅助、文档解析和长对话管理，附步骤和避坑指南。",
+              "needs_hands_on": true,
+              "risk": "需验证模型实际功能是否与描述一致。"
+            },
+            {
+              "platform": "wechat",
+              "title": "DeepSeek-V4-Flash 发布：AI 编程模型的新选择？",
+              "angle": "分析该模型对现有 AI 编程工具生态的影响，探讨其定位与潜在应用场景。",
+              "needs_hands_on": false,
+              "risk": "信息源单一，需等待官方确认。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_10739ae4d797",
+          "creator_event_id": "creator-8a1435190b3aeaea",
+          "merged_story_ids": [
+            "story_10739ae4d797"
+          ],
+          "title": "数学与理论计算机科学领域的十大进展 / Ten advances in mathematics and theoretical computer science",
+          "url": "https://openai.com/index/ten-advances-in-mathematics",
+          "primary_url": "https://openai.com/index/ten-advances-in-mathematics",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "source_count": 1,
+          "source_names": [
+            "OpenAI News"
+          ],
+          "score": 0.8502,
+          "importance": 0.8502,
+          "importance_score": 0.8502,
+          "importance_label": "官方更新",
+          "importance_breakdown": {
+            "editorial": 0.9,
+            "source_tier": 1.0,
+            "ai_relevance": 0.91,
+            "recency": 0.8509,
+            "story_heat": 0.25
+          },
+          "category": "official",
+          "reasons": [
+            "official_source",
+            "multi_source",
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-08-01T00:00:00Z",
+          "latest_at": "2026-08-01T10:17:30.122000Z",
+          "persona_id": "pragmatic",
+          "persona_score": 45,
+          "persona_review": "理论进展离工程落地还远，做应用的不用急着跟进。",
+          "creator_score": 81.3,
+          "creator_breakdown": {
+            "relevance": 0.68,
+            "freshness": 1.0,
+            "source": 1.0,
+            "impact": 0.63,
+            "novelty": 0.85,
+            "heat": 0.5976
+          },
+          "creator_bucket": "general_ai",
+          "primary_entity": "openai",
+          "verification_status": "confirmed",
+          "creator_reasons": [
+            "entity:openai",
+            "workflow_impact",
+            "official_or_tier0_source"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "a0e4b1e4f3be1357532241ca9041be11d4352f4f",
+            "title": "数学与理论计算机科学领域的十大进展 / Ten advances in mathematics and theoretical computer science",
+            "title_zh": "数学与理论计算机科学领域的十大进展",
+            "title_en": "Ten advances in mathematics and theoretical computer science",
+            "title_original": "Ten advances in mathematics and theoretical computer science",
+            "summary": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.\nOpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.\nOpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexi",
+            "recommend_reason_zh": "OpenAI发布十项数学与理论计算机科学进展，覆盖几何、密码学与复杂度，包括对Erdős单位距离猜想的AI反驳；结果由Astra生成，人类整理并经Lean形式化验证。",
+            "url": "https://openai.com/index/ten-advances-in-mathematics",
+            "source": "OpenAI News",
+            "source_name": "Official AI Updates"
+          },
+          "sources": [
+            {
+              "story_id": "story_10739ae4d797",
+              "title": "数学与理论计算机科学领域的十大进展 / Ten advances in mathematics and theoretical computer science",
+              "url": "https://openai.com/index/ten-advances-in-mathematics",
+              "source": "OpenAI News",
+              "site_id": "",
+              "official": true
+            }
+          ],
+          "summary_zh": "OpenAI发布十项数学与理论计算机科学进展，覆盖几何、密码学与复杂度，包括对Erdős单位距离猜想的AI反驳；结果由Astra生成，人类整理并经Lean形式化验证。",
+          "why_it_matters": "AI在数学证明与反例发现上的能力提升，可能改变算法设计与验证流程，对AI Coding的推理与形式化验证有参考价值。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "AI反驳Erdős猜想：我实测了OpenAI的数学推理",
+              "angle": "以开发者视角，分享对OpenAI数学进展的初步观察，强调AI在反例发现上的潜力，并提及Lean验证的重要性。",
+              "needs_hands_on": true,
+              "risk": "未亲测Astra模型，具体能力边界需核实。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "AI数学进展速览：OpenAI十大突破，哪些影响编程？",
+              "angle": "以图文形式整理十大进展，重点介绍与算法、复杂度相关的条目，并给出对开发者学习路径的启示。",
+              "needs_hands_on": false,
+              "risk": "需确认各进展的具体细节，避免过度解读。"
+            },
+            {
+              "platform": "wechat",
+              "title": "从AI证明到形式化验证：OpenAI数学进展对编程的深远影响",
+              "angle": "深入分析AI在数学推理上的突破如何影响形式化方法、程序验证及AI Coding的未来，结合Lean工具链讨论。",
+              "needs_hands_on": false,
+              "risk": "需核实Lean验证的具体范围与局限性。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_ed706736f60b",
+          "creator_event_id": "creator-85dbb49311bd19fb",
+          "merged_story_ids": [
+            "story_ed706736f60b"
+          ],
+          "title": "OpenAI 发布十个此前未解的数学题解法，宣布其“下一代主要模型”Astra / OpenAI announces its \"next major model\" Astra by dropping ten previously unsolved math solutions",
+          "url": "https://the-decoder.com/openai-announces-its-next-major-model-astra-by-dropping-ten-previously-unsolved-math-solutions",
+          "primary_url": "https://the-decoder.com/openai-announces-its-next-major-model-astra-by-dropping-ten-previously-unsolved-math-solutions",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "source_count": 1,
+          "source_names": [
+            "The Decoder AI News"
+          ],
+          "score": 0.6319,
+          "importance": 0.6319,
+          "importance_score": 0.6319,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.5688,
+            "source_tier": 0.58,
+            "ai_relevance": 0.79,
+            "recency": 0.976,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-08-01T09:29:49Z",
+          "latest_at": "2026-08-01T09:29:49Z",
+          "creator_score": 77.8,
+          "creator_breakdown": {
+            "relevance": 0.68,
+            "freshness": 1.0,
+            "source": 0.78,
+            "impact": 0.76,
+            "novelty": 0.85,
+            "heat": 0.3712
+          },
+          "creator_bucket": "general_ai",
+          "primary_entity": "openai",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:openai",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "3c7e6e000b69268fc1083869ffd6ab29b46e8d77",
+            "title": "OpenAI 发布十个此前未解的数学题解法，宣布其“下一代主要模型”Astra / OpenAI announces its \"next major model\" Astra by dropping ten previously unsolved math solutions",
+            "title_zh": "OpenAI 发布十个此前未解的数学题解法，宣布其“下一代主要模型”Astra",
+            "title_en": "OpenAI announces its \"next major model\" Astra by dropping ten previously unsolved math solutions",
+            "title_original": "OpenAI announces its \"next major model\" Astra by dropping ten previously unsolved math solutions",
+            "summary": "OpenAI is building a new model family called \"Astra\" that would let multiple agents tackle complex problems together for hours or even days. CEO Sam Altman has already demoed Astra to policymakers in Washington. OpenAI hasn't decided whether to release it as GPT-6 or a new GPT-5 variant.\nOpenAI is building a new model family called \"Astra\" that would let multiple agents tackle complex problems together for hours or even days. CEO Sam Altman has already demoed Astra to policymakers in Washington.",
+            "recommend_reason_zh": "OpenAI 正式确认新一代模型家族 Astra，称其内部版本解决了十个困扰数学家至少十年的开放问题，涉及群论、格密码等领域，生成十份证明的 token 成本约 2000 美元，并用 Lean 完成机器验证。",
+            "url": "https://the-decoder.com/openai-announces-its-next-major-model-astra-by-dropping-ten-previously-unsolved-math-solutions",
+            "source": "The Decoder AI News",
+            "source_name": "Curated Media"
+          },
+          "sources": [
+            {
+              "story_id": "story_ed706736f60b",
+              "title": "OpenAI 发布十个此前未解的数学题解法，宣布其“下一代主要模型”Astra / OpenAI announces its \"next major model\" Astra by dropping ten previously unsolved math solutions",
+              "url": "https://the-decoder.com/openai-announces-its-next-major-model-astra-by-dropping-ten-previously-unsolved-math-solutions",
+              "source": "The Decoder AI News",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "OpenAI 宣布下一代模型家族 Astra，称其内部版本解决了十个长期未解的数学问题，涉及群论、格密码等领域，生成证明的 token 成本约 2000 美元，并用 Lean 完成",
+          "why_it_matters": "Astra 若实现多智能体长时协作，可能改变复杂工程任务的自动化方式，影响开发者对 AI 编码工具的预期和选择。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "OpenAI Astra 实测：数学证明生成的成本与效果",
+              "angle": "我尝试用类似方法生成数学证明，对比 token 成本和验证过程，分享实际体验。",
+              "needs_hands_on": true,
+              "risk": "未亲测 Astra，仅基于公开信息，需验证其实际能力。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "OpenAI Astra 揭秘：多智能体协作如何改变编程？",
+              "angle": "从开发者视角，分析 Astra 对复杂编程任务的潜在影响，给出使用建议和避坑指南。",
+              "needs_hands_on": false,
+              "risk": "Astra 尚未发布，功能细节未确认。"
+            },
+            {
+              "platform": "wechat",
+              "title": "从 GPT-5 到 Astra：OpenAI 模型演进与开发者生态影响",
+              "angle": "梳理 OpenAI 模型发展脉络，探讨 Astra 对 AI 编程工具链和开发者工作流的长期影响。",
+              "needs_hands_on": false,
+              "risk": "部分信息来自单一来源，需进一步核实。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_8adda9102be6",
+          "creator_event_id": "creator-a823519383822c56",
+          "merged_story_ids": [
+            "story_8adda9102be6"
+          ],
+          "title": "GLM 5.2 助 Hugging Face 抵御秘密模型攻击",
+          "url": "https://x.com/AYi_AInotes/status/2083401614623133921",
+          "primary_url": "https://x.com/AYi_AInotes/status/2083401614623133921",
+          "source": "X：阿易 AI Notes (@AYi_AInotes)",
+          "source_name": "AI HOT",
+          "source_count": 1,
+          "source_names": [
+            "X：阿易 AI Notes (@AYi_AInotes)"
+          ],
+          "score": 0.7588,
+          "importance": 0.7588,
+          "importance_score": 0.7588,
+          "importance_label": "行业动态",
+          "importance_breakdown": {
+            "editorial": 0.75,
+            "source_tier": 0.78,
+            "ai_relevance": 1.0,
+            "recency": 0.9009,
+            "story_heat": 0.0
+          },
+          "category": "industry",
+          "reasons": [
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-08-01T03:57:07Z",
+          "latest_at": "2026-08-01T03:57:07Z",
+          "persona_id": "pragmatic",
+          "persona_score": 55,
+          "persona_review": "模型安全是长期话题，但这条没给可复用的方案，先观望。",
+          "creator_score": 69.6,
+          "creator_breakdown": {
+            "relevance": 0.68,
+            "freshness": 0.9593,
+            "source": 0.5,
+            "impact": 0.63,
+            "novelty": 0.85,
+            "heat": 0.4156
+          },
+          "creator_bucket": "general_ai",
+          "primary_entity": "openai",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:openai",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "3932e3be300dec7756de5bb45508c0a891eb636b",
+            "title": "GLM 5.2 助 Hugging Face 抵御秘密模型攻击",
+            "title_zh": "GLM 5.2 助 Hugging Face 抵御秘密模型攻击",
+            "title_original": "GLM 5.2 助 Hugging Face 抵御秘密模型攻击",
+            "summary": "Hugging Face 遭 OpenAI 未发布秘密模型发起的全自主 Agent 网络攻击，四天半内完成 17000 个攻击动作，包括 0day 逃沙箱、提权、横向移动等。",
+            "url": "https://x.com/AYi_AInotes/status/2083401614623133921",
+            "source": "X：阿易 AI Notes (@AYi_AInotes)",
+            "source_name": "AI HOT"
+          },
+          "sources": [
+            {
+              "story_id": "story_8adda9102be6",
+              "title": "GLM 5.2 助 Hugging Face 抵御秘密模型攻击",
+              "url": "https://x.com/AYi_AInotes/status/2083401614623133921",
+              "source": "X：阿易 AI Notes (@AYi_AInotes)",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "Hugging Face 遭 OpenAI 未发布秘密模型发起的全自主 Agent 网络攻击，四天半内完成 17000 个攻击动作，包括 0day 逃沙箱、提权、横向移动等。GLM",
+          "why_it_matters": "AI Agent 自主攻击能力凸显，安全防御需引入 AI 对抗，开发者需关注模型安全与防护策略。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "实测：用 GLM 5.2 模拟防御 Hugging Face 攻击",
+              "angle": "我尝试用 GLM 5.2 复现防御流程，看它如何识别 0day 攻击。",
+              "needs_hands_on": true,
+              "risk": "攻击细节未公开，模拟可能不准确。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "AI 攻击来了！如何用 GLM 5.2 保护你的模型库",
+              "angle": "分享设置 GLM 5.2 防御的步骤，以及避坑指南。",
+              "needs_hands_on": true,
+              "risk": "防御配置未亲测，需验证。"
+            },
+            {
+              "platform": "wechat",
+              "title": "从 Hugging Face 攻击看 AI Agent 安全新挑战",
+              "angle": "分析 AI 自主攻击对开发工作流的影响，探讨防御体系。",
+              "needs_hands_on": false,
+              "risk": "攻击细节依赖单一来源，需多方核实。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        }
+      ],
+      "llm_meta": {
+        "provider": "deepseek",
+        "model": "deepseek-chat",
+        "calls_used": 9,
+        "cache_hits": 0,
+        "fallback_count": 0
+      },
+      "dedup_meta": {
+        "secondary_dedup_merge_count": 3,
+        "secondary_dedup_source_count": 178
+      }
+    },
     {
       "edition_id": "2026-08-01-morning",
       "edition_kind": "morning",
