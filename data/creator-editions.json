@@ -1,8 +1,1297 @@
 {
   "version": 1,
-  "generated_at": "2026-08-01T11:34:54.820721Z",
-  "total_editions": 20,
+  "generated_at": "2026-08-01T23:08:43.788713Z",
+  "total_editions": 21,
   "editions": [
+    {
+      "edition_id": "2026-08-02-morning",
+      "edition_kind": "morning",
+      "generated_at": "2026-08-01T23:08:43.788713Z",
+      "timezone": "Asia/Shanghai",
+      "total_items": 13,
+      "summary": {
+        "confirmed": 1,
+        "single_source": 11,
+        "early_signal": 0,
+        "rumor": 1,
+        "new": 11,
+        "updated": 2,
+        "confirmed_updates": 0
+      },
+      "items": [
+        {
+          "story_id": "story_65adb1db6cf3",
+          "creator_event_id": "creator-25aaf62790826a5b",
+          "merged_story_ids": [
+            "story_65adb1db6cf3"
+          ],
+          "title": "YC开源了他们内部使用的多Agent协作框架：QM",
+          "url": "https://waytoagi.feishu.cn/wiki/UFOOwTTJmixn2akLI7ncbwTDnNe?from=from_copylink",
+          "primary_url": "https://waytoagi.feishu.cn/wiki/UFOOwTTJmixn2akLI7ncbwTDnNe?from=from_copylink",
+          "source": "社区更新 · 2026-08-01",
+          "source_name": "WaytoAGI",
+          "source_count": 1,
+          "source_names": [
+            "社区更新 · 2026-08-01"
+          ],
+          "score": 0.5692,
+          "importance": 0.5692,
+          "importance_score": 0.5692,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.468,
+            "source_tier": 0.54,
+            "ai_relevance": 0.65,
+            "recency": 1.0,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-08-01T22:51:03.326207Z",
+          "latest_at": "2026-08-01T22:51:03.326207Z",
+          "creator_score": 84.3,
+          "creator_breakdown": {
+            "relevance": 1.0,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.94,
+            "novelty": 0.85,
+            "heat": 0.3492
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "claude-code",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:claude-code",
+            "ai_coding_terms",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "3b5f0f2bf4c19d38bc69ce0fc715af340289b16e",
+            "title": "YC开源了他们内部使用的多Agent协作框架：QM",
+            "title_zh": "YC开源了他们内部使用的多Agent协作框架：QM",
+            "title_original": "YC开源了他们内部使用的多Agent协作框架：QM",
+            "summary": "如果你已经会让 AI 帮自己写代码、查资料，但一到团队协作就变乱：谁的记忆算谁的？文件和权限怎么隔离？AI 能不能在Slack里一起推进项目？这篇就很好理解。YC开源了他们内部使用的多Agent协作框架：QM。它让每个员工、每个频道、每个项目都有独立的记忆、文件、密钥权限、定时任务和沙箱环境；还能接入 Pi、OpenCode、Codex、Claude Code 等不同Agent框架，避免被单一模型或工具绑定。",
+            "url": "https://waytoagi.feishu.cn/wiki/UFOOwTTJmixn2akLI7ncbwTDnNe?from=from_copylink",
+            "source": "社区更新 · 2026-08-01",
+            "source_name": "WaytoAGI"
+          },
+          "sources": [
+            {
+              "story_id": "story_65adb1db6cf3",
+              "title": "YC开源了他们内部使用的多Agent协作框架：QM",
+              "url": "https://waytoagi.feishu.cn/wiki/UFOOwTTJmixn2akLI7ncbwTDnNe?from=from_copylink",
+              "source": "社区更新 · 2026-08-01",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "YC开源内部多Agent协作框架QM，为每个员工、频道、项目提供独立记忆、文件、密钥权限、定时任务和沙箱环境，支持接入Pi、OpenCode、Codex、Claude Code等A",
+          "why_it_matters": "QM解决多Agent协作中的记忆隔离与权限管理问题，支持多框架接入，可能成为团队AI协作基础设施，影响开发者工具链选择。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "YC开源QM：多Agent协作框架实测，能否替代自建方案？",
+              "angle": "我第一时间部署了QM，测试了多Agent协作和权限隔离，分享真实体验和踩坑。",
+              "needs_hands_on": true,
+              "risk": "未亲测，需验证QM与Claude Code等框架的兼容性和稳定性。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "QM框架上手教程：5步搭建团队AI协作环境",
+              "angle": "手把手教你安装QM，配置独立记忆和权限，附截图和避坑指南。",
+              "needs_hands_on": true,
+              "risk": "需确认安装步骤和配置细节，未亲测。"
+            },
+            {
+              "platform": "wechat",
+              "title": "YC开源QM：多Agent协作的标准化尝试，对开发者意味着什么？",
+              "angle": "分析QM的设计理念、对现有AI Coding工作流的影响，以及未来生态可能性。",
+              "needs_hands_on": false,
+              "risk": "需核实QM的架构和功能细节，避免过度解读。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_2efccd8af7bb",
+          "creator_event_id": "creator-aaff9c4ed3e56158",
+          "merged_story_ids": [
+            "story_2efccd8af7bb"
+          ],
+          "title": "Codex 进阶指南：作为 Multi-Agent 编排控制平面",
+          "url": "https://waytoagi.feishu.cn/wiki/FFsDwOBJVisiPDkZOqlcVj8ZnNc?from=from_copylink",
+          "primary_url": "https://waytoagi.feishu.cn/wiki/FFsDwOBJVisiPDkZOqlcVj8ZnNc?from=from_copylink",
+          "source": "社区更新 · 2026-08-01",
+          "source_name": "WaytoAGI",
+          "source_count": 1,
+          "source_names": [
+            "社区更新 · 2026-08-01"
+          ],
+          "score": 0.5692,
+          "importance": 0.5692,
+          "importance_score": 0.5692,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.468,
+            "source_tier": 0.54,
+            "ai_relevance": 0.65,
+            "recency": 1.0,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-08-01T22:51:03.326207Z",
+          "latest_at": "2026-08-01T22:51:03.326207Z",
+          "creator_score": 82.4,
+          "creator_breakdown": {
+            "relevance": 1.0,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.81,
+            "novelty": 0.85,
+            "heat": 0.3492
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "codex",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:codex",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "ed0616f0cadae2c9d26eb41bb67b96686d00d5ad",
+            "title": "Codex 进阶指南：作为 Multi-Agent 编排控制平面",
+            "title_zh": "Codex 进阶指南：作为 Multi-Agent 编排控制平面",
+            "title_original": "Codex 进阶指南：作为 Multi-Agent 编排控制平面",
+            "summary": "大多数人用 Codex 的方式，是开一个会话、交代一件事、等它做完。这种用法只动用了它很小一部分能力。这篇文章把几个关键概念讲得很清楚：Task、Subagent、Worktree、SSH、Handoff、Automation。已经会用Codex、想处理复杂项目的人不容错过！",
+            "url": "https://waytoagi.feishu.cn/wiki/FFsDwOBJVisiPDkZOqlcVj8ZnNc?from=from_copylink",
+            "source": "社区更新 · 2026-08-01",
+            "source_name": "WaytoAGI"
+          },
+          "sources": [
+            {
+              "story_id": "story_2efccd8af7bb",
+              "title": "Codex 进阶指南：作为 Multi-Agent 编排控制平面",
+              "url": "https://waytoagi.feishu.cn/wiki/FFsDwOBJVisiPDkZOqlcVj8ZnNc?from=from_copylink",
+              "source": "社区更新 · 2026-08-01",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "WaytoAGI 发布 Codex 进阶指南，将其定位为 Multi-Agent 编排控制平面，详解 Task、Subagent、Worktree、SSH、Handoff、Auto",
+          "why_it_matters": "Codex 从单会话工具升级为多智能体编排平台，影响复杂项目的工作流设计与工具链选择，开发者需掌握新概念以提升效率。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "Codex 进阶：从单会话到 Multi-Agent 控制平面，我实测了这些概念",
+              "angle": "以第一人称分享从基础用法到进阶编排的实测体验，对比单会话与多智能体的效率差异，突出 Task、Subagent 等概念的实际应用。",
+              "needs_hands_on": true,
+              "risk": "指南内容未亲测，具体功能细节和效果需验证。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "Codex 进阶指南：5 个关键概念，让你的 AI 编程效率翻倍",
+              "angle": "以步骤化方式介绍 Task、Subagent、Worktree 等概念，配以简单示例和避坑提示，强调如何快速上手复杂项目。",
+              "needs_hands_on": true,
+              "risk": "概念解释可能简化，需对照官方文档核实。"
+            },
+            {
+              "platform": "wechat",
+              "title": "Codex 作为 Multi-Agent 编排控制平面：AI 编程工作流的范式转变",
+              "angle": "从背景分析 Codex 从单工具到编排平台的演进，探讨其对开发者工作流、团队协作和工具生态的长期影响。",
+              "needs_hands_on": false,
+              "risk": "指南为单一来源，需关注官方后续更新。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_6fdd8ff64cf5",
+          "creator_event_id": "creator-df4842c2cdfbe1a8",
+          "merged_story_ids": [
+            "story_6fdd8ff64cf5"
+          ],
+          "title": "我用AI写了半年代码——回头看，这5个能力正在退化",
+          "url": "https://juejin.cn/post/7668535450420019236",
+          "primary_url": "https://juejin.cn/post/7668535450420019236",
+          "source": "juejin",
+          "source_name": "NewsNow",
+          "source_count": 1,
+          "source_names": [
+            "juejin"
+          ],
+          "score": 0.5203,
+          "importance": 0.5203,
+          "importance_score": 0.5203,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.468,
+            "source_tier": 0.32,
+            "ai_relevance": 0.65,
+            "recency": 0.9973,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-08-01T22:39:58.199000Z",
+          "latest_at": "2026-08-01T22:39:58.199000Z",
+          "creator_score": 82.3,
+          "creator_breakdown": {
+            "relevance": 1.0,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.81,
+            "novelty": 0.85,
+            "heat": 0.3321
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "claude-code",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:claude-code",
+            "ai_coding_terms",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "aa647bdbfbd7790d3190fa1fd3f7958d2c2375fa",
+            "title": "我用AI写了半年代码——回头看，这5个能力正在退化",
+            "title_zh": "我用AI写了半年代码——回头看，这5个能力正在退化",
+            "title_original": "我用AI写了半年代码——回头看，这5个能力正在退化",
+            "summary": "用AI写了半年代码，效率确实高了，但回头盘点发现5个能力在退化：Debug能力、代码阅读能力、从零搭建能力、API记忆、方案设计能力。Anthropic研究显示AI依赖者独立调试能力低17%。附自测清\n从年初开始，我几乎每天都在用Claude Code或Cursor写代码。效率确实高了不少——以前要写半天的CRUD页面，现在二十分钟搞定。\n但最近发生了一件事让我警觉：同事问我一个 Promise.allSettled 和 Promise.all 的区别，我张了张嘴，发现自己需要\"想一下\"才能回答。这个问题两年前我能脱口而出。\n不是我变笨了。是 我把这块肌肉交给AI练了半年，它萎缩了 。\nAnthropic最近的一项研究给了一个具体数字： 重度依赖AI编程工具的开发者，独立调试和代码阅读能力比手动编码组低17个百分点 。美国心理学会今年的报告也指出，过度依赖生成式AI会降低批判性思维和岗位专项技能。\nThe Register上甚至出现了一个新词叫\"AI Atrophy\"——AI导致的技能萎缩。\n我花了一个周末盘点了自己的变化。以下5个退化最明显。\n以前遇到bug，我的流程是：看报错信息→",
+            "recommend_reason_zh": "本文作者用AI写代码半年后，盘点自身Debug、代码阅读、API记忆等5项能力退化，引用Anthropic研究指出AI依赖者独立调试能力低17个百分点，并附自测清单。",
+            "url": "https://juejin.cn/post/7668535450420019236",
+            "source": "juejin",
+            "source_name": "NewsNow"
+          },
+          "sources": [
+            {
+              "story_id": "story_6fdd8ff64cf5",
+              "title": "我用AI写了半年代码——回头看，这5个能力正在退化",
+              "url": "https://juejin.cn/post/7668535450420019236",
+              "source": "juejin",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "开发者用AI写代码半年后，发现Debug、代码阅读、从零搭建、API记忆、方案设计5项能力退化。Anthropic研究显示AI依赖者独立调试能力低17%，The Register提",
+          "why_it_matters": "长期依赖AI编程工具可能导致核心工程能力退化，影响开发者独立解决问题和职业成长，需警惕工具依赖风险。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "半年AI写码，我失去了什么？",
+              "angle": "以第一人称分享个人经历，对比使用AI前后的能力变化，引发共鸣。",
+              "needs_hands_on": false,
+              "risk": "Anthropic研究数据需核实，个人体验主观性强。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "AI写代码避坑指南：5个能力退化自测清单",
+              "angle": "提供自测清单和恢复建议，强调实用步骤和结果。",
+              "needs_hands_on": true,
+              "risk": "自测清单未亲测，需验证有效性。"
+            },
+            {
+              "platform": "wechat",
+              "title": "AI编程依赖症：技能萎缩的隐忧与对策",
+              "angle": "从行业趋势和心理学角度分析AI对开发者技能的影响，提出长期应对策略。",
+              "needs_hands_on": false,
+              "risk": "引用研究需核实，避免过度解读。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_7b119459b74a",
+          "creator_event_id": "creator-4ca05126a90f11d3",
+          "merged_story_ids": [
+            "story_7b119459b74a"
+          ],
+          "title": "Cursor移除了使用页面和CSV导出中的成本信息 / Cursor removed cost information from the usage page and CSV export",
+          "url": "https://news.ycombinator.com/item?id=49135257",
+          "primary_url": "https://news.ycombinator.com/item?id=49135257",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "source_count": 1,
+          "source_names": [
+            "hackernews"
+          ],
+          "score": 0.5197,
+          "importance": 0.5197,
+          "importance_score": 0.5197,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.468,
+            "source_tier": 0.32,
+            "ai_relevance": 0.65,
+            "recency": 0.9937,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-08-01T22:24:40.334000Z",
+          "latest_at": "2026-08-01T22:24:40.334000Z",
+          "creator_score": 82.3,
+          "creator_breakdown": {
+            "relevance": 1.0,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.81,
+            "novelty": 0.85,
+            "heat": 0.3319
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "claude-code",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:claude-code",
+            "ai_coding_terms",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "e9c7de4959c8c31c8ebcc99f00578f42deff131f",
+            "title": "Cursor移除了使用页面和CSV导出中的成本信息 / Cursor removed cost information from the usage page and CSV export",
+            "title_zh": "Cursor移除了使用页面和CSV导出中的成本信息",
+            "title_en": "Cursor removed cost information from the usage page and CSV export",
+            "title_original": "Cursor removed cost information from the usage page and CSV export",
+            "summary": "There are huge token efficiency/bloat differences between agents while working on the same tasks, using the same model, in the same environment Yesterday I ran 10 agentic tasks using GPT 5.6 Sol in an ubuntu 26.04 vm a couple of times with different harnesses and got vastly different token usage. +-------------+-----------+-----------+-----------+-----------+--------+\n  | Harness     | API total | Input     | Cached    | Uncached  | Output |\n  +-------------+-----------+-----------+-----------+-",
+            "recommend_reason_zh": "作者用GPT 5.6 Sol在Ubuntu 26.04 VM上跑10个agentic任务，对比发现不同harness的token消耗从smol的172,807到Claude Code的5,073,137，相差近30倍，揭示了流行harness在大量刷上下文窗口。",
+            "url": "https://news.ycombinator.com/item?id=49135257",
+            "source": "hackernews",
+            "source_name": "NewsNow"
+          },
+          "sources": [
+            {
+              "story_id": "story_7b119459b74a",
+              "title": "Cursor移除了使用页面和CSV导出中的成本信息 / Cursor removed cost information from the usage page and CSV export",
+              "url": "https://news.ycombinator.com/item?id=49135257",
+              "source": "hackernews",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "Cursor从使用页面和CSV导出中移除了成本信息，用户无法再直接查看API费用。此前有用户对比发现不同agent harness的token消耗差异巨大，最高相差近30倍。",
+          "why_it_matters": "成本透明度下降，开发者难以评估不同AI编码工具的实际开销，可能影响工具选型与预算控制。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "Cursor隐藏成本数据后，我如何估算AI编码的真实开销",
+              "angle": "分享自己发现成本信息被移除的过程，以及改用第三方监控或手动估算的方法，强调对预算的影响。",
+              "needs_hands_on": true,
+              "risk": "需确认Cursor最新版本是否确实移除，以及是否有其他途径查看成本。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "Cursor成本信息被移除？教你3招追踪AI编码费用",
+              "angle": "以用户视角，提供具体步骤：查看API账单、使用代理日志、估算token消耗，并提醒避坑。",
+              "needs_hands_on": true,
+              "risk": "需验证第三方工具或方法的有效性，避免误导。"
+            },
+            {
+              "platform": "wechat",
+              "title": "从Cursor移除成本信息看AI编码工具的透明度趋势",
+              "angle": "分析此举背后的商业考量，对比其他工具的成本透明度，探讨对开发者生态的长期影响。",
+              "needs_hands_on": false,
+              "risk": "需引用可靠来源，避免过度推测。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_7bf8c21c0dc8",
+          "creator_event_id": "creator-ed3afe52adb671f4",
+          "merged_story_ids": [
+            "story_7bf8c21c0dc8"
+          ],
+          "title": "Spring之父再次出山，开发了新的AI框架！",
+          "url": "https://juejin.cn/post/7668305038255521838",
+          "primary_url": "https://juejin.cn/post/7668305038255521838",
+          "source": "juejin",
+          "source_name": "NewsNow",
+          "source_count": 1,
+          "source_names": [
+            "juejin"
+          ],
+          "score": 0.5203,
+          "importance": 0.5203,
+          "importance_score": 0.5203,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.468,
+            "source_tier": 0.32,
+            "ai_relevance": 0.65,
+            "recency": 0.9973,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-08-01T22:39:58.199000Z",
+          "latest_at": "2026-08-01T22:39:58.199000Z",
+          "creator_score": 79.7,
+          "creator_breakdown": {
+            "relevance": 0.88,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.94,
+            "novelty": 0.75,
+            "heat": 0.3321
+          },
+          "creator_bucket": "ai_coding",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "ai_coding_terms",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "514a8de6b464fe97e7843c8bf6c5b900fa85c7b7",
+            "title": "Spring之父再次出山，开发了新的AI框架！",
+            "title_zh": "Spring之父再次出山，开发了新的AI框架！",
+            "title_original": "Spring之父再次出山，开发了新的AI框架！",
+            "summary": "前言 最近这阵子，技术圈里有一个名字频繁出现在各种讨论中——Rod Johnson。 如果你不知道他是谁，那你一定知道他做的东西——Spring Framework。 没错，就是那个几乎重新定义了企业\n最近这阵子，技术圈里有一个名字频繁出现在各种讨论中—— Rod Johnson 。\n如果你不知道他是谁，那你一定知道他做的东西—— Spring Framework 。\n没错，就是那个几乎重新定义了企业级Java应用该怎么写的Spring。\n二十多年前，Rod Johnson用一本书（《Expert One-on-One J2EE Design and Development》）和一个框架（Spring），终结了EJB那个让人欲哭无泪的时代。\n二十多年后的今天，他又回来了。\n2026年4月，Rod Johnson在Microsoft JDConf开发者大会上正式发布了 Embabel ——一个面向企业AI Agent的JVM开源框架。\n2026年7月20日，Embabel正式发布了 1.0.0 GA版本 。项目采用 Apache 2.0协议 开源，目前已在GitHub上公开。\n今天这篇文",
+            "recommend_reason_zh": "本文深度拆解Spring之父Rod Johnson新发布的JVM开源AI框架Embabel，介绍其核心GOAP确定性规划机制如何让非确定性AI稳定运行于企业系统，并给出可节省40%-60% LLM调用的性能数据。",
+            "url": "https://juejin.cn/post/7668305038255521838",
+            "source": "juejin",
+            "source_name": "NewsNow"
+          },
+          "sources": [
+            {
+              "story_id": "story_7bf8c21c0dc8",
+              "title": "Spring之父再次出山，开发了新的AI框架！",
+              "url": "https://juejin.cn/post/7668305038255521838",
+              "source": "juejin",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "Spring之父Rod Johnson在2026年4月Microsoft JDConf发布JVM开源AI框架Embabel，7月20日发布1.0.0 GA版，采用Apache 2.",
+          "why_it_matters": "Embabel将确定性规划引入AI Agent，提升企业级稳定性，可能改变JVM生态的AI开发方式，降低LLM成本，影响工具选型。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "Spring之父新框架Embabel实测：GOAP如何让AI Agent不再失控？",
+              "angle": "作为Java开发者，我第一时间试用了Embabel 1.0.0，对比传统LLM调用，GOAP规划机制确实让Agent行为更可预测，但配置复杂度也值得注意。",
+              "needs_hands_on": true,
+              "risk": "未亲测，性能数据40%-60%来自文章，需验证。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "Spring之父新AI框架Embabel上手教程：3步搭建企业级Agent",
+              "angle": "手把手教你用Embabel构建第一个Agent，分享GOAP规划配置的避坑指南，以及如何减少LLM调用成本。",
+              "needs_hands_on": true,
+              "risk": "未亲测，需验证安装步骤和配置细节。"
+            },
+            {
+              "platform": "wechat",
+              "title": "从Spring到Embabel：Rod Johnson如何用GOAP重塑企业AI开发？",
+              "angle": "深度解析Embabel的GOAP机制对企业AI系统稳定性的意义，对比现有Agent框架，探讨JVM生态在AI时代的机遇。",
+              "needs_hands_on": false,
+              "risk": "需核实Embabel的架构细节和性能数据。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_a67a7ee17f1d",
+          "creator_event_id": "creator-f6cb30167aa2fbb2",
+          "merged_story_ids": [
+            "story_a67a7ee17f1d"
+          ],
+          "title": "AI 编程 Agent 可以推进研究软件现代化，但无法判断其科学性 / AI coding agents can modernize research software but can't judge if the science is right",
+          "url": "https://the-decoder.com/ai-coding-agents-can-modernize-research-software-but-cant-judge-if-the-science-is-right",
+          "primary_url": "https://the-decoder.com/ai-coding-agents-can-modernize-research-software-but-cant-judge-if-the-science-is-right",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "source_count": 1,
+          "source_names": [
+            "The Decoder AI News"
+          ],
+          "score": 0.6032,
+          "importance": 0.6032,
+          "importance_score": 0.6032,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.5472,
+            "source_tier": 0.58,
+            "ai_relevance": 0.76,
+            "recency": 0.8856,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-08-01T14:26:28Z",
+          "latest_at": "2026-08-01T14:26:28Z",
+          "creator_score": 79.0,
+          "creator_breakdown": {
+            "relevance": 1.0,
+            "freshness": 0.9324,
+            "source": 0.78,
+            "impact": 0.43,
+            "novelty": 0.65,
+            "heat": 0.3611
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "claude-code",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:claude-code",
+            "ai_coding_terms"
+          ],
+          "change_type": "updated",
+          "primary_item": {
+            "id": "2a85765ce77145b633ac12f299f8bfd2475a4dbf",
+            "title": "AI 编程 Agent 可以推进研究软件现代化，但无法判断其科学性 / AI coding agents can modernize research software but can't judge if the science is right",
+            "title_zh": "AI 编程 Agent 可以推进研究软件现代化，但无法判断其科学性",
+            "title_en": "AI coding agents can modernize research software but can't judge if the science is right",
+            "title_original": "AI coding agents can modernize research software but can't judge if the science is right",
+            "summary": "A field report from OpenAI and academic partners shows coding agents can modernize neglected research software, with speedups of up to 60x. But the systems are \"eloquent, convincing, and confidently wrong in ways that are easy to miss,\" participants say. The effort shifts from writing code to the time-consuming work of verifying scientific correctness.\nA field report from OpenAI and academic partners shows coding agents can modernize neglected research software, with speedups of up to 60x. But t",
+            "recommend_reason_zh": "本文报道OpenAI与学术伙伴的实地报告：Codex和Claude Code等编码代理能现代化老旧科研软件，RustQC将15小时34分钟的任务压缩至14分54秒，提速超60倍，但代理们会“自信地出错”，科学验证仍是重负。",
+            "url": "https://the-decoder.com/ai-coding-agents-can-modernize-research-software-but-cant-judge-if-the-science-is-right",
+            "source": "The Decoder AI News",
+            "source_name": "Curated Media"
+          },
+          "sources": [
+            {
+              "story_id": "story_a67a7ee17f1d",
+              "title": "AI 编程 Agent 可以推进研究软件现代化，但无法判断其科学性 / AI coding agents can modernize research software but can't judge if the science is right",
+              "url": "https://the-decoder.com/ai-coding-agents-can-modernize-research-software-but-cant-judge-if-the-science-is-right",
+              "source": "The Decoder AI News",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "OpenAI与学术伙伴的实地报告显示，Codex和Claude Code等编码代理能现代化老旧科研软件，如RustQC将15小时34分钟任务压缩至14分54秒，提速超60倍。但代理",
+          "why_it_matters": "AI编码代理可大幅提升科研软件现代化效率，但开发者需警惕其自信错误，科学验证环节不可省略，影响工作流中人工审查的重要性。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "实测：AI代理将15小时任务压缩到15分钟，但科学验证才是真正的坑",
+              "angle": "分享使用Codex或Claude Code现代化老旧科研代码的实测体验，强调速度提升与验证负担。",
+              "needs_hands_on": true,
+              "risk": "未亲测，具体提速数据来自报告，需验证代理在类似任务上的表现。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "科研软件现代化避坑指南：AI代理提速60倍，但别信它的科学判断",
+              "angle": "以步骤式教程介绍如何用AI代理重构科研代码，并列出验证科学正确性的检查清单。",
+              "needs_hands_on": true,
+              "risk": "未亲测，需确认代理在具体场景下的错误模式。"
+            },
+            {
+              "platform": "wechat",
+              "title": "AI编码代理在科研软件中的角色：效率革命与科学验证的博弈",
+              "angle": "从行业角度分析AI代理在科研软件现代化中的潜力与局限，探讨人机协作的未来。",
+              "needs_hands_on": false,
+              "risk": "报告为单一来源，需关注后续验证。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_7271d4ccfffb",
+          "creator_event_id": "creator-693b8eb659d5f8b5",
+          "merged_story_ids": [
+            "story_7271d4ccfffb"
+          ],
+          "title": "TencentDB Agent Memory 发布团队级记忆中心，将对话文档代码转为可复用资产",
+          "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+          "primary_url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+          "source": "github",
+          "source_name": "NewsNow",
+          "source_count": 1,
+          "source_names": [
+            "github"
+          ],
+          "score": 0.5208,
+          "importance": 0.5208,
+          "importance_score": 0.5208,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.468,
+            "source_tier": 0.32,
+            "ai_relevance": 0.65,
+            "recency": 1.0,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-08-01T22:51:24.395000Z",
+          "latest_at": "2026-08-01T22:51:24.395000Z",
+          "creator_score": 77.7,
+          "creator_breakdown": {
+            "relevance": 0.88,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.81,
+            "novelty": 0.75,
+            "heat": 0.3323
+          },
+          "creator_bucket": "ai_coding",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "ai_coding_terms",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "aee76a643e0439bc503e651eeef9439b85c1ccb8",
+            "title": "TencentDB Agent Memory 发布团队级记忆中心，将对话文档代码转为可复用资产",
+            "title_zh": "TencentDB Agent Memory 发布团队级记忆中心，将对话文档代码转为可复用资产",
+            "title_en": "TencentCloud /      TencentDB-Agent-Memory",
+            "title_original": "TencentCloud /      TencentDB-Agent-Memory",
+            "summary": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed...\nTencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks. - TencentCloud/TencentDB-Agent-Memory\nTencentDB A",
+            "recommend_reason_zh": "TencentDB-Agent-Memory是TencentCloud推出的团队级AI Agent记忆中心，将对话、文档和代码沉淀为Chat Memory、Skill、LLM-Wiki、Code-Graph四类可复用资产，让Agent继承团队经验，告别重复学习。",
+            "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+            "source": "github",
+            "source_name": "NewsNow"
+          },
+          "sources": [
+            {
+              "story_id": "story_7271d4ccfffb",
+              "title": "TencentDB Agent Memory 发布团队级记忆中心，将对话文档代码转为可复用资产",
+              "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+              "source": "github",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "腾讯云发布 TencentDB Agent Memory，团队级 AI Agent 记忆中心，将对话、文档、代码转化为 Chat Memory、Skill、LLM-Wiki、Cod",
+          "why_it_matters": "为 AI Coding 团队提供持久化记忆层，减少 Agent 重复学习，提升代码生成与上下文一致性，可能影响团队工具链选择。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "腾讯云开源 Agent Memory：团队级记忆中心实测",
+              "angle": "作为开发者，我第一时间部署了 TencentDB Agent Memory，测试其四类记忆资产在代码生成中的效果，分享真实体验与性能数据。",
+              "needs_hands_on": true,
+              "risk": "未亲测，需验证实际功能与性能，尤其是 Code-Graph 的构建准确性和跨框架兼容性。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "AI 编程新神器？TencentDB Agent Memory 上手教程",
+              "angle": "手把手教你安装配置 TencentDB Agent Memory，将对话和代码转为可复用资产，附避坑指南和效果对比。",
+              "needs_hands_on": true,
+              "risk": "需验证安装步骤和文档完整性，避免误导。"
+            },
+            {
+              "platform": "wechat",
+              "title": "从对话到代码：TencentDB Agent Memory 如何重塑团队 AI 开发流程",
+              "angle": "分析团队级记忆中心对 AI Coding 工作流的影响，探讨其与现有工具链的整合及长期价值。",
+              "needs_hands_on": false,
+              "risk": "需确认官方文档中的架构和功能描述，避免过度解读。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_58b173a4edb7",
+          "creator_event_id": "creator-f6cb30167aa2fbb2",
+          "merged_story_ids": [
+            "story_58b173a4edb7"
+          ],
+          "title": "Show HN：用 Rust 为你的 Claude Code agents 打造的 Cockpit / Show HN: Cockpit for you Claude Code agents in Rust",
+          "url": "https://episko.dev",
+          "primary_url": "https://episko.dev",
+          "source": "HN Algolia · AI 24h",
+          "source_name": "Hacker News",
+          "source_count": 1,
+          "source_names": [
+            "HN Algolia · AI 24h"
+          ],
+          "score": 0.5114,
+          "importance": 0.5114,
+          "importance_score": 0.5114,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.468,
+            "source_tier": 0.32,
+            "ai_relevance": 0.65,
+            "recency": 0.948,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-08-01T19:09:15Z",
+          "latest_at": "2026-08-01T19:09:15Z",
+          "creator_score": 76.2,
+          "creator_breakdown": {
+            "relevance": 1.0,
+            "freshness": 1.0,
+            "source": 0.58,
+            "impact": 0.43,
+            "novelty": 0.65,
+            "heat": 0.329
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "claude-code",
+          "verification_status": "rumor",
+          "creator_reasons": [
+            "entity:claude-code"
+          ],
+          "change_type": "updated",
+          "primary_item": {
+            "id": "1ab3cc039511cf55efbfdd3ef90b0b4f74153476",
+            "title": "Show HN：用 Rust 为你的 Claude Code agents 打造的 Cockpit / Show HN: Cockpit for you Claude Code agents in Rust",
+            "title_zh": "Show HN：用 Rust 为你的 Claude Code agents 打造的 Cockpit",
+            "title_en": "Show HN: Cockpit for you Claude Code agents in Rust",
+            "title_original": "Show HN: Cockpit for you Claude Code agents in Rust",
+            "url": "https://episko.dev",
+            "source": "HN Algolia · AI 24h",
+            "source_name": "Hacker News"
+          },
+          "sources": [
+            {
+              "story_id": "story_58b173a4edb7",
+              "title": "Show HN：用 Rust 为你的 Claude Code agents 打造的 Cockpit / Show HN: Cockpit for you Claude Code agents in Rust",
+              "url": "https://episko.dev",
+              "source": "HN Algolia · AI 24h",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "Hacker News 上出现一个名为 Cockpit 的开源项目，用 Rust 为 Claude Code agents 构建控制面板，提供可视化监控与操作界面。目前仅单一来源，",
+          "why_it_matters": "若成熟，可为 Claude Code 提供可视化运维层，改善 agent 任务监控与调试体验，影响开发者对 agent 工作流的管理效率。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "Rust 写的 Claude Code Cockpit：我试了试，发现……",
+              "angle": "以开发者第一视角，分享试用 Cockpit 的初步体验，强调其 Rust 实现带来的性能感受，以及当前功能的局限。",
+              "needs_hands_on": true,
+              "risk": "项目尚处早期，功能可能不完整，需实际安装验证。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "Claude Code 可视化监控工具 Cockpit 安装避坑指南",
+              "angle": "以教程形式，分享安装和配置 Cockpit 的步骤，列出常见问题与解决方案，帮助其他开发者快速上手。",
+              "needs_hands_on": true,
+              "risk": "安装步骤可能因环境而异，需实测确认。"
+            },
+            {
+              "platform": "wechat",
+              "title": "从 CLI 到可视化：Claude Code 生态的监控工具演进",
+              "angle": "从行业角度分析 Cockpit 出现的背景，探讨 AI Coding 工具从命令行走向可视化运维的趋势，及其对开发者工作流的影响。",
+              "needs_hands_on": false,
+              "risk": "项目尚属传闻，需关注后续发展。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_817116dbd893",
+          "creator_event_id": "creator-2719902bb72deb23",
+          "merged_story_ids": [
+            "story_817116dbd893"
+          ],
+          "title": "Cursor 从“使用情况”页面和 CSV 导出文件中移除了成本信息",
+          "url": "https://forum.cursor.com/t/usage-page-to-token-amount-what/167153",
+          "primary_url": "https://forum.cursor.com/t/usage-page-to-token-amount-what/167153",
+          "source": "forum.cursor.com",
+          "source_name": "Buzzing",
+          "source_count": 1,
+          "source_names": [
+            "forum.cursor.com"
+          ],
+          "score": 0.5324,
+          "importance": 0.5324,
+          "importance_score": 0.5324,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.468,
+            "source_tier": 0.32,
+            "ai_relevance": 0.65,
+            "recency": 0.9255,
+            "story_heat": 0.25
+          },
+          "category": "watch",
+          "reasons": [
+            "multi_source"
+          ],
+          "earliest_at": "2026-08-01T15:25:21Z",
+          "latest_at": "2026-08-01T17:29:19.514000Z",
+          "persona_id": "pragmatic",
+          "persona_score": 45,
+          "persona_review": "对开发者影响有限，但选型前需确认账单透明度。",
+          "creator_score": 75.4,
+          "creator_breakdown": {
+            "relevance": 1.0,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.43,
+            "novelty": 0.65,
+            "heat": 0.4863
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "cursor",
+          "verification_status": "confirmed",
+          "creator_reasons": [
+            "entity:cursor"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "e90b4afc2008713009e131f5b452c20b0078a47c",
+            "title": "Cursor 从“使用情况”页面和 CSV 导出文件中移除了成本信息",
+            "title_zh": "Cursor 从“使用情况”页面和 CSV 导出文件中移除了成本信息",
+            "title_original": "Cursor 从“使用情况”页面和 CSV 导出文件中移除了成本信息",
+            "url": "https://forum.cursor.com/t/usage-page-to-token-amount-what/167153",
+            "source": "forum.cursor.com",
+            "source_name": "Buzzing"
+          },
+          "sources": [
+            {
+              "story_id": "story_817116dbd893",
+              "title": "Cursor 从“使用情况”页面和 CSV 导出文件中移除了成本信息",
+              "url": "https://forum.cursor.com/t/usage-page-to-token-amount-what/167153",
+              "source": "forum.cursor.com",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "Cursor 在其论坛帖子中确认，已从“使用情况”页面和 CSV 导出文件中移除成本信息，用户无法再直接查看费用明细。",
+          "why_it_matters": "影响开发者对 Cursor 费用的透明度和预算管理，可能引发对定价不透明的担忧，促使部分用户转向其他工具。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "Cursor 隐藏成本信息，是保护还是套路？",
+              "angle": "作为长期用户，发现成本数据消失，实测导出 CSV 确认，讨论对个人和团队预算的影响。",
+              "needs_hands_on": true,
+              "risk": "需确认移除是否仅针对特定套餐或所有用户，以及是否有替代查看方式。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "Cursor 费用不透明了？教你如何追踪 AI 编程成本",
+              "angle": "分享如何通过其他方式（如 API 日志、第三方工具）估算 Cursor 使用成本，附上操作步骤和避坑指南。",
+              "needs_hands_on": true,
+              "risk": "需验证第三方工具的有效性和准确性，避免误导。"
+            },
+            {
+              "platform": "wechat",
+              "title": "从 Cursor 移除成本信息看 AI 编程工具的定价策略",
+              "angle": "分析 Cursor 此举背后的商业考量，对比其他 AI 编程工具的透明度，探讨对开发者生态的长期影响。",
+              "needs_hands_on": false,
+              "risk": "需引用官方公告和用户反馈，避免主观臆断。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_70a621ffa332",
+          "creator_event_id": "creator-0fde667aea131917",
+          "merged_story_ids": [
+            "story_70a621ffa332"
+          ],
+          "title": "AMD 发布 Instella-MoE-16B-A3B：基于 Instinct GPU 训练、仅 28 亿激活参数的全开源混合专家 LLM / AMD Releases Instella-MoE-16B-A3B: A Fully Open Mixture-of-Experts LLM With 2.8B Active Parameters Trained On Instinct GPUs",
+          "url": "https://www.marktechpost.com/2026/08/01/amd-instella-moe-16b-a3b-fully-open-mixture-of-experts-llm",
+          "primary_url": "https://www.marktechpost.com/2026/08/01/amd-instella-moe-16b-a3b-fully-open-mixture-of-experts-llm",
+          "source": "MarkTechPost Research",
+          "source_name": "Curated Media",
+          "source_count": 1,
+          "source_names": [
+            "MarkTechPost Research"
+          ],
+          "score": 0.6016,
+          "importance": 0.6016,
+          "importance_score": 0.6016,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.5256,
+            "source_tier": 0.58,
+            "ai_relevance": 0.73,
+            "recency": 0.9463,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-08-01T19:01:42Z",
+          "latest_at": "2026-08-01T19:01:42Z",
+          "creator_score": 75.8,
+          "creator_breakdown": {
+            "relevance": 0.65,
+            "freshness": 1.0,
+            "source": 0.78,
+            "impact": 0.76,
+            "novelty": 0.75,
+            "heat": 0.3606
+          },
+          "creator_bucket": "general_ai",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "f25222c52bbf6765ff4d09c45250e37db37dcfee",
+            "title": "AMD 发布 Instella-MoE-16B-A3B：基于 Instinct GPU 训练、仅 28 亿激活参数的全开源混合专家 LLM / AMD Releases Instella-MoE-16B-A3B: A Fully Open Mixture-of-Experts LLM With 2.8B Active Parameters Trained On Instinct GPUs",
+            "title_zh": "AMD 发布 Instella-MoE-16B-A3B：基于 Instinct GPU 训练、仅 28 亿激活参数的全开源混合专家 LLM",
+            "title_en": "AMD Releases Instella-MoE-16B-A3B: A Fully Open Mixture-of-Experts LLM With 2.8B Active Parameters Trained On Instinct GPUs",
+            "title_original": "AMD Releases Instella-MoE-16B-A3B: A Fully Open Mixture-of-Experts LLM With 2.8B Active Parameters Trained On Instinct GPUs",
+            "summary": "AMD released Instella-MoE-16B-A3B, a fully open 16B Mixture-of-Experts LLM activating just 2.8B parameters per token on Instinct GPUs\nAMD released Instella-MoE-16B-A3B, a fully open 16B Mixture-of-Experts LLM activating just 2.8B parameters per token on Instinct GPUs\nAMD released Instella-MoE-16B-A3B , a fully open Mixture-of-Experts language model trained from scratch on Instinct MI300X and MI325X GPUs. The model holds 16B total parameters but activates only 2.8B per token. AMD is publishing we",
+            "recommend_reason_zh": "Instella-MoE-16B-A3B以16B总参数仅激活2.8B，在Instinct MI300X/MI325X上训练7.1T tokens，开源全阶段权重，基准76.7领跑完全开源模型。",
+            "url": "https://www.marktechpost.com/2026/08/01/amd-instella-moe-16b-a3b-fully-open-mixture-of-experts-llm",
+            "source": "MarkTechPost Research",
+            "source_name": "Curated Media"
+          },
+          "sources": [
+            {
+              "story_id": "story_70a621ffa332",
+              "title": "AMD 发布 Instella-MoE-16B-A3B：基于 Instinct GPU 训练、仅 28 亿激活参数的全开源混合专家 LLM / AMD Releases Instella-MoE-16B-A3B: A Fully Open Mixture-of-Experts LLM With 2.8B Active Parameters Trained On Instinct GPUs",
+              "url": "https://www.marktechpost.com/2026/08/01/amd-instella-moe-16b-a3b-fully-open-mixture-of-experts-llm",
+              "source": "MarkTechPost Research",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "AMD发布Instella-MoE-16B-A3B，全开源混合专家模型，总参数16B，每token激活2.8B，基于Instinct MI300X/MI325X训练7.1T tok",
+          "why_it_matters": "该模型全开源且激活参数少，可能降低推理成本，为开发者提供高效替代方案，影响模型选择与部署策略。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "AMD新开源MoE实测：2.8B激活参数能否挑战闭源？",
+              "angle": "作为开发者，我第一时间部署了Instella-MoE-16B-A3B，对比其与主流模型的推理速度和效果。",
+              "needs_hands_on": true,
+              "risk": "未亲测，基准数据来自官方，需验证实际性能。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "AMD开源新模型Instella-MoE-16B-A3B部署教程与避坑指南",
+              "angle": "手把手教你如何在本地部署Instella-MoE-16B-A3B，分享显存占用、推理速度实测及常见问题。",
+              "needs_hands_on": true,
+              "risk": "未亲测，部署步骤基于官方文档，需验证兼容性。"
+            },
+            {
+              "platform": "wechat",
+              "title": "AMD开源MoE模型发布：对AI开发者的意义与生态影响",
+              "angle": "从AMD战略角度分析Instella-MoE-16B-A3B的发布，探讨其对NVIDIA生态的挑战及开发者工作流的影响。",
+              "needs_hands_on": false,
+              "risk": "需核实AMD后续支持与生态建设情况。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_2b0242aeb68c",
+          "creator_event_id": "creator-d4d49c7ad6e1f7a4",
+          "merged_story_ids": [
+            "story_2b0242aeb68c"
+          ],
+          "title": "ByteDance 的 Seedance 2.5 可生成带内置音频的 30 秒视频片段 / ByteDance's Seedance 2.5 generates 30-second video clips with built-in audio",
+          "url": "https://the-decoder.com/bytedances-seedance-2-5-generates-30-second-video-clips-with-built-in-audio",
+          "primary_url": "https://the-decoder.com/bytedances-seedance-2-5-generates-30-second-video-clips-with-built-in-audio",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "source_count": 1,
+          "source_names": [
+            "The Decoder AI News"
+          ],
+          "score": 0.6012,
+          "importance": 0.6012,
+          "importance_score": 0.6012,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.5472,
+            "source_tier": 0.58,
+            "ai_relevance": 0.76,
+            "recency": 0.8745,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-08-01T13:33:41Z",
+          "latest_at": "2026-08-01T13:33:41Z",
+          "creator_score": 74.0,
+          "creator_breakdown": {
+            "relevance": 0.68,
+            "freshness": 0.9104,
+            "source": 0.78,
+            "impact": 0.63,
+            "novelty": 0.85,
+            "heat": 0.3604
+          },
+          "creator_bucket": "general_ai",
+          "primary_entity": "gemini",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:gemini",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "ccefa7e1a3045a31031649b99f3b59265dcbaff2",
+            "title": "ByteDance 的 Seedance 2.5 可生成带内置音频的 30 秒视频片段 / ByteDance's Seedance 2.5 generates 30-second video clips with built-in audio",
+            "title_zh": "ByteDance 的 Seedance 2.5 可生成带内置音频的 30 秒视频片段",
+            "title_en": "ByteDance's Seedance 2.5 generates 30-second video clips with built-in audio",
+            "title_original": "ByteDance's Seedance 2.5 generates 30-second video clips with built-in audio",
+            "summary": "ByteDance just shipped Seedance 2.5, an AI video model that produces video and audio together in one go. Each clip runs up to 30 seconds, three times what Google's Gemini Omni Flash puts out. Users can feed in dozens of images, videos, and audio files as reference. For ad teams, this could kill the process of cutting together one short clip at a time.\nByteDance has released Seedance 2.5, a new version of its AI video model. The model generates video and audio in a single pass and produces clips ",
+            "recommend_reason_zh": "ByteDance发布Seedance 2.5，一次生成视频与音频，片段最长30秒，为Google Gemini Omni Flash的三倍；支持输入30张图片、10段视频和10个音频作参考，广告团队可全程单管道制作。",
+            "url": "https://the-decoder.com/bytedances-seedance-2-5-generates-30-second-video-clips-with-built-in-audio",
+            "source": "The Decoder AI News",
+            "source_name": "Curated Media"
+          },
+          "sources": [
+            {
+              "story_id": "story_2b0242aeb68c",
+              "title": "ByteDance 的 Seedance 2.5 可生成带内置音频的 30 秒视频片段 / ByteDance's Seedance 2.5 generates 30-second video clips with built-in audio",
+              "url": "https://the-decoder.com/bytedances-seedance-2-5-generates-30-second-video-clips-with-built-in-audio",
+              "source": "The Decoder AI News",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "ByteDance发布Seedance 2.5，一次生成视频与音频，片段最长30秒，为Google Gemini Omni Flash的三倍；支持输入30张图片、10段视频和10个",
+          "why_it_matters": "Seedance 2.5将视频与音频生成合一，提升广告制作效率，可能改变AI视频工具选择，对依赖多工具拼接的工作流构成竞争。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "Seedance 2.5实测：30秒带音频视频，广告制作要变天？",
+              "angle": "作为开发者，我第一时间测试了Seedance 2.5，对比Gemini Omni Flash，看看30秒视频和内置音频的实际效果，以及API接入的便利性。",
+              "needs_hands_on": true,
+              "risk": "未亲测，需验证实际生成质量、音频同步性及API稳定性。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "AI视频新选择：Seedance 2.5如何一键生成带声音的30秒片段",
+              "angle": "分享Seedance 2.5的上手步骤，包括如何输入多张图片和音频参考，生成带音频的视频，并展示结果与避坑指南。",
+              "needs_hands_on": true,
+              "risk": "需确认支持的具体输入格式和限制，以及生成视频的版权问题。"
+            },
+            {
+              "platform": "wechat",
+              "title": "Seedance 2.5发布：AI视频生成进入音画同步时代，对开发者意味着什么？",
+              "angle": "从技术演进角度分析Seedance 2.5对AI视频生成领域的影响，对比Google Gemini，探讨对开发工作流和广告行业的长期影响。",
+              "needs_hands_on": false,
+              "risk": "需核实与Gemini Omni Flash的具体对比数据，以及ByteDance的官方技术细节。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_aa1bfe70ac2d",
+          "creator_event_id": "creator-d2a1476ec445a757",
+          "merged_story_ids": [
+            "story_aa1bfe70ac2d"
+          ],
+          "title": "Codex Micro体验与拆解看看 OpenAI 是怎么做 AI 硬件的",
+          "url": "https://waytoagi.feishu.cn/wiki/F3n3wqgJyiQIsRkiBN0cT7XQnTd?from=from_copylink",
+          "primary_url": "https://waytoagi.feishu.cn/wiki/F3n3wqgJyiQIsRkiBN0cT7XQnTd?from=from_copylink",
+          "source": "社区更新 · 2026-08-01",
+          "source_name": "WaytoAGI",
+          "source_count": 1,
+          "source_names": [
+            "社区更新 · 2026-08-01"
+          ],
+          "score": 0.5692,
+          "importance": 0.5692,
+          "importance_score": 0.5692,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.468,
+            "source_tier": 0.54,
+            "ai_relevance": 0.65,
+            "recency": 1.0,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-08-01T22:51:03.326207Z",
+          "latest_at": "2026-08-01T22:51:03.326207Z",
+          "creator_score": 70.1,
+          "creator_breakdown": {
+            "relevance": 0.68,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.63,
+            "novelty": 0.85,
+            "heat": 0.3492
+          },
+          "creator_bucket": "general_ai",
+          "primary_entity": "openai",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:openai",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "d88cd7d7493bcfa098f83eb931735a63630884fa",
+            "title": "Codex Micro体验与拆解看看 OpenAI 是怎么做 AI 硬件的",
+            "title_zh": "Codex Micro体验与拆解看看 OpenAI 是怎么做 AI 硬件的",
+            "title_original": "Codex Micro体验与拆解看看 OpenAI 是怎么做 AI 硬件的",
+            "summary": "作者对Codex Micro，这个vibecoding 键盘做了配置体验和拆机。它没有本地AI、也没有内置麦克风，主要负责输入、灯光、通信和供电；同时也遇到了 USB 卡顿、HID 读取中断等稳定性问题。一起来看看230美元到底买到的是什么。",
+            "url": "https://waytoagi.feishu.cn/wiki/F3n3wqgJyiQIsRkiBN0cT7XQnTd?from=from_copylink",
+            "source": "社区更新 · 2026-08-01",
+            "source_name": "WaytoAGI"
+          },
+          "sources": [
+            {
+              "story_id": "story_aa1bfe70ac2d",
+              "title": "Codex Micro体验与拆解看看 OpenAI 是怎么做 AI 硬件的",
+              "url": "https://waytoagi.feishu.cn/wiki/F3n3wqgJyiQIsRkiBN0cT7XQnTd?from=from_copylink",
+              "source": "社区更新 · 2026-08-01",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "作者拆解体验了OpenAI的vibecoding键盘Codex Micro，售价230美元。该设备无本地AI和麦克风，仅负责输入、灯光、通信和供电，但存在USB卡顿、HID读取中断",
+          "why_it_matters": "Codex Micro作为AI硬件新品类，其功能定位和稳定性问题影响开发者对AI Coding外设的预期与选择，需关注实际体验与成本。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "230美元的Codex Micro拆解：OpenAI的AI硬件诚意几何？",
+              "angle": "第一人称拆解体验，对比宣传与实测，突出USB卡顿等细节。",
+              "needs_hands_on": true,
+              "risk": "未亲测，依赖单一来源，需核实拆解细节和价格。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "Codex Micro避坑指南：无本地AI的键盘值不值？",
+              "angle": "以用户视角分享配置步骤和稳定性问题，给出购买建议。",
+              "needs_hands_on": true,
+              "risk": "未亲测，需验证稳定性问题是否普遍。"
+            },
+            {
+              "platform": "wechat",
+              "title": "从Codex Micro看OpenAI的硬件野心与局限",
+              "angle": "分析OpenAI硬件策略，探讨AI Coding外设的未来方向。",
+              "needs_hands_on": false,
+              "risk": "需结合更多官方信息，避免过度推测。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_d277a85993fe",
+          "creator_event_id": "creator-682c360a4963373f",
+          "merged_story_ids": [
+            "story_d277a85993fe"
+          ],
+          "title": "DeepSeek-V4-Flash 正式版来了！这次提升有点夸张。",
+          "url": "https://juejin.cn/post/7668634785267695625",
+          "primary_url": "https://juejin.cn/post/7668634785267695625",
+          "source": "juejin",
+          "source_name": "NewsNow",
+          "source_count": 1,
+          "source_names": [
+            "juejin"
+          ],
+          "score": 0.5203,
+          "importance": 0.5203,
+          "importance_score": 0.5203,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.468,
+            "source_tier": 0.32,
+            "ai_relevance": 0.65,
+            "recency": 0.9973,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-08-01T22:39:58.199000Z",
+          "latest_at": "2026-08-01T22:39:58.199000Z",
+          "creator_score": 70.0,
+          "creator_breakdown": {
+            "relevance": 0.68,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.63,
+            "novelty": 0.85,
+            "heat": 0.3321
+          },
+          "creator_bucket": "general_ai",
+          "primary_entity": "deepseek",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:deepseek",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "c4f29435dd29328042844464223f2b833598818b",
+            "title": "DeepSeek-V4-Flash 正式版来了！这次提升有点夸张。",
+            "title_zh": "DeepSeek-V4-Flash 正式版来了！这次提升有点夸张。",
+            "title_original": "DeepSeek-V4-Flash 正式版来了！这次提升有点夸张。",
+            "summary": "刚刚打开 DeepSeek，就发现多了一行小字，不过这个小字没写在右下角。 它写在了 DeepSeek 的 Logo 上面。 各位看到了什么？ DeepSeek-V4-Flash 正式版公测了，大幅增\n刚刚打开 DeepSeek，就发现多了一行小字，不过这个小字没写在右下角。\n它写在了 DeepSeek 的 Logo 上面。\n各位看到了什么？\nDeepSeek-V4-Flash 正式版公测了，大幅增强了 Agent 能力。\n不过 DeepSeek 这波也太低调了吧。\n甚至官方账号都没发公告，大家大多数人还是通过更新日志发现的。\n你看看这。\n真服了，你 DeepSeek 要是不想发，我们替你发好了。\nDeepSeek 把新旧版本和几个同期模型的成绩放到了一起。\n原始对比图；V4-Flash 0731 一列已与 DeepSeek 官方更新日志逐项核对\n为了更直观地看清这次升级的幅度，我又把三个 DeepSeek 版本单独画成了一张图。\n先看它和自己比。\n9 项测试全部上涨。其中 DeepSWE 从 7.3 涨到 54.4，直接增加 47.1 分；CyberGym 增加 38 分；DSBen",
+            "recommend_reason_zh": "DeepSeek-V4-Flash正式版公测，9项Agent测试全线上涨，DeepSWE从7.3跃至54.4，输出价仅为GPT-5.6 Luna的1/4.3，但对比GPT-5.6 Sol、Claude Opus 5仍存差距。",
+            "url": "https://juejin.cn/post/7668634785267695625",
+            "source": "juejin",
+            "source_name": "NewsNow"
+          },
+          "sources": [
+            {
+              "story_id": "story_d277a85993fe",
+              "title": "DeepSeek-V4-Flash 正式版来了！这次提升有点夸张。",
+              "url": "https://juejin.cn/post/7668634785267695625",
+              "source": "juejin",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "DeepSeek-V4-Flash正式版公测，官方未发公告，仅通过更新日志低调上线。9项Agent测试全线上涨，DeepSWE从7.3跃至54.4，输出价仅为GPT-5.6 Lun",
+          "why_it_matters": "DeepSeek-V4-Flash大幅提升Agent能力，且价格优势明显，可能影响开发者对AI Coding工具的选择，尤其在成本敏感场景下",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "DeepSeek-V4-Flash低调公测，实测Agent能力暴涨",
+              "angle": "作为开发者，我第一时间发现DeepSeek更新日志，实测DeepSWE从7.3到54.4，但对比GPT-5.6 Sol仍有差距，性价比如何？",
+              "needs_hands_on": true,
+              "risk": "未亲测，需验证实际Agent任务表现及价格准确性。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "DeepSeek-V4-Flash公测，Agent能力提升但别急着换",
+              "angle": "分享发现DeepSeek-V4-Flash公测的步骤，对比新旧版本成绩，提醒注意与GPT-5.6 Sol的差距，避坑指南。",
+              "needs_hands_on": true,
+              "risk": "未亲测，需确认官方更新日志数据。"
+            },
+            {
+              "platform": "wechat",
+              "title": "DeepSeek-V4-Flash低调上线，AI Coding格局生变？",
+              "angle": "从DeepSeek-V4-Flash的发布方式切入，分析其Agent能力提升对开发者工作流的影响，以及价格战对市场格局的长期影响。",
+              "needs_hands_on": false,
+              "risk": "需核实对比数据来源。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        }
+      ],
+      "llm_meta": {
+        "provider": "deepseek",
+        "model": "deepseek-chat",
+        "calls_used": 13,
+        "cache_hits": 0,
+        "fallback_count": 0
+      },
+      "dedup_meta": {
+        "secondary_dedup_merge_count": 2,
+        "secondary_dedup_source_count": 112
+      }
+    },
     {
       "edition_id": "2026-08-01-evening",
       "edition_kind": "evening",
