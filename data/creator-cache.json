@@ -8494,7 +8494,397 @@
           }
         ]
       }
+    },
+    "7f2bdc267c661c2bee871c26fb5cadc8528b1b6c": {
+      "generated_at": "2026-08-02T23:06:55.287849Z",
+      "enrichment": {
+        "summary_zh": "多年付费用户宣布取消Cursor，控诉其10个月未更新VSCode版本、Agent窗口反复弹出、7项bug报告数月无人修复，177赞反馈帖还被删除，揭露AI编程工具光鲜下的用户支持",
+        "why_it_matters": "Cursor作为AI编程工具标杆，其用户支持问题可能影响开发者对AI编码工具的信任，提醒开发者关注工具维护和社区反馈机制。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "我取消了Cursor：一个付费用户的失望之旅",
+            "angle": "以第一人称讲述作为多年付费用户的经历，从最初的喜爱到最终取消，突出具体问题如VSCode版本陈旧、Agent窗口反复出现、bug报告被忽视，以及反馈帖被删除的细节。",
+            "needs_hands_on": true,
+            "risk": "需核实Cursor是否确实10个月未更新VSCode版本，以及反馈帖被删除的具体情况。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "Cursor避坑指南：这些bug你遇到了吗？",
+            "angle": "以用户视角分享Cursor使用中可能遇到的问题，如Agent窗口反复弹出、版本陈旧等，提供排查和解决建议，并提醒用户关注官方支持渠道。",
+            "needs_hands_on": true,
+            "risk": "需确认所列问题是否普遍存在，以及是否有官方回应。"
+          },
+          {
+            "platform": "wechat",
+            "title": "从Cursor到替代品：AI编程工具的用户支持危机",
+            "angle": "分析Cursor用户支持问题背后的行业现象，探讨AI编程工具在快速迭代中忽视用户反馈的风险，以及开发者如何选择可靠工具。",
+            "needs_hands_on": false,
+            "risk": "需核实文中提到的具体数据，如10个月未更新、7项bug报告等。"
+          }
+        ]
+      }
+    },
+    "ef4d14c271200605e1c0b1f8b997bd0b69b0ef6f": {
+      "generated_at": "2026-08-02T23:06:55.287849Z",
+      "enrichment": {
+        "summary_zh": "WaytoAGI 社区文章介绍 Google Cloud 推出的 OKF 标准，将组织知识整理为可版本管理的 Knowledge Bundle，类比 AI 时代的 HTML，强调其",
+        "why_it_matters": "OKF 可能成为 Agent 知识层的通用格式，影响企业如何长期维护和验证交给 AI 的业务规则，对开发工作流和知识管理有潜在影响。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "OKF 实测：把公司知识打包成 Knowledge Bundle 后，Agent 表现有何不同？",
+            "angle": "亲测 OKF 格式，对比传统方式，分享打包、版本管理和 Agent 调用体验。",
+            "needs_hands_on": true,
+            "risk": "OKF 具体规范未亲测，需确认 Google Cloud 官方文档和实际工具支持。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "AI 时代新标准 OKF 是什么？一文看懂如何整理知识给 Agent",
+            "angle": "用通俗步骤解释 OKF 概念，展示如何将公司规则整理成 Knowledge Bundle，附避坑指南。",
+            "needs_hands_on": false,
+            "risk": "文章为社区解读，非官方文档，需核实 OKF 细节。"
+          },
+          {
+            "platform": "wechat",
+            "title": "从 HTML 到 OKF：AI 时代企业知识层的标准之争",
+            "angle": "分析 OKF 出现的背景，对比其他知识格式，探讨对企业 AI 战略的长期影响。",
+            "needs_hands_on": false,
+            "risk": "需确认 OKF 是否已成为正式标准，避免过度解读。"
+          }
+        ]
+      }
+    },
+    "e0184642871e31fa37388e6ecb5ffc8e4f1f70b4": {
+      "generated_at": "2026-08-02T23:06:55.287849Z",
+      "enrichment": {
+        "summary_zh": "Anthropic、OpenAI 和 DeepSeek 正趋同于将系统提示词用作奖励函数，从 RLHF 演进到 RULER，强化学习在智能体上的应用逐步深化，文章附有代码。",
+        "why_it_matters": "系统提示词作为奖励函数可能改变智能体训练方式，影响开发者对提示词工程和 RL 工作流的理解，需关注其实际效果与实现细节。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "从 RLHF 到 RULER：我实测了系统提示词当奖励函数的效果",
+            "angle": "以开发者视角，分享尝试将系统提示词作为奖励函数的实验过程，对比传统 RLHF 的差异，突出新鲜感和实测结果。",
+            "needs_hands_on": true,
+            "risk": "未亲测，需验证系统提示词作为奖励函数的实际可行性和效果，避免夸大。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "AI 智能体训练新趋势：系统提示词当奖励函数，手把手教程",
+            "angle": "面向普通开发者，用步骤化方式介绍如何将系统提示词用于强化学习，附代码示例，强调避坑点和结果展示。",
+            "needs_hands_on": true,
+            "risk": "需确认代码可用性和环境要求，未亲测可能影响教程准确性。"
+          },
+          {
+            "platform": "wechat",
+            "title": "RL 智能体演进：从 RLHF 到 RULER，系统提示词如何成为奖励函数",
+            "angle": "从行业背景出发，分析三大实验室的技术路线趋同，探讨对 AI Coding 工作流和开发者技能要求的长期影响。",
+            "needs_hands_on": false,
+            "risk": "需核实各实验室具体技术细节，避免过度解读单一来源。"
+          }
+        ]
+      }
+    },
+    "6b937b8fbfe0e2335f502ed1c808a3d1634f5bd1": {
+      "generated_at": "2026-08-02T23:06:55.287849Z",
+      "enrichment": {
+        "summary_zh": "Anthropic的Claude Code负责人Boris Cherny在Y Combinator活动上透露，他尝试用Claude Code将Electron版Claude桌面应用",
+        "why_it_matters": "展示AI Coding在大型重写任务中的实际能力边界，影响开发者对AI重构项目的预期和工具选择。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "用Claude Code重写自家应用14天未完成，我试了试",
+            "angle": "亲测Claude Code重写一个简单Electron应用为Swift，对比耗时和结果，分享实际体验。",
+            "needs_hands_on": true,
+            "risk": "未亲测，需验证Claude Code在重写任务中的实际表现。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "AI重写代码避坑指南：Claude Code 14天未完成，我总结了3个教训",
+            "angle": "从Boris Cherny的案例出发，总结AI重写项目的步骤、常见问题和避坑建议。",
+            "needs_hands_on": false,
+            "risk": "需确认案例细节，避免夸大。"
+          },
+          {
+            "platform": "wechat",
+            "title": "AI Coding的边界：从Boris Cherny重写Claude应用看大型重构的挑战",
+            "angle": "分析AI在大型代码重写中的技术限制，探讨对开发者工作流和工具选择的长期影响。",
+            "needs_hands_on": false,
+            "risk": "需核实案例细节，避免过度解读。"
+          }
+        ]
+      }
+    },
+    "511072291a4ca4640a601b4f10a58f16036a20e2": {
+      "generated_at": "2026-08-02T23:06:55.287849Z",
+      "enrichment": {
+        "summary_zh": "MicroCodex 用 C++ 重新实现 OpenAI/codex，二进制小于 1MB，在 Hacker News 展示，引发对极简编码代理性能与完整度的讨论。",
+        "why_it_matters": "展示编码代理可轻量化，可能影响资源受限环境下的工具选择，但需验证其功能完整性与实际性能。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "MicroCodex 实测：1MB 的编码代理能打吗？",
+            "angle": "第一人称实测 MicroCodex，对比原版 codex 在简单任务上的表现，突出体积与性能的反差。",
+            "needs_hands_on": true,
+            "risk": "未亲测，需验证其实际功能与稳定性。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "轻量编码代理 MicroCodex 上手教程：1MB 也能跑 AI 编程？",
+            "angle": "分享安装步骤、运行效果和避坑指南，强调体积小但可能功能有限。",
+            "needs_hands_on": true,
+            "risk": "未亲测，需确认安装流程和依赖。"
+          },
+          {
+            "platform": "wechat",
+            "title": "从 codex 到 MicroCodex：C++ 重写背后的工程取舍",
+            "angle": "分析 C++ 重写带来的性能与体积优势，以及功能完整性的潜在代价，探讨对编码代理生态的影响。",
+            "needs_hands_on": false,
+            "risk": "需核实项目实际功能与作者声明。"
+          }
+        ]
+      }
+    },
+    "0ba0481f505a87924e6988fb0d08e49d097c3702": {
+      "generated_at": "2026-08-02T23:06:55.287849Z",
+      "enrichment": {
+        "summary_zh": "一篇博客文章提及使用 oh my pi、DeepSeek-V4-Flash、GPT-5.6 Luna 和 Antigravity CLI 的体验，但这些模型和工具名称未获官方确认，",
+        "why_it_matters": "若属实，可能预示新模型和 CLI 工具的出现，影响开发者工具链选择，但需谨慎对待，避免误信未证实信息。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "DeepSeek-V4-Flash 和 GPT-5.6 Luna 真的存在吗？我的第一手体验",
+            "angle": "分享我试用这些未发布模型的经历，强调其性能表现和潜在问题，同时提醒大家注意信息来源的可靠性。",
+            "needs_hands_on": true,
+            "risk": "模型名称和功能未获官方确认，可能为虚构或误传，需核实真实性。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "避坑指南：别被未发布的 AI 工具名称忽悠了",
+            "angle": "以个人经历为例，教大家如何辨别 AI 工具的真伪，避免浪费时间在不存在或未发布的工具上。",
+            "needs_hands_on": false,
+            "risk": "需确认这些工具是否真的不存在或未发布，避免误导。"
+          },
+          {
+            "platform": "wechat",
+            "title": "AI 工具命名乱象：从 DeepSeek-V4-Flash 看行业信息传播的陷阱",
+            "angle": "分析 AI 领域频繁出现未证实工具名称的现象，探讨其对开发者决策和行业信任的影响。",
+            "needs_hands_on": false,
+            "risk": "需引用更多来源以支撑分析，避免仅依赖单一博客。"
+          }
+        ]
+      }
+    },
+    "cbd85df9538801768d05b75fa090b1fcf108473d": {
+      "generated_at": "2026-08-02T23:06:55.287849Z",
+      "enrichment": {
+        "summary_zh": "Sprocket 是一个轻量级 AI 代理平台，旨在简化硬件和软件开发流程。它能自动检索网络上下文，创建 React 原理图、生成 BOM、编写代码，并自主购买硬件零件或 SaaS",
+        "why_it_matters": "Sprocket 将 AI 代理从纯软件扩展到硬件开发，可能改变硬件工程师的工作流，但自主购买功能带来成本和风险控制问题。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "Sprocket 实测：AI 代理真的能帮我买硬件零件吗？",
+            "angle": "作为开发者，我试用了 Sprocket，看它如何自动生成 BOM 并下单，分享我的第一手体验和踩坑记录。",
+            "needs_hands_on": true,
+            "risk": "未亲测，需验证其自主购买功能的实际可靠性和安全性。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "AI 代理新玩法：Sprocket 从原理图到采购全自动",
+            "angle": "手把手教你用 Sprocket 创建 React 原理图、生成 BOM，并设置自主采购，附上我的配置步骤和注意事项。",
+            "needs_hands_on": true,
+            "risk": "未亲测，需确认其与主流 EDA 工具的兼容性。"
+          },
+          {
+            "platform": "wechat",
+            "title": "Sprocket 发布：AI 代理进入硬件开发领域，对开发者意味着什么？",
+            "angle": "从行业视角分析 Sprocket 对硬件和软件融合开发的影响，探讨 AI 代理在硬件领域的潜力与风险。",
+            "needs_hands_on": false,
+            "risk": "需核实其实际能力是否如宣传所述。"
+          }
+        ]
+      }
+    },
+    "dc28243b2a66072b5c16864ee78bb631813d2c99": {
+      "generated_at": "2026-08-02T23:06:55.287849Z",
+      "enrichment": {
+        "summary_zh": "本周AI论文精选涵盖智能体工程、模型训练、安全监控与算力优化：NOOA将Agent写成Python对象，ACM让智能体自管上下文，ReOPD复用教师轨迹降训练成本，JAXBench",
+        "why_it_matters": "这些研究为AI Coding工具链提供新思路，如Agent工程化、上下文管理、训练成本优化，可能影响开发者对智能体框架与工具的选择。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "NOOA：把Agent写成Python对象，我实测了它的工程化潜力",
+            "angle": "以开发者视角，分享将Agent视为Python对象带来的代码组织与调试便利，对比传统Agent框架。",
+            "needs_hands_on": true,
+            "risk": "未亲测NOOA，需验证其实际可用性与性能。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "ACM让智能体自己管理上下文，避坑指南来了",
+            "angle": "以实操者身份，介绍ACM如何减少上下文溢出，提供配置步骤与常见问题。",
+            "needs_hands_on": true,
+            "risk": "ACM具体实现细节未验证，需确认其与现有框架的兼容性。"
+          },
+          {
+            "platform": "wechat",
+            "title": "从ReOPD到JAXBench：本周AI论文如何影响你的AI Coding工作流",
+            "angle": "以行业观察者身份，分析这些研究对训练成本、工具调用可靠性的长期影响，并联系实际项目。",
+            "needs_hands_on": false,
+            "risk": "论文结论基于特定实验，迁移到真实项目需谨慎。"
+          }
+        ]
+      }
+    },
+    "84f74f50583bc7112ef82c4b7695468ff083d36f": {
+      "generated_at": "2026-08-02T23:06:55.287849Z",
+      "enrichment": {
+        "summary_zh": "DeepSeek-V4-Flash 正式版上线，作者实测指出 3 个坑：上下文长度限制、函数调用不稳定、输出格式偶发错误。文章为个人经验分享，非官方公告。",
+        "why_it_matters": "V4-Flash 作为新模型，其限制可能影响开发者集成与生产环境稳定性，需谨慎评估后再采用。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "DeepSeek-V4-Flash 实测：3 个坑让我差点放弃",
+            "angle": "以第一人称分享实测经历，突出新模型的实际表现与预期差距，强调个人体验。",
+            "needs_hands_on": true,
+            "risk": "未亲测，依赖单篇文章，需验证上下文长度、函数调用等具体问题。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "DeepSeek-V4-Flash 避坑指南：3 个问题及解决方案",
+            "angle": "以教程形式列出坑点，给出规避方法，强调实用性和步骤。",
+            "needs_hands_on": true,
+            "risk": "需确认坑点是否普遍存在，以及解决方案是否有效。"
+          },
+          {
+            "platform": "wechat",
+            "title": "DeepSeek-V4-Flash 上线：新模型的机遇与挑战",
+            "angle": "从行业角度分析新模型对开发者的影响，结合背景讨论其定位与潜在风险。",
+            "needs_hands_on": false,
+            "risk": "需核实模型官方信息，避免以偏概全。"
+          }
+        ]
+      }
+    },
+    "36419dc55728cbacd472c19b0eb8af0b033cc13c": {
+      "generated_at": "2026-08-02T23:06:55.287849Z",
+      "enrichment": {
+        "summary_zh": "OpenAI推出企业级产品Presence，旨在将AI代理部署到客服和内部流程的生产环境中，与Workspace Agents不同，它面向外部场景，复杂案例由OpenAI工程师介入",
+        "why_it_matters": "Presence标志着OpenAI从开发工具转向生产级代理服务，可能改变企业AI代理的部署方式，影响开发者对代理可靠性和运维的考量。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "OpenAI Presence实测：企业代理部署的新选择？",
+            "angle": "作为开发者，我第一时间体验了Presence，对比Workspace Agents，看看它是否真的能处理生产级任务。",
+            "needs_hands_on": true,
+            "risk": "Presence的具体功能和定价尚未公开，需核实官方文档。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "OpenAI Presence避坑指南：企业部署AI代理前必看",
+            "angle": "分享我研究Presence的笔记，包括它适合哪些场景、有哪些限制，以及如何避免踩坑。",
+            "needs_hands_on": false,
+            "risk": "基于公开信息，未亲测，需注意Presence可能仅限邀请。"
+          },
+          {
+            "platform": "wechat",
+            "title": "OpenAI Presence：AI代理生产化的分水岭？",
+            "angle": "从行业角度分析Presence的推出对AI代理生态的影响，以及企业采用AI代理的长期趋势。",
+            "needs_hands_on": false,
+            "risk": "Presence的细节有限，需避免过度解读。"
+          }
+        ]
+      }
+    },
+    "66103073e6b933b6c7c9a410ba3a7a578fc16a51": {
+      "generated_at": "2026-08-02T23:06:55.287849Z",
+      "enrichment": {
+        "summary_zh": "苹果漏洞赏金计划被AI生成的虚假报告淹没，导致每位研究员提交受限。意大利初创公司Bynario用ChatGPT发现macOS漏洞，黑市价值高达20万美元，却因提交上限无法上报。",
+        "why_it_matters": "AI生成的漏洞报告泛滥，挤占真实安全研究资源，影响漏洞发现与修复效率，开发者需警惕AI工具在安全领域的误用。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "AI垃圾报告让苹果漏洞赏金失效？真实漏洞被淹没",
+            "angle": "作为安全研究员，实测发现AI生成的漏洞报告如何影响赏金计划，分享个人提交经历与应对策略。",
+            "needs_hands_on": true,
+            "risk": "未亲测苹果赏金计划，具体提交限制细节需核实。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "用ChatGPT找漏洞？小心被苹果拉黑！避坑指南",
+            "angle": "分享使用AI辅助漏洞挖掘的步骤与注意事项，避免因AI报告被误判为垃圾信息。",
+            "needs_hands_on": true,
+            "risk": "AI辅助漏洞挖掘的具体效果未实测，需验证。"
+          },
+          {
+            "platform": "wechat",
+            "title": "AI垃圾信息泛滥，漏洞赏金计划何去何从？",
+            "angle": "从行业角度分析AI生成内容对安全生态的影响，探讨平台如何平衡自动化与真实性。",
+            "needs_hands_on": false,
+            "risk": "苹果内部政策细节未公开，需进一步核实。"
+          }
+        ]
+      }
+    },
+    "a88f402c577f0723294b8efbbea777543c922f37": {
+      "generated_at": "2026-08-02T23:06:55.287849Z",
+      "enrichment": {
+        "summary_zh": "开发者用“生成哈布斯堡下颌青蛙SVG”作为个人AI基准，测试gemini-2.5-pro和gemini-3.6-flash，发现AI即使画得古怪也会自信作答，并添加基于假设的创意细",
+        "why_it_matters": "该基准揭示了AI在生成代码时可能过度自信并添加未要求的功能，提醒开发者在实际工作中需验证AI输出，避免引入潜在错误。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "我用一个奇葩SVG需求测了Gemini，结果让我又惊又怕",
+            "angle": "第一人称分享测试过程，对比gemini-2.5-pro和gemini-3.6-flash的表现，突出AI自信但偏离需求的反差。",
+            "needs_hands_on": true,
+            "risk": "未亲测，具体模型版本和输出细节需验证。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "AI画青蛙翻车？实测Gemini生成SVG的避坑指南",
+            "angle": "以步骤形式展示测试方法，列出AI常见问题（如添加多余细节），并给出验证AI输出的实用建议。",
+            "needs_hands_on": true,
+            "risk": "未亲测，需确认模型版本和实际输出。"
+          },
+          {
+            "platform": "wechat",
+            "title": "从青蛙SVG看AI编程的信任危机：我们该不该相信AI生成的代码？",
+            "angle": "从该测试切入，分析AI在代码生成中的自信偏差，探讨对开发者工作流的影响及应对策略。",
+            "needs_hands_on": false,
+            "risk": "需引用原始帖子，避免过度引申。"
+          }
+        ]
+      }
+    },
+    "8a76e48a1b40a8c8c694ac178547a56f6537ebad": {
+      "generated_at": "2026-08-02T23:06:55.287849Z",
+      "enrichment": {
+        "summary_zh": "OpenAI 内部测试的新模型 Astra 在数学问题上表现惊艳，但 Gary Marcus 指出相关讨论犯了“合成谬误”：擅长某类数学不等于擅长所有数学、科学乃至一切认知任务。数",
+        "why_it_matters": "Astra 的数学能力可能被过度解读，开发者需警惕将单一基准成绩等同于通用编码能力，影响工具选型和预期管理。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "实测 Astra 数学题：惊艳背后，我发现了这些局限",
+            "angle": "以第一人称分享实测 Astra 解决数学问题的体验，对比其他模型，指出其擅长模式但暴露开放问题短板，强调“合成谬误”风险。",
+            "needs_hands_on": true,
+            "risk": "Astra 尚未公开发布，无法亲测，需基于公开演示和报告，注意区分传闻与事实。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "别被数学成绩骗了！选 AI 编程工具前必看的避坑指南",
+            "angle": "从 Astra 数学表现切入，教开发者如何理性评估 AI 模型能力，避免被单一指标误导，提供评估维度和实操建议。",
+            "needs_hands_on": false,
+            "risk": "需确保建议基于公开信息，不夸大 Astra 能力。"
+          },
+          {
+            "platform": "wechat",
+            "title": "从 Astra 看 AI 评测的陷阱：为什么数学好不等于通用智能",
+            "angle": "深入分析“合成谬误”在 AI 评测中的普遍性，探讨数学作为基准的局限性，以及对 AI 编程工具发展的长期影响。",
+            "needs_hands_on": false,
+            "risk": "需引用 Gary Marcus 观点，并注明 Astra 细节未公开。"
+          }
+        ]
+      }
     }
   },
-  "updated_at": "2026-08-02T11:29:08.612283Z"
+  "updated_at": "2026-08-02T23:06:55.287849Z"
 }
