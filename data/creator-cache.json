@@ -9364,7 +9364,487 @@
           }
         ]
       }
+    },
+    "fdf59459593cd2d276ec6adf983dca0f24c718a8": {
+      "generated_at": "2026-08-03T23:16:20.945082Z",
+      "enrichment": {
+        "summary_zh": "GitHub Enterprise Importer（GEI）现已正式支持从 gitlab.com 和 GitLab Self-Managed 自服务迁移到 GitHub Ente",
+        "why_it_matters": "为 GitLab 用户迁移到 GitHub 提供官方自服务路径，降低迁移门槛，影响团队工具选型与迁移成本。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "GitLab 迁移 GitHub 终于有官方自服务了，但有个坑",
+            "angle": "实测 gh gl2gh 迁移流程，对比之前手动迁移的痛点，强调 GA 后的便利与限制（不支持 GHES）。",
+            "needs_hands_on": true,
+            "risk": "未亲测迁移过程，具体支持范围（如仓库、PR、issue）需查官方文档。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "GitLab 迁移 GitHub 保姆级教程：用 GEI 官方工具",
+            "angle": "分步骤介绍如何使用 gh gl2gh 扩展进行迁移，包括前置条件、命令示例和注意事项，帮助开发者避坑。",
+            "needs_hands_on": true,
+            "risk": "未亲测，具体命令和步骤需以官方文档为准。"
+          },
+          {
+            "platform": "wechat",
+            "title": "GitHub 正式支持 GitLab 迁移：企业迁移的新选择",
+            "angle": "分析 GEI 支持 GitLab 迁移的背景、对 DevOps 工具链格局的影响，以及企业迁移时的考量（如数据完整性、团队适应）。",
+            "needs_hands_on": false,
+            "risk": "需确认迁移支持的具体数据范围，避免夸大。"
+          }
+        ]
+      }
+    },
+    "1fa5649237e2936991bd9f6bc373e3cebc2caafc": {
+      "generated_at": "2026-08-03T23:16:20.945082Z",
+      "enrichment": {
+        "summary_zh": "MarkTechPost 发布教程，介绍如何为 Moonshot AI 的 PerceptionBench 构建端到端评估流程，涵盖多阶段数据加载、自动评判，支持 OCR、计数、定",
+        "why_it_matters": "为开发者提供了可复现的多模态模型评估方案，降低基准测试门槛，有助于在工具选型时对比模型性能。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "我用 PerceptionBench 实测了多模态模型，结果出乎意料",
+            "angle": "分享使用 PerceptionBench 评估模型的亲身经历，突出数据加载和自动评判的便捷性，以及发现的问题。",
+            "needs_hands_on": true,
+            "risk": "未亲测，具体评估结果和模型表现未知。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "多模态模型评估避坑指南：PerceptionBench 使用教程",
+            "angle": "以教程形式介绍 PerceptionBench 的搭建步骤，包括数据加载、自动评判，并提醒常见坑点。",
+            "needs_hands_on": true,
+            "risk": "未亲测，步骤细节可能不完整。"
+          },
+          {
+            "platform": "wechat",
+            "title": "从 PerceptionBench 看多模态评估的演进与挑战",
+            "angle": "分析 PerceptionBench 对多模态模型评估的意义，探讨自动评判的可靠性及对开发工作流的影响。",
+            "needs_hands_on": false,
+            "risk": "单来源信息，需进一步核实。"
+          }
+        ]
+      }
+    },
+    "a57c5a93b7a2b69e8800a3d51dfa4dade854d7fe": {
+      "generated_at": "2026-08-03T23:16:20.945082Z",
+      "enrichment": {
+        "summary_zh": "老金针对Anthropic将Claude Code系统提示词删减80%的做法，用开源项目Meta_Kim进行48次A/B测试，覆盖简单修改、模糊任务和跨文件高风险任务。结果显示，删",
+        "why_it_matters": "提示词精简需谨慎，模型行为差异显著，直接影响开发效率和成本，开发者应基于实测而非盲目跟风。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "删了82%提示词，我的Claude Code反而变笨了？48次A/B测试实录",
+            "angle": "分享个人实测经历，对比删减前后模型在简单和复杂任务上的表现差异，强调不能盲目精简提示词。",
+            "needs_hands_on": true,
+            "risk": "测试基于特定项目和模型版本，结果可能不通用，需注明未覆盖所有场景。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "提示词精简避坑指南：删了82%后，我的模型退步了！",
+            "angle": "以步骤化方式展示如何测试提示词精简效果，包括任务设计、A/B测试方法和结果对比，提供避坑建议。",
+            "needs_hands_on": true,
+            "risk": "测试样本有限，需说明不同模型和任务类型下结果可能不同。"
+          },
+          {
+            "platform": "wechat",
+            "title": "提示词精简的真相：Anthropic删80%系统提示词，我们该学吗？",
+            "angle": "从Anthropic的改动出发，分析提示词精简背后的原理和风险，结合老金实测数据，探讨对开发者工作流的影响。",
+            "needs_hands_on": false,
+            "risk": "需核实Anthropic官方公告和测试数据的准确性。"
+          }
+        ]
+      }
+    },
+    "6c4c8307213fa97391e6b49092110be3fbaf63e8": {
+      "generated_at": "2026-08-03T23:16:20.945082Z",
+      "enrichment": {
+        "summary_zh": "WaytoAGI 发布文章，解析 Codex、Claude、Cursor 项目中 AGENTS.md、SKILL.md、CLAUDE.md 的差异与用途，指出理解这些文件可避免重复",
+        "why_it_matters": "帮助开发者正确配置项目上下文，减少重复维护，提升 AI 编码工具的准确性和效率。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "AGENTS.md 与 CLAUDE.md 到底有啥区别？我实测了三种配置",
+            "angle": "以第一人称分享实测体验，对比不同配置对 AI 编码的影响，突出差异和踩坑。",
+            "needs_hands_on": true,
+            "risk": "未亲测所有工具，需验证具体行为差异。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "AI 编码必看：AGENTS.md、SKILL.md、CLAUDE.md 配置避坑指南",
+            "angle": "以教程形式，分步骤讲解每个文件的作用和配置方法，分享避免重复维护的实用技巧。",
+            "needs_hands_on": true,
+            "risk": "需确认各工具对文件的支持程度。"
+          },
+          {
+            "platform": "wechat",
+            "title": "上下文工程：从 AGENTS.md 到 SKILL.md，AI 编码的底层逻辑",
+            "angle": "从背景和体系角度，分析上下文工程对 AI 编码工作流的影响，探讨未来趋势。",
+            "needs_hands_on": false,
+            "risk": "需核实文章中的具体案例和细节。"
+          }
+        ]
+      }
+    },
+    "b0a5aaa20ac4f766ede5f4ed7329d591eb6b853e": {
+      "generated_at": "2026-08-03T23:16:20.945082Z",
+      "enrichment": {
+        "summary_zh": "社区分享跨机器共享Codex和Claude Code记忆的技巧：用claude-mem本地捕获会话关键记忆，仅将架构决策、稳定偏好、重要发现和已验证Bug修复同步至Mem0，避免A",
+        "why_it_matters": "解决多设备开发时重复解释项目背景的痛点，通过轻量记忆同步提升AI Coding工具跨机器协作效率，减少上下文开销。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "实测：用claude-mem+Mem0让Codex和Claude跨机器共享记忆",
+            "angle": "分享个人实测配置步骤，对比全塞AGENTS.md的痛点，展示同步后切换设备无需重复解释的体验。",
+            "needs_hands_on": true,
+            "risk": "未亲测，需验证claude-mem与Mem0的集成细节及实际效果。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "AI编程跨设备记忆同步教程：Codex和Claude Code共用记忆",
+            "angle": "以教程形式分步讲解如何配置claude-mem和Mem0，强调只同步关键记忆避免上下文爆炸，附避坑提示。",
+            "needs_hands_on": true,
+            "risk": "未亲测，需确认工具版本兼容性和配置步骤准确性。"
+          },
+          {
+            "platform": "wechat",
+            "title": "AI Coding记忆管理新思路：从AGENTS.md到分层记忆同步",
+            "angle": "从工程角度分析记忆分层（本地捕获+云端同步）对多设备开发工作流的影响，探讨对上下文窗口和协作效率的长期价值。",
+            "needs_hands_on": false,
+            "risk": "需核实claude-mem和Mem0的官方文档及社区反馈。"
+          }
+        ]
+      }
+    },
+    "e4e0ea5849081eea721482db935f8ae9e04f6a88": {
+      "generated_at": "2026-08-03T23:16:20.945082Z",
+      "enrichment": {
+        "summary_zh": "Google Agent Skills 团队公开其开源技能库的构建与治理流程：项目始于 Cloud Next 2026 前的冲刺，发布后 GitHub 星标超 15,000。为保证",
+        "why_it_matters": "为 AI Coding 开发者提供了构建、测试和规模化 MCP 技能的可参考工程实践，影响技能库的质量控制与协作流程。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "Google Agent Skills 的 CI/CD 流水线：AI 辅助清单如何保证技能质量？",
+            "angle": "作为开发者，我拆解了 Google 的技能治理流程，重点分析其 CI/CD 中的 linter 和 AI 辅助清单，对比常见开源项目，分享可复用的质量保障思路。",
+            "needs_hands_on": true,
+            "risk": "未亲测 Google 的 CI/CD 流水线，细节基于官方文章，需核实具体工具和流程。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "手把手教你构建高质量 Agent Skills：Google 的标准化目录与评估流程",
+            "angle": "以第一人称分享如何参考 Google 的方法，为自己的技能库建立标准化目录和持续评估，附上步骤和避坑指南。",
+            "needs_hands_on": true,
+            "risk": "未实际运行 Google 的评估流程，步骤为转述，需验证可操作性。"
+          },
+          {
+            "platform": "wechat",
+            "title": "从 15k 星标看 Agent Skills 规模化：Google 的治理体系与 MCP 优先策略",
+            "angle": "深入分析 Google Agent Skills 的治理体系，探讨其远程 MCP 优先策略对生态的影响，以及开发者如何借鉴其工程实践。",
+            "needs_hands_on": false,
+            "risk": "星标数和项目背景基于单一来源，需交叉验证。"
+          }
+        ]
+      }
+    },
+    "ecbbc8c1f5f2872830aafdfa5ddba7a46fa7c6de": {
+      "generated_at": "2026-08-03T23:16:20.945082Z",
+      "enrichment": {
+        "summary_zh": "Cloudflare 发布 @cloudflare/computer 早期预览版，为每个智能体提供虚拟文件系统，并支持在 isolate、容器沙箱或浏览器中执行代码，旨在解决容器难",
+        "why_it_matters": "该运行时可能改变智能体部署方式，提供更轻量、灵活的执行环境，影响开发者对智能体基础设施的选择和成本考量。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "Cloudflare 给每个 agent 一台电脑：@cloudflare/computer 实测初体验",
+            "angle": "以开发者视角，分享申请预览版并尝试运行简单智能体的过程，对比容器方案，突出其轻量性和虚拟文件系统的便利。",
+            "needs_hands_on": true,
+            "risk": "预览版功能可能不完整，需确认实际可用性和性能表现。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "智能体开发新选择？Cloudflare computer 上手教程与避坑指南",
+            "angle": "以教程形式，介绍如何开始使用 @cloudflare/computer，包括安装、配置虚拟文件系统、选择执行环境等，并分享常见问题。",
+            "needs_hands_on": true,
+            "risk": "需验证文档中的步骤是否准确，以及不同执行环境的兼容性。"
+          },
+          {
+            "platform": "wechat",
+            "title": "从容器到电脑：Cloudflare 如何重新定义智能体运行时",
+            "angle": "分析 Cloudflare 推出 @cloudflare/computer 的背景，对比容器与虚拟文件系统的优劣，探讨其对智能体开发基础设施的长期影响。",
+            "needs_hands_on": false,
+            "risk": "需核实文章中的技术细节和历史背景，避免过度解读。"
+          }
+        ]
+      }
+    },
+    "658a30ecb942ff9a6ba7d38f20847a29dd423a85": {
+      "generated_at": "2026-08-03T23:16:20.945082Z",
+      "enrichment": {
+        "summary_zh": "Cloudflare 发布 Billable Usage API，为自助账户提供单一端点，一次调用即可返回按产品和计费周期拆分的用量与成本，覆盖 Workers、R2、D1、Wor",
+        "why_it_matters": "开发者可程序化获取 Cloudflare 各服务成本，便于 FinOps 集成与预算管理，减少人工核算，提升多云成本透明度。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "Cloudflare Billable Usage API 实测：一个端点拉全所有服务账单",
+            "angle": "分享调用 API 的体验，展示返回数据结构，对比之前手动查账单的繁琐，强调对独立开发者的便利。",
+            "needs_hands_on": true,
+            "risk": "尚未亲测，需确认 API 是否对所有自助账户开放，以及响应延迟和字段完整性。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "Cloudflare 新 API 帮你省钱：3 步搞定成本监控",
+            "angle": "以教程形式，教用户如何注册、调用 API 并设置成本告警，突出步骤和避坑点（如认证方式、计费周期差异）。",
+            "needs_hands_on": true,
+            "risk": "需验证 API 文档中的认证流程和示例代码是否准确。"
+          },
+          {
+            "platform": "wechat",
+            "title": "Cloudflare Billable Usage API 发布：FinOps 工具链的新机遇",
+            "angle": "从 FinOps 趋势切入，分析该 API 对多云成本管理的影响，以及如何与现有工具集成，展望未来成本可见性标准化。",
+            "needs_hands_on": false,
+            "risk": "需确认 FOCUS 规范的具体对齐程度，避免过度解读。"
+          }
+        ]
+      }
+    },
+    "9cff98cc8a8eef9ac7dd046c9395733b13e1d99c": {
+      "generated_at": "2026-08-03T23:16:20.945082Z",
+      "enrichment": {
+        "summary_zh": "Mend.io 发布实践指南，针对生产环境中 AI agents、MCP servers 和 LLM 应用的安全问题，提出三条行动线和七个可复用工件，包括 5 种发现方法、9 字段",
+        "why_it_matters": "为 AI Coding 工具链引入安全基线，帮助开发者识别 MCP 集成风险，避免生产事故，提升工程可靠性。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "MCP 安全指南实测：12 点检查清单能否拦住生产事故？",
+            "angle": "分享我按指南检查自己 MCP 项目的经历，对比清单与实际风险，突出实用性和反差。",
+            "needs_hands_on": true,
+            "risk": "指南具体内容未亲测，需核实清单细节。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "AI Agent 安全避坑指南：MCP 服务器配置检查清单",
+            "angle": "以步骤形式展示如何用指南中的清单检查 MCP 配置，附结果和避坑提示。",
+            "needs_hands_on": true,
+            "risk": "清单具体条目未验证，需对照原文。"
+          },
+          {
+            "platform": "wechat",
+            "title": "AI Coding 安全体系：从 AI-BOM 到运行时护栏的实践框架",
+            "angle": "从背景分析 AI 安全挑战，解读指南框架，探讨对开发流程的长期影响。",
+            "needs_hands_on": false,
+            "risk": "指南为单一来源，需关注后续验证。"
+          }
+        ]
+      }
+    },
+    "4cb5ae6aa22ec07cdaedd6a98becd1903877aac5": {
+      "generated_at": "2026-08-03T23:16:20.945082Z",
+      "enrichment": {
+        "summary_zh": "OpenRouter 推出 Ori Eval，旨在简化评估流程。它利用 OpenRouter API 处理代码库中的任务并评估结果，帮助开发者选择最适合特定任务的模型。",
+        "why_it_matters": "简化评估流程，帮助开发者快速选择最适合任务的模型，提升 AI Coding 工作流效率，降低模型选型成本。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "实测 Ori Eval：一行命令搞定模型评估",
+            "angle": "分享使用 Ori Eval 的实测体验，对比传统评估流程的繁琐，突出其简洁性和实用性。",
+            "needs_hands_on": true,
+            "risk": "未亲测，需验证实际效果和兼容性。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "AI 模型评估避坑指南：Ori Eval 使用教程",
+            "angle": "以教程形式介绍 Ori Eval 的安装和使用步骤，分享常见问题和避坑经验，帮助新手快速上手。",
+            "needs_hands_on": true,
+            "risk": "未亲测，需验证步骤准确性和潜在问题。"
+          },
+          {
+            "platform": "wechat",
+            "title": "模型评估新范式：Ori Eval 如何影响 AI 开发工作流",
+            "angle": "从行业角度分析 Ori Eval 对 AI 开发流程的影响，探讨其背后的理念和长期意义。",
+            "needs_hands_on": false,
+            "risk": ""
+          }
+        ]
+      }
+    },
+    "04ac8014bd6661704fc24496077d8a878c07889c": {
+      "generated_at": "2026-08-03T23:16:20.945082Z",
+      "enrichment": {
+        "summary_zh": "一位开发者让 Codex 和 GPT 5.6 Sol 连续运行 12 天，生成超过 87 万行代码，现在面临代码库管理难题，在 HN 上求助。",
+        "why_it_matters": "AI 生成代码规模激增，带来代码审查、维护和架构一致性的新挑战，开发者需重新评估工作流和工具链。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "12 天生成 87 万行代码，我后悔了",
+            "angle": "分享自己让 AI 长时间生成代码的亲身经历，包括遇到的失控问题和最终处理方式。",
+            "needs_hands_on": true,
+            "risk": "未亲测，具体数字和细节来自 HN 帖子，需核实。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "AI 生成 87 万行代码后，我如何收拾残局？",
+            "angle": "以第一人称讲述代码审查、重构和架构调整的步骤，提供避坑指南。",
+            "needs_hands_on": true,
+            "risk": "未亲测，具体操作细节需基于实际经验补充。"
+          },
+          {
+            "platform": "wechat",
+            "title": "AI 编码的失控：当代码量超过人类理解能力",
+            "angle": "从工程管理角度分析 AI 生成代码的规模失控问题，探讨长期影响和应对策略。",
+            "needs_hands_on": false,
+            "risk": "需确认 GPT 5.6 Sol 是否真实存在，避免传播谣言。"
+          }
+        ]
+      }
+    },
+    "cfd3da01b42182d544dfa23ddf42fbe50198573a": {
+      "generated_at": "2026-08-03T23:16:20.945082Z",
+      "enrichment": {
+        "summary_zh": "阿里巴巴发布Qwen 3.8营销视频，展示AI工作而人类享受爱好，与OpenAI和Anthropic的失业警告形成对比。文章指出这仍是营销，简化了AI对劳动力市场的影响。",
+        "why_it_matters": "Qwen 3.8的定位影响开发者对AI Coding工具的选择，其营销策略可能掩盖实际能力，需关注其编码性能与工作流集成。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "实测Qwen 3.8：营销视频之外的真实编码能力",
+            "angle": "作为开发者，我实测了Qwen 3.8的编码能力，对比营销视频中的理想场景，分享真实体验和性能数据。",
+            "needs_hands_on": true,
+            "risk": "未亲测，需验证Qwen 3.8的实际编码性能、API可用性及与现有工具链的兼容性。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "Qwen 3.8上手教程：如何用它提升开发效率",
+            "angle": "分享Qwen 3.8的安装配置步骤、常用场景和避坑指南，帮助开发者快速上手并评估是否值得切换。",
+            "needs_hands_on": true,
+            "risk": "未亲测，需确认安装步骤、依赖环境及实际效果。"
+          },
+          {
+            "platform": "wechat",
+            "title": "从Qwen 3.8看AI Coding工具的市场博弈",
+            "angle": "分析阿里巴巴与OpenAI、Anthropic在AI Coding领域的竞争策略，探讨营销叙事对开发者选择的影响及长期趋势。",
+            "needs_hands_on": false,
+            "risk": "需核实Qwen 3.8的官方发布信息及市场数据，避免基于单一来源过度推断。"
+          }
+        ]
+      }
+    },
+    "306847fbdbaf91389a36e6f5ced0c0c3c979ad99": {
+      "generated_at": "2026-08-03T23:16:20.945082Z",
+      "enrichment": {
+        "summary_zh": "GitHub 更新：若仓库限制仅协作者可创建 issue，拥有 triage 角色的用户现在也能创建，此前仅 write 权限用户可创建，以支持受信任贡献者参与维护。",
+        "why_it_matters": "影响仓库权限配置与协作流程，triage 角色权限扩大，需重新评估 issue 管理策略，避免垃圾 issue 或权限滥用。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "GitHub 悄悄改了 triage 权限，issue 创建门槛降低了",
+            "angle": "作为维护者，实测发现 triage 角色现在能建 issue，讨论这对开源项目协作的影响。",
+            "needs_hands_on": true,
+            "risk": "未亲测，需验证具体权限边界及是否影响所有仓库设置。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "GitHub 权限新变化：triage 角色也能建 issue 了，避坑指南",
+            "angle": "分享如何调整仓库设置以控制 issue 创建权限，避免垃圾 issue，附步骤和注意事项。",
+            "needs_hands_on": true,
+            "risk": "需确认设置选项及默认行为，未亲测。"
+          },
+          {
+            "platform": "wechat",
+            "title": "GitHub 权限模型演进：triage 角色权限扩大背后的协作逻辑",
+            "angle": "分析 GitHub 角色权限调整对开源协作模式的影响，探讨信任与控制的平衡。",
+            "needs_hands_on": false,
+            "risk": ""
+          }
+        ]
+      }
+    },
+    "2daced1615c215186981ba2c460f6904be75bffb": {
+      "generated_at": "2026-08-03T23:16:20.945082Z",
+      "enrichment": {
+        "summary_zh": "中国 MiniMax 发布 H3 模型，据称成为首个登顶 AI 视频生成榜单的开源模型。该消息源自单一媒体报道，尚未获官方确认。",
+        "why_it_matters": "若属实，开源模型在视频生成领域首次超越闭源，可能影响开发者对工具选型与成本考量，但需谨慎对待单一信源。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "MiniMax H3 登顶视频榜？我实测后的真实表现",
+            "angle": "以开发者身份实测 H3，对比闭源模型，分享真实体验与榜单数据差异。",
+            "needs_hands_on": true,
+            "risk": "模型实际可用性与性能未亲测，榜单数据来源单一。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "开源视频模型新王？MiniMax H3 上手教程与避坑指南",
+            "angle": "分享 H3 的部署步骤、生成效果与常见问题，提供实操经验。",
+            "needs_hands_on": true,
+            "risk": "模型可能未公开或需申请，教程基于假设。"
+          },
+          {
+            "platform": "wechat",
+            "title": "开源模型登顶视频生成榜：MiniMax H3 背后的技术趋势与行业影响",
+            "angle": "分析开源模型在视频生成领域的突破意义，探讨对闭源模型的挑战及开发者生态影响。",
+            "needs_hands_on": false,
+            "risk": "需核实榜单权威性与模型开源真实性。"
+          }
+        ]
+      }
+    },
+    "672e2da4c1e0d15cd170fb759763dbdf86692309": {
+      "generated_at": "2026-08-03T23:16:20.945082Z",
+      "enrichment": {
+        "summary_zh": "AirLLM 开源项目支持在单块 4GB 显存 GPU 上运行 70B 参数大模型推理，无需多卡或大规模显存。Hacker News 讨论热度 103 点，社区关注。",
+        "why_it_matters": "降低大模型推理硬件门槛，开发者可用低端 GPU 本地运行大模型，影响工具选择和成本。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "实测 AirLLM：4GB 显卡跑 70B 模型，是噱头还是真香？",
+            "angle": "分享个人实测经历，对比官方宣称与实际效果，突出反差和新鲜感。",
+            "needs_hands_on": true,
+            "risk": "未亲测，需验证推理速度和精度损失。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "AirLLM 教程：4GB 显卡也能跑 70B 大模型，附避坑指南",
+            "angle": "以步骤式教程分享安装配置过程，展示结果截图，提醒显存和速度注意事项。",
+            "needs_hands_on": true,
+            "risk": "未亲测，需确认兼容性和实际显存占用。"
+          },
+          {
+            "platform": "wechat",
+            "title": "AirLLM 背后的技术：如何用 4GB 显存运行 70B 模型？",
+            "angle": "从技术原理角度分析 AirLLM 的实现机制，探讨其对本地 AI 开发的影响和局限。",
+            "needs_hands_on": false,
+            "risk": "需核实技术细节，避免过度解读。"
+          }
+        ]
+      }
+    },
+    "c94e1ea1760a87d79b2db283c6c1c80408153818": {
+      "generated_at": "2026-08-03T23:16:20.945082Z",
+      "enrichment": {
+        "summary_zh": "OpenAI 发布 GPT-Live，一种实时音频新架构与全栈方案，支持边说边听，音频持续流动，深度推理与工具使用不打断对话。",
+        "why_it_matters": "GPT-Live 可能改变语音交互开发范式，影响实时音频处理、工具调用与对话流畅性，开发者需关注其 API 与集成方式。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "GPT-Live 实测：边说边听如何改变语音交互体验",
+            "angle": "作为开发者，我第一时间体验了 GPT-Live，测试了它在对话中打断、工具调用时的表现，分享真实感受。",
+            "needs_hands_on": true,
+            "risk": "尚未亲测，需确认实际可用性与性能表现。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "GPT-Live 新架构解析：实时音频开发避坑指南",
+            "angle": "从架构角度拆解 GPT-Live 的客户端到模型全栈重建，分享集成步骤与常见问题，帮助开发者避免踩坑。",
+            "needs_hands_on": true,
+            "risk": "技术细节未完全公开，需基于官方文档验证。"
+          },
+          {
+            "platform": "wechat",
+            "title": "GPT-Live 发布：实时音频技术将如何重塑 AI 语音应用",
+            "angle": "分析 GPT-Live 对语音交互、工具调用和对话流畅性的长期影响，探讨开发者如何调整技术栈。",
+            "needs_hands_on": false,
+            "risk": "需确认官方后续文档与 API 细节。"
+          }
+        ]
+      }
     }
   },
-  "updated_at": "2026-08-03T13:10:46.239869Z"
+  "updated_at": "2026-08-03T23:16:20.945082Z"
 }

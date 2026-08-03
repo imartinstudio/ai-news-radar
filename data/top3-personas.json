@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T13:10:46.087306Z",
+  "generated_at": "2026-08-03T23:16:20.749449Z",
   "model": "deepseek-chat",
   "personas": [
     {
@@ -41,10 +41,30 @@
       }
     },
     {
+      "story_id": "story_268138d2f7c5",
+      "title": "AirLLM 实现单块 4GB GPU 运行 70B 模型推理",
+      "url": "https://github.com/lyogavin/airllm",
+      "rank": 2,
+      "reviews": {
+        "cynic": {
+          "score": 72,
+          "review": "4GB跑70B听着唬人，量化加分层加载的老把戏，速度就别指望了。"
+        },
+        "paper-police": {
+          "score": 72,
+          "review": "GitHub 仓库在，但论文和 benchmark 缺失，单卡跑 70B 需独立验证。"
+        },
+        "pragmatic": {
+          "score": 88,
+          "review": "4GB 显存跑 70B，开源可 clone，低配机器今天就能试推理。"
+        }
+      }
+    },
+    {
       "story_id": "story_2404ccea579b",
       "title": "DeepSeek-V4-Flash 正式版上线国家超算互联网：一键调用，性能叫板最强闭源模型",
       "url": "https://www.aibase.com/news/30076",
-      "rank": 2,
+      "rank": 3,
       "reviews": {
         "cynic": {
           "score": 72,
@@ -57,26 +77,6 @@
         "pragmatic": {
           "score": 85,
           "review": "国家超算平台直接调用，性能对标闭源，今天就能试，省自建算力。"
-        }
-      }
-    },
-    {
-      "story_id": "story_13f269c0a486",
-      "title": "商汤开源SenseNova U1.5-Lite-Preview:8B模型支持原生4K图像生成",
-      "url": "https://www.aibase.com/news/30081",
-      "rank": 3,
-      "reviews": {
-        "cynic": {
-          "score": 62,
-          "review": "8B模型敢标4K生成，demo挑的图都挺干净，实拍细节怕是要露馅。"
-        },
-        "paper-police": {
-          "score": 45,
-          "review": "开源模型但无论文无评测细节，4K生成能力待验证。"
-        },
-        "pragmatic": {
-          "score": 72,
-          "review": "8B开源模型支持4K原生生成，本地部署可试，但预览版慎用于生产。"
         }
       }
     }
