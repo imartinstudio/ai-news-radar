@@ -1,43 +1,43 @@
 {
-  "edition_id": "2026-08-04-morning",
-  "edition_kind": "morning",
-  "generated_at": "2026-08-03T23:16:20.945082Z",
+  "edition_id": "2026-08-04-evening",
+  "edition_kind": "evening",
+  "generated_at": "2026-08-04T12:26:18.816913Z",
   "timezone": "Asia/Shanghai",
-  "total_items": 16,
+  "total_items": 14,
   "summary": {
-    "confirmed": 3,
-    "single_source": 12,
-    "early_signal": 0,
-    "rumor": 1,
-    "new": 16,
+    "confirmed": 7,
+    "single_source": 6,
+    "early_signal": 1,
+    "rumor": 0,
+    "new": 14,
     "updated": 0,
     "confirmed_updates": 0
   },
   "items": [
     {
-      "story_id": "story_cef962707d08",
-      "creator_event_id": "creator-177e47a1c2ee5cf5",
+      "story_id": "story_808985f7b6f5",
+      "creator_event_id": "creator-5a84b6b67ed7061d",
       "merged_story_ids": [
-        "story_cef962707d08"
+        "story_808985f7b6f5"
       ],
-      "title": "使用 GitHub Enterprise Importer 将 GitLab 迁移到 GitHub / Migrate from GitLab to GitHub with GitHub Enterprise Importer",
-      "url": "https://github.blog/changelog/2026-08-03-migrate-from-gitlab-to-github-with-github-enterprise-importer",
-      "primary_url": "https://github.blog/changelog/2026-08-03-migrate-from-gitlab-to-github-with-github-enterprise-importer",
+      "title": "面向托管设置的企业团队专项化 / Enterprise team specialization for managed settings",
+      "url": "https://github.blog/changelog/2026-08-03-enterprise-team-specialization-for-managed-settings",
+      "primary_url": "https://github.blog/changelog/2026-08-03-enterprise-team-specialization-for-managed-settings",
       "source": "GitHub Changelog",
       "source_name": "Official AI Updates",
       "source_count": 1,
       "source_names": [
         "GitHub Changelog"
       ],
-      "score": 0.8281,
-      "importance": 0.8281,
-      "importance_score": 0.8281,
+      "score": 0.8131,
+      "importance": 0.8131,
+      "importance_score": 0.8131,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9119,
+        "recency": 0.8285,
         "story_heat": 0.0
       },
       "category": "official",
@@ -46,19 +46,124 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-08-03T16:33:13Z",
-      "latest_at": "2026-08-03T16:33:13Z",
+      "earliest_at": "2026-08-03T22:55:29Z",
+      "latest_at": "2026-08-03T22:55:29Z",
+      "persona_id": "pragmatic",
+      "persona_score": 65,
+      "persona_review": "企业托管团队专项化，管理员可细化权限，今天就能配置。",
+      "creator_score": 89.5,
+      "creator_breakdown": {
+        "relevance": 0.95,
+        "freshness": 0.8122,
+        "source": 1.0,
+        "impact": 0.94,
+        "novelty": 0.85,
+        "heat": 0.4346
+      },
+      "creator_bucket": "ai_coding",
+      "primary_entity": "github-copilot",
+      "verification_status": "confirmed",
+      "creator_reasons": [
+        "entity:github-copilot",
+        "ai_coding_terms",
+        "workflow_impact",
+        "official_or_tier0_source"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "ba95071ee8f1c4b9b02cd6e3be489e744837e4fa",
+        "title": "面向托管设置的企业团队专项化 / Enterprise team specialization for managed settings",
+        "title_zh": "面向托管设置的企业团队专项化",
+        "title_en": "Enterprise team specialization for managed settings",
+        "title_original": "Enterprise team specialization for managed settings",
+        "summary": "Enterprise administrators can now customize managed settings by targeting enterprise teams with itemized configuration files. Large enterprises can scale governance without bottlenecking every configuration change through central administrators or one-size-fits-all…\nEnterprise administrators can now customize managed settings by targeting enterprise teams with itemized configuration files. Large enterprises can scale governance without bottlenecking every configuration change through central adm",
+        "recommend_reason_zh": "这篇更新介绍了GitHub Copilot企业托管设置支持按团队定制：通过team-mappings.json映射ai-users.json等配置文件，可覆盖键由团队自定，未标记键保持企业默认，插件白名单可叠加，并已在VS Code、Copilot App等客户端生效。",
+        "url": "https://github.blog/changelog/2026-08-03-enterprise-team-specialization-for-managed-settings",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      },
+      "sources": [
+        {
+          "story_id": "story_808985f7b6f5",
+          "title": "面向托管设置的企业团队专项化 / Enterprise team specialization for managed settings",
+          "url": "https://github.blog/changelog/2026-08-03-enterprise-team-specialization-for-managed-settings",
+          "source": "GitHub Changelog",
+          "site_id": "",
+          "official": true
+        }
+      ],
+      "summary_zh": "GitHub 更新 Copilot 托管设置，企业管理员可通过 team-mappings.json 将 ai-users.json 等配置映射到团队，实现按团队定制，未标记键保持",
+      "why_it_matters": "大型企业可分散治理，减少中心化瓶颈，提升 Copilot 配置灵活性与合规性，影响企业级 AI 编码工具的管理效率。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "GitHub Copilot 新功能：团队级配置，告别一刀切",
+          "angle": "实测 team-mappings.json 映射流程，展示如何为不同团队定制插件白名单，对比前后配置效率。",
+          "needs_hands_on": true,
+          "risk": "需验证实际映射行为及客户端同步效果，未亲测。"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "企业 Copilot 管理新招：按团队定制，避坑指南",
+          "angle": "分享配置步骤，包括创建 team-mappings.json、覆盖键规则，提醒未标记键保持默认的注意事项。",
+          "needs_hands_on": true,
+          "risk": "需确认具体文件格式和覆盖逻辑，未亲测。"
+        },
+        {
+          "platform": "wechat",
+          "title": "GitHub Copilot 企业治理升级：从集中到分散的架构演进",
+          "angle": "分析该功能对企业 AI 治理体系的影响，探讨如何平衡团队自主与全局合规。",
+          "needs_hands_on": false,
+          "risk": ""
+        }
+      ],
+      "enrichment_mode": "llm"
+    },
+    {
+      "story_id": "story_58483f682cc5",
+      "creator_event_id": "creator-374200f997af7007",
+      "merged_story_ids": [
+        "story_58483f682cc5"
+      ],
+      "title": "CodeQL 2.26.2 添加了 Swift 6.3.3 和 Kotlin 2.4.10 支持 / CodeQL 2.26.2 adds Swift 6.3.3 and Kotlin 2.4.10 support",
+      "url": "https://github.blog/changelog/2026-08-04-codeql-2-26-2-adds-swift-6-3-3-and-kotlin-2-4-10-support",
+      "primary_url": "https://github.blog/changelog/2026-08-04-codeql-2-26-2-adds-swift-6-3-3-and-kotlin-2-4-10-support",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "score": 0.8414,
+      "importance": 0.8414,
+      "importance_score": 0.8414,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.9858,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-04T10:57:39Z",
+      "latest_at": "2026-08-04T10:57:39Z",
       "persona_id": "pragmatic",
       "persona_score": 72,
-      "persona_review": "官方迁移工具上线，换平台省事，但仅限企业版用户。",
-      "creator_score": 90.7,
+      "persona_review": "静态分析跟上新语言版本，用 Swift/Kotlin 的今天就能升级扫描。",
+      "creator_score": 88.3,
       "creator_breakdown": {
         "relevance": 0.88,
-        "freshness": 0.982,
+        "freshness": 1.0,
         "source": 1.0,
-        "impact": 1.0,
+        "impact": 0.81,
         "novelty": 0.75,
-        "heat": 0.4398
+        "heat": 0.4445
       },
       "creator_bucket": "ai_coding",
       "verification_status": "confirmed",
@@ -69,934 +174,48 @@
       ],
       "change_type": "new",
       "primary_item": {
-        "id": "c62b7d6b1f6f5a27d5ebbec0b5ab3f51dde146af",
-        "title": "使用 GitHub Enterprise Importer 将 GitLab 迁移到 GitHub / Migrate from GitLab to GitHub with GitHub Enterprise Importer",
-        "title_zh": "使用 GitHub Enterprise Importer 将 GitLab 迁移到 GitHub",
-        "title_en": "Migrate from GitLab to GitHub with GitHub Enterprise Importer",
-        "title_original": "Migrate from GitLab to GitHub with GitHub Enterprise Importer",
-        "summary": "Migrations from gitlab.com and GitLab Self-Managed to GitHub Enterprise Cloud with GitHub Enterprise Importer (GEI) are now generally available. You can now self-serve these migrations using GEI and the gh…\nMigrations from gitlab.com and GitLab Self-Managed to GitHub Enterprise Cloud with GitHub Enterprise Importer (GEI) are now generally available. You can now self-serve these migrations using GEI and the gh gl2gh command-line extension.\nWith this release, you can now:\nThis capability supports ",
-        "recommend_reason_zh": "GitHub Enterprise Importer (GEI) 现正式支持从gitlab.com和GitLab Self-Managed自服务迁移到GitHub Enterprise Cloud，可用gh gl2gh命令行扩展操作，但暂不支持GitHub Enterprise Server。",
-        "url": "https://github.blog/changelog/2026-08-03-migrate-from-gitlab-to-github-with-github-enterprise-importer",
+        "id": "eb05eaad8451f7f2ea6aaf954435290c8eb0140e",
+        "title": "CodeQL 2.26.2 添加了 Swift 6.3.3 和 Kotlin 2.4.10 支持 / CodeQL 2.26.2 adds Swift 6.3.3 and Kotlin 2.4.10 support",
+        "title_zh": "CodeQL 2.26.2 添加了 Swift 6.3.3 和 Kotlin 2.4.10 支持",
+        "title_en": "CodeQL 2.26.2 adds Swift 6.3.3 and Kotlin 2.4.10 support",
+        "title_original": "CodeQL 2.26.2 adds Swift 6.3.3 and Kotlin 2.4.10 support",
+        "summary": "CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We’ve recently released CodeQL 2.26.2, which adds support for Swift 6.3.3…\nCodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We’ve recently released CodeQL 2.26.2, which adds support for Swift 6.3.3 and Kotlin 2.4.10, and improves the accuracy of path injection, URL redirection, and GitHub Actions queri",
+        "recommend_reason_zh": "CodeQL 2.26.2新增Swift 6.3.3与Kotlin 2.4.10支持，并提升path injection、URL redirection及GitHub Actions查询精度，值得安全开发者关注。",
+        "url": "https://github.blog/changelog/2026-08-04-codeql-2-26-2-adds-swift-6-3-3-and-kotlin-2-4-10-support",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
       },
       "sources": [
         {
-          "story_id": "story_cef962707d08",
-          "title": "使用 GitHub Enterprise Importer 将 GitLab 迁移到 GitHub / Migrate from GitLab to GitHub with GitHub Enterprise Importer",
-          "url": "https://github.blog/changelog/2026-08-03-migrate-from-gitlab-to-github-with-github-enterprise-importer",
+          "story_id": "story_58483f682cc5",
+          "title": "CodeQL 2.26.2 添加了 Swift 6.3.3 和 Kotlin 2.4.10 支持 / CodeQL 2.26.2 adds Swift 6.3.3 and Kotlin 2.4.10 support",
+          "url": "https://github.blog/changelog/2026-08-04-codeql-2-26-2-adds-swift-6-3-3-and-kotlin-2-4-10-support",
           "source": "GitHub Changelog",
           "site_id": "",
           "official": true
         }
       ],
-      "summary_zh": "GitHub Enterprise Importer（GEI）现已正式支持从 gitlab.com 和 GitLab Self-Managed 自服务迁移到 GitHub Ente",
-      "why_it_matters": "为 GitLab 用户迁移到 GitHub 提供官方自服务路径，降低迁移门槛，影响团队工具选型与迁移成本。",
+      "summary_zh": "GitHub 发布 CodeQL 2.26.2，新增对 Swift 6.3.3 和 Kotlin 2.4.10 的支持，并提升路径注入、URL 重定向及 GitHub Action",
+      "why_it_matters": "CodeQL 是 GitHub 代码扫描的核心引擎，新版本扩展了语言覆盖并提升关键漏洞检测精度，直接影响使用 GitHub 安全功能的开发者",
       "angles": [
         {
           "platform": "x",
-          "title": "GitLab 迁移 GitHub 终于有官方自服务了，但有个坑",
-          "angle": "实测 gh gl2gh 迁移流程，对比之前手动迁移的痛点，强调 GA 后的便利与限制（不支持 GHES）。",
+          "title": "CodeQL 2.26.2 实测：Swift 6.3.3 和 Kotlin 2.4.10 支持上手体验",
+          "angle": "作为开发者，我第一时间升级了 CodeQL 并测试了 Swift 和 Kotlin 项目，分享配置步骤和查询效果。",
           "needs_hands_on": true,
-          "risk": "未亲测迁移过程，具体支持范围（如仓库、PR、issue）需查官方文档。"
+          "risk": "未亲测新版本，具体配置细节和查询精度提升需实际验证。"
         },
         {
           "platform": "xiaohongshu",
-          "title": "GitLab 迁移 GitHub 保姆级教程：用 GEI 官方工具",
-          "angle": "分步骤介绍如何使用 gh gl2gh 扩展进行迁移，包括前置条件、命令示例和注意事项，帮助开发者避坑。",
+          "title": "CodeQL 2.26.2 升级指南：三步搞定 Swift 和 Kotlin 支持",
+          "angle": "手把手教你升级 CodeQL 并配置新语言支持，附避坑提示和查询示例。",
           "needs_hands_on": true,
-          "risk": "未亲测，具体命令和步骤需以官方文档为准。"
+          "risk": "未亲测，升级步骤和兼容性问题需实际验证。"
         },
         {
           "platform": "wechat",
-          "title": "GitHub 正式支持 GitLab 迁移：企业迁移的新选择",
-          "angle": "分析 GEI 支持 GitLab 迁移的背景、对 DevOps 工具链格局的影响，以及企业迁移时的考量（如数据完整性、团队适应）。",
-          "needs_hands_on": false,
-          "risk": "需确认迁移支持的具体数据范围，避免夸大。"
-        }
-      ],
-      "enrichment_mode": "llm"
-    },
-    {
-      "story_id": "story_118bdd180f30",
-      "creator_event_id": "creator-d1b26820ca890f67",
-      "merged_story_ids": [
-        "story_118bdd180f30"
-      ],
-      "title": "使用Moonshot PerceptionBench，结合稳健数据加载与自动评判，评估多模态视觉模型。 / Evaluating Multimodal Vision Models with Moonshot PerceptionBench Using Robust Data Loading and Automated Judging",
-      "url": "https://www.marktechpost.com/2026/08/03/evaluating-multimodal-vision-models-with-moonshot-perceptionbench-using-robust-data-loading-and-automated-judging",
-      "primary_url": "https://www.marktechpost.com/2026/08/03/evaluating-multimodal-vision-models-with-moonshot-perceptionbench-using-robust-data-loading-and-automated-judging",
-      "source": "MarkTechPost Research",
-      "source_name": "Curated Media",
-      "source_count": 1,
-      "source_names": [
-        "MarkTechPost Research"
-      ],
-      "score": 0.6058,
-      "importance": 0.6058,
-      "importance_score": 0.6058,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5184,
-        "source_tier": 0.58,
-        "ai_relevance": 0.72,
-        "recency": 0.9928,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-03T22:26:32Z",
-      "latest_at": "2026-08-03T22:26:32Z",
-      "creator_score": 84.5,
-      "creator_breakdown": {
-        "relevance": 0.88,
-        "freshness": 1.0,
-        "source": 0.78,
-        "impact": 0.81,
-        "novelty": 0.85,
-        "heat": 0.362
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "kimi",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "entity:kimi",
-        "ai_coding_terms",
-        "workflow_impact"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "0b0ed5cdf2ef9b751fcba8f3b2ae615cb1ac69a9",
-        "title": "使用Moonshot PerceptionBench，结合稳健数据加载与自动评判，评估多模态视觉模型。 / Evaluating Multimodal Vision Models with Moonshot PerceptionBench Using Robust Data Loading and Automated Judging",
-        "title_zh": "使用Moonshot PerceptionBench，结合稳健数据加载与自动评判，评估多模态视觉模型。",
-        "title_en": "Evaluating Multimodal Vision Models with Moonshot PerceptionBench Using Robust Data Loading and Automated Judging",
-        "title_original": "Evaluating Multimodal Vision Models with Moonshot PerceptionBench Using Robust Data Loading and Automated Judging",
-        "summary": "Learn how to build a robust evaluation workflow for Moonshot AI's PerceptionBench. This guide covers dataset ingestion, automated judging\nLearn how to build a robust evaluation workflow for Moonshot AI's PerceptionBench. This guide covers dataset ingestion, automated judging\nIn this tutorial, we design an end-to-end evaluation workflow for PerceptionBench . This multimodal benchmark measures fine-grained visual perception capabilities across tasks such as OCR, counting, localization, contextual ",
-        "recommend_reason_zh": "本文展示如何为Moonshot AI的PerceptionBench构建可靠评估流程，涵盖多阶段数据加载、自动评判，覆盖OCR、计数等任务，并支持OpenAI兼容API与本地Hugging Face模型。",
-        "url": "https://www.marktechpost.com/2026/08/03/evaluating-multimodal-vision-models-with-moonshot-perceptionbench-using-robust-data-loading-and-automated-judging",
-        "source": "MarkTechPost Research",
-        "source_name": "Curated Media"
-      },
-      "sources": [
-        {
-          "story_id": "story_118bdd180f30",
-          "title": "使用Moonshot PerceptionBench，结合稳健数据加载与自动评判，评估多模态视觉模型。 / Evaluating Multimodal Vision Models with Moonshot PerceptionBench Using Robust Data Loading and Automated Judging",
-          "url": "https://www.marktechpost.com/2026/08/03/evaluating-multimodal-vision-models-with-moonshot-perceptionbench-using-robust-data-loading-and-automated-judging",
-          "source": "MarkTechPost Research",
-          "site_id": "",
-          "official": false
-        }
-      ],
-      "summary_zh": "MarkTechPost 发布教程，介绍如何为 Moonshot AI 的 PerceptionBench 构建端到端评估流程，涵盖多阶段数据加载、自动评判，支持 OCR、计数、定",
-      "why_it_matters": "为开发者提供了可复现的多模态模型评估方案，降低基准测试门槛，有助于在工具选型时对比模型性能。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "我用 PerceptionBench 实测了多模态模型，结果出乎意料",
-          "angle": "分享使用 PerceptionBench 评估模型的亲身经历，突出数据加载和自动评判的便捷性，以及发现的问题。",
-          "needs_hands_on": true,
-          "risk": "未亲测，具体评估结果和模型表现未知。"
-        },
-        {
-          "platform": "xiaohongshu",
-          "title": "多模态模型评估避坑指南：PerceptionBench 使用教程",
-          "angle": "以教程形式介绍 PerceptionBench 的搭建步骤，包括数据加载、自动评判，并提醒常见坑点。",
-          "needs_hands_on": true,
-          "risk": "未亲测，步骤细节可能不完整。"
-        },
-        {
-          "platform": "wechat",
-          "title": "从 PerceptionBench 看多模态评估的演进与挑战",
-          "angle": "分析 PerceptionBench 对多模态模型评估的意义，探讨自动评判的可靠性及对开发工作流的影响。",
-          "needs_hands_on": false,
-          "risk": "单来源信息，需进一步核实。"
-        }
-      ],
-      "enrichment_mode": "llm"
-    },
-    {
-      "story_id": "story_2b5ea1c69451",
-      "creator_event_id": "creator-ba24567d00d8f5a3",
-      "merged_story_ids": [
-        "story_2b5ea1c69451"
-      ],
-      "title": "老金实测：提示词删82%之后，MiniMax退步，GPT-5.6没省Token",
-      "url": "https://waytoagi.feishu.cn/wiki/KeIvwylkLi4zLNkhRw1cN4gAnLh?from=from_copylink",
-      "primary_url": "https://waytoagi.feishu.cn/wiki/KeIvwylkLi4zLNkhRw1cN4gAnLh?from=from_copylink",
-      "source": "社区更新 · 2026-08-03",
-      "source_name": "WaytoAGI",
-      "source_count": 1,
-      "source_names": [
-        "社区更新 · 2026-08-03"
-      ],
-      "score": 0.5692,
-      "importance": 0.5692,
-      "importance_score": 0.5692,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.54,
-        "ai_relevance": 0.65,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-03T22:56:27.651093Z",
-      "latest_at": "2026-08-03T22:56:27.651093Z",
-      "creator_score": 84.3,
-      "creator_breakdown": {
-        "relevance": 1.0,
-        "freshness": 1.0,
-        "source": 0.5,
-        "impact": 0.94,
-        "novelty": 0.85,
-        "heat": 0.3492
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "claude-code",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "entity:claude-code",
-        "workflow_impact"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "5957b8a263ab82194d933acfa83b0f4f93c6b927",
-        "title": "老金实测：提示词删82%之后，MiniMax退步，GPT-5.6没省Token",
-        "title_zh": "老金实测：提示词删82%之后，MiniMax退步，GPT-5.6没省Token",
-        "title_original": "老金实测：提示词删82%之后，MiniMax退步，GPT-5.6没省Token",
-        "summary": "很多人看到“Anthropic把Claude Code的系统提示词删掉80% ”，第一反应就是：那我也赶紧把规则砍短，省 Token、省成本。但提示词变短不等于真实成本下降，能不能删，要看模型会不会主动补资料、补边界，还得拿真实任务测试。老金拿他的开源项目 Meta_Kim 做了48 次 A/B 测试，覆盖简单的单文件修改、模糊产品任务、跨文件高风险任务，并加入公开测试、隐藏测试和盲评。来看看他的测试效果！",
-        "url": "https://waytoagi.feishu.cn/wiki/KeIvwylkLi4zLNkhRw1cN4gAnLh?from=from_copylink",
-        "source": "社区更新 · 2026-08-03",
-        "source_name": "WaytoAGI"
-      },
-      "sources": [
-        {
-          "story_id": "story_2b5ea1c69451",
-          "title": "老金实测：提示词删82%之后，MiniMax退步，GPT-5.6没省Token",
-          "url": "https://waytoagi.feishu.cn/wiki/KeIvwylkLi4zLNkhRw1cN4gAnLh?from=from_copylink",
-          "source": "社区更新 · 2026-08-03",
-          "site_id": "",
-          "official": false
-        }
-      ],
-      "summary_zh": "老金针对Anthropic将Claude Code系统提示词删减80%的做法，用开源项目Meta_Kim进行48次A/B测试，覆盖简单修改、模糊任务和跨文件高风险任务。结果显示，删",
-      "why_it_matters": "提示词精简需谨慎，模型行为差异显著，直接影响开发效率和成本，开发者应基于实测而非盲目跟风。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "删了82%提示词，我的Claude Code反而变笨了？48次A/B测试实录",
-          "angle": "分享个人实测经历，对比删减前后模型在简单和复杂任务上的表现差异，强调不能盲目精简提示词。",
-          "needs_hands_on": true,
-          "risk": "测试基于特定项目和模型版本，结果可能不通用，需注明未覆盖所有场景。"
-        },
-        {
-          "platform": "xiaohongshu",
-          "title": "提示词精简避坑指南：删了82%后，我的模型退步了！",
-          "angle": "以步骤化方式展示如何测试提示词精简效果，包括任务设计、A/B测试方法和结果对比，提供避坑建议。",
-          "needs_hands_on": true,
-          "risk": "测试样本有限，需说明不同模型和任务类型下结果可能不同。"
-        },
-        {
-          "platform": "wechat",
-          "title": "提示词精简的真相：Anthropic删80%系统提示词，我们该学吗？",
-          "angle": "从Anthropic的改动出发，分析提示词精简背后的原理和风险，结合老金实测数据，探讨对开发者工作流的影响。",
-          "needs_hands_on": false,
-          "risk": "需核实Anthropic官方公告和测试数据的准确性。"
-        }
-      ],
-      "enrichment_mode": "llm"
-    },
-    {
-      "story_id": "story_c0ad6abbded1",
-      "creator_event_id": "creator-a7d4634166d80c17",
-      "merged_story_ids": [
-        "story_c0ad6abbded1"
-      ],
-      "title": "上下文工程：理解 AGENTS.md、SKILL.md 与 CLAUDE.md",
-      "url": "https://waytoagi.feishu.cn/wiki/B51QwMHGdiVGgik0Ja5cmH8Hnag?from=from_copylink",
-      "primary_url": "https://waytoagi.feishu.cn/wiki/B51QwMHGdiVGgik0Ja5cmH8Hnag?from=from_copylink",
-      "source": "社区更新 · 2026-08-03",
-      "source_name": "WaytoAGI",
-      "source_count": 1,
-      "source_names": [
-        "社区更新 · 2026-08-03"
-      ],
-      "score": 0.5692,
-      "importance": 0.5692,
-      "importance_score": 0.5692,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.54,
-        "ai_relevance": 0.65,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-03T22:56:27.651093Z",
-      "latest_at": "2026-08-03T22:56:27.651093Z",
-      "creator_score": 82.4,
-      "creator_breakdown": {
-        "relevance": 1.0,
-        "freshness": 1.0,
-        "source": 0.5,
-        "impact": 0.81,
-        "novelty": 0.85,
-        "heat": 0.3492
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "cursor",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "entity:cursor",
-        "workflow_impact"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "b7cb66765f3cf00f41e4e3b28c26796d0c9a3780",
-        "title": "上下文工程：理解 AGENTS.md、SKILL.md 与 CLAUDE.md",
-        "title_zh": "上下文工程：理解 AGENTS.md、SKILL.md 与 CLAUDE.md",
-        "title_original": "上下文工程：理解 AGENTS.md、SKILL.md 与 CLAUDE.md",
-        "summary": "如果你用 Codex、Claude、Cursor 做项目，应该见过根目录里都会有一堆Markdown：CLAUDE.md、AGENTS.md、SKILL.md。每个文件其实都在解决一个真实问题，理解它们之间的差异，能避免你用不同方式重复维护同一份上下文。",
-        "url": "https://waytoagi.feishu.cn/wiki/B51QwMHGdiVGgik0Ja5cmH8Hnag?from=from_copylink",
-        "source": "社区更新 · 2026-08-03",
-        "source_name": "WaytoAGI"
-      },
-      "sources": [
-        {
-          "story_id": "story_c0ad6abbded1",
-          "title": "上下文工程：理解 AGENTS.md、SKILL.md 与 CLAUDE.md",
-          "url": "https://waytoagi.feishu.cn/wiki/B51QwMHGdiVGgik0Ja5cmH8Hnag?from=from_copylink",
-          "source": "社区更新 · 2026-08-03",
-          "site_id": "",
-          "official": false
-        }
-      ],
-      "summary_zh": "WaytoAGI 发布文章，解析 Codex、Claude、Cursor 项目中 AGENTS.md、SKILL.md、CLAUDE.md 的差异与用途，指出理解这些文件可避免重复",
-      "why_it_matters": "帮助开发者正确配置项目上下文，减少重复维护，提升 AI 编码工具的准确性和效率。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "AGENTS.md 与 CLAUDE.md 到底有啥区别？我实测了三种配置",
-          "angle": "以第一人称分享实测体验，对比不同配置对 AI 编码的影响，突出差异和踩坑。",
-          "needs_hands_on": true,
-          "risk": "未亲测所有工具，需验证具体行为差异。"
-        },
-        {
-          "platform": "xiaohongshu",
-          "title": "AI 编码必看：AGENTS.md、SKILL.md、CLAUDE.md 配置避坑指南",
-          "angle": "以教程形式，分步骤讲解每个文件的作用和配置方法，分享避免重复维护的实用技巧。",
-          "needs_hands_on": true,
-          "risk": "需确认各工具对文件的支持程度。"
-        },
-        {
-          "platform": "wechat",
-          "title": "上下文工程：从 AGENTS.md 到 SKILL.md，AI 编码的底层逻辑",
-          "angle": "从背景和体系角度，分析上下文工程对 AI 编码工作流的影响，探讨未来趋势。",
-          "needs_hands_on": false,
-          "risk": "需核实文章中的具体案例和细节。"
-        }
-      ],
-      "enrichment_mode": "llm"
-    },
-    {
-      "story_id": "story_07666b42c045",
-      "creator_event_id": "creator-210b6332a5788ed7",
-      "merged_story_ids": [
-        "story_07666b42c045"
-      ],
-      "title": "分享2个让Codex和Claude跨机器共用记忆技巧",
-      "url": "https://waytoagi.feishu.cn/wiki/VuhfwMkwzi1nsukosOcceSupn9d?from=from_copylink",
-      "primary_url": "https://waytoagi.feishu.cn/wiki/VuhfwMkwzi1nsukosOcceSupn9d?from=from_copylink",
-      "source": "社区更新 · 2026-08-03",
-      "source_name": "WaytoAGI",
-      "source_count": 1,
-      "source_names": [
-        "社区更新 · 2026-08-03"
-      ],
-      "score": 0.5692,
-      "importance": 0.5692,
-      "importance_score": 0.5692,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.54,
-        "ai_relevance": 0.65,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-03T22:56:27.651093Z",
-      "latest_at": "2026-08-03T22:56:27.651093Z",
-      "creator_score": 82.4,
-      "creator_breakdown": {
-        "relevance": 1.0,
-        "freshness": 1.0,
-        "source": 0.5,
-        "impact": 0.81,
-        "novelty": 0.85,
-        "heat": 0.3492
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "claude-code",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "entity:claude-code",
-        "workflow_impact"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "df55f20d4204097efa94e1f2ae9576c18982b6a6",
-        "title": "分享2个让Codex和Claude跨机器共用记忆技巧",
-        "title_zh": "分享2个让Codex和Claude跨机器共用记忆技巧",
-        "title_original": "分享2个让Codex和Claude跨机器共用记忆技巧",
-        "summary": "如果你同时用Codex、Claude Code，又经常在MacBook、Mac mini之间切项目，最烦的或许就是每次都要重新解释背景：这个项目是什么、之前为什么这么设计、哪些坑已经踩过。全塞进AGENTS.md又容易把上下文撑爆。卡尔给了一个更轻的记忆方案：每台机器用claude-mem本地捕获会话里的关键记忆，再只把架构决策、稳定偏好、重要发现和已验证的Bug修复同步到 Mem0。这样Codex和Claude都能按项目检索共享记忆。",
-        "url": "https://waytoagi.feishu.cn/wiki/VuhfwMkwzi1nsukosOcceSupn9d?from=from_copylink",
-        "source": "社区更新 · 2026-08-03",
-        "source_name": "WaytoAGI"
-      },
-      "sources": [
-        {
-          "story_id": "story_07666b42c045",
-          "title": "分享2个让Codex和Claude跨机器共用记忆技巧",
-          "url": "https://waytoagi.feishu.cn/wiki/VuhfwMkwzi1nsukosOcceSupn9d?from=from_copylink",
-          "source": "社区更新 · 2026-08-03",
-          "site_id": "",
-          "official": false
-        }
-      ],
-      "summary_zh": "社区分享跨机器共享Codex和Claude Code记忆的技巧：用claude-mem本地捕获会话关键记忆，仅将架构决策、稳定偏好、重要发现和已验证Bug修复同步至Mem0，避免A",
-      "why_it_matters": "解决多设备开发时重复解释项目背景的痛点，通过轻量记忆同步提升AI Coding工具跨机器协作效率，减少上下文开销。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "实测：用claude-mem+Mem0让Codex和Claude跨机器共享记忆",
-          "angle": "分享个人实测配置步骤，对比全塞AGENTS.md的痛点，展示同步后切换设备无需重复解释的体验。",
-          "needs_hands_on": true,
-          "risk": "未亲测，需验证claude-mem与Mem0的集成细节及实际效果。"
-        },
-        {
-          "platform": "xiaohongshu",
-          "title": "AI编程跨设备记忆同步教程：Codex和Claude Code共用记忆",
-          "angle": "以教程形式分步讲解如何配置claude-mem和Mem0，强调只同步关键记忆避免上下文爆炸，附避坑提示。",
-          "needs_hands_on": true,
-          "risk": "未亲测，需确认工具版本兼容性和配置步骤准确性。"
-        },
-        {
-          "platform": "wechat",
-          "title": "AI Coding记忆管理新思路：从AGENTS.md到分层记忆同步",
-          "angle": "从工程角度分析记忆分层（本地捕获+云端同步）对多设备开发工作流的影响，探讨对上下文窗口和协作效率的长期价值。",
-          "needs_hands_on": false,
-          "risk": "需核实claude-mem和Mem0的官方文档及社区反馈。"
-        }
-      ],
-      "enrichment_mode": "llm"
-    },
-    {
-      "story_id": "story_0116c410b28a",
-      "creator_event_id": "creator-ddfc9be38b6a6cca",
-      "merged_story_ids": [
-        "story_0116c410b28a"
-      ],
-      "title": "Google Agent Skills 幕后：如何构建、测试与规模化 / Behind the scenes： How we build， test， and scale Google Agent Skills",
-      "url": "https://dev.to/googleai/behind-the-scenes-how-we-build-test-and-scale-google-agent-skills-1am5",
-      "primary_url": "https://dev.to/googleai/behind-the-scenes-how-we-build-test-and-scale-google-agent-skills-1am5",
-      "source": "Google AI：DEV 作者专属（RSS）",
-      "source_name": "AI HOT",
-      "source_count": 1,
-      "source_names": [
-        "Google AI：DEV 作者专属（RSS）"
-      ],
-      "score": 0.7201,
-      "importance": 0.7201,
-      "importance_score": 0.7201,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.63,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.886,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-08-03T14:33:20Z",
-      "latest_at": "2026-08-03T14:33:20Z",
-      "persona_id": "pragmatic",
-      "persona_score": 62,
-      "persona_review": "Google 自家 Agent 技能工程实践，有参考价值但非直接可抄，等开源或文档。",
-      "creator_score": 80.3,
-      "creator_breakdown": {
-        "relevance": 0.9,
-        "freshness": 0.9321,
-        "source": 0.5,
-        "impact": 0.94,
-        "novelty": 0.85,
-        "heat": 0.402
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "mcp",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "entity:mcp",
-        "ai_coding_terms",
-        "workflow_impact"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "91f220893f2400bc27c184837617352ac1befa1d",
-        "title": "Google Agent Skills 幕后：如何构建、测试与规模化 / Behind the scenes： How we build， test， and scale Google Agent Skills",
-        "title_zh": "Google Agent Skills 幕后：如何构建、测试与规模化",
-        "title_en": "Behind the scenes： How we build， test， and scale Google Agent Skills",
-        "title_original": "Behind the scenes： How we build， test， and scale Google Agent Skills",
-        "summary": "Google Agent Skills 团队详解其开源技能库的构建与治理流程：项目始于 Google Cloud Next 2026 前的\"swarm\"冲刺，发布后 GitHub 星标超 15，000。为保证规模化下的质量，每个技能须通过标准化目录结构、CI/CD 流水线（含 linter、链接检查、AI 辅助清单）及提交时与每周的持续评估，并优先引用远程 MCP 工具。",
-        "url": "https://dev.to/googleai/behind-the-scenes-how-we-build-test-and-scale-google-agent-skills-1am5",
-        "source": "Google AI：DEV 作者专属（RSS）",
-        "source_name": "AI HOT"
-      },
-      "sources": [
-        {
-          "story_id": "story_0116c410b28a",
-          "title": "Google Agent Skills 幕后：如何构建、测试与规模化 / Behind the scenes： How we build， test， and scale Google Agent Skills",
-          "url": "https://dev.to/googleai/behind-the-scenes-how-we-build-test-and-scale-google-agent-skills-1am5",
-          "source": "Google AI：DEV 作者专属（RSS）",
-          "site_id": "",
-          "official": false
-        }
-      ],
-      "summary_zh": "Google Agent Skills 团队公开其开源技能库的构建与治理流程：项目始于 Cloud Next 2026 前的冲刺，发布后 GitHub 星标超 15,000。为保证",
-      "why_it_matters": "为 AI Coding 开发者提供了构建、测试和规模化 MCP 技能的可参考工程实践，影响技能库的质量控制与协作流程。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "Google Agent Skills 的 CI/CD 流水线：AI 辅助清单如何保证技能质量？",
-          "angle": "作为开发者，我拆解了 Google 的技能治理流程，重点分析其 CI/CD 中的 linter 和 AI 辅助清单，对比常见开源项目，分享可复用的质量保障思路。",
-          "needs_hands_on": true,
-          "risk": "未亲测 Google 的 CI/CD 流水线，细节基于官方文章，需核实具体工具和流程。"
-        },
-        {
-          "platform": "xiaohongshu",
-          "title": "手把手教你构建高质量 Agent Skills：Google 的标准化目录与评估流程",
-          "angle": "以第一人称分享如何参考 Google 的方法，为自己的技能库建立标准化目录和持续评估，附上步骤和避坑指南。",
-          "needs_hands_on": true,
-          "risk": "未实际运行 Google 的评估流程，步骤为转述，需验证可操作性。"
-        },
-        {
-          "platform": "wechat",
-          "title": "从 15k 星标看 Agent Skills 规模化：Google 的治理体系与 MCP 优先策略",
-          "angle": "深入分析 Google Agent Skills 的治理体系，探讨其远程 MCP 优先策略对生态的影响，以及开发者如何借鉴其工程实践。",
-          "needs_hands_on": false,
-          "risk": "星标数和项目背景基于单一来源，需交叉验证。"
-        }
-      ],
-      "enrichment_mode": "llm"
-    },
-    {
-      "story_id": "story_69bc7ebc36d0",
-      "creator_event_id": "creator-0eb992cf25e1827c",
-      "merged_story_ids": [
-        "story_69bc7ebc36d0"
-      ],
-      "title": "Cloudflare 推出 @cloudflare/computer 预览版：为智能体提供虚拟文件系统与多执行环境 / Your agent needs a computer， not a container - introducing @cloudflare/computer",
-      "url": "https://blog.cloudflare.com/cloudflare-computer",
-      "primary_url": "https://blog.cloudflare.com/cloudflare-computer",
-      "source": "Cloudflare Blog",
-      "source_name": "AI HOT",
-      "source_count": 1,
-      "source_names": [
-        "Cloudflare Blog"
-      ],
-      "score": 0.7321,
-      "importance": 0.7321,
-      "importance_score": 0.7321,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.68,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8695,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-08-03T13:15:24Z",
-      "latest_at": "2026-08-03T13:15:24Z",
-      "persona_id": "pragmatic",
-      "persona_score": 72,
-      "persona_review": "给Agent配虚拟文件系统和多环境，做云端智能体的可以试预览版。",
-      "creator_score": 78.0,
-      "creator_breakdown": {
-        "relevance": 0.88,
-        "freshness": 0.8996,
-        "source": 0.5,
-        "impact": 0.94,
-        "novelty": 0.75,
-        "heat": 0.4062
-      },
-      "creator_bucket": "ai_coding",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "ai_coding_terms",
-        "workflow_impact"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "9874b290d806248194911e23c5f40476c3a608d3",
-        "title": "Cloudflare 推出 @cloudflare/computer 预览版：为智能体提供虚拟文件系统与多执行环境 / Your agent needs a computer， not a container - introducing @cloudflare/computer",
-        "title_zh": "Cloudflare 推出 @cloudflare/computer 预览版：为智能体提供虚拟文件系统与多执行环境",
-        "title_en": "Your agent needs a computer， not a container - introducing @cloudflare/computer",
-        "title_original": "Your agent needs a computer， not a container - introducing @cloudflare/computer",
-        "summary": "Cloudflare 发布 @cloudflare/computer 早期预览版，这是一个开源智能体运行时，为每个智能体提供虚拟文件系统，并支持在 isolate、容器沙箱或浏览器中执行代码。",
-        "recommend_reason_zh": "Cloudflare发布@cloudflare/computer，在isolates与Linux容器间动态编排，给每个agent一台电脑。文章直指容器难撑数十亿并发agent，并回溯约十年前押注isolates推出Workers。",
-        "url": "https://blog.cloudflare.com/cloudflare-computer",
-        "source": "Cloudflare Blog",
-        "source_name": "AI HOT"
-      },
-      "sources": [
-        {
-          "story_id": "story_69bc7ebc36d0",
-          "title": "Cloudflare 推出 @cloudflare/computer 预览版：为智能体提供虚拟文件系统与多执行环境 / Your agent needs a computer， not a container - introducing @cloudflare/computer",
-          "url": "https://blog.cloudflare.com/cloudflare-computer",
-          "source": "Cloudflare Blog",
-          "site_id": "",
-          "official": false
-        }
-      ],
-      "summary_zh": "Cloudflare 发布 @cloudflare/computer 早期预览版，为每个智能体提供虚拟文件系统，并支持在 isolate、容器沙箱或浏览器中执行代码，旨在解决容器难",
-      "why_it_matters": "该运行时可能改变智能体部署方式，提供更轻量、灵活的执行环境，影响开发者对智能体基础设施的选择和成本考量。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "Cloudflare 给每个 agent 一台电脑：@cloudflare/computer 实测初体验",
-          "angle": "以开发者视角，分享申请预览版并尝试运行简单智能体的过程，对比容器方案，突出其轻量性和虚拟文件系统的便利。",
-          "needs_hands_on": true,
-          "risk": "预览版功能可能不完整，需确认实际可用性和性能表现。"
-        },
-        {
-          "platform": "xiaohongshu",
-          "title": "智能体开发新选择？Cloudflare computer 上手教程与避坑指南",
-          "angle": "以教程形式，介绍如何开始使用 @cloudflare/computer，包括安装、配置虚拟文件系统、选择执行环境等，并分享常见问题。",
-          "needs_hands_on": true,
-          "risk": "需验证文档中的步骤是否准确，以及不同执行环境的兼容性。"
-        },
-        {
-          "platform": "wechat",
-          "title": "从容器到电脑：Cloudflare 如何重新定义智能体运行时",
-          "angle": "分析 Cloudflare 推出 @cloudflare/computer 的背景，对比容器与虚拟文件系统的优劣，探讨其对智能体开发基础设施的长期影响。",
-          "needs_hands_on": false,
-          "risk": "需核实文章中的技术细节和历史背景，避免过度解读。"
-        }
-      ],
-      "enrichment_mode": "llm"
-    },
-    {
-      "story_id": "story_c9252b48ad86",
-      "creator_event_id": "creator-0c644086c98fd676",
-      "merged_story_ids": [
-        "story_c9252b48ad86"
-      ],
-      "title": "Cloudflare 推出 Billable Usage API：为自助账户提供按产品与计费周期的程序化成本可见性 / Introducing the Billable Usage API： programmatic cost visibility for Cloudflare",
-      "url": "https://blog.cloudflare.com/billable-usage-api",
-      "primary_url": "https://blog.cloudflare.com/billable-usage-api",
-      "source": "Cloudflare Blog",
-      "source_name": "AI HOT",
-      "source_count": 1,
-      "source_names": [
-        "Cloudflare Blog"
-      ],
-      "score": 0.7375,
-      "importance": 0.7375,
-      "importance_score": 0.7375,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.7,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8663,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-08-03T13:00:00Z",
-      "latest_at": "2026-08-03T13:00:00Z",
-      "persona_id": "pragmatic",
-      "persona_score": 72,
-      "persona_review": "API 已上线，做多云成本管理的可以直接接，省去手工对账。",
-      "creator_score": 77.9,
-      "creator_breakdown": {
-        "relevance": 0.88,
-        "freshness": 0.8932,
-        "source": 0.5,
-        "impact": 0.94,
-        "novelty": 0.75,
-        "heat": 0.4081
-      },
-      "creator_bucket": "ai_coding",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "ai_coding_terms",
-        "workflow_impact"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "7d132557b16f97c759ccf326479eb425d7cec46e",
-        "title": "Cloudflare 推出 Billable Usage API：为自助账户提供按产品与计费周期的程序化成本可见性 / Introducing the Billable Usage API： programmatic cost visibility for Cloudflare",
-        "title_zh": "Cloudflare 推出 Billable Usage API：为自助账户提供按产品与计费周期的程序化成本可见性",
-        "title_en": "Introducing the Billable Usage API： programmatic cost visibility for Cloudflare",
-        "title_original": "Introducing the Billable Usage API： programmatic cost visibility for Cloudflare",
-        "summary": "Cloudflare 发布 Billable Usage API，为自助账户提供单一端点，一次调用即可返回按产品和计费周期拆分的用量与成本，覆盖 Workers、R2、D1、Workers AI、Vectorize、Images 和 Stream。",
-        "recommend_reason_zh": "Cloudflare推出Billable Usage API，一个端点即可获取Workers、R2、D1等所有自服务产品的用量与成本，字段对齐FOCUS规范，方便FinOps工具链直接集成。",
-        "url": "https://blog.cloudflare.com/billable-usage-api",
-        "source": "Cloudflare Blog",
-        "source_name": "AI HOT"
-      },
-      "sources": [
-        {
-          "story_id": "story_c9252b48ad86",
-          "title": "Cloudflare 推出 Billable Usage API：为自助账户提供按产品与计费周期的程序化成本可见性 / Introducing the Billable Usage API： programmatic cost visibility for Cloudflare",
-          "url": "https://blog.cloudflare.com/billable-usage-api",
-          "source": "Cloudflare Blog",
-          "site_id": "",
-          "official": false
-        }
-      ],
-      "summary_zh": "Cloudflare 发布 Billable Usage API，为自助账户提供单一端点，一次调用即可返回按产品和计费周期拆分的用量与成本，覆盖 Workers、R2、D1、Wor",
-      "why_it_matters": "开发者可程序化获取 Cloudflare 各服务成本，便于 FinOps 集成与预算管理，减少人工核算，提升多云成本透明度。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "Cloudflare Billable Usage API 实测：一个端点拉全所有服务账单",
-          "angle": "分享调用 API 的体验，展示返回数据结构，对比之前手动查账单的繁琐，强调对独立开发者的便利。",
-          "needs_hands_on": true,
-          "risk": "尚未亲测，需确认 API 是否对所有自助账户开放，以及响应延迟和字段完整性。"
-        },
-        {
-          "platform": "xiaohongshu",
-          "title": "Cloudflare 新 API 帮你省钱：3 步搞定成本监控",
-          "angle": "以教程形式，教用户如何注册、调用 API 并设置成本告警，突出步骤和避坑点（如认证方式、计费周期差异）。",
-          "needs_hands_on": true,
-          "risk": "需验证 API 文档中的认证流程和示例代码是否准确。"
-        },
-        {
-          "platform": "wechat",
-          "title": "Cloudflare Billable Usage API 发布：FinOps 工具链的新机遇",
-          "angle": "从 FinOps 趋势切入，分析该 API 对多云成本管理的影响，以及如何与现有工具集成，展望未来成本可见性标准化。",
-          "needs_hands_on": false,
-          "risk": "需确认 FOCUS 规范的具体对齐程度，避免过度解读。"
-        }
-      ],
-      "enrichment_mode": "llm"
-    },
-    {
-      "story_id": "story_36a4f5aea0e0",
-      "creator_event_id": "creator-844472424f145b2b",
-      "merged_story_ids": [
-        "story_36a4f5aea0e0"
-      ],
-      "title": "如何保障生产环境中 AI Agents、MCP Servers 和 LLM 应用的安全 / How to Secure AI Agents, MCP Servers, and LLM Apps in Production",
-      "url": "https://www.marktechpost.com/2026/08/03/how-to-secure-ai-agents-mcp-servers-and-llm-apps-in-production",
-      "primary_url": "https://www.marktechpost.com/2026/08/03/how-to-secure-ai-agents-mcp-servers-and-llm-apps-in-production",
-      "source": "MarkTechPost Research",
-      "source_name": "Curated Media",
-      "source_count": 1,
-      "source_names": [
-        "MarkTechPost Research"
-      ],
-      "score": 0.6087,
-      "importance": 0.6087,
-      "importance_score": 0.6087,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5328,
-        "source_tier": 0.58,
-        "ai_relevance": 0.74,
-        "recency": 0.9623,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-03T20:16:56Z",
-      "latest_at": "2026-08-03T20:16:56Z",
-      "creator_score": 77.4,
-      "creator_breakdown": {
-        "relevance": 0.9,
-        "freshness": 1.0,
-        "source": 0.78,
-        "impact": 0.43,
-        "novelty": 0.65,
-        "heat": 0.363
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "mcp",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "entity:mcp",
-        "ai_coding_terms"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "1e6f3950026ff02c945672fdc280ffed17499c00",
-        "title": "如何保障生产环境中 AI Agents、MCP Servers 和 LLM 应用的安全 / How to Secure AI Agents, MCP Servers, and LLM Apps in Production",
-        "title_zh": "如何保障生产环境中 AI Agents、MCP Servers 和 LLM 应用的安全",
-        "title_en": "How to Secure AI Agents, MCP Servers, and LLM Apps in Production",
-        "title_original": "How to Secure AI Agents, MCP Servers, and LLM Apps in Production",
-        "summary": "Learn how to secure AI agents, MCP servers, and LLM apps with checklists, triage rules, and runtime guardrails.\nLearn how to secure AI agents, MCP servers, and LLM apps with checklists, triage rules, and runtime guardrails.\nAgents, MCP integrations, and LLM-powered applications are entering codebases faster than most security programs can track them. Mend.io’s new practitioner guide , ‘ Securing AI agents, MCP servers & LLM apps: A practical framework ’ , targets that gap. It is organized around",
-        "recommend_reason_zh": "针对AI agents与MCP servers，这篇指南提出三条动作线和七个可复用工件，涵盖5种发现方法、9字段AI-BOM扩展及12点错误配置检查清单，并给出运行时护栏与自动化规则。",
-        "url": "https://www.marktechpost.com/2026/08/03/how-to-secure-ai-agents-mcp-servers-and-llm-apps-in-production",
-        "source": "MarkTechPost Research",
-        "source_name": "Curated Media"
-      },
-      "sources": [
-        {
-          "story_id": "story_36a4f5aea0e0",
-          "title": "如何保障生产环境中 AI Agents、MCP Servers 和 LLM 应用的安全 / How to Secure AI Agents, MCP Servers, and LLM Apps in Production",
-          "url": "https://www.marktechpost.com/2026/08/03/how-to-secure-ai-agents-mcp-servers-and-llm-apps-in-production",
-          "source": "MarkTechPost Research",
-          "site_id": "",
-          "official": false
-        }
-      ],
-      "summary_zh": "Mend.io 发布实践指南，针对生产环境中 AI agents、MCP servers 和 LLM 应用的安全问题，提出三条行动线和七个可复用工件，包括 5 种发现方法、9 字段",
-      "why_it_matters": "为 AI Coding 工具链引入安全基线，帮助开发者识别 MCP 集成风险，避免生产事故，提升工程可靠性。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "MCP 安全指南实测：12 点检查清单能否拦住生产事故？",
-          "angle": "分享我按指南检查自己 MCP 项目的经历，对比清单与实际风险，突出实用性和反差。",
-          "needs_hands_on": true,
-          "risk": "指南具体内容未亲测，需核实清单细节。"
-        },
-        {
-          "platform": "xiaohongshu",
-          "title": "AI Agent 安全避坑指南：MCP 服务器配置检查清单",
-          "angle": "以步骤形式展示如何用指南中的清单检查 MCP 配置，附结果和避坑提示。",
-          "needs_hands_on": true,
-          "risk": "清单具体条目未验证，需对照原文。"
-        },
-        {
-          "platform": "wechat",
-          "title": "AI Coding 安全体系：从 AI-BOM 到运行时护栏的实践框架",
-          "angle": "从背景分析 AI 安全挑战，解读指南框架，探讨对开发流程的长期影响。",
-          "needs_hands_on": false,
-          "risk": "指南为单一来源，需关注后续验证。"
-        }
-      ],
-      "enrichment_mode": "llm"
-    },
-    {
-      "story_id": "story_f8f3a56ad08e",
-      "creator_event_id": "creator-813cc2bdba7e0cb6",
-      "merged_story_ids": [
-        "story_f8f3a56ad08e"
-      ],
-      "title": "OpenRouter 推出 Ori Eval 简化评估流程 / Introducing Ori Eval： the easiest way to write your first eval. There's no definitive best model， o…",
-      "url": "https://x.com/OpenRouter/status/2084301100078027143",
-      "primary_url": "https://x.com/OpenRouter/status/2084301100078027143",
-      "source": "X：OpenRouter (@OpenRouter)",
-      "source_name": "AI HOT",
-      "source_count": 1,
-      "source_names": [
-        "X：OpenRouter (@OpenRouter)"
-      ],
-      "score": 0.7373,
-      "importance": 0.7373,
-      "importance_score": 0.7373,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.68,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8984,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-08-03T15:31:21Z",
-      "latest_at": "2026-08-03T15:31:21Z",
-      "persona_id": "pragmatic",
-      "persona_score": 72,
-      "persona_review": "评估流程简化，写 eval 的门槛降低，做模型选型的可以试试。",
-      "creator_score": 77.2,
-      "creator_breakdown": {
-        "relevance": 0.88,
-        "freshness": 0.9563,
-        "source": 0.5,
-        "impact": 0.81,
-        "novelty": 0.75,
-        "heat": 0.4081
-      },
-      "creator_bucket": "ai_coding",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "ai_coding_terms",
-        "workflow_impact"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "b0a095b9b4972093744465a0ca6abb6b9afe4310",
-        "title": "OpenRouter 推出 Ori Eval 简化评估流程 / Introducing Ori Eval： the easiest way to write your first eval. There's no definitive best model， o…",
-        "title_zh": "OpenRouter 推出 Ori Eval 简化评估流程",
-        "title_en": "Introducing Ori Eval： the easiest way to write your first eval. There's no definitive best model， o…",
-        "title_original": "Introducing Ori Eval： the easiest way to write your first eval. There's no definitive best model， o…",
-        "summary": "推出 Ori Eval：编写首个评估的最简单方式。\n\n没有绝对最好的模型，只有最适合每项任务的模型。Ori Eval 利用 OpenRouter 的 API 处理代码库中的每项任务，然后评估结果。\n\ncurl -fsSL https://openrouter.ai/skills/spawn-ori-eval",
-        "recommend_reason_zh": "没有绝对最佳模型，只有最适合任务的模型。Ori Eval 调用 OpenRouter 的 API，为代码库中每个任务选模型并评估结果，让写第一个 eval 变得最轻松。",
-        "url": "https://x.com/OpenRouter/status/2084301100078027143",
-        "source": "X：OpenRouter (@OpenRouter)",
-        "source_name": "AI HOT"
-      },
-      "sources": [
-        {
-          "story_id": "story_f8f3a56ad08e",
-          "title": "OpenRouter 推出 Ori Eval 简化评估流程 / Introducing Ori Eval： the easiest way to write your first eval. There's no definitive best model， o…",
-          "url": "https://x.com/OpenRouter/status/2084301100078027143",
-          "source": "X：OpenRouter (@OpenRouter)",
-          "site_id": "",
-          "official": false
-        }
-      ],
-      "summary_zh": "OpenRouter 推出 Ori Eval，旨在简化评估流程。它利用 OpenRouter API 处理代码库中的任务并评估结果，帮助开发者选择最适合特定任务的模型。",
-      "why_it_matters": "简化评估流程，帮助开发者快速选择最适合任务的模型，提升 AI Coding 工作流效率，降低模型选型成本。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "实测 Ori Eval：一行命令搞定模型评估",
-          "angle": "分享使用 Ori Eval 的实测体验，对比传统评估流程的繁琐，突出其简洁性和实用性。",
-          "needs_hands_on": true,
-          "risk": "未亲测，需验证实际效果和兼容性。"
-        },
-        {
-          "platform": "xiaohongshu",
-          "title": "AI 模型评估避坑指南：Ori Eval 使用教程",
-          "angle": "以教程形式介绍 Ori Eval 的安装和使用步骤，分享常见问题和避坑经验，帮助新手快速上手。",
-          "needs_hands_on": true,
-          "risk": "未亲测，需验证步骤准确性和潜在问题。"
-        },
-        {
-          "platform": "wechat",
-          "title": "模型评估新范式：Ori Eval 如何影响 AI 开发工作流",
-          "angle": "从行业角度分析 Ori Eval 对 AI 开发流程的影响，探讨其背后的理念和长期意义。",
+          "title": "CodeQL 2.26.2 发布：语言支持扩展与查询精度提升的深层影响",
+          "angle": "从 GitHub 安全生态角度分析新版本对开发工作流和漏洞治理的长期影响。",
           "needs_hands_on": false,
           "risk": ""
         }
@@ -1004,540 +223,836 @@
       "enrichment_mode": "llm"
     },
     {
-      "story_id": "story_ec39b7c10929",
-      "creator_event_id": "creator-90fcf1648034b46c",
+      "story_id": "story_abdbff9c6fe2",
+      "creator_event_id": "creator-fe931b3f7045286c",
       "merged_story_ids": [
-        "story_ec39b7c10929"
+        "story_abdbff9c6fe2"
       ],
-      "title": "Ask HN：我让 Codex 和 GPT 5.6 Sol 跑了 12 天，生成了 87 万+ 行代码。现在该怎么办？ / Ask HN: I had Codex and GPT 5.6 Sol running for 12 days, 870k+ LOC. Now what?",
-      "url": "https://news.ycombinator.com/item?id=49160339",
-      "primary_url": "https://news.ycombinator.com/item?id=49160339",
-      "source": "HN Algolia · AI 24h",
-      "source_name": "Hacker News",
+      "title": "为 Copilot 云端 Agent 自定义推理级别 / Customize the reasoning level for Copilot cloud agent",
+      "url": "https://github.blog/changelog/2026-08-03-customize-the-reasoning-level-for-copilot-cloud-agent",
+      "primary_url": "https://github.blog/changelog/2026-08-03-customize-the-reasoning-level-for-copilot-cloud-agent",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
       "source_count": 1,
       "source_names": [
-        "HN Algolia · AI 24h"
+        "GitHub Changelog"
       ],
-      "score": 0.5121,
-      "importance": 0.5121,
-      "importance_score": 0.5121,
-      "importance_label": "值得关注",
+      "score": 0.8283,
+      "importance": 0.8283,
+      "importance_score": 0.8283,
+      "importance_label": "官方更新",
       "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9517,
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.94,
+        "recency": 0.835,
         "story_heat": 0.0
       },
-      "category": "watch",
+      "category": "official",
       "reasons": [
-        "recent_ai_signal"
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
       ],
-      "earliest_at": "2026-08-03T19:30:47Z",
-      "latest_at": "2026-08-03T19:30:47Z",
-      "creator_score": 76.2,
+      "earliest_at": "2026-08-03T23:27:35Z",
+      "latest_at": "2026-08-03T23:27:35Z",
+      "persona_id": "pragmatic",
+      "persona_score": 72,
+      "persona_review": "Copilot云端Agent可调推理级别，定制任务深度，今天就能试。",
+      "creator_score": 87.9,
       "creator_breakdown": {
-        "relevance": 1.0,
-        "freshness": 1.0,
-        "source": 0.58,
-        "impact": 0.43,
-        "novelty": 0.65,
-        "heat": 0.3292
+        "relevance": 0.95,
+        "freshness": 0.8255,
+        "source": 1.0,
+        "impact": 0.81,
+        "novelty": 0.85,
+        "heat": 0.4399
       },
       "creator_bucket": "ai_coding",
-      "primary_entity": "codex",
-      "verification_status": "rumor",
+      "primary_entity": "github-copilot",
+      "verification_status": "confirmed",
       "creator_reasons": [
-        "entity:codex",
-        "ai_coding_terms"
+        "entity:github-copilot",
+        "workflow_impact",
+        "official_or_tier0_source"
       ],
       "change_type": "new",
       "primary_item": {
-        "id": "e703d6bab744e7301916548e3ddf6ec43a8ee42c",
-        "title": "Ask HN：我让 Codex 和 GPT 5.6 Sol 跑了 12 天，生成了 87 万+ 行代码。现在该怎么办？ / Ask HN: I had Codex and GPT 5.6 Sol running for 12 days, 870k+ LOC. Now what?",
-        "title_zh": "Ask HN：我让 Codex 和 GPT 5.6 Sol 跑了 12 天，生成了 87 万+ 行代码。现在该怎么办？",
-        "title_en": "Ask HN: I had Codex and GPT 5.6 Sol running for 12 days, 870k+ LOC. Now what?",
-        "title_original": "Ask HN: I had Codex and GPT 5.6 Sol running for 12 days, 870k+ LOC. Now what?",
-        "url": "https://news.ycombinator.com/item?id=49160339",
-        "source": "HN Algolia · AI 24h",
-        "source_name": "Hacker News"
+        "id": "5803cb933451034d5a8a624cb85ce4959768cd46",
+        "title": "为 Copilot 云端 Agent 自定义推理级别 / Customize the reasoning level for Copilot cloud agent",
+        "title_zh": "为 Copilot 云端 Agent 自定义推理级别",
+        "title_en": "Customize the reasoning level for Copilot cloud agent",
+        "title_original": "Customize the reasoning level for Copilot cloud agent",
+        "summary": "When you delegate a task to GitHub Copilot cloud agent, you can now set the reasoning level for models that support it. This allows you to control how much the…\nWhen you delegate a task to GitHub Copilot cloud agent, you can now set the reasoning level for models that support it.\nThis allows you to control how much the model reasons before it responds. A higher level can improve answers to complex problems, but it consumes more tokens, and therefore more credits.\nPick a reasoning level alongside",
+        "recommend_reason_zh": "GitHub Copilot cloud agent新增可调推理级别，在复杂任务中升级推理会消耗更多token与额度，支持Pro、Pro+、Business、Enterprise和Max等付费版。",
+        "url": "https://github.blog/changelog/2026-08-03-customize-the-reasoning-level-for-copilot-cloud-agent",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
       },
       "sources": [
         {
-          "story_id": "story_ec39b7c10929",
-          "title": "Ask HN：我让 Codex 和 GPT 5.6 Sol 跑了 12 天，生成了 87 万+ 行代码。现在该怎么办？ / Ask HN: I had Codex and GPT 5.6 Sol running for 12 days, 870k+ LOC. Now what?",
-          "url": "https://news.ycombinator.com/item?id=49160339",
-          "source": "HN Algolia · AI 24h",
+          "story_id": "story_abdbff9c6fe2",
+          "title": "为 Copilot 云端 Agent 自定义推理级别 / Customize the reasoning level for Copilot cloud agent",
+          "url": "https://github.blog/changelog/2026-08-03-customize-the-reasoning-level-for-copilot-cloud-agent",
+          "source": "GitHub Changelog",
           "site_id": "",
-          "official": false
+          "official": true
         }
       ],
-      "summary_zh": "一位开发者让 Codex 和 GPT 5.6 Sol 连续运行 12 天，生成超过 87 万行代码，现在面临代码库管理难题，在 HN 上求助。",
-      "why_it_matters": "AI 生成代码规模激增，带来代码审查、维护和架构一致性的新挑战，开发者需重新评估工作流和工具链。",
+      "summary_zh": "GitHub Copilot 云端 Agent 新增可调推理级别，用户可为支持该功能的模型设置推理强度，高推理级别可改善复杂问题回答，但消耗更多 token 和额度。",
+      "why_it_matters": "开发者可权衡推理深度与成本，优化复杂任务的 token 消耗，影响 Copilot 云端 Agent 的使用策略和成本控制。",
       "angles": [
         {
           "platform": "x",
-          "title": "12 天生成 87 万行代码，我后悔了",
-          "angle": "分享自己让 AI 长时间生成代码的亲身经历，包括遇到的失控问题和最终处理方式。",
+          "title": "Copilot 云端 Agent 推理级别实测：高推理真的更聪明吗？",
+          "angle": "我对比了低/高推理级别在复杂代码重构任务上的表现，token 消耗差异明显，但结果提升有限。",
           "needs_hands_on": true,
-          "risk": "未亲测，具体数字和细节来自 HN 帖子，需核实。"
+          "risk": "未亲测，具体模型支持范围和效果需验证。"
         },
         {
           "platform": "xiaohongshu",
-          "title": "AI 生成 87 万行代码后，我如何收拾残局？",
-          "angle": "以第一人称讲述代码审查、重构和架构调整的步骤，提供避坑指南。",
+          "title": "Copilot 云端 Agent 推理级别设置教程：省 token 还是提效果？",
+          "angle": "手把手教你设置推理级别，分享不同场景下的推荐配置，避免浪费额度。",
           "needs_hands_on": true,
-          "risk": "未亲测，具体操作细节需基于实际经验补充。"
+          "risk": "未亲测，具体界面和选项可能因版本而异。"
         },
         {
           "platform": "wechat",
-          "title": "AI 编码的失控：当代码量超过人类理解能力",
-          "angle": "从工程管理角度分析 AI 生成代码的规模失控问题，探讨长期影响和应对策略。",
+          "title": "从推理级别看 AI Coding 的成本控制：Copilot 云端 Agent 的新选项",
+          "angle": "分析推理级别对开发工作流和成本的影响，探讨如何平衡质量与 token 消耗。",
           "needs_hands_on": false,
-          "risk": "需确认 GPT 5.6 Sol 是否真实存在，避免传播谣言。"
+          "risk": ""
         }
       ],
       "enrichment_mode": "llm"
     },
     {
-      "story_id": "story_e8174d5ed243",
-      "creator_event_id": "creator-b1fb56577b4c5ffc",
+      "story_id": "story_9b0ed7369e1d",
+      "creator_event_id": "creator-fadf6a1f2d1ff72d",
       "merged_story_ids": [
-        "story_e8174d5ed243"
+        "story_9b0ed7369e1d"
       ],
-      "title": "阿里巴巴的新Qwen模型也在抢你的饭碗，但这次很棒 / Alibaba's new Qwen model is also taking your job, but this time it's great",
-      "url": "https://the-decoder.com/alibabas-new-qwen-model-is-also-taking-your-job-but-this-time-its-great",
-      "primary_url": "https://the-decoder.com/alibabas-new-qwen-model-is-also-taking-your-job-but-this-time-its-great",
-      "source": "The Decoder AI News",
+      "title": "v2.1.221",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.221",
+      "primary_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.221",
+      "source": "Claude Code Releases",
       "source_name": "Curated Media",
       "source_count": 1,
       "source_names": [
-        "The Decoder AI News"
+        "Claude Code Releases"
       ],
-      "score": 0.6095,
-      "importance": 0.6095,
-      "importance_score": 0.6095,
+      "score": 0.6082,
+      "importance": 0.6082,
+      "importance_score": 0.6082,
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.5472,
+        "editorial": 0.5688,
         "source_tier": 0.58,
-        "ai_relevance": 0.76,
-        "recency": 0.9205,
+        "ai_relevance": 0.79,
+        "recency": 0.8444,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-08-03T17:12:23Z",
-      "latest_at": "2026-08-03T17:12:23Z",
-      "creator_score": 75.7,
+      "earliest_at": "2026-08-04T00:14:23Z",
+      "latest_at": "2026-08-04T00:14:23Z",
+      "creator_score": 81.7,
       "creator_breakdown": {
-        "relevance": 0.68,
-        "freshness": 0.9983,
-        "source": 0.78,
-        "impact": 0.63,
-        "novelty": 0.85,
-        "heat": 0.3633
+        "relevance": 1.0,
+        "freshness": 0.845,
+        "source": 1.0,
+        "impact": 0.43,
+        "novelty": 0.65,
+        "heat": 0.3629
       },
-      "creator_bucket": "general_ai",
+      "creator_bucket": "ai_coding",
+      "primary_entity": "claude-code",
+      "verification_status": "confirmed",
+      "creator_reasons": [
+        "entity:claude-code",
+        "official_or_tier0_source"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "7913a82cebf5480790c3741410a9962f5f52b584",
+        "title": "v2.1.221",
+        "title_original": "v2.1.221",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.221",
+        "source": "Claude Code Releases",
+        "source_name": "Curated Media"
+      },
+      "sources": [
+        {
+          "story_id": "story_9b0ed7369e1d",
+          "title": "v2.1.221",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.221",
+          "source": "Claude Code Releases",
+          "site_id": "",
+          "official": true
+        }
+      ],
+      "summary_zh": "Anthropic 发布 Claude Code v2.1.221，具体更新内容未在标题中说明，需查看发布说明。",
+      "why_it_matters": "Claude Code 更新可能影响开发者日常编码工作流，需关注新功能或修复。",
+      "angles": [],
+      "enrichment_mode": "llm"
+    },
+    {
+      "story_id": "story_91421b2b6e08",
+      "creator_event_id": "creator-36e3dc6031bc19b9",
+      "merged_story_ids": [
+        "story_91421b2b6e08",
+        "story_5c511a0625e6",
+        "story_0bc3e73abef4"
+      ],
+      "title": "腾讯混元发布 Hy ASR 3.0 preview：真正懂上下文的语音识别",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkwODU2OTQyNQ%3D%3D&mid=2247498223&idx=1&sn=ae271ec2c72723393d3e1d8074a33205",
+      "primary_url": "https://mp.weixin.qq.com/s?__biz=MzkwODU2OTQyNQ%3D%3D&mid=2247498223&idx=1&sn=ae271ec2c72723393d3e1d8074a33205",
+      "source": "公众号：腾讯混元",
+      "source_name": "AI HOT",
+      "source_count": 3,
+      "source_names": [
+        "公众号：腾讯混元",
+        "AIbase"
+      ],
+      "score": 0.7371,
+      "importance": 0.7371,
+      "importance_score": 0.7371,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.65,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9474,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-08-04T08:12:36Z",
+      "latest_at": "2026-08-04T08:12:36Z",
+      "persona_id": "pragmatic",
+      "persona_score": 55,
+      "persona_review": "语音识别带上下文是方向，但 preview 没开放，先观望。",
+      "creator_score": 80.9,
+      "creator_breakdown": {
+        "relevance": 0.88,
+        "freshness": 1.0,
+        "source": 0.5,
+        "impact": 1.0,
+        "novelty": 0.75,
+        "heat": 0.408
+      },
+      "creator_bucket": "ai_coding",
+      "verification_status": "confirmed",
+      "creator_reasons": [
+        "ai_coding_terms",
+        "workflow_impact"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "51868ebba24a0c391770271a0455d8d630015049",
+        "title": "腾讯混元发布 Hy ASR 3.0 preview：真正懂上下文的语音识别",
+        "title_zh": "腾讯混元发布 Hy ASR 3.0 preview：真正懂上下文的语音识别",
+        "title_original": "腾讯混元发布 Hy ASR 3.0 preview：真正懂上下文的语音识别",
+        "summary": "腾讯混元发布新一代语音识别模型 Hy ASR 3.0 preview，基于大语言模型 Hy3 与 MoE 架构，融合高精度识别与语义理解。其在开源评测集中中文普通话 WER 3.34%、英语 WER 2.62%、粤语 WER 3.12%，并支持上下文纠错、热词注入及高噪耳语等场景。该模型已上线腾讯云 API，元宝 App 首发并免费开放。",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzkwODU2OTQyNQ%3D%3D&mid=2247498223&idx=1&sn=ae271ec2c72723393d3e1d8074a33205",
+        "source": "公众号：腾讯混元",
+        "source_name": "AI HOT"
+      },
+      "sources": [
+        {
+          "story_id": "story_91421b2b6e08",
+          "title": "腾讯混元发布 Hy ASR 3.0 preview：真正懂上下文的语音识别",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzkwODU2OTQyNQ%3D%3D&mid=2247498223&idx=1&sn=ae271ec2c72723393d3e1d8074a33205",
+          "source": "公众号：腾讯混元",
+          "site_id": "",
+          "official": false
+        },
+        {
+          "story_id": "story_5c511a0625e6",
+          "title": "腾讯混元发布 Hy ASR 3.0 preview：语音识别不再逐字硬转，而是真的听懂了语境",
+          "url": "https://www.aibase.com/news/30110",
+          "source": "AIbase",
+          "site_id": "",
+          "official": false
+        },
+        {
+          "story_id": "story_0bc3e73abef4",
+          "title": "腾讯混元发布Hy ASR3.0preview:语音识别迈入“懂语境”新阶段",
+          "url": "https://www.aibase.com/news/30108",
+          "source": "AIbase",
+          "site_id": "",
+          "official": false
+        }
+      ],
+      "summary_zh": "腾讯混元发布 Hy ASR 3.0 preview，基于 Hy3 与 MoE 架构，支持上下文纠错、热词注入，中文普通话 WER 3.34%，已上线腾讯云 API，元宝 App 免",
+      "why_it_matters": "语音识别进入语义理解阶段，可减少开发者对后处理纠错的依赖，提升语音交互与转录工作流效率，但需实测其上下文纠错在真实场景的稳定性。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "实测腾讯 Hy ASR 3.0：上下文纠错真的能听懂人话吗？",
+          "angle": "作为开发者，我第一时间调用了腾讯云 API，测试了它在嘈杂环境和专业术语下的表现，对比了旧版 ASR 的 WER 差异。",
+          "needs_hands_on": true,
+          "risk": "未亲测，WER 数据来自官方，需验证实际场景下的上下文纠错效果。"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "语音转文字新选择：腾讯 Hy ASR 3.0 接入教程与避坑指南",
+          "angle": "手把手教你如何在腾讯云开通 Hy ASR 3.0，配置热词和上下文纠错，并分享实测中遇到的坑，比如长音频处理限制。",
+          "needs_hands_on": true,
+          "risk": "API 具体限制和计费细节未确认，需查阅官方文档。"
+        },
+        {
+          "platform": "wechat",
+          "title": "从逐字硬转到懂语境：语音识别技术演进与开发者影响",
+          "angle": "分析 Hy ASR 3.0 背后的 MoE 架构和语义理解趋势，探讨其对语音应用开发、成本模型和产品设计的长远影响。",
+          "needs_hands_on": false,
+          "risk": "架构细节基于官方描述，需进一步核实技术白皮书。"
+        }
+      ],
+      "enrichment_mode": "llm"
+    },
+    {
+      "story_id": "story_abfab06c6199",
+      "creator_event_id": "creator-975063ba93562563",
+      "merged_story_ids": [
+        "story_abfab06c6199"
+      ],
+      "title": "AI 写代码烧掉 1215 万元，超预算 860%：亚马逊内部事故敲响企业 AI 成本警钟",
+      "url": "https://www.aibase.com/news/30109",
+      "primary_url": "https://www.aibase.com/news/30109",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-04T11:57:01.515676Z",
+      "latest_at": "2026-08-04T11:57:01.515676Z",
+      "persona_id": "pragmatic",
+      "persona_score": 62,
+      "persona_review": "成本失控案例值得记一笔，但没给省钱方案，先当反面教材存着。",
+      "creator_score": 79.1,
+      "creator_breakdown": {
+        "relevance": 0.88,
+        "freshness": 1.0,
+        "source": 0.5,
+        "impact": 0.81,
+        "novelty": 0.85,
+        "heat": 0.4187
+      },
+      "creator_bucket": "ai_coding",
       "primary_entity": "anthropic",
       "verification_status": "single_source",
       "creator_reasons": [
         "entity:anthropic",
+        "ai_coding_terms",
         "workflow_impact"
       ],
       "change_type": "new",
       "primary_item": {
-        "id": "8a36947fe28efbe5ca79be660bf6730403303756",
-        "title": "阿里巴巴的新Qwen模型也在抢你的饭碗，但这次很棒 / Alibaba's new Qwen model is also taking your job, but this time it's great",
-        "title_zh": "阿里巴巴的新Qwen模型也在抢你的饭碗，但这次很棒",
-        "title_en": "Alibaba's new Qwen model is also taking your job, but this time it's great",
-        "title_original": "Alibaba's new Qwen model is also taking your job, but this time it's great",
-        "summary": "Alibaba is marketing its new AI model Qwen 3.8 with a video that shows the AI working while a person enjoys their hobbies. It's a deliberate contrast to the job loss warnings from OpenAI and Anthropic. Of course, it's still just marketing.\nAlibaba is marketing its new AI model Qwen 3.8 with a video that shows the AI working while a person enjoys their hobbies. It's a deliberate contrast to the job loss warnings from OpenAI and Anthropic. Of course, it's still just marketing.\nAlibaba is taking a ",
-        "recommend_reason_zh": "Alibaba为Qwen 3.8发布营销视频，展示AI工作、人类享受爱好，与OpenAI和Anthropic的失业警告形成鲜明对比，但文章指出这同样简化了AI对劳动力市场的影响。",
-        "url": "https://the-decoder.com/alibabas-new-qwen-model-is-also-taking-your-job-but-this-time-its-great",
-        "source": "The Decoder AI News",
-        "source_name": "Curated Media"
+        "id": "7aae5fe93fdce2bbe8a3d83adece2841ceee83d9",
+        "title": "AI 写代码烧掉 1215 万元，超预算 860%：亚马逊内部事故敲响企业 AI 成本警钟",
+        "title_zh": "AI 写代码烧掉 1215 万元，超预算 860%：亚马逊内部事故敲响企业 AI 成本警钟",
+        "title_original": "AI 写代码烧掉 1215 万元，超预算 860%：亚马逊内部事故敲响企业 AI 成本警钟",
+        "summary": "Recently, U.S. media exposed a major AI cost overrun incident within Amazon. An engineer used Anthropic's Claude Sonnet model to write a program aimed at matchi\nRecently, U.S. media exposed a major AI cost overrun incident within Amazon. An engineer used Anthropic's Claude Sonnet model to write a program aimed at matchi\nRecently, U.S. media exposed a major AI cost overrun incident within Amazon. An engineer used Anthropic's Claude Sonnet model to write a program aimed at matchi\nExplore AI Fronti",
+        "recommend_reason_zh": "亚马逊工程师用Anthropic的Claude Sonnet写匹配程序，账单达180万美元（约1215万元），超预算860%，项目未上线却持续运行5个月，警示AI成本失控风险。",
+        "url": "https://www.aibase.com/news/30109",
+        "source": "AIbase",
+        "source_name": "AIbase"
       },
       "sources": [
         {
-          "story_id": "story_e8174d5ed243",
-          "title": "阿里巴巴的新Qwen模型也在抢你的饭碗，但这次很棒 / Alibaba's new Qwen model is also taking your job, but this time it's great",
-          "url": "https://the-decoder.com/alibabas-new-qwen-model-is-also-taking-your-job-but-this-time-its-great",
-          "source": "The Decoder AI News",
+          "story_id": "story_abfab06c6199",
+          "title": "AI 写代码烧掉 1215 万元，超预算 860%：亚马逊内部事故敲响企业 AI 成本警钟",
+          "url": "https://www.aibase.com/news/30109",
+          "source": "AIbase",
           "site_id": "",
           "official": false
         }
       ],
-      "summary_zh": "阿里巴巴发布Qwen 3.8营销视频，展示AI工作而人类享受爱好，与OpenAI和Anthropic的失业警告形成对比。文章指出这仍是营销，简化了AI对劳动力市场的影响。",
-      "why_it_matters": "Qwen 3.8的定位影响开发者对AI Coding工具的选择，其营销策略可能掩盖实际能力，需关注其编码性能与工作流集成。",
+      "summary_zh": "美国媒体曝光亚马逊内部AI成本超支事故：工程师用Anthropic的Claude Sonnet编写匹配程序，账单达180万美元（约1215万元），超预算860%，项目未上线却持续运",
+      "why_it_matters": "该事件凸显企业采用AI Coding时缺乏成本监控的隐患，提醒开发者关注模型调用费用与预算管控，避免类似超支。",
       "angles": [
         {
           "platform": "x",
-          "title": "实测Qwen 3.8：营销视频之外的真实编码能力",
-          "angle": "作为开发者，我实测了Qwen 3.8的编码能力，对比营销视频中的理想场景，分享真实体验和性能数据。",
+          "title": "亚马逊AI写代码烧掉180万美元：我的成本监控经验",
+          "angle": "以开发者视角，分享个人在AI Coding中如何设置预算警报和用量限制，避免类似事故。",
           "needs_hands_on": true,
-          "risk": "未亲测，需验证Qwen 3.8的实际编码性能、API可用性及与现有工具链的兼容性。"
+          "risk": "需核实亚马逊事故细节，个人经验部分需基于实际使用。"
         },
         {
           "platform": "xiaohongshu",
-          "title": "Qwen 3.8上手教程：如何用它提升开发效率",
-          "angle": "分享Qwen 3.8的安装配置步骤、常用场景和避坑指南，帮助开发者快速上手并评估是否值得切换。",
+          "title": "AI写代码省钱避坑指南：从亚马逊事故学到的5个教训",
+          "angle": "以实操步骤形式，教用户如何监控AI编程工具的费用，设置预算，避免超支。",
           "needs_hands_on": true,
-          "risk": "未亲测，需确认安装步骤、依赖环境及实际效果。"
+          "risk": "需确认事故数据，避免误导。"
         },
         {
           "platform": "wechat",
-          "title": "从Qwen 3.8看AI Coding工具的市场博弈",
-          "angle": "分析阿里巴巴与OpenAI、Anthropic在AI Coding领域的竞争策略，探讨营销叙事对开发者选择的影响及长期趋势。",
+          "title": "AI Coding成本失控：企业如何建立有效的成本治理机制",
+          "angle": "从企业管理角度，分析AI Coding成本失控的深层原因，提出成本治理框架和最佳实践。",
           "needs_hands_on": false,
-          "risk": "需核实Qwen 3.8的官方发布信息及市场数据，避免基于单一来源过度推断。"
+          "risk": "需基于公开信息，避免过度推测。"
         }
       ],
       "enrichment_mode": "llm"
     },
     {
-      "story_id": "story_63bd4def256d",
-      "creator_event_id": "creator-2de4f55e11cfa5e0",
+      "story_id": "story_9f5aa79a3eb5",
+      "creator_event_id": "creator-a556f0f903b151ce",
       "merged_story_ids": [
-        "story_63bd4def256d"
+        "story_9f5aa79a3eb5"
       ],
-      "title": "Triage 角色可以绕过创建 issue 的限制 / Triage role can bypass issue creation restrictions",
-      "url": "https://github.blog/changelog/2026-08-03-triage-role-can-bypass-issue-creation-restrictions",
-      "primary_url": "https://github.blog/changelog/2026-08-03-triage-role-can-bypass-issue-creation-restrictions",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
+      "title": "8B 参数塞进 4K 生成与编辑，商汤开源轻量统一多模态模型 U1.5-Lite 预览版",
+      "url": "https://www.aibase.com/news/30107",
+      "primary_url": "https://www.aibase.com/news/30107",
+      "source": "AIbase",
+      "source_name": "AIbase",
       "source_count": 1,
       "source_names": [
-        "GitHub Changelog"
+        "AIbase"
       ],
-      "score": 0.8294,
-      "importance": 0.8294,
-      "importance_score": 0.8294,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.9188,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-03T17:04:32Z",
-      "latest_at": "2026-08-03T17:04:32Z",
-      "persona_id": "pragmatic",
-      "persona_score": 72,
-      "persona_review": "权限模型变了，仓库管理员得重新核对 Triage 角色，防越权建 issue。",
-      "creator_score": 73.8,
-      "creator_breakdown": {
-        "relevance": 0.4903,
-        "freshness": 0.9951,
-        "source": 1.0,
-        "impact": 0.63,
-        "novelty": 0.75,
-        "heat": 0.4403
-      },
-      "creator_bucket": "general_ai",
-      "verification_status": "confirmed",
-      "creator_reasons": [
-        "workflow_impact",
-        "official_or_tier0_source"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "ed051aa73fd0c109ac911e7495b81744a719c548",
-        "title": "Triage 角色可以绕过创建 issue 的限制 / Triage role can bypass issue creation restrictions",
-        "title_zh": "Triage 角色可以绕过创建 issue 的限制",
-        "title_en": "Triage role can bypass issue creation restrictions",
-        "title_original": "Triage role can bypass issue creation restrictions",
-        "summary": "If your repository restricts issue creation to collaborators only, users with the triage role can now create issues. Previously, the restricted setting only allowed users with write access to create…\nIf your repository restricts issue creation to collaborators only, users with the triage role can now create issues.\nPreviously, the restricted setting only allowed users with write access to create issues. With this update, trusted contributors with the triage role are also included. This helps tea",
-        "recommend_reason_zh": "GitHub调整issue创建权限：仓库设为仅协作者可创建时，triage role用户现在也能创建，此前仅write access用户可创建，此举让triage贡献者更好参与维护。",
-        "url": "https://github.blog/changelog/2026-08-03-triage-role-can-bypass-issue-creation-restrictions",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      },
-      "sources": [
-        {
-          "story_id": "story_63bd4def256d",
-          "title": "Triage 角色可以绕过创建 issue 的限制 / Triage role can bypass issue creation restrictions",
-          "url": "https://github.blog/changelog/2026-08-03-triage-role-can-bypass-issue-creation-restrictions",
-          "source": "GitHub Changelog",
-          "site_id": "",
-          "official": true
-        }
-      ],
-      "summary_zh": "GitHub 更新：若仓库限制仅协作者可创建 issue，拥有 triage 角色的用户现在也能创建，此前仅 write 权限用户可创建，以支持受信任贡献者参与维护。",
-      "why_it_matters": "影响仓库权限配置与协作流程，triage 角色权限扩大，需重新评估 issue 管理策略，避免垃圾 issue 或权限滥用。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "GitHub 悄悄改了 triage 权限，issue 创建门槛降低了",
-          "angle": "作为维护者，实测发现 triage 角色现在能建 issue，讨论这对开源项目协作的影响。",
-          "needs_hands_on": true,
-          "risk": "未亲测，需验证具体权限边界及是否影响所有仓库设置。"
-        },
-        {
-          "platform": "xiaohongshu",
-          "title": "GitHub 权限新变化：triage 角色也能建 issue 了，避坑指南",
-          "angle": "分享如何调整仓库设置以控制 issue 创建权限，避免垃圾 issue，附步骤和注意事项。",
-          "needs_hands_on": true,
-          "risk": "需确认设置选项及默认行为，未亲测。"
-        },
-        {
-          "platform": "wechat",
-          "title": "GitHub 权限模型演进：triage 角色权限扩大背后的协作逻辑",
-          "angle": "分析 GitHub 角色权限调整对开源协作模式的影响，探讨信任与控制的平衡。",
-          "needs_hands_on": false,
-          "risk": ""
-        }
-      ],
-      "enrichment_mode": "llm"
-    },
-    {
-      "story_id": "story_379f23a6e206",
-      "creator_event_id": "creator-6541e92a8343ece6",
-      "merged_story_ids": [
-        "story_379f23a6e206"
-      ],
-      "title": "中国 MiniMax H3 成为首个登顶 AI 视频生成榜单的开源模型 / China's MiniMax H3 is the first open model to top an AI video ranking",
-      "url": "https://the-decoder.com/chinas-minimax-h3-is-the-first-open-model-to-top-an-ai-video-ranking",
-      "primary_url": "https://the-decoder.com/chinas-minimax-h3-is-the-first-open-model-to-top-an-ai-video-ranking",
-      "source": "The Decoder AI News",
-      "source_name": "Curated Media",
-      "source_count": 1,
-      "source_names": [
-        "The Decoder AI News"
-      ],
-      "score": 0.6017,
-      "importance": 0.6017,
-      "importance_score": 0.6017,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5472,
-        "source_tier": 0.58,
-        "ai_relevance": 0.76,
-        "recency": 0.8773,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-03T13:52:29Z",
-      "latest_at": "2026-08-03T13:52:29Z",
-      "creator_score": 72.2,
-      "creator_breakdown": {
-        "relevance": 0.65,
-        "freshness": 0.9151,
-        "source": 0.78,
-        "impact": 0.63,
-        "novelty": 0.75,
-        "heat": 0.3606
-      },
-      "creator_bucket": "general_ai",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "workflow_impact"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "5db0e3948eb0ca7123f5ffa5676b54f24c769c33",
-        "title": "中国 MiniMax H3 成为首个登顶 AI 视频生成榜单的开源模型 / China's MiniMax H3 is the first open model to top an AI video ranking",
-        "title_zh": "中国 MiniMax H3 成为首个登顶 AI 视频生成榜单的开源模型",
-        "title_en": "China's MiniMax H3 is the first open model to top an AI video ranking",
-        "title_original": "China's MiniMax H3 is the first open model to top an AI video ranking",
-        "url": "https://the-decoder.com/chinas-minimax-h3-is-the-first-open-model-to-top-an-ai-video-ranking",
-        "source": "The Decoder AI News",
-        "source_name": "Curated Media"
-      },
-      "sources": [
-        {
-          "story_id": "story_379f23a6e206",
-          "title": "中国 MiniMax H3 成为首个登顶 AI 视频生成榜单的开源模型 / China's MiniMax H3 is the first open model to top an AI video ranking",
-          "url": "https://the-decoder.com/chinas-minimax-h3-is-the-first-open-model-to-top-an-ai-video-ranking",
-          "source": "The Decoder AI News",
-          "site_id": "",
-          "official": false
-        }
-      ],
-      "summary_zh": "中国 MiniMax 发布 H3 模型，据称成为首个登顶 AI 视频生成榜单的开源模型。该消息源自单一媒体报道，尚未获官方确认。",
-      "why_it_matters": "若属实，开源模型在视频生成领域首次超越闭源，可能影响开发者对工具选型与成本考量，但需谨慎对待单一信源。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "MiniMax H3 登顶视频榜？我实测后的真实表现",
-          "angle": "以开发者身份实测 H3，对比闭源模型，分享真实体验与榜单数据差异。",
-          "needs_hands_on": true,
-          "risk": "模型实际可用性与性能未亲测，榜单数据来源单一。"
-        },
-        {
-          "platform": "xiaohongshu",
-          "title": "开源视频模型新王？MiniMax H3 上手教程与避坑指南",
-          "angle": "分享 H3 的部署步骤、生成效果与常见问题，提供实操经验。",
-          "needs_hands_on": true,
-          "risk": "模型可能未公开或需申请，教程基于假设。"
-        },
-        {
-          "platform": "wechat",
-          "title": "开源模型登顶视频生成榜：MiniMax H3 背后的技术趋势与行业影响",
-          "angle": "分析开源模型在视频生成领域的突破意义，探讨对闭源模型的挑战及开发者生态影响。",
-          "needs_hands_on": false,
-          "risk": "需核实榜单权威性与模型开源真实性。"
-        }
-      ],
-      "enrichment_mode": "llm"
-    },
-    {
-      "story_id": "story_268138d2f7c5",
-      "creator_event_id": "creator-7561c45136b4f1a7",
-      "merged_story_ids": [
-        "story_268138d2f7c5"
-      ],
-      "title": "AirLLM 实现单块 4GB GPU 运行 70B 模型推理",
-      "url": "https://github.com/lyogavin/airllm",
-      "primary_url": "https://github.com/lyogavin/airllm",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_name": "AI HOT",
-      "source_count": 1,
-      "source_names": [
-        "Hacker News 热门（buzzing.cc 中文翻译）"
-      ],
-      "score": 0.8134,
-      "importance": 0.8134,
-      "importance_score": 0.8134,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.76,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.91,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-03T11:15:48Z",
-      "latest_at": "2026-08-03T16:24:45.027000Z",
-      "persona_id": "pragmatic",
-      "persona_score": 88,
-      "persona_review": "4GB 显存跑 70B，开源可 clone，低配机器今天就能试推理。",
-      "creator_score": 71.6,
-      "creator_breakdown": {
-        "relevance": 0.68,
-        "freshness": 0.9785,
-        "source": 0.5,
-        "impact": 0.63,
-        "novelty": 0.85,
-        "heat": 0.7347
-      },
-      "creator_bucket": "general_ai",
-      "primary_entity": "kimi",
-      "verification_status": "confirmed",
-      "creator_reasons": [
-        "entity:kimi",
-        "workflow_impact"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "e0581fc08e4ee08758118ef1c1132d73b95262a5",
-        "title": "AirLLM 实现单块 4GB GPU 运行 70B 模型推理",
-        "title_zh": "AirLLM 实现单块 4GB GPU 运行 70B 模型推理",
-        "title_original": "AirLLM 实现单块 4GB GPU 运行 70B 模型推理",
-        "summary": "AirLLM 项目支持在单块 4GB 显存 GPU 上运行 70B 参数大模型推理，无需多卡或大规模显存配置。该项目已开源，相关讨论在 Hacker News 上获得 103 点热度，引发社区关注。",
-        "recommend_reason_zh": "AirLLM 让 70B 大模型单卡 4GB GPU 即可推理，免量化蒸馏剪枝，实测更把 2.8T 参数的 Kimi K3 压进 3.72GB 显存，405B Llama 3.1 也只需 8GB。",
-        "url": "https://github.com/lyogavin/airllm",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "source_name": "AI HOT"
-      },
-      "sources": [
-        {
-          "story_id": "story_268138d2f7c5",
-          "title": "AirLLM 实现单块 4GB GPU 运行 70B 模型推理",
-          "url": "https://github.com/lyogavin/airllm",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "site_id": "",
-          "official": false
-        }
-      ],
-      "summary_zh": "AirLLM 开源项目支持在单块 4GB 显存 GPU 上运行 70B 参数大模型推理，无需多卡或大规模显存。Hacker News 讨论热度 103 点，社区关注。",
-      "why_it_matters": "降低大模型推理硬件门槛，开发者可用低端 GPU 本地运行大模型，影响工具选择和成本。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "实测 AirLLM：4GB 显卡跑 70B 模型，是噱头还是真香？",
-          "angle": "分享个人实测经历，对比官方宣称与实际效果，突出反差和新鲜感。",
-          "needs_hands_on": true,
-          "risk": "未亲测，需验证推理速度和精度损失。"
-        },
-        {
-          "platform": "xiaohongshu",
-          "title": "AirLLM 教程：4GB 显卡也能跑 70B 大模型，附避坑指南",
-          "angle": "以步骤式教程分享安装配置过程，展示结果截图，提醒显存和速度注意事项。",
-          "needs_hands_on": true,
-          "risk": "未亲测，需确认兼容性和实际显存占用。"
-        },
-        {
-          "platform": "wechat",
-          "title": "AirLLM 背后的技术：如何用 4GB 显存运行 70B 模型？",
-          "angle": "从技术原理角度分析 AirLLM 的实现机制，探讨其对本地 AI 开发的影响和局限。",
-          "needs_hands_on": false,
-          "risk": "需核实技术细节，避免过度解读。"
-        }
-      ],
-      "enrichment_mode": "llm"
-    },
-    {
-      "story_id": "story_a2791f04345f",
-      "creator_event_id": "creator-f77e2cb479870ace",
-      "merged_story_ids": [
-        "story_a2791f04345f"
-      ],
-      "title": "GPT-Live实时音频新架构发布 / GPT-Live is a new architecture and stack for realtime audio：",
-      "url": "https://x.com/gdb/status/2084405421041963356",
-      "primary_url": "https://x.com/gdb/status/2084405421041963356",
-      "source": "X：Greg Brockman (@gdb)",
-      "source_name": "AI HOT",
-      "source_count": 1,
-      "source_names": [
-        "X：Greg Brockman (@gdb)"
-      ],
-      "score": 0.7483,
-      "importance": 0.7483,
-      "importance_score": 0.7483,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.66,
+        "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9927,
+        "recency": 1.0,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance"
+        "high_ai_relevance",
+        "high_importance"
       ],
-      "earliest_at": "2026-08-03T22:25:53Z",
-      "latest_at": "2026-08-03T22:25:53Z",
+      "earliest_at": "2026-08-04T11:57:01.515676Z",
+      "latest_at": "2026-08-04T11:57:01.515676Z",
       "persona_id": "pragmatic",
       "persona_score": 72,
-      "persona_review": "新架构若开放API可试，但仅推文无文档，先观望。",
-      "creator_score": 70.4,
+      "persona_review": "轻量多模态模型可本地跑，4K生成编辑够用，适合快速集成。",
+      "creator_score": 78.1,
+      "creator_breakdown": {
+        "relevance": 0.88,
+        "freshness": 1.0,
+        "source": 0.5,
+        "impact": 0.81,
+        "novelty": 0.75,
+        "heat": 0.4187
+      },
+      "creator_bucket": "ai_coding",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "ai_coding_terms",
+        "workflow_impact"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "cdd855132b5e66d70bfc7ad3e99beb4bf6ecf3a9",
+        "title": "8B 参数塞进 4K 生成与编辑，商汤开源轻量统一多模态模型 U1.5-Lite 预览版",
+        "title_zh": "8B 参数塞进 4K 生成与编辑，商汤开源轻量统一多模态模型 U1.5-Lite 预览版",
+        "title_original": "8B 参数塞进 4K 生成与编辑，商汤开源轻量统一多模态模型 U1.5-Lite 预览版",
+        "summary": "SenseTime has announced the open-source lightweight unified multimodal model SenseNova U1.5-Lite-Preview for communities. This model is not a simple scale upgra\nSenseTime has announced the open-source lightweight unified multimodal model SenseNova U1.5-Lite-Preview for communities. This model is not a simple scale upgra\nSenseTime has announced the open-source lightweight unified multimodal model SenseNova U1.5-Lite-Preview for communities. This model is not a simple scale upgra\nExplore AI Fronti",
+        "recommend_reason_zh": "商汤开源轻量统一多模态模型SenseNova U1.5-Lite-Preview，仅8B参数即实现4K原生图像生成与编辑，并整合视觉理解、推理、生成和编辑四大能力，验证统一架构的可扩展性。",
+        "url": "https://www.aibase.com/news/30107",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      },
+      "sources": [
+        {
+          "story_id": "story_9f5aa79a3eb5",
+          "title": "8B 参数塞进 4K 生成与编辑，商汤开源轻量统一多模态模型 U1.5-Lite 预览版",
+          "url": "https://www.aibase.com/news/30107",
+          "source": "AIbase",
+          "site_id": "",
+          "official": false
+        }
+      ],
+      "summary_zh": "商汤开源轻量统一多模态模型 SenseNova U1.5-Lite-Preview，仅8B参数即支持4K原生图像生成与编辑，整合视觉理解、推理、生成和编辑能力，验证统一架构可扩展性",
+      "why_it_matters": "8B参数实现4K图像生成与编辑，降低多模态模型部署门槛，可能影响开发者对轻量级模型的选择，尤其在资源受限场景下。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "8B模型生成4K图像？商汤U1.5-Lite实测初体验",
+          "angle": "作为开发者，第一时间下载并测试商汤U1.5-Lite，对比其生成质量与速度，分享真实感受。",
+          "needs_hands_on": true,
+          "risk": "模型实际效果未亲测，需验证4K生成能力及与官方宣传的差距。"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "轻量级多模态模型怎么选？商汤U1.5-Lite上手教程",
+          "angle": "以教程形式，展示如何部署和使用U1.5-Lite，包括环境配置、推理步骤和常见问题，帮助新手快速上手。",
+          "needs_hands_on": true,
+          "risk": "部署步骤未亲测，需确认官方文档的准确性和易用性。"
+        },
+        {
+          "platform": "wechat",
+          "title": "统一多模态模型的未来：商汤U1.5-Lite的技术解读",
+          "angle": "从技术架构角度，分析U1.5-Lite如何实现8B参数下的4K生成，探讨统一架构对多模态模型发展的影响。",
+          "needs_hands_on": false,
+          "risk": "技术细节基于官方发布，需进一步核实架构创新点。"
+        }
+      ],
+      "enrichment_mode": "llm"
+    },
+    {
+      "story_id": "story_2ae56ab1cc84",
+      "creator_event_id": "creator-0ae7e60603dee513",
+      "merged_story_ids": [
+        "story_2ae56ab1cc84"
+      ],
+      "title": "Simple but effective use case of Codex for trip planning: Taking screenshots of bookings of restaurants/trains/events and asking Codex to put them on your Google Calendar",
+      "url": "https://x.com/zarazhangrui/status/2084536363668611491",
+      "primary_url": "https://x.com/zarazhangrui/status/2084536363668611491",
+      "source": "Follow Builders · X · Zara Zhang",
+      "source_name": "Follow Builders",
+      "source_count": 1,
+      "source_names": [
+        "Follow Builders · X · Zara Zhang"
+      ],
+      "score": 0.6412,
+      "importance": 0.6412,
+      "importance_score": 0.6412,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5832,
+        "source_tier": 0.62,
+        "ai_relevance": 0.81,
+        "recency": 0.9324,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-08-04T07:06:12Z",
+      "latest_at": "2026-08-04T07:06:12Z",
+      "creator_score": 76.0,
+      "creator_breakdown": {
+        "relevance": 1.0,
+        "freshness": 1.0,
+        "source": 0.56,
+        "impact": 0.43,
+        "novelty": 0.65,
+        "heat": 0.3744
+      },
+      "creator_bucket": "ai_coding",
+      "primary_entity": "codex",
+      "verification_status": "early_signal",
+      "creator_reasons": [
+        "entity:codex"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "04fac2dcf1833b69d09d9adea1d5e7c71c7c85c6",
+        "title": "Simple but effective use case of Codex for trip planning: Taking screenshots of bookings of restaurants/trains/events and asking Codex to put them on your Google Calendar",
+        "title_en": "Simple but effective use case of Codex for trip planning: Taking screenshots of bookings of restaurants/trains/events and asking Codex to put them on your Google Calendar",
+        "title_original": "Simple but effective use case of Codex for trip planning: Taking screenshots of bookings of restaurants/trains/events and asking Codex to put them on your Google Calendar",
+        "url": "https://x.com/zarazhangrui/status/2084536363668611491",
+        "source": "Follow Builders · X · Zara Zhang",
+        "source_name": "Follow Builders"
+      },
+      "sources": [
+        {
+          "story_id": "story_2ae56ab1cc84",
+          "title": "Simple but effective use case of Codex for trip planning: Taking screenshots of bookings of restaurants/trains/events and asking Codex to put them on your Google Calendar",
+          "url": "https://x.com/zarazhangrui/status/2084536363668611491",
+          "source": "Follow Builders · X · Zara Zhang",
+          "site_id": "",
+          "official": false
+        }
+      ],
+      "summary_zh": "开发者 Zara Zhang 分享 Codex 实用案例：将餐厅、火车、活动预订截图交给 Codex，自动整理并添加到 Google Calendar，简化旅行规划流程。",
+      "why_it_matters": "展示 Codex 在真实生活场景中的自动化能力，启发开发者将 AI 编码工具用于非编程任务，拓展工作流自动化边界。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "Codex 新玩法：截图即日历，旅行规划自动化实测",
+          "angle": "亲测将预订截图丢给 Codex，看它如何解析并写入 Google Calendar，分享步骤与效果。",
+          "needs_hands_on": true,
+          "risk": "未亲测，需验证 Codex 对复杂截图（多语言、表格）的解析准确率及日历写入的可靠性。"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "旅行规划神器？用 Codex 把预订截图自动变成日历事件",
+          "angle": "以教程形式展示操作流程：截图、输入指令、检查日历，附上避坑提示（如时区、重复事件）。",
+          "needs_hands_on": true,
+          "risk": "需确认 Codex 是否支持 Google Calendar API 集成，以及免费额度是否足够。"
+        },
+        {
+          "platform": "wechat",
+          "title": "从代码到生活：Codex 如何改变开发者的工作流自动化",
+          "angle": "分析 Codex 从编程助手到通用自动化工具的潜力，探讨其对开发者日常任务管理的影响。",
+          "needs_hands_on": false,
+          "risk": "该案例为单一来源，需关注后续更多用户反馈以验证普遍性。"
+        }
+      ],
+      "enrichment_mode": "llm"
+    },
+    {
+      "story_id": "story_c2d210a01888",
+      "creator_event_id": "creator-8da67f43afdb449b",
+      "merged_story_ids": [
+        "story_c2d210a01888"
+      ],
+      "title": "从零开始，教你用Codex搓出属于你自己的第一个硬件",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647684924&idx=1&sn=f9ecf13ac374f13dfa75f98f685a231d",
+      "primary_url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647684924&idx=1&sn=f9ecf13ac374f13dfa75f98f685a231d",
+      "source": "公众号：数字生命卡兹克",
+      "source_name": "AI HOT",
+      "source_count": 1,
+      "source_names": [
+        "公众号：数字生命卡兹克"
+      ],
+      "score": 0.7123,
+      "importance": 0.7123,
+      "importance_score": 0.7123,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.63,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8427,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-08-04T00:06:00Z",
+      "latest_at": "2026-08-04T00:06:00Z",
+      "creator_score": 75.9,
+      "creator_breakdown": {
+        "relevance": 0.88,
+        "freshness": 0.8415,
+        "source": 0.5,
+        "impact": 0.81,
+        "novelty": 0.85,
+        "heat": 0.3993
+      },
+      "creator_bucket": "ai_coding",
+      "primary_entity": "openai",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "entity:openai",
+        "ai_coding_terms",
+        "workflow_impact"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "0de57b7d014107379b4cd5b1c435cb4df25bf721",
+        "title": "从零开始，教你用Codex搓出属于你自己的第一个硬件",
+        "title_zh": "从零开始，教你用Codex搓出属于你自己的第一个硬件",
+        "title_original": "从零开始，教你用Codex搓出属于你自己的第一个硬件",
+        "summary": "作者以零基础身份，全程通过与Codex对话，从需求讨论、电路搭建、代码烧录到3D打印组装，5天内做出一个能提醒久坐的猫爪硬件。文中还介绍了用Agent调试宏键盘、以及OpenAI与Work Louder联名发布的Codex Micro键盘（13个机械按键，售价230美元）等案例，强调\"干中学\"的AI开发方式。",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647684924&idx=1&sn=f9ecf13ac374f13dfa75f98f685a231d",
+        "source": "公众号：数字生命卡兹克",
+        "source_name": "AI HOT"
+      },
+      "sources": [
+        {
+          "story_id": "story_c2d210a01888",
+          "title": "从零开始，教你用Codex搓出属于你自己的第一个硬件",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647684924&idx=1&sn=f9ecf13ac374f13dfa75f98f685a231d",
+          "source": "公众号：数字生命卡兹克",
+          "site_id": "",
+          "official": false
+        }
+      ],
+      "summary_zh": "作者零基础用Codex对话，5天内完成从需求到3D打印的猫爪提醒硬件，并介绍Agent调试宏键盘及OpenAI与Work Louder联名的Codex Micro键盘（13键，23",
+      "why_it_matters": "展示AI Coding在硬件开发中的潜力，降低硬件入门门槛，可能改变开发者对AI辅助工具的应用范围。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "我用Codex搓了个硬件：零基础5天从0到1",
+          "angle": "第一人称分享用Codex从零做硬件的全过程，强调对话式开发的体验和意外收获。",
+          "needs_hands_on": true,
+          "risk": "未亲测Codex硬件开发流程，需验证其实际能力和限制。"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "Codex硬件开发避坑指南：从需求到3D打印的完整步骤",
+          "angle": "以教程形式分享用Codex做硬件的步骤、工具和常见坑，附上成品图。",
+          "needs_hands_on": true,
+          "risk": "需确认Codex Micro键盘的售价和规格是否准确。"
+        },
+        {
+          "platform": "wechat",
+          "title": "AI Coding进入硬件领域：Codex如何改变硬件开发流程",
+          "angle": "分析AI Coding在硬件开发中的应用前景，对比传统流程，探讨对开发者的长期影响。",
+          "needs_hands_on": false,
+          "risk": "需核实Codex Micro键盘的发布信息及价格。"
+        }
+      ],
+      "enrichment_mode": "llm"
+    },
+    {
+      "story_id": "story_579f66b7beb0",
+      "creator_event_id": "creator-b481a3a56c285fcc",
+      "merged_story_ids": [
+        "story_579f66b7beb0"
+      ],
+      "title": "苹果在这件事上搞错了 / Apple is getting this wrong",
+      "url": "https://openai.com/index/apple-is-getting-this-wrong",
+      "primary_url": "https://openai.com/index/apple-is-getting-this-wrong",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "source_count": 1,
+      "source_names": [
+        "OpenAI News"
+      ],
+      "score": 0.8442,
+      "importance": 0.8442,
+      "importance_score": 0.8442,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.8175,
+        "story_heat": 0.25
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-03T22:00:00Z",
+      "latest_at": "2026-08-04T07:20:54.985000Z",
+      "persona_id": "pragmatic",
+      "persona_score": 20,
+      "persona_review": "口水战不写代码，等有实际产品动作再看。",
+      "creator_score": 73.6,
+      "creator_breakdown": {
+        "relevance": 0.68,
+        "freshness": 1.0,
+        "source": 1.0,
+        "impact": 0.25,
+        "novelty": 0.65,
+        "heat": 0.5955
+      },
+      "creator_bucket": "general_ai",
+      "primary_entity": "openai",
+      "verification_status": "confirmed",
+      "creator_reasons": [
+        "entity:openai",
+        "official_or_tier0_source"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "ce0656b6b37df08856d608cf2a3be369847eee00",
+        "title": "苹果在这件事上搞错了 / Apple is getting this wrong",
+        "title_zh": "苹果在这件事上搞错了",
+        "title_en": "Apple is getting this wrong",
+        "title_original": "Apple is getting this wrong",
+        "summary": "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened.\nOpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened.\nOpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened.\nAugust 3, 2026\nApple is one of the greatest companies of all time, and built a reputation for obsessing over the smalle",
+        "recommend_reason_zh": "OpenAI在回应中称，Apple律师因混淆两个亚裔姓氏，将邮件发错对象，且Apple承认所谓与OpenAI总法律顾问的讨论从未发生；OpenAI并贴出iMessage与邮件证据。",
+        "url": "https://openai.com/index/apple-is-getting-this-wrong",
+        "source": "OpenAI News",
+        "source_name": "Official AI Updates"
+      },
+      "sources": [
+        {
+          "story_id": "story_579f66b7beb0",
+          "title": "苹果在这件事上搞错了 / Apple is getting this wrong",
+          "url": "https://openai.com/index/apple-is-getting-this-wrong",
+          "source": "OpenAI News",
+          "site_id": "",
+          "official": true
+        }
+      ],
+      "summary_zh": "OpenAI回应苹果的诉讼，称其指控无根据，并指出苹果律师因混淆亚裔姓氏而发错邮件，且苹果承认与OpenAI总法律顾问的讨论从未发生。OpenAI公开了iMessage和邮件证据以",
+      "why_it_matters": "此事件影响AI行业信任与法律风险，开发者需关注合作中的沟通与证据留存，避免类似误解。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "苹果律师搞错姓氏？OpenAI晒证据反击",
+          "angle": "作为开发者，我如何看待大厂间的法律纠纷？从技术人视角分析证据链和沟通失误。",
+          "needs_hands_on": false,
+          "risk": "需核实OpenAI公开的证据细节，避免单方面采信。"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "避坑指南：合作中如何避免邮件发错人？",
+          "angle": "分享因姓名混淆导致的法律纠纷案例，教大家如何核对联系人信息，保留沟通记录。",
+          "needs_hands_on": false,
+          "risk": "案例细节需基于公开报道，避免过度演绎。"
+        },
+        {
+          "platform": "wechat",
+          "title": "从苹果诉OpenAI看AI行业法律风险",
+          "angle": "分析AI公司间诉讼背后的行业竞争与法律挑战，探讨对开发者生态的影响。",
+          "needs_hands_on": false,
+          "risk": "需引用多方信源，避免偏颇。"
+        }
+      ],
+      "enrichment_mode": "llm"
+    },
+    {
+      "story_id": "story_fa5b3c518427",
+      "creator_event_id": "creator-0b76cd0b151a2620",
+      "merged_story_ids": [
+        "story_fa5b3c518427"
+      ],
+      "title": "ChatGPT Atlas 浏览器 8 月 9 日停止服务，用户需10天内导出书签",
+      "url": "https://www.aibase.com/news/30091",
+      "primary_url": "https://www.aibase.com/news/30091",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "score": 0.765,
+      "importance": 0.765,
+      "importance_score": 0.765,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9857,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-04T10:57:01.515676Z",
+      "latest_at": "2026-08-04T10:57:01.515676Z",
+      "creator_score": 72.4,
       "creator_breakdown": {
         "relevance": 0.68,
         "freshness": 1.0,
         "source": 0.5,
-        "impact": 0.63,
+        "impact": 0.76,
         "novelty": 0.85,
-        "heat": 0.4119
+        "heat": 0.4177
       },
       "creator_bucket": "general_ai",
       "primary_entity": "openai",
@@ -1548,50 +1063,341 @@
       ],
       "change_type": "new",
       "primary_item": {
-        "id": "2615292954ce75366bdc3a09bb62170ff1889f0e",
-        "title": "GPT-Live实时音频新架构发布 / GPT-Live is a new architecture and stack for realtime audio：",
-        "title_zh": "GPT-Live实时音频新架构发布",
-        "title_en": "GPT-Live is a new architecture and stack for realtime audio：",
-        "title_original": "GPT-Live is a new architecture and stack for realtime audio：",
-        "summary": "GPT-Live 是一种用于实时音频的新架构和栈：\n\nGPT-Live 可以在说话的同时聆听。\n\n为了让这种体验在 ChatGPT 规模下显得自然，我们从客户端到模型重建了语音栈。\n\n这一新架构让音频持续流动，因此更深入的推理和工具使用不会打断对话。",
-        "recommend_reason_zh": "GPT-Live被定义为实时音频的新架构与全栈方案，原文展示了这一技术定位，并引导读者查看进展、加入对话。",
-        "url": "https://x.com/gdb/status/2084405421041963356",
-        "source": "X：Greg Brockman (@gdb)",
-        "source_name": "AI HOT"
+        "id": "16b7c7018289b2a489810c3c1cf7161284d7bc53",
+        "title": "ChatGPT Atlas 浏览器 8 月 9 日停止服务，用户需10天内导出书签",
+        "title_zh": "ChatGPT Atlas 浏览器 8 月 9 日停止服务，用户需10天内导出书签",
+        "title_original": "ChatGPT Atlas 浏览器 8 月 9 日停止服务，用户需10天内导出书签",
+        "summary": "OpenAI has buried its first browser itself. ChatGPT Atlas will officially stop service on August 9, after which it will no longer push feature updates or fix se\nOpenAI has buried its first browser itself. ChatGPT Atlas will officially stop service on August 9, after which it will no longer push feature updates or fix se\nOpenAI has buried its first browser itself. ChatGPT Atlas will officially stop service on August 9, after which it will no longer push feature updates or fix se\nExplore AI Fronti",
+        "recommend_reason_zh": "ChatGPT Atlas 将于8月9日停服，从2025年10月上线仅存活不到十个月；数据不会自动迁移，用户须手动导出HTML书签，且无法导出Cookie，迁移后需重新登录所有网站。",
+        "url": "https://www.aibase.com/news/30091",
+        "source": "AIbase",
+        "source_name": "AIbase"
       },
       "sources": [
         {
-          "story_id": "story_a2791f04345f",
-          "title": "GPT-Live实时音频新架构发布 / GPT-Live is a new architecture and stack for realtime audio：",
-          "url": "https://x.com/gdb/status/2084405421041963356",
-          "source": "X：Greg Brockman (@gdb)",
+          "story_id": "story_fa5b3c518427",
+          "title": "ChatGPT Atlas 浏览器 8 月 9 日停止服务，用户需10天内导出书签",
+          "url": "https://www.aibase.com/news/30091",
+          "source": "AIbase",
           "site_id": "",
           "official": false
         }
       ],
-      "summary_zh": "OpenAI 发布 GPT-Live，一种实时音频新架构与全栈方案，支持边说边听，音频持续流动，深度推理与工具使用不打断对话。",
-      "why_it_matters": "GPT-Live 可能改变语音交互开发范式，影响实时音频处理、工具调用与对话流畅性，开发者需关注其 API 与集成方式。",
+      "summary_zh": "OpenAI 宣布其首款浏览器 ChatGPT Atlas 将于 8 月 9 日停止服务，不再推送功能更新或修复安全漏洞。用户需在 10 天内手动导出 HTML 书签，数据不会自动",
+      "why_it_matters": "Atlas 从上线到停服不足十个月，反映 AI 浏览器赛道风险高。开发者若依赖其工作流，需评估数据迁移成本与替代方案，避免因服务关闭导致书签",
       "angles": [
         {
           "platform": "x",
-          "title": "GPT-Live 实测：边说边听如何改变语音交互体验",
-          "angle": "作为开发者，我第一时间体验了 GPT-Live，测试了它在对话中打断、工具调用时的表现，分享真实感受。",
+          "title": "ChatGPT Atlas 停服：我如何用 10 天迁移我的书签和登录态",
+          "angle": "第一人称记录从收到通知到完成迁移的全过程，包括导出 HTML、导入其他浏览器、重新登录的痛点，以及无法导出 Cookie 带来的麻烦。",
           "needs_hands_on": true,
-          "risk": "尚未亲测，需确认实际可用性与性能表现。"
+          "risk": "未亲测迁移流程，具体步骤和限制需以官方文档为准。"
         },
         {
           "platform": "xiaohongshu",
-          "title": "GPT-Live 新架构解析：实时音频开发避坑指南",
-          "angle": "从架构角度拆解 GPT-Live 的客户端到模型全栈重建，分享集成步骤与常见问题，帮助开发者避免踩坑。",
+          "title": "ChatGPT Atlas 停服倒计时！书签导出避坑指南",
+          "angle": "以教程形式分享如何快速导出书签、迁移到 Chrome 或 Edge，提醒用户注意 Cookie 无法导出、需提前准备密码管理器等。",
           "needs_hands_on": true,
-          "risk": "技术细节未完全公开，需基于官方文档验证。"
+          "risk": "未验证所有浏览器导入兼容性，建议用户测试。"
         },
         {
           "platform": "wechat",
-          "title": "GPT-Live 发布：实时音频技术将如何重塑 AI 语音应用",
-          "angle": "分析 GPT-Live 对语音交互、工具调用和对话流畅性的长期影响，探讨开发者如何调整技术栈。",
+          "title": "AI 浏览器泡沫破裂？ChatGPT Atlas 停服背后的行业信号",
+          "angle": "分析 Atlas 停服原因，对比其他 AI 浏览器（如 Dia、Perplexity）的生存现状，探讨 AI 浏览器赛道的可持续性及对开发者工具选择的影响。",
           "needs_hands_on": false,
-          "risk": "需确认官方后续文档与 API 细节。"
+          "risk": "停服原因未官方披露，分析基于公开信息，需注明推测。"
+        }
+      ],
+      "enrichment_mode": "llm"
+    },
+    {
+      "story_id": "story_f2f1d8aec8cc",
+      "creator_event_id": "creator-5083c70db66ad163",
+      "merged_story_ids": [
+        "story_f2f1d8aec8cc"
+      ],
+      "title": "OpenAI将苹果诉讼拖上舆论法庭 / OpenAI drags Apple’s lawsuit into the court of public opinion",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/974914/openai-blog-response-apple-lawsuit-messages",
+      "primary_url": "https://www.theverge.com/ai-artificial-intelligence/974914/openai-blog-response-apple-lawsuit-messages",
+      "source": "The Verge",
+      "source_name": "Curated Media",
+      "source_count": 1,
+      "source_names": [
+        "The Verge"
+      ],
+      "score": 0.6017,
+      "importance": 0.6017,
+      "importance_score": 0.6017,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5112,
+        "source_tier": 0.58,
+        "ai_relevance": 0.71,
+        "recency": 0.993,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-04T11:27:55Z",
+      "latest_at": "2026-08-04T11:27:55Z",
+      "creator_score": 68.1,
+      "creator_breakdown": {
+        "relevance": 0.68,
+        "freshness": 1.0,
+        "source": 0.78,
+        "impact": 0.25,
+        "novelty": 0.65,
+        "heat": 0.3606
+      },
+      "creator_bucket": "general_ai",
+      "primary_entity": "openai",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "entity:openai"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "52363e220f55a9ceaae3f3fb53b948c8a1a2c84a",
+        "title": "OpenAI将苹果诉讼拖上舆论法庭 / OpenAI drags Apple’s lawsuit into the court of public opinion",
+        "title_zh": "OpenAI将苹果诉讼拖上舆论法庭",
+        "title_en": "OpenAI drags Apple’s lawsuit into the court of public opinion",
+        "title_original": "OpenAI drags Apple’s lawsuit into the court of public opinion",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/974914/openai-blog-response-apple-lawsuit-messages",
+        "source": "The Verge",
+        "source_name": "Curated Media"
+      },
+      "sources": [
+        {
+          "story_id": "story_f2f1d8aec8cc",
+          "title": "OpenAI将苹果诉讼拖上舆论法庭 / OpenAI drags Apple’s lawsuit into the court of public opinion",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/974914/openai-blog-response-apple-lawsuit-messages",
+          "source": "The Verge",
+          "site_id": "",
+          "official": false
+        }
+      ],
+      "summary_zh": "OpenAI 就苹果公司提起的诉讼发布公开回应，将法律纠纷引入舆论场。苹果指控 OpenAI 存在不当行为，OpenAI 则通过博客文章反驳并争取公众支持。目前案件仍在审理中，双方",
+      "why_it_matters": "该诉讼可能影响 OpenAI 与苹果的合作关系，进而波及开发者依赖的 API 服务、模型分发渠道及生态整合，开发者需关注潜在的服务变动风险。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "OpenAI 硬刚苹果：开发者该站哪边？",
+          "angle": "从开发者视角分析诉讼对 API 服务稳定性的潜在影响，分享个人对两家公司生态依赖的观察。",
+          "needs_hands_on": false,
+          "risk": "诉讼细节未完全公开，需核实双方具体指控。"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "苹果告 OpenAI？开发者避坑指南",
+          "angle": "以开发者身份梳理诉讼可能带来的服务变动风险，提供应对策略和备选方案。",
+          "needs_hands_on": false,
+          "risk": "需确认诉讼是否涉及具体产品功能变更。"
+        },
+        {
+          "platform": "wechat",
+          "title": "从合作到对簿公堂：OpenAI 与苹果的博弈将如何重塑 AI 生态？",
+          "angle": "深入分析诉讼背景、双方商业利益冲突，以及对 AI 开发工具链和平台选择的长期影响。",
+          "needs_hands_on": false,
+          "risk": "需核实诉讼对现有合作项目的实际影响。"
+        }
+      ],
+      "enrichment_mode": "llm"
+    },
+    {
+      "story_id": "story_8f67043397b9",
+      "creator_event_id": "creator-f7aafd063e5b7204",
+      "merged_story_ids": [
+        "story_8f67043397b9"
+      ],
+      "title": "OpenAI 公布聊天记录反击 Apple 商业秘密诉讼：显示 Apple 员工持续给前同事发短信 / OpenAI fires back at Apple's trade secret lawsuit with chat logs showing Apple employees kept texting their former colleague",
+      "url": "https://the-decoder.com/openai-fires-back-at-apples-trade-secret-lawsuit-with-chat-logs-showing-apple-employees-kept-texting-their-former-colleague",
+      "primary_url": "https://the-decoder.com/openai-fires-back-at-apples-trade-secret-lawsuit-with-chat-logs-showing-apple-employees-kept-texting-their-former-colleague",
+      "source": "The Decoder AI News",
+      "source_name": "Curated Media",
+      "source_count": 1,
+      "source_names": [
+        "The Decoder AI News"
+      ],
+      "score": 0.6322,
+      "importance": 0.6322,
+      "importance_score": 0.6322,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5688,
+        "source_tier": 0.58,
+        "ai_relevance": 0.79,
+        "recency": 0.9776,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-04T10:22:53Z",
+      "latest_at": "2026-08-04T10:22:53Z",
+      "creator_score": 68.1,
+      "creator_breakdown": {
+        "relevance": 0.68,
+        "freshness": 1.0,
+        "source": 0.78,
+        "impact": 0.25,
+        "novelty": 0.65,
+        "heat": 0.3713
+      },
+      "creator_bucket": "general_ai",
+      "primary_entity": "openai",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "entity:openai"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "17265f7415aa78febaf72479347f6c38b84ad427",
+        "title": "OpenAI 公布聊天记录反击 Apple 商业秘密诉讼：显示 Apple 员工持续给前同事发短信 / OpenAI fires back at Apple's trade secret lawsuit with chat logs showing Apple employees kept texting their former colleague",
+        "title_zh": "OpenAI 公布聊天记录反击 Apple 商业秘密诉讼：显示 Apple 员工持续给前同事发短信",
+        "title_en": "OpenAI fires back at Apple's trade secret lawsuit with chat logs showing Apple employees kept texting their former colleague",
+        "title_original": "OpenAI fires back at Apple's trade secret lawsuit with chat logs showing Apple employees kept texting their former colleague",
+        "url": "https://the-decoder.com/openai-fires-back-at-apples-trade-secret-lawsuit-with-chat-logs-showing-apple-employees-kept-texting-their-former-colleague",
+        "source": "The Decoder AI News",
+        "source_name": "Curated Media"
+      },
+      "sources": [
+        {
+          "story_id": "story_8f67043397b9",
+          "title": "OpenAI 公布聊天记录反击 Apple 商业秘密诉讼：显示 Apple 员工持续给前同事发短信 / OpenAI fires back at Apple's trade secret lawsuit with chat logs showing Apple employees kept texting their former colleague",
+          "url": "https://the-decoder.com/openai-fires-back-at-apples-trade-secret-lawsuit-with-chat-logs-showing-apple-employees-kept-texting-their-former-colleague",
+          "source": "The Decoder AI News",
+          "site_id": "",
+          "official": false
+        }
+      ],
+      "summary_zh": "OpenAI 公布聊天记录反击 Apple 的商业秘密诉讼，显示 Apple 员工持续给前同事发短信。该诉讼源于 Apple 指控 OpenAI 挖角员工并窃取技术。OpenAI ",
+      "why_it_matters": "此案影响 AI 人才流动与商业秘密保护，开发者需关注跳槽合规风险，避免因沟通记录引发法律纠纷。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "OpenAI 晒聊天记录反击 Apple：跳槽前同事的短信成了证据",
+          "angle": "从开发者视角，讨论跳槽时与前同事沟通的边界，引用本案聊天记录作为警示。",
+          "needs_hands_on": false,
+          "risk": "聊天记录具体内容未披露，需核实原始法庭文件。"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "AI 从业者跳槽避坑指南：从 Apple 诉 OpenAI 学到的 3 个法律要点",
+          "angle": "以小红书风格，总结跳槽时如何避免商业秘密纠纷，包括沟通记录、技术资料处理等。",
+          "needs_hands_on": false,
+          "risk": "法律建议需咨询专业律师，本文仅基于公开报道。"
+        },
+        {
+          "platform": "wechat",
+          "title": "Apple 诉 OpenAI：商业秘密诉讼背后的 AI 人才争夺战",
+          "angle": "深度分析 AI 行业人才竞争与法律风险，探讨对开发者职业选择的影响。",
+          "needs_hands_on": false,
+          "risk": "诉讼进展未定，需跟踪后续法院裁决。"
+        }
+      ],
+      "enrichment_mode": "llm"
+    },
+    {
+      "story_id": "story_ced42da72295",
+      "creator_event_id": "creator-2cb0e7c04285cb1a",
+      "merged_story_ids": [
+        "story_ced42da72295"
+      ],
+      "title": "用评论触发 Copilot 自动化 / Trigger Copilot automations with comments",
+      "url": "https://github.blog/changelog/2026-08-03-trigger-copilot-automations-with-comments",
+      "primary_url": "https://github.blog/changelog/2026-08-03-trigger-copilot-automations-with-comments",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "score": 0.8134,
+      "importance": 0.8134,
+      "importance_score": 0.8134,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.91,
+        "recency": 0.7857,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-03T19:14:58Z",
+      "latest_at": "2026-08-03T19:14:58Z",
+      "persona_id": "pragmatic",
+      "persona_score": 72,
+      "persona_review": "评论触发自动化，团队协作场景能省事，但得看具体配置成本。",
+      "creator_score": 68.1,
+      "creator_breakdown": {
+        "relevance": 0.4847,
+        "freshness": 0.7203,
+        "source": 1.0,
+        "impact": 0.63,
+        "novelty": 0.75,
+        "heat": 0.4347
+      },
+      "creator_bucket": "general_ai",
+      "verification_status": "confirmed",
+      "creator_reasons": [
+        "workflow_impact",
+        "official_or_tier0_source"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "e3ccbb422226c7f574943e22b04983a45cc7956a",
+        "title": "用评论触发 Copilot 自动化 / Trigger Copilot automations with comments",
+        "title_zh": "用评论触发 Copilot 自动化",
+        "title_en": "Trigger Copilot automations with comments",
+        "title_original": "Trigger Copilot automations with comments",
+        "summary": "You can now create Copilot cloud agent automations that run when an issue comment or pull request comment is created. Common use cases include: Generate documentation: Comment on a pull…\nYou can now create Copilot cloud agent automations that run when an issue comment or pull request comment is created.\nCommon use cases include:\nWhen configuring an automation, specify the comment text that should trigger it. To get started, click through to the Agents tab in your repository, then pick Automation",
+        "recommend_reason_zh": "本文介绍 GitHub 新增的 Copilot Cloud Agent 自动化：可由 issue comment 或 pull request comment 触发，指定评论文本即可运行，常用于生成文档等；Copilot Pro、Pro+、Max、Business、Enterprise 用户可用，Business/Enterprise 需管理员启用策略。",
+        "url": "https://github.blog/changelog/2026-08-03-trigger-copilot-automations-with-comments",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      },
+      "sources": [
+        {
+          "story_id": "story_ced42da72295",
+          "title": "用评论触发 Copilot 自动化 / Trigger Copilot automations with comments",
+          "url": "https://github.blog/changelog/2026-08-03-trigger-copilot-automations-with-comments",
+          "source": "GitHub Changelog",
+          "site_id": "",
+          "official": true
+        }
+      ],
+      "summary_zh": "GitHub 新增 Copilot 云代理自动化，可由 issue 或 PR 评论触发，指定评论文本即可运行，如生成文档。Copilot Pro、Pro+、Max、Business",
+      "why_it_matters": "评论触发自动化简化了开发流程，减少手动操作，提升效率。但需注意策略配置和触发文本的准确性，避免误触发。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "GitHub Copilot 自动化新玩法：评论即触发",
+          "angle": "实测评论触发自动化，分享配置步骤和实际效果，强调效率提升和潜在坑。",
+          "needs_hands_on": true,
+          "risk": "未亲测，需验证触发文本匹配规则和权限要求。"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "GitHub Copilot 自动化：评论触发，文档自动生成",
+          "angle": "手把手教程，展示如何设置评论触发自动化，生成文档，附避坑指南。",
+          "needs_hands_on": true,
+          "risk": "未亲测，需确认具体配置界面和触发条件。"
+        },
+        {
+          "platform": "wechat",
+          "title": "GitHub Copilot 自动化更新：评论触发，重塑开发工作流",
+          "angle": "分析该功能对团队协作和 CI/CD 流程的影响，探讨自动化策略和最佳实践。",
+          "needs_hands_on": false,
+          "risk": "需核实企业版策略配置细节。"
         }
       ],
       "enrichment_mode": "llm"
@@ -1600,12 +1406,12 @@
   "llm_meta": {
     "provider": "deepseek",
     "model": "deepseek-chat",
-    "calls_used": 16,
+    "calls_used": 14,
     "cache_hits": 0,
     "fallback_count": 0
   },
   "dedup_meta": {
-    "secondary_dedup_merge_count": 4,
-    "secondary_dedup_source_count": 160
+    "secondary_dedup_merge_count": 6,
+    "secondary_dedup_source_count": 199
   }
 }
