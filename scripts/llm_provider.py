@@ -30,7 +30,7 @@ class LLMSettings:
     provider: str
     api_key: str = field(repr=False)
     base_url: str = "https://api.deepseek.com"
-    model: str = "deepseek-chat"
+    model: str = "deepseek-v4-flash"
     timeout: float = 35.0
     max_calls: int = 20
 
@@ -42,7 +42,11 @@ class LLMSettings:
             or os.environ.get("DEEPSEEK_API_BASE_URL")
             or "https://api.deepseek.com"
         ).strip().rstrip("/")
-        model = (os.environ.get("LLM_MODEL") or os.environ.get("DEEPSEEK_MODEL") or "deepseek-chat").strip()
+        model = (
+            os.environ.get("LLM_MODEL")
+            or os.environ.get("DEEPSEEK_MODEL")
+            or "deepseek-v4-flash"
+        ).strip()
         provider = (os.environ.get("LLM_PROVIDER") or "deepseek").strip().lower()
         timeout = _positive_float(os.environ.get("LLM_TIMEOUT_SECONDS"), 35.0)
         max_calls = _bounded_int(os.environ.get("LLM_MAX_CALLS_PER_RUN"), 20, 0, 40)

@@ -27,7 +27,7 @@ Secret 只能存放在 GitHub Settings → Secrets and variables → Actions。�
 
 ```text
 LLM_PROVIDER=deepseek
-LLM_MODEL=deepseek-chat
+LLM_MODEL=deepseek-v4-flash
 LLM_BASE_URL=https://api.deepseek.com
 LLM_MAX_CALLS_PER_RUN=20
 TELEGRAM_ENABLED=1

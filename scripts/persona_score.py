@@ -31,7 +31,7 @@ from pathlib import Path
 import requests
 
 DEFAULT_API_BASE_URL = "https://api.deepseek.com"
-DEFAULT_MODEL = "deepseek-chat"
+DEFAULT_MODEL = "deepseek-v4-flash"
 CACHE_VERSION = 1
 CACHE_MAX_AGE_DAYS = 21
 REVIEW_MAX_CHARS = 60
@@ -153,8 +153,8 @@ def title_hash(title: str) -> str:
     return hashlib.sha1(str(title).encode("utf-8")).hexdigest()[:8]
 
 
-def cache_key(story_id: str, persona: dict) -> str:
-    return f"{story_id}|{persona['id']}|{persona['sha8']}"
+def cache_key(story_id: str, persona: dict, model: str) -> str:
+    return f"{story_id}|{persona['id']}|{persona['sha8']}|{model}"
 
 
 def load_cache(path: Path) -> dict:
@@ -282,7 +282,7 @@ def score_with_persona(
 ) -> tuple[int, str] | None:
     """Score one item with one persona, using the cache when possible."""
     story_id = str(item.get("story_id", ""))
-    key = cache_key(story_id, persona)
+    key = cache_key(story_id, persona, model)
     thash = title_hash(item.get("title", ""))
     entry = cache["entries"].get(key)
     if isinstance(entry, dict) and entry.get("title_hash") == thash:

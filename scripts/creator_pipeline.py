@@ -229,13 +229,14 @@ def _load_persona_prompt(path: Path) -> tuple[str, str]:
     return prompt, hashlib.sha1(text.encode("utf-8")).hexdigest()[:8]
 
 
-def _cache_key(item: dict[str, Any], persona_sha8: str) -> str:
+def _cache_key(item: dict[str, Any], persona_sha8: str, model: str) -> str:
     raw = "|".join(
         [
             str(item.get("story_id") or ""),
             str(item.get("title") or ""),
             str(item.get("verification_status") or ""),
             persona_sha8,
+            model,
         ]
     )
     return hashlib.sha1(raw.encode("utf-8")).hexdigest()
@@ -327,13 +328,14 @@ def run_pipeline(
     edition, next_state = build_edition(selected, state, profile, current, requested_edition)
     prompt, persona_sha8 = _load_persona_prompt(persona_path)
     llm_provider = provider or OpenAICompatibleProvider(LLMSettings.from_env())
+    _, model, _ = _provider_meta(llm_provider)
 
     enriched_items: list[dict[str, Any]] = []
     cache_hits = 0
     fallback_count = 0
     for raw_item in edition.get("items", []):
         item = dict(raw_item)
-        key = _cache_key(item, persona_sha8)
+        key = _cache_key(item, persona_sha8, model)
         cached = cache["entries"].get(key)
         enrichment: dict[str, Any] | None = None
         if isinstance(cached, dict):
