@@ -127,7 +127,7 @@ def test_llm_scoring_writes_fields_and_top3(tmp_path):
         assert item["persona_score"] == 100
         assert len(item["persona_review"]) <= 60
         assert item["persona_meta"]["mode"] == "llm"
-        assert item["persona_meta"]["model"] == "deepseek-chat"
+        assert item["persona_meta"]["model"] == "deepseek-v4-flash"
         assert item["persona_meta"]["scored_at"]
         # Every pre-existing field is preserved verbatim.
         for key, value in original.items():
@@ -138,7 +138,7 @@ def test_llm_scoring_writes_fields_and_top3(tmp_path):
     assert brief["total_items"] == 2
 
     top3 = read_top3(data_dir)
-    assert top3["model"] == "deepseek-chat"
+    assert top3["model"] == "deepseek-v4-flash"
     assert {p["id"] for p in top3["personas"]} == {"pragmatic", "cynic", "paper-police"}
     assert len(top3["items"]) == 2
     first = top3["items"][0]
