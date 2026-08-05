@@ -1,8 +1,1212 @@
 {
   "version": 1,
-  "generated_at": "2026-08-04T23:25:18.919578Z",
-  "total_editions": 27,
+  "generated_at": "2026-08-05T12:15:48.171816Z",
+  "total_editions": 28,
   "editions": [
+    {
+      "edition_id": "2026-08-05-evening",
+      "edition_kind": "evening",
+      "generated_at": "2026-08-05T12:15:48.171816Z",
+      "timezone": "Asia/Shanghai",
+      "total_items": 12,
+      "summary": {
+        "confirmed": 4,
+        "single_source": 8,
+        "early_signal": 0,
+        "rumor": 0,
+        "new": 12,
+        "updated": 0,
+        "confirmed_updates": 0
+      },
+      "items": [
+        {
+          "story_id": "story_ea422b902d7b",
+          "creator_event_id": "creator-a40561f3bdc30a5c",
+          "merged_story_ids": [
+            "story_ea422b902d7b"
+          ],
+          "title": "CopilotKit 开源 Channels SDK：一个 MIT 许可库，可在 Slack 和 Microsoft Teams 中运行任何 AG-UI Agent / CopilotKit Open Sources Channels SDK: An MIT Licensed Library That Runs Any AG-UI Agent Inside Slack And Microsoft Teams",
+          "url": "https://www.marktechpost.com/2026/08/04/copilotkit-open-sources-channels-sdk",
+          "primary_url": "https://www.marktechpost.com/2026/08/04/copilotkit-open-sources-channels-sdk",
+          "source": "MarkTechPost Research",
+          "source_name": "Curated Media",
+          "source_count": 1,
+          "source_names": [
+            "MarkTechPost Research"
+          ],
+          "score": 0.5853,
+          "importance": 0.5853,
+          "importance_score": 0.5853,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.5112,
+            "source_tier": 0.58,
+            "ai_relevance": 0.71,
+            "recency": 0.902,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-08-05T04:43:17Z",
+          "latest_at": "2026-08-05T04:43:17Z",
+          "creator_score": 84.6,
+          "creator_breakdown": {
+            "relevance": 0.88,
+            "freshness": 0.9615,
+            "source": 0.78,
+            "impact": 0.94,
+            "novelty": 0.75,
+            "heat": 0.3549
+          },
+          "creator_bucket": "ai_coding",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "ai_coding_terms",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "34de6ffa099b0bdb42ff6a673a8c9780d5bd333d",
+            "title": "CopilotKit 开源 Channels SDK：一个 MIT 许可库，可在 Slack 和 Microsoft Teams 中运行任何 AG-UI Agent / CopilotKit Open Sources Channels SDK: An MIT Licensed Library That Runs Any AG-UI Agent Inside Slack And Microsoft Teams",
+            "title_zh": "CopilotKit 开源 Channels SDK：一个 MIT 许可库，可在 Slack 和 Microsoft Teams 中运行任何 AG-UI Agent",
+            "title_en": "CopilotKit Open Sources Channels SDK: An MIT Licensed Library That Runs Any AG-UI Agent Inside Slack And Microsoft Teams",
+            "title_original": "CopilotKit Open Sources Channels SDK: An MIT Licensed Library That Runs Any AG-UI Agent Inside Slack And Microsoft Teams",
+            "url": "https://www.marktechpost.com/2026/08/04/copilotkit-open-sources-channels-sdk",
+            "source": "MarkTechPost Research",
+            "source_name": "Curated Media"
+          },
+          "sources": [
+            {
+              "story_id": "story_ea422b902d7b",
+              "title": "CopilotKit 开源 Channels SDK：一个 MIT 许可库，可在 Slack 和 Microsoft Teams 中运行任何 AG-UI Agent / CopilotKit Open Sources Channels SDK: An MIT Licensed Library That Runs Any AG-UI Agent Inside Slack And Microsoft Teams",
+              "url": "https://www.marktechpost.com/2026/08/04/copilotkit-open-sources-channels-sdk",
+              "source": "MarkTechPost Research",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "据 MarkTechPost 报道，CopilotKit 开源了 Channels SDK，这是一个 MIT 许可库，据称可在 Slack 和 Microsoft Teams 中运",
+          "why_it_matters": "若属实，开发者可将现有 AG-UI Agent 直接接入企业聊天平台，降低集成成本，但需验证其安全性与 AG-UI 兼容性是否如描述。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "CopilotKit 新 SDK 声称让任何 AG-UI Agent 跑进 Slack，我第一时间试了",
+              "angle": "以第一人称快速实测，安装 SDK 并部署一个简单 Agent 到 Slack，记录真实体验与坑。",
+              "needs_hands_on": true,
+              "risk": "单一信源，实际功能与官方文档可能存在差异；需验证 AG-UI 兼容范围。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "CopilotKit 开源 Channels SDK 实测：把 AI Agent 接入 Slack 的保姆级教程",
+              "angle": "面向开发者的步骤拆解，从安装到配置，展示如何在 Teams/Slack 中跑通 AG-UI Agent，附避坑指南。",
+              "needs_hands_on": true,
+              "risk": "需确认 SDK 是否支持所有 AG-UI Agent，以及 Teams 与 Slack 的功能差异。"
+            },
+            {
+              "platform": "wechat",
+              "title": "AG-UI 与聊天平台打通：CopilotKit Channels SDK 开源意味着什么",
+              "angle": "从 AG-UI 协议标准化和 AI Agent 落地企业协作场景的角度，分析该开源库对开发工作流和生态的影响。",
+              "needs_hands_on": false,
+              "risk": "开源许可、协议兼容性等细节需对照官方仓库核实。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_48546ed95685",
+          "creator_event_id": "creator-ac7f1e7a8d9b44a3",
+          "merged_story_ids": [
+            "story_48546ed95685"
+          ],
+          "title": "停用 Copilot Billing Preview 应用 / Retiring the Copilot Billing Preview app",
+          "url": "https://github.blog/changelog/2026-08-04-retiring-the-copilot-billing-preview-app",
+          "primary_url": "https://github.blog/changelog/2026-08-04-retiring-the-copilot-billing-preview-app",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "source_count": 1,
+          "source_names": [
+            "GitHub Changelog"
+          ],
+          "score": 0.8134,
+          "importance": 0.8134,
+          "importance_score": 0.8134,
+          "importance_label": "官方更新",
+          "importance_breakdown": {
+            "editorial": 0.9,
+            "source_tier": 1.0,
+            "ai_relevance": 0.91,
+            "recency": 0.7857,
+            "story_heat": 0.0
+          },
+          "category": "official",
+          "reasons": [
+            "official_source",
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-08-04T19:09:32Z",
+          "latest_at": "2026-08-04T19:09:32Z",
+          "persona_id": "pragmatic",
+          "persona_score": 55,
+          "persona_review": "预览版停用，正在用的得找替代方案，没用的不用管。",
+          "creator_score": 82.7,
+          "creator_breakdown": {
+            "relevance": 0.88,
+            "freshness": 0.7224,
+            "source": 1.0,
+            "impact": 0.81,
+            "novelty": 0.75,
+            "heat": 0.4347
+          },
+          "creator_bucket": "ai_coding",
+          "verification_status": "confirmed",
+          "creator_reasons": [
+            "ai_coding_terms",
+            "workflow_impact",
+            "official_or_tier0_source"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "290625e14a04e8c6d27f72643d25958f483f7d08",
+            "title": "停用 Copilot Billing Preview 应用 / Retiring the Copilot Billing Preview app",
+            "title_zh": "停用 Copilot Billing Preview 应用",
+            "title_en": "Retiring the Copilot Billing Preview app",
+            "title_original": "Retiring the Copilot Billing Preview app",
+            "recommend_reason_zh": "GitHub宣布退役Copilot Billing Preview应用，其功能已整合进账单设置，新增用户级预算、成本中心和用量池分配等更完整视图，帮助开发者直接管理Copilot支出。",
+            "url": "https://github.blog/changelog/2026-08-04-retiring-the-copilot-billing-preview-app",
+            "source": "GitHub Changelog",
+            "source_name": "Official AI Updates"
+          },
+          "sources": [
+            {
+              "story_id": "story_48546ed95685",
+              "title": "停用 Copilot Billing Preview 应用 / Retiring the Copilot Billing Preview app",
+              "url": "https://github.blog/changelog/2026-08-04-retiring-the-copilot-billing-preview-app",
+              "source": "GitHub Changelog",
+              "site_id": "",
+              "official": true
+            }
+          ],
+          "summary_zh": "GitHub 宣布停用 Copilot Billing Preview 应用，其功能已整合进账单设置，新增用户级预算、成本中心和用量池分配等更完整的视图，帮助开发者直接管理 Cop",
+          "why_it_matters": "改变了团队管理 Copilot 成本的方式，从独立预览应用迁移到账单设置，有利于更精细地控制 AI 编程工具的支出。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "GitHub 悄悄退役 Copilot 计费预览应用，新账单界面体验如何？",
+              "angle": "个人实测新版账单设置，对比旧预览应用的差异，重点看用户级预算和成本中心是否真如官方所说那样好用。",
+              "needs_hands_on": true,
+              "risk": "新版账单界面的具体操作路径和功能完整性未亲自验证，需实际体验后确认。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "Copilot 计费预览应用要退役了！三步迁移到新账单设置",
+              "angle": "详细演示从旧预览应用迁移到账单设置的步骤，提醒开发者注意用量池分配和用户级预算的配置，避免成本失控。",
+              "needs_hands_on": true,
+              "risk": "迁移过程是否有自动转移或需手动重新配置，官方未明确，需测试确认。"
+            },
+            {
+              "platform": "wechat",
+              "title": "从 Copilot Billing Preview 退役看 AI 编程工具的成本管理趋势",
+              "angle": "分析 GitHub 将计费功能整合进账单设置的背景，探讨 AI Coding 工具在成本透明度、权限控制和组织级治理上的演进方向。",
+              "needs_hands_on": false,
+              "risk": ""
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_8118433059c7",
+          "creator_event_id": "creator-fa2ca2a4a15710ff",
+          "merged_story_ids": [
+            "story_8118433059c7"
+          ],
+          "title": "Cursor 开源 Mixture-of-Kittens (MoK)：用于 GB300 NVL72 机架的确定性 MoE 训练 Megakernel / Cursor Open-Sources Mixture-of-Kittens (MoK): A Deterministic MoE Training Megakernel for GB300 NVL72 Racks",
+          "url": "https://www.marktechpost.com/2026/08/04/cursor-open-sources-mixture-of-kittens-mok-a-deterministic-moe-training-megakernel-for-gb300-nvl72-racks",
+          "primary_url": "https://www.marktechpost.com/2026/08/04/cursor-open-sources-mixture-of-kittens-mok-a-deterministic-moe-training-megakernel-for-gb300-nvl72-racks",
+          "source": "MarkTechPost Research",
+          "source_name": "Curated Media",
+          "source_count": 1,
+          "source_names": [
+            "MarkTechPost Research"
+          ],
+          "score": 0.5633,
+          "importance": 0.5633,
+          "importance_score": 0.5633,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.5112,
+            "source_tier": 0.58,
+            "ai_relevance": 0.71,
+            "recency": 0.7799,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-08-04T18:38:41Z",
+          "latest_at": "2026-08-04T18:38:41Z",
+          "creator_score": 82.2,
+          "creator_breakdown": {
+            "relevance": 1.0,
+            "freshness": 0.7095,
+            "source": 0.78,
+            "impact": 0.81,
+            "novelty": 0.85,
+            "heat": 0.3472
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "cursor",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:cursor",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "d55b0efce3bee9019a4030eca5ef5ba2d57f92a8",
+            "title": "Cursor 开源 Mixture-of-Kittens (MoK)：用于 GB300 NVL72 机架的确定性 MoE 训练 Megakernel / Cursor Open-Sources Mixture-of-Kittens (MoK): A Deterministic MoE Training Megakernel for GB300 NVL72 Racks",
+            "title_zh": "Cursor 开源 Mixture-of-Kittens (MoK)：用于 GB300 NVL72 机架的确定性 MoE 训练 Megakernel",
+            "title_en": "Cursor Open-Sources Mixture-of-Kittens (MoK): A Deterministic MoE Training Megakernel for GB300 NVL72 Racks",
+            "title_original": "Cursor Open-Sources Mixture-of-Kittens (MoK): A Deterministic MoE Training Megakernel for GB300 NVL72 Racks",
+            "url": "https://www.marktechpost.com/2026/08/04/cursor-open-sources-mixture-of-kittens-mok-a-deterministic-moe-training-megakernel-for-gb300-nvl72-racks",
+            "source": "MarkTechPost Research",
+            "source_name": "Curated Media"
+          },
+          "sources": [
+            {
+              "story_id": "story_8118433059c7",
+              "title": "Cursor 开源 Mixture-of-Kittens (MoK)：用于 GB300 NVL72 机架的确定性 MoE 训练 Megakernel / Cursor Open-Sources Mixture-of-Kittens (MoK): A Deterministic MoE Training Megakernel for GB300 NVL72 Racks",
+              "url": "https://www.marktechpost.com/2026/08/04/cursor-open-sources-mixture-of-kittens-mok-a-deterministic-moe-training-megakernel-for-gb300-nvl72-racks",
+              "source": "MarkTechPost Research",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "Cursor 开源 Mixture-of-Kittens (MoK)，一个面向 GB300 NVL72 机架的确定性 MoE 训练 Megakernel。目前仅单一来源报道，细节待",
+          "why_it_matters": "MoE 训练 kernel 开源可降低大模型训练门槛并影响工具链选择，但该消息为单源报道，需谨慎对待。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "Cursor 开源 MoK：单源报道背后的信号",
+              "angle": "作为开发者，我第一反应是 Cursor 为什么突然开源训练 kernel？单源消息下我们该信几分？",
+              "needs_hands_on": false,
+              "risk": "消息来自单一媒体，无官方公告或代码仓库链接，需核实。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "MoK 开源意味着什么？给普通开发者的三个关注点",
+              "angle": "不吹不黑，用大白话聊聊 MoE 训练 kernel 开源对你写代码有什么影响。",
+              "needs_hands_on": true,
+              "risk": "未实际运行代码，且无硬件环境验证 GB300 性能。"
+            },
+            {
+              "platform": "wechat",
+              "title": "从 Cursor 开源 MoK 看 AI Coding 工具的底层战争",
+              "angle": "把单条新闻放进更长周期里看：为什么 Cursor 要深入 GPU 训练层？这跟开发者有什么关系？",
+              "needs_hands_on": false,
+              "risk": "基于单一来源的分析，需后续官方确认。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_4a3fc5fe866e",
+          "creator_event_id": "creator-0be1b492c0ef9723",
+          "merged_story_ids": [
+            "story_4a3fc5fe866e"
+          ],
+          "title": "无需云端API!手机即可本地运行，Liquid AI推出端侧智能体模型LFM2.5",
+          "url": "https://www.aibase.com/news/30138",
+          "primary_url": "https://www.aibase.com/news/30138",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "source_count": 1,
+          "source_names": [
+            "AIbase"
+          ],
+          "score": 0.7676,
+          "importance": 0.7676,
+          "importance_score": 0.7676,
+          "importance_label": "行业动态",
+          "importance_breakdown": {
+            "editorial": 0.72,
+            "source_tier": 0.78,
+            "ai_relevance": 1.0,
+            "recency": 1.0,
+            "story_heat": 0.0
+          },
+          "category": "industry",
+          "reasons": [
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-08-05T11:51:37.980039Z",
+          "latest_at": "2026-08-05T11:51:37.980039Z",
+          "creator_score": 81.0,
+          "creator_breakdown": {
+            "relevance": 0.88,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 1.0,
+            "novelty": 0.75,
+            "heat": 0.4187
+          },
+          "creator_bucket": "ai_coding",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "ai_coding_terms",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "c40f22f91adbb51d4d4e11098e8d3271a444591c",
+            "title": "无需云端API!手机即可本地运行，Liquid AI推出端侧智能体模型LFM2.5",
+            "title_zh": "无需云端API!手机即可本地运行，Liquid AI推出端侧智能体模型LFM2.5",
+            "title_original": "无需云端API!手机即可本地运行，Liquid AI推出端侧智能体模型LFM2.5",
+            "summary": "On August 5, the AI startup Liquid AI officially announced the release of LFM2.5-2.6B, a terminal-side model designed for agent workflows. The model has 2.6 bil\nOn August 5, the AI startup Liquid AI officially announced the release of LFM2.5-2.6B, a terminal-side model designed for agent workflows. The model has 2.6 bil\nOn August 5, the AI startup Liquid AI officially announced the release of LFM2.5-2.6B, a terminal-side model designed for agent workflows. The model has 2.6 bil\nExplore AI Fronti",
+            "recommend_reason_zh": "Liquid AI发布端侧模型LFM2.5-2.6B，仅2.6B参数即可在手机本地运行，无需云端API；基于34万亿token预训练，推理速度达220 tokens/s，工具调用能力比肩近4倍体积的模型。",
+            "url": "https://www.aibase.com/news/30138",
+            "source": "AIbase",
+            "source_name": "AIbase"
+          },
+          "sources": [
+            {
+              "story_id": "story_4a3fc5fe866e",
+              "title": "无需云端API!手机即可本地运行，Liquid AI推出端侧智能体模型LFM2.5",
+              "url": "https://www.aibase.com/news/30138",
+              "source": "AIbase",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "Liquid AI于8月5日发布端侧智能体模型LFM2.5-2.6B，参数仅2.6B，可在手机本地运行，无需云端API。该模型基于34万亿token预训练，推理速度达220 tok",
+          "why_it_matters": "端侧模型降低Agent开发对云端API的依赖，减少延迟与成本，2.6B参数在手机上运行意味着移动端AI Coding和自动化工作流成为可能。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "手机本地跑Agent？LFM2.5上手初测",
+              "angle": "作为开发者，我在本地手机部署LFM2.5，实测工具调用和推理速度，对比云端API的延迟差异。",
+              "needs_hands_on": true,
+              "risk": "来源单一，官方未提供完整基准，需亲测工具调用成功率与手机兼容性。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "端侧模型避坑指南：LFM2.5本地部署步骤与结果",
+              "angle": "分享在手机上部署LFM2.5的详细步骤，包括模型下载、运行环境配置，以及实测中遇到的性能和内存问题。",
+              "needs_hands_on": true,
+              "risk": "模型具体部署工具和手机型号限制未披露，需实际验证。"
+            },
+            {
+              "platform": "wechat",
+              "title": "Liquid AI发布LFM2.5：端侧智能体模型的生态意义",
+              "angle": "从端侧模型发展趋势切入，分析LFM2.5对AI Coding工具链、隐私计算和离线开发场景的长期影响。",
+              "needs_hands_on": false,
+              "risk": "single_source报道，需等待官方技术报告或更多第三方验证。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_ef28a1340614",
+          "creator_event_id": "creator-b3e1c8e9e25754ad",
+          "merged_story_ids": [
+            "story_ef28a1340614"
+          ],
+          "title": "NVIDIA 发布 Alpamayo 2 Super：面向 Robotaxi 与自动驾驶的 34B 开源视觉-语言-动作模型 / NVIDIA Releases Alpamayo 2 Super： A 34B Open Vision-Language-Action Model for Robotaxis and Autonomous Driving Under OpenMDW-1.1",
+          "url": "https://www.marktechpost.com/2026/08/05/nvidia-alpamayo-2-super-open-vla-model-autonomous-driving",
+          "primary_url": "https://www.marktechpost.com/2026/08/05/nvidia-alpamayo-2-super-open-vla-model-autonomous-driving",
+          "source": "MarkTechPost（RSS）",
+          "source_name": "AI HOT",
+          "source_count": 1,
+          "source_names": [
+            "MarkTechPost（RSS）"
+          ],
+          "score": 0.8049,
+          "importance": 0.8049,
+          "importance_score": 0.8049,
+          "importance_label": "行业动态",
+          "importance_breakdown": {
+            "editorial": 0.79,
+            "source_tier": 0.78,
+            "ai_relevance": 1.0,
+            "recency": 0.9515,
+            "story_heat": 0.25
+          },
+          "category": "industry",
+          "reasons": [
+            "multi_source",
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-08-05T08:25:11Z",
+          "latest_at": "2026-08-05T08:25:11Z",
+          "persona_id": "pragmatic",
+          "persona_score": 82,
+          "persona_review": "做机器人或智驾的团队可试，但34B模型部署门槛高，先算算显存。",
+          "creator_score": 80.9,
+          "creator_breakdown": {
+            "relevance": 0.88,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.94,
+            "novelty": 0.75,
+            "heat": 0.5817
+          },
+          "creator_bucket": "ai_coding",
+          "verification_status": "confirmed",
+          "creator_reasons": [
+            "ai_coding_terms",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "b12c4fe282e82a37bd26f037f6b19fe64d9dab67",
+            "title": "NVIDIA 发布 Alpamayo 2 Super：面向 Robotaxi 与自动驾驶的 34B 开源视觉-语言-动作模型 / NVIDIA Releases Alpamayo 2 Super： A 34B Open Vision-Language-Action Model for Robotaxis and Autonomous Driving Under OpenMDW-1.1",
+            "title_zh": "NVIDIA 发布 Alpamayo 2 Super：面向 Robotaxi 与自动驾驶的 34B 开源视觉-语言-动作模型",
+            "title_en": "NVIDIA Releases Alpamayo 2 Super： A 34B Open Vision-Language-Action Model for Robotaxis and Autonomous Driving Under OpenMDW-1.1",
+            "title_original": "NVIDIA Releases Alpamayo 2 Super： A 34B Open Vision-Language-Action Model for Robotaxis and Autonomous Driving Under OpenMDW-1.1",
+            "summary": "NVIDIA 发布 Alpamayo 2 Super，一款 34B 参数的视觉-语言-动作（VLA）模型，专为自动驾驶长尾事件设计，权重采用 Linux 基金会 OpenMDW-1.1 许可，代码为 Apache 2.0，发布首日即可商用。",
+            "url": "https://www.marktechpost.com/2026/08/05/nvidia-alpamayo-2-super-open-vla-model-autonomous-driving",
+            "source": "MarkTechPost（RSS）",
+            "source_name": "AI HOT"
+          },
+          "sources": [
+            {
+              "story_id": "story_ef28a1340614",
+              "title": "NVIDIA 发布 Alpamayo 2 Super：面向 Robotaxi 与自动驾驶的 34B 开源视觉-语言-动作模型 / NVIDIA Releases Alpamayo 2 Super： A 34B Open Vision-Language-Action Model for Robotaxis and Autonomous Driving Under OpenMDW-1.1",
+              "url": "https://www.marktechpost.com/2026/08/05/nvidia-alpamayo-2-super-open-vla-model-autonomous-driving",
+              "source": "MarkTechPost（RSS）",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "NVIDIA 发布 Alpamayo 2 Super，一款 34B 参数的视觉-语言-动作模型，专为自动驾驶长尾事件设计，权重采用 Linux 基金会 OpenMDW-1.1 许可",
+          "why_it_matters": "对 AI Coding 开发者，该模型可作为自动驾驶场景生成与测试的基础组件，开源许可降低集成门槛，可能影响仿真与数据闭环工具链的选型。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "实测 NVIDIA Alpamayo 2 Super：34B 开源 VLA 模型跑自动驾驶长尾场景",
+              "angle": "以第一人称分享部署 Alpamayo 2 Super 的体验，包括模型下载、推理环境配置和实际跑通长尾场景测试的步骤，强调开源可商用带来的新可能性。",
+              "needs_hands_on": true,
+              "risk": "未亲测模型实际性能和部署成本，需核查官方基准和硬件要求。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "NVIDIA 开源 34B 自动驾驶大模型，开发者上手避坑指南",
+              "angle": "从开发者视角介绍 Alpamayo 2 Super 的获取方式、依赖环境和常见坑，展示如何把它接入现有自动驾驶开发流程，给出可复现的步骤和注意事项。",
+              "needs_hands_on": true,
+              "risk": "未实际安装运行，需核实依赖版本和 OpenMDW-1.1 许可的具体条款。"
+            },
+            {
+              "platform": "wechat",
+              "title": "从 Alpamayo 2 Super 看 NVIDIA 的自动驾驶开源战略如何影响开发工具链",
+              "angle": "分析 Alpamayo 2 Super 发布背后的技术路线，对比同类 VLA 模型，探讨开源许可以及对自动驾驶仿真、数据闭环和 AI Coding 工具长期演进的影响。",
+              "needs_hands_on": false,
+              "risk": "需确认 OpenMDW-1.1 与 Apache 2.0 在商用上的具体差异，以及模型发布首日可商用的官方表述。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_88b77bfd7fe2",
+          "creator_event_id": "creator-7fbedc349278b913",
+          "merged_story_ids": [
+            "story_88b77bfd7fe2"
+          ],
+          "title": "阿里千问图像生成模型Qwen-Image-3. 0 上线 开放API且0. 18 元/张起",
+          "url": "https://www.aibase.com/news/30126",
+          "primary_url": "https://www.aibase.com/news/30126",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "source_count": 1,
+          "source_names": [
+            "AIbase"
+          ],
+          "score": 0.7668,
+          "importance": 0.7668,
+          "importance_score": 0.7668,
+          "importance_label": "行业动态",
+          "importance_breakdown": {
+            "editorial": 0.72,
+            "source_tier": 0.78,
+            "ai_relevance": 1.0,
+            "recency": 0.9954,
+            "story_heat": 0.0
+          },
+          "category": "industry",
+          "reasons": [
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-08-05T11:32:37.980039Z",
+          "latest_at": "2026-08-05T11:32:37.980039Z",
+          "creator_score": 80.1,
+          "creator_breakdown": {
+            "relevance": 0.88,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.94,
+            "novelty": 0.75,
+            "heat": 0.4184
+          },
+          "creator_bucket": "ai_coding",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "ai_coding_terms",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "144ea08342a5b4c8a291625cddbe76c7add80644",
+            "title": "阿里千问图像生成模型Qwen-Image-3. 0 上线 开放API且0. 18 元/张起",
+            "title_zh": "阿里千问图像生成模型Qwen-Image-3. 0 上线 开放API且0. 18 元/张起",
+            "title_original": "阿里千问图像生成模型Qwen-Image-3. 0 上线 开放API且0. 18 元/张起",
+            "summary": "On August 5, the Alibaba Qwen image generation model Qwen-Image-3.0 was officially launched on the Qwen AI platform and fully opened to users. The flagship Pro\nOn August 5, the Alibaba Qwen image generation model Qwen-Image-3.0 was officially launched on the Qwen AI platform and fully opened to users. The flagship Pro\nOn August 5, the Alibaba Qwen image generation model Qwen-Image-3.0 was officially launched on the Qwen AI platform and fully opened to users. The flagship Pro\nExplore AI Frontiers",
+            "recommend_reason_zh": "阿里Qwen-Image-3.0正式上线，Pro与Standard版API同时开放，文生图0.18元/张起，支持4.5k token指令，能精确还原10px小字和整页LaTeX公式，在Arena.ai国内排名第一。",
+            "url": "https://www.aibase.com/news/30126",
+            "source": "AIbase",
+            "source_name": "AIbase"
+          },
+          "sources": [
+            {
+              "story_id": "story_88b77bfd7fe2",
+              "title": "阿里千问图像生成模型Qwen-Image-3. 0 上线 开放API且0. 18 元/张起",
+              "url": "https://www.aibase.com/news/30126",
+              "source": "AIbase",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "阿里千问图像生成模型Qwen-Image-3.0于8月5日上线，开放API，文生图0.18元/张起，支持4.5k token指令，可还原10px小字和整页LaTeX公式。",
+          "why_it_matters": "图像生成API低价开放，直接影响开发者选型与成本；对需要文本渲染、公式生成的场景有降本潜力，但单一信源需核实。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "Qwen-Image-3.0上线实测：0.18元/张的API能画多准？",
+              "angle": "快速调用API实测文本渲染与公式生成，对比价格和效果。",
+              "needs_hands_on": true,
+              "risk": "仅AIbase单一信源，价格与参数未经官方确认；尚未实测生成质量。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "千问图像API实测：10px小字和LaTeX公式还原避坑指南",
+              "angle": "分享调用Qwen-Image-3.0的具体步骤、参数设置，以及小字/公式还原的实测结果与避坑经验。",
+              "needs_hands_on": true,
+              "risk": "价格与能力基于单一报道，未亲测；需确认API实际限制。"
+            },
+            {
+              "platform": "wechat",
+              "title": "Qwen-Image-3.0上线：图像生成API价格战与开发者选型",
+              "angle": "分析该模型对图像生成API市场格局、价格走势及开发者工作流的影响。",
+              "needs_hands_on": false,
+              "risk": "单一信源，需关注阿里官方公告确认版本与定价。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_20b80d150b2a",
+          "creator_event_id": "creator-43738675a3a67f56",
+          "merged_story_ids": [
+            "story_20b80d150b2a"
+          ],
+          "title": "LLM 0.32 发布：新增推理轨迹、OpenAI Responses、服务端工具与更智能的日志 / New release of LLM adds support for reasoning traces， OpenAI Responses， server-side tools， and smarter logging",
+          "url": "https://simonwillison.net/2026/Aug/4/new-release-of-llm",
+          "primary_url": "https://simonwillison.net/2026/Aug/4/new-release-of-llm",
+          "source": "Simon Willison 博客",
+          "source_name": "AI HOT",
+          "source_count": 1,
+          "source_names": [
+            "Simon Willison 博客"
+          ],
+          "score": 0.7852,
+          "importance": 0.7852,
+          "importance_score": 0.7852,
+          "importance_label": "行业动态",
+          "importance_breakdown": {
+            "editorial": 0.79,
+            "source_tier": 0.78,
+            "ai_relevance": 1.0,
+            "recency": 0.8423,
+            "story_heat": 0.25
+          },
+          "category": "industry",
+          "reasons": [
+            "multi_source",
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-08-04T23:58:24Z",
+          "latest_at": "2026-08-04T23:58:24Z",
+          "persona_id": "pragmatic",
+          "persona_score": 88,
+          "persona_review": "开源工具直接升级就能用，推理轨迹和日志对调接口很实用。",
+          "creator_score": 79.6,
+          "creator_breakdown": {
+            "relevance": 0.88,
+            "freshness": 0.8427,
+            "source": 0.5,
+            "impact": 1.0,
+            "novelty": 0.85,
+            "heat": 0.5748
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "openai",
+          "verification_status": "confirmed",
+          "creator_reasons": [
+            "entity:openai",
+            "ai_coding_terms",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "5497c271baa91c9758e84f8bb4bf2363b088ac43",
+            "title": "LLM 0.32 发布：新增推理轨迹、OpenAI Responses、服务端工具与更智能的日志 / New release of LLM adds support for reasoning traces， OpenAI Responses， server-side tools， and smarter logging",
+            "title_zh": "LLM 0.32 发布：新增推理轨迹、OpenAI Responses、服务端工具与更智能的日志",
+            "title_en": "New release of LLM adds support for reasoning traces， OpenAI Responses， server-side tools， and smarter logging",
+            "title_original": "New release of LLM adds support for reasoning traces， OpenAI Responses， server-side tools， and smarter logging",
+            "summary": "Simon Willison 发布 LLM 0.32，这是该项目自启动以来最重要的新版本。新版本支持显示推理轨迹、服务端工具、OpenAI Responses API，并默认使用 GPT-5.6 Luna 模型。",
+            "url": "https://simonwillison.net/2026/Aug/4/new-release-of-llm",
+            "source": "Simon Willison 博客",
+            "source_name": "AI HOT"
+          },
+          "sources": [
+            {
+              "story_id": "story_20b80d150b2a",
+              "title": "LLM 0.32 发布：新增推理轨迹、OpenAI Responses、服务端工具与更智能的日志 / New release of LLM adds support for reasoning traces， OpenAI Responses， server-side tools， and smarter logging",
+              "url": "https://simonwillison.net/2026/Aug/4/new-release-of-llm",
+              "source": "Simon Willison 博客",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "Simon Willison 发布 LLM 0.32，新增推理轨迹显示、服务端工具、OpenAI Responses API 支持，并默认使用 GPT-5.6 Luna 模型。",
+          "why_it_matters": "命令行工具 LLM 引入推理轨迹与服务端工具，直接影响 Agent 调试方式和工具调用工作流，值得开发者评估升级。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "LLM 0.32 上手：推理轨迹和服务端工具让我改掉了调试习惯",
+              "angle": "我第一时间升级到 0.32，实测推理轨迹和 Responses API 的接入体验，对比旧版 tool 调用链路。",
+              "needs_hands_on": true,
+              "risk": "未实际验证新版本全部功能，推理轨迹在非 OpenAI 模型下的兼容性待确认。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "LLM 0.32 升级指南：3 步开启推理轨迹，避坑指南来了",
+              "angle": "按我的升级步骤操作，教你打开推理轨迹、配置 OpenAI Responses，并提醒常见报错。",
+              "needs_hands_on": true,
+              "risk": "GPT-5.6 Luna 默认模型的实际表现未亲测，需查官方文档确认。"
+            },
+            {
+              "platform": "wechat",
+              "title": "LLM 0.32 解读：从 CLI 到 Agent 工具链，Simon Willison 在下一盘什么棋",
+              "angle": "从 LLM 项目历史出发，分析 0.32 新增的服务端工具和 Responses 支持对 AI Coding 生态的长期影响。",
+              "needs_hands_on": false,
+              "risk": ""
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_0c09902a6425",
+          "creator_event_id": "creator-4473aaee7114dd5f",
+          "merged_story_ids": [
+            "story_0c09902a6425"
+          ],
+          "title": "在 Code Quality 设置中自动启用代码覆盖率 / Code coverage automatic enablement in Code Quality settings",
+          "url": "https://github.blog/changelog/2026-08-04-code-coverage-automatic-enablement-in-code-quality-settings",
+          "primary_url": "https://github.blog/changelog/2026-08-04-code-coverage-automatic-enablement-in-code-quality-settings",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "source_count": 1,
+          "source_names": [
+            "GitHub Changelog"
+          ],
+          "score": 0.7927,
+          "importance": 0.7927,
+          "importance_score": 0.7927,
+          "importance_label": "官方更新",
+          "importance_breakdown": {
+            "editorial": 0.9,
+            "source_tier": 1.0,
+            "ai_relevance": 0.87,
+            "recency": 0.7148,
+            "story_heat": 0.0
+          },
+          "category": "official",
+          "reasons": [
+            "official_source",
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-08-04T12:36:32Z",
+          "latest_at": "2026-08-04T12:36:32Z",
+          "creator_score": 79.4,
+          "creator_breakdown": {
+            "relevance": 0.88,
+            "freshness": 0.5586,
+            "source": 1.0,
+            "impact": 0.81,
+            "novelty": 0.75,
+            "heat": 0.4274
+          },
+          "creator_bucket": "ai_coding",
+          "verification_status": "confirmed",
+          "creator_reasons": [
+            "ai_coding_terms",
+            "workflow_impact",
+            "official_or_tier0_source"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "4c43ca4008d6b3bf3680cd6604e51ded87351c75",
+            "title": "在 Code Quality 设置中自动启用代码覆盖率 / Code coverage automatic enablement in Code Quality settings",
+            "title_zh": "在 Code Quality 设置中自动启用代码覆盖率",
+            "title_en": "Code coverage automatic enablement in Code Quality settings",
+            "title_original": "Code coverage automatic enablement in Code Quality settings",
+            "recommend_reason_zh": "GitHub Code Quality设置新增AI自动生成code coverage workflow，一键创建PR供审查，默认采用最小权限，现面向github.com用户公开预览，简化配置流程。",
+            "url": "https://github.blog/changelog/2026-08-04-code-coverage-automatic-enablement-in-code-quality-settings",
+            "source": "GitHub Changelog",
+            "source_name": "Official AI Updates"
+          },
+          "sources": [
+            {
+              "story_id": "story_0c09902a6425",
+              "title": "在 Code Quality 设置中自动启用代码覆盖率 / Code coverage automatic enablement in Code Quality settings",
+              "url": "https://github.blog/changelog/2026-08-04-code-coverage-automatic-enablement-in-code-quality-settings",
+              "source": "GitHub Changelog",
+              "site_id": "",
+              "official": true
+            }
+          ],
+          "summary_zh": "GitHub 在 Code Quality 设置中新增代码覆盖率自动启用功能，通过 AI 自动生成 code coverage workflow 并创建 PR 供审查，默认采用最小",
+          "why_it_matters": "AI 自动生成覆盖率 workflow 简化配置，开发者只需审查 PR 即可启用，但需验证生成结果的正确性，影响 CI 流程与工具选择。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "GitHub 新功能实测：AI 一键生成 code coverage workflow",
+              "angle": "从开发者视角，实测在 Code Quality 设置中启用自动代码覆盖率，展示 AI 生成的 PR 内容和审查要点，强调新鲜和反差即原本手动配置现在自动完成。",
+              "needs_hands_on": true,
+              "risk": "需要确认功能是否对所有仓库可见，以及最小权限的具体权限范围，未实际测试。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "GitHub 自动生成代码覆盖率配置，一分钟上手",
+              "angle": "以图解步骤的方式，说明如何找到 Code Quality 设置并启用，展示生成的 workflow 文件和 PR，提醒注意审查和权限问题，分享避坑经验。",
+              "needs_hands_on": true,
+              "risk": "生成的 workflow 可能因语言/框架不同而各异，需实测不同项目以验证通用性。"
+            },
+            {
+              "platform": "wechat",
+              "title": "GitHub Code Quality 进化：AI 自动配置代码覆盖率意味着什么？",
+              "angle": "从行业背景出发，分析 GitHub 将 AI 引入代码质量工具链的趋势，讨论对开发者工作流和 CI/CD 自动化未来的影响，以及如何评估这类功能的可靠性。",
+              "needs_hands_on": false,
+              "risk": "公开预览阶段功能可能调整，且长期影响需跟踪更多用户反馈。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_fe27b1d15c9c",
+          "creator_event_id": "creator-99716b4acfdc7c56",
+          "merged_story_ids": [
+            "story_fe27b1d15c9c"
+          ],
+          "title": "诉讼纠纷变乌龙？OpenAI 反呛苹果：你的外聘律师把邮件发错人了",
+          "url": "https://www.aibase.com/news/30119",
+          "primary_url": "https://www.aibase.com/news/30119",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "source_count": 1,
+          "source_names": [
+            "AIbase"
+          ],
+          "score": 0.765,
+          "importance": 0.765,
+          "importance_score": 0.765,
+          "importance_label": "行业动态",
+          "importance_breakdown": {
+            "editorial": 0.72,
+            "source_tier": 0.78,
+            "ai_relevance": 1.0,
+            "recency": 0.9857,
+            "story_heat": 0.0
+          },
+          "category": "industry",
+          "reasons": [
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-08-05T10:51:37.980039Z",
+          "latest_at": "2026-08-05T10:51:37.980039Z",
+          "creator_score": 70.4,
+          "creator_breakdown": {
+            "relevance": 0.68,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.63,
+            "novelty": 0.85,
+            "heat": 0.4177
+          },
+          "creator_bucket": "general_ai",
+          "primary_entity": "openai",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:openai",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "f7c8960924c4b241f96944ab669b9a0277061ef0",
+            "title": "诉讼纠纷变乌龙？OpenAI 反呛苹果：你的外聘律师把邮件发错人了",
+            "title_zh": "诉讼纠纷变乌龙？OpenAI 反呛苹果：你的外聘律师把邮件发错人了",
+            "title_original": "诉讼纠纷变乌龙？OpenAI 反呛苹果：你的外聘律师把邮件发错人了",
+            "summary": "The commercial secret lawsuit between Apple and OpenAI took a dramatic turn on August 4th. After Apple filed an initial injunction and accelerated discovery mot\nThe commercial secret lawsuit between Apple and OpenAI took a dramatic turn on August 4th. After Apple filed an initial injunction and accelerated discovery mot\nThe commercial secret lawsuit between Apple and OpenAI took a dramatic turn on August 4th. After Apple filed an initial injunction and accelerated discovery mot\nExplore AI Fronti",
+            "recommend_reason_zh": "苹果与OpenAI的商业机密诉讼8月4日反转，OpenAI发布“Apple Got It Wrong”回应，公布内部邮件和iMessage截图，反指苹果禁令申请基于误导，并牵出7月10日对Chang Liu与Tang Tan的窃密指控。",
+            "url": "https://www.aibase.com/news/30119",
+            "source": "AIbase",
+            "source_name": "AIbase"
+          },
+          "sources": [
+            {
+              "story_id": "story_fe27b1d15c9c",
+              "title": "诉讼纠纷变乌龙？OpenAI 反呛苹果：你的外聘律师把邮件发错人了",
+              "url": "https://www.aibase.com/news/30119",
+              "source": "AIbase",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "苹果与OpenAI商业机密诉讼8月4日反转，OpenAI回应称苹果禁令申请基于误导，外聘律师发错邮件，并公布内部邮件与iMessage截图，涉及7月10日对两名前员工的窃密指控。",
+          "why_it_matters": "该诉讼可能影响OpenAI与苹果的合作及开发者对AI生态的预期，也牵动商业机密保护与人才流动的监管边界，值得关注后续裁定。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "OpenAI反呛苹果：你的律师发错邮件了？",
+              "angle": "作为AI开发者，我一直在关注苹果与OpenAI的动向。这起商业机密诉讼突然反转，OpenAI公开截图指苹果禁令申请有误。虽然还没看到法院裁决，但这一波舆论战值得玩味。",
+              "needs_hands_on": false,
+              "risk": "邮件内容和iMessage截图的真实性尚未独立验证，苹果方面尚未回应。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "苹果vs OpenAI诉讼反转，给开发者的3个避坑提醒",
+              "angle": "从这起乌龙事件我总结了几个职场和商业合作中的教训：邮件沟通要仔细、法律文件要核查、与巨头合作更要留证据。具体案例细节我整理成笔记了。",
+              "needs_hands_on": false,
+              "risk": "诉讼细节复杂，需要核实双方说法，避免以偏概全。"
+            },
+            {
+              "platform": "wechat",
+              "title": "一封发错的邮件，如何搅动苹果与OpenAI的AI棋局？",
+              "angle": "从商业机密诉讼切入，分析苹果与OpenAI从合作到对簿公堂的背后逻辑，以及对AI开发者生态的长期影响。",
+              "needs_hands_on": false,
+              "risk": "单一信源，需要等待苹果官方回应及法院文件以交叉验证。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_d70b948b65f0",
+          "creator_event_id": "creator-611ca99a0687f369",
+          "merged_story_ids": [
+            "story_d70b948b65f0"
+          ],
+          "title": "DeepSeek V4正式版发布，教你在Codex中配置Flash",
+          "url": "https://juejin.cn/post/7669638812705587238",
+          "primary_url": "https://juejin.cn/post/7669638812705587238",
+          "source": "juejin",
+          "source_name": "NewsNow",
+          "source_count": 1,
+          "source_names": [
+            "juejin"
+          ],
+          "score": 0.5199,
+          "importance": 0.5199,
+          "importance_score": 0.5199,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.468,
+            "source_tier": 0.32,
+            "ai_relevance": 0.65,
+            "recency": 0.9948,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-08-05T11:30:09.307000Z",
+          "latest_at": "2026-08-05T11:30:09.307000Z",
+          "creator_score": 70.0,
+          "creator_breakdown": {
+            "relevance": 0.68,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.63,
+            "novelty": 0.85,
+            "heat": 0.332
+          },
+          "creator_bucket": "general_ai",
+          "primary_entity": "deepseek",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:deepseek",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "d186c7b2e4c3661089a6fee7ee030fa0a69d931e",
+            "title": "DeepSeek V4正式版发布，教你在Codex中配置Flash",
+            "title_zh": "DeepSeek V4正式版发布，教你在Codex中配置Flash",
+            "title_original": "DeepSeek V4正式版发布，教你在Codex中配置Flash",
+            "url": "https://juejin.cn/post/7669638812705587238",
+            "source": "juejin",
+            "source_name": "NewsNow"
+          },
+          "sources": [
+            {
+              "story_id": "story_d70b948b65f0",
+              "title": "DeepSeek V4正式版发布，教你在Codex中配置Flash",
+              "url": "https://juejin.cn/post/7669638812705587238",
+              "source": "juejin",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "掘金文章称 DeepSeek V4 正式版发布，并介绍在 Codex 中配置 Flash 模型的方法。该消息仅单一来源，未经官方确认，真实性待核实。",
+          "why_it_matters": "若属实，开发者可在 Codex 中切换 DeepSeek V4 模型，影响工具链选择与成本；但单一来源信息需谨慎，避免基于未证实消息调整工作",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "我按教程在 Codex 里配了 DeepSeek V4，结果……",
+              "angle": "以第一人称分享实测过程，验证教程是否可用，注意区分官方与非官方消息。",
+              "needs_hands_on": true,
+              "risk": "DeepSeek V4 真实性未证实；Codex 是否支持该模型配置需实测。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "Codex 配置 DeepSeek V4 Flash 教程｜避坑指南",
+              "angle": "分步骤截图演示配置过程，列出常见报错与解决方案，强调消息来源单一，谨慎操作。",
+              "needs_hands_on": true,
+              "risk": "需确认 DeepSeek V4 官方 API 是否存在，以及 Flash 具体指什么。"
+            },
+            {
+              "platform": "wechat",
+              "title": "DeepSeek V4 传闻与 Codex 生态：第三方模型接入的变局",
+              "angle": "从行业背景分析第三方模型接入 Codex 的意义，探讨消息真实性及潜在影响，不急于下结论。",
+              "needs_hands_on": false,
+              "risk": "消息未经官方证实，需引用更多来源佐证。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_13a701410a1c",
+          "creator_event_id": "creator-6b9f92fb54e10644",
+          "merged_story_ids": [
+            "story_13a701410a1c"
+          ],
+          "title": "llm-anthropic 0.26发布 支持Anthropic Claude系列模型",
+          "url": "https://simonwillison.net/2026/Aug/4/llm-anthropic",
+          "primary_url": "https://simonwillison.net/2026/Aug/4/llm-anthropic",
+          "source": "Simon Willison",
+          "source_name": "OPML RSS",
+          "source_count": 1,
+          "source_names": [
+            "Simon Willison"
+          ],
+          "score": 0.5694,
+          "importance": 0.5694,
+          "importance_score": 0.5694,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.54,
+            "source_tier": 0.5,
+            "ai_relevance": 0.75,
+            "recency": 0.8188,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-08-04T22:00:58Z",
+          "latest_at": "2026-08-04T22:00:58Z",
+          "creator_score": 70.0,
+          "creator_breakdown": {
+            "relevance": 0.68,
+            "freshness": 0.7938,
+            "source": 0.7,
+            "impact": 0.63,
+            "novelty": 0.85,
+            "heat": 0.3493
+          },
+          "creator_bucket": "general_ai",
+          "primary_entity": "anthropic",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:anthropic",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "6f5eb9ad2075b6a2de2071868cbdc981461e6cff",
+            "title": "llm-anthropic 0.26发布 支持Anthropic Claude系列模型",
+            "title_zh": "llm-anthropic 0.26发布 支持Anthropic Claude系列模型",
+            "title_en": "llm-anthropic 0.26",
+            "title_original": "llm-anthropic 0.26",
+            "url": "https://simonwillison.net/2026/Aug/4/llm-anthropic",
+            "source": "Simon Willison",
+            "source_name": "OPML RSS"
+          },
+          "sources": [
+            {
+              "story_id": "story_13a701410a1c",
+              "title": "llm-anthropic 0.26发布 支持Anthropic Claude系列模型",
+              "url": "https://simonwillison.net/2026/Aug/4/llm-anthropic",
+              "source": "Simon Willison",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "llm-anthropic 0.26发布，据Simon Willison博客称新增对Anthropic Claude系列模型的支持。目前仅单一来源，更新细节与兼容范围未经官方确认。",
+          "why_it_matters": "为LLM命令行工具扩展了Claude模型接入通道，可能影响AI Coding工作流的模型选择与切换成本。但单一来源，需验证实际兼容性与稳定性",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "实测llm-anthropic 0.26：终端直接跑Claude模型",
+              "angle": "第一时间安装体验，对比之前使用API的差异，分享真实感受。",
+              "needs_hands_on": true,
+              "risk": "该版本具体更新内容尚未经官方确认，亲测时需验证是否真正支持所有Claude模型。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "llm-anthropic 0.26安装配置教程：用终端调用Claude",
+              "angle": "手把手教安装步骤，展示如何通过LLM工具调用Claude，并指出常见坑。",
+              "needs_hands_on": true,
+              "risk": "版本为单一来源，安装后如遇问题需自行排查。"
+            },
+            {
+              "platform": "wechat",
+              "title": "从llm-anthropic 0.26看Simon Willison的AI Coding工具链",
+              "angle": "分析该工具在AI Coding生态中的位置，以及对开发者工具链的影响。",
+              "needs_hands_on": false,
+              "risk": "需核实该版本是否官方发布，以及具体支持模型。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_145a00bb5904",
+          "creator_event_id": "creator-b7d1401bc90898b9",
+          "merged_story_ids": [
+            "story_145a00bb5904"
+          ],
+          "title": "京东开源视频实时编辑模型：30 帧秒级推理，边看边改重新定义视频创作",
+          "url": "https://www.aibase.com/news/30123",
+          "primary_url": "https://www.aibase.com/news/30123",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "source_count": 1,
+          "source_names": [
+            "AIbase"
+          ],
+          "score": 0.7656,
+          "importance": 0.7656,
+          "importance_score": 0.7656,
+          "importance_label": "行业动态",
+          "importance_breakdown": {
+            "editorial": 0.72,
+            "source_tier": 0.78,
+            "ai_relevance": 1.0,
+            "recency": 0.9888,
+            "story_heat": 0.0
+          },
+          "category": "industry",
+          "reasons": [
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-08-05T11:04:37.980039Z",
+          "latest_at": "2026-08-05T11:04:37.980039Z",
+          "creator_score": 68.5,
+          "creator_breakdown": {
+            "relevance": 0.65,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.63,
+            "novelty": 0.75,
+            "heat": 0.418
+          },
+          "creator_bucket": "general_ai",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "fb17bcce0daff574b82826ebe91af9e4b0a39d3c",
+            "title": "京东开源视频实时编辑模型：30 帧秒级推理，边看边改重新定义视频创作",
+            "title_zh": "京东开源视频实时编辑模型：30 帧秒级推理，边看边改重新定义视频创作",
+            "title_original": "京东开源视频实时编辑模型：30 帧秒级推理，边看边改重新定义视频创作",
+            "summary": "Jingdong has announced the open-source of its self-developed real-time streaming video editing model JoyAI-Video-Edit. Users can modify characters and scenes wh\nJingdong has announced the open-source of its self-developed real-time streaming video editing model JoyAI-Video-Edit. Users can modify characters and scenes wh\nJingdong has announced the open-source of its self-developed real-time streaming video editing model JoyAI-Video-Edit. Users can modify characters and scenes wh\nExplore AI Fronti",
+            "recommend_reason_zh": "Jingdong开源自研实时流视频编辑模型 JoyAI-Video-Edit，720P下推理速度达30帧每秒，支持边看边改，把视频创作从后期剪辑变成实时交互，官方称全面超越行业代表模型。",
+            "url": "https://www.aibase.com/news/30123",
+            "source": "AIbase",
+            "source_name": "AIbase"
+          },
+          "sources": [
+            {
+              "story_id": "story_145a00bb5904",
+              "title": "京东开源视频实时编辑模型：30 帧秒级推理，边看边改重新定义视频创作",
+              "url": "https://www.aibase.com/news/30123",
+              "source": "AIbase",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "京东开源视频实时编辑模型 JoyAI-Video-Edit，官方称 720P 下推理速度达 30 帧每秒，支持边看边改，可将视频创作从后期剪辑变为实时交互。目前仅单一来源报道，未经",
+          "why_it_matters": "若性能属实，视频编辑工作流将从离线渲染转向实时交互，降低试错成本，但需验证其对长视频、复杂编辑的兼容性与稳定性。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "京东开源的实时视频编辑模型，真能边看边改？我先跑个 demo",
+              "angle": "以开发者身份下载模型跑通官方 demo，对比传统帧级编辑流程，记录实测速度与效果。",
+              "needs_hands_on": true,
+              "risk": "单源报道，需验证实际推理速度与编辑质量是否如官方所述。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "用 JoyAI-Video-Edit 实时改视频：30fps 实测避坑指南",
+              "angle": "分享从安装到跑通的完整步骤，包括环境配置、显存需求、编辑效果展示，以及新手容易踩的坑。",
+              "needs_hands_on": true,
+              "risk": "未亲测，需核实官方仓库是否公开、硬件要求等。"
+            },
+            {
+              "platform": "wechat",
+              "title": "从离线渲染到实时交互：京东 JoyAI-Video-Edit 开源的行业信号",
+              "angle": "分析该模型开源对整个视频编辑工具链的影响，对比现有方案，探讨实时编辑如何改变创作者工作流与产品形态。",
+              "needs_hands_on": false,
+              "risk": "需跟进官方技术报告与评测，确认‘全面超越’的对比基准。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        }
+      ],
+      "llm_meta": {
+        "provider": "deepseek",
+        "model": "deepseek-v4-flash",
+        "calls_used": 12,
+        "cache_hits": 0,
+        "fallback_count": 0
+      },
+      "dedup_meta": {
+        "secondary_dedup_merge_count": 3,
+        "secondary_dedup_source_count": 223
+      }
+    },
     {
       "edition_id": "2026-08-05-morning",
       "edition_kind": "morning",

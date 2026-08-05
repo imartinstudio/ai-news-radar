@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-04T23:25:18.744101Z",
-  "model": "deepseek-chat",
+  "generated_at": "2026-08-05T12:15:48.015802Z",
+  "model": "deepseek-v4-flash",
   "personas": [
     {
       "id": "cynic",
@@ -21,22 +21,42 @@
   ],
   "items": [
     {
-      "story_id": "story_05bcbbcf4f82",
-      "title": "在单颗 AMD MI300X 上运行 DeepSeek V4 Flash",
-      "url": "https://github.com/ryanzhou/deepseek-v4-flash-mi300x",
+      "story_id": "story_b2c075d30098",
+      "title": "Google Cloud API Gateway 推出统一模型路由功能，支持 Gemini、Claude 与 OpenAI OSS-GPT / A unified API for AI model routing",
+      "url": "https://developers.googleblog.com/a-unified-api-for-ai-model-routing",
       "rank": 1,
       "reviews": {
         "cynic": {
-          "score": 72,
-          "review": "单卡跑大模型是实打实的，但'Flash'这名字听着就像营销，细节呢？"
+          "score": 65,
+          "review": "统一路由早就是标配，Google 这盘菜只换了盘子没换厨子。"
+        },
+        "paper-police": {
+          "score": 50,
+          "review": "官方博客公布细节但未开源，等第三方实测再定论。"
+        },
+        "pragmatic": {
+          "score": 92,
+          "review": "统一 API 接入多模型，切换成本骤降，今天就能配网关实测。"
+        }
+      }
+    },
+    {
+      "story_id": "story_788cae258ab4",
+      "title": "Mistral 推出 Shieldstral：3B 小模型单卡 16GB 跑起多模态审核，号称拿下开源 SOTA",
+      "url": "https://www.aibase.com/news/30132",
+      "rank": 2,
+      "reviews": {
+        "cynic": {
+          "score": 55,
+          "review": "3B跑16GB不算新闻，SOTA对比表敢晒全吗？"
         },
         "paper-police": {
           "score": 20,
-          "review": "只有GitHub仓库，无论文无benchmark，单卡运行细节待验证。"
+          "review": "只有新闻稿宣称SOTA，无论文无代码，开源SOTA需复现验证。"
         },
         "pragmatic": {
-          "score": 88,
-          "review": "单卡跑V4 Flash，部署成本直接砍半，今天就能抄作业。"
+          "score": 90,
+          "review": "开源可克隆，3B单卡能跑，内容审核场景今天就能换。"
         }
       }
     },
@@ -44,39 +64,19 @@
       "story_id": "story_07b0df6b2011",
       "title": "Soup v0.72.4：在4 GB显存笔记本GPU上微调8B模型",
       "url": "https://github.com/MakazhanAlpamys/Soup",
-      "rank": 2,
-      "reviews": {
-        "cynic": {
-          "score": 72,
-          "review": "4GB显存微调8B，听着像魔法，但得看它砍了多少精度和速度。"
-        },
-        "paper-police": {
-          "score": 62,
-          "review": "GitHub仓库在，但无论文和独立评测，微调效果待验证。"
-        },
-        "pragmatic": {
-          "score": 88,
-          "review": "4GB显存能微调8B，直接解了低配开发者的燃眉之急，今天就能试。"
-        }
-      }
-    },
-    {
-      "story_id": "story_b2c075d30098",
-      "title": "Google Cloud API Gateway 推出统一模型路由功能，支持 Gemini、Claude 与 OpenAI OSS-GPT / A unified API for AI model routing",
-      "url": "https://developers.googleblog.com/a-unified-api-for-ai-model-routing",
       "rank": 3,
       "reviews": {
         "cynic": {
-          "score": 72,
-          "review": "统一路由是省事，但别指望它解决模型选择焦虑，API 壳子而已。"
+          "score": 52,
+          "review": "4GB跑8B微调？多半是LoRA加4bit量化，全参数微调敢亮个日志吗？"
         },
         "paper-police": {
-          "score": 45,
-          "review": "官方博客给了功能细节，但无代码无评测，等实际调用验证。"
+          "score": 55,
+          "review": "代码开源可自测，但无论文和benchmark，微调效果待验证。"
         },
         "pragmatic": {
-          "score": 85,
-          "review": "统一路由API今天就能接，省去多模型适配，直接降集成成本。"
+          "score": 90,
+          "review": "4G显存能微调8B模型，小显卡党直接上手，仓库可clone。"
         }
       }
     }
