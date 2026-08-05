@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T12:15:48.015802Z",
+  "generated_at": "2026-08-05T23:16:08.710808Z",
   "model": "deepseek-v4-flash",
   "personas": [
     {
@@ -21,30 +21,10 @@
   ],
   "items": [
     {
-      "story_id": "story_b2c075d30098",
-      "title": "Google Cloud API Gateway 推出统一模型路由功能，支持 Gemini、Claude 与 OpenAI OSS-GPT / A unified API for AI model routing",
-      "url": "https://developers.googleblog.com/a-unified-api-for-ai-model-routing",
-      "rank": 1,
-      "reviews": {
-        "cynic": {
-          "score": 65,
-          "review": "统一路由早就是标配，Google 这盘菜只换了盘子没换厨子。"
-        },
-        "paper-police": {
-          "score": 50,
-          "review": "官方博客公布细节但未开源，等第三方实测再定论。"
-        },
-        "pragmatic": {
-          "score": 92,
-          "review": "统一 API 接入多模型，切换成本骤降，今天就能配网关实测。"
-        }
-      }
-    },
-    {
       "story_id": "story_788cae258ab4",
       "title": "Mistral 推出 Shieldstral：3B 小模型单卡 16GB 跑起多模态审核，号称拿下开源 SOTA",
       "url": "https://www.aibase.com/news/30132",
-      "rank": 2,
+      "rank": 1,
       "reviews": {
         "cynic": {
           "score": 55,
@@ -61,22 +41,42 @@
       }
     },
     {
-      "story_id": "story_07b0df6b2011",
-      "title": "Soup v0.72.4：在4 GB显存笔记本GPU上微调8B模型",
-      "url": "https://github.com/MakazhanAlpamys/Soup",
+      "story_id": "story_20b80d150b2a",
+      "title": "LLM 0.32 发布：新增推理轨迹、OpenAI Responses、服务端工具与更智能的日志 / New release of LLM adds support for reasoning traces， OpenAI Responses， server-side tools， and smarter logging",
+      "url": "https://simonwillison.net/2026/Aug/4/new-release-of-llm",
+      "rank": 2,
+      "reviews": {
+        "cynic": {
+          "score": 75,
+          "review": "功能都落地了，但也就是常规迭代，别吹成里程碑。"
+        },
+        "paper-police": {
+          "score": 75,
+          "review": "代码开源可直接跑，但无benchmark和第三方验证，功能优劣待实测。"
+        },
+        "pragmatic": {
+          "score": 88,
+          "review": "开源工具直接升级就能用，推理轨迹和日志对调接口很实用。"
+        }
+      }
+    },
+    {
+      "story_id": "story_ef28a1340614",
+      "title": "NVIDIA 发布 Alpamayo 2 Super：面向 Robotaxi 与自动驾驶的 34B 开源视觉-语言-动作模型 / NVIDIA Releases Alpamayo 2 Super： A 34B Open Vision-Language-Action Model for Robotaxis and Autonomous Driving Under OpenMDW-1.1",
+      "url": "https://www.marktechpost.com/2026/08/05/nvidia-alpamayo-2-super-open-vla-model-autonomous-driving",
       "rank": 3,
       "reviews": {
         "cynic": {
-          "score": 52,
-          "review": "4GB跑8B微调？多半是LoRA加4bit量化，全参数微调敢亮个日志吗？"
+          "score": 70,
+          "review": "开源参数不小，但Robotaxi 落地先算算车载算力账单。"
         },
         "paper-police": {
-          "score": 55,
-          "review": "代码开源可自测，但无论文和benchmark，微调效果待验证。"
+          "score": 25,
+          "review": "仅新闻稿称开源，无论文无代码无benchmark，等仓库验证。"
         },
         "pragmatic": {
-          "score": 90,
-          "review": "4G显存能微调8B模型，小显卡党直接上手，仓库可clone。"
+          "score": 82,
+          "review": "做机器人或智驾的团队可试，但34B模型部署门槛高，先算算显存。"
         }
       }
     }
