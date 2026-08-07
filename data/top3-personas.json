@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T11:06:00.721477Z",
+  "generated_at": "2026-08-07T22:58:54.143405Z",
   "model": "deepseek-v4-flash",
   "personas": [
     {
@@ -21,30 +21,10 @@
   ],
   "items": [
     {
-      "story_id": "story_67de54450aab",
-      "title": "Kimi K3 现已登陆 GitHub Copilot / Kimi K3 is now available in GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-08-06-kimi-k3-is-now-available-in-github-copilot",
-      "rank": 1,
-      "reviews": {
-        "cynic": {
-          "score": 45,
-          "review": "进个Copilot就发公告，K3的实测数据敢晒出来吗？"
-        },
-        "paper-police": {
-          "score": 25,
-          "review": "官方公告仅称可用，无论文无评测，缺独立验证。"
-        },
-        "pragmatic": {
-          "score": 90,
-          "review": "Copilot 里直接选 Kimi K3 就能用，多一个编码模型选择，今天可上手试。"
-        }
-      }
-    },
-    {
       "story_id": "story_3e94f4d6faf0",
       "title": "Seedance 2.5 API上线，视频生成开启「电影级长叙事」",
       "url": "https://mp.weixin.qq.com/s?__biz=MzI0NzU1NzI5NQ%3D%3D&mid=2247543416&idx=1&sn=badeafc780a939033a1e4cb0bba4221c",
-      "rank": 2,
+      "rank": 1,
       "reviews": {
         "cynic": {
           "score": 45,
@@ -61,22 +41,42 @@
       }
     },
     {
-      "story_id": "story_23b7800d7275",
-      "title": "OpenAI 优化 ChatGPT 中的 GPT-5.6 Sol，并扩大免费用户对 GPT-5.6 Luna 的访问权限",
-      "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
-      "rank": 3,
+      "story_id": "story_879e30ce457c",
+      "title": "HPC-Ops × SGLang：腾讯混元开源高性能 Attention、Router GEMM 与 MoE 算子 / Blog HPC-Ops × SGLang： High-Performance Attention， Router GEMM， and MoE Kernels from Tencent Hunyuan HPC-Ops is an open-source operator library for LLM inference， deployed in Tencent's large-scale production serving. Its core operators， including Dynamic Attention and Fused MoE， play a critical role … Tencent Hunyuan AI Infra and the SGLang Team",
+      "url": "https://www.lmsys.org/blog/2026-08-07-hpc-ops-sglang",
+      "rank": 2,
       "reviews": {
         "cynic": {
-          "score": 65,
-          "review": "名字越来越像星座，免费用户终于能摸到旧模型，新模型依旧藏收费墙后。"
+          "score": 87,
+          "review": "敢把生产算子开源并集成进SGLang，有干货；但跑分别又只挑自家旗舰卡。"
         },
         "paper-police": {
           "score": 25,
-          "review": "官方博客只给产品更新，无论文无基准，优化效果无法外部验证。"
+          "review": "只有博客宣称开源，无代码链接无论文，没法复现，证据不足。"
         },
         "pragmatic": {
-          "score": 75,
-          "review": "免费用户能试Luna了，直接上手体验；Sol优化细节需看文档再定。"
+          "score": 88,
+          "review": "腾讯开源 HPC-Ops 算子库，可配合 SGLang 直接用，跑大模型推理能提速。"
+        }
+      }
+    },
+    {
+      "story_id": "story_2b97640ff5a6",
+      "title": "Claude Code 会话间可互发消息 / New in Claude Code： your sessions can now message each other. Instead of having to re-explain yours…",
+      "url": "https://x.com/ClaudeDevs/status/2085817074816070014",
+      "rank": 3,
+      "reviews": {
+        "cynic": {
+          "score": 72,
+          "review": "省了复制粘贴，倒是能少打几个字，可会话多了照样晕头转向。"
+        },
+        "paper-police": {
+          "score": 30,
+          "review": "官方推特宣称新功能，无文档无演示无复现，等正式说明再确认。"
+        },
+        "pragmatic": {
+          "score": 82,
+          "review": "跨会话传上下文，省去重复解释，长任务和协作场景直接能用。"
         }
       }
     }
