@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T10:44:53.187599Z",
+  "generated_at": "2026-08-08T22:38:02.501041Z",
   "model": "deepseek-v4-flash",
   "personas": [
     {
@@ -21,62 +21,62 @@
   ],
   "items": [
     {
-      "story_id": "story_879e30ce457c",
-      "title": "HPC-Ops × SGLang：腾讯混元开源高性能 Attention、Router GEMM 与 MoE 算子 / Blog HPC-Ops × SGLang： High-Performance Attention， Router GEMM， and MoE Kernels from Tencent Hunyuan HPC-Ops is an open-source operator library for LLM inference， deployed in Tencent's large-scale production serving. Its core operators， including Dynamic Attention and Fused MoE， play a critical role … Tencent Hunyuan AI Infra and the SGLang Team",
-      "url": "https://www.lmsys.org/blog/2026-08-07-hpc-ops-sglang",
+      "story_id": "story_adfff91a73dc",
+      "title": "OpenAI 意外攻击 Hugging Face 事件时间线现已整理出炉",
+      "url": "https://simonwillison.net/2026/Aug/7/openai-timeline",
       "rank": 1,
       "reviews": {
         "cynic": {
-          "score": 87,
-          "review": "敢把生产算子开源并集成进SGLang，有干货；但跑分别又只挑自家旗舰卡。"
+          "score": 40,
+          "review": "时间线整理得挺勤快，就是不知道代码修复了没。"
         },
         "paper-police": {
-          "score": 25,
-          "review": "只有博客宣称开源，无代码链接无论文，没法复现，证据不足。"
+          "score": 50,
+          "review": "事件时间线有细节但缺一手证据，代码和复现路径均未公开。"
         },
         "pragmatic": {
-          "score": 88,
-          "review": "腾讯开源 HPC-Ops 算子库，可配合 SGLang 直接用，跑大模型推理能提速。"
+          "score": 62,
+          "review": "事件时间线清楚，但别急着站队，先确认自己数据是否受影响。"
         }
       }
     },
     {
-      "story_id": "story_2b97640ff5a6",
-      "title": "Claude Code 会话间可互发消息 / New in Claude Code： your sessions can now message each other. Instead of having to re-explain yours…",
-      "url": "https://x.com/ClaudeDevs/status/2085817074816070014",
+      "story_id": "story_8d401dc43acf",
+      "title": "DeepMind 的 WeatherNext 飓风模型为预报员争取到额外一天预警时间 / DeepMind's hurricane model bought forecasters an extra day",
+      "url": "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day",
       "rank": 2,
       "reviews": {
         "cynic": {
-          "score": 72,
-          "review": "省了复制粘贴，倒是能少打几个字，可会话多了照样晕头转向。"
+          "score": 75,
+          "review": "多抢一天预警不错，但没提误报率，先别吹太满。"
         },
         "paper-police": {
-          "score": 30,
-          "review": "官方推特宣称新功能，无文档无演示无复现，等正式说明再确认。"
+          "score": 45,
+          "review": "新闻给了数字但没附论文代码，等原始研究公开再定论。"
         },
         "pragmatic": {
-          "score": 82,
-          "review": "跨会话传上下文，省去重复解释，长任务和协作场景直接能用。"
+          "score": 52,
+          "review": "气象AI研究进展，暂无直接可用的API或工具，等产品化再看。"
         }
       }
     },
     {
-      "story_id": "story_af6808a77d18",
-      "title": "Copilot 使用指标 API 新增 Agent 应用活动 / Copilot usage metrics API adds agent app activity",
-      "url": "https://github.blog/changelog/2026-08-07-copilot-usage-metrics-api-adds-agent-app-activity",
+      "story_id": "story_e1fa47f5bc52",
+      "title": "苹果 Mac 简体中文支持文档更新，\"Apple 智能\"阿里千问扩展现身",
+      "url": "https://www.ithome.com/0/987/366.htm",
       "rank": 3,
       "reviews": {
         "cynic": {
-          "score": 70,
-          "review": "多一个统计字段就敢叫Agent活动，先看看有多少人真在跑Agent吧。"
+          "score": 45,
+          "review": "文档更新就喊合作，真机体验呢？别拿对齐当落地。"
         },
         "paper-police": {
-          "score": 22,
-          "review": "官方changelog有功能描述，但无代码或复现途径，仅属官方说法。"
+          "score": 20,
+          "review": "仅文档更新提及，无实测和上线证据，等官方发布再定。"
         },
         "pragmatic": {
-          "score": 80,
-          "review": "API直接可查Agent应用活动，做用量监控的今天就能接。"
+          "score": 52,
+          "review": "苹果智能接入千问还没落地，等具体接口或功能上线再动。"
         }
       }
     }
