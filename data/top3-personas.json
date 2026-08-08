@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T22:58:54.143405Z",
+  "generated_at": "2026-08-08T10:44:53.187599Z",
   "model": "deepseek-v4-flash",
   "personas": [
     {
@@ -21,30 +21,10 @@
   ],
   "items": [
     {
-      "story_id": "story_3e94f4d6faf0",
-      "title": "Seedance 2.5 API上线，视频生成开启「电影级长叙事」",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzI0NzU1NzI5NQ%3D%3D&mid=2247543416&idx=1&sn=badeafc780a939033a1e4cb0bba4221c",
-      "rank": 1,
-      "reviews": {
-        "cynic": {
-          "score": 45,
-          "review": "“电影级”三个字值50分，先放未剪辑样片再谈。"
-        },
-        "paper-police": {
-          "score": 25,
-          "review": "官方公众号宣称电影级，无论文无代码无评测，等公开benchmark再信。"
-        },
-        "pragmatic": {
-          "score": 90,
-          "review": "API已开放，搞视频生成的今天就能调，先跑个测试看效果。"
-        }
-      }
-    },
-    {
       "story_id": "story_879e30ce457c",
       "title": "HPC-Ops × SGLang：腾讯混元开源高性能 Attention、Router GEMM 与 MoE 算子 / Blog HPC-Ops × SGLang： High-Performance Attention， Router GEMM， and MoE Kernels from Tencent Hunyuan HPC-Ops is an open-source operator library for LLM inference， deployed in Tencent's large-scale production serving. Its core operators， including Dynamic Attention and Fused MoE， play a critical role … Tencent Hunyuan AI Infra and the SGLang Team",
       "url": "https://www.lmsys.org/blog/2026-08-07-hpc-ops-sglang",
-      "rank": 2,
+      "rank": 1,
       "reviews": {
         "cynic": {
           "score": 87,
@@ -64,7 +44,7 @@
       "story_id": "story_2b97640ff5a6",
       "title": "Claude Code 会话间可互发消息 / New in Claude Code： your sessions can now message each other. Instead of having to re-explain yours…",
       "url": "https://x.com/ClaudeDevs/status/2085817074816070014",
-      "rank": 3,
+      "rank": 2,
       "reviews": {
         "cynic": {
           "score": 72,
@@ -77,6 +57,26 @@
         "pragmatic": {
           "score": 82,
           "review": "跨会话传上下文，省去重复解释，长任务和协作场景直接能用。"
+        }
+      }
+    },
+    {
+      "story_id": "story_af6808a77d18",
+      "title": "Copilot 使用指标 API 新增 Agent 应用活动 / Copilot usage metrics API adds agent app activity",
+      "url": "https://github.blog/changelog/2026-08-07-copilot-usage-metrics-api-adds-agent-app-activity",
+      "rank": 3,
+      "reviews": {
+        "cynic": {
+          "score": 70,
+          "review": "多一个统计字段就敢叫Agent活动，先看看有多少人真在跑Agent吧。"
+        },
+        "paper-police": {
+          "score": 22,
+          "review": "官方changelog有功能描述，但无代码或复现途径，仅属官方说法。"
+        },
+        "pragmatic": {
+          "score": 80,
+          "review": "API直接可查Agent应用活动，做用量监控的今天就能接。"
         }
       }
     }
