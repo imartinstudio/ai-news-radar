@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T11:20:51.805390Z",
+  "generated_at": "2026-08-10T22:59:07.680568Z",
   "model": "deepseek-v4-flash",
   "personas": [
     {
@@ -21,10 +21,30 @@
   ],
   "items": [
     {
+      "story_id": "story_b385166df3f8",
+      "title": "借助 NVIDIA Magpie TTS 构建低延迟多语言语音 Agent：开放权重与完全部署控制 / Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
+      "url": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
+      "rank": 1,
+      "reviews": {
+        "cynic": {
+          "score": 80,
+          "review": "开放权重加低延迟是实打实的，但多语言覆盖和竞品对比还得自己跑一遍。"
+        },
+        "paper-police": {
+          "score": 55,
+          "review": "官方博客宣称开放权重，但无论文与第三方评测，需实测验证。"
+        },
+        "pragmatic": {
+          "score": 88,
+          "review": "开放权重可本地部署，低延迟多语言TTS直接能集成，适合自建语音Agent。"
+        }
+      }
+    },
+    {
       "story_id": "story_376615090e56",
       "title": "Scale AI 开源 Muse 系列模型 / 1/ big announcement today： we will be releasing an open weight version of muse spark 1.2 soon. we a…",
       "url": "https://x.com/alexandr_wang/status/2086756152034066792",
-      "rank": 1,
+      "rank": 2,
       "reviews": {
         "cynic": {
           "score": 72,
@@ -41,42 +61,22 @@
       }
     },
     {
-      "story_id": "story_ae25210f3945",
-      "title": "英伟达首款开源全双工语音模型VoiceChat 11B正式发布",
-      "url": "https://www.aibase.com/news/30220",
-      "rank": 2,
-      "reviews": {
-        "cynic": {
-          "score": 68,
-          "review": "全双工语音模型开源早有先例，英伟达这波自信哪来的？"
-        },
-        "paper-police": {
-          "score": 20,
-          "review": "仅新闻宣称发布，无论文无代码无评测，证据为零。"
-        },
-        "pragmatic": {
-          "score": 88,
-          "review": "开源全双工语音模型，可自部署，做语音交互的今天就能试。"
-        }
-      }
-    },
-    {
-      "story_id": "story_db693db10af6",
-      "title": "NVIDIA 发布 NemotronLabs VoiceChat 11B：开源全双工语音模型，支持约 450 毫秒轮换与实时工具调用 / NVIDIA Releases NemotronLabs VoiceChat 11B： An Open Full-Duplex Speech-to-Speech Model with ~450 ms Turn-Taking and Live Tool Calling",
-      "url": "https://www.marktechpost.com/2026/08/09/nvidia-releases-nemotronlabs-voicechat-11b-an-open-full-duplex-speech-to-speech-model-with-450-ms-turn-taking-and-live-tool-calling",
+      "story_id": "story_f612b5d58d1d",
+      "title": "使用适用于 Java 的 GitHub Copilot SDK / Using the GitHub Copilot SDK for Java",
+      "url": "https://github.blog/engineering/using-the-github-copilot-sdk-for-java",
       "rank": 3,
       "reviews": {
         "cynic": {
-          "score": 72,
-          "review": "开源是真开源，450毫秒也算快，但轮换延迟的测试环境敢晒吗？"
+          "score": 70,
+          "review": "官方 SDK 算实用，但也就是给 Java 打了个补丁，别吹成革命。"
         },
         "paper-police": {
-          "score": 30,
-          "review": "仅媒体报道，未见论文与代码链接，开源细节待官方验证。"
+          "score": 45,
+          "review": "官方博客有细节但无复现途径，缺代码仓库和独立验证。"
         },
         "pragmatic": {
-          "score": 88,
-          "review": "开源可自部署，450ms延迟够用，语音+工具调用今天就能试。"
+          "score": 82,
+          "review": "Java 项目可直接集成 Copilot SDK，官方文档齐，今天就能上手试。"
         }
       }
     }
