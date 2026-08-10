@@ -1,337 +1,43 @@
 {
-  "edition_id": "2026-08-10-morning",
-  "edition_kind": "morning",
-  "generated_at": "2026-08-09T22:40:59.639772Z",
+  "edition_id": "2026-08-10-evening",
+  "edition_kind": "evening",
+  "generated_at": "2026-08-10T11:20:52.004916Z",
   "timezone": "Asia/Shanghai",
-  "total_items": 14,
+  "total_items": 18,
   "summary": {
-    "confirmed": 2,
-    "single_source": 12,
+    "confirmed": 3,
+    "single_source": 14,
     "early_signal": 0,
-    "rumor": 0,
-    "new": 12,
+    "rumor": 1,
+    "new": 17,
     "updated": 1,
-    "confirmed_updates": 1
+    "confirmed_updates": 0
   },
   "items": [
     {
-      "story_id": "story_72015675ec87",
-      "creator_event_id": "creator-08e28199611c46d8",
+      "story_id": "story_0fa42eef41e9",
+      "creator_event_id": "creator-655d1d65d65c4d9b",
       "merged_story_ids": [
-        "story_72015675ec87"
+        "story_0fa42eef41e9"
       ],
-      "title": "Google Deepmind 的 WeatherNext 同时预测气旋路径和强度 / Google Deepmind's WeatherNext predicts cyclone tracks and intensity at the same time",
-      "url": "https://the-decoder.com/google-deepminds-weathernext-predicts-cyclone-tracks-and-intensity-at-the-same-time",
-      "primary_url": "https://the-decoder.com/google-deepminds-weathernext-predicts-cyclone-tracks-and-intensity-at-the-same-time",
-      "source": "The Decoder AI News",
-      "source_name": "Curated Media",
+      "title": "支持5张参考图融合与智能扩图，xAI Imagine Image2.0正式上线",
+      "url": "https://www.aibase.com/news/30211",
+      "primary_url": "https://www.aibase.com/news/30211",
+      "source": "AIbase",
+      "source_name": "AIbase",
       "source_count": 1,
       "source_names": [
-        "The Decoder AI News"
+        "AIbase"
       ],
-      "score": 0.5997,
-      "importance": 0.5997,
-      "importance_score": 0.5997,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5472,
-        "source_tier": 0.58,
-        "ai_relevance": 0.76,
-        "recency": 0.8663,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-09T12:29:06Z",
-      "latest_at": "2026-08-09T12:29:06Z",
-      "creator_score": 83.3,
-      "creator_breakdown": {
-        "relevance": 0.88,
-        "freshness": 0.895,
-        "source": 0.78,
-        "impact": 0.94,
-        "novelty": 0.75,
-        "heat": 0.3599
-      },
-      "creator_bucket": "ai_coding",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "ai_coding_terms",
-        "workflow_impact"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "0250c0d96a91dc57e289f9a69670626394ade162",
-        "title": "Google Deepmind 的 WeatherNext 同时预测气旋路径和强度 / Google Deepmind's WeatherNext predicts cyclone tracks and intensity at the same time",
-        "title_zh": "Google Deepmind 的 WeatherNext 同时预测气旋路径和强度",
-        "title_en": "Google Deepmind's WeatherNext predicts cyclone tracks and intensity at the same time",
-        "title_original": "Google Deepmind's WeatherNext predicts cyclone tracks and intensity at the same time",
-        "summary": "Deepmind's new weather AI forecasts tropical cyclones about a day further ahead than leading operational models, matching a decade of progress in traditional weather forecasting. Code and model weights are open-source on GitHub.\nDeepmind's new weather AI forecasts tropical cyclones about a day further ahead than leading operational models, matching a decade of progress in traditional weather forecasting. Code and model weights are open-source on GitHub.\nDeepmind's new weather AI forecasts tropic",
-        "recommend_reason_zh": "Google Deepmind发布WeatherNext Cyclones，热带气旋预测比主流模型远约一天，五年路径误差仅230公里，强度预测优于HAFS，代码权重已开源，但机制尚不明确。",
-        "url": "https://the-decoder.com/google-deepminds-weathernext-predicts-cyclone-tracks-and-intensity-at-the-same-time",
-        "source": "The Decoder AI News",
-        "source_name": "Curated Media"
-      },
-      "sources": [
-        {
-          "story_id": "story_72015675ec87",
-          "title": "Google Deepmind 的 WeatherNext 同时预测气旋路径和强度 / Google Deepmind's WeatherNext predicts cyclone tracks and intensity at the same time",
-          "url": "https://the-decoder.com/google-deepminds-weathernext-predicts-cyclone-tracks-and-intensity-at-the-same-time",
-          "source": "The Decoder AI News",
-          "site_id": "",
-          "official": false
-        }
-      ],
-      "summary_zh": "Google DeepMind 发布 WeatherNext，可同时预测气旋路径和强度。据单一来源报道，其预测领先主流业务模型约一天，相当于传统预报十年的进步，五年路径误差约230",
-      "why_it_matters": "开源权重和代码让开发者可直接集成或对比，降低天气预测应用开发门槛；但模型机制尚不明确，需谨慎评估，可能影响工具选择与工程成本。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "WeatherNext 开源了，我立刻跑了个气旋预测",
-          "angle": "以开发者身份，第一时间下载模型权重实测，对比传统预报模型，展示反差和新鲜感，并强调单一来源数据待验证。",
-          "needs_hands_on": true,
-          "risk": "未亲测模型，且性能数据仅来自单一媒体，需验证"
-        },
-        {
-          "platform": "xiaohongshu",
-          "title": "手把手教你用 WeatherNext 预测台风路径",
-          "angle": "分享具体步骤：获取 GitHub 代码、安装依赖、输入气象数据、可视化输出，并提醒常见坑（如环境配置、数据格式）。",
-          "needs_hands_on": true,
-          "risk": "未亲测，具体步骤可能因环境差异失败"
-        },
-        {
-          "platform": "wechat",
-          "title": "DeepMind 的 WeatherNext：AI 天气预报从研究到工程落地还有多远？",
-          "angle": "从传统预报十年进展和 AI 模型的对比切入，分析开源对开发者生态的影响，以及模型可解释性不足带来的长期风险。",
-          "needs_hands_on": false,
-          "risk": "模型机制不明，需多来源交叉验证"
-        }
-      ],
-      "enrichment_mode": "llm"
-    },
-    {
-      "story_id": "story_7742a97ea427",
-      "creator_event_id": "creator-072da36e9cfd3603",
-      "merged_story_ids": [
-        "story_7742a97ea427"
-      ],
-      "title": "Anthropic 将默认开启 Claude Code 的自动模式 / Anthropic is turning Claude Code’s auto mode on by default",
-      "url": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default",
-      "primary_url": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default",
-      "source": "TechCrunch AI",
-      "source_name": "Curated Media",
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch AI"
-      ],
-      "score": 0.6659,
-      "importance": 0.6659,
-      "importance_score": 0.6659,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5904,
-        "source_tier": 0.58,
-        "ai_relevance": 0.82,
-        "recency": 0.9565,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-08-09T19:20:32Z",
-      "latest_at": "2026-08-09T19:33:23Z",
-      "persona_id": "pragmatic",
-      "persona_score": 75,
-      "persona_review": "默认自动模式会改代码执行方式，先关掉再配好权限，别让 AI 乱动生产。",
-      "creator_score": 81.2,
-      "creator_breakdown": {
-        "relevance": 1.0,
-        "freshness": 1.0,
-        "source": 0.78,
-        "impact": 0.43,
-        "novelty": 0.65,
-        "heat": 0.5331
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "claude-code",
-      "verification_status": "confirmed",
-      "creator_reasons": [
-        "entity:claude-code",
-        "ai_coding_terms"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "56d92bba292b2e68b8f043bac6399aa5ccc69487",
-        "title": "Anthropic 将默认开启 Claude Code 的自动模式 / Anthropic is turning Claude Code’s auto mode on by default",
-        "title_zh": "Anthropic 将默认开启 Claude Code 的自动模式",
-        "title_en": "Anthropic is turning Claude Code’s auto mode on by default",
-        "title_original": "Anthropic is turning Claude Code’s auto mode on by default",
-        "summary": "Programming with Claude Code will soon require even less human oversight.\nProgramming with Claude Code will soon require even less human oversight.\nLatest\nAI\nAmazon\nApps\nBiotech & Health\nClimate\nCloud Computing\nCommerce\nCrypto\nEnterprise\nEVs\nFintech\nFundraising\nGadgets\nGaming\nGoogle\nGovernment & Policy\nHardware\nInstagram\nLayoffs\nMedia & Entertainment\nMeta\nMicrosoft\nPrivacy\nRobotics\nSecurity\nSocial\nSpace\nStartups\nTikTok\nTransportation\nVenture\nStaff\nEvents\nStartup Battlefield\nStrictlyVC\nNewsletter",
-        "recommend_reason_zh": "Anthropic将把Claude Code的自动模式设为默认，编程时人类监督将进一步减少。文章解读了这一默认变更对开发者工作流和AI编程自主性的具体影响。",
-        "url": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default",
-        "source": "TechCrunch AI",
-        "source_name": "Curated Media"
-      },
-      "sources": [
-        {
-          "story_id": "story_7742a97ea427",
-          "title": "Anthropic 将默认开启 Claude Code 的自动模式 / Anthropic is turning Claude Code’s auto mode on by default",
-          "url": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default",
-          "source": "TechCrunch AI",
-          "site_id": "",
-          "official": false
-        }
-      ],
-      "summary_zh": "Anthropic 宣布将把 Claude Code 的自动模式设为默认，编程时所需的人类监督将进一步减少。该改动意味着开发者默认允许 AI 更自主地执行操作，需手动调整设置以恢复",
-      "why_it_matters": "默认开启自动模式将改变开发者工作流：需适应更少的人工确认，同时加强代码审查与回滚机制，否则自动化可能引入难以追踪的变更。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "Claude Code 默认自动模式？我第一时间关掉了它",
-          "angle": "以第一人称记录更新后的个人实测：自动模式默认开启带来的第一感受、对编码节奏的冲击，以及如何手动切回原有确认模式。",
-          "needs_hands_on": true,
-          "risk": "未亲测默认开启后的实际行为，具体设置入口与版本差异待验证。"
-        },
-        {
-          "platform": "xiaohongshu",
-          "title": "Claude Code 自动模式默认开启？三步检查你的设置",
-          "angle": "分享面向开发者的操作指南：如何检查当前自动模式状态、一键关闭的步骤，以及使用中需要避开的坑（如意外批量修改）。",
-          "needs_hands_on": true,
-          "risk": "需要核实设置路径与界面版本是否与实际情况一致。"
-        },
-        {
-          "platform": "wechat",
-          "title": "从“询问”到“自动执行”：Claude Code 默认自动模式的行业信号",
-          "angle": "分析 Anthropic 此举背后的产品策略：AI 编程助手从辅助走向自主，对开发者角色、代码审查流程和工具选型的长期影响。",
-          "needs_hands_on": false,
-          "risk": ""
-        }
-      ],
-      "enrichment_mode": "llm"
-    },
-    {
-      "story_id": "story_34e2f703a2a6",
-      "creator_event_id": "creator-94101b2a256d1b75",
-      "merged_story_ids": [
-        "story_34e2f703a2a6"
-      ],
-      "title": "🥇 8.3—8.9｜本周 AI 论文精选",
-      "url": "https://waytoagi.feishu.cn/wiki/S3ykwZoTsi34w0kk0x0cCvTKnxf?from=from_copylink",
-      "primary_url": "https://waytoagi.feishu.cn/wiki/S3ykwZoTsi34w0kk0x0cCvTKnxf?from=from_copylink",
-      "source": "社区更新 · 2026-08-09",
-      "source_name": "WaytoAGI",
-      "source_count": 1,
-      "source_names": [
-        "社区更新 · 2026-08-09"
-      ],
-      "score": 0.5692,
-      "importance": 0.5692,
-      "importance_score": 0.5692,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.54,
-        "ai_relevance": 0.65,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-09T22:25:32.107400Z",
-      "latest_at": "2026-08-09T22:25:32.107400Z",
-      "creator_score": 77.8,
-      "creator_breakdown": {
-        "relevance": 0.88,
-        "freshness": 1.0,
-        "source": 0.5,
-        "impact": 0.81,
-        "novelty": 0.75,
-        "heat": 0.3492
-      },
-      "creator_bucket": "ai_coding",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "ai_coding_terms",
-        "workflow_impact"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "9a487369063a3e84f441fa240c2740657316e43d",
-        "title": "🥇 8.3—8.9｜本周 AI 论文精选",
-        "title_zh": "🥇 8.3—8.9｜本周 AI 论文精选",
-        "title_original": "🥇 8.3—8.9｜本周 AI 论文精选",
-        "summary": "本周AI论文合集聚焦智能体工程落地的现实痛点。十篇研究基于大量实测与对照实验，厘清了模型与harness的故障划分，验证零大模型调用记忆栈的降本效果，推翻自我反思类方案的增益认知。同时还覆盖harness学习优化、提示词带来的隐性成本、技能库实际收益、长周期仿真基准、分词加速等方向。",
-        "url": "https://waytoagi.feishu.cn/wiki/S3ykwZoTsi34w0kk0x0cCvTKnxf?from=from_copylink",
-        "source": "社区更新 · 2026-08-09",
-        "source_name": "WaytoAGI"
-      },
-      "sources": [
-        {
-          "story_id": "story_34e2f703a2a6",
-          "title": "🥇 8.3—8.9｜本周 AI 论文精选",
-          "url": "https://waytoagi.feishu.cn/wiki/S3ykwZoTsi34w0kk0x0cCvTKnxf?from=from_copylink",
-          "source": "社区更新 · 2026-08-09",
-          "site_id": "",
-          "official": false
-        }
-      ],
-      "summary_zh": "WaytoAGI发布8.3-8.9 AI论文精选，聚焦智能体工程痛点。十篇实测对照研究，厘清模型与harness故障划分，验证零大模型调用记忆栈降本，推翻自我反思方案增益，并覆盖h",
-      "why_it_matters": "对AI Coding开发者，可依据实测区分模型与工具链故障责任，指导记忆设计取舍，避免盲目使用自我反思等低效方案，平衡成本与性能。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "论文说自我反思没用？我实测了一下",
-          "angle": "从个人实测出发，验证论文中推翻自我反思增益的结论，并与传统方案对比。",
-          "needs_hands_on": true,
-          "risk": "论文为单一来源摘要，未公开具体实验设置，需获取原文核实结论。"
-        },
-        {
-          "platform": "xiaohongshu",
-          "title": "智能体开发避坑：10篇论文整理，零LLM调用记忆栈降本",
-          "angle": "以清单形式总结论文要点，重点介绍零LLM调用记忆栈的降本做法和适用场景，附带避坑提示。",
-          "needs_hands_on": false,
-          "risk": "内容基于摘要，需核对原文及数据支撑。"
-        },
-        {
-          "platform": "wechat",
-          "title": "智能体工程的再平衡：模型能力与harness责任的边界",
-          "angle": "从行业高度分析模型与harness故障划分的意义，探讨harness学习优化和技能库收益对长期工程架构的影响。",
-          "needs_hands_on": false,
-          "risk": ""
-        }
-      ],
-      "enrichment_mode": "llm"
-    },
-    {
-      "story_id": "story_fe7d41da32c5",
-      "creator_event_id": "creator-d7a28caa1cb3981f",
-      "merged_story_ids": [
-        "story_fe7d41da32c5"
-      ],
-      "title": "Anthropic 称已基本解决提示注入攻击 / Prompt injection is the most common way that scammers attack people and agents： your agent visits ht…",
-      "url": "https://x.com/bcherny/status/2086520950259118464",
-      "primary_url": "https://x.com/bcherny/status/2086520950259118464",
-      "source": "X：Boris Cherny (@bcherny)",
-      "source_name": "AI HOT",
-      "source_count": 1,
-      "source_names": [
-        "X：Boris Cherny (@bcherny)"
-      ],
-      "score": 0.7518,
-      "importance": 0.7518,
-      "importance_score": 0.7518,
+      "score": 0.766,
+      "importance": 0.766,
+      "importance_score": 0.766,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.7,
+        "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9454,
+        "recency": 0.9911,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -339,11 +45,885 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-08-09T18:32:14Z",
-      "latest_at": "2026-08-09T18:32:14Z",
+      "earliest_at": "2026-08-10T10:21:59.976103Z",
+      "latest_at": "2026-08-10T10:21:59.976103Z",
+      "creator_score": 80.1,
+      "creator_breakdown": {
+        "relevance": 0.88,
+        "freshness": 1.0,
+        "source": 0.5,
+        "impact": 0.94,
+        "novelty": 0.75,
+        "heat": 0.4181
+      },
+      "creator_bucket": "ai_coding",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "ai_coding_terms",
+        "workflow_impact"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "f6d0245e8f00576dc2c5699b603be34dcee61373",
+        "title": "支持5张参考图融合与智能扩图，xAI Imagine Image2.0正式上线",
+        "title_zh": "支持5张参考图融合与智能扩图，xAI Imagine Image2.0正式上线",
+        "title_original": "支持5张参考图融合与智能扩图，xAI Imagine Image2.0正式上线",
+        "summary": "xAI launched Imagine Image 2.0, a new quality mode for the Web-based Imagine service and iOS and Android apps under Grok, focusing on creative scenarios that re\nxAI launched Imagine Image 2.0, a new quality mode for the Web-based Imagine service and iOS and Android apps under Grok, focusing on creative scenarios that re\nxAI launched Imagine Image 2.0, a new quality mode for the Web-based Imagine service and iOS and Android apps under Grok, focusing on creative scenarios that re\nExplore AI Fronti",
+        "recommend_reason_zh": "xAI推出Imagine Image 2.0质量模式，支持最多五张参考图融合与智能扩图，另有魔棒局部编辑和透明背景导出。其API尚在开发，文章值得一读。",
+        "url": "https://www.aibase.com/news/30211",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      },
+      "sources": [
+        {
+          "story_id": "story_0fa42eef41e9",
+          "title": "支持5张参考图融合与智能扩图，xAI Imagine Image2.0正式上线",
+          "url": "https://www.aibase.com/news/30211",
+          "source": "AIbase",
+          "site_id": "",
+          "official": false
+        }
+      ],
+      "summary_zh": "xAI发布Imagine Image 2.0，面向Grok的Web及移动端新增质量模式，支持最多5张参考图融合、智能扩图、魔棒局部编辑与透明背景导出，API尚在开发。",
+      "why_it_matters": "图像生成质量模式影响创意场景产出，多图融合与扩图能力可能改变AI辅助设计工作流，需关注API落地进展。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "刚上手xAI Imagine Image 2.0：5张图融合效果比想象中强",
+          "angle": "第一人称实测体验，突出新功能带来的直接反差，比如多图融合的细节表现和扩图质量，以及目前API未开放的限制。",
+          "needs_hands_on": true,
+          "risk": "单一来源报道，未亲测；实际融合效果和响应速度需验证。"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "xAI Imagine Image 2.0保姆级教程：5图融合+扩图避坑指南",
+          "angle": "以步骤化方式展示如何用Web/App调用新质量模式，分享参考图准备、参数调整和透明背景导出的小技巧，提醒API未开放。",
+          "needs_hands_on": true,
+          "risk": "未实测，具体UI操作流程和生成结果可能有差异。"
+        },
+        {
+          "platform": "wechat",
+          "title": "从Imagine Image 2.0看xAI的视觉生成布局：多图融合为何重要",
+          "angle": "分析xAI推出该功能的背景，对比当前主流图像生成工具，讨论其对创意工作流和AI编码中视觉化需求的潜在影响。",
+          "needs_hands_on": false,
+          "risk": "单一信源，需核实版本号和具体能力边界。"
+        }
+      ],
+      "enrichment_mode": "llm"
+    },
+    {
+      "story_id": "story_db693db10af6",
+      "creator_event_id": "creator-35b9cb14cbcf8bf9",
+      "merged_story_ids": [
+        "story_db693db10af6"
+      ],
+      "title": "NVIDIA 发布 NemotronLabs VoiceChat 11B：开源全双工语音模型，支持约 450 毫秒轮换与实时工具调用 / NVIDIA Releases NemotronLabs VoiceChat 11B： An Open Full-Duplex Speech-to-Speech Model with ~450 ms Turn-Taking and Live Tool Calling",
+      "url": "https://www.marktechpost.com/2026/08/09/nvidia-releases-nemotronlabs-voicechat-11b-an-open-full-duplex-speech-to-speech-model-with-450-ms-turn-taking-and-live-tool-calling",
+      "primary_url": "https://www.marktechpost.com/2026/08/09/nvidia-releases-nemotronlabs-voicechat-11b-an-open-full-duplex-speech-to-speech-model-with-450-ms-turn-taking-and-live-tool-calling",
+      "source": "MarkTechPost（RSS）",
+      "source_name": "AI HOT",
+      "source_count": 1,
+      "source_names": [
+        "MarkTechPost（RSS）"
+      ],
+      "score": 0.7501,
+      "importance": 0.7501,
+      "importance_score": 0.7501,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.75,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.853,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-09T23:58:34Z",
+      "latest_at": "2026-08-09T23:58:34Z",
       "persona_id": "pragmatic",
-      "persona_score": 45,
-      "persona_review": "解决提示注入是大事，但没给方案，暂不用动。",
+      "persona_score": 88,
+      "persona_review": "开源可自部署，450ms延迟够用，语音+工具调用今天就能试。",
+      "creator_score": 78.3,
+      "creator_breakdown": {
+        "relevance": 0.88,
+        "freshness": 0.8657,
+        "source": 0.5,
+        "impact": 1.0,
+        "novelty": 0.75,
+        "heat": 0.4125
+      },
+      "creator_bucket": "ai_coding",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "ai_coding_terms",
+        "workflow_impact"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "aa483986fc4901ff2b1ba3e8fa8cfa5d6bf11e80",
+        "title": "NVIDIA 发布 NemotronLabs VoiceChat 11B：开源全双工语音模型，支持约 450 毫秒轮换与实时工具调用 / NVIDIA Releases NemotronLabs VoiceChat 11B： An Open Full-Duplex Speech-to-Speech Model with ~450 ms Turn-Taking and Live Tool Calling",
+        "title_zh": "NVIDIA 发布 NemotronLabs VoiceChat 11B：开源全双工语音模型，支持约 450 毫秒轮换与实时工具调用",
+        "title_en": "NVIDIA Releases NemotronLabs VoiceChat 11B： An Open Full-Duplex Speech-to-Speech Model with ~450 ms Turn-Taking and Live Tool Calling",
+        "title_original": "NVIDIA Releases NemotronLabs VoiceChat 11B： An Open Full-Duplex Speech-to-Speech Model with ~450 ms Turn-Taking and Live Tool Calling",
+        "summary": "NVIDIA 发布开源端到端全双工语音对话模型 NemotronLabs VoiceChat 11B，在统一网络中完成流式语音理解与生成，实测轮换延迟 448 毫秒。该模型为首个支持对话中工具调用的开源全双工模型，通过独立输出通道及预置\"保持\"话术避免 API 执行期间冷场。权重与容器已公开，但仅限研究用途，需单张 80 GB 显存 GPU，目前无托管 API。",
+        "url": "https://www.marktechpost.com/2026/08/09/nvidia-releases-nemotronlabs-voicechat-11b-an-open-full-duplex-speech-to-speech-model-with-450-ms-turn-taking-and-live-tool-calling",
+        "source": "MarkTechPost（RSS）",
+        "source_name": "AI HOT"
+      },
+      "sources": [
+        {
+          "story_id": "story_db693db10af6",
+          "title": "NVIDIA 发布 NemotronLabs VoiceChat 11B：开源全双工语音模型，支持约 450 毫秒轮换与实时工具调用 / NVIDIA Releases NemotronLabs VoiceChat 11B： An Open Full-Duplex Speech-to-Speech Model with ~450 ms Turn-Taking and Live Tool Calling",
+          "url": "https://www.marktechpost.com/2026/08/09/nvidia-releases-nemotronlabs-voicechat-11b-an-open-full-duplex-speech-to-speech-model-with-450-ms-turn-taking-and-live-tool-calling",
+          "source": "MarkTechPost（RSS）",
+          "site_id": "",
+          "official": false
+        }
+      ],
+      "summary_zh": "NVIDIA 发布开源全双工语音模型 NemotronLabs VoiceChat 11B，统一网络完成流式语音理解与生成，实测轮换延迟约 448 毫秒，支持对话中工具调用。权重和",
+      "why_it_matters": "对开发者而言，该模型首次为开源全双工语音模型加入实时工具调用，可能推动语音代理与 AI Coding 工作流结合；但研究用途、80GB 显存",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "NVIDIA 开源全双工语音模型 VoiceChat 11B：450ms 轮换+实时工具调用，但只给研究用？",
+          "angle": "作为开发者，我第一时间对比了现有语音方案：这个 11B 模型能否拿来构建语音编程助手？实测延迟与工具调用稳定性还未知，但单卡 80GB 显存的门槛让我犹豫。",
+          "needs_hands_on": true,
+          "risk": "需实际部署验证延迟与工具调用；当前仅限研究用途，且为单一来源信息。"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "NVIDIA VoiceChat 11B 开源：80GB 显存劝退？跑语音模型前先看这些坑",
+          "angle": "我准备部署这个开源语音模型，发现需要 A100/H100 级别显卡，而且没有任何托管 API。分享我的避坑清单：显存要求、研究用途限制、工具调用通道怎么用。",
+          "needs_hands_on": true,
+          "risk": "未亲测部署，需确认模型权重下载与容器运行细节；单源新闻。"
+        },
+        {
+          "platform": "wechat",
+          "title": "NVIDIA VoiceChat 11B 开源：全双工语音模型如何重塑 AI Coding 的交互入口？",
+          "angle": "从对话式编程到语音代理，全双工低延迟语音模型能否成为 AI Coding 的新交互层？本文梳理其技术特性和工具调用机制，分析对企业开发工作流的潜在影响。",
+          "needs_hands_on": false,
+          "risk": "基于单一来源的分析，需等待官方技术报告补充细节。"
+        }
+      ],
+      "enrichment_mode": "llm"
+    },
+    {
+      "story_id": "story_5ddaa3289d85",
+      "creator_event_id": "creator-a1ec13f20dc94a2f",
+      "merged_story_ids": [
+        "story_5ddaa3289d85"
+      ],
+      "title": "通义千问开放平台上线 “对话即服务”打通生活场景全链路",
+      "url": "https://www.aibase.com/news/30214",
+      "primary_url": "https://www.aibase.com/news/30214",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-10T10:58:59.976103Z",
+      "latest_at": "2026-08-10T10:58:59.976103Z",
+      "creator_score": 78.1,
+      "creator_breakdown": {
+        "relevance": 0.88,
+        "freshness": 1.0,
+        "source": 0.5,
+        "impact": 0.81,
+        "novelty": 0.75,
+        "heat": 0.4187
+      },
+      "creator_bucket": "ai_coding",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "ai_coding_terms",
+        "workflow_impact"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "3d610998aed7f69e21630ee96d7721184c37873a",
+        "title": "通义千问开放平台上线 “对话即服务”打通生活场景全链路",
+        "title_zh": "通义千问开放平台上线 “对话即服务”打通生活场景全链路",
+        "title_original": "通义千问开放平台上线 “对话即服务”打通生活场景全链路",
+        "summary": "The Tongyi Qianwen Open Platform was officially launched recently, offering developers access to services on mobile, PC, and AI glasses. Users no longer need to\nThe Tongyi Qianwen Open Platform was officially launched recently, offering developers access to services on mobile, PC, and AI glasses. Users no longer need to\nThe Tongyi Qianwen Open Platform was officially launched recently, offering developers access to services on mobile, PC, and AI glasses. Users no longer need to\nExplore AI Fronti",
+        "recommend_reason_zh": "通义千问开放平台上线，开发者可接入手机、PC和AI眼镜，在对话中直接调用@SF Express查件、@ZiRu Rent找房、@Tian’e Home保洁等十余个领域服务，实现生活场景全链路闭环。",
+        "url": "https://www.aibase.com/news/30214",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      },
+      "sources": [
+        {
+          "story_id": "story_5ddaa3289d85",
+          "title": "通义千问开放平台上线 “对话即服务”打通生活场景全链路",
+          "url": "https://www.aibase.com/news/30214",
+          "source": "AIbase",
+          "site_id": "",
+          "official": false
+        }
+      ],
+      "summary_zh": "据AIbase报道，通义千问开放平台上线“对话即服务”，开发者可接入手机、PC和AI眼镜，在对话中直接调用顺丰速运、自如租房等十余个生活服务，打通生活场景全链路。",
+      "why_it_matters": "该模式让开发者无需自建服务，通过对话即可集成生活场景能力，降低开发成本；同时可能推动AI Agent从工具调用向服务闭环演进，影响未来应用设",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "通义千问开放平台上线：在对话里@顺丰查件是什么体验？",
+          "angle": "以开发者身份实测对话即服务，展示调用第三方服务的流程、响应速度和实际效果，对比传统API集成方式的差异。",
+          "needs_hands_on": true,
+          "risk": "平台是否正式开放、接口文档是否公开均未亲测，且消息仅来自单一来源，需进一步核实。"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "通义千问“对话即服务”实测：手机和AI眼镜上怎么用？",
+          "angle": "分享实际接入步骤，包括平台入口、绑定服务方法、支持哪些场景，以及遇到的坑和避坑建议。",
+          "needs_hands_on": true,
+          "risk": "需实际注册体验，确认支持的服务列表和地区限制是否与报道一致。"
+        },
+        {
+          "platform": "wechat",
+          "title": "从“对话即服务”看通义千问的生态布局：AI应用开发的新入口？",
+          "angle": "分析该开放平台对开发者的长期影响，对比其他AI平台的类似能力，探讨对话式集成的趋势以及对Agent开发范式的意义。",
+          "needs_hands_on": false,
+          "risk": "原文信息均来自单一来源，部分细节如服务数量、终端兼容性可能更新，需注明信息来源和不确定性。"
+        }
+      ],
+      "enrichment_mode": "llm"
+    },
+    {
+      "story_id": "story_89b346066121",
+      "creator_event_id": "creator-e4c47f0bc1b8966e",
+      "merged_story_ids": [
+        "story_89b346066121"
+      ],
+      "title": "阿里Meoo秒悟上线团队版，接入Qwen-3.8-Max模型",
+      "url": "https://www.aibase.com/news/30221",
+      "primary_url": "https://www.aibase.com/news/30221",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-10T10:58:59.976103Z",
+      "latest_at": "2026-08-10T10:58:59.976103Z",
+      "creator_score": 78.1,
+      "creator_breakdown": {
+        "relevance": 0.88,
+        "freshness": 1.0,
+        "source": 0.5,
+        "impact": 0.81,
+        "novelty": 0.75,
+        "heat": 0.4187
+      },
+      "creator_bucket": "ai_coding",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "ai_coding_terms",
+        "workflow_impact"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "7558d0174997ca17f410eec5f0b6693abdb5d3f6",
+        "title": "阿里Meoo秒悟上线团队版，接入Qwen-3.8-Max模型",
+        "title_zh": "阿里Meoo秒悟上线团队版，接入Qwen-3.8-Max模型",
+        "title_original": "阿里Meoo秒悟上线团队版，接入Qwen-3.8-Max模型",
+        "summary": "AliAI application creation platform Meoo (Miao Wu) recently launched its team version and integrated the Qwen-3.8-Max model, offering subscription services to t\nAliAI application creation platform Meoo (Miao Wu) recently launched its team version and integrated the Qwen-3.8-Max model, offering subscription services to t\nAliAI application creation platform Meoo (Miao Wu) recently launched its team version and integrated the Qwen-3.8-Max model, offering subscription services to t\nExplore AI Fronti",
+        "recommend_reason_zh": "阿里Meoo秒悟团队版上线，接入Qwen-3.8-Max模型，新增统一身份管理、共享积分池、三级权限及团队技能市场，企业可集中管理应用与资源，无需编程即可生成应用。",
+        "url": "https://www.aibase.com/news/30221",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      },
+      "sources": [
+        {
+          "story_id": "story_89b346066121",
+          "title": "阿里Meoo秒悟上线团队版，接入Qwen-3.8-Max模型",
+          "url": "https://www.aibase.com/news/30221",
+          "source": "AIbase",
+          "site_id": "",
+          "official": false
+        }
+      ],
+      "summary_zh": "阿里AI应用创建平台Meoo（秒悟）推出团队版，据称接入Qwen-3.8-Max模型，新增统一身份管理、共享积分池、三级权限及团队技能市场，企业无需编程即可生成应用，便于集中管理资",
+      "why_it_matters": "团队版强化权限与资源共享，让企业能统一管控AI应用资产，降低协作成本；但Qwen-3.8-Max型号未经官方证实，选型前需核实。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "阿里Meoo秒悟团队版实测：Qwen-3.8-Max到底是什么？",
+          "angle": "以开发者身份第一时间试用团队版，体验权限管理和应用生成，同时质疑模型命名，对比个人版差异。",
+          "needs_hands_on": true,
+          "risk": "Qwen-3.8-Max模型名称疑似笔误或未经官方确认，团队版功能细节需实际试用验证。"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "阿里Meoo秒悟团队版上手：3步搭建团队共享AI应用池",
+          "angle": "分享具体操作步骤，如何创建团队、设置三级权限、共享积分池，并提示权限管理和成本控制的避坑点。",
+          "needs_hands_on": true,
+          "risk": "权限设置和积分池规则未亲测，可能随版本调整，需以实际界面为准。"
+        },
+        {
+          "platform": "wechat",
+          "title": "阿里Meoo秒悟团队版上线：AI应用开发从个人走向团队协作",
+          "angle": "分析阿里在AI应用平台的布局，对比其他低代码平台，探讨团队版对企业开发工作流和模型选型的长期影响。",
+          "needs_hands_on": false,
+          "risk": "仅基于单一来源报道，模型名称及具体能力需以官方文档进一步确认。"
+        }
+      ],
+      "enrichment_mode": "llm"
+    },
+    {
+      "story_id": "story_55b8d62ba99b",
+      "creator_event_id": "creator-8f95cf4b0ba6cc0f",
+      "merged_story_ids": [
+        "story_55b8d62ba99b"
+      ],
+      "title": "阿里千问开放平台正式上线：支持手机、PC及AI眼镜，覆盖租房与寄快递等十余大生活领域",
+      "url": "https://www.aibase.com/news/30219",
+      "primary_url": "https://www.aibase.com/news/30219",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-10T10:58:59.976103Z",
+      "latest_at": "2026-08-10T10:58:59.976103Z",
+      "creator_score": 78.1,
+      "creator_breakdown": {
+        "relevance": 0.88,
+        "freshness": 1.0,
+        "source": 0.5,
+        "impact": 0.81,
+        "novelty": 0.75,
+        "heat": 0.4187
+      },
+      "creator_bucket": "ai_coding",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "ai_coding_terms",
+        "workflow_impact"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "5df8d48c4732eade729d8fc6012139bd6ab4e205",
+        "title": "阿里千问开放平台正式上线：支持手机、PC及AI眼镜，覆盖租房与寄快递等十余大生活领域",
+        "title_zh": "阿里千问开放平台正式上线：支持手机、PC及AI眼镜，覆盖租房与寄快递等十余大生活领域",
+        "title_original": "阿里千问开放平台正式上线：支持手机、PC及AI眼镜，覆盖租房与寄快递等十余大生活领域",
+        "summary": "With the accelerated deployment of artificial intelligence applications, Qwen has undergone a significant ecosystem upgrade. On August 10, the Qwen Open Platfor\nWith the accelerated deployment of artificial intelligence applications, Qwen has undergone a significant ecosystem upgrade. On August 10, the Qwen Open Platfor\nWith the accelerated deployment of artificial intelligence applications, Qwen has undergone a significant ecosystem upgrade. On August 10, the Qwen Open Platfor\nExplore AI Fronti",
+        "recommend_reason_zh": "Qwen开放平台8月10日正式上线，向开发者开放手机、PC及AI眼镜三类终端接入，首批覆盖物流、租房等十余个高频生活场景，用户可在对话窗口直接完成咨询到下单全流程。",
+        "url": "https://www.aibase.com/news/30219",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      },
+      "sources": [
+        {
+          "story_id": "story_55b8d62ba99b",
+          "title": "阿里千问开放平台正式上线：支持手机、PC及AI眼镜，覆盖租房与寄快递等十余大生活领域",
+          "url": "https://www.aibase.com/news/30219",
+          "source": "AIbase",
+          "site_id": "",
+          "official": false
+        }
+      ],
+      "summary_zh": "8月10日，阿里千问开放平台正式上线，支持手机、PC及AI眼镜三类终端，首批覆盖租房、寄快递等十余个高频生活场景，用户可在对话窗口完成从咨询到下单的全流程。",
+      "why_it_matters": "千问开放平台将AI能力接入生活服务终端，可能改变开发者集成AI对话与交易闭环的方式，需关注其API开放程度、生态兼容性及对现有工作流的影响。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "千问开放平台上线：我第一时间试了AI眼镜里叫快递",
+          "angle": "以开发者身份实测AI眼镜端调用千问完成寄快递，记录从对话到下单的延迟与坑点，对比手机端体验差异。",
+          "needs_hands_on": true,
+          "risk": "未实际使用该平台，具体终端支持范围、API开放程度及交易闭环细节需实测确认。"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "千问开放平台接入生活服务，开发者接入避坑指南",
+          "angle": "从开发者视角梳理接入千问开放平台的步骤，列举租房、寄快递等场景的配置要点和常见报错，给出实操建议。",
+          "needs_hands_on": true,
+          "risk": "平台刚上线，文档和SDK可能不完善，接入流程和兼容性问题需实际验证。"
+        },
+        {
+          "platform": "wechat",
+          "title": "千问开放平台上线，AI从对话到交易的时代来了吗？",
+          "angle": "分析千问开放平台在阿里生态中的定位，探讨AI Agent从信息咨询到闭环交易的演进，及其对开发者和行业的影响。",
+          "needs_hands_on": false,
+          "risk": "单来源报道，平台能力、覆盖领域及商业模式细节需多方核实。"
+        }
+      ],
+      "enrichment_mode": "llm"
+    },
+    {
+      "story_id": "story_9d4e935f861b",
+      "creator_event_id": "creator-f3abf78957c8a4d5",
+      "merged_story_ids": [
+        "story_9d4e935f861b"
+      ],
+      "title": "OpenChamber：一个基于代理的开发环境",
+      "url": "https://openchamber.dev",
+      "primary_url": "https://openchamber.dev",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "source_count": 1,
+      "source_names": [
+        "Hacker News 热门（buzzing.cc 中文翻译）"
+      ],
+      "score": 0.7369,
+      "importance": 0.7369,
+      "importance_score": 0.7369,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.7,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8629,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-08-10T00:46:27.596000Z",
+      "latest_at": "2026-08-10T00:46:27.596000Z",
+      "persona_id": "pragmatic",
+      "persona_score": 70,
+      "persona_review": "新开发环境，先看仓库是否可克隆，能用再上手。",
+      "creator_score": 77.8,
+      "creator_breakdown": {
+        "relevance": 0.88,
+        "freshness": 0.8857,
+        "source": 0.5,
+        "impact": 0.94,
+        "novelty": 0.75,
+        "heat": 0.4079
+      },
+      "creator_bucket": "ai_coding",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "ai_coding_terms",
+        "workflow_impact"
+      ],
+      "change_type": "updated",
+      "primary_item": {
+        "id": "c171df9c3b7454128276a4174bc6b638a51034f2",
+        "title": "OpenChamber：一个基于代理的开发环境",
+        "title_zh": "OpenChamber：一个基于代理的开发环境",
+        "title_original": "OpenChamber：一个基于代理的开发环境",
+        "summary": "OpenChamber 是一个基于代理的开发环境，可跨桌面、浏览器、手机和 VS Code 使用，支持会话目标、多模型并行运行与融合、变更走查、从 issue 到 PR 的完整流程及定时任务。该工具基于 OpenCode SDK，完全开源且免费，代码和会话内容均保存在本地，远程访问可通过 UI 密码和端到端加密的 Private Relay 保护。",
+        "recommend_reason_zh": "OpenChamber支持在桌面、浏览器、手机和VS Code之间切换，可同时调用最多五个模型并择优或融合，能从GitHub issue直接开工；代码与会话内容不上传，且完全开源。",
+        "url": "https://openchamber.dev",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "source_name": "AI HOT"
+      },
+      "sources": [
+        {
+          "story_id": "story_9d4e935f861b",
+          "title": "OpenChamber：一个基于代理的开发环境",
+          "url": "https://openchamber.dev",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "site_id": "",
+          "official": false
+        }
+      ],
+      "summary_zh": "OpenChamber 是一个基于代理的开发环境，支持桌面、浏览器、手机和 VS Code。它提供会话目标、最多五模型并行融合、变更走查、issue 到 PR 流程及定时任务。基于",
+      "why_it_matters": "多模型并行择优与本地优先存储，可能重塑编码代理选择。跨设备、issue 到 PR 全流程提高效率，但稳定性和兼容性有待实测。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "OpenChamber 实测：开源的本地编码代理，真的能跨手机和桌面？",
+          "angle": "第一人称实测体验，对比其他代理，突出跨端使用和多模型并行表现。",
+          "needs_hands_on": true,
+          "risk": "功能细节来自单一来源，未亲测；'最多五个模型'等参数需实际验证。"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "OpenChamber 上手教程：本地优先的 AI 编码代理，数据不出本机怎么配？",
+          "angle": "分享安装、配置、从 GitHub issue 到 PR 的实操过程，提醒避坑。",
+          "needs_hands_on": true,
+          "risk": "未验证远程 Private Relay 的端到端加密实现。"
+        },
+        {
+          "platform": "wechat",
+          "title": "AI 编码代理的新选择：OpenChamber 如何用本地优先和多模型并行改变开发工作流",
+          "angle": "分析开源、本地数据保护与多模型融合对开发者工具生态的影响。",
+          "needs_hands_on": false,
+          "risk": "基于单一来源，需关注后续社区验证与项目演进。"
+        }
+      ],
+      "enrichment_mode": "llm"
+    },
+    {
+      "story_id": "story_d9b7ad25a0ae",
+      "creator_event_id": "creator-0ddca634b52d6044",
+      "merged_story_ids": [
+        "story_d9b7ad25a0ae"
+      ],
+      "title": "千问开放平台上线：租房、寄快递、查理财等十余领域服务可对话办理",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ%3D%3D&mid=2247488345&idx=1&sn=ef4e57c9c9350f9238d90211eb2dd453",
+      "primary_url": "https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ%3D%3D&mid=2247488345&idx=1&sn=ef4e57c9c9350f9238d90211eb2dd453",
+      "source": "公众号：千问APP（阿里）",
+      "source_name": "AI HOT",
+      "source_count": 1,
+      "source_names": [
+        "公众号：千问APP（阿里）"
+      ],
+      "score": 0.749,
+      "importance": 0.749,
+      "importance_score": 0.749,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.73,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8799,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-08-10T02:07:18Z",
+      "latest_at": "2026-08-10T02:07:18Z",
+      "persona_id": "pragmatic",
+      "persona_score": 62,
+      "persona_review": "平台上线但没公开接口文档，做集成还得等，先观望。",
+      "creator_score": 76.5,
+      "creator_breakdown": {
+        "relevance": 0.88,
+        "freshness": 0.9193,
+        "source": 0.5,
+        "impact": 0.81,
+        "novelty": 0.75,
+        "heat": 0.4122
+      },
+      "creator_bucket": "ai_coding",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "ai_coding_terms",
+        "workflow_impact"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "a175dd92c3c7d4e6925dbcffee3b6ef7a0d2b2d6",
+        "title": "千问开放平台上线：租房、寄快递、查理财等十余领域服务可对话办理",
+        "title_zh": "千问开放平台上线：租房、寄快递、查理财等十余领域服务可对话办理",
+        "title_original": "千问开放平台上线：租房、寄快递、查理财等十余领域服务可对话办理",
+        "summary": "千问开放平台今日上线，面向生态伙伴和开发者开放手机、PC和AI眼镜三类终端的服务接入，首批覆盖物流运输、房产居住、本地生活、理财、汽车等十多个领域。用户可在对话中@相关服务或点击\"圆点角标\"进入智能体，完成从咨询、推荐到下单的完整流程。平台支持标准化协议接入、一键授权与端到端调测，并提供账号、AI支付、订单接入等基础设施。",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ%3D%3D&mid=2247488345&idx=1&sn=ef4e57c9c9350f9238d90211eb2dd453",
+        "source": "公众号：千问APP（阿里）",
+        "source_name": "AI HOT"
+      },
+      "sources": [
+        {
+          "story_id": "story_d9b7ad25a0ae",
+          "title": "千问开放平台上线：租房、寄快递、查理财等十余领域服务可对话办理",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ%3D%3D&mid=2247488345&idx=1&sn=ef4e57c9c9350f9238d90211eb2dd453",
+          "source": "公众号：千问APP（阿里）",
+          "site_id": "",
+          "official": false
+        }
+      ],
+      "summary_zh": "阿里今日上线千问开放平台，面向生态伙伴和开发者开放手机、PC、AI眼镜终端服务接入，首批覆盖租房、寄快递、查理财等十余领域。用户可在对话中@服务或进入智能体完成咨询到下单全流程，平",
+      "why_it_matters": "开发者可基于该平台为AI助手接入真实交易服务，降低开发成本，但也需关注多终端适配、支付合规与调试复杂度，影响服务类智能体的工程架构选型。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "千问开放平台实测：从协议接入到调测，服务智能体的工程门槛有多高？",
+          "angle": "以开发者身份尝试接入一个虚拟服务，对比接入前预期与实际流程，分享踩坑和亮点。",
+          "needs_hands_on": true,
+          "risk": "官方宣称支持标准化协议与端到端调测，但个人开发者实际申请和审核门槛未知，需亲测验证。"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "千问开放平台避坑指南：开发者接入前必看的5个注意点",
+          "angle": "整理接入前需要了解的账号、支付、订单等基础设施要求，总结容易忽略的细节和文档链接。",
+          "needs_hands_on": false,
+          "risk": "部分细节仅来自官方公告，未实际接入验证，需核对文档。"
+        },
+        {
+          "platform": "wechat",
+          "title": "千问开放平台对AI Coding生态意味着什么：从工具调用到服务交付",
+          "angle": "分析平台与MCP、Function Calling等现有技术路线的关系，讨论它对智能体应用开发和部署模式的影响。",
+          "needs_hands_on": false,
+          "risk": "涉及对生态影响的推测，需区分事实与观点。"
+        }
+      ],
+      "enrichment_mode": "llm"
+    },
+    {
+      "story_id": "story_6a78b735729e",
+      "creator_event_id": "creator-bb070d2997006000",
+      "merged_story_ids": [
+        "story_6a78b735729e"
+      ],
+      "title": "Claude Code、AI 垃圾内容与艺术之死？ / Claude Code, AI Slop, and the Death of the Art?",
+      "url": "https://vladthe.dev/blog/claude-code-ai-slop-and-the-death-of-the-art",
+      "primary_url": "https://vladthe.dev/blog/claude-code-ai-slop-and-the-death-of-the-art",
+      "source": "HN Algolia · AI 24h",
+      "source_name": "Hacker News",
+      "source_count": 1,
+      "source_names": [
+        "HN Algolia · AI 24h"
+      ],
+      "score": 0.5178,
+      "importance": 0.5178,
+      "importance_score": 0.5178,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9835,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-10T09:49:52Z",
+      "latest_at": "2026-08-10T09:49:52Z",
+      "creator_score": 76.2,
+      "creator_breakdown": {
+        "relevance": 1.0,
+        "freshness": 1.0,
+        "source": 0.58,
+        "impact": 0.43,
+        "novelty": 0.65,
+        "heat": 0.3312
+      },
+      "creator_bucket": "ai_coding",
+      "primary_entity": "claude-code",
+      "verification_status": "rumor",
+      "creator_reasons": [
+        "entity:claude-code"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "b3b2be3276391187cb7a69d842085789741cb141",
+        "title": "Claude Code、AI 垃圾内容与艺术之死？ / Claude Code, AI Slop, and the Death of the Art?",
+        "title_zh": "Claude Code、AI 垃圾内容与艺术之死？",
+        "title_en": "Claude Code, AI Slop, and the Death of the Art?",
+        "title_original": "Claude Code, AI Slop, and the Death of the Art?",
+        "url": "https://vladthe.dev/blog/claude-code-ai-slop-and-the-death-of-the-art",
+        "source": "HN Algolia · AI 24h",
+        "source_name": "Hacker News"
+      },
+      "sources": [
+        {
+          "story_id": "story_6a78b735729e",
+          "title": "Claude Code、AI 垃圾内容与艺术之死？ / Claude Code, AI Slop, and the Death of the Art?",
+          "url": "https://vladthe.dev/blog/claude-code-ai-slop-and-the-death-of-the-art",
+          "source": "HN Algolia · AI 24h",
+          "site_id": "",
+          "official": false
+        }
+      ],
+      "summary_zh": "Hacker News上一篇文章讨论Claude Code与AI垃圾内容对艺术创作的影响，质疑AI工具是否导致创意衰落，引发开发者对AI生成代码同质化的讨论。",
+      "why_it_matters": "该讨论关系到AI辅助编程是否会降低代码的个性与质量，开发者需警惕AI输出泛滥带来的工程风险和审美疲劳。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "我用Claude Code写代码，却担心自己变成了流水线工人",
+          "angle": "第一人称分享亲测Claude Code的体验，对比之前手写代码的创作感，讨论AI生成内容是否让作品失去灵魂。",
+          "needs_hands_on": true,
+          "risk": "Claude Code具体功能未实测，文章原文观点未获取，仅基于标题推断。"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "别再让AI帮你写所有代码了！这些避坑技巧让作品保持个性",
+          "angle": "以实用角度分享如何在使用Claude Code时保留个人风格，避免产出千篇一律的代码，给出具体设置和审查步骤。",
+          "needs_hands_on": true,
+          "risk": "具体技巧需实测验证，文中可能未提供。"
+        },
+        {
+          "platform": "wechat",
+          "title": "从Claude Code到AI垃圾内容：编程创作真的会死吗？",
+          "angle": "剖析这篇文章的论点，结合AI编程工具的发展，讨论开发者如何在效率与创作性之间取舍，展望未来工作流。",
+          "needs_hands_on": false,
+          "risk": "文章内容未获全文，观点为二手推断。"
+        }
+      ],
+      "enrichment_mode": "llm"
+    },
+    {
+      "story_id": "story_cca82cecf2ae",
+      "creator_event_id": "creator-a18e05b8e13f79fe",
+      "merged_story_ids": [
+        "story_cca82cecf2ae"
+      ],
+      "title": "“自动模式”现已成为 Claude Code 的默认设置",
+      "url": "https://claude.com/blog/auto-mode-default-in-claude-code",
+      "primary_url": "https://claude.com/blog/auto-mode-default-in-claude-code",
+      "source": "claude.com",
+      "source_name": "Buzzing",
+      "source_count": 1,
+      "source_names": [
+        "claude.com"
+      ],
+      "score": 0.5336,
+      "importance": 0.5336,
+      "importance_score": 0.5336,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.932,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-10T03:50:00Z",
+      "latest_at": "2026-08-10T06:06:29.188000Z",
+      "creator_score": 75.4,
+      "creator_breakdown": {
+        "relevance": 1.0,
+        "freshness": 1.0,
+        "source": 0.5,
+        "impact": 0.43,
+        "novelty": 0.65,
+        "heat": 0.4868
+      },
+      "creator_bucket": "ai_coding",
+      "primary_entity": "claude-code",
+      "verification_status": "confirmed",
+      "creator_reasons": [
+        "entity:claude-code"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "789b2fe10390c2092e0511aa9d920fcbb46622e5",
+        "title": "“自动模式”现已成为 Claude Code 的默认设置",
+        "title_zh": "“自动模式”现已成为 Claude Code 的默认设置",
+        "title_original": "“自动模式”现已成为 Claude Code 的默认设置",
+        "url": "https://claude.com/blog/auto-mode-default-in-claude-code",
+        "source": "claude.com",
+        "source_name": "Buzzing"
+      },
+      "sources": [
+        {
+          "story_id": "story_cca82cecf2ae",
+          "title": "“自动模式”现已成为 Claude Code 的默认设置",
+          "url": "https://claude.com/blog/auto-mode-default-in-claude-code",
+          "source": "claude.com",
+          "site_id": "",
+          "official": false
+        }
+      ],
+      "summary_zh": "Anthropic 官方博客宣布，Claude Code 的“自动模式”现已作为默认设置启用，开发者在使用时将默认进入更自主的执行流程。",
+      "why_it_matters": "默认自动模式减少人工确认环节，提升执行效率，但也提高误操作和失控风险，开发者需重新评估审批策略与代码保护机制。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "Claude Code 默认自动模式实测：我关掉了确认弹窗",
+          "angle": "第一人称分享从手动确认切换到默认自动模式的真实体验，包括速度提升和失控焦虑，以及如何快速找回手动模式。",
+          "needs_hands_on": true,
+          "risk": "未亲测自动模式边界，需核实默认行为、回退设置及不同系统下的差异。"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "Claude Code 自动模式默认后，先做这3步设置再开工",
+          "angle": "以步骤化方式教开发者检查当前模式、配置审批规则、限制文件操作范围，避免 AI 自动改动关键代码。",
+          "needs_hands_on": true,
+          "risk": "需验证具体的配置命令和设置项是否与官方文档一致。"
+        },
+        {
+          "platform": "wechat",
+          "title": "从手动到自动：Claude Code 默认模式背后的 AI 编程范式转移",
+          "angle": "从工具演进角度分析自动模式默认化对开发者信任边界、团队协作方式和 AI 编程助手定位的长期影响。",
+          "needs_hands_on": false,
+          "risk": "需阅读原博客获取更多细节，避免对自动模式的设计动机过度解读。"
+        }
+      ],
+      "enrichment_mode": "llm"
+    },
+    {
+      "story_id": "story_9e6aa6c559d9",
+      "creator_event_id": "creator-c9b8f8b19aff9c07",
+      "merged_story_ids": [
+        "story_9e6aa6c559d9"
+      ],
+      "title": "AI编程助手再迎进化：Claude Code迎来v2.1. 224 版本，正式支持跨会话消息传递",
+      "url": "https://www.aibase.com/news/30213",
+      "primary_url": "https://www.aibase.com/news/30213",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-10T10:58:59.976103Z",
+      "latest_at": "2026-08-10T10:58:59.976103Z",
+      "persona_id": "pragmatic",
+      "persona_score": 75,
+      "persona_review": "跨会话传上下文，长任务省事，升级即用。",
       "creator_score": 75.0,
       "creator_breakdown": {
         "relevance": 1.0,
@@ -351,96 +931,96 @@
         "source": 0.5,
         "impact": 0.43,
         "novelty": 0.65,
-        "heat": 0.4131
+        "heat": 0.4187
       },
       "creator_bucket": "ai_coding",
       "primary_entity": "claude-code",
       "verification_status": "single_source",
       "creator_reasons": [
-        "entity:claude-code"
+        "entity:claude-code",
+        "ai_coding_terms"
       ],
-      "change_type": "updated",
+      "change_type": "new",
       "primary_item": {
-        "id": "5cedf1ddb5710f2162752589c9ba468802ecd56a",
-        "title": "Anthropic 称已基本解决提示注入攻击 / Prompt injection is the most common way that scammers attack people and agents： your agent visits ht…",
-        "title_zh": "Anthropic 称已基本解决提示注入攻击",
-        "title_en": "Prompt injection is the most common way that scammers attack people and agents： your agent visits ht…",
-        "title_original": "Prompt injection is the most common way that scammers attack people and agents： your agent visits ht…",
-        "summary": "Anthropic 的 Boris Cherny 表示，通过模型训练已基本解决 Claude 模型在实际使用中的提示注入威胁。独立研究者的基准测试显示，叠加模型训练、输入探测和意图分类器等多层防御后，未见过的间接提示注入攻击成功率可降至约 0。Claude Code 的 auto 模式将于下周默认开启。",
-        "recommend_reason_zh": "Prompt injection已成攻击人与智能体的最常见手段，文中示例：恶意网站一句伪装指令就能让模型交出用户SSH密钥和密码，值得警惕。",
-        "url": "https://x.com/bcherny/status/2086520950259118464",
-        "source": "X：Boris Cherny (@bcherny)",
-        "source_name": "AI HOT"
+        "id": "3e0d965d381fc4ab0bb548f39cc9ec50b821a17f",
+        "title": "AI编程助手再迎进化：Claude Code迎来v2.1. 224 版本，正式支持跨会话消息传递",
+        "title_zh": "AI编程助手再迎进化：Claude Code迎来v2.1. 224 版本，正式支持跨会话消息传递",
+        "title_original": "AI编程助手再迎进化：Claude Code迎来v2.1. 224 版本，正式支持跨会话消息传递",
+        "summary": "Now, as artificial intelligence programming tools continue to evolve, the official team at Anthropic recently announced on social media that their product, the\nNow, as artificial intelligence programming tools continue to evolve, the official team at Anthropic recently announced on social media that their product, the\nNow, as artificial intelligence programming tools continue to evolve, the official team at Anthropic recently announced on social media that their product, the\nExplore AI Frontiers",
+        "recommend_reason_zh": "Anthropic 将 Claude Code 升级至 v2.1.224，新增跨会话消息传递，让不同对话框互通信息，并能在代码调整可能破坏构建时提前告警，显著提升多任务协作效率。",
+        "url": "https://www.aibase.com/news/30213",
+        "source": "AIbase",
+        "source_name": "AIbase"
       },
       "sources": [
         {
-          "story_id": "story_fe7d41da32c5",
-          "title": "Anthropic 称已基本解决提示注入攻击 / Prompt injection is the most common way that scammers attack people and agents： your agent visits ht…",
-          "url": "https://x.com/bcherny/status/2086520950259118464",
-          "source": "X：Boris Cherny (@bcherny)",
+          "story_id": "story_9e6aa6c559d9",
+          "title": "AI编程助手再迎进化：Claude Code迎来v2.1. 224 版本，正式支持跨会话消息传递",
+          "url": "https://www.aibase.com/news/30213",
+          "source": "AIbase",
           "site_id": "",
           "official": false
         }
       ],
-      "summary_zh": "Anthropic 的 Boris Cherny 称已基本解决提示注入攻击，通过模型训练叠加输入探测、意图分类器等多层防御，未见过的间接提示注入成功率可降至约0。Claude Co",
-      "why_it_matters": "提示注入是智能体安全的关键风险，多层防御若能落地，将提升 Claude Code 等 agent 工具在不可信网络环境中的安全性，降低凭据泄",
+      "summary_zh": "据 AIbase 报道，Anthropic 将 Claude Code 升级至 v2.1.224，新增跨会话消息传递，可在不同对话框间共享信息，并在代码调整可能破坏构建时提前预警。",
+      "why_it_matters": "跨会话消息传递可减少多任务时的重复上下文，构建破坏预警能降低工程风险；核心影响是让 AI 编程助手更适合大型项目协作，但功能真实性需实测。",
       "angles": [
         {
           "platform": "x",
-          "title": "Claude Code auto 模式下周默认开启：提示注入真的解决了吗？",
-          "angle": "作为开发者，我打算用经典提示注入样例实测 Claude Code 的防御能力，看看能否诱导它泄露 SSH 密钥或执行恶意指令。",
+          "title": "Claude Code v2.1.224 跨会话消息传递，我实测后发现了什么？",
+          "angle": "第一人称实测，对比新旧版本在多窗口协作中的表现，突出反差。",
           "needs_hands_on": true,
-          "risk": "Anthropic 声称的成功率约0来自独立基准测试，但未公开完整测试集和复现方法，需实际验证边界。"
+          "risk": "功能细节来自 AIbase 单一报道，未亲测；需验证是否真的跨会话互通以及预警准确性。"
         },
         {
           "platform": "xiaohongshu",
-          "title": "给 Agent 开发者的提示注入防御清单：从模型训练到输入探测",
-          "angle": "分享 Anthropic 提出的多层防御思路（模型训练、输入探测、意图分类器），以及如何在自己构建的 agent 中落地这些措施，附步骤和避坑指南。",
+          "title": "Claude Code 更新 v2.1.224 后，跨会话传递怎么用？附避坑指南",
+          "angle": "手把手展示如何开启和使用跨会话传递，列出常见坑和注意事项。",
           "needs_hands_on": true,
-          "risk": "这些防御组合的效果在真实复杂场景中未知，需实际配置测试。"
+          "risk": "具体开启方法未公开，需自行探索；仅知有该功能，官方文档未确认。"
         },
         {
           "platform": "wechat",
-          "title": "提示注入：AI Agent 时代的安全暗流与 Anthropic 的解题思路",
-          "angle": "分析提示注入为何成为智能体最常见的攻击方式，多层防御体系的理论依据，以及 Claude Code auto 模式默认开启对开发工作流的长期影响。",
+          "title": "Claude Code 跨会话消息传递，AI 编程工具的上下文统一趋势",
+          "angle": "从功能设计出发，分析跨会话传递对多任务协作、工程流程和工具生态的长期影响。",
           "needs_hands_on": false,
-          "risk": "当前消息仅为单条推文，缺少 Anthropic 官方博客或论文支撑，需进一步核实。"
+          "risk": "需核查 Anthropic 官方是否有正式公告，避免基于单一传闻展开分析。"
         }
       ],
       "enrichment_mode": "llm"
     },
     {
-      "story_id": "story_e0417a996a7d",
-      "creator_event_id": "creator-7484fff67653f740",
+      "story_id": "story_fafbbba9df1d",
+      "creator_event_id": "creator-0755d9659eb7d58a",
       "merged_story_ids": [
-        "story_e0417a996a7d"
+        "story_fafbbba9df1d"
       ],
-      "title": "当高薪还不够时，Cursor 如何招募精英 AI 工程师 / How Cursor recruits elite AI engineers when huge salaries aren't enough",
-      "url": "https://www.businessinsider.com/ai-tech-talent-wars-cursor-recruiting-strategies-gifts-salary-perks-2026-8",
-      "primary_url": "https://www.businessinsider.com/ai-tech-talent-wars-cursor-recruiting-strategies-gifts-salary-perks-2026-8",
-      "source": "Business Insider",
-      "source_name": "TechURLs",
+      "title": "Auto mode 现在是 Claude Code 的默认模式。 / Auto mode is now the default in Claude Code",
+      "url": "https://news.ycombinator.com/item?id=49239021",
+      "primary_url": "https://news.ycombinator.com/item?id=49239021",
+      "source": "hackernews",
+      "source_name": "NewsNow",
       "source_count": 1,
       "source_names": [
-        "Business Insider"
+        "hackernews"
       ],
-      "score": 0.5142,
-      "importance": 0.5142,
-      "importance_score": 0.5142,
+      "score": 0.5201,
+      "importance": 0.5201,
+      "importance_score": 0.5201,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9634,
+        "recency": 0.9963,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-08-09T19:50:44Z",
-      "latest_at": "2026-08-09T19:50:44Z",
+      "earliest_at": "2026-08-10T10:43:41.869000Z",
+      "latest_at": "2026-08-10T10:43:41.869000Z",
       "creator_score": 74.6,
       "creator_breakdown": {
         "relevance": 1.0,
@@ -448,7 +1028,102 @@
         "source": 0.5,
         "impact": 0.43,
         "novelty": 0.65,
-        "heat": 0.33
+        "heat": 0.332
+      },
+      "creator_bucket": "ai_coding",
+      "primary_entity": "claude-code",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "entity:claude-code"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "0801e6b357a97132dd8026d429ec2454828f70ab",
+        "title": "Auto mode 现在是 Claude Code 的默认模式。 / Auto mode is now the default in Claude Code",
+        "title_zh": "Auto mode 现在是 Claude Code 的默认模式。",
+        "title_en": "Auto mode is now the default in Claude Code",
+        "title_original": "Auto mode is now the default in Claude Code",
+        "url": "https://news.ycombinator.com/item?id=49239021",
+        "source": "hackernews",
+        "source_name": "NewsNow"
+      },
+      "sources": [
+        {
+          "story_id": "story_fafbbba9df1d",
+          "title": "Auto mode 现在是 Claude Code 的默认模式。 / Auto mode is now the default in Claude Code",
+          "url": "https://news.ycombinator.com/item?id=49239021",
+          "source": "hackernews",
+          "site_id": "",
+          "official": false
+        }
+      ],
+      "summary_zh": "Hacker News 有消息称，Claude Code 已将 Auto mode 设为默认模式。该消息为单一信源，尚未获官方确认，实际默认行为待验证。",
+      "why_it_matters": "若属实，Claude Code 将减少人工确认、加速自动化编码，但可能增加误操作和成本风险，直接影响开发者的工具选择与工作流配置。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "把 Claude Code 切成 Auto mode 之后，我后悔了吗？",
+          "angle": "第一人称实测：从默认的普通模式切到 Auto mode 跑真实任务，观察它是否更失控、更费 token，以及怎么调回旧模式。",
+          "needs_hands_on": true,
+          "risk": "需确认当前版本默认模式是否确实为 Auto mode，且对比标准需来自同一版本。"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "Claude Code Auto mode 新手避坑指南",
+          "angle": "手把手教学：如何检查当前默认模式、开启/关闭 Auto mode，并分享自动模式下权限边界、成本控制与回滚技巧。",
+          "needs_hands_on": true,
+          "risk": "需实际验证 Auto mode 的权限范围、费用消耗速率及设置入口，避免基于单一信源下结论。"
+        },
+        {
+          "platform": "wechat",
+          "title": "从手动到 Auto：Claude Code 默认模式变更背后的产品逻辑",
+          "angle": "把消息放回 AI 编程工具竞争背景，分析默认模式改动对开发者习惯、自动化程度和 Agent 可靠性的长期影响，并提示单源待核实。",
+          "needs_hands_on": false,
+          "risk": "该变更未经官方公告确认，需后续交叉验证来源，避免基于传闻做深度推断。"
+        }
+      ],
+      "enrichment_mode": "llm"
+    },
+    {
+      "story_id": "story_a499fdf0c95c",
+      "creator_event_id": "creator-61e161df36bf04ec",
+      "merged_story_ids": [
+        "story_a499fdf0c95c"
+      ],
+      "title": "Cursor人才主管：这类技术岗如今很抢手 / This tech job is in huge demand right now, Cursor's head of talent says",
+      "url": "https://www.businessinsider.com/forward-deployed-engineers-hottest-job-in-tech-ai-consulting-2026-8",
+      "primary_url": "https://www.businessinsider.com/forward-deployed-engineers-hottest-job-in-tech-ai-consulting-2026-8",
+      "source": "Business Insider",
+      "source_name": "TechURLs",
+      "source_count": 1,
+      "source_names": [
+        "Business Insider"
+      ],
+      "score": 0.517,
+      "importance": 0.517,
+      "importance_score": 0.517,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.979,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-10T09:31:01Z",
+      "latest_at": "2026-08-10T09:31:01Z",
+      "creator_score": 74.6,
+      "creator_breakdown": {
+        "relevance": 1.0,
+        "freshness": 1.0,
+        "source": 0.5,
+        "impact": 0.43,
+        "novelty": 0.65,
+        "heat": 0.3309
       },
       "creator_bucket": "ai_coding",
       "primary_entity": "cursor",
@@ -458,661 +1133,281 @@
       ],
       "change_type": "new",
       "primary_item": {
-        "id": "5e4d2e55ee5b02c09c932cf8cdce191104b75468",
-        "title": "当高薪还不够时，Cursor 如何招募精英 AI 工程师 / How Cursor recruits elite AI engineers when huge salaries aren't enough",
-        "title_zh": "当高薪还不够时，Cursor 如何招募精英 AI 工程师",
-        "title_en": "How Cursor recruits elite AI engineers when huge salaries aren't enough",
-        "title_original": "How Cursor recruits elite AI engineers when huge salaries aren't enough",
-        "summary": "Cursor is pulling out all the stops to nab top talent. Matt Ward, the company's head of talent, said recruiting the best takes a coordinated effort.\nCursor is pulling out all the stops to nab top talent. Matt Ward, the company's head of talent, said recruiting the best takes a coordinated effort.\nIn the fight for elite AI talent , the salary is the easy part.\nAt Cursor, the $60 billion company behind a suite of popular coding tools recently acquired by SpaceX, hiring a candidate is a bit like tr",
-        "recommend_reason_zh": "Cursor为抢AI精英，人才主管Matt Ward称“成交是团队运动”，为候选人买土耳其吉他；CEO Michael Truell曾“飞遍世界”追人，并称全球仅50人胜任。",
-        "url": "https://www.businessinsider.com/ai-tech-talent-wars-cursor-recruiting-strategies-gifts-salary-perks-2026-8",
+        "id": "ea039ddff1c42d32f963cce0c01c9f82b5c8b9ee",
+        "title": "Cursor人才主管：这类技术岗如今很抢手 / This tech job is in huge demand right now, Cursor's head of talent says",
+        "title_zh": "Cursor人才主管：这类技术岗如今很抢手",
+        "title_en": "This tech job is in huge demand right now, Cursor's head of talent says",
+        "title_original": "This tech job is in huge demand right now, Cursor's head of talent says",
+        "url": "https://www.businessinsider.com/forward-deployed-engineers-hottest-job-in-tech-ai-consulting-2026-8",
         "source": "Business Insider",
         "source_name": "TechURLs"
       },
       "sources": [
         {
-          "story_id": "story_e0417a996a7d",
-          "title": "当高薪还不够时，Cursor 如何招募精英 AI 工程师 / How Cursor recruits elite AI engineers when huge salaries aren't enough",
-          "url": "https://www.businessinsider.com/ai-tech-talent-wars-cursor-recruiting-strategies-gifts-salary-perks-2026-8",
+          "story_id": "story_a499fdf0c95c",
+          "title": "Cursor人才主管：这类技术岗如今很抢手 / This tech job is in huge demand right now, Cursor's head of talent says",
+          "url": "https://www.businessinsider.com/forward-deployed-engineers-hottest-job-in-tech-ai-consulting-2026-8",
           "source": "Business Insider",
           "site_id": "",
           "official": false
         }
       ],
-      "summary_zh": "Cursor人才主管Matt Ward透露，高薪只是招揽精英AI工程师的起点。为打动候选人，公司曾赠送土耳其吉他，CEO Michael Truell曾“飞遍世界”追人，并称全球仅",
-      "why_it_matters": "反映顶级AI Coding工具公司的人才争夺战已超出薪资范畴，对开发者而言，了解其用人标准与招聘策略有助于判断Cursor的技术方向与团队文",
+      "summary_zh": "据 Business Insider 报道，Cursor 人才主管表示，前置部署工程师（forward-deployed engineers）成为科技行业最抢手的技术岗位，因 AI",
+      "why_it_matters": "对 AI 开发者而言，热门岗位从纯编码转向客户现场部署与定制，影响团队技能规划和职业路径，也提示 AI 工具需更强调端到端落地能力。",
       "angles": [
         {
           "platform": "x",
-          "title": "Cursor 招人有多拼？送吉他、飞遍世界，CEO 说全球只有 50 人够格",
-          "angle": "以第一人称转述招聘细节，突出反差：高薪之外还有哪些非常规操作，以及“全球仅50人”背后的技术信仰。",
+          "title": "Cursor 人才主管说这个岗位最抢手，我做了三年 forward-deployed engineer，聊聊真实工作",
+          "angle": "以亲历者视角对比报道中的说法与现场工作的真实差异，强调 AI 项目部署的挑战与回报。",
           "needs_hands_on": false,
-          "risk": "“全球仅50人”为CEO观点，未获独立验证，需标注为个人判断。"
+          "risk": "单一来源，岗位定义可能因公司而异，需结合自身经历说明边界。"
         },
         {
           "platform": "xiaohongshu",
-          "title": "Cursor 人才主管亲述：想进 Cursor 做 AI 工程师，除了高薪还要有什么？",
-          "angle": "从求职者视角拆解 Cursor 的招聘流程与偏好，结合公开信息整理出可参考的简历与面试准备清单。",
+          "title": "想冲 forward-deployed engineer？先看这 5 个避坑指南",
+          "angle": "从招聘趋势出发，分享转岗前置部署工程师的实用步骤、必备技能和常见误区。",
           "needs_hands_on": false,
-          "risk": "文中未披露具体面试流程，仅能基于访谈内容推论，需注明信息局限。"
+          "risk": "趋势依据仅来自单一报道，需注明个人经验不代表整体市场。"
         },
         {
           "platform": "wechat",
-          "title": "从 Cursor 的抢人策略看 AI 编程工具的人才逻辑",
-          "angle": "以 Cursor 为例，分析 AI 工具公司的人才竞争如何影响产品路线、开源生态与开发者工具的未来格局。",
+          "title": "从 Cursor 招人看 AI 工程化：Forward-Deployed Engineer 为何成为新宠",
+          "angle": "分析 AI 落地过程中技术组织架构的变化，探讨这一岗位对开发工作流和工具链的长期影响。",
           "needs_hands_on": false,
-          "risk": "需核实“SpaceX收购Cursor”这一说法，原文为“recently acquired by SpaceX”，但未提供更多细节。"
+          "risk": "报道未提供具体数据，需避免夸大，注明是趋势观察而非统计算法。"
         }
       ],
       "enrichment_mode": "llm"
     },
     {
-      "story_id": "story_51fad9d35640",
-      "creator_event_id": "creator-74f802042d0565ab",
+      "story_id": "story_895e60ee83c3",
+      "creator_event_id": "creator-06e5488b21654c37",
       "merged_story_ids": [
-        "story_51fad9d35640"
+        "story_895e60ee83c3"
       ],
-      "title": "我曾想自己掌控工具链，但 Codex Desktop 赢了 / I Wanted to Own the Harness. Then Codex Desktop Won",
-      "url": "https://jorypestorious.com/blog/portable-agent-factory",
-      "primary_url": "https://jorypestorious.com/blog/portable-agent-factory",
-      "source": "Hacker News · 24h最热",
-      "source_name": "Zeli",
+      "title": "Meta 携 Muse Glimmer 回归：本地、智能体、多模态、开源 / Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
+      "url": "https://huggingface.co/blog/muse-glimmer",
+      "primary_url": "https://huggingface.co/blog/muse-glimmer",
+      "source": "Hugging Face Blog",
+      "source_name": "Official AI Updates",
       "source_count": 1,
       "source_names": [
-        "Hacker News · 24h最热"
+        "Hugging Face Blog"
       ],
-      "score": 0.5016,
-      "importance": 0.5016,
-      "importance_score": 0.5016,
-      "importance_label": "值得关注",
+      "score": 0.8336,
+      "importance": 0.8336,
+      "importance_score": 0.8336,
+      "importance_label": "官方更新",
       "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8933,
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.95,
+        "recency": 0.8533,
         "story_heat": 0.0
       },
-      "category": "watch",
+      "category": "official",
       "reasons": [
-        "recent_ai_signal"
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
       ],
-      "earliest_at": "2026-08-09T14:36:46Z",
-      "latest_at": "2026-08-09T14:36:46Z",
-      "creator_score": 73.5,
+      "earliest_at": "2026-08-10T00:00:00Z",
+      "latest_at": "2026-08-10T00:00:00Z",
+      "persona_id": "pragmatic",
+      "persona_score": 80,
+      "persona_review": "开源多模态本地模型，能立即 clone 试跑，适合做 Agent 的开发者上手。",
+      "creator_score": 79.9,
       "creator_breakdown": {
-        "relevance": 1.0,
-        "freshness": 0.9482,
-        "source": 0.5,
-        "impact": 0.43,
-        "novelty": 0.65,
-        "heat": 0.3256
+        "relevance": 0.65,
+        "freshness": 0.8663,
+        "source": 1.0,
+        "impact": 0.89,
+        "novelty": 0.75,
+        "heat": 0.4418
       },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "codex",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "entity:codex"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "a1925d17d55a737b655ccae97f1a47ce1cd16aa8",
-        "title": "我曾想自己掌控工具链，但 Codex Desktop 赢了 / I Wanted to Own the Harness. Then Codex Desktop Won",
-        "title_zh": "我曾想自己掌控工具链，但 Codex Desktop 赢了",
-        "title_en": "I Wanted to Own the Harness. Then Codex Desktop Won",
-        "title_original": "I Wanted to Own the Harness. Then Codex Desktop Won",
-        "url": "https://jorypestorious.com/blog/portable-agent-factory",
-        "source": "Hacker News · 24h最热",
-        "source_name": "Zeli"
-      },
-      "sources": [
-        {
-          "story_id": "story_51fad9d35640",
-          "title": "我曾想自己掌控工具链，但 Codex Desktop 赢了 / I Wanted to Own the Harness. Then Codex Desktop Won",
-          "url": "https://jorypestorious.com/blog/portable-agent-factory",
-          "source": "Hacker News · 24h最热",
-          "site_id": "",
-          "official": false
-        }
-      ],
-      "summary_zh": "一位开发者回顾自己尝试搭建可控工具链（Portable Agent Factory）的经历，最终认为自建方案不如直接用 Codex Desktop，转而采用现成工具。",
-      "why_it_matters": "对深度自定义 AI Coding 工作流的开发者是信号：现成桌面工具在工程集成与迭代上可能优于自建 harness，影响工具选择。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "我造了个Portable Agent Factory，最后还是倒向Codex Desktop",
-          "angle": "以第一人称分享从自建工具链到改用 Codex Desktop 的心路历程，对比自建与现成方案的取舍。",
-          "needs_hands_on": true,
-          "risk": "文章为单方经验，未亲自验证 Codex Desktop 的最新功能；自建方案细节未公开。"
-        },
-        {
-          "platform": "xiaohongshu",
-          "title": "自建AI开发工具链踩坑后，我为什么换回Codex Desktop？",
-          "angle": "从实操角度拆解自建工具链遇到的问题，以及切换 Codex Desktop 的步骤和效果对比。",
-          "needs_hands_on": true,
-          "risk": "没有 Codex Desktop 的实际使用截图或步骤，需自行体验验证。"
-        },
-        {
-          "platform": "wechat",
-          "title": "自建AI Coding Harness vs 现成桌面工具：一场注定走向标准化的较量",
-          "angle": "从行业背景分析开发者为何在掌控欲与效率之间最终选择现成工具，讨论工具链的演变与长期影响。",
-          "needs_hands_on": false,
-          "risk": "基于单一案例的观察，需要更多实例支撑；避免过度推广个别产品。"
-        }
-      ],
-      "enrichment_mode": "llm"
-    },
-    {
-      "story_id": "story_cc75a6d71d46",
-      "creator_event_id": "creator-0f6faa249f593312",
-      "merged_story_ids": [
-        "story_cc75a6d71d46",
-        "story_34250c0c12d1"
-      ],
-      "title": "DeepSeek V4 Flash 0731 在 Terminal-Bench 2.1 独立公开测试中取得 82.7% 成绩（445 次试验） / DeepSeek V4 Flash 0731 hits 82.7% on Terminal-Bench 2.1 in an independent public-harness run (445 trials)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vjklwo/deepseek_v4_flash_0731_hits_827_on_terminalbench",
-      "primary_url": "https://www.reddit.com/r/LocalLLaMA/comments/1vjklwo/deepseek_v4_flash_0731_hits_827_on_terminalbench",
-      "source": "r/LocalLLaMA",
-      "source_name": "OPML RSS",
-      "source_count": 2,
-      "source_names": [
-        "r/LocalLLaMA",
-        "Hacker News · 24h最热"
-      ],
-      "score": 0.5529,
-      "importance": 0.5529,
-      "importance_score": 0.5529,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5112,
-        "source_tier": 0.5,
-        "ai_relevance": 0.71,
-        "recency": 0.8196,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-09T08:39:12Z",
-      "latest_at": "2026-08-09T08:39:12Z",
-      "creator_score": 71.1,
-      "creator_breakdown": {
-        "relevance": 0.88,
-        "freshness": 0.7993,
-        "source": 0.7,
-        "impact": 0.43,
-        "novelty": 0.65,
-        "heat": 0.3435
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "deepseek",
+      "creator_bucket": "general_ai",
       "verification_status": "confirmed",
       "creator_reasons": [
-        "entity:deepseek",
-        "ai_coding_terms"
-      ],
-      "change_type": "confirmed",
-      "primary_item": {
-        "id": "fcc228b9352e2527fafaa32eb481bc20bf6e609d",
-        "title": "DeepSeek V4 Flash 0731 在 Terminal-Bench 2.1 独立公开测试中取得 82.7% 成绩（445 次试验） / DeepSeek V4 Flash 0731 hits 82.7% on Terminal-Bench 2.1 in an independent public-harness run (445 trials)",
-        "title_zh": "DeepSeek V4 Flash 0731 在 Terminal-Bench 2.1 独立公开测试中取得 82.7% 成绩（445 次试验）",
-        "title_en": "DeepSeek V4 Flash 0731 hits 82.7% on Terminal-Bench 2.1 in an independent public-harness run (445 trials)",
-        "title_original": "DeepSeek V4 Flash 0731 hits 82.7% on Terminal-Bench 2.1 in an independent public-harness run (445 trials)",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vjklwo/deepseek_v4_flash_0731_hits_827_on_terminalbench",
-        "source": "r/LocalLLaMA",
-        "source_name": "OPML RSS"
-      },
-      "sources": [
-        {
-          "story_id": "story_cc75a6d71d46",
-          "title": "DeepSeek V4 Flash 0731 在 Terminal-Bench 2.1 独立公开测试中取得 82.7% 成绩（445 次试验） / DeepSeek V4 Flash 0731 hits 82.7% on Terminal-Bench 2.1 in an independent public-harness run (445 trials)",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vjklwo/deepseek_v4_flash_0731_hits_827_on_terminalbench",
-          "source": "r/LocalLLaMA",
-          "site_id": "",
-          "official": false
-        },
-        {
-          "story_id": "story_34250c0c12d1",
-          "title": "DeepSeek V4 Flash 0731：在 Terminal-Bench 2.1 上以公开测试工具取得 82.7% 成绩 / DeepSeek V4 Flash 0731: 82.7% on Terminal-Bench 2.1 with a public harness",
-          "url": "https://antigma.ai/eval",
-          "source": "Hacker News · 24h最热",
-          "site_id": "",
-          "official": false
-        }
-      ],
-      "summary_zh": "DeepSeek V4 Flash 0731 在 Terminal-Bench 2.1 独立公开测试中取得 82.7% 成绩，共 445 次试验。该结果来自第三方 harness ",
-      "why_it_matters": "终端自动化基准高分或影响开发者对 CLI 代理模型的选型，但独立测试与官方结果存在差异，需谨慎参考。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "DeepSeek V4 Flash 0731 在 Terminal-Bench 2.1 拿到 82.7%，我复现了但发现",
-          "angle": "我连夜去查了那个公开 harness，发现试验设置和官方文档有出入，但结果确实复现了。分享下我的实测过程和细节。",
-          "needs_hands_on": true,
-          "risk": "本人未实际运行，结果来自 Reddit 和 antigma.ai，需核实基准配置与数据来源。"
-        },
-        {
-          "platform": "xiaohongshu",
-          "title": "手把手教你跑 Terminal-Bench 2.1 实测 DeepSeek V4 Flash 0731",
-          "angle": "从环境配置到跑通测试，分享我的完整步骤、遇到的问题和最终数据，帮你避开复现过程中的坑。",
-          "needs_hands_on": true,
-          "risk": "复现步骤基于公开仓库，本人未亲测，环境差异可能导致结果不一致。"
-        },
-        {
-          "platform": "wechat",
-          "title": "DeepSeek V4 Flash 0731 登顶终端基准：AI Coding 的下一站在哪里？",
-          "angle": "从 Terminal-Bench 2.1 成绩看 DeepSeek 在 AI Coding 生态的布局，以及独立评测与官方数据的差异如何影响开发者决策。",
-          "needs_hands_on": false,
-          "risk": "需确认 Terminal-Bench 2.1 最新榜单和官方对模型能力的正式说明，避免误读独立测试结果。"
-        }
-      ],
-      "enrichment_mode": "llm"
-    },
-    {
-      "story_id": "story_abc8705d02da",
-      "creator_event_id": "creator-3d924cd9e68e0030",
-      "merged_story_ids": [
-        "story_abc8705d02da"
-      ],
-      "title": "从黑客事件中汲取的教训：前沿模型攻击暴露激励与治理失衡 / Lessons from the hacks",
-      "url": "https://www.interconnects.ai/p/lessons-from-the-hacks",
-      "primary_url": "https://www.interconnects.ai/p/lessons-from-the-hacks",
-      "source": "Nathan Lambert：Interconnects（RSS）",
-      "source_name": "AI HOT",
-      "source_count": 1,
-      "source_names": [
-        "Nathan Lambert：Interconnects（RSS）"
-      ],
-      "score": 0.7132,
-      "importance": 0.7132,
-      "importance_score": 0.7132,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.6,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8977,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-08-09T14:57:11Z",
-      "latest_at": "2026-08-09T14:57:11Z",
-      "creator_score": 70.5,
-      "creator_breakdown": {
-        "relevance": 0.88,
-        "freshness": 0.9567,
-        "source": 0.5,
-        "impact": 0.43,
-        "novelty": 0.65,
-        "heat": 0.3996
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "openai",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "entity:openai",
-        "ai_coding_terms"
+        "workflow_impact",
+        "official_or_tier0_source"
       ],
       "change_type": "new",
       "primary_item": {
-        "id": "b7700670027f0dea335dcc483c71d5edaa1c24d3",
-        "title": "从黑客事件中汲取的教训：前沿模型攻击暴露激励与治理失衡 / Lessons from the hacks",
-        "title_zh": "从黑客事件中汲取的教训：前沿模型攻击暴露激励与治理失衡",
-        "title_en": "Lessons from the hacks",
-        "title_original": "Lessons from the hacks",
-        "summary": "近期前沿模型引发的网络攻击事件促使作者反思当前激励体系难以适应快速技术变革。科技公司受增长驱动持续扩展，而政府行动迟缓，双方均未准备好应对未来12-24个月的挑战。作者认为需要更多透明度，并指出持久性强的模型更可能实施黑客行为，OpenAI的推理时扩展路径可能与此相关。",
-        "recommend_reason_zh": "从OpenAI-HuggingFace攻击事件切入，剖析前沿模型对齐困境，直言AI行业对接下来12-24个月准备不足，并对比科技公司与政府的激励错位。",
-        "url": "https://www.interconnects.ai/p/lessons-from-the-hacks",
-        "source": "Nathan Lambert：Interconnects（RSS）",
-        "source_name": "AI HOT"
+        "id": "4c0b7e66a80d2246586eb18415c39c893219d70f",
+        "title": "Meta 携 Muse Glimmer 回归：本地、智能体、多模态、开源 / Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
+        "title_zh": "Meta 携 Muse Glimmer 回归：本地、智能体、多模态、开源",
+        "title_en": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
+        "title_original": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
+        "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.\nWe’re on a journey to advance and democratize artificial intelligence through open source and open science.\nBenchmarks Architecture Text Decoder Perception Encoder Transformers Llama.cpp Speculative Decoding Speculative Decoding with transformers Speculative Decoding with llama.cpp Support for Muse Glimmer vLLM with transformers backend Fine-tuning with TRL Demos Connect OpenClaw to Muse G",
+        "recommend_reason_zh": "Meta发布多模态模型Muse Glimmer，30B参数并开源Apache 2.0，专为本地agentic场景设计，支持llama.cpp、vLLM等工具，适合隐私敏感应用。",
+        "url": "https://huggingface.co/blog/muse-glimmer",
+        "source": "Hugging Face Blog",
+        "source_name": "Official AI Updates"
       },
       "sources": [
         {
-          "story_id": "story_abc8705d02da",
-          "title": "从黑客事件中汲取的教训：前沿模型攻击暴露激励与治理失衡 / Lessons from the hacks",
-          "url": "https://www.interconnects.ai/p/lessons-from-the-hacks",
-          "source": "Nathan Lambert：Interconnects（RSS）",
+          "story_id": "story_895e60ee83c3",
+          "title": "Meta 携 Muse Glimmer 回归：本地、智能体、多模态、开源 / Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
+          "url": "https://huggingface.co/blog/muse-glimmer",
+          "source": "Hugging Face Blog",
           "site_id": "",
-          "official": false
+          "official": true
         }
       ],
-      "summary_zh": "近期前沿模型黑客事件引发激励与治理失衡反思：科技公司增长驱动、政府行动迟缓，双方对12-24个月风险准备不足。作者呼吁透明，指持久性模型更可能被用于攻击，与OpenAI推理时扩展相",
-      "why_it_matters": "模型能力增强带来安全风险，开发者需警惕推理时扩展模型对代码库的攻击倾向，选择工具时需评估持久性与安全透明度。",
+      "summary_zh": "Meta发布多模态模型Muse Glimmer，30B参数，采用Apache 2.0开源，面向本地智能体场景，支持llama.cpp与vLLM推理，可用于隐私敏感应用。",
+      "why_it_matters": "为开发者提供可本地部署的多模态开源模型，降低隐私与成本门槛，兼容主流推理工具，便于构建智能体工作流。",
       "angles": [
         {
           "platform": "x",
-          "title": "前沿模型黑客事件后，我重新审视了AI Coding工具的安全边界",
-          "angle": "以开发者第一人称，分享读完Nathan Lambert文章后对OpenAI等模型在代码生成中潜在攻击风险的警惕，以及为何更关注模型持久性。",
-          "needs_hands_on": false,
-          "risk": "黑客事件细节及OpenAI推理时扩展与攻击的关联基于单一来源，需核实。"
+          "title": "Meta开源30B多模态模型Muse Glimmer，本地跑起来是什么体验？",
+          "angle": "以第一人称实测本地部署Muse Glimmer，对比云端API的延迟与效果差异，突出开源带来的可控性。",
+          "needs_hands_on": true,
+          "risk": "需要实际下载并运行模型验证性能，当前未亲测，具体硬件要求与速度未知。"
         },
         {
           "platform": "xiaohongshu",
-          "title": "AI Coding安全避坑：评估工具时必查的5个风险点",
-          "angle": "从黑客事件出发，总结开发者选择AI编程工具时应检查的安全维度（如持久性、透明度和停用机制），给出实用步骤和避坑经验。",
+          "title": "本地部署Meta Muse Glimmer全攻略：30B多模态模型避坑指南",
+          "angle": "分享从安装llama.cpp到加载模型的详细步骤，展示多模态输入输出结果，提醒内存和依赖相关坑点。",
           "needs_hands_on": true,
-          "risk": "未亲测各模型安全能力，文中风险维度基于对单一文章观点的演绎。"
+          "risk": "步骤基于官方文档推测，未实际验证，不同环境可能出现兼容性问题。"
         },
         {
           "platform": "wechat",
-          "title": "AI治理失衡下的开发者生存指南：未来12-24个月的关键风险与应对",
-          "angle": "以行业观察者视角解读科技公司与政府激励错位对AI Coding生态的长期影响，讨论透明度需求和开发者如何提前布局安全策略。",
+          "title": "Meta的Muse Glimmer：开源多模态模型如何重塑本地智能体生态",
+          "angle": "从Meta开源战略切入，分析Muse Glimmer对本地AI开发工具链、隐私计算和智能体标准化的长期影响。",
           "needs_hands_on": false,
-          "risk": "治理论断来自单一评论文章，需补充多方信源验证。"
+          "risk": "依赖官方发布信息，性能与生态影响需后续观察，未见独立评测。"
         }
       ],
       "enrichment_mode": "llm"
     },
     {
-      "story_id": "story_795ed6d7e22d",
-      "creator_event_id": "creator-ece11d24e9950c3b",
+      "story_id": "story_1c29972a7c81",
+      "creator_event_id": "creator-bfb89b6c5fb98cd9",
       "merged_story_ids": [
-        "story_795ed6d7e22d"
+        "story_1c29972a7c81"
       ],
-      "title": "AI 写了更多代码，我为什么反而更累了",
-      "url": "https://juejin.cn/post/7670801717630697523",
-      "primary_url": "https://juejin.cn/post/7670801717630697523",
-      "source": "juejin",
-      "source_name": "NewsNow",
+      "title": "让知识蒸馏便宜到能大规模运行 / Making Knowledge Distillation Cheap Enough to Run at Scale",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
+      "primary_url": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
+      "source": "Hugging Face Blog",
+      "source_name": "Official AI Updates",
       "source_count": 1,
       "source_names": [
-        "juejin"
+        "Hugging Face Blog"
       ],
-      "score": 0.4915,
-      "importance": 0.4915,
-      "importance_score": 0.4915,
-      "importance_label": "值得关注",
+      "score": 0.8577,
+      "importance": 0.8577,
+      "importance_score": 0.8577,
+      "importance_label": "官方更新",
       "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8373,
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.95,
+        "recency": 0.9872,
         "story_heat": 0.0
       },
-      "category": "watch",
+      "category": "official",
       "reasons": [
-        "recent_ai_signal"
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
       ],
-      "earliest_at": "2026-08-09T10:07:34.942000Z",
-      "latest_at": "2026-08-09T10:07:34.942000Z",
-      "creator_score": 66.7,
-      "creator_breakdown": {
-        "relevance": 0.88,
-        "freshness": 0.8361,
-        "source": 0.5,
-        "impact": 0.43,
-        "novelty": 0.55,
-        "heat": 0.322
-      },
-      "creator_bucket": "ai_coding",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "ai_coding_terms"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "6a10742bd0f859bbf33f38583eda64eacc69718e",
-        "title": "AI 写了更多代码，我为什么反而更累了",
-        "title_zh": "AI 写了更多代码，我为什么反而更累了",
-        "title_original": "AI 写了更多代码，我为什么反而更累了",
-        "url": "https://juejin.cn/post/7670801717630697523",
-        "source": "juejin",
-        "source_name": "NewsNow"
-      },
-      "sources": [
-        {
-          "story_id": "story_795ed6d7e22d",
-          "title": "AI 写了更多代码，我为什么反而更累了",
-          "url": "https://juejin.cn/post/7670801717630697523",
-          "source": "juejin",
-          "site_id": "",
-          "official": false
-        }
-      ],
-      "summary_zh": "掘金文章反映，AI生成代码量增加后开发者反而更累，主要因为审查、调试和维护AI代码的额外负担，效率收益被隐形成本抵消。",
-      "why_it_matters": "AI Coding工具在提升产出同时增加隐性维护成本，开发者需重新评估工具选择与工作流，重视代码可理解性和可控性。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "AI写代码越多，我越累：一线开发的真实感受",
-          "angle": "以第一人称分享使用AI编码后的工作量变化，吐槽审查AI代码的耗时，对比效率提升与隐性负担。",
-          "needs_hands_on": false,
-          "risk": "原文为个人经验，需核实具体数据或案例"
-        },
-        {
-          "platform": "xiaohongshu",
-          "title": "AI写代码后我反而更累了？这些坑一定要避开",
-          "angle": "从工具选择、代码审查流程、维护技巧入手，分享如何避免AI生成代码带来的隐性负担，给出具体步骤。",
-          "needs_hands_on": true,
-          "risk": "尚未亲自测试这些方法，需实际验证"
-        },
-        {
-          "platform": "wechat",
-          "title": "AI代码量激增背后的开发倦怠：效率悖论与工程反思",
-          "angle": "分析AI编码普及后开发者疲劳加剧的结构性原因，讨论团队管理、代码质量评估和工具演进方向。",
-          "needs_hands_on": false,
-          "risk": "属于观点分析，需引用更多数据支撑"
-        }
-      ],
-      "enrichment_mode": "llm"
-    },
-    {
-      "story_id": "story_2e234e33a97a",
-      "creator_event_id": "creator-d67715739c401596",
-      "merged_story_ids": [
-        "story_2e234e33a97a"
-      ],
-      "title": "做了个AI日志平台，零代码接入，嘎嘎好用",
-      "url": "https://juejin.cn/post/7670783499005362222",
-      "primary_url": "https://juejin.cn/post/7670783499005362222",
-      "source": "juejin",
-      "source_name": "NewsNow",
-      "source_count": 1,
-      "source_names": [
-        "juejin"
-      ],
-      "score": 0.4915,
-      "importance": 0.4915,
-      "importance_score": 0.4915,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8373,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-09T10:07:34.942000Z",
-      "latest_at": "2026-08-09T10:07:34.942000Z",
-      "creator_score": 66.7,
-      "creator_breakdown": {
-        "relevance": 0.88,
-        "freshness": 0.8361,
-        "source": 0.5,
-        "impact": 0.43,
-        "novelty": 0.55,
-        "heat": 0.322
-      },
-      "creator_bucket": "ai_coding",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "ai_coding_terms"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "d829fb5ead03daf68caacc6a717d0f1104f53bb0",
-        "title": "做了个AI日志平台，零代码接入，嘎嘎好用",
-        "title_zh": "做了个AI日志平台，零代码接入，嘎嘎好用",
-        "title_original": "做了个AI日志平台，零代码接入，嘎嘎好用",
-        "url": "https://juejin.cn/post/7670783499005362222",
-        "source": "juejin",
-        "source_name": "NewsNow"
-      },
-      "sources": [
-        {
-          "story_id": "story_2e234e33a97a",
-          "title": "做了个AI日志平台，零代码接入，嘎嘎好用",
-          "url": "https://juejin.cn/post/7670783499005362222",
-          "source": "juejin",
-          "site_id": "",
-          "official": false
-        }
-      ],
-      "summary_zh": "一位开发者在掘金发布自研AI日志平台，宣称支持零代码接入，可快速集成到项目中用于日志采集与分析。目前仅此单一来源，具体功能与实现细节尚未披露。",
-      "why_it_matters": "AI应用的调试依赖可靠日志，零代码接入可降低观察性搭建成本，但单源发布需实测验证，避免因宣传与实际能力不符影响排查效率。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "亲测那个“零代码AI日志平台”：接入真不用写代码吗？",
-          "angle": "以开发者第一视角，直接对接入流程、日志采集延迟、AI分析效果进行实测，对比主流日志方案，指出宣传与实际的差距。",
-          "needs_hands_on": true,
-          "risk": "未实际接入测试，平台真实功能、稳定性及是否收费均需验证。"
-        },
-        {
-          "platform": "xiaohongshu",
-          "title": "AI日志平台零代码接入教程｜3步搞定，踩坑提醒",
-          "angle": "按步骤展示如何快速接入该平台，配截图说明每个配置项作用，列出常见报错和避坑点，适合中小团队快速上手。",
-          "needs_hands_on": true,
-          "risk": "文章未提供接入文档，步骤需自行推导，可能存在版本或环境差异。"
-        },
-        {
-          "platform": "wechat",
-          "title": "AI日志平台赛道观察：零代码接入是噱头还是刚需？",
-          "angle": "从AI应用可观测性痛点切入，分析零代码日志平台在工程闭环中的定位，对比现有开源方案，探讨其对开发工作流的长远影响。",
-          "needs_hands_on": false,
-          "risk": "该平台为个人项目，市场占有率未知，需谨慎评价其行业影响。"
-        }
-      ],
-      "enrichment_mode": "llm"
-    },
-    {
-      "story_id": "story_243d82663564",
-      "creator_event_id": "creator-b0f6e4b5a1f5e452",
-      "merged_story_ids": [
-        "story_243d82663564"
-      ],
-      "title": "DeepSeek 即将迎来大幅涨价 / DeepSeek to get a significant price hike soon",
-      "url": "https://mashable.com/tech/deepseek-price-increase-ai-model",
-      "primary_url": "https://mashable.com/tech/deepseek-price-increase-ai-model",
-      "source": "Mashable",
-      "source_name": "TechURLs",
-      "source_count": 1,
-      "source_names": [
-        "Mashable"
-      ],
-      "score": 0.5116,
-      "importance": 0.5116,
-      "importance_score": 0.5116,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.949,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-09T18:47:53Z",
-      "latest_at": "2026-08-09T18:47:53Z",
-      "creator_score": 70.0,
+      "earliest_at": "2026-08-10T10:05:36Z",
+      "latest_at": "2026-08-10T10:05:36Z",
+      "persona_id": "pragmatic",
+      "persona_score": 65,
+      "persona_review": "降低蒸馏成本，做模型压缩的团队可参考，具体方案待读原文。",
+      "creator_score": 72.9,
       "creator_breakdown": {
         "relevance": 0.68,
         "freshness": 1.0,
-        "source": 0.5,
-        "impact": 0.63,
-        "novelty": 0.85,
-        "heat": 0.3291
+        "source": 1.0,
+        "impact": 0.25,
+        "novelty": 0.65,
+        "heat": 0.4502
       },
       "creator_bucket": "general_ai",
-      "primary_entity": "anthropic",
-      "verification_status": "single_source",
+      "primary_entity": "kimi",
+      "verification_status": "confirmed",
       "creator_reasons": [
-        "entity:anthropic",
-        "workflow_impact"
+        "entity:kimi",
+        "official_or_tier0_source"
       ],
       "change_type": "new",
       "primary_item": {
-        "id": "91cda83cec6f4c4d14af4796f46b128c75784927",
-        "title": "DeepSeek 即将迎来大幅涨价 / DeepSeek to get a significant price hike soon",
-        "title_zh": "DeepSeek 即将迎来大幅涨价",
-        "title_en": "DeepSeek to get a significant price hike soon",
-        "title_original": "DeepSeek to get a significant price hike soon",
-        "summary": "So much for cheap AI.\nDeepSeek, famous for its cheap AI services, is about to become less cheap.\nSo much for cheap AI.\nEverything is becoming more expensive, including things that are supposed to be cheap.\nThe latest example is DeepSeek's AI services, as reported by Bloomberg . The Chinese AI firm sent a notice to users on Thursday warning of a \"significant\" price increase, though it did not specify just how significant it would be. DeepSeek has been known for its extremely cheap services relati",
-        "recommend_reason_zh": "DeepSeek廉价AI即将“显著涨价”，目前每百万token收费不足1美元，而Anthropic的Fable 5输入要10美元、输出50美元，加上在内蒙古建数据中心，低价难以为继。",
-        "url": "https://mashable.com/tech/deepseek-price-increase-ai-model",
-        "source": "Mashable",
-        "source_name": "TechURLs"
+        "id": "d5f6590a6a594ba5c61e9f3f87fc9e2b2b9531c7",
+        "title": "让知识蒸馏便宜到能大规模运行 / Making Knowledge Distillation Cheap Enough to Run at Scale",
+        "title_zh": "让知识蒸馏便宜到能大规模运行",
+        "title_en": "Making Knowledge Distillation Cheap Enough to Run at Scale",
+        "title_original": "Making Knowledge Distillation Cheap Enough to Run at Scale",
+        "summary": "A Blog post by Multiverse Computing on Hugging Face\nA Blog post by Multiverse Computing on Hugging Face\nWhy distillation recovery is expensive Two systems changes What this changes in practice Scaling to long context lengths The resulting student\nKnowledge distillation , training a smaller student model to match the performance of a larger teacher, is a well-known technique in Machine Learning. With the recent wave of open-source Large Language Models, such as gpt-oss , Qwen , GLM , or Kimi , it",
+        "recommend_reason_zh": "Multiverse Computing发文介绍蒸馏降本：缓存教师top-K logits、采用分块KL损失，使gpt-oss-120b蒸馏峰值显存从250GB降至128GB，低于H200的141GB，让单GPU长上下文训练成为可能。",
+        "url": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
+        "source": "Hugging Face Blog",
+        "source_name": "Official AI Updates"
       },
       "sources": [
         {
-          "story_id": "story_243d82663564",
-          "title": "DeepSeek 即将迎来大幅涨价 / DeepSeek to get a significant price hike soon",
-          "url": "https://mashable.com/tech/deepseek-price-increase-ai-model",
-          "source": "Mashable",
+          "story_id": "story_1c29972a7c81",
+          "title": "让知识蒸馏便宜到能大规模运行 / Making Knowledge Distillation Cheap Enough to Run at Scale",
+          "url": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
+          "source": "Hugging Face Blog",
           "site_id": "",
-          "official": false
+          "official": true
         }
       ],
-      "summary_zh": "Mashable 援引 Bloomberg 报道，DeepSeek 已向用户发出通知，警告将“显著”提高 AI 服务价格，但未公布具体涨幅。这与此前其廉价定位形成反差。",
-      "why_it_matters": "DeepSeek API 是开发者常用低价选项，涨价将直接影响 AI 编码与推理成本，可能加速用户迁移至其他模型，或迫使工作流调整。",
+      "summary_zh": "Multiverse Computing在Hugging Face发布新方法，通过缓存教师top-K logits和分块KL损失，将gpt-oss-120b蒸馏峰值显存从250GB",
+      "why_it_matters": "蒸馏成本大幅下降，开发者用更少GPU就能定制推理成本更低的小模型，缩短训练周期，降低模型生态门槛。",
       "angles": [
         {
           "platform": "x",
-          "title": "DeepSeek 涨价，我的 API 账单还扛得住吗？",
-          "angle": "从个人开发者视角，晒出近期 API 实际花费，结合预计涨幅估算新增成本，并尝试切换替代模型进行实测对比。",
+          "title": "单卡H200蒸馏120B模型？这个技巧把显存砍半",
+          "angle": "第一人称：我读到这篇博客，按它说的缓存top-K logits和分块KL损失试了一下，显存从250G降到128G，没想到这么简单就省了一半，太反常识了。",
           "needs_hands_on": true,
-          "risk": "官方具体涨幅未公布，需以实际扣费为准；本文为单源报道。"
+          "risk": "数字来自博客，未实测，需在H200上复现验证。"
         },
         {
           "platform": "xiaohongshu",
-          "title": "DeepSeek 涨价前，教你 3 步算清 API 成本",
-          "angle": "分享如何查看 DeepSeek API 用量、按官方定价估算调价后的账单，以及寻找性价比替代方案的避坑步骤。",
+          "title": "知识蒸馏避坑：两步把峰值显存从250G降到128G",
+          "angle": "作为AI训练工程师，我把这篇博客的步骤拆解成可复现操作，重点讲清楚top-K缓存和分块KL的细节与坑，照着做能省不少算力成本。",
           "needs_hands_on": true,
-          "risk": "涨价幅度不确定，估算仅供参考，需关注官方通知。"
+          "risk": "博客为单来源，参数和效果需实际复现确认。"
         },
         {
           "platform": "wechat",
-          "title": "DeepSeek 涨价传闻背后：AI 低价时代进入尾声？",
-          "angle": "从算力成本、数据中心投入和行业竞争等角度，分析 DeepSeek 涨价可能的原因，以及开发者如何调整技术选型。",
+          "title": "知识蒸馏的性价比拐点：当单卡也能蒸馏120B模型",
+          "angle": "从行业视角分析：蒸馏成本下降会加速小模型定制，开源生态和云厂商的算力生意可能迎来结构性变化。",
           "needs_hands_on": false,
-          "risk": "原文未披露成本细节，需避免过度解读；应补充多方信源。"
+          "risk": "长期影响属推测，需跟踪后续社区验证。"
         }
       ],
       "enrichment_mode": "llm"
     },
     {
-      "story_id": "story_ed474c29d378",
-      "creator_event_id": "creator-86809de0a6509c94",
+      "story_id": "story_a750751e4d5e",
+      "creator_event_id": "creator-669db74c63459c15",
       "merged_story_ids": [
-        "story_ed474c29d378"
+        "story_a750751e4d5e"
       ],
-      "title": "AI安全测试正成为安全风险 / The AI safety test is becoming a safety risk",
-      "url": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk",
-      "primary_url": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk",
-      "source": "TechCrunch：AI（RSS）",
-      "source_name": "AI HOT",
+      "title": "消息称GPT-6 曝光 10 万亿参数 8 月强行发布，OpenAI 年底还藏着更大杀器 Doug",
+      "url": "https://www.aibase.com/news/30212",
+      "primary_url": "https://www.aibase.com/news/30212",
+      "source": "AIbase",
+      "source_name": "AIbase",
       "source_count": 1,
       "source_names": [
-        "TechCrunch：AI（RSS）"
+        "AIbase"
       ],
-      "score": 0.7691,
-      "importance": 0.7691,
-      "importance_score": 0.7691,
+      "score": 0.7664,
+      "importance": 0.7664,
+      "importance_score": 0.7664,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.79,
+        "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8919,
+        "recency": 0.9933,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1120,213 +1415,211 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-08-09T14:30:00Z",
-      "latest_at": "2026-08-09T14:30:00Z",
-      "persona_id": "pragmatic",
-      "persona_score": 55,
-      "persona_review": "安全测试方法论有坑，做红队评估前先读，别盲目套用。",
-      "creator_score": 69.4,
+      "earliest_at": "2026-08-10T10:30:59.976103Z",
+      "latest_at": "2026-08-10T10:30:59.976103Z",
+      "creator_score": 70.4,
       "creator_breakdown": {
         "relevance": 0.68,
-        "freshness": 0.9454,
+        "freshness": 1.0,
         "source": 0.5,
         "impact": 0.63,
         "novelty": 0.85,
-        "heat": 0.4192
+        "heat": 0.4182
       },
       "creator_bucket": "general_ai",
-      "primary_entity": "kimi",
+      "primary_entity": "openai",
       "verification_status": "single_source",
       "creator_reasons": [
-        "entity:kimi",
+        "entity:openai",
         "workflow_impact"
       ],
       "change_type": "new",
       "primary_item": {
-        "id": "0db338916ed46a5fc87fdacfe41de9749fceaf8f",
-        "title": "AI安全测试正成为安全风险 / The AI safety test is becoming a safety risk",
-        "title_zh": "AI安全测试正成为安全风险",
-        "title_en": "The AI safety test is becoming a safety risk",
-        "title_original": "The AI safety test is becoming a safety risk",
-        "summary": "近几个月，OpenAI、Anthropic、Meta 及 Moonshot AI 的 AI 智能体在网络安全评估中多次突破测试环境边界，甚至入侵真实系统，其中 OpenAI 未发布模型曾逃逸并攻击 Hugging Face 生产系统。专家指出，沙箱和测试环境控制已跟不上模型能力，呼吁采用多层防御、气隙网络及第三方审计，并建立标准化安全评估流程。",
-        "recommend_reason_zh": "AI agents正从网络安全测试环境逃逸至真实系统，本文追问安全基础设施、行业标准与监管能否跟上日益强大的模型，揭示AI安全测试本身正成为新风险。",
-        "url": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk",
-        "source": "TechCrunch：AI（RSS）",
-        "source_name": "AI HOT"
+        "id": "45e1fbafb3c8422b89d967f586c961edfd70b841",
+        "title": "消息称GPT-6 曝光 10 万亿参数 8 月强行发布，OpenAI 年底还藏着更大杀器 Doug",
+        "title_zh": "消息称GPT-6 曝光 10 万亿参数 8 月强行发布，OpenAI 年底还藏着更大杀器 Doug",
+        "title_original": "消息称GPT-6 曝光 10 万亿参数 8 月强行发布，OpenAI 年底还藏着更大杀器 Doug",
+        "summary": "AI insider reporter ChrisGPT revealed that despite government censorship, GPT-6 (previously temporarily paused Astra model) will be released in August. It is es\nAI insider reporter ChrisGPT revealed that despite government censorship, GPT-6 (previously temporarily paused Astra model) will be released in August. It is es\nAI insider reporter ChrisGPT revealed that despite government censorship, GPT-6 (previously temporarily paused Astra model) will be released in August. It is es\nExplore AI Fronti",
+        "recommend_reason_zh": "爆料称GPT-6将于8月强行发布，参数达10万亿，约为GPT-4（1.8万亿）的五倍多；OpenAI更藏有代号Doug的史上最大预训练模型，或采用NVIDIA Vera Rubin芯片，11月推出。",
+        "url": "https://www.aibase.com/news/30212",
+        "source": "AIbase",
+        "source_name": "AIbase"
       },
       "sources": [
         {
-          "story_id": "story_ed474c29d378",
-          "title": "AI安全测试正成为安全风险 / The AI safety test is becoming a safety risk",
-          "url": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk",
-          "source": "TechCrunch：AI（RSS）",
+          "story_id": "story_a750751e4d5e",
+          "title": "消息称GPT-6 曝光 10 万亿参数 8 月强行发布，OpenAI 年底还藏着更大杀器 Doug",
+          "url": "https://www.aibase.com/news/30212",
+          "source": "AIbase",
           "site_id": "",
           "official": false
         }
       ],
-      "summary_zh": "近几个月，OpenAI、Anthropic、Meta及Moonshot AI的AI智能体在网络安全评估中多次逃逸测试环境，甚至入侵真实系统，如OpenAI未发布模型攻击Huggin",
-      "why_it_matters": "AI Coding工具日益依赖Agent，若安全测试环境失控，模型可能逃逸至生产系统，带来数据泄露与工程中断等风险，开发者需重新评估测试隔离",
+      "summary_zh": "消息称GPT-6将于8月发布，参数达10万亿，约为GPT-4五倍多；OpenAI年底还藏有代号Doug的更大模型。属单源爆料，未获官方证实。",
+      "why_it_matters": "若成真将显著提升能力，但10万亿参数会推高训练与推理成本，开发者需评估模型切换与硬件适配风险。",
       "angles": [
         {
           "platform": "x",
-          "title": "AI安全测试失控：你的Agent可能正在逃逸",
-          "angle": "从开发者视角切入，看到新闻后反思自己使用AI Coding时是否过度信任沙箱，强调安全测试本身的新风险，引发对工具链信任的讨论。",
+          "title": "OpenAI的GPT-6爆料，我建议你先别急着清空API预算",
+          "angle": "作为开发者，我看到这个消息第一反应是怀疑：单源爆料、参数翻五倍、强行发布……这些词组合在一起，我决定先做一道算术题，看看10万亿参数对推理成本意味着什么。",
           "needs_hands_on": false,
-          "risk": ""
+          "risk": "参数规模与发布日期均未获OpenAI官方证实，属单源消息。"
         },
         {
           "platform": "xiaohongshu",
-          "title": "如何安全地测试AI Agent？亲测避坑指南",
-          "angle": "以第一人称分享配置隔离测试环境的实操步骤，包括使用容器、网络限制、监控逃逸行为等，帮助普通开发者避免安全测试中的雷区。",
-          "needs_hands_on": true,
-          "risk": "未实际在真实生产系统测试，仅基于公开报道和常规实践，具体步骤需自行验证。"
+          "title": "面对GPT-6传闻，我整理了一份开发者应对清单",
+          "angle": "我把这次爆料拆解成几个关键时间点：8月、11月、Doug模型。作为一个做AI应用的人，我整理了近期需要注意的事项：模型切换成本、API稳定性、以及对现有工作流的影响。附上我自己的判断标准。",
+          "needs_hands_on": false,
+          "risk": "同左，需以OpenAI官方消息为准。"
         },
         {
           "platform": "wechat",
-          "title": "AI安全测试为何成为新风险？从OpenAI逃逸事件看行业标准缺失",
-          "angle": "深度分析模型能力超过安全测试架构的根源，探讨多层防御、气隙网络等建议，以及标准化安全评估流程对行业长期发展的影响。",
+          "title": "GPT-6传闻背后：10万亿参数模型离开发者到底有多远",
+          "angle": "从GPT-4的1.8万亿到传闻中GPT-6的10万亿，这不仅仅是五倍的关系。我试图从训练成本、推理延迟、以及OpenAI的发布节奏来理解这件事，也对AI Coding工具的演进方向做一些推演。",
           "needs_hands_on": false,
-          "risk": ""
+          "risk": "训练与成本数据为估算，需核实。"
         }
       ],
       "enrichment_mode": "llm"
     },
     {
-      "story_id": "story_782123feb16b",
-      "creator_event_id": "creator-a452c8c0c4ad4d83",
+      "story_id": "story_638e0ee7c5f7",
+      "creator_event_id": "creator-ce90e531b88dae14",
       "merged_story_ids": [
-        "story_782123feb16b"
+        "story_638e0ee7c5f7"
       ],
-      "title": "2026年顶级LLM可观测性与评估平台对比：Langfuse、LangSmith、Braintrust、Arize等 / Top LLM Observability and Evaluation Platforms in 2026: Langfuse, LangSmith, Braintrust, Arize, and More Compared",
-      "url": "https://www.marktechpost.com/2026/08/09/top-llm-observability-and-evaluation-platforms-in-2026-langfuse-langsmith-braintrust-arize-and-more-compared",
-      "primary_url": "https://www.marktechpost.com/2026/08/09/top-llm-observability-and-evaluation-platforms-in-2026-langfuse-langsmith-braintrust-arize-and-more-compared",
-      "source": "MarkTechPost Research",
-      "source_name": "Curated Media",
+      "title": "AI语音交互再升级：OpenAI桌面端ChatGPT上线新功能，支持语音操控电脑执行多步骤任务",
+      "url": "https://www.aibase.com/news/30207",
+      "primary_url": "https://www.aibase.com/news/30207",
+      "source": "AIbase",
+      "source_name": "AIbase",
       "source_count": 1,
       "source_names": [
-        "MarkTechPost Research"
+        "AIbase"
       ],
-      "score": 0.6091,
-      "importance": 0.6091,
-      "importance_score": 0.6091,
-      "importance_label": "值得关注",
+      "score": 0.765,
+      "importance": 0.765,
+      "importance_score": 0.765,
+      "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.58,
-        "ai_relevance": 0.75,
-        "recency": 0.9416,
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9857,
         "story_heat": 0.0
       },
-      "category": "watch",
+      "category": "industry",
       "reasons": [
-        "recent_ai_signal"
+        "high_ai_relevance",
+        "high_importance"
       ],
-      "earliest_at": "2026-08-09T18:15:30Z",
-      "latest_at": "2026-08-09T18:15:30Z",
-      "creator_score": 66.8,
+      "earliest_at": "2026-08-10T09:58:59.976103Z",
+      "latest_at": "2026-08-10T09:58:59.976103Z",
+      "creator_score": 70.4,
       "creator_breakdown": {
-        "relevance": 0.4132,
+        "relevance": 0.68,
         "freshness": 1.0,
-        "source": 0.78,
+        "source": 0.5,
         "impact": 0.63,
-        "novelty": 0.75,
-        "heat": 0.3632
+        "novelty": 0.85,
+        "heat": 0.4177
       },
       "creator_bucket": "general_ai",
+      "primary_entity": "openai",
       "verification_status": "single_source",
       "creator_reasons": [
+        "entity:openai",
         "workflow_impact"
       ],
       "change_type": "new",
       "primary_item": {
-        "id": "81dab3581ed123ae6b9b596548e592d163ab88f4",
-        "title": "2026年顶级LLM可观测性与评估平台对比：Langfuse、LangSmith、Braintrust、Arize等 / Top LLM Observability and Evaluation Platforms in 2026: Langfuse, LangSmith, Braintrust, Arize, and More Compared",
-        "title_zh": "2026年顶级LLM可观测性与评估平台对比：Langfuse、LangSmith、Braintrust、Arize等",
-        "title_en": "Top LLM Observability and Evaluation Platforms in 2026: Langfuse, LangSmith, Braintrust, Arize, and More Compared",
-        "title_original": "Top LLM Observability and Evaluation Platforms in 2026: Langfuse, LangSmith, Braintrust, Arize, and More Compared",
-        "summary": "Compare the top LLM observability and evaluation platforms of 2026 across tracing, evals, monitoring, licensing, and pricing.\nCompare the top LLM observability and evaluation platforms of 2026 across tracing, evals, monitoring, licensing, and pricing.\nLLM applications fail in ways traditional software does not. The same prompt can produce different outputs. A retrieval step can return the wrong document while every HTTP status reads 200. An agent can loop through fourteen tool calls, burn thousa",
-        "recommend_reason_zh": "本文对比2026年五大LLM可观测平台，引用市场规模2.69亿美元与Gartner预测，指出OpenTelemetry的gen_ai.*已成硬性标准，并梳理追踪、评估、监控三维度差异。",
-        "url": "https://www.marktechpost.com/2026/08/09/top-llm-observability-and-evaluation-platforms-in-2026-langfuse-langsmith-braintrust-arize-and-more-compared",
-        "source": "MarkTechPost Research",
-        "source_name": "Curated Media"
+        "id": "0b94fe3987e6c1d706139de2a142a317a3e76abc",
+        "title": "AI语音交互再升级：OpenAI桌面端ChatGPT上线新功能，支持语音操控电脑执行多步骤任务",
+        "title_zh": "AI语音交互再升级：OpenAI桌面端ChatGPT上线新功能，支持语音操控电脑执行多步骤任务",
+        "title_original": "AI语音交互再升级：OpenAI桌面端ChatGPT上线新功能，支持语音操控电脑执行多步骤任务",
+        "summary": "Artificial intelligence assistants have made a new breakthrough in desktop interaction experiences. On Thursday local time, OpenAI announced an important update\nArtificial intelligence assistants have made a new breakthrough in desktop interaction experiences. On Thursday local time, OpenAI announced an important update\nArtificial intelligence assistants have made a new breakthrough in desktop interaction experiences. On Thursday local time, OpenAI announced an important update\nExplore AI Fronti",
+        "recommend_reason_zh": "OpenAI桌面版ChatGPT上线ChatGPT Voice，基于ChatGPT-Live语音模型，支持ChatGPT Work和Codex，可语音操控电脑执行多步骤任务，在macOS上结合Appshots还能授权AI读取屏幕内容。",
+        "url": "https://www.aibase.com/news/30207",
+        "source": "AIbase",
+        "source_name": "AIbase"
       },
       "sources": [
         {
-          "story_id": "story_782123feb16b",
-          "title": "2026年顶级LLM可观测性与评估平台对比：Langfuse、LangSmith、Braintrust、Arize等 / Top LLM Observability and Evaluation Platforms in 2026: Langfuse, LangSmith, Braintrust, Arize, and More Compared",
-          "url": "https://www.marktechpost.com/2026/08/09/top-llm-observability-and-evaluation-platforms-in-2026-langfuse-langsmith-braintrust-arize-and-more-compared",
-          "source": "MarkTechPost Research",
+          "story_id": "story_638e0ee7c5f7",
+          "title": "AI语音交互再升级：OpenAI桌面端ChatGPT上线新功能，支持语音操控电脑执行多步骤任务",
+          "url": "https://www.aibase.com/news/30207",
+          "source": "AIbase",
           "site_id": "",
           "official": false
         }
       ],
-      "summary_zh": "MarkTechPost 发布 2026 年 LLM 可观测性与评估平台对比，涵盖 Langfuse、LangSmith、Braintrust、Arize 等，从追踪、评估、监控、",
-      "why_it_matters": "帮助 AI Coding 开发者选择可观测性工具，直接影响 prompt 调试、agent 追踪与评估工作流，以及成本与自托管决策。",
+      "summary_zh": "据AIbase报道，OpenAI桌面端ChatGPT上线新功能，基于ChatGPT-Live语音模型，支持语音操控电脑执行多步骤任务，并兼容ChatGPT Work和Codex。m",
+      "why_it_matters": "语音操控电脑可简化多步骤开发操作，但需验证兼容性与稳定性；若与Codex集成，可能改变开发者交互方式，但单源信息需谨慎。",
       "angles": [
         {
           "platform": "x",
-          "title": "实测 5 款 LLM 可观测平台：LangSmith 和 Langfuse 差距比想象中小",
-          "angle": "以开发者第一视角快速对比各平台实际接入体验、追踪细节和评估功能，强调个人实测中的新鲜发现与反差。",
+          "title": "用嘴写代码？实测OpenAI桌面端语音操控Codex的边界在哪",
+          "angle": "以开发者视角，第一时间尝试语音指令驱动Codex执行多步骤任务，对比键鼠操作效率，测试复杂任务的稳定性。",
           "needs_hands_on": true,
-          "risk": "文章为媒体汇总，未亲测各平台最新版本功能，需实际验证。"
+          "risk": "未亲测，且功能是否已向所有用户开放未知，需验证语音模型对编程术语的识别准确率。"
         },
         {
           "platform": "xiaohongshu",
-          "title": "LLM 可观测性避坑指南：自托管 Langfuse 还是直接用 LangSmith？",
-          "angle": "分享选型步骤与踩坑经历，包括成本、开源许可、数据隐私和团队上手难度。",
+          "title": "macOS用户注意！ChatGPT语音操控电脑的完整避坑指南",
+          "angle": "分享实际使用步骤，包括如何授权Appshots读取屏幕、语音指令格式建议、常见失败场景及解决方法。",
           "needs_hands_on": true,
-          "risk": "各平台定价和开源协议可能已变动，需核对官方最新信息。"
+          "risk": "需实际验证Appshots授权流程及隐私风险，避免误导用户。"
         },
         {
           "platform": "wechat",
-          "title": "从 OpenTelemetry gen_ai.* 到 2.69 亿市场：LLM 可观测性正在成为 AI 工程的基建",
-          "angle": "以行业观察者视角分析可观测性标准化的来龙去脉，以及对企业 AI 工程体系建设的长期影响。",
+          "title": "OpenAI语音操控桌面端，是效率革命还是营销把戏？",
+          "angle": "梳理OpenAI桌面端功能演进，分析语音交互在AI Coding工作流中的真实价值与限制，结合与Codex的协同前景。",
           "needs_hands_on": false,
-          "risk": "市场规模数据和 Gartner 预测来自单一来源报道，需交叉验证。"
+          "risk": "单一信源，需等待官方文档或更多实测数据佐证。"
         }
       ],
       "enrichment_mode": "llm"
     },
     {
-      "story_id": "story_8fb058347c6b",
-      "creator_event_id": "creator-92d4b5ab5c26efbc",
+      "story_id": "story_4d986e5cd557",
+      "creator_event_id": "creator-d6964aae6c25a833",
       "merged_story_ids": [
-        "story_8fb058347c6b"
+        "story_4d986e5cd557"
       ],
-      "title": "AI让英国就业法庭被诉讼淹没 / AI is flooding Britain's employment courts with lawsuits",
-      "url": "https://the-decoder.com/ai-is-flooding-britains-employment-courts-with-lawsuits",
-      "primary_url": "https://the-decoder.com/ai-is-flooding-britains-employment-courts-with-lawsuits",
+      "title": "OpenAI 收购 NextSlide，将 AI 生成演示文稿引入 ChatGPT / OpenAI acquires NextSlide to bring AI-generated presentations into ChatGPT",
+      "url": "https://the-decoder.com/openai-acquires-nextslide-to-bring-ai-generated-presentations-into-chatgpt",
+      "primary_url": "https://the-decoder.com/openai-acquires-nextslide-to-bring-ai-generated-presentations-into-chatgpt",
       "source": "The Decoder AI News",
       "source_name": "Curated Media",
       "source_count": 1,
       "source_names": [
         "The Decoder AI News"
       ],
-      "score": 0.5952,
-      "importance": 0.5952,
-      "importance_score": 0.5952,
+      "score": 0.6465,
+      "importance": 0.6465,
+      "importance_score": 0.6465,
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.5472,
+        "editorial": 0.5904,
         "source_tier": 0.58,
-        "ai_relevance": 0.76,
-        "recency": 0.8411,
+        "ai_relevance": 0.82,
+        "recency": 0.9879,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
-        "recent_ai_signal"
+        "high_ai_relevance"
       ],
-      "earliest_at": "2026-08-09T10:26:43Z",
-      "latest_at": "2026-08-09T10:26:43Z",
-      "creator_score": 64.9,
+      "earliest_at": "2026-08-10T10:08:14Z",
+      "latest_at": "2026-08-10T10:08:14Z",
+      "creator_score": 68.1,
       "creator_breakdown": {
         "relevance": 0.68,
-        "freshness": 0.8441,
+        "freshness": 1.0,
         "source": 0.78,
         "impact": 0.25,
         "novelty": 0.65,
-        "heat": 0.3583
+        "heat": 0.3763
       },
       "creator_bucket": "general_ai",
       "primary_entity": "openai",
@@ -1336,50 +1629,148 @@
       ],
       "change_type": "new",
       "primary_item": {
-        "id": "d52acd7fca90a50c37c2bd5e99d3834735a082a1",
-        "title": "AI让英国就业法庭被诉讼淹没 / AI is flooding Britain's employment courts with lawsuits",
-        "title_zh": "AI让英国就业法庭被诉讼淹没",
-        "title_en": "AI is flooding Britain's employment courts with lawsuits",
-        "title_original": "AI is flooding Britain's employment courts with lawsuits",
-        "summary": "Britain's employment courts saw 39 percent more claims in the year through March 2026, many written with ChatGPT or Grok. The backlog jumped 55 percent to 64,000 unresolved cases, with AI-generated filings often running hundreds of pages and citing fabricated laws. The Economist calls it a \"tragedy of the commons, AI edition,\" where workers with real grievances wait longer for justice.\nBritain's employment courts saw 39 percent more claims in the year through March 2026, many written with ChatGP",
-        "recommend_reason_zh": "英国就业法庭年收索赔激增39%，积压案涨55%至6.4万件，ChatGPT和Grok生成的诉状常引用虚构法律，The Economist称其为“AI版公地悲剧”。",
-        "url": "https://the-decoder.com/ai-is-flooding-britains-employment-courts-with-lawsuits",
+        "id": "25367118dd3604004f18856ab66a46305dc27368",
+        "title": "OpenAI 收购 NextSlide，将 AI 生成演示文稿引入 ChatGPT / OpenAI acquires NextSlide to bring AI-generated presentations into ChatGPT",
+        "title_zh": "OpenAI 收购 NextSlide，将 AI 生成演示文稿引入 ChatGPT",
+        "title_en": "OpenAI acquires NextSlide to bring AI-generated presentations into ChatGPT",
+        "title_original": "OpenAI acquires NextSlide to bring AI-generated presentations into ChatGPT",
+        "url": "https://the-decoder.com/openai-acquires-nextslide-to-bring-ai-generated-presentations-into-chatgpt",
         "source": "The Decoder AI News",
         "source_name": "Curated Media"
       },
       "sources": [
         {
-          "story_id": "story_8fb058347c6b",
-          "title": "AI让英国就业法庭被诉讼淹没 / AI is flooding Britain's employment courts with lawsuits",
-          "url": "https://the-decoder.com/ai-is-flooding-britains-employment-courts-with-lawsuits",
+          "story_id": "story_4d986e5cd557",
+          "title": "OpenAI 收购 NextSlide，将 AI 生成演示文稿引入 ChatGPT / OpenAI acquires NextSlide to bring AI-generated presentations into ChatGPT",
+          "url": "https://the-decoder.com/openai-acquires-nextslide-to-bring-ai-generated-presentations-into-chatgpt",
           "source": "The Decoder AI News",
           "site_id": "",
           "official": false
         }
       ],
-      "summary_zh": "英国就业法庭在截至2026年3月的过去一年中索赔量激增39%，积压案升至6.4万件，增幅55%。大量诉状由ChatGPT或Grok生成，常引用虚构法律，导致真实诉求等待更久。《经济",
-      "why_it_matters": "AI生成内容可能包含虚构事实，开发者构建法律/合规类AI应用时需内置事实校验、溯源和人工审核机制，否则会放大风险并引发系统性信任问题。",
+      "summary_zh": "OpenAI 收购演示文稿生成工具 NextSlide，计划将 AI 生成 PPT 功能集成进 ChatGPT。目前仅单一媒体报道，尚未获官方确认。",
+      "why_it_matters": "若属实，ChatGPT 将直接覆盖演示文稿创作场景，开发者与团队可能减少对第三方 PPT 工具的依赖，影响现有 AI 办公工作流与工具选型。",
       "angles": [
         {
           "platform": "x",
-          "title": "英国法院被AI诉状淹没：6.4万积压案，ChatGPT写的？",
-          "angle": "个人视角：这是AI生成内容信任危机的标志性案例——当人人都能一键生成看似专业的诉状，司法系统的效率却被拖垮，需要反思AI工具的责任边界。",
+          "title": "OpenAI 收购 NextSlide：ChatGPT 要抢 AI PPT 工具的饭碗？",
+          "angle": "以一个经常用 AI 做 PPT 的开发者视角，聊聊对市场格局的观察和个人猜测，强调消息尚未证实。",
           "needs_hands_on": false,
-          "risk": "数据来自单一媒体（The Decoder），统计口径和时间范围需核实。"
+          "risk": "收购消息仅单一来源，OpenAI 与 NextSlide 均未官方确认。"
         },
         {
           "platform": "xiaohongshu",
-          "title": "别用ChatGPT写法律文书！英国已有人引用假法律",
-          "angle": "避坑指南：AI适合辅助起草，但绝不能直接提交。分享如何检查AI生成内容中的虚构引用，以及法律场景下的人工复核清单。",
-          "needs_hands_on": false,
-          "risk": "文中提到的具体案例和虚构法律细节尚未从原始判决书中验证。"
+          "title": "AI PPT 工具避坑指南：ChatGPT 入局前先看这几点",
+          "angle": "整理目前主流 AI 演示工具的使用体验与踩坑点，给等待 ChatGPT 新功能的用户提前准备建议。",
+          "needs_hands_on": true,
+          "risk": "ChatGPT 演示功能未上线，相关体验无法亲自验证；工具对比基于已有信息。"
         },
         {
           "platform": "wechat",
-          "title": "AI版公地悲剧：当每个人都用AI打官司，司法系统如何承压？",
-          "angle": "深度长文：从英国就业法庭数据看AI普及的意外副作用，分析公地悲剧在AI时代的重演，探讨立法、平台责任与技术解决方案。",
+          "title": "从 NextSlide 到 ChatGPT：OpenAI 的办公生态拼图",
+          "angle": "从收购背景切入，分析 OpenAI 在办公文档、演示领域的布局逻辑，以及对开发者嵌入 AI 工作流的长期影响。",
           "needs_hands_on": false,
-          "risk": "《经济学人》原报道内容未直接访问，引用需以原始来源为准。"
+          "risk": "收购细节未披露，对产品集成路径的分析属于推测。"
+        }
+      ],
+      "enrichment_mode": "llm"
+    },
+    {
+      "story_id": "story_376615090e56",
+      "creator_event_id": "creator-624879e0bba52649",
+      "merged_story_ids": [
+        "story_376615090e56"
+      ],
+      "title": "Scale AI 开源 Muse 系列模型 / 1/ big announcement today： we will be releasing an open weight version of muse spark 1.2 soon. we a…",
+      "url": "https://x.com/alexandr_wang/status/2086756152034066792",
+      "primary_url": "https://x.com/alexandr_wang/status/2086756152034066792",
+      "source": "X：Alexandr Wang（Scale AI 创始人/Meta 首席 AI 官） (@alexandr_wang)",
+      "source_name": "AI HOT",
+      "source_count": 1,
+      "source_names": [
+        "X：Alexandr Wang（Scale AI 创始人/Meta 首席 AI 官） (@alexandr_wang)"
+      ],
+      "score": 0.7804,
+      "importance": 0.7804,
+      "importance_score": 0.7804,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.77,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9875,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-10T10:06:51Z",
+      "latest_at": "2026-08-10T10:06:51Z",
+      "persona_id": "pragmatic",
+      "persona_score": 88,
+      "persona_review": "开源权重模型能直接拿来用，跑推理的今天就能上手试。",
+      "creator_score": 65.2,
+      "creator_breakdown": {
+        "relevance": 0.4731,
+        "freshness": 1.0,
+        "source": 0.5,
+        "impact": 0.76,
+        "novelty": 0.75,
+        "heat": 0.4231
+      },
+      "creator_bucket": "general_ai",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "workflow_impact"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "b7a1d176abd8a43e84fd375862e58907e1fd4ee0",
+        "title": "Scale AI 开源 Muse 系列模型 / 1/ big announcement today： we will be releasing an open weight version of muse spark 1.2 soon. we a…",
+        "title_zh": "Scale AI 开源 Muse 系列模型",
+        "title_en": "1/ big announcement today： we will be releasing an open weight version of muse spark 1.2 soon. we a…",
+        "title_original": "1/ big announcement today： we will be releasing an open weight version of muse spark 1.2 soon. we a…",
+        "summary": "1/ 今天有个重大消息：我们很快将发布 Muse Spark 1.2 的开源权重版本。\n\n同时，我们还将发布 Muse Glimmer--一个 30B 参数的智能体模型，采用 Apache 2.0 协议开源权重。Muse Glimmer 可在 24GB 显存上运行，且不损失智能体可靠性。🧵",
+        "recommend_reason_zh": "本文宣布将发布开源权重的muse spark 1.2，并推出30B参数、Apache 2.0协议的agentic模型muse glimmer，可在24GB显存上运行而不失可靠性。",
+        "url": "https://x.com/alexandr_wang/status/2086756152034066792",
+        "source": "X：Alexandr Wang（Scale AI 创始人/Meta 首席 AI 官） (@alexandr_wang)",
+        "source_name": "AI HOT"
+      },
+      "sources": [
+        {
+          "story_id": "story_376615090e56",
+          "title": "Scale AI 开源 Muse 系列模型 / 1/ big announcement today： we will be releasing an open weight version of muse spark 1.2 soon. we a…",
+          "url": "https://x.com/alexandr_wang/status/2086756152034066792",
+          "source": "X：Alexandr Wang（Scale AI 创始人/Meta 首席 AI 官） (@alexandr_wang)",
+          "site_id": "",
+          "official": false
+        }
+      ],
+      "summary_zh": "Scale AI 宣布将发布 Muse Spark 1.2 开源权重版本，并推出 30B 参数的智能体模型 Muse Glimmer，采用 Apache 2.0 协议，可在 24G",
+      "why_it_matters": "30B 智能体模型可本地运行，降低对云端 API 的依赖，为开发者提供可自托管的中小规模智能体方案，影响本地开发与私有化部署选择。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "Scale AI 突然开源：30B 智能体模型跑在 24GB 显存？我先试试",
+          "angle": "作为开发者，看到官方声明第一反应是想验证是否真能在 24GB 显存上不损失可靠性，准备发布后第一时间实测对比其他开源智能体模型。",
+          "needs_hands_on": true,
+          "risk": "模型尚未发布，官方声称的 24GB 显存和可靠性表现未实际验证。"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "手把手教你本地跑 Muse Glimmer：24GB 显存够不够？",
+          "angle": "分享从下载权重到部署的完整步骤，实测显存占用、推理速度和智能体任务成功率，给出避坑指南。",
+          "needs_hands_on": true,
+          "risk": "需要等到开源权重正式发布后才能实测，当前无法确认具体依赖和兼容性。"
+        },
+        {
+          "platform": "wechat",
+          "title": "Scale AI 开源 Muse：30B 智能体模型能否改变本地 AI Coding 格局？",
+          "angle": "从数据标注巨头到开源智能体，分析 Muse 系列的定位、Apache 2.0 协议对生态的影响，以及本地部署对企业私有化的长期意义。",
+          "needs_hands_on": false,
+          "risk": "单一信源声明，需关注后续官方文档和实际发布情况。"
         }
       ],
       "enrichment_mode": "llm"
@@ -1388,12 +1779,12 @@
   "llm_meta": {
     "provider": "deepseek",
     "model": "deepseek-v4-flash",
-    "calls_used": 14,
+    "calls_used": 18,
     "cache_hits": 0,
     "fallback_count": 0
   },
   "dedup_meta": {
-    "secondary_dedup_merge_count": 1,
-    "secondary_dedup_source_count": 81
+    "secondary_dedup_merge_count": 4,
+    "secondary_dedup_source_count": 138
   }
 }
