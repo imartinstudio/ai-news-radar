@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T11:06:22.741017Z",
+  "generated_at": "2026-08-11T22:57:56.805392Z",
   "model": "deepseek-v4-flash",
   "personas": [
     {
@@ -21,62 +21,62 @@
   ],
   "items": [
     {
-      "story_id": "story_b385166df3f8",
-      "title": "借助 NVIDIA Magpie TTS 构建低延迟多语言语音 Agent：开放权重与完全部署控制 / Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
-      "url": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
+      "story_id": "story_761a27a82638",
+      "title": "Daybreak 模型现已在 AWS 上线 / Daybreak models are now available on AWS",
+      "url": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
       "rank": 1,
       "reviews": {
         "cynic": {
-          "score": 80,
-          "review": "开放权重加低延迟是实打实的，但多语言覆盖和竞品对比还得自己跑一遍。"
+          "score": 55,
+          "review": "上线 AWS 是把部署范围扩大了，模型本身可没见升级。"
         },
         "paper-police": {
-          "score": 55,
-          "review": "官方博客宣称开放权重，但无论文与第三方评测，需实测验证。"
+          "score": 30,
+          "review": "官方公告说上线AWS，但无论文无代码无评测，等跑分再认。"
         },
         "pragmatic": {
-          "score": 88,
-          "review": "开放权重可本地部署，低延迟多语言TTS直接能集成，适合自建语音Agent。"
+          "score": 90,
+          "review": "AWS 上直接能用，今天就能集成调用，省去部署和运维。"
         }
       }
     },
     {
-      "story_id": "story_2ce1fd385677",
-      "title": "Ling-3.0-tiny 正式开源：1.3B 激活参数如何进入真实任务",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkyODk2MDQwNw%3D%3D&mid=2247487491&idx=1&sn=fcb14aceb054f9a24e22525d3dae6fa0",
+      "story_id": "story_2b0f68d1ef21",
+      "title": "SGLang 宣布 Day-0 支持 NVIDIA Nemotron 3.5 Lightning / Blog SGLang Adds Day-0 Support for NVIDIA Nemotron 3.5 Lightning SGLang is excited to announce Day-0 support for NVIDIA Nemotron 3.5 Lightning， a customizable open model built to power always-on agents across local systems， the edge， the datacenter， and the cloud. … NVIDIA Nemotron Team and SGLang Team",
+      "url": "https://www.lmsys.org/blog/2026-08-11-nemotron-3-5-lightning",
       "rank": 2,
       "reviews": {
         "cynic": {
-          "score": 55,
-          "review": "1.3B激活参数听着轻巧，总参数和完整对比基线藏哪了？"
+          "score": 70,
+          "review": "支持好是好，但只提“Day-0”，性能数据呢？别拿跑通当优化。"
         },
         "paper-police": {
-          "score": 20,
-          "review": "仅公众号宣布开源，无论文无仓库地址，无法验证真实性。"
+          "score": 25,
+          "review": "仅博客声明支持，无论文无代码无评测，难证真伪。"
         },
         "pragmatic": {
           "score": 88,
-          "review": "模型已开源可clone，1.3B激活适合端侧部署，今天就能跑。"
+          "review": "SGLang 已支持新开源模型，跑 Agent 任务可直接部署，省去等适配。"
         }
       }
     },
     {
-      "story_id": "story_fca31970616e",
-      "title": "Claude Code 自动模式默认开启原理 / We recently made auto mode the default in Claude Code， which means you no longer have to approve eve…",
-      "url": "https://x.com/ClaudeDevs/status/2086844755770757531",
+      "story_id": "story_c246dedc40ae",
+      "title": "MAI-Code-1.1-Flash 现已登陆 GitHub Copilot / MAI-Code-1.1-Flash available in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-08-11-mai-code-1-1-flash-available-in-github-copilot",
       "rank": 3,
       "reviews": {
         "cynic": {
-          "score": 72,
-          "review": "默认放开自动执行，事故率准备好了吗？"
+          "score": 65,
+          "review": "官方更新只说上线，性能提升数据一概不提，糊弄谁呢？"
         },
         "paper-police": {
-          "score": 25,
-          "review": "官方推文自述默认改自动模式，无文档无评测，等实测对比再定论。"
+          "score": 30,
+          "review": "官方更新属实，但无论文无基准，性能凭啥信？"
         },
         "pragmatic": {
           "score": 82,
-          "review": "自动模式默认开，省去手动批准，长任务跑起来更顺。"
+          "review": "Copilot 可直接切新模型，写代码的今天就能试，看实际效果再定去留。"
         }
       }
     }
