@@ -1,8 +1,1615 @@
 {
   "version": 1,
-  "generated_at": "2026-08-10T22:59:07.854102Z",
-  "total_editions": 39,
+  "generated_at": "2026-08-11T11:06:22.942890Z",
+  "total_editions": 40,
   "editions": [
+    {
+      "edition_id": "2026-08-11-evening",
+      "edition_kind": "evening",
+      "generated_at": "2026-08-11T11:06:22.942890Z",
+      "timezone": "Asia/Shanghai",
+      "total_items": 16,
+      "summary": {
+        "confirmed": 4,
+        "single_source": 11,
+        "early_signal": 0,
+        "rumor": 1,
+        "new": 16,
+        "updated": 0,
+        "confirmed_updates": 0
+      },
+      "items": [
+        {
+          "story_id": "story_f9795e1a067b",
+          "creator_event_id": "creator-8259390a28509e0a",
+          "merged_story_ids": [
+            "story_f9795e1a067b"
+          ],
+          "title": "Anthropic 在全球范围内为所有 Claude 输出打上水印，这些水印可能经部分编辑后依然保留。 / Anthropic watermarks all Claude outputs globally with marks that \"may persist through some editing\"",
+          "url": "https://the-decoder.com/anthropic-watermarks-all-claude-outputs-globally-with-marks-that-may-persist-through-some-editing",
+          "primary_url": "https://the-decoder.com/anthropic-watermarks-all-claude-outputs-globally-with-marks-that-may-persist-through-some-editing",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "source_count": 1,
+          "source_names": [
+            "The Decoder AI News"
+          ],
+          "score": 0.6437,
+          "importance": 0.6437,
+          "importance_score": 0.6437,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.5904,
+            "source_tier": 0.58,
+            "ai_relevance": 0.82,
+            "recency": 0.9722,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "high_ai_relevance"
+          ],
+          "earliest_at": "2026-08-11T08:45:06Z",
+          "latest_at": "2026-08-11T08:45:06Z",
+          "creator_score": 88.1,
+          "creator_breakdown": {
+            "relevance": 1.0,
+            "freshness": 1.0,
+            "source": 0.78,
+            "impact": 0.81,
+            "novelty": 0.85,
+            "heat": 0.3753
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "claude-code",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:claude-code",
+            "ai_coding_terms",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "d0f7bc1355a2787b9618969a7f72ea5be43917f7",
+            "title": "Anthropic 在全球范围内为所有 Claude 输出打上水印，这些水印可能经部分编辑后依然保留。 / Anthropic watermarks all Claude outputs globally with marks that \"may persist through some editing\"",
+            "title_zh": "Anthropic 在全球范围内为所有 Claude 输出打上水印，这些水印可能经部分编辑后依然保留。",
+            "title_en": "Anthropic watermarks all Claude outputs globally with marks that \"may persist through some editing\"",
+            "title_original": "Anthropic watermarks all Claude outputs globally with marks that \"may persist through some editing\"",
+            "summary": "Anthropic will embed invisible watermarks in all Claude-generated text and sign files using the C2PA standard. New models shipping from August 2026 onward will have labeling built in from day one. The policy applies worldwide, and Anthropic plans to provide detection tools for third-party verification.\nAnthropic will embed invisible watermarks in all Claude-generated text and sign files using the C2PA standard. New models shipping from August 2026 onward will have labeling built in from day one.",
+            "recommend_reason_zh": "Anthropic宣布自2026年8月起为全球所有Claude输出嵌入不可见水印，并基于C2PA标准签署文件元数据，覆盖API、Claude Code等全产品线，且计划提供第三方检测工具。",
+            "url": "https://the-decoder.com/anthropic-watermarks-all-claude-outputs-globally-with-marks-that-may-persist-through-some-editing",
+            "source": "The Decoder AI News",
+            "source_name": "Curated Media"
+          },
+          "sources": [
+            {
+              "story_id": "story_f9795e1a067b",
+              "title": "Anthropic 在全球范围内为所有 Claude 输出打上水印，这些水印可能经部分编辑后依然保留。 / Anthropic watermarks all Claude outputs globally with marks that \"may persist through some editing\"",
+              "url": "https://the-decoder.com/anthropic-watermarks-all-claude-outputs-globally-with-marks-that-may-persist-through-some-editing",
+              "source": "The Decoder AI News",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "Anthropic 宣布将在全球范围内为所有 Claude 输出嵌入不可见水印，使用 C2PA 标准签署文件，并计划提供第三方检测工具。新模型自 2026 年 8 月起内置该功能，",
+          "why_it_matters": "使用 Claude Code 生成的代码和文档将携带不可见水印，影响代码分发、开源合规和版本控制，开发者需要提前评估工具链兼容性。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "Claude 全球水印落地，开发者真的能感知吗？",
+              "angle": "第一人称实测：检查 Claude Code 当前输出是否已有水印痕迹，并讨论 2026 年水印上线后的实际影响。",
+              "needs_hands_on": true,
+              "risk": "当前版本可能尚未包含水印，且水印技术细节未公开，需确认是否已生效。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "Claude 水印避坑指南：检测工具与替代方案",
+              "angle": "分享如何用 C2PA 验证工具识别 Claude 输出，并列出避免水印干扰工作流的实用步骤。",
+              "needs_hands_on": false,
+              "risk": "检测工具尚未正式发布，C2PA 兼容性需进一步核实。"
+            },
+            {
+              "platform": "wechat",
+              "title": "Claude 全系水印：AI 编程内容的版权与合规新变量",
+              "angle": "从行业背景分析 Anthropic 水印策略的动机，探讨对 AI 编程生态、开源社区和企业合规的长期影响。",
+              "needs_hands_on": false,
+              "risk": "单一来源报道，水印方案细节和实际执行力度需持续跟踪。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_f612b5d58d1d",
+          "creator_event_id": "creator-05b78b7f9644f892",
+          "merged_story_ids": [
+            "story_f612b5d58d1d"
+          ],
+          "title": "在 Java 中使用 GitHub Copilot SDK / Using the GitHub Copilot SDK for Java",
+          "url": "https://github.blog/engineering/using-the-github-copilot-sdk-for-java",
+          "primary_url": "https://github.blog/engineering/using-the-github-copilot-sdk-for-java",
+          "source": "GitHub AI & ML",
+          "source_name": "Official AI Updates",
+          "source_count": 1,
+          "source_names": [
+            "GitHub AI & ML"
+          ],
+          "score": 0.8165,
+          "importance": 0.8165,
+          "importance_score": 0.8165,
+          "importance_label": "官方更新",
+          "importance_breakdown": {
+            "editorial": 0.9,
+            "source_tier": 1.0,
+            "ai_relevance": 0.91,
+            "recency": 0.8029,
+            "story_heat": 0.0
+          },
+          "category": "official",
+          "reasons": [
+            "official_source",
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-08-10T19:30:00Z",
+          "latest_at": "2026-08-10T19:30:00Z",
+          "persona_id": "pragmatic",
+          "persona_score": 78,
+          "persona_review": "Java 项目接 Copilot SDK 有官方教程了，照着写就行。",
+          "creator_score": 86.5,
+          "creator_breakdown": {
+            "relevance": 0.95,
+            "freshness": 0.7598,
+            "source": 1.0,
+            "impact": 0.81,
+            "novelty": 0.85,
+            "heat": 0.4358
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "github-copilot",
+          "verification_status": "confirmed",
+          "creator_reasons": [
+            "entity:github-copilot",
+            "ai_coding_terms",
+            "workflow_impact",
+            "official_or_tier0_source"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "24acb4029cb84001e3b5f778e74906def87075dc",
+            "title": "在 Java 中使用 GitHub Copilot SDK / Using the GitHub Copilot SDK for Java",
+            "title_zh": "在 Java 中使用 GitHub Copilot SDK",
+            "title_en": "Using the GitHub Copilot SDK for Java",
+            "title_original": "Using the GitHub Copilot SDK for Java",
+            "recommend_reason_zh": "GitHub Copilot SDK for Java推出首个框架无关的Java AI客户端，支持BYOK与虚拟线程，本文用Jakarta EE 11示例演示注解式工具调用和实时WebSocket代理流程。",
+            "url": "https://github.blog/engineering/using-the-github-copilot-sdk-for-java",
+            "source": "GitHub AI & ML",
+            "source_name": "Official AI Updates"
+          },
+          "sources": [
+            {
+              "story_id": "story_f612b5d58d1d",
+              "title": "在 Java 中使用 GitHub Copilot SDK / Using the GitHub Copilot SDK for Java",
+              "url": "https://github.blog/engineering/using-the-github-copilot-sdk-for-java",
+              "source": "GitHub AI & ML",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "GitHub 发布 Copilot SDK for Java，首个框架无关的 Java AI 客户端，支持自带密钥（BYOK）与虚拟线程。官方博客以 Jakarta EE 11 示",
+          "why_it_matters": "Java 开发者可直接在应用中集成 Copilot 能力，无需绑定特定框架；BYOK 降低调用成本，虚拟线程提升并发性能，影响后端 AI 功",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "Java 也有 Copilot SDK 了：我用 Jakarta EE 11 跑通了官方示例",
+              "angle": "从 IDE 插件到框架无关 SDK，反差感拉满；第一人称分享实测体验，关注 BYOK 和虚拟线程的实际效果",
+              "needs_hands_on": true,
+              "risk": "未亲测示例代码，需验证 SDK 版本兼容性和文档步骤是否可复现"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "Java 接入 Copilot SDK 避坑指南：BYOK+工具调用完整步骤",
+              "angle": "面向 Java 开发者，按步骤记录从配置 BYOK 到注解式工具调用，以及 WebSocket 代理的注意事项",
+              "needs_hands_on": true,
+              "risk": "需确认官方示例在非 Jakarta EE 环境下的适用性"
+            },
+            {
+              "platform": "wechat",
+              "title": "GitHub Copilot SDK for Java：从 IDE 助手到可嵌入 AI 能力的平台化演进",
+              "angle": "分析 SDK 在 Copilot 生态中的定位，BYOK 对企业成本与数据可控性的影响，以及虚拟线程对 Java 并发编程的推动作用",
+              "needs_hands_on": false,
+              "risk": "缺少官方定价和性能基准数据，需引用其他来源补充"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_c72f508aae44",
+          "creator_event_id": "creator-76d9ad518681d8a5",
+          "merged_story_ids": [
+            "story_c72f508aae44"
+          ],
+          "title": "Claude Code 定价：token 相同，模型相同，价格最高为原来的 40 倍。 / Claude Code pricing: same tokens, same model, up to 40x the price",
+          "url": "https://quesma.com/blog/claude-code-pricing-for-enterprise",
+          "primary_url": "https://quesma.com/blog/claude-code-pricing-for-enterprise",
+          "source": "HN Algolia · AI 24h",
+          "source_name": "Hacker News",
+          "source_count": 1,
+          "source_names": [
+            "HN Algolia · AI 24h"
+          ],
+          "score": 0.5154,
+          "importance": 0.5154,
+          "importance_score": 0.5154,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.468,
+            "source_tier": 0.32,
+            "ai_relevance": 0.65,
+            "recency": 0.9698,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-08-11T08:34:54Z",
+          "latest_at": "2026-08-11T08:34:54Z",
+          "creator_score": 85.9,
+          "creator_breakdown": {
+            "relevance": 1.0,
+            "freshness": 1.0,
+            "source": 0.58,
+            "impact": 0.94,
+            "novelty": 0.85,
+            "heat": 0.3304
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "claude-code",
+          "verification_status": "rumor",
+          "creator_reasons": [
+            "entity:claude-code",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "aa4aeb73411fb230726cf37258d7cfd12808a1db",
+            "title": "Claude Code 定价：token 相同，模型相同，价格最高为原来的 40 倍。 / Claude Code pricing: same tokens, same model, up to 40x the price",
+            "title_zh": "Claude Code 定价：token 相同，模型相同，价格最高为原来的 40 倍。",
+            "title_en": "Claude Code pricing: same tokens, same model, up to 40x the price",
+            "title_original": "Claude Code pricing: same tokens, same model, up to 40x the price",
+            "url": "https://quesma.com/blog/claude-code-pricing-for-enterprise",
+            "source": "HN Algolia · AI 24h",
+            "source_name": "Hacker News"
+          },
+          "sources": [
+            {
+              "story_id": "story_c72f508aae44",
+              "title": "Claude Code 定价：token 相同，模型相同，价格最高为原来的 40 倍。 / Claude Code pricing: same tokens, same model, up to 40x the price",
+              "url": "https://quesma.com/blog/claude-code-pricing-for-enterprise",
+              "source": "HN Algolia · AI 24h",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "一篇Quesma博客文章称，Claude Code企业版在相同token和模型下，价格可能比标准版本高出最多40倍。该说法尚未得到官方证实。",
+          "why_it_matters": "若属实，企业采用Claude Code需重新评估成本预算，开发者也应比较不同接入方式的定价差异，避免隐性成本。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "Claude Code企业版定价被曝最高40倍？个人开发者如何应对",
+              "angle": "从个人开发者视角，对比自己使用API或订阅的成本，质疑企业版性价比，引发讨论。",
+              "needs_hands_on": false,
+              "risk": "需核实Quesma文章中的具体价格对比和计算方式是否可靠。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "避坑！Claude Code企业版定价可能贵40倍？教你自查成本",
+              "angle": "分享如何检查自己当前的Claude Code使用成本，以及如何选择更经济的方案，附步骤和截图。",
+              "needs_hands_on": true,
+              "risk": "需确认官方定价页面是否与文章一致，以及40倍的计算场景具体是什么。"
+            },
+            {
+              "platform": "wechat",
+              "title": "从Claude Code定价传闻看AI编程工具的企业级成本博弈",
+              "angle": "分析AI编程工具定价模式的变化趋势，讨论企业开发流程、预算控制和长期影响。",
+              "needs_hands_on": false,
+              "risk": "该传闻尚未证实，需收集更多来源验证数据准确性。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_2e9310d5724c",
+          "creator_event_id": "creator-bb9fc7ffb7cb405b",
+          "merged_story_ids": [
+            "story_2e9310d5724c"
+          ],
+          "title": "Anthropic 全球范围内为 Claude 输出嵌入隐形水印：AI 内容溯源时代正式开启",
+          "url": "https://www.aibase.com/news/30253",
+          "primary_url": "https://www.aibase.com/news/30253",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "source_count": 1,
+          "source_names": [
+            "AIbase"
+          ],
+          "score": 0.7676,
+          "importance": 0.7676,
+          "importance_score": 0.7676,
+          "importance_label": "行业动态",
+          "importance_breakdown": {
+            "editorial": 0.72,
+            "source_tier": 0.78,
+            "ai_relevance": 1.0,
+            "recency": 1.0,
+            "story_heat": 0.0
+          },
+          "category": "industry",
+          "reasons": [
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-08-11T10:42:16.497913Z",
+          "latest_at": "2026-08-11T10:42:16.497913Z",
+          "persona_id": "pragmatic",
+          "persona_score": 68,
+          "persona_review": "做内容生成服务的要留意，输出可能带溯源水印，影响二次分发检测。",
+          "creator_score": 82.7,
+          "creator_breakdown": {
+            "relevance": 1.0,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.81,
+            "novelty": 0.85,
+            "heat": 0.4187
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "claude-code",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:claude-code",
+            "ai_coding_terms",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "a5f0a62d8324bb17101b64fe498e5962ae4b8f30",
+            "title": "Anthropic 全球范围内为 Claude 输出嵌入隐形水印：AI 内容溯源时代正式开启",
+            "title_zh": "Anthropic 全球范围内为 Claude 输出嵌入隐形水印：AI 内容溯源时代正式开启",
+            "title_original": "Anthropic 全球范围内为 Claude 输出嵌入隐形水印：AI 内容溯源时代正式开启",
+            "summary": "Anthropic has signed the EU AI Act Code of Practice, announcing that all new released Claude models will be embedded with content identifiers globally starting\nAnthropic has signed the EU AI Act Code of Practice, announcing that all new released Claude models will be embedded with content identifiers globally starting\nAnthropic has signed the EU AI Act Code of Practice, announcing that all new released Claude models will be embedded with content identifiers globally starting\nExplore AI Frontiers",
+            "recommend_reason_zh": "Anthropic签署EU AI Act Code of Practice，官宣2026年8月起全球新Claude模型嵌入隐形水印，覆盖API、Claude Code等全线产品，并基于C2PA标准为图片加数字签名，实现AI内容溯源。",
+            "url": "https://www.aibase.com/news/30253",
+            "source": "AIbase",
+            "source_name": "AIbase"
+          },
+          "sources": [
+            {
+              "story_id": "story_2e9310d5724c",
+              "title": "Anthropic 全球范围内为 Claude 输出嵌入隐形水印：AI 内容溯源时代正式开启",
+              "url": "https://www.aibase.com/news/30253",
+              "source": "AIbase",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "Anthropic签署欧盟AI法案实践准则，宣布自2026年8月起全球范围内所有新发布Claude模型将嵌入隐形水印，覆盖API、Claude Code等产品，并基于C2PA标准为",
+          "why_it_matters": "Claude Code生成代码将携带隐形溯源标识，影响AI辅助开发内容的合规性与可追溯性，开发者需评估工作流中的内容归属与审计要求。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "Claude 也要带水印了：我们写的代码还属于自己吗？",
+              "angle": "以开发者身份实测Claude Code生成的代码能否被检测出水印，讨论AI内容溯源对个人项目与开源社区的实际影响。",
+              "needs_hands_on": true,
+              "risk": "水印技术细节和检测工具尚未公开，且生效时间在2026年8月，当前无法实测。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "AI写代码将带隐形水印？Claude用户必看的避坑指南",
+              "angle": "以亲历者视角总结Claude水印政策要点，分享开发者需要关注的合规风险与应对步骤，如代码署名、企业审计等。",
+              "needs_hands_on": false,
+              "risk": "单一信源，需核对Anthropic官方公告确认覆盖范围和时间节点。"
+            },
+            {
+              "platform": "wechat",
+              "title": "从欧盟AI法案到C2PA：Anthropic水印背后的内容溯源体系与开发者应对",
+              "angle": "梳理Anthropic签署AI法案、引入C2PA标准的背景，分析AI内容溯源对AI Coding生态的长期影响，并给出企业开发者的合规建议。",
+              "needs_hands_on": false,
+              "risk": "文章为单一来源，部分细节如具体API覆盖范围需以官方技术白皮书为准。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_1afc977519d1",
+          "creator_event_id": "creator-74928cc9bc09fc41",
+          "merged_story_ids": [
+            "story_1afc977519d1"
+          ],
+          "title": "ZCode全面升级：Goal、Subagents、Remote Control与闲时任务四大功能上线",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494052&idx=1&sn=ee3ab3d0f4550e9120927c53a27522c9",
+          "primary_url": "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494052&idx=1&sn=ee3ab3d0f4550e9120927c53a27522c9",
+          "source": "公众号：智谱（GLM）",
+          "source_name": "AI HOT",
+          "source_count": 1,
+          "source_names": [
+            "公众号：智谱（GLM）"
+          ],
+          "score": 0.7525,
+          "importance": 0.7525,
+          "importance_score": 0.7525,
+          "importance_label": "行业动态",
+          "importance_breakdown": {
+            "editorial": 0.71,
+            "source_tier": 0.78,
+            "ai_relevance": 1.0,
+            "recency": 0.9326,
+            "story_heat": 0.0
+          },
+          "category": "industry",
+          "reasons": [
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-08-11T05:52:25Z",
+          "latest_at": "2026-08-11T05:52:25Z",
+          "persona_id": "pragmatic",
+          "persona_score": 70,
+          "persona_review": "编程助手加自动化和远程控制，多步任务能省事，升级后能用。",
+          "creator_score": 82.7,
+          "creator_breakdown": {
+            "relevance": 1.0,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.81,
+            "novelty": 0.85,
+            "heat": 0.4134
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "claude-code",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:claude-code",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "fcc1f787a8f50694d563e839c3a5df0f5b260040",
+            "title": "ZCode全面升级：Goal、Subagents、Remote Control与闲时任务四大功能上线",
+            "title_zh": "ZCode全面升级：Goal、Subagents、Remote Control与闲时任务四大功能上线",
+            "title_original": "ZCode全面升级：Goal、Subagents、Remote Control与闲时任务四大功能上线",
+            "summary": "ZCode针对GLM深度优化，今日上线Goal、Subagents、Remote Control与闲时任务四大功能。在Z.ai Code Bench测试中，GLM-5.2搭配ZCode较搭配Claude Code任务整体通过率高2.39%；ZCode缓存命中率超98%，叠加1.5倍限时额度加成后，GLM Coding Plan整体使用量接近常规额度的1.8倍。",
+            "url": "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494052&idx=1&sn=ee3ab3d0f4550e9120927c53a27522c9",
+            "source": "公众号：智谱（GLM）",
+            "source_name": "AI HOT"
+          },
+          "sources": [
+            {
+              "story_id": "story_1afc977519d1",
+              "title": "ZCode全面升级：Goal、Subagents、Remote Control与闲时任务四大功能上线",
+              "url": "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494052&idx=1&sn=ee3ab3d0f4550e9120927c53a27522c9",
+              "source": "公众号：智谱（GLM）",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "智谱今日上线ZCode四大功能：Goal、Subagents、Remote Control与闲时任务。官方称其对GLM深度优化，在Z.ai Code Bench测试中，GLM-5.",
+          "why_it_matters": "ZCode作为GLM生态的编程工具迎来重要更新，新增Subagents等能力可能改变开发者的AI Coding工作流，其缓存与额度策略直接影",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "ZCode四大新功能实测：GLM-5.2+ZCode真能比Claude Code强？",
+              "angle": "以开发者身份快速体验ZCode的Goal、Subagents等新功能，对比Claude Code，验证官方宣称的通过率优势，突出新鲜感和反差。",
+              "needs_hands_on": true,
+              "risk": "官方数据来自智谱自家测试，未亲测；功能细节与兼容性需实际验证。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "ZCode升级后怎么用？四大功能保姆级教程与避坑指南",
+              "angle": "以普通开发者视角，一步步教用户如何设置Goal、使用Subagents、远程控制以及安排闲时任务，展示实际步骤、效果截图和常见坑。",
+              "needs_hands_on": true,
+              "risk": "未亲测，具体操作步骤和界面可能随版本变化，需核实。"
+            },
+            {
+              "platform": "wechat",
+              "title": "ZCode全面升级背后：GLM生态如何冲击AI Coding格局",
+              "angle": "从智谱的战略布局出发，分析ZCode升级对AI编程工具市场的影响，对比Claude Code、Codex等，探讨其缓存和额度策略对开发者的长期成本影响。",
+              "needs_hands_on": false,
+              "risk": "官方发布为单方口径，性能数据缺乏独立验证。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_6acff68025c2",
+          "creator_event_id": "creator-470fcb358e8fad62",
+          "merged_story_ids": [
+            "story_6acff68025c2"
+          ],
+          "title": "v2.1.227",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.227",
+          "primary_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.227",
+          "source": "Claude Code Releases",
+          "source_name": "Curated Media",
+          "source_count": 1,
+          "source_names": [
+            "Claude Code Releases"
+          ],
+          "score": 0.6081,
+          "importance": 0.6081,
+          "importance_score": 0.6081,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.5688,
+            "source_tier": 0.58,
+            "ai_relevance": 0.79,
+            "recency": 0.8439,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-08-10T22:56:53Z",
+          "latest_at": "2026-08-10T22:56:53Z",
+          "creator_score": 81.7,
+          "creator_breakdown": {
+            "relevance": 1.0,
+            "freshness": 0.846,
+            "source": 1.0,
+            "impact": 0.43,
+            "novelty": 0.65,
+            "heat": 0.3628
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "claude-code",
+          "verification_status": "confirmed",
+          "creator_reasons": [
+            "entity:claude-code",
+            "official_or_tier0_source"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "153dd94d85e35ad1babb5b0affc2b01bc147550a",
+            "title": "v2.1.227",
+            "title_original": "v2.1.227",
+            "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.227",
+            "source": "Claude Code Releases",
+            "source_name": "Curated Media"
+          },
+          "sources": [
+            {
+              "story_id": "story_6acff68025c2",
+              "title": "v2.1.227",
+              "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.227",
+              "source": "Claude Code Releases",
+              "site_id": "",
+              "official": true
+            }
+          ],
+          "summary_zh": "Claude Code 发布 v2.1.227 版本，官方 GitHub Releases 页面已确认上线。本次情报快照未提供具体变更说明。",
+          "why_it_matters": "Claude Code 是主流 AI 编码代理，新版本可能引入新能力或修复问题。开发者在升级前应核对官方 Release Notes，避免对",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "Claude Code 更新了，但我只拿到一个版本号",
+              "angle": "看到 Claude Code v2.1.227 发布的第一反应是想知道改了什么。作为日常重度用户，我会第一时间去 GitHub 核对 Release Notes 并实测新版本，把官方简报里没写明白的内容挖出来。",
+              "needs_hands_on": true,
+              "risk": "本次数据源仅有版本号，官方发布说明未提供，需以 GitHub 实际 Release Notes 为准"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "遇到 Claude Code 更新先别慌，我的安全升级三步法",
+              "angle": "小版本更新常常让人担心出问题。我分享自己升级 Claude Code 前的检查清单：备份配置、确认插件兼容性、先在小型测试项目上跑一遍，避免更新后工作流中断。",
+              "needs_hands_on": true,
+              "risk": "尚未在 v2.1.227 上实测，升级建议基于通用 Claude Code 使用经验"
+            },
+            {
+              "platform": "wechat",
+              "title": "从 v2.1.227 看 Claude Code 的版本迭代逻辑",
+              "angle": "AI 编程工具正进入高速更新期，却经常只有简略版本号。这背后是快速交付与信息透明度的取舍，开发团队需要建立自主跟踪变更的机制，以降低升级风险。",
+              "needs_hands_on": false,
+              "risk": ""
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_a5ebfc1b3422",
+          "creator_event_id": "creator-6c88e07dac9682c0",
+          "merged_story_ids": [
+            "story_a5ebfc1b3422"
+          ],
+          "title": "Gemini3.5Pro迟迟未现，谷歌或跳过等待转向Gemini4",
+          "url": "https://www.aibase.com/news/30249",
+          "primary_url": "https://www.aibase.com/news/30249",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "source_count": 1,
+          "source_names": [
+            "AIbase"
+          ],
+          "score": 0.7676,
+          "importance": 0.7676,
+          "importance_score": 0.7676,
+          "importance_label": "行业动态",
+          "importance_breakdown": {
+            "editorial": 0.72,
+            "source_tier": 0.78,
+            "ai_relevance": 1.0,
+            "recency": 1.0,
+            "story_heat": 0.0
+          },
+          "category": "industry",
+          "reasons": [
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-08-11T10:42:16.497913Z",
+          "latest_at": "2026-08-11T10:42:16.497913Z",
+          "creator_score": 79.1,
+          "creator_breakdown": {
+            "relevance": 0.88,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.81,
+            "novelty": 0.85,
+            "heat": 0.4187
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "gemini",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:gemini",
+            "ai_coding_terms",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "3e9b4044c3027f36c3a2e97c36702048974456c7",
+            "title": "Gemini3.5Pro迟迟未现，谷歌或跳过等待转向Gemini4",
+            "title_zh": "Gemini3.5Pro迟迟未现，谷歌或跳过等待转向Gemini4",
+            "title_original": "Gemini3.5Pro迟迟未现，谷歌或跳过等待转向Gemini4",
+            "summary": "On August 11, according to the latest report by industry analysis firm SemiAnalysis, Google may have put on hold its originally planned Gemini 3.5 Pro model and\nOn August 11, according to the latest report by industry analysis firm SemiAnalysis, Google may have put on hold its originally planned Gemini 3.5 Pro model and\nOn August 11, according to the latest report by industry analysis firm SemiAnalysis, Google may have put on hold its originally planned Gemini 3.5 Pro model and\nExplore AI Fronti",
+            "recommend_reason_zh": "SemiAnalysis最新报告称，谷歌或搁置Gemini 3.5 Pro，转而提前力推Gemini 4系列填补市场空缺；此前Pichai承诺6月发布却跳票，报道指其在代码能力上仍需优化。",
+            "url": "https://www.aibase.com/news/30249",
+            "source": "AIbase",
+            "source_name": "AIbase"
+          },
+          "sources": [
+            {
+              "story_id": "story_a5ebfc1b3422",
+              "title": "Gemini3.5Pro迟迟未现，谷歌或跳过等待转向Gemini4",
+              "url": "https://www.aibase.com/news/30249",
+              "source": "AIbase",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "8月11日SemiAnalysis报告称，谷歌或搁置Gemini 3.5 Pro，转向提前推出Gemini 4；此前Pichai承诺6月发布但跳票，代码能力仍需优化。",
+          "why_it_matters": "若属实，开发者等待的谷歌旗舰模型路线生变，代码能力优化时间更长，选择Gemini还是转向其他模型需重新评估。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "谷歌跳票3.5，直接梭哈Gemini 4？",
+              "angle": "第一人称聊SemiAnalysis报告的推测，对比Pichai此前的承诺，分析谷歌是否在代码能力上被OpenAI逼急。",
+              "needs_hands_on": false,
+              "risk": "SemiAnalysis报告为单一信源，谷歌未官方确认，不能写成已确认事实。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "等Gemini 3.5 Pro的开发者，别慌了",
+              "angle": "分享如何跟踪谷歌模型发布节奏，提醒别把跳票当谣言，也别过度押注单一模型，记录自己实测替代方案的过程。",
+              "needs_hands_on": true,
+              "risk": "未实际体验Gemini 4或3.5 Pro，模型能力描述需以官方信息为准。"
+            },
+            {
+              "platform": "wechat",
+              "title": "谷歌为什么可能跳过Gemini 3.5 Pro直接推Gemini 4",
+              "angle": "从SemiAnalysis报告出发，梳理谷歌模型路线图、与OpenAI的竞争压力，以及这对AI Coding工具体系和开发者的长期影响。",
+              "needs_hands_on": false,
+              "risk": "报告结论依赖单一分析机构，需注明是推测而非官方声明。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_aa2cc290b136",
+          "creator_event_id": "creator-2609571d7c3705ed",
+          "merged_story_ids": [
+            "story_aa2cc290b136"
+          ],
+          "title": "千问上线AI硬件开放平台，支持开发者自建眼镜“超能力”",
+          "url": "https://www.aibase.com/news/30239",
+          "primary_url": "https://www.aibase.com/news/30239",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "source_count": 1,
+          "source_names": [
+            "AIbase"
+          ],
+          "score": 0.7676,
+          "importance": 0.7676,
+          "importance_score": 0.7676,
+          "importance_label": "行业动态",
+          "importance_breakdown": {
+            "editorial": 0.72,
+            "source_tier": 0.78,
+            "ai_relevance": 1.0,
+            "recency": 1.0,
+            "story_heat": 0.0
+          },
+          "category": "industry",
+          "reasons": [
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-08-11T10:42:16.497913Z",
+          "latest_at": "2026-08-11T10:42:16.497913Z",
+          "creator_score": 78.1,
+          "creator_breakdown": {
+            "relevance": 0.88,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.81,
+            "novelty": 0.75,
+            "heat": 0.4187
+          },
+          "creator_bucket": "ai_coding",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "ai_coding_terms",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "f9e1e0be7c695b0145bfd5ab367c16b0087679ef",
+            "title": "千问上线AI硬件开放平台，支持开发者自建眼镜“超能力”",
+            "title_zh": "千问上线AI硬件开放平台，支持开发者自建眼镜“超能力”",
+            "title_original": "千问上线AI硬件开放平台，支持开发者自建眼镜“超能力”",
+            "summary": "The Alibaba Qwen AI hardware open platform was officially launched, supporting three terminals: APP, PC, and AI glasses. Through the \"Skill Platform + Industry\nThe Alibaba Qwen AI hardware open platform was officially launched, supporting three terminals: APP, PC, and AI glasses. Through the \"Skill Platform + Industry\nThe Alibaba Qwen AI hardware open platform was officially launched, supporting three terminals: APP, PC, and AI glasses. Through the \"Skill Platform + Industry\nExplore AI Frontiers",
+            "recommend_reason_zh": "Alibaba Qwen上线AI硬件开放平台，支持APP、PC与AI眼镜三类终端，开发者用自然语言即可生成技能，已落地视障辅助、文旅讲解、厨房指导等场景。",
+            "url": "https://www.aibase.com/news/30239",
+            "source": "AIbase",
+            "source_name": "AIbase"
+          },
+          "sources": [
+            {
+              "story_id": "story_aa2cc290b136",
+              "title": "千问上线AI硬件开放平台，支持开发者自建眼镜“超能力”",
+              "url": "https://www.aibase.com/news/30239",
+              "source": "AIbase",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "阿里千问上线AI硬件开放平台，支持APP、PC与AI眼镜三类终端，开发者可用自然语言生成技能，已落地视障辅助、文旅讲解、厨房指导等场景。目前仅单一来源报道。",
+          "why_it_matters": "该平台可能让开发者以自然语言而非传统编码方式构建硬件端AI功能，降低AI眼镜等设备开发门槛，但成熟度和兼容性待验证。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "用自然语言给AI眼镜写技能？我试了千问新平台的第一手体验",
+              "angle": "以开发者身份实测自然语言生成技能的全流程，对比传统编码方式，突出反差与新鲜感。",
+              "needs_hands_on": true,
+              "risk": "未实际使用平台，具体生成效果、终端适配细节需核实。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "千问AI硬件开放平台保姆级上手教程：三步创建你的眼镜技能",
+              "angle": "面向普通开发者记录注册、创建技能、部署到终端的步骤，分享遇到的坑和注意事项。",
+              "needs_hands_on": true,
+              "risk": "平台入口、操作细节未亲测，需以官方文档为准。"
+            },
+            {
+              "platform": "wechat",
+              "title": "从App到AI眼镜：千问开放平台背后，硬件AI开发的范式转向",
+              "angle": "分析该平台对AI硬件开发生态的影响，将自然语言技能平台与传统开发体系对比，探讨长期趋势和工程风险。",
+              "needs_hands_on": false,
+              "risk": "单一来源报道，平台架构和能力描述需进一步交叉验证。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_e5745a33fcfd",
+          "creator_event_id": "creator-f0f304c3eac76166",
+          "merged_story_ids": [
+            "story_e5745a33fcfd"
+          ],
+          "title": "扎克伯格押注本地智能：Meta 重磅开源 30B 稠密模型 Muse Glimmer",
+          "url": "https://www.aibase.com/news/30250",
+          "primary_url": "https://www.aibase.com/news/30250",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "source_count": 1,
+          "source_names": [
+            "AIbase"
+          ],
+          "score": 0.7676,
+          "importance": 0.7676,
+          "importance_score": 0.7676,
+          "importance_label": "行业动态",
+          "importance_breakdown": {
+            "editorial": 0.72,
+            "source_tier": 0.78,
+            "ai_relevance": 1.0,
+            "recency": 1.0,
+            "story_heat": 0.0
+          },
+          "category": "industry",
+          "reasons": [
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-08-11T10:42:16.497913Z",
+          "latest_at": "2026-08-11T10:42:16.497913Z",
+          "creator_score": 78.1,
+          "creator_breakdown": {
+            "relevance": 0.88,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.81,
+            "novelty": 0.75,
+            "heat": 0.4187
+          },
+          "creator_bucket": "ai_coding",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "ai_coding_terms",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "aa09708344fb1c94b133f49b04d63664d59d2ab8",
+            "title": "扎克伯格押注本地智能：Meta 重磅开源 30B 稠密模型 Muse Glimmer",
+            "title_zh": "扎克伯格押注本地智能：Meta 重磅开源 30B 稠密模型 Muse Glimmer",
+            "title_original": "扎克伯格押注本地智能：Meta 重磅开源 30B 稠密模型 Muse Glimmer",
+            "summary": "The AI open-source ecosystem has seen a major update. Meta officially released its new open-source model Muse Glimmer recently, marking the company's first time\nThe AI open-source ecosystem has seen a major update. Meta officially released its new open-source model Muse Glimmer recently, marking the company's first time\nThe AI open-source ecosystem has seen a major update. Meta officially released its new open-source model Muse Glimmer recently, marking the company's first time\nExplore AI Fronti",
+            "recommend_reason_zh": "Meta开源30B稠密多模态模型Muse Glimmer，采用Apache 2.0许可，4-bit量化后体积小于20GB，可在24GB或32GB显存消费级硬件运行；配合DFlash块级投机解码，在RTX 5090上实现数倍吞吐加速，瞄准本地连续智能体工作流。",
+            "url": "https://www.aibase.com/news/30250",
+            "source": "AIbase",
+            "source_name": "AIbase"
+          },
+          "sources": [
+            {
+              "story_id": "story_e5745a33fcfd",
+              "title": "扎克伯格押注本地智能：Meta 重磅开源 30B 稠密模型 Muse Glimmer",
+              "url": "https://www.aibase.com/news/30250",
+              "source": "AIbase",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "据AIbase报道，Meta开源30B稠密多模态模型Muse Glimmer，采用Apache 2.0许可，4-bit量化后体积小于20GB，可在24/32GB显存消费级硬件运行，",
+          "why_it_matters": "若属实，本地运行30B级模型的门槛显著下降，开发者可减少API依赖并保护代码隐私；投机解码或提升推理吞吐，为本地AI Coding工具链带来",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "Meta新开源30B模型：我的RTX 5090实测初见",
+              "angle": "第一时间下载4-bit量化版在本地跑，对比现有开源模型在代码生成任务上的表现，分享实际吞吐和显存占用，测试DFlash加速效果。",
+              "needs_hands_on": true,
+              "risk": "模型是否已正式发布未确认，可能为预告或传闻，需核实下载渠道、许可条款及RTX 5090实测数据。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "本地跑Meta 30B模型全攻略：显存要求与推理加速配置",
+              "angle": "手把手教如何在24GB/32GB显存显卡上部署，包括量化步骤、DFlash配置、常见报错和性能调优，分享实际体验和避坑指南。",
+              "needs_hands_on": true,
+              "risk": "具体部署步骤和DFlash用法未实测，需确认是否支持所有消费级显卡及实际加速比。"
+            },
+            {
+              "platform": "wechat",
+              "title": "Meta开源30B模型背后：本地智能体为何成为下一站",
+              "angle": "从Meta战略角度分析，开源30B稠密模型配合投机解码如何推动本地智能体生态，对开发者基础设施、成本及隐私控制的长远影响。",
+              "needs_hands_on": false,
+              "risk": "基于单一来源，需核实模型技术细节、性能数据及Meta官方声明的准确性。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_1d745777aa0d",
+          "creator_event_id": "creator-a6f234bf791fd865",
+          "merged_story_ids": [
+            "story_1d745777aa0d"
+          ],
+          "title": "用 ComfyUI API 实现 MiniMax-H3 多模态视频与音频生成流水线 / Implementing a MiniMax-H3 Multimodal Video and Audio Generation Pipeline with ComfyUI APIs",
+          "url": "https://www.marktechpost.com/2026/08/10/implementing-a-minimax-h3-multimodal-video-and-audio-generation-pipeline-with-comfyui-apis",
+          "primary_url": "https://www.marktechpost.com/2026/08/10/implementing-a-minimax-h3-multimodal-video-and-audio-generation-pipeline-with-comfyui-apis",
+          "source": "MarkTechPost（RSS）",
+          "source_name": "AI HOT",
+          "source_count": 1,
+          "source_names": [
+            "MarkTechPost（RSS）"
+          ],
+          "score": 0.7552,
+          "importance": 0.7552,
+          "importance_score": 0.7552,
+          "importance_label": "行业动态",
+          "importance_breakdown": {
+            "editorial": 0.72,
+            "source_tier": 0.78,
+            "ai_relevance": 1.0,
+            "recency": 0.9309,
+            "story_heat": 0.0
+          },
+          "category": "industry",
+          "reasons": [
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-08-11T05:44:38Z",
+          "latest_at": "2026-08-11T05:44:38Z",
+          "persona_id": "pragmatic",
+          "persona_score": 75,
+          "persona_review": "有现成流水线可抄，跑多模态生成能省不少摸索时间。",
+          "creator_score": 78.1,
+          "creator_breakdown": {
+            "relevance": 0.88,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.81,
+            "novelty": 0.75,
+            "heat": 0.4143
+          },
+          "creator_bucket": "ai_coding",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "ai_coding_terms",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "5af023feb5917b0420ac99ebd023db76d69db035",
+            "title": "用 ComfyUI API 实现 MiniMax-H3 多模态视频与音频生成流水线 / Implementing a MiniMax-H3 Multimodal Video and Audio Generation Pipeline with ComfyUI APIs",
+            "title_zh": "用 ComfyUI API 实现 MiniMax-H3 多模态视频与音频生成流水线",
+            "title_en": "Implementing a MiniMax-H3 Multimodal Video and Audio Generation Pipeline with ComfyUI APIs",
+            "title_original": "Implementing a MiniMax-H3 Multimodal Video and Audio Generation Pipeline with ComfyUI APIs",
+            "summary": "本教程演示如何以 ComfyUI 为无头推理后端，构建端到端的 MiniMax-H3 视频生成工作流。通过 Python 直接构建执行图，支持文生视频、首尾帧条件生成和参考图像条件生成，并自动根据 GPU 显存选择 quality、balanced、squeeze 三种权重配置。流水线涵盖模型自动下载、节点模式校验、音视频联合解码与进度监控，无需图形界面即可复现实验。",
+            "recommend_reason_zh": "本文实现基于ComfyUI API的MiniMax-H3视频音频生成管线：自动检测GPU/VRAM与BF16支持，从Hugging Face下载diffusion、text-encoder、video-VAE、audio-VAE四种权重，在Python中构建执行图，支持text-to-video、首尾帧和参考图像条件生成。",
+            "url": "https://www.marktechpost.com/2026/08/10/implementing-a-minimax-h3-multimodal-video-and-audio-generation-pipeline-with-comfyui-apis",
+            "source": "MarkTechPost（RSS）",
+            "source_name": "AI HOT"
+          },
+          "sources": [
+            {
+              "story_id": "story_1d745777aa0d",
+              "title": "用 ComfyUI API 实现 MiniMax-H3 多模态视频与音频生成流水线 / Implementing a MiniMax-H3 Multimodal Video and Audio Generation Pipeline with ComfyUI APIs",
+              "url": "https://www.marktechpost.com/2026/08/10/implementing-a-minimax-h3-multimodal-video-and-audio-generation-pipeline-with-comfyui-apis",
+              "source": "MarkTechPost（RSS）",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "MarkTechPost 发布教程，演示将 ComfyUI 作为无头推理后端，用 Python 构建 MiniMax-H3 视频生成流水线，支持文生视频、首尾帧和参考图条件，自动按",
+          "why_it_matters": "展示如何用 Python 程序化驱动 ComfyUI 生成多模态视频/音频，无需手动搭图，可自动适配 GPU 显存，便于集成到自动化工作流与",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "用 ComfyUI API 无头跑 MiniMax-H3 视频生成，真的能行？",
+              "angle": "以个人实测角度，尝试复现该教程的 Python 流水线，强调单来源教程的现场验证与新鲜感。",
+              "needs_hands_on": true,
+              "risk": "未实际运行，需核查教程代码、MiniMax-H3 模型可用性及 ComfyUI 版本兼容性。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "ComfyUI API 生成视频+音频：MiniMax-H3 流水线搭建避坑指南",
+              "angle": "按步骤分享如何用 Python 构建执行图，覆盖权重自动下载、显存分档选择、首尾帧与参考图条件生成等实操细节。",
+              "needs_hands_on": true,
+              "risk": "需确认具体节点名称、四种权重的下载路径以及显存分档的精确阈值。"
+            },
+            {
+              "platform": "wechat",
+              "title": "ComfyUI 无头化：MiniMax-H3 多模态生成的工程化启示",
+              "angle": "从体系层面分析 ComfyUI 作为无头推理后端对视频生成工作流的意义，探讨其与现有 AI Coding 基建的集成潜力。",
+              "needs_hands_on": false,
+              "risk": "文章为单一来源，需核实 ComfyUI 是否官方支持 MiniMax-H3，以及模型权重来源的合规性。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_bde5236ed535",
+          "creator_event_id": "creator-7288dbb2ed07a885",
+          "merged_story_ids": [
+            "story_bde5236ed535"
+          ],
+          "title": "🔥 Network 里那坨 \"data:\" 我真看吐了，自制开源 Chrome 插件，AI 流式调试直接开挂",
+          "url": "https://juejin.cn/post/7672224177785995298",
+          "primary_url": "https://juejin.cn/post/7672224177785995298",
+          "source": "juejin",
+          "source_name": "NewsNow",
+          "source_count": 1,
+          "source_names": [
+            "juejin"
+          ],
+          "score": 0.5208,
+          "importance": 0.5208,
+          "importance_score": 0.5208,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.468,
+            "source_tier": 0.32,
+            "ai_relevance": 0.65,
+            "recency": 1.0,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-08-11T10:43:59.514000Z",
+          "latest_at": "2026-08-11T10:43:59.514000Z",
+          "creator_score": 77.7,
+          "creator_breakdown": {
+            "relevance": 0.88,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.81,
+            "novelty": 0.75,
+            "heat": 0.3323
+          },
+          "creator_bucket": "ai_coding",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "ai_coding_terms",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "ad306a61b552645c1087a795dc480b4f949e1eab",
+            "title": "🔥 Network 里那坨 \"data:\" 我真看吐了，自制开源 Chrome 插件，AI 流式调试直接开挂",
+            "title_zh": "🔥 Network 里那坨 \"data:\" 我真看吐了，自制开源 Chrome 插件，AI 流式调试直接开挂",
+            "title_original": "🔥 Network 里那坨 \"data:\" 我真看吐了，自制开源 Chrome 插件，AI 流式调试直接开挂",
+            "url": "https://juejin.cn/post/7672224177785995298",
+            "source": "juejin",
+            "source_name": "NewsNow"
+          },
+          "sources": [
+            {
+              "story_id": "story_bde5236ed535",
+              "title": "🔥 Network 里那坨 \"data:\" 我真看吐了，自制开源 Chrome 插件，AI 流式调试直接开挂",
+              "url": "https://juejin.cn/post/7672224177785995298",
+              "source": "juejin",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "开发者因调试 AI 流式响应时 Chrome Network 面板中的 data: 行难以阅读，自制开源插件用于 AI 流式调试，并发布在掘金分享。该消息为单一来源，尚未经多方验证",
+          "why_it_matters": "为 AI Coding 调试提供更直观的工具方案，可能减少开发者排查流式响应的成本，但需关注插件实际兼容性与稳定性。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "受够 Network 里的 data: 了？我写了个开源插件专治 AI 流式调试",
+              "angle": "第一人称吐槽现状，分享插件解决思路和初步效果，强调开源可自行验证。",
+              "needs_hands_on": true,
+              "risk": "尚未亲测；插件对 SSE/流式格式的兼容性及对 DevTools 性能影响待验证。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "AI 流式调试效率翻倍！自制 Chrome 插件步骤与避坑指南",
+              "angle": "以教程形式展示安装步骤、实际使用对比和常见问题，突出结果和避坑。",
+              "needs_hands_on": true,
+              "risk": "未实际安装运行，具体版本、Chrome 版本兼容性未确认。"
+            },
+            {
+              "platform": "wechat",
+              "title": "从 Network 面板到 AI 调试：为什么我们需要更顺手的流式查看工具",
+              "angle": "从开发者痛点切入，分析 AI 流式调试的特殊性，讨论社区工具生态与开源价值。",
+              "needs_hands_on": false,
+              "risk": "仅基于单一来源文章，需核对插件功能描述与项目地址真实性。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_1ad67226f47b",
+          "creator_event_id": "creator-177476673fb581ac",
+          "merged_story_ids": [
+            "story_1ad67226f47b"
+          ],
+          "title": "致阿博特州长的信：关于德克萨斯州负责任的人工智能基础设施 / OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
+          "url": "https://openai.com/index/responsible-ai-infrastructure-texas",
+          "primary_url": "https://openai.com/index/responsible-ai-infrastructure-texas",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "source_count": 1,
+          "source_names": [
+            "OpenAI News"
+          ],
+          "score": 0.8555,
+          "importance": 0.8555,
+          "importance_score": 0.8555,
+          "importance_label": "官方更新",
+          "importance_breakdown": {
+            "editorial": 0.9,
+            "source_tier": 1.0,
+            "ai_relevance": 0.91,
+            "recency": 0.7416,
+            "story_heat": 0.5
+          },
+          "category": "official",
+          "reasons": [
+            "official_source",
+            "multi_source",
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-08-10T14:00:00Z",
+          "latest_at": "2026-08-11T04:26:13.750000Z",
+          "persona_id": "pragmatic",
+          "persona_score": 25,
+          "persona_review": "纯政策表态，无API无工具，开发者不用管。",
+          "creator_score": 74.1,
+          "creator_breakdown": {
+            "relevance": 0.68,
+            "freshness": 0.9833,
+            "source": 1.0,
+            "impact": 0.25,
+            "novelty": 0.65,
+            "heat": 0.7494
+          },
+          "creator_bucket": "general_ai",
+          "primary_entity": "openai",
+          "verification_status": "confirmed",
+          "creator_reasons": [
+            "entity:openai",
+            "official_or_tier0_source"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "0754ccb6465361f94f2e013cde380666cd80ded3",
+            "title": "致阿博特州长的信：关于德克萨斯州负责任的人工智能基础设施 / OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
+            "title_zh": "致阿博特州长的信：关于德克萨斯州负责任的人工智能基础设施",
+            "title_en": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
+            "title_original": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
+            "recommend_reason_zh": "OpenAI致信Texas州长Greg Abbott，承诺在德州建设负责任的人工智能基础设施，与州及地方领袖、公用事业和社区协作，支持可靠透明的增长惠及德州人。",
+            "url": "https://openai.com/index/responsible-ai-infrastructure-texas",
+            "source": "OpenAI News",
+            "source_name": "Official AI Updates"
+          },
+          "sources": [
+            {
+              "story_id": "story_1ad67226f47b",
+              "title": "致阿博特州长的信：关于德克萨斯州负责任的人工智能基础设施 / OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
+              "url": "https://openai.com/index/responsible-ai-infrastructure-texas",
+              "source": "OpenAI News",
+              "site_id": "",
+              "official": true
+            }
+          ],
+          "summary_zh": "OpenAI 发布致得克萨斯州州长阿博特的公开信，承诺在该州建设“负责任”的AI基础设施，将与地方政府、公用事业和社区合作，确保可靠、透明地发展并惠及当地。",
+          "why_it_matters": "数据中心布局影响算力供给与API稳定性，开发者可关注随之而来的成本、延迟与合规变化，影响AI工具选型。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "OpenAI 公开信德州：AI 基础设施扩张，开发者处境将如何变化？",
+              "angle": "以第一人称分析公开信透露的扩张信号，结合个人使用OpenAI API的体验，讨论可能的价格和延迟影响。",
+              "needs_hands_on": false,
+              "risk": "公开信未披露具体投资规模和时间表，需避免过度推断。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "开发者避坑指南：从OpenAI德州公开信看API供应商选择",
+              "angle": "分享自己如何评估AI供应商基础设施，包括数据中心位置、可靠性承诺、合规风险，给出步骤和检查清单。",
+              "needs_hands_on": true,
+              "risk": "文中数据基于公开信推断，未实测各区域API延迟与可用性。"
+            },
+            {
+              "platform": "wechat",
+              "title": "AI基础设施的地缘博弈：OpenAI 押注德州背后的长期影响",
+              "angle": "从公开信切入，讨论AI算力、能源政策与开发者生态的关系，分析未来工具链稳定性与成本趋势。",
+              "needs_hands_on": false,
+              "risk": "公开信未披露投资额与时间表，需后续跟踪。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_42a77d98ccd3",
+          "creator_event_id": "creator-e85b6a52c351c4c9",
+          "merged_story_ids": [
+            "story_42a77d98ccd3"
+          ],
+          "title": "GPT 5.6 网络安全",
+          "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
+          "primary_url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
+          "source": "openai.com",
+          "source_name": "Buzzing",
+          "source_count": 1,
+          "source_names": [
+            "openai.com"
+          ],
+          "score": 0.5334,
+          "importance": 0.5334,
+          "importance_score": 0.5334,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.468,
+            "source_tier": 0.32,
+            "ai_relevance": 0.65,
+            "recency": 0.9312,
+            "story_heat": 0.25
+          },
+          "category": "watch",
+          "reasons": [
+            "multi_source"
+          ],
+          "earliest_at": "2026-08-10T17:14:00Z",
+          "latest_at": "2026-08-11T05:46:03.587000Z",
+          "creator_score": 73.1,
+          "creator_breakdown": {
+            "relevance": 0.68,
+            "freshness": 1.0,
+            "source": 1.0,
+            "impact": 0.25,
+            "novelty": 0.65,
+            "heat": 0.4867
+          },
+          "creator_bucket": "general_ai",
+          "primary_entity": "openai",
+          "verification_status": "confirmed",
+          "creator_reasons": [
+            "entity:openai",
+            "official_or_tier0_source"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "d53e1173335713948c031579c35493314db7562c",
+            "title": "GPT 5.6 网络安全",
+            "title_zh": "GPT 5.6 网络安全",
+            "title_original": "GPT 5.6 网络安全",
+            "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
+            "source": "openai.com",
+            "source_name": "Buzzing"
+          },
+          "sources": [
+            {
+              "story_id": "story_42a77d98ccd3",
+              "title": "GPT 5.6 网络安全",
+              "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
+              "source": "openai.com",
+              "site_id": "",
+              "official": true
+            }
+          ],
+          "summary_zh": "OpenAI官方发布文章，宣布扩大Daybreak在网络安全领域的应用，并指出网络防御窗口正在缩小。",
+          "why_it_matters": "AI编码普及让安全防御窗口收窄，开发者需关注AI驱动的安全工具与代码审核流程，避免漏洞被自动放大。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "别被标题骗了：OpenAI这次发的是Daybreak，不是GPT-5.6",
+              "angle": "以开发者身份吐槽信息噪音，纠正对GPT-5.6的误读，并引出Daybreak对防御自动化的意义。",
+              "needs_hands_on": false,
+              "risk": "未阅读官方全文，仅依据URL与标题，需核对Daybreak具体功能与GPT-5.6无关。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "AI写代码越来越快，安全防线怎么办？OpenAI悄悄布局",
+              "angle": "分享普通开发者在AI编码时代的安全焦虑，整理官方公告要点，给出可执行的代码审查与漏洞扫描建议。",
+              "needs_hands_on": true,
+              "risk": "Daybreak实际能力未亲测，避免写成产品测评；建议仅基于公告转述。"
+            },
+            {
+              "platform": "wechat",
+              "title": "OpenAI的Daybreak扩张，AI安全攻防进入新阶段",
+              "angle": "从网络安全攻防背景切入，分析OpenAI此举对开发者生态、安全工具链和AI代码托管平台的长期影响。",
+              "needs_hands_on": false,
+              "risk": "缺少官方白皮书细节，长期影响判断需谨慎，避免过度推测。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_4ea5136decec",
+          "creator_event_id": "creator-937b0428608e55d7",
+          "merged_story_ids": [
+            "story_4ea5136decec"
+          ],
+          "title": "Anthropic为Claude生成文本加入隐形水印，提升AI内容溯源能力",
+          "url": "https://www.aibase.com/news/30247",
+          "primary_url": "https://www.aibase.com/news/30247",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "source_count": 1,
+          "source_names": [
+            "AIbase"
+          ],
+          "score": 0.7676,
+          "importance": 0.7676,
+          "importance_score": 0.7676,
+          "importance_label": "行业动态",
+          "importance_breakdown": {
+            "editorial": 0.72,
+            "source_tier": 0.78,
+            "ai_relevance": 1.0,
+            "recency": 1.0,
+            "story_heat": 0.0
+          },
+          "category": "industry",
+          "reasons": [
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-08-11T10:42:16.497913Z",
+          "latest_at": "2026-08-11T10:42:16.497913Z",
+          "persona_id": "pragmatic",
+          "persona_score": 55,
+          "persona_review": "水印不影响生成质量，但做内容分发的得留个溯源心眼。",
+          "creator_score": 70.4,
+          "creator_breakdown": {
+            "relevance": 0.68,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.63,
+            "novelty": 0.85,
+            "heat": 0.4187
+          },
+          "creator_bucket": "general_ai",
+          "primary_entity": "anthropic",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:anthropic",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "3335d03ee543d1afd73c5f2e259c0b43303279fb",
+            "title": "Anthropic为Claude生成文本加入隐形水印，提升AI内容溯源能力",
+            "title_zh": "Anthropic为Claude生成文本加入隐形水印，提升AI内容溯源能力",
+            "title_original": "Anthropic为Claude生成文本加入隐形水印，提升AI内容溯源能力",
+            "summary": "August 11th news: Anthropic announced that it will add \"imperceptible watermarking\" technology to its new Claude model, used to identify the source of AI-genera\nAugust 11th news: Anthropic announced that it will add \"imperceptible watermarking\" technology to its new Claude model, used to identify the source of AI-genera\nAugust 11th news: Anthropic announced that it will add \"imperceptible watermarking\" technology to its new Claude model, used to identify the source of AI-genera\nExplore AI Fronti",
+            "recommend_reason_zh": "Anthropic为Claude新增隐形水印，据欧盟AI法案溯源AI文本，8月2日及以后发布的模型生成内容均可识别，复制粘贴保留标记，并计划开放检测工具，或重塑出版教育生态。",
+            "url": "https://www.aibase.com/news/30247",
+            "source": "AIbase",
+            "source_name": "AIbase"
+          },
+          "sources": [
+            {
+              "story_id": "story_4ea5136decec",
+              "title": "Anthropic为Claude生成文本加入隐形水印，提升AI内容溯源能力",
+              "url": "https://www.aibase.com/news/30247",
+              "source": "AIbase",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "Anthropic宣布为Claude新模型生成的文本加入隐形水印，据称可识别AI内容来源，复制粘贴后标记仍保留，并计划开放检测工具。报道称该举措与欧盟AI法案溯源要求相关。",
+          "why_it_matters": "若水印可被检测，开发者可识别AI生成文本，影响写作、教育、出版等场景的内容审核与溯源流程；但需确认实际可靠性与绕过难度。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "我试了Claude隐形水印：复制粘贴后真能溯源？",
+              "angle": "以第一人称实测Claude生成文本在复制粘贴后是否仍保留水印，验证官方说法是否可靠，并讨论检测工具的可用性。",
+              "needs_hands_on": true,
+              "risk": "仅单一信源，Anthropic官方公告尚未见，检测工具未公开，无法确认测试方式。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "Claude隐形水印实测：检测AI文本的3个步骤与避坑",
+              "angle": "分享如何检测Claude生成文本的实操步骤，包括复制粘贴的注意事项、可能误判的场景，以及现有检测工具的对比。",
+              "needs_hands_on": true,
+              "risk": "检测工具未发布，步骤基于推测，需在工具可用后验证。"
+            },
+            {
+              "platform": "wechat",
+              "title": "从欧盟AI法案到Claude水印：AI内容溯源如何改变开发者生态",
+              "angle": "分析欧盟AI法案对AI内容溯源的要求，Anthropic此举的行业背景，及其对AI编程、文档生成和内容审核工作流的长期影响。",
+              "needs_hands_on": false,
+              "risk": "需核实欧盟AI法案具体条款与时间表，以及Anthropic官方公告细节。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_4beb0dde8446",
+          "creator_event_id": "creator-f71985c6538c2aef",
+          "merged_story_ids": [
+            "story_4beb0dde8446"
+          ],
+          "title": "Claude挑战百年数学难题未果，却意外改写了人类数学史的底层边界！",
+          "url": "https://www.aibase.com/news/30251",
+          "primary_url": "https://www.aibase.com/news/30251",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "source_count": 1,
+          "source_names": [
+            "AIbase"
+          ],
+          "score": 0.7676,
+          "importance": 0.7676,
+          "importance_score": 0.7676,
+          "importance_label": "行业动态",
+          "importance_breakdown": {
+            "editorial": 0.72,
+            "source_tier": 0.78,
+            "ai_relevance": 1.0,
+            "recency": 1.0,
+            "story_heat": 0.0
+          },
+          "category": "industry",
+          "reasons": [
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-08-11T10:42:16.497913Z",
+          "latest_at": "2026-08-11T10:42:16.497913Z",
+          "creator_score": 70.4,
+          "creator_breakdown": {
+            "relevance": 0.68,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.63,
+            "novelty": 0.85,
+            "heat": 0.4187
+          },
+          "creator_bucket": "general_ai",
+          "primary_entity": "anthropic",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:anthropic",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "29b2a6cf469cd010981eb7a400e8944b20d5b21b",
+            "title": "Claude挑战百年数学难题未果，却意外改写了人类数学史的底层边界！",
+            "title_zh": "Claude挑战百年数学难题未果，却意外改写了人类数学史的底层边界！",
+            "title_original": "Claude挑战百年数学难题未果，却意外改写了人类数学史的底层边界！",
+            "summary": "Recently, the field of artificial intelligence has witnessed a remarkable new breakthrough. Claude, an unreleased research version developed by Anthropic, attem\nRecently, the field of artificial intelligence has witnessed a remarkable new breakthrough. Claude, an unreleased research version developed by Anthropic, attem\nRecently, the field of artificial intelligence has witnessed a remarkable new breakthrough. Claude, an unreleased research version developed by Anthropic, attem\nExplore AI Fronti",
+            "recommend_reason_zh": "Anthropic未发布版Claude挑战Riemann Hypothesis未果，却把临界线零点比例下界从41.6%推到67.2%，还组建约60个子代理虚拟团队，历经数百次失败，生动展示AI科研新范式。",
+            "url": "https://www.aibase.com/news/30251",
+            "source": "AIbase",
+            "source_name": "AIbase"
+          },
+          "sources": [
+            {
+              "story_id": "story_4beb0dde8446",
+              "title": "Claude挑战百年数学难题未果，却意外改写了人类数学史的底层边界！",
+              "url": "https://www.aibase.com/news/30251",
+              "source": "AIbase",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "Anthropic未发布的Claude研究版尝试证明黎曼猜想未果，但将临界线零点比例下界从41.6%提升至67.2%，还组建约60个代理的虚拟团队，经历数百次失败，展示了AI科研新",
+          "why_it_matters": "这显示AI能在严谨数学中自主推进边界，多代理协作长任务能力增强，未来AI Coding工具或引入类似自主迭代机制，提升复杂工程效率，但需验证",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "Claude未解黎曼猜想，却把下界推高25个百分点？这不是鸡汤，是AI科研新范式",
+              "angle": "作为长期关注AI数学能力的开发者，我原以为这又是一次炒作，但细看数据：41.6%到67.2%的下界提升是实打实的。虽然未能证明猜想，但多代理协作数百次失败后仍坚持迭代的能力，值得思考。",
+              "needs_hands_on": false,
+              "risk": "未发布版本，单一来源，需官方验证。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "AI科研实操干货：用60个子代理攻坚难题，我总结了3个避坑点",
+              "angle": "看到Anthropic的Claude用大约60个代理协作攻克黎曼猜想边界，我复盘了这类方法的适用条件：任务可分解、失败可记录、结果可验证。小红书详细拆解其中关键步骤和可能踩的坑。",
+              "needs_hands_on": false,
+              "risk": "方法细节来自单一报道，未亲自跑过。"
+            },
+            {
+              "platform": "wechat",
+              "title": "从黎曼猜想边界到AI Coding：多代理自主研究将如何重塑开发者工具",
+              "angle": "我认为这次实验的意义不在证明猜想，而在于AI已经能在数学这种严谨学科中自主提出并验证新的下界。这对AI Coding的启示是：未来的IDE可能内置多个协作代理，帮助定位bug、重构代码，甚至自主设计测试。长期看，工程效率的瓶颈将从工具转向如",
+              "needs_hands_on": false,
+              "risk": "需要更多官方数据与复现结果。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_64c7a4eb5b46",
+          "creator_event_id": "creator-e801b26360568f81",
+          "merged_story_ids": [
+            "story_64c7a4eb5b46"
+          ],
+          "title": "Claude开始给所有输出偷偷盖章：Anthropic上线文本水印，AI生成内容将无处遁形",
+          "url": "https://www.aibase.com/news/30237",
+          "primary_url": "https://www.aibase.com/news/30237",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "source_count": 1,
+          "source_names": [
+            "AIbase"
+          ],
+          "score": 0.7668,
+          "importance": 0.7668,
+          "importance_score": 0.7668,
+          "importance_label": "行业动态",
+          "importance_breakdown": {
+            "editorial": 0.72,
+            "source_tier": 0.78,
+            "ai_relevance": 1.0,
+            "recency": 0.9957,
+            "story_heat": 0.0
+          },
+          "category": "industry",
+          "reasons": [
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-08-11T10:24:16.497913Z",
+          "latest_at": "2026-08-11T10:24:16.497913Z",
+          "creator_score": 70.4,
+          "creator_breakdown": {
+            "relevance": 0.68,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.63,
+            "novelty": 0.85,
+            "heat": 0.4184
+          },
+          "creator_bucket": "general_ai",
+          "primary_entity": "anthropic",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:anthropic",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "4a418ccce4c0cc8afa03dde9c9a4b5b8dfbfd367",
+            "title": "Claude开始给所有输出偷偷盖章：Anthropic上线文本水印，AI生成内容将无处遁形",
+            "title_zh": "Claude开始给所有输出偷偷盖章：Anthropic上线文本水印，AI生成内容将无处遁形",
+            "title_original": "Claude开始给所有输出偷偷盖章：Anthropic上线文本水印，AI生成内容将无处遁形",
+            "summary": "Anthropic has announced the addition of machine-readable markers to the output content of Claude. This mechanism consists of two layers: invisible watermarks em\nAnthropic has announced the addition of machine-readable markers to the output content of Claude. This mechanism consists of two layers: invisible watermarks em\nAnthropic has announced the addition of machine-readable markers to the output content of Claude. This mechanism consists of two layers: invisible watermarks em\nExplore AI Fronti",
+            "recommend_reason_zh": "Anthropic为Claude输出新增两层水印——文本中的不可见标记和符合C2PA标准的文件元数据，8月2日起新模型全球生效，复制粘贴后标记依然留存。",
+            "url": "https://www.aibase.com/news/30237",
+            "source": "AIbase",
+            "source_name": "AIbase"
+          },
+          "sources": [
+            {
+              "story_id": "story_64c7a4eb5b46",
+              "title": "Claude开始给所有输出偷偷盖章：Anthropic上线文本水印，AI生成内容将无处遁形",
+              "url": "https://www.aibase.com/news/30237",
+              "source": "AIbase",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "Anthropic宣布为Claude输出增加两层机器可读标记：文本中不可见水印和符合C2PA标准的文件元数据，8月2日起新模型全球生效，复制粘贴后标记仍留存。该消息目前仅来自单一信",
+          "why_it_matters": "影响AI生成内容的可追溯性，开发者需评估水印对输出纯净度、工具链处理及合规成本的影响。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "实测Claude水印：复制粘贴后真的能追踪到吗？",
+              "angle": "第一人称实测新水印效果，对比普通文本和代码输出的差异，看标记在复制粘贴后是否确实留存。",
+              "needs_hands_on": true,
+              "risk": "仅单一信源，未亲测；需确认水印对中文、代码等输出是否生效。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "Claude悄悄加的水印，开发者怎么避坑？",
+              "angle": "步骤化讲解如何检测Claude输出中的不可见水印，以及处理C2PA元数据时需要注意的格式和兼容性问题。",
+              "needs_hands_on": true,
+              "risk": "未实际验证；需确认API输出是否同样含水印。"
+            },
+            {
+              "platform": "wechat",
+              "title": "AI水印从Claude开始：C2PA标准将如何重塑开发工作流？",
+              "angle": "从行业背景出发，分析Anthropic此举对AI内容溯源、版权保护和开发工具链的长期影响。",
+              "needs_hands_on": false,
+              "risk": "单一信源，需核实官方公告细节。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        }
+      ],
+      "llm_meta": {
+        "provider": "deepseek",
+        "model": "deepseek-v4-flash",
+        "calls_used": 16,
+        "cache_hits": 0,
+        "fallback_count": 0
+      },
+      "dedup_meta": {
+        "secondary_dedup_merge_count": 2,
+        "secondary_dedup_source_count": 216
+      }
+    },
     {
       "edition_id": "2026-08-11-morning",
       "edition_kind": "morning",
