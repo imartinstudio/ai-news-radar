@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T11:16:42.282527Z",
+  "generated_at": "2026-08-12T23:06:40.276105Z",
   "model": "deepseek-v4-flash",
   "personas": [
     {
@@ -41,42 +41,42 @@
       }
     },
     {
-      "story_id": "story_2b0f68d1ef21",
-      "title": "SGLang 宣布 Day-0 支持 NVIDIA Nemotron 3.5 Lightning / Blog SGLang Adds Day-0 Support for NVIDIA Nemotron 3.5 Lightning SGLang is excited to announce Day-0 support for NVIDIA Nemotron 3.5 Lightning， a customizable open model built to power always-on agents across local systems， the edge， the datacenter， and the cloud. … NVIDIA Nemotron Team and SGLang Team",
-      "url": "https://www.lmsys.org/blog/2026-08-11-nemotron-3-5-lightning",
+      "story_id": "story_dc9722a7a353",
+      "title": "阿里开放 Qwen3.8-2.4T-A95B 模型权重：2.4T MoE、激活 95B、原生 256K 上下文",
+      "url": "https://www.ithome.com/0/989/001.htm",
       "rank": 2,
       "reviews": {
         "cynic": {
-          "score": 70,
-          "review": "支持好是好，但只提“Day-0”，性能数据呢？别拿跑通当优化。"
+          "score": 85,
+          "review": "参数堆到2.4T，先看看自己的显卡跑不跑得动再谢主隆恩。"
         },
         "paper-police": {
-          "score": 25,
-          "review": "仅博客声明支持，无论文无代码无评测，难证真伪。"
+          "score": 45,
+          "review": "权重可下载但无论文无评测，等第三方跑分再定论。"
         },
         "pragmatic": {
           "score": 88,
-          "review": "SGLang 已支持新开源模型，跑 Agent 任务可直接部署，省去等适配。"
+          "review": "权重已放出来，能用 MoE 跑长上下文任务的直接拉，注意显存和推理框架适配。"
         }
       }
     },
     {
-      "story_id": "story_c246dedc40ae",
-      "title": "MAI-Code-1.1-Flash 现已登陆 GitHub Copilot / MAI-Code-1.1-Flash available in GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-08-11-mai-code-1-1-flash-available-in-github-copilot",
+      "story_id": "story_3479a70ad230",
+      "title": "LFM2.5-VL-3B：为边缘端带来更好、更快的视觉能力 / LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
       "rank": 3,
       "reviews": {
         "cynic": {
-          "score": 65,
-          "review": "官方更新只说上线，性能提升数据一概不提，糊弄谁呢？"
+          "score": 70,
+          "review": "“更好更快”不稀奇，敢把完整基准和功耗数据晒出来才算数。"
         },
         "paper-police": {
-          "score": 30,
-          "review": "官方更新属实，但无论文无基准，性能凭啥信？"
+          "score": 45,
+          "review": "博客给了性能数字但未见论文和开源代码，需独立复现确认。"
         },
         "pragmatic": {
-          "score": 82,
-          "review": "Copilot 可直接切新模型，写代码的今天就能试，看实际效果再定去留。"
+          "score": 85,
+          "review": "边缘端3B视觉模型已开源，能跑本地视觉任务的今天就能上手试。"
         }
       }
     }
