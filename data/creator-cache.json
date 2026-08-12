@@ -16962,7 +16962,307 @@
           }
         ]
       }
+    },
+    "fc8a39a77460188f22690d9e8426e0dd7f0d34e6": {
+      "generated_at": "2026-08-12T11:16:42.476424Z",
+      "enrichment": {
+        "summary_zh": "微软发布用于 GitHub Copilot 的 MAI Code 1.1 Flash，号称 token 效率提升25%、成本降至前代四分之一，但基准测试显示其性能不及更便宜的 De",
+        "why_it_matters": "开发者选择 Copilot 或替代方案时，需关注模型性价比；微软在 Copilot 中强推自家模型，可能影响代码生成质量与成本。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "实测对比：微软 MAI Code 1.1 Flash 真的被 Deepseek 碾压吗？",
+            "angle": "以第一人称亲测 GitHub Copilot 新模型与 Deepseek V4 Flash 的代码生成质量、速度和价格，分享真实体验。",
+            "needs_hands_on": true,
+            "risk": "尚未亲测，基准测试数据仅来自单一来源，需核实具体测试条件和版本。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "避坑指南：Copilot 新模型 VS Deepseek，选哪个更划算？",
+            "angle": "用步骤化对比展示两款模型在 Copilot 中的价格、效率与实际输出差异，给出省钱避坑建议。",
+            "needs_hands_on": true,
+            "risk": "价格和 token 效率数据未亲测，可能因地区或订阅方式不同。"
+          },
+          {
+            "platform": "wechat",
+            "title": "微软的 AI 围城：为什么 Copilot 不用最好的模型？",
+            "angle": "从微软商业模式出发，分析其强推自研模型、牺牲性能保利润的长期影响，以及开发者如何应对。",
+            "needs_hands_on": false,
+            "risk": "文章分析属于推测，需区分事实与观点。"
+          }
+        ]
+      }
+    },
+    "e021b88f9cf5e657d1ab45192a3d0ccd5d96a2d3": {
+      "generated_at": "2026-08-12T11:16:42.476424Z",
+      "enrichment": {
+        "summary_zh": "Simon Willison 发文讨论从专有 LLM API 中窃取推理轨迹的技术，揭示推理过程暴露带来的安全风险。",
+        "why_it_matters": "开发者依赖专有 LLM API 时，推理轨迹泄露可能暴露提示词、业务逻辑或敏感数据，影响 AI Coding 工作流的安全边界。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "我试了试从 API 里偷推理轨迹",
+            "angle": "第一人称尝试复现窃取推理轨迹的方法，分享实测感受与安全警示",
+            "needs_hands_on": true,
+            "risk": "未亲测，需确认原始文章中的具体攻击方法与可行性"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "AI API 推理轨迹泄露？开发者自查清单",
+            "angle": "面向开发者，列出如何检查自己的 API 调用是否可能泄露推理轨迹，并给出规避步骤",
+            "needs_hands_on": true,
+            "risk": "需基于原文技术细节提炼步骤，当前信息不足"
+          },
+          {
+            "platform": "wechat",
+            "title": "推理轨迹泄露：专有 LLM API 的隐忧与治理",
+            "angle": "从安全研究切入，分析推理轨迹泄露对开发者生态的长期影响，以及未来 API 设计趋势",
+            "needs_hands_on": false,
+            "risk": "需核对原文细节，避免对技术机理过度推演"
+          }
+        ]
+      }
+    },
+    "68bb21ddf5899ae7d45967e1171fe98194deca7e": {
+      "generated_at": "2026-08-12T11:16:42.476424Z",
+      "enrichment": {
+        "summary_zh": "OpenAI 发布 ChatGPT Linux 桌面预览版，集成 ChatGPT、ChatGPT Work 和 Codex 于同一窗口，支持 Ubuntu、Debian、Fedor",
+        "why_it_matters": "补齐 Linux 桌面端后，开发者可在日常系统直接使用 Codex 编程助手，与 Anthropic 在开发者工具上的竞争进一步加剧。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "OpenAI 终于出 Linux 版 ChatGPT 了？我第一时间试了试",
+            "angle": "以开发者身份分享从下载到实际使用的第一手体验，重点对比 Codex 在 Linux 与 macOS/Windows 上的差异，突出预览版的不完善之处。",
+            "needs_hands_on": true,
+            "risk": "尚未亲测，且仅单一来源报道，需确认下载渠道和功能是否真实可用。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "ChatGPT Linux 桌面版安装教程+避坑指南",
+            "angle": "从安装步骤切入，详细介绍支持的发行版和架构，列出可能遇到的依赖问题、ARM64 兼容性坑，以及 Codex 集成后的实际使用效果。",
+            "needs_hands_on": true,
+            "risk": "需要实测安装和运行，验证 ARM64 支持是否完整，以及 Codex 功能是否与官方描述一致。"
+          },
+          {
+            "platform": "wechat",
+            "title": "OpenAI 补齐 Linux 桌面版：开发者争夺战进入下半场",
+            "angle": "从产品生态和竞争格局角度，分析 Linux 桌面版对 OpenAI 补齐开发者工具矩阵的意义，以及与 Anthropic Claude Code 的正面竞争对 AI Coding 工作流趋势的影响。",
+            "needs_hands_on": false,
+            "risk": "基于单一来源报道，需标注为早期信息，避免过度解读官方未确认的细节。"
+          }
+        ]
+      }
+    },
+    "6105eac2d8e4b20aba9222e0a15ed20db811987f": {
+      "generated_at": "2026-08-12T11:16:42.476424Z",
+      "enrichment": {
+        "summary_zh": "Codex 负责人 Thibault Sottiaux 在 X 表示，此前承诺每新增 100 万活跃用户做一次重置直到 1000 万，现已突破且沉寂多时，预告明日将有小惊喜。",
+        "why_it_matters": "Codex 活跃用户增长超预期，明日或有新功能或政策发布，影响 AI 编程工具选择、成本和开发工作流。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "Codex 千万活跃用户达成，明日惊喜前瞻",
+            "angle": "作为长期使用 Codex 的开发者，我关注每次重置带来的实际体验变化，明天可能有新功能，我先梳理可能的动向。",
+            "needs_hands_on": true,
+            "risk": "尚未亲自验证明日发布内容，仅基于作者预告。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "Codex 活跃用户破千万！明日惊喜前，这些坑我先踩了",
+            "angle": "分享我使用 Codex 的踩坑经验，以及如何应对可能的重置和更新，给新手避坑指南。",
+            "needs_hands_on": true,
+            "risk": "重置具体规则未公布，需待官方确认。"
+          },
+          {
+            "platform": "wechat",
+            "title": "从 1000 万活跃用户看 AI 编程助手竞争格局",
+            "angle": "分析 Codex 用户增长背后的产品策略，以及明日惊喜对开发工作流和 OpenAI 生态的长期影响。",
+            "needs_hands_on": false,
+            "risk": "基于单一推文的推测，需后续官方信息核实。"
+          }
+        ]
+      }
+    },
+    "aec2d5c4d595864065d531ad360767b73b19b78a": {
+      "generated_at": "2026-08-12T11:16:42.476424Z",
+      "enrichment": {
+        "summary_zh": "Mojo 语言正式发布 1.0 版本，提供稳定、可用于生产环境的语言基础。自 2023 年首次发布以来，已有近 200 名贡献者合入超 1100 个拉取请求，改动逾 20 万行代码",
+        "why_it_matters": "Mojo 1.0 为 AI 基础设施开发提供稳定的语言选择，结合 Python 语法与 C 级性能，可能影响工具链选型和长期工程架构。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "Mojo 1.0 上手初测：Python 语法 + C 性能，真的能打吗？",
+            "angle": "以个人实测切入，对比 Python 和 C 在典型 AI 任务上的表现，突出 Mojo 1.0 的稳定性和使用体验。",
+            "needs_hands_on": true,
+            "risk": "仅有官方博客单一信源，未亲测性能数据。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "Mojo 1.0 避坑指南：从安装到跑通第一个模型，这些坑我替你踩了",
+            "angle": "以小红书风格分享安装、配置和运行 Mojo 的详细步骤，列出常见错误和解决方案，强调结果和避坑。",
+            "needs_hands_on": true,
+            "risk": "需要实际安装验证，官方文档之外的兼容性问题未知。"
+          },
+          {
+            "platform": "wechat",
+            "title": "Mojo 1.0 背后：AI 编程语言的生态博弈与长期影响",
+            "angle": "从背景分析 Mojo 的定位、与 CUDA/Triton 的竞争关系，以及 1.0 对 AI 基础设施开发者生态的长期影响。",
+            "needs_hands_on": false,
+            "risk": "生态竞争格局的分析需引入更多第三方数据，当前仅基于官方公告。"
+          }
+        ]
+      }
+    },
+    "512d4f073b2b6636be6f23faa7082ef77c543233": {
+      "generated_at": "2026-08-12T11:16:42.476424Z",
+      "enrichment": {
+        "summary_zh": "WaytoAGI 社区分享 Google 官方关于自改进智能体循环的 7 条规则，指出若未先定义“好”的标准，智能体自我优化可能刷高指标但真实效果变差。",
+        "why_it_matters": "自改进循环正被用于 AI Coding 工作流，规则直接影响智能体自主迭代的可靠性，开发者需警惕指标游戏化带来的工程质量风险。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "自改进智能体循环的 7 条规则，我实测后踩了哪些坑",
+            "angle": "以第一人称分享在实际项目中应用这些规则时遇到的问题，特别是“定义好坏”这一步的细节。",
+            "needs_hands_on": true,
+            "risk": "仅单来源，未拿到 Google 官方原文，规则具体内容需核实。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "AI 智能体自改进避坑：先定标准再让它自己跑",
+            "angle": "用简单步骤解释为何定义“好”比让智能体自己优化更重要，并给出避免指标刷分的实操建议。",
+            "needs_hands_on": false,
+            "risk": "规则细节未在原文中展开，需阅读原文档确认。"
+          },
+          {
+            "platform": "wechat",
+            "title": "从刷分数到真改进：Google 自改进智能体循环的工程启示",
+            "angle": "结合 AI Coding 趋势，分析自改进循环的评估体系设计对开发者长期工作流的影响。",
+            "needs_hands_on": false,
+            "risk": "社区二手转载，Google 官方原文出处未验证。"
+          }
+        ]
+      }
+    },
+    "e4149b828a7c17232b0975df05ad27e078f2a45d": {
+      "generated_at": "2026-08-12T11:16:42.476424Z",
+      "enrichment": {
+        "summary_zh": "小米MiLM Plus团队在ACM MM 2026发布PROVE：提出感知对齐的对象移除指标RC-S/RC-T，及无需成对真值的真实世界视频基准PROVE-Bench。RC-S相关",
+        "why_it_matters": "若指标可靠，可降低视频对象移除模型的评测成本与标注依赖，影响生成模型选择和开发流程，但需复现验证。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "小米新指标RC-S：视频对象移除评测不用真值了？",
+            "angle": "作为AI研究员，我注意到PROVE提出无真值评估，实测对比CFD速度提升13.7倍，但相关性0.59仍有待验证。",
+            "needs_hands_on": true,
+            "risk": "single_source，未亲测复现，相关性绝对值需更多验证"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "视频去物质量怎么评？小米PROVE指标3分钟看懂",
+            "angle": "我快速解读论文，用3步理解RC-S/RC-T：先看它衡量什么，再看怎么算，最后看实际效果。注意目前没有代码，别被标题党骗了。",
+            "needs_hands_on": false,
+            "risk": "需确认是否有公开代码和数据集，避免误导"
+          },
+          {
+            "platform": "wechat",
+            "title": "评测指标滞后于生成模型，小米PROVE能否成为新标准？",
+            "angle": "我回顾对象移除评估从PSNR到感知指标的演进，分析PROVE在无真值场景下的意义与局限，展望对AI视频编辑工具的影响。",
+            "needs_hands_on": false,
+            "risk": "single_source，需跟踪后续同行评审与复现结果"
+          }
+        ]
+      }
+    },
+    "d31af679e2110165be79e7f2727fb4304715e17d": {
+      "generated_at": "2026-08-12T11:16:42.476424Z",
+      "enrichment": {
+        "summary_zh": "阿里云宣布灵骏真武M890超节点实例正式上线，据称国内首个跑通超2万亿参数大模型，Kimi K3和Qwen3.8 Max（2.4万亿参数）已接入。该消息目前仅来自单一来源，尚待进一",
+        "why_it_matters": "超节点实现64卡间800GB/s互联和9TB内存池，可能降低超大规模模型训练门槛，影响开发者对训练平台和模型选型的判断。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "灵骏真武M890上线：国产超节点真实力还是纸面参数？",
+            "angle": "以开发者视角质疑单信源消息，对比海外同类超节点，强调需要实测数据验证互联带宽和训练效率。",
+            "needs_hands_on": true,
+            "risk": "尚未亲测，互联带宽和内存池数据仅来自官方宣传，需核实是否支持Kimi K3和Qwen3.8 Max实际训练。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "阿里云M890超节点实测避坑指南：2万亿参数模型训练怎么选？",
+            "angle": "从开发者使用体验出发，分享申请实例、配置环境、跑通大规模模型的步骤，提醒注意单来源信息的可信度。",
+            "needs_hands_on": true,
+            "risk": "未实际使用该实例，无法验证稳定性、价格和实际性能，需等待更多用户反馈。"
+          },
+          {
+            "platform": "wechat",
+            "title": "国产超节点M890背后：大模型基础设施竞争的下一个战场",
+            "angle": "从产业背景分析超节点对国产AI生态的影响，探讨云厂商在超大规模训练上的布局和未来趋势。",
+            "needs_hands_on": false,
+            "risk": "部分参数（如2.4万亿参数）来自单一来源，需交叉验证官方文档和第三方报告。"
+          }
+        ]
+      }
+    },
+    "8da0e564f0ef4a1fd9e89db2912f4d8d7bf4be01": {
+      "generated_at": "2026-08-12T11:16:42.476424Z",
+      "enrichment": {
+        "summary_zh": "据Reddit用户反馈，OpenAI正小范围测试ChatGPT Plus付费重置功能：用户每周额度用尽后花8美元可立即恢复100%用量并顺延7天。官方确认正探索付费加量方案，但功能",
+        "why_it_matters": "对重度依赖ChatGPT Plus的开发者，8美元重置可避免额度耗尽等待，但按次付费增加成本，可能影响工具选择和项目预算规划。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "ChatGPT Plus额度用尽？8美元一键重置是真是假？",
+            "angle": "作为每天重度使用ChatGPT Plus的开发者，我刚看到Reddit说可以花8美元重置额度，立刻想试试。但这是小范围测试，不一定每个人都能看到按钮。我准备实测一下，看是否真的立即恢复。",
+            "needs_hands_on": true,
+            "risk": "功能仅在少数用户中测试，我的账号可能没有入口；官方仅确认在探索方案，未承诺全面上线。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "ChatGPT Plus 8美元重置额度教程，别急着买！",
+            "angle": "最近发现ChatGPT Plus额度用完有个新选项：8美元立即重置，还能顺延7天。但注意这是小范围测试，不是人人都有。我来分享怎么检查自己有没有这个功能，以及值不值得花这个钱。",
+            "needs_hands_on": true,
+            "risk": "未实际亲测，需确认是否所有用户可见；价格和效果以官方实际显示为准。"
+          },
+          {
+            "platform": "wechat",
+            "title": "从8美元重置键看OpenAI的商业化转向：ChatGPT Plus开始按量付费？",
+            "angle": "OpenAI低调测试付费重置额度功能，表面是提升用户体验，实则可能是变相加价。对开发者而言，AI工具成本将从订阅制走向按量付费，工作流设计和成本控制需要重新规划。",
+            "needs_hands_on": false,
+            "risk": "基于单一来源推测，需关注官方后续公告和更多用户反馈。"
+          }
+        ]
+      }
+    },
+    "8976729d5c6fa012a794ff87c1bda13bfa218d80": {
+      "generated_at": "2026-08-12T11:16:42.476424Z",
+      "enrichment": {
+        "summary_zh": "AIbase称，DeepSeek注册官方公众号“DeepSeek Harness Team”，首次为Harness业务设对外窗口，预示通用Agent将发布。该团队负责工具调用与任务",
+        "why_it_matters": "若通用Agent落地，DeepSeek将在工具调用与任务规划上直接竞争，可能改变开发者构建AI Coding工作流的模型与成本选择。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "DeepSeek悄悄注册了Harness团队公众号，通用Agent要来了？",
+            "angle": "第一人称：看到这个消息的直觉是，DeepSeek不满足于只做模型，而是要直接下场做Agent产品。Harness负责工具调用和任务规划，这篇聊聊它可能怎么影响我们写代码的方式。",
+            "needs_hands_on": false,
+            "risk": "单一信源报道，尚无官方公告或产品发布，需等待DeepSeek正式披露。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "DeepSeek版Agent要来了？先教你蹲点官方公众号",
+            "angle": "第一人称：刚看到DeepSeek Harness团队注册了公众号，立刻去搜了下。这篇告诉你搜什么关键词、关注后能看到什么，以及现在还测不了，别焦虑。",
+            "needs_hands_on": true,
+            "risk": "公众号是否可搜到、是否有历史消息未亲测；产品发布仅单一信源。"
+          },
+          {
+            "platform": "wechat",
+            "title": "DeepSeek为什么单独给Harness团队开公众号？通用Agent是下一站",
+            "angle": "第一人称：从DeepSeek的战略看，单独注册Harness公众号说明Agent产品线被放到前台。结合创始人梁文锋说专注通用Agent，以及团队由崔天毅领导，这篇文章梳理Harness在DeepSeek技术栈里的角色——工具调用、任务规划，",
+            "needs_hands_on": false,
+            "risk": "部分信息（团队负责人、创始人表态）来自二手来源，需以官方为准。"
+          }
+        ]
+      }
     }
   },
-  "updated_at": "2026-08-11T22:57:56.996189Z"
+  "updated_at": "2026-08-12T11:16:42.476424Z"
 }
