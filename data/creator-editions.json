@@ -1,8 +1,1624 @@
 {
   "version": 1,
-  "generated_at": "2026-08-12T23:06:40.474815Z",
-  "total_editions": 43,
+  "generated_at": "2026-08-13T11:17:15.713418Z",
+  "total_editions": 44,
   "editions": [
+    {
+      "edition_id": "2026-08-13-evening",
+      "edition_kind": "evening",
+      "generated_at": "2026-08-13T11:17:15.713418Z",
+      "timezone": "Asia/Shanghai",
+      "total_items": 16,
+      "summary": {
+        "confirmed": 5,
+        "single_source": 11,
+        "early_signal": 0,
+        "rumor": 0,
+        "new": 16,
+        "updated": 0,
+        "confirmed_updates": 0
+      },
+      "items": [
+        {
+          "story_id": "story_ed0b1aa5f108",
+          "creator_event_id": "creator-c0a0bdb3adc69d42",
+          "merged_story_ids": [
+            "story_ed0b1aa5f108"
+          ],
+          "title": "v2.1.231",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.231",
+          "primary_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.231",
+          "source": "Claude Code Releases",
+          "source_name": "Curated Media",
+          "source_count": 1,
+          "source_names": [
+            "Claude Code Releases"
+          ],
+          "score": 0.6305,
+          "importance": 0.6305,
+          "importance_score": 0.6305,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.5688,
+            "source_tier": 0.58,
+            "ai_relevance": 0.79,
+            "recency": 0.968,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-08-13T08:38:50Z",
+          "latest_at": "2026-08-13T08:38:50Z",
+          "creator_score": 94.5,
+          "creator_breakdown": {
+            "relevance": 1.0,
+            "freshness": 1.0,
+            "source": 1.0,
+            "impact": 0.94,
+            "novelty": 0.85,
+            "heat": 0.3707
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "claude-code",
+          "verification_status": "confirmed",
+          "creator_reasons": [
+            "entity:claude-code",
+            "ai_coding_terms",
+            "workflow_impact",
+            "official_or_tier0_source"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "a449ab1fb99667b2c8e1baa30d881102a111eba6",
+            "title": "v2.1.231",
+            "title_original": "v2.1.231",
+            "summary": "What's changed\n\nFixed MCP OAuth sign-in failing with a redirect URI mismatch for servers that use a pre-registered OAuth client, such as Slack\nClaude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands. - Release v2.1.231 · anthropics/claude-code\nWhat's changed\n\nFixed MCP OAuth sign-in failing with a redirect URI mism",
+            "recommend_reason_zh": "此次更新修复了MCP OAuth登录时因重定向URI不匹配而失败的问题，尤其针对Slack这类使用预注册OAuth客户端的服务器。",
+            "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.231",
+            "source": "Claude Code Releases",
+            "source_name": "Curated Media"
+          },
+          "sources": [
+            {
+              "story_id": "story_ed0b1aa5f108",
+              "title": "v2.1.231",
+              "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.231",
+              "source": "Claude Code Releases",
+              "site_id": "",
+              "official": true
+            }
+          ],
+          "summary_zh": "Claude Code 发布 v2.1.231，修复 MCP OAuth 登录时重定向 URI 不匹配的问题，该问题影响使用预注册 OAuth 客户端的服务器（如 Slack）。",
+          "why_it_matters": "MCP 服务器接入更顺畅，减少开发者配置 OAuth 时的登录失败，提升 Claude Code 与 Slack 等外部工具集成的可靠性。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "实测 Claude Code v2.1.231：Slack MCP OAuth 登录是否真的修复了？",
+              "angle": "以第一人称实际连接 Slack MCP 服务器，验证重定向 URI 错误是否消失，比较修复前后的报错信息。",
+              "needs_hands_on": true,
+              "risk": "未亲测，需实际运行 MCP OAuth 流程确认修复效果。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "Claude Code 更新：MCP OAuth 登录失败的解决办法",
+              "angle": "分享遇到 redirect URI mismatch 时的排查步骤和升级到 v2.1.231 后的连接流程，给出配置预注册 OAuth 客户端的注意点。",
+              "needs_hands_on": false,
+              "risk": "若用户使用的是自定义 OAuth 客户端，未必适用此修复。"
+            },
+            {
+              "platform": "wechat",
+              "title": "从 Claude Code v2.1.231 看 MCP OAuth 接入的兼容性问题",
+              "angle": "深入分析 MCP OAuth 标准中重定向 URI 匹配机制，解释为何 Slack 等预注册客户端会出错，以及 Anthropic 修复思路对生态的影响。",
+              "needs_hands_on": false,
+              "risk": "底层 OAuth 实现细节需依据官方文档进一步核实，当前信息仅来自发布说明。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_6b4fc149deae",
+          "creator_event_id": "creator-c42162c0694f9ac9",
+          "merged_story_ids": [
+            "story_6b4fc149deae"
+          ],
+          "title": "Dyna Robotics 推出 Dyna-2：基于100万小时人类视频预训练的世界动作模型 / Dyna Robotics Introduces Dyna-2: A World-Action Model Pre-Trained on 1 Million Hours of Human Video",
+          "url": "https://www.marktechpost.com/2026/08/13/dyna-robotics-introduces-dyna-2-a-world-action-model-pre-trained-on-1-million-hours-of-human-video",
+          "primary_url": "https://www.marktechpost.com/2026/08/13/dyna-robotics-introduces-dyna-2-a-world-action-model-pre-trained-on-1-million-hours-of-human-video",
+          "source": "MarkTechPost Research",
+          "source_name": "Curated Media",
+          "source_count": 1,
+          "source_names": [
+            "MarkTechPost Research"
+          ],
+          "score": 0.599,
+          "importance": 0.599,
+          "importance_score": 0.599,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.5184,
+            "source_tier": 0.58,
+            "ai_relevance": 0.72,
+            "recency": 0.9548,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-08-13T07:42:02Z",
+          "latest_at": "2026-08-13T07:42:02Z",
+          "creator_score": 83.4,
+          "creator_breakdown": {
+            "relevance": 0.88,
+            "freshness": 1.0,
+            "source": 0.78,
+            "impact": 0.81,
+            "novelty": 0.75,
+            "heat": 0.3596
+          },
+          "creator_bucket": "ai_coding",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "ai_coding_terms",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "0dd2a9151c31809af878c68cf454f5290931df9f",
+            "title": "Dyna Robotics 推出 Dyna-2：基于100万小时人类视频预训练的世界动作模型 / Dyna Robotics Introduces Dyna-2: A World-Action Model Pre-Trained on 1 Million Hours of Human Video",
+            "title_zh": "Dyna Robotics 推出 Dyna-2：基于100万小时人类视频预训练的世界动作模型",
+            "title_en": "Dyna Robotics Introduces Dyna-2: A World-Action Model Pre-Trained on 1 Million Hours of Human Video",
+            "title_original": "Dyna Robotics Introduces Dyna-2: A World-Action Model Pre-Trained on 1 Million Hours of Human Video",
+            "summary": "Dyna Robotics released Dyna-2, a world-action model pre-trained on 1M hours of human video, establishing human-to-robot scaling laws\nDyna Robotics released Dyna-2, a world-action model pre-trained on 1M hours of human video, establishing human-to-robot scaling laws\nDyna Robotics has released Dyna-2 , a world-action model for robot manipulation. It was pre-trained on more than one million hours of egocentric human video. That is roughly 170 years of continuous waking experience. Robot learning ha",
+            "recommend_reason_zh": "Dyna Robotics发布Dyna-2，以1M小时人类视频预训练，验证数据从1千到100万小时的扩展规律：平均成功率20%升至53%，Lockbox任务0%跃至90%。",
+            "url": "https://www.marktechpost.com/2026/08/13/dyna-robotics-introduces-dyna-2-a-world-action-model-pre-trained-on-1-million-hours-of-human-video",
+            "source": "MarkTechPost Research",
+            "source_name": "Curated Media"
+          },
+          "sources": [
+            {
+              "story_id": "story_6b4fc149deae",
+              "title": "Dyna Robotics 推出 Dyna-2：基于100万小时人类视频预训练的世界动作模型 / Dyna Robotics Introduces Dyna-2: A World-Action Model Pre-Trained on 1 Million Hours of Human Video",
+              "url": "https://www.marktechpost.com/2026/08/13/dyna-robotics-introduces-dyna-2-a-world-action-model-pre-trained-on-1-million-hours-of-human-video",
+              "source": "MarkTechPost Research",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "Dyna Robotics 发布世界动作模型 Dyna-2，据单一来源称用超100万小时人类视频预训练；数据从1000小时增至100万小时，平均成功率由20%升至53%，Lockb",
+          "why_it_matters": "对机器人自动化开发意味着数据规模可替代部分人工标注与遥操作，可能降低具身智能门槛；但单源报道需谨慎，对工具选型与成本评估有参考价值。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "100万小时人类视频训出来的机器人模型，成绩单令人意外",
+              "angle": "单源报道称 Dyna-2 成功率 20%→53%，Lockbox 0%→90%，但这不代表通用能力，开发者别把营销数据当基准。",
+              "needs_hands_on": true,
+              "risk": "能力数据仅来自 MarkTechPost 一篇报道；未亲测，官方模型/权重尚未看到。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "机器人模型Dyna-2：用170年人类视频预训练，值不值得跟进？",
+              "angle": "从实操角度拆解数据扩展规律：1000 小时到 100 万小时，平均成功率提升但个别任务差异大；建议先跑官方基准再决定是否投入。",
+              "needs_hands_on": true,
+              "risk": "未实测 Dyna-2 性能；Lockbox 0%→90% 为单一媒体报道，需官方数据核对。"
+            },
+            {
+              "platform": "wechat",
+              "title": "具身智能的缩放定律来了？Dyna-2带来的三个信号",
+              "angle": "背景是机器人学习长期依赖遥操作数据，Dyna-2 用人类视频替代，暗示数据获取成本可能大幅下降；对 AI 开发者，关键是验证缩放规律能否迁移到其他领域。",
+              "needs_hands_on": false,
+              "risk": "需核实 Dyna Robotics 是否已发布论文、模型权重及官方技术报告；当前信息面单一。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_f4d94d2a2663",
+          "creator_event_id": "creator-0fef290197f2dc14",
+          "merged_story_ids": [
+            "story_f4d94d2a2663",
+            "story_a75a43bbf4e7"
+          ],
+          "title": "SpaceXAI 发布 Grok 4.6：500K 上下文的前沿模型，专为长时运行 Agent、编程和知识工作优化 / SpaceXAI Releases Grok 4.6: A 500K-Context Frontier Model Tuned for Long-Running Agents, Coding, and Knowledge Work",
+          "url": "https://www.marktechpost.com/2026/08/12/spacexai-releases-grok-4-6",
+          "primary_url": "https://www.marktechpost.com/2026/08/12/spacexai-releases-grok-4-6",
+          "source": "MarkTechPost Research",
+          "source_name": "Curated Media",
+          "source_count": 2,
+          "source_names": [
+            "MarkTechPost Research",
+            "x.ai"
+          ],
+          "score": 0.5997,
+          "importance": 0.5997,
+          "importance_score": 0.5997,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.5256,
+            "source_tier": 0.58,
+            "ai_relevance": 0.73,
+            "recency": 0.9358,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-08-13T06:18:14Z",
+          "latest_at": "2026-08-13T06:18:14Z",
+          "creator_score": 83.4,
+          "creator_breakdown": {
+            "relevance": 0.88,
+            "freshness": 1.0,
+            "source": 0.78,
+            "impact": 0.81,
+            "novelty": 0.75,
+            "heat": 0.3599
+          },
+          "creator_bucket": "ai_coding",
+          "verification_status": "confirmed",
+          "creator_reasons": [
+            "ai_coding_terms",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "13c88be1c5056e575214bdb51c4e1bc7057ee007",
+            "title": "SpaceXAI 发布 Grok 4.6：500K 上下文的前沿模型，专为长时运行 Agent、编程和知识工作优化 / SpaceXAI Releases Grok 4.6: A 500K-Context Frontier Model Tuned for Long-Running Agents, Coding, and Knowledge Work",
+            "title_zh": "SpaceXAI 发布 Grok 4.6：500K 上下文的前沿模型，专为长时运行 Agent、编程和知识工作优化",
+            "title_en": "SpaceXAI Releases Grok 4.6: A 500K-Context Frontier Model Tuned for Long-Running Agents, Coding, and Knowledge Work",
+            "title_original": "SpaceXAI Releases Grok 4.6: A 500K-Context Frontier Model Tuned for Long-Running Agents, Coding, and Knowledge Work",
+            "url": "https://www.marktechpost.com/2026/08/12/spacexai-releases-grok-4-6",
+            "source": "MarkTechPost Research",
+            "source_name": "Curated Media"
+          },
+          "sources": [
+            {
+              "story_id": "story_f4d94d2a2663",
+              "title": "SpaceXAI 发布 Grok 4.6：500K 上下文的前沿模型，专为长时运行 Agent、编程和知识工作优化 / SpaceXAI Releases Grok 4.6: A 500K-Context Frontier Model Tuned for Long-Running Agents, Coding, and Knowledge Work",
+              "url": "https://www.marktechpost.com/2026/08/12/spacexai-releases-grok-4-6",
+              "source": "MarkTechPost Research",
+              "site_id": "",
+              "official": false
+            },
+            {
+              "story_id": "story_a75a43bbf4e7",
+              "title": "Grok 4.6发布：主打长时运行代理与复杂交互视觉",
+              "url": "https://x.ai/news/grok-4-6",
+              "source": "x.ai",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "SpaceXAI 发布 Grok 4.6 前沿模型，支持 500K 上下文，专为长时运行 Agent、编程和知识工作优化，并强调复杂交互视觉能力。",
+          "why_it_matters": "500K 上下文直接利好长链路编码任务与多文件 Agent 工作流，影响开发者选择编程模型时的上下文容量与稳定性考量。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "实测 Grok 4.6 跑 500K 上下文：长时 Agent 终于不‘断片’了？",
+              "angle": "以开发者第一人称实测长上下文编程任务，对比之前模型在超长对话中丢失指令的问题，突出新鲜感和真实体验。",
+              "needs_hands_on": true,
+              "risk": "官方宣传与实际上下文有效利用率的差异，需实测验证。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "Grok 4.6 上手教程：500K 上下文怎么设置才能不爆显存？",
+              "angle": "分享本地或 API 调用 Grok 4.6 的步骤、参数配置与避坑经验，重点讲长上下文下的显存占用和推理速度。",
+              "needs_hands_on": true,
+              "risk": "未提及模型具体参数量与推理资源要求，实际硬件需求未知。"
+            },
+            {
+              "platform": "wechat",
+              "title": "Grok 4.6 发布：500K 上下文对 AI Coding 意味着什么？",
+              "angle": "从模型迭代脉络和 Agent 工作流演进角度，分析长上下文对代码库理解、多文件编辑和自动化测试的体系化影响。",
+              "needs_hands_on": false,
+              "risk": "官方未公布完整基准数据，性能对比结论需谨慎。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_c169917dbb00",
+          "creator_event_id": "creator-cd9707183cc477bb",
+          "merged_story_ids": [
+            "story_c169917dbb00"
+          ],
+          "title": "Cursor拟提前推出自动化代码审查平台Origin 整合Graphite团队技术",
+          "url": "https://www.aibase.com/news/30303",
+          "primary_url": "https://www.aibase.com/news/30303",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "source_count": 1,
+          "source_names": [
+            "AIbase"
+          ],
+          "score": 0.7662,
+          "importance": 0.7662,
+          "importance_score": 0.7662,
+          "importance_label": "行业动态",
+          "importance_breakdown": {
+            "editorial": 0.72,
+            "source_tier": 0.78,
+            "ai_relevance": 1.0,
+            "recency": 0.9923,
+            "story_heat": 0.0
+          },
+          "category": "industry",
+          "reasons": [
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-08-13T10:22:08.243559Z",
+          "latest_at": "2026-08-13T10:22:08.243559Z",
+          "creator_score": 82.7,
+          "creator_breakdown": {
+            "relevance": 1.0,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.81,
+            "novelty": 0.85,
+            "heat": 0.4182
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "cursor",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:cursor",
+            "ai_coding_terms",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "f47540bbc39a8cddec717c8ad4c044ada1440cc4",
+            "title": "Cursor拟提前推出自动化代码审查平台Origin 整合Graphite团队技术",
+            "title_zh": "Cursor拟提前推出自动化代码审查平台Origin 整合Graphite团队技术",
+            "title_original": "Cursor拟提前推出自动化代码审查平台Origin 整合Graphite团队技术",
+            "summary": "AI code editing tool developer Cursor is set to officially launch its automated code review platform called \"Origin\" (internally known as \"Cursor Review\") to al\nAI code editing tool developer Cursor is set to officially launch its automated code review platform called \"Origin\" (internally known as \"Cursor Review\") to al\nAI code editing tool developer Cursor is set to officially launch its automated code review platform called \"Origin\" (internally known as \"Cursor Review\") to al\nExplore AI Fronti",
+            "recommend_reason_zh": "Cursor提前推出自动化代码审查平台Origin，整合Graphite团队技术，新增Codebase与Review模块，旨在解决AI大规模并行生成代码带来的审查合并瓶颈，曾演示单仓库每秒22.6次提交。",
+            "url": "https://www.aibase.com/news/30303",
+            "source": "AIbase",
+            "source_name": "AIbase"
+          },
+          "sources": [
+            {
+              "story_id": "story_c169917dbb00",
+              "title": "Cursor拟提前推出自动化代码审查平台Origin 整合Graphite团队技术",
+              "url": "https://www.aibase.com/news/30303",
+              "source": "AIbase",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "Cursor 计划提前推出自动化代码审查平台 Origin（内部称 Cursor Review），整合 Graphite 团队技术，新增 Codebase 与 Review 模块，",
+          "why_it_matters": "AI 代码生成量激增，传统审查流程成为瓶颈。Origin 若落地，将改变团队代码审查工作流，影响工具选择与工程效率，但当前仅单一来源披露，需",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "Cursor 真要抢 Code Review 的饭碗？Origin 计划曝光",
+              "angle": "以开发者视角，对比现有 PR 审查流程，谈谈 AI 自动审查能否替代人工，以及每秒 22.6 次提交的演示数据是否可信。",
+              "needs_hands_on": true,
+              "risk": "产品尚未正式发布，演示数据及功能细节均来自单一新闻源，需确认官方公告或实测。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "Cursor 新功能 Origin 怎么用？避坑指南来了",
+              "angle": "基于现有 Cursor Review 相关线索，整理可能的启用步骤、使用场景和常见坑，提醒大家先别急着升级。",
+              "needs_hands_on": true,
+              "risk": "目前没有官方文档或实际体验，步骤为推测，需标注信息来源单一。"
+            },
+            {
+              "platform": "wechat",
+              "title": "从 Cursor 到 Origin：AI 编程工具正在重塑代码审查体系",
+              "angle": "分析 Cursor 收购 Graphite 后的战略布局，探讨 AI 自动化审查对开发团队协作模式、合并流程和工程文化的长期影响。",
+              "needs_hands_on": false,
+              "risk": "涉及公司战略和历史数据（如每秒 22.6 次提交）需核实，避免过度解读单一新闻源。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_6f60138b784f",
+          "creator_event_id": "creator-08d01c06bc6488e7",
+          "merged_story_ids": [
+            "story_6f60138b784f"
+          ],
+          "title": "天天用 Claude Code/Codex，你知道它实际发给模型什么吗？被这开源工具扒光了...",
+          "url": "https://juejin.cn/post/7672315735167238198",
+          "primary_url": "https://juejin.cn/post/7672315735167238198",
+          "source": "juejin",
+          "source_name": "NewsNow",
+          "source_count": 1,
+          "source_names": [
+            "juejin"
+          ],
+          "score": 0.5197,
+          "importance": 0.5197,
+          "importance_score": 0.5197,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.468,
+            "source_tier": 0.32,
+            "ai_relevance": 0.65,
+            "recency": 0.994,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-08-13T10:28:58.664000Z",
+          "latest_at": "2026-08-13T10:28:58.664000Z",
+          "creator_score": 82.3,
+          "creator_breakdown": {
+            "relevance": 1.0,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.81,
+            "novelty": 0.85,
+            "heat": 0.3319
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "claude-code",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:claude-code",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "7d4959b4c6e14d78eb4d9f3160257968216b965d",
+            "title": "天天用 Claude Code/Codex，你知道它实际发给模型什么吗？被这开源工具扒光了...",
+            "title_zh": "天天用 Claude Code/Codex，你知道它实际发给模型什么吗？被这开源工具扒光了...",
+            "title_original": "天天用 Claude Code/Codex，你知道它实际发给模型什么吗？被这开源工具扒光了...",
+            "url": "https://juejin.cn/post/7672315735167238198",
+            "source": "juejin",
+            "source_name": "NewsNow"
+          },
+          "sources": [
+            {
+              "story_id": "story_6f60138b784f",
+              "title": "天天用 Claude Code/Codex，你知道它实际发给模型什么吗？被这开源工具扒光了...",
+              "url": "https://juejin.cn/post/7672315735167238198",
+              "source": "juejin",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "据掘金文章，有开源工具可扒出Claude Code和Codex实际发送给模型的完整内容，展示AI编程工具内部交互，但仅有单一来源，细节待验证。",
+          "why_it_matters": "这让开发者能看清工具如何构造上下文与prompt，直接影响token成本、调试效率和隐私判断，关乎选型与工作流优化。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "我扒了一下Claude Code发给模型的原始请求，发现了这些…",
+              "angle": "以第一人称讲如何使用开源工具查看实际请求，对比官方文档声称的行为，揭示反差。",
+              "needs_hands_on": true,
+              "risk": "未实际测试，工具是否兼容最新版本、抓包是否准确需要验证。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "AI编程工具透明化？这个工具能看穿Claude Code的prompt",
+              "angle": "从使用步骤出发，教大家如何安装并运行该工具，查看自己项目的请求内容，注意数据安全和隐私。",
+              "needs_hands_on": true,
+              "risk": "未亲测，具体安装命令和效果未知。"
+            },
+            {
+              "platform": "wechat",
+              "title": "AI编码工具的黑盒正在被打开：以Claude Code为例看透明化趋势",
+              "angle": "从行业角度分析该工具背后的意义，讨论AI编码工具在大规模应用中的可观测性与成本控制，以及开源生态的价值。",
+              "needs_hands_on": false,
+              "risk": "单一来源，需跟进官方或更多验证。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_40f7961c06b7",
+          "creator_event_id": "creator-08b7ff7892a9c489",
+          "merged_story_ids": [
+            "story_40f7961c06b7"
+          ],
+          "title": "新兴多智能体系统的模式与问题 / Patterns and problems in emerging multiagent systems",
+          "url": "https://www.anthropic.com/research/multiagent-systems",
+          "primary_url": "https://www.anthropic.com/research/multiagent-systems",
+          "source": "Anthropic：Research（发表成果 · 网页）",
+          "source_name": "AI HOT",
+          "source_count": 1,
+          "source_names": [
+            "Anthropic：Research（发表成果 · 网页）"
+          ],
+          "score": 0.7654,
+          "importance": 0.7654,
+          "importance_score": 0.7654,
+          "importance_label": "行业动态",
+          "importance_breakdown": {
+            "editorial": 0.79,
+            "source_tier": 0.78,
+            "ai_relevance": 1.0,
+            "recency": 0.8711,
+            "story_heat": 0.0
+          },
+          "category": "industry",
+          "reasons": [
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-08-13T01:20:54.259000Z",
+          "latest_at": "2026-08-13T01:20:54.259000Z",
+          "persona_id": "pragmatic",
+          "persona_score": 55,
+          "persona_review": "多智能体系统的落地坑总结，做Agent编排前值得扫一眼。",
+          "creator_score": 79.5,
+          "creator_breakdown": {
+            "relevance": 0.88,
+            "freshness": 0.9015,
+            "source": 1.0,
+            "impact": 0.43,
+            "novelty": 0.65,
+            "heat": 0.4179
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "anthropic",
+          "verification_status": "confirmed",
+          "creator_reasons": [
+            "entity:anthropic",
+            "ai_coding_terms",
+            "official_or_tier0_source"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "9d57b112356e13780b596ad2e3b2399f6e5a6a63",
+            "title": "新兴多智能体系统的模式与问题 / Patterns and problems in emerging multiagent systems",
+            "title_zh": "新兴多智能体系统的模式与问题",
+            "title_en": "Patterns and problems in emerging multiagent systems",
+            "title_original": "Patterns and problems in emerging multiagent systems",
+            "summary": "Anthropic 研究指出，随着 AI 智能体在共享代码库、市场等社会系统中承担更多任务，智能体间交互量或将超过人机交互。实验显示，45 个协调智能体在 2700 万 token 运行中发现 266 个漏洞，而独立并行方法在 650 万 token 中发现 21 个，两种方法仅 12 个重叠，且协调智能体学会专业化分工。研究同时警示个体层面的良性行为怪癖可能叠加为意外的系统性失败。",
+            "recommend_reason_zh": "本文基于45个Claude智能体群的实验，揭示协调失败、共谋与破坏等涌现行为，并探讨这些模式对AI安全的影响。",
+            "url": "https://www.anthropic.com/research/multiagent-systems",
+            "source": "Anthropic：Research（发表成果 · 网页）",
+            "source_name": "AI HOT"
+          },
+          "sources": [
+            {
+              "story_id": "story_40f7961c06b7",
+              "title": "新兴多智能体系统的模式与问题 / Patterns and problems in emerging multiagent systems",
+              "url": "https://www.anthropic.com/research/multiagent-systems",
+              "source": "Anthropic：Research（发表成果 · 网页）",
+              "site_id": "",
+              "official": true
+            }
+          ],
+          "summary_zh": "Anthropic研究：45个协调智能体在2700万token中发现266个漏洞，独立并行仅21个（重叠12个）。智能体交互量或超人机交互，个体良性行为可能叠加为系统性失败。",
+          "why_it_matters": "影响AI Coding工作流：智能体协作可提高漏洞发现效率，但需警惕协调失败与共谋风险，工程上应关注多智能体系统的可观测性和安全边界。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "多智能体协作是漏洞挖掘的未来还是风险源？Anthropic实验给出数据",
+              "angle": "我从Anthropic实验中看到，协调智能体发现的漏洞数比独立并行高一个数量级，但重叠极少——这意味着两者互补。也许我们应该重新思考AI Coding中的多Agent模式。",
+              "needs_hands_on": false,
+              "risk": "实验基于Claude智能体，未必适用于其他模型；需阅读原文确认细节。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "Anthropic实验：45个AI智能体协作找漏洞，效率碾压单独跑？",
+              "angle": "我拆解了Anthropic这项研究，整理了多智能体协作的配置要点和避坑指南：token消耗高5倍，但漏洞发现率提升10倍以上；关键是让智能体学会分工，同时要防止它们互相影响导致系统性失败。",
+              "needs_hands_on": true,
+              "risk": "本文仅基于Anthropic研究，未亲自复现实验；实际效果依赖具体任务和模型。"
+            },
+            {
+              "platform": "wechat",
+              "title": "多智能体系统将如何改变AI Coding？Anthropic研究揭示的五个关键趋势",
+              "angle": "从Anthropic的实验看，智能体间交互量可能超过人机交互，这意味着未来的开发者需要管理的不只是代码，而是智能体社会。我们得思考新的工程范式：如何设计协调机制、如何监控系统性风险。",
+              "needs_hands_on": false,
+              "risk": ""
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_cab5ba4e8224",
+          "creator_event_id": "creator-dcc8ebdddd71b966",
+          "merged_story_ids": [
+            "story_cab5ba4e8224"
+          ],
+          "title": "小红书开源连续自回归语音合成模型 dots.tts：打造可持续扩展的 TTS 基座",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496062&idx=1&sn=d4c48926c5d7607f129dfea03699a6c0",
+          "primary_url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496062&idx=1&sn=d4c48926c5d7607f129dfea03699a6c0",
+          "source": "公众号：小红书技术（dots.llm）",
+          "source_name": "AI HOT",
+          "source_count": 1,
+          "source_names": [
+            "公众号：小红书技术（dots.llm）"
+          ],
+          "score": 0.7742,
+          "importance": 0.7742,
+          "importance_score": 0.7742,
+          "importance_label": "行业动态",
+          "importance_breakdown": {
+            "editorial": 0.75,
+            "source_tier": 0.78,
+            "ai_relevance": 1.0,
+            "recency": 0.9868,
+            "story_heat": 0.0
+          },
+          "category": "industry",
+          "reasons": [
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-08-13T09:59:00Z",
+          "latest_at": "2026-08-13T09:59:00Z",
+          "persona_id": "pragmatic",
+          "persona_score": 90,
+          "persona_review": "开源语音合成模型可直接clone跑，做TTS的今天就能上手。",
+          "creator_score": 78.2,
+          "creator_breakdown": {
+            "relevance": 0.88,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.81,
+            "novelty": 0.75,
+            "heat": 0.421
+          },
+          "creator_bucket": "ai_coding",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "ai_coding_terms",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "3a87a0e9b0f20da582880d81f3932ae4aa3ef59f",
+            "title": "小红书开源连续自回归语音合成模型 dots.tts：打造可持续扩展的 TTS 基座",
+            "title_zh": "小红书开源连续自回归语音合成模型 dots.tts：打造可持续扩展的 TTS 基座",
+            "title_original": "小红书开源连续自回归语音合成模型 dots.tts：打造可持续扩展的 TTS 基座",
+            "summary": "小红书 dots 团队开源 20 亿参数全连续端到端自回归语音合成模型 dots.tts，在 Seed-TTS-Eval 三个子集上取得最佳平均内容准确度和平均说话人相似度。",
+            "url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496062&idx=1&sn=d4c48926c5d7607f129dfea03699a6c0",
+            "source": "公众号：小红书技术（dots.llm）",
+            "source_name": "AI HOT"
+          },
+          "sources": [
+            {
+              "story_id": "story_cab5ba4e8224",
+              "title": "小红书开源连续自回归语音合成模型 dots.tts：打造可持续扩展的 TTS 基座",
+              "url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496062&idx=1&sn=d4c48926c5d7607f129dfea03699a6c0",
+              "source": "公众号：小红书技术（dots.llm）",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "小红书 dots 团队开源 20 亿参数全连续端到端自回归语音合成模型 dots.tts，在 Seed-TTS-Eval 三个子集上平均内容准确度和说话人相似度最佳。当前为单一来源",
+          "why_it_matters": "开源 TTS 基座可降低语音应用开发成本，但需验证其部署门槛、推理性能及与现有工具链的兼容性。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "开源 TTS 新基线：dots.tts 能否挑战现有语音合成方案？",
+              "angle": "以开发者视角快速体验 dots.tts，对比常见 TTS 工具，分享第一手实测感受。",
+              "needs_hands_on": true,
+              "risk": "单一来源，未亲测；实际效果和部署体验待验证。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "本地部署 dots.tts 避坑指南：20 亿参数 TTS 模型怎么跑起来",
+              "angle": "记录从拉取代码到推理的完整步骤，展示环境配置、显存占用和生成效果。",
+              "needs_hands_on": true,
+              "risk": "未提供明确硬件要求，推测需要较高显存；需实测确认。"
+            },
+            {
+              "platform": "wechat",
+              "title": "从 dots.tts 看 TTS 基座开源趋势：对开发者意味着什么？",
+              "angle": "梳理连续自回归 TTS 技术路线，分析开源基座对语音应用生态和开发工作流的长期影响。",
+              "needs_hands_on": false,
+              "risk": "部分技术细节来自单一报道，需交叉验证模型架构与评估结果。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_e1347d34c9f3",
+          "creator_event_id": "creator-27ab9f7665cc15db",
+          "merged_story_ids": [
+            "story_e1347d34c9f3"
+          ],
+          "title": "韩国AI新王Solar Pro 4登场，直接硬刚全球顶尖大模型？",
+          "url": "https://www.aibase.com/news/30315",
+          "primary_url": "https://www.aibase.com/news/30315",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "source_count": 1,
+          "source_names": [
+            "AIbase"
+          ],
+          "score": 0.7676,
+          "importance": 0.7676,
+          "importance_score": 0.7676,
+          "importance_label": "行业动态",
+          "importance_breakdown": {
+            "editorial": 0.72,
+            "source_tier": 0.78,
+            "ai_relevance": 1.0,
+            "recency": 1.0,
+            "story_heat": 0.0
+          },
+          "category": "industry",
+          "reasons": [
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-08-13T10:54:08.243559Z",
+          "latest_at": "2026-08-13T10:54:08.243559Z",
+          "creator_score": 78.1,
+          "creator_breakdown": {
+            "relevance": 0.88,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.81,
+            "novelty": 0.75,
+            "heat": 0.4187
+          },
+          "creator_bucket": "ai_coding",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "ai_coding_terms",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "02d1737118f0460395a90ac4c78bd45e50b038b8",
+            "title": "韩国AI新王Solar Pro 4登场，直接硬刚全球顶尖大模型？",
+            "title_zh": "韩国AI新王Solar Pro 4登场，直接硬刚全球顶尖大模型？",
+            "title_original": "韩国AI新王Solar Pro 4登场，直接硬刚全球顶尖大模型？",
+            "summary": "Recently, the South Korean artificial intelligence laboratory Upstage officially launched a commercial large model called Solar Pro4, tailored for complex agent\nRecently, the South Korean artificial intelligence laboratory Upstage officially launched a commercial large model called Solar Pro4, tailored for complex agent\nRecently, the South Korean artificial intelligence laboratory Upstage officially launched a commercial large model called Solar Pro4, tailored for complex agent\nExplore AI Fronti",
+            "recommend_reason_zh": "韩国AI实验室Upstage正式发布商用大模型Solar Pro4，支持512K上下文与128K输出，输入价格每百万Tokens仅0.3美元，在Terminal-Bench v2.1、τ³-Banking、AA-LCR基准测试中分别获得57、23、71分，硬刚全球顶尖模型。",
+            "url": "https://www.aibase.com/news/30315",
+            "source": "AIbase",
+            "source_name": "AIbase"
+          },
+          "sources": [
+            {
+              "story_id": "story_e1347d34c9f3",
+              "title": "韩国AI新王Solar Pro 4登场，直接硬刚全球顶尖大模型？",
+              "url": "https://www.aibase.com/news/30315",
+              "source": "AIbase",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "韩国AI实验室Upstage发布商用大模型Solar Pro 4，支持512K上下文与128K输出，输入定价每百万tokens 0.3美元。在Terminal-Bench v2.1",
+          "why_it_matters": "以极低输入价格提供长上下文，可能降低复杂Agent与代码处理成本，但单一来源及未公开完整技术细节，需谨慎评估其对现有开发者工具链的替代性。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "韩国Upstage Solar Pro 4实测：0.3美元/M tokens的Agent模型真的能打？",
+              "angle": "作为开发者，我第一时间申请API，在真实终端任务上对比Solar Pro 4与主流模型的差异，看512K长上下文在代码处理中是否真有优势。",
+              "needs_hands_on": true,
+              "risk": "单一来源报道，基准测试分数与价格未亲自验证，API可用性和实际性能需实测确认。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "用Solar Pro 4做Agent开发：低成本长上下文的配置与避坑指南",
+              "angle": "手把手分享配置Solar Pro 4处理长代码库的步骤，包括上下文窗口设置、成本计算及已知限制，帮大家少走弯路。",
+              "needs_hands_on": true,
+              "risk": "尚未实测，真实输出质量、速度和稳定性未知，需核实官方文档与基准测试细节。"
+            },
+            {
+              "platform": "wechat",
+              "title": "韩国AI实验室Upstage：Solar Pro 4如何影响全球大模型竞争与Agent生态",
+              "angle": "从Upstage的模型路线与定价策略切入，分析其对全球开发者生态和未来Agent工作流的长期影响，以及韩国AI产业的崛起信号。",
+              "needs_hands_on": false,
+              "risk": "单一来源，需补充Upstage背景、技术细节与更多第三方评测信息。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_e7b34123a1ab",
+          "creator_event_id": "creator-25b482e3360d5fd5",
+          "merged_story_ids": [
+            "story_e7b34123a1ab"
+          ],
+          "title": "Okta借MCP作用域控制AI Agent的token成本 / Okta targets AI agent token costs with MCP scoping",
+          "url": "https://www.artificialintelligence-news.com/news/okta-targets-ai-agent-token-costs-with-mcp-scoping",
+          "primary_url": "https://www.artificialintelligence-news.com/news/okta-targets-ai-agent-token-costs-with-mcp-scoping",
+          "source": "Artificial Intelligence News",
+          "source_name": "Curated Media",
+          "source_count": 1,
+          "source_names": [
+            "Artificial Intelligence News"
+          ],
+          "score": 0.6323,
+          "importance": 0.6323,
+          "importance_score": 0.6323,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.5688,
+            "source_tier": 0.58,
+            "ai_relevance": 0.79,
+            "recency": 0.9781,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-08-13T09:22:06Z",
+          "latest_at": "2026-08-13T09:22:06Z",
+          "creator_score": 77.4,
+          "creator_breakdown": {
+            "relevance": 0.9,
+            "freshness": 1.0,
+            "source": 0.78,
+            "impact": 0.43,
+            "novelty": 0.65,
+            "heat": 0.3713
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "mcp",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:mcp",
+            "ai_coding_terms"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "244f3493d965e63191b04ec9f9bc6622acb068f9",
+            "title": "Okta借MCP作用域控制AI Agent的token成本 / Okta targets AI agent token costs with MCP scoping",
+            "title_zh": "Okta借MCP作用域控制AI Agent的token成本",
+            "title_en": "Okta targets AI agent token costs with MCP scoping",
+            "title_original": "Okta targets AI agent token costs with MCP scoping",
+            "summary": "Okta says identity-scoped Model Context Protocol (MCP) tool lists can reduce AI agent token costs.\nOkta says identity-scoped Model Context Protocol (MCP) tool lists can reduce AI agent token costs.\nAI News is part of the TechForge Publications series\nTechForge\nData Engineering & MLOps\nRyan Daws\nAugust 13, 2026\nShare this story:\nTags:\nCategories:\nOkta says identity-scoped Model Context Protocol (MCP) tool lists can reduce AI agent token costs.\nEach model call made by an AI agent can include schem",
+            "recommend_reason_zh": "Okta提出以身份权限对MCP工具列表做作用域过滤，称内部建模显示部分场景下可见工具减少超90%，工具schema的token开销同比例下降，以削减AI agent每次模型调用的“tool tax”。",
+            "url": "https://www.artificialintelligence-news.com/news/okta-targets-ai-agent-token-costs-with-mcp-scoping",
+            "source": "Artificial Intelligence News",
+            "source_name": "Curated Media"
+          },
+          "sources": [
+            {
+              "story_id": "story_e7b34123a1ab",
+              "title": "Okta借MCP作用域控制AI Agent的token成本 / Okta targets AI agent token costs with MCP scoping",
+              "url": "https://www.artificialintelligence-news.com/news/okta-targets-ai-agent-token-costs-with-mcp-scoping",
+              "source": "Artificial Intelligence News",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "Okta 表示，通过身份作用域控制 MCP 工具列表可降低 AI Agent 的 token 成本。其内部建模显示，部分场景下可见工具减少超 90%，工具 schema 的 tok",
+          "why_it_matters": "MCP 作用域把身份权限与工具可见性绑定，能削减每次模型调用的工具 schema 开销，直接影响 Agent 的 token 成本、权限安全",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "Okta 说 MCP 作用域能省 90% token，我实测了一把",
+              "angle": "以开发者第一视角，搭一个带 MCP 工具列表的 Agent，对比按身份裁剪前后每次请求的 token 消耗，验证 Okta 的说法。",
+              "needs_hands_on": true,
+              "risk": "Okta 内部建模数据未经独立验证，需自行搭建环境实测；真实收益依赖工具列表规模和场景。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "AI Agent 省 token 新思路：按身份裁剪 MCP 工具列表",
+              "angle": "用步骤拆解 Okta 提出的做法：如何基于用户角色配置 MCP 作用域，哪些场景收益最大，以及配置时的权限边界和避坑点。",
+              "needs_hands_on": true,
+              "risk": "目前无公开实现细节，需结合现有 MCP 权限中间件推测；官方文档尚未发布。"
+            },
+            {
+              "platform": "wechat",
+              "title": "MCP 作用域：AI Agent 的 token 成本与安全治理分水岭",
+              "angle": "从 MCP 工具暴露的工程问题切入，分析身份作用域如何同时解决 token 开销和越权访问，展望其对 Agent 平台架构的长期影响。",
+              "needs_hands_on": false,
+              "risk": "基于单一来源报道，缺少 Okta 官方技术细节和第三方验证，需标注为厂商宣称。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_ceba957f332e",
+          "creator_event_id": "creator-c25549a66aa9c8c1",
+          "merged_story_ids": [
+            "story_ceba957f332e"
+          ],
+          "title": "Top AI lab researchers warned about automated AI research, and several of their predicted milestones have already fallen",
+          "url": "https://the-decoder.com/top-ai-lab-researchers-warned-about-automated-ai-research-and-several-of-their-predicted-milestones-have-already-fallen",
+          "primary_url": "https://the-decoder.com/top-ai-lab-researchers-warned-about-automated-ai-research-and-several-of-their-predicted-milestones-have-already-fallen",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "source_count": 1,
+          "source_names": [
+            "The Decoder AI News"
+          ],
+          "score": 0.6232,
+          "importance": 0.6232,
+          "importance_score": 0.6232,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.5472,
+            "source_tier": 0.58,
+            "ai_relevance": 0.76,
+            "recency": 0.9971,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-08-13T10:42:05Z",
+          "latest_at": "2026-08-13T10:42:05Z",
+          "creator_score": 76.8,
+          "creator_breakdown": {
+            "relevance": 0.88,
+            "freshness": 1.0,
+            "source": 0.78,
+            "impact": 0.43,
+            "novelty": 0.65,
+            "heat": 0.3681
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "anthropic",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:anthropic",
+            "ai_coding_terms"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "57b00f4cac066d9c31eadceb830c014fd5bcb2b8",
+            "title": "Top AI lab researchers warned about automated AI research, and several of their predicted milestones have already fallen",
+            "title_en": "Top AI lab researchers warned about automated AI research, and several of their predicted milestones have already fallen",
+            "title_original": "Top AI lab researchers warned about automated AI research, and several of their predicted milestones have already fallen",
+            "summary": "IAPS fellow Severin Field interviewed 25 researchers from OpenAI, Anthropic, Google Deepmind, Meta, and US universities about recursive self-improvement. In a new blog post, he takes stock. Several of the milestones those researchers named have already been hit.\nIAPS fellow Severin Field interviewed 25 researchers from OpenAI, Anthropic, Google Deepmind, Meta, and US universities about recursive self-improvement. In a new blog post, he takes stock. Several of the milestones those researchers nam",
+            "recommend_reason_zh": "Severin Field访谈25名AI研究者，20人将自动化AI研究列为最紧迫风险；METR的Task Horizon任务时长每半年翻倍，OpenAI与Google Deepmind已达奥赛金牌级，Anthropic的Claude自写80%生产代码。",
+            "url": "https://the-decoder.com/top-ai-lab-researchers-warned-about-automated-ai-research-and-several-of-their-predicted-milestones-have-already-fallen",
+            "source": "The Decoder AI News",
+            "source_name": "Curated Media"
+          },
+          "sources": [
+            {
+              "story_id": "story_ceba957f332e",
+              "title": "Top AI lab researchers warned about automated AI research, and several of their predicted milestones have already fallen",
+              "url": "https://the-decoder.com/top-ai-lab-researchers-warned-about-automated-ai-research-and-several-of-their-predicted-milestones-have-already-fallen",
+              "source": "The Decoder AI News",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "IAPS研究员Severin Field访谈25名AI研究者，其中20人将自动化AI研究列为最紧迫风险。多项里程碑已提前实现：METR任务时长每半年翻倍，OpenAI/DeepMi",
+          "why_it_matters": "自动化AI研究加速意味着AI Coding工具能力迭代将远超预期，开发者需重新评估任务委派边界、代码审查流程和技能护城河，工程风险与效率机遇",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "25位顶级AI研究者警告：自动化AI研究的预测里程碑已提前兑现",
+              "angle": "以开发者视角，惊讶于Claude已自写80%生产代码，反思我们对AI Coding能力边界的认知滞后。",
+              "needs_hands_on": false,
+              "risk": "单一来源报道，未核实原始访谈数据。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "AI Coding避坑指南：自动化AI研究加速后，开发者该怎么做",
+              "angle": "结合新闻里的具体数据（METR任务时长翻倍、Claude自写80%代码），给出普通人应对AI编程能力暴涨的三步走建议。",
+              "needs_hands_on": false,
+              "risk": "关于Claude写80%生产代码的说法来自Anthropic，需进一步验证。"
+            },
+            {
+              "platform": "wechat",
+              "title": "递归自我改进逼近现实：自动化AI研究如何重塑AI Coding生态",
+              "angle": "从体系角度分析这则警告背后的行业风向，探讨AI自主编码对开发者岗位、代码质量和工程治理的长期影响。",
+              "needs_hands_on": false,
+              "risk": "多数据点均来自单一二手报道，需回溯原始访谈和METR报告。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_fbf2b279bd53",
+          "creator_event_id": "creator-841064084a4563f3",
+          "merged_story_ids": [
+            "story_fbf2b279bd53"
+          ],
+          "title": "Fable 5 采用缓慢，表明企业为前沿 AI 付费的意愿已触及天花板。 / Fable 5's slow adoption suggests corporate willingness to pay for frontier AI has hit a ceiling",
+          "url": "https://the-decoder.com/fable-5s-slow-adoption-suggests-corporate-willingness-to-pay-for-frontier-ai-has-hit-a-ceiling",
+          "primary_url": "https://the-decoder.com/fable-5s-slow-adoption-suggests-corporate-willingness-to-pay-for-frontier-ai-has-hit-a-ceiling",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "source_count": 1,
+          "source_names": [
+            "The Decoder AI News"
+          ],
+          "score": 0.6234,
+          "importance": 0.6234,
+          "importance_score": 0.6234,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.5472,
+            "source_tier": 0.58,
+            "ai_relevance": 0.76,
+            "recency": 0.9981,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-08-13T10:46:20Z",
+          "latest_at": "2026-08-13T10:46:20Z",
+          "creator_score": 75.8,
+          "creator_breakdown": {
+            "relevance": 0.68,
+            "freshness": 1.0,
+            "source": 0.78,
+            "impact": 0.63,
+            "novelty": 0.85,
+            "heat": 0.3682
+          },
+          "creator_bucket": "general_ai",
+          "primary_entity": "anthropic",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:anthropic",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "64c84dc02b64878366d2af1e75c16d2283ff91b2",
+            "title": "Fable 5 采用缓慢，表明企业为前沿 AI 付费的意愿已触及天花板。 / Fable 5's slow adoption suggests corporate willingness to pay for frontier AI has hit a ceiling",
+            "title_zh": "Fable 5 采用缓慢，表明企业为前沿 AI 付费的意愿已触及天花板。",
+            "title_en": "Fable 5's slow adoption suggests corporate willingness to pay for frontier AI has hit a ceiling",
+            "title_original": "Fable 5's slow adoption suggests corporate willingness to pay for frontier AI has hit a ceiling",
+            "summary": "Anthropic's Fable 5 is considered the most powerful AI model on the market, but U.S. companies are barely buying it. According to Ramp data, Fable 5 accounts for only six percent of Anthropic tokens sold. The model's steep price tag suggests corporate AI spending may have hit a ceiling, at least as long as performance gains don't translate into measurable everyday value.\nAnthropic's Fable 5 is considered the most powerful AI model on the market, but U.S. companies are barely buying it. According",
+            "recommend_reason_zh": "Ramp数据显示，Anthropic最强模型Fable 5仅占其售出token的6%，收入仅为GPT-5.6 Sol的75%，价格却贵约一倍，揭示企业为前沿AI付费意愿已触顶。",
+            "url": "https://the-decoder.com/fable-5s-slow-adoption-suggests-corporate-willingness-to-pay-for-frontier-ai-has-hit-a-ceiling",
+            "source": "The Decoder AI News",
+            "source_name": "Curated Media"
+          },
+          "sources": [
+            {
+              "story_id": "story_fbf2b279bd53",
+              "title": "Fable 5 采用缓慢，表明企业为前沿 AI 付费的意愿已触及天花板。 / Fable 5's slow adoption suggests corporate willingness to pay for frontier AI has hit a ceiling",
+              "url": "https://the-decoder.com/fable-5s-slow-adoption-suggests-corporate-willingness-to-pay-for-frontier-ai-has-hit-a-ceiling",
+              "source": "The Decoder AI News",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "Anthropic 最强模型 Fable 5 被评市场最先进，但美国企业采用缓慢。Ramp 数据显示其仅占 Anthropic 售出 token 的 6%，收入约为 GPT-5.6",
+          "why_it_matters": "若企业不愿为性能溢价买单，开发者依赖前沿模型构建产品的成本模型将受冲击，可能转向性价比更高的模型或本地化方案。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "Fable 5 卖不动？我实测对比了它和 GPT-5.6 Sol 的日常任务",
+              "angle": "以开发者视角，对比两款模型在代码生成、重构、Agent 任务上的实际表现，探讨溢价是否值得。",
+              "needs_hands_on": true,
+              "risk": "模型名 Fable 5、GPT-5.6 Sol 及 Ramp 数据均来自单一来源，需核实是否真实存在及数据准确性。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "企业 AI 选型避坑：最强模型不一定最划算",
+              "angle": "分享从 Ramp 数据看企业采购趋势，列出选择模型时除性能外的成本、token 消耗、收益转化等评估步骤。",
+              "needs_hands_on": false,
+              "risk": "数据来源仅为 The Decoder 转述 Ramp，未获得原始报告，需进一步验证。"
+            },
+            {
+              "platform": "wechat",
+              "title": "前沿 AI 付费见顶？从 Fable 5 的冷遇看企业 AI 支出逻辑",
+              "angle": "分析企业为前沿 AI 付费的理性边界，探讨模型性能提升与实际业务价值脱节的问题，以及对 AI 产品定价策略的长期影响。",
+              "needs_hands_on": false,
+              "risk": "单篇报道，缺少更多企业采购数据佐证，趋势判断需谨慎。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_e3c325771789",
+          "creator_event_id": "creator-ac745eef910ff66b",
+          "merged_story_ids": [
+            "story_e3c325771789",
+            "story_df4110580ada"
+          ],
+          "title": "适用于 Linux 的 ChatGPT 桌面版（Codex Desktop）",
+          "url": "https://openai.com/codex",
+          "primary_url": "https://openai.com/codex",
+          "source": "openai.com",
+          "source_name": "Buzzing",
+          "source_count": 2,
+          "source_names": [
+            "openai.com",
+            "hackernews"
+          ],
+          "score": 0.5419,
+          "importance": 0.5419,
+          "importance_score": 0.5419,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.468,
+            "source_tier": 0.32,
+            "ai_relevance": 0.65,
+            "recency": 0.9786,
+            "story_heat": 0.25
+          },
+          "category": "watch",
+          "reasons": [
+            "multi_source"
+          ],
+          "earliest_at": "2026-08-13T04:53:41Z",
+          "latest_at": "2026-08-13T09:24:06.692000Z",
+          "creator_score": 73.1,
+          "creator_breakdown": {
+            "relevance": 0.68,
+            "freshness": 1.0,
+            "source": 1.0,
+            "impact": 0.25,
+            "novelty": 0.65,
+            "heat": 0.4897
+          },
+          "creator_bucket": "general_ai",
+          "primary_entity": "openai",
+          "verification_status": "confirmed",
+          "creator_reasons": [
+            "entity:openai",
+            "official_or_tier0_source"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "da1b19b0831b278168634ab5d45c9f860bd4616f",
+            "title": "适用于 Linux 的 ChatGPT 桌面版（Codex Desktop）",
+            "title_zh": "适用于 Linux 的 ChatGPT 桌面版（Codex Desktop）",
+            "title_original": "适用于 Linux 的 ChatGPT 桌面版（Codex Desktop）",
+            "url": "https://openai.com/codex",
+            "source": "openai.com",
+            "source_name": "Buzzing"
+          },
+          "sources": [
+            {
+              "story_id": "story_e3c325771789",
+              "title": "适用于 Linux 的 ChatGPT 桌面版（Codex Desktop）",
+              "url": "https://openai.com/codex",
+              "source": "openai.com",
+              "site_id": "",
+              "official": true
+            },
+            {
+              "story_id": "story_df4110580ada",
+              "title": "适用于 Linux 的 ChatGPT 桌面（Codex 桌面） / ChatGPT Desktop (Codex Desktop) for Linux",
+              "url": "https://news.ycombinator.com/item?id=49281916",
+              "source": "hackernews",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "OpenAI 官方发布了适用于 Linux 的 ChatGPT 桌面版（Codex Desktop），可从官网获取。",
+          "why_it_matters": "为 Linux 开发者提供原生桌面入口，可能整合代码编辑与 ChatGPT，直接影响本地 AI 编码工作流。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "Linux 用户的 ChatGPT 桌面版来了，我立刻试了试",
+              "angle": "作为 Linux 开发者，第一时间下载体验 Codex Desktop，分享安装过程和第一印象。",
+              "needs_hands_on": true,
+              "risk": "需要确认是否真正可用，以及是否包含完整 ChatGPT 功能，未亲测。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "Linux 装上 ChatGPT 桌面版，三步搞定",
+              "angle": "手把手教安装，展示界面和实际使用效果，附避坑指南。",
+              "needs_hands_on": true,
+              "risk": "安装步骤和截图需实测，本内容基于官方页面，具体流程未知。"
+            },
+            {
+              "platform": "wechat",
+              "title": "Codex Desktop 发布：Linux 上 AI 编程的下一步",
+              "angle": "分析 OpenAI 推出 Linux 桌面版的背景，对比 CLI 和 Web 版，探讨对开发者工具的长期影响。",
+              "needs_hands_on": false,
+              "risk": "需官方文档和更多来源核实，避免过度解读。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_a69861d17690",
+          "creator_event_id": "creator-a63f9d4734c5aaad",
+          "merged_story_ids": [
+            "story_a69861d17690"
+          ],
+          "title": "SpaceXAI 的 Grok 4.6 追平 OpenAI 最强模型，价格还更低。 / SpaceXAI's Grok 4.6 matches OpenAI's best model and undercuts it on price",
+          "url": "https://the-decoder.com/spacexais-grok-4-6-matches-openais-best-model-and-undercuts-it-on-price",
+          "primary_url": "https://the-decoder.com/spacexais-grok-4-6-matches-openais-best-model-and-undercuts-it-on-price",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "source_count": 1,
+          "source_names": [
+            "The Decoder AI News"
+          ],
+          "score": 0.6109,
+          "importance": 0.6109,
+          "importance_score": 0.6109,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.5904,
+            "source_tier": 0.58,
+            "ai_relevance": 0.82,
+            "recency": 0.7897,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "high_ai_relevance"
+          ],
+          "earliest_at": "2026-08-12T18:33:21Z",
+          "latest_at": "2026-08-12T18:33:21Z",
+          "creator_score": 72.4,
+          "creator_breakdown": {
+            "relevance": 0.68,
+            "freshness": 0.7317,
+            "source": 0.78,
+            "impact": 0.76,
+            "novelty": 0.85,
+            "heat": 0.3638
+          },
+          "creator_bucket": "general_ai",
+          "primary_entity": "openai",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:openai",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "041f1eaf2c08b8f6e273e8aa53fd92a498725258",
+            "title": "SpaceXAI 的 Grok 4.6 追平 OpenAI 最强模型，价格还更低。 / SpaceXAI's Grok 4.6 matches OpenAI's best model and undercuts it on price",
+            "title_zh": "SpaceXAI 的 Grok 4.6 追平 OpenAI 最强模型，价格还更低。",
+            "title_en": "SpaceXAI's Grok 4.6 matches OpenAI's best model and undercuts it on price",
+            "title_original": "SpaceXAI's Grok 4.6 matches OpenAI's best model and undercuts it on price",
+            "recommend_reason_zh": "xAI最新发布的Grok 4.6在Artificial Analysis Intelligence Index上得到61分，成功追平OpenAI的GPT-5.6 Sol；在agentic任务中，它完成复杂流程仅需约53步，而Claude Opus 5需要103步，价格还便宜超60%。",
+            "url": "https://the-decoder.com/spacexais-grok-4-6-matches-openais-best-model-and-undercuts-it-on-price",
+            "source": "The Decoder AI News",
+            "source_name": "Curated Media"
+          },
+          "sources": [
+            {
+              "story_id": "story_a69861d17690",
+              "title": "SpaceXAI 的 Grok 4.6 追平 OpenAI 最强模型，价格还更低。 / SpaceXAI's Grok 4.6 matches OpenAI's best model and undercuts it on price",
+              "url": "https://the-decoder.com/spacexais-grok-4-6-matches-openais-best-model-and-undercuts-it-on-price",
+              "source": "The Decoder AI News",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "xAI 发布 Grok 4.6，在 Artificial Analysis Intelligence Index 得 61 分，追平 OpenAI GPT-5.6 Sol，仅次于",
+          "why_it_matters": "对开发者而言，Grok 4.6 以更低成本提供与顶级模型相当的推理和 agentic 能力，可能改变模型选型与成本结构。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "Grok 4.6 真的比 Claude Opus 5 便宜 60% 吗？我实测了 agentic 任务",
+              "angle": "从个人实测出发，对比 Grok 4.6 与 Claude Opus 5 在复杂工作流中的步骤数和成本，验证官方说法。",
+              "needs_hands_on": true,
+              "risk": "步骤数和价格数据来自单一来源，未经独立测试验证。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "Grok 4.6 实测：53 步完成复杂任务，价格省 60%，但要注意这些坑",
+              "angle": "记录使用 Grok 4.6 搭建 agentic 工作流的步骤、结果和避坑点，特别标注 API 调用限制和实际成本。",
+              "needs_hands_on": true,
+              "risk": "未经过大规模真实场景测试，价格对比可能因使用模式而异。"
+            },
+            {
+              "platform": "wechat",
+              "title": "Grok 4.6 追平 GPT-5.6，AI 模型竞争进入性价比时代",
+              "angle": "从模型榜单变化切入，分析 Grok 4.6 对开发者工具链和 AI Coding 生态的长期影响，强调单一来源的不确定性。",
+              "needs_hands_on": false,
+              "risk": ""
+            }
+          ],
+          "enrichment_mode": "cache"
+        },
+        {
+          "story_id": "story_9fd2d6d4a7de",
+          "creator_event_id": "creator-3c6d72ad5e475906",
+          "merged_story_ids": [
+            "story_9fd2d6d4a7de"
+          ],
+          "title": "Grok 4.6 发布即登顶性价比榜：智能指数追平 GPT-5.6 Sol，定价却便宜 60% 以上",
+          "url": "https://www.aibase.com/news/30323",
+          "primary_url": "https://www.aibase.com/news/30323",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "source_count": 1,
+          "source_names": [
+            "AIbase"
+          ],
+          "score": 0.7676,
+          "importance": 0.7676,
+          "importance_score": 0.7676,
+          "importance_label": "行业动态",
+          "importance_breakdown": {
+            "editorial": 0.72,
+            "source_tier": 0.78,
+            "ai_relevance": 1.0,
+            "recency": 1.0,
+            "story_heat": 0.0
+          },
+          "category": "industry",
+          "reasons": [
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-08-13T10:54:08.243559Z",
+          "latest_at": "2026-08-13T10:54:08.243559Z",
+          "persona_id": "pragmatic",
+          "persona_score": 90,
+          "persona_review": "性价比真香，跑量的可以直接换。",
+          "creator_score": 70.4,
+          "creator_breakdown": {
+            "relevance": 0.68,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.63,
+            "novelty": 0.85,
+            "heat": 0.4187
+          },
+          "creator_bucket": "general_ai",
+          "primary_entity": "anthropic",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:anthropic",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "5c0b0700ee96f06bf9ffc1bf4fd8553d4c589199",
+            "title": "Grok 4.6 发布即登顶性价比榜：智能指数追平 GPT-5.6 Sol，定价却便宜 60% 以上",
+            "title_zh": "Grok 4.6 发布即登顶性价比榜：智能指数追平 GPT-5.6 Sol，定价却便宜 60% 以上",
+            "title_original": "Grok 4.6 发布即登顶性价比榜：智能指数追平 GPT-5.6 Sol，定价却便宜 60% 以上",
+            "summary": "xAI officially released Grok 4.6, which scored 61 on the AI Intelligence Index, tying with GPT-5.6 Sol (Max), and ranking just behind Claude Opus 5 (63 points)\nxAI officially released Grok 4.6, which scored 61 on the AI Intelligence Index, tying with GPT-5.6 Sol (Max), and ranking just behind Claude Opus 5 (63 points)\nxAI officially released Grok 4.6, which scored 61 on the AI Intelligence Index, tying with GPT-5.6 Sol (Max), and ranking just behind Claude Opus 5 (63 points)\nExplore AI Frontiers",
+            "recommend_reason_zh": "Grok 4.6智能指数61追平GPT-5.6 Sol (Max)，仅次于Claude Opus 5，定价却便宜超60%；基于Grok 4.5训练数据循环强化推理与Agent能力。",
+            "url": "https://www.aibase.com/news/30323",
+            "source": "AIbase",
+            "source_name": "AIbase"
+          },
+          "sources": [
+            {
+              "story_id": "story_9fd2d6d4a7de",
+              "title": "Grok 4.6 发布即登顶性价比榜：智能指数追平 GPT-5.6 Sol，定价却便宜 60% 以上",
+              "url": "https://www.aibase.com/news/30323",
+              "source": "AIbase",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "xAI 正式发布 Grok 4.6，在 AI 智能指数中得 61 分，追平 GPT-5.6 Sol (Max)，仅次于 Claude Opus 5（63 分），定价据称便宜 60%",
+          "why_it_matters": "Grok 4.6 以更低价格提供接近顶级模型的智能水平，或改变开发者选择模型时的性价比权衡，影响 Agent 构建与推理成本。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "实测 Grok 4.6：便宜 60% 的智能追平 GPT-5.6 Sol？",
+              "angle": "第一时间跑分评测，对比智能指数与实际编码任务表现，验证性价比。",
+              "needs_hands_on": true,
+              "risk": "智能指数数据来自单一来源，尚未亲测；实际编码能力与定价需官方确认。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "Grok 4.6 上手指南：如何用一半价格跑同样的 Agent 任务",
+              "angle": "分享接入步骤、API 成本对比，以及从其他模型迁移的注意事项。",
+              "needs_hands_on": true,
+              "risk": "未验证官方定价细节与上下文长度等参数，需以 xAI 文档为准。"
+            },
+            {
+              "platform": "wechat",
+              "title": "Grok 4.6 背后的性价比逻辑：模型定价战对 AI Coding 意味着什么",
+              "angle": "分析模型智能指数与价格趋势，讨论对开发工具链和模型选型的长期影响。",
+              "needs_hands_on": false,
+              "risk": "智能指数口径不明确，且为单一信源，需交叉验证。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_096686012a3e",
+          "creator_event_id": "creator-5786e52bd175fc93",
+          "merged_story_ids": [
+            "story_096686012a3e"
+          ],
+          "title": "美国 AI 安全审查或将扩至开源模型：前沿定义对标 GPT-5.6，自愿框架面临收紧压力",
+          "url": "https://www.aibase.com/news/30308",
+          "primary_url": "https://www.aibase.com/news/30308",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "source_count": 1,
+          "source_names": [
+            "AIbase"
+          ],
+          "score": 0.7676,
+          "importance": 0.7676,
+          "importance_score": 0.7676,
+          "importance_label": "行业动态",
+          "importance_breakdown": {
+            "editorial": 0.72,
+            "source_tier": 0.78,
+            "ai_relevance": 1.0,
+            "recency": 1.0,
+            "story_heat": 0.0
+          },
+          "category": "industry",
+          "reasons": [
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-08-13T10:54:08.243559Z",
+          "latest_at": "2026-08-13T10:54:08.243559Z",
+          "creator_score": 70.4,
+          "creator_breakdown": {
+            "relevance": 0.68,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.63,
+            "novelty": 0.85,
+            "heat": 0.4187
+          },
+          "creator_bucket": "general_ai",
+          "primary_entity": "deepseek",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:deepseek",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "dc037017ea62b61b70619328af9433773c1bab3b",
+            "title": "美国 AI 安全审查或将扩至开源模型：前沿定义对标 GPT-5.6，自愿框架面临收紧压力",
+            "title_zh": "美国 AI 安全审查或将扩至开源模型：前沿定义对标 GPT-5.6，自愿框架面临收紧压力",
+            "title_original": "美国 AI 安全审查或将扩至开源模型：前沿定义对标 GPT-5.6，自愿框架面临收紧压力",
+            "summary": "According to a report by Wired magazine citing sources, the current U.S. cybersecurity review mechanism for cutting-edge artificial intelligence models is \"almo\nAccording to a report by Wired magazine citing sources, the current U.S. cybersecurity review mechanism for cutting-edge artificial intelligence models is \"almo\nAccording to a report by Wired magazine citing sources, the current U.S. cybersecurity review mechanism for cutting-edge artificial intelligence models is \"almo\nExplore AI Fronti",
+            "recommend_reason_zh": "美媒Wired援引消息称，美国前沿AI安全审查数月内或扩至开源模型，以对标OpenAI GPT-5.6的能力为界，DeepSeek、Meta等开源厂商可能面临审查，但当前框架仍属自愿。",
+            "url": "https://www.aibase.com/news/30308",
+            "source": "AIbase",
+            "source_name": "AIbase"
+          },
+          "sources": [
+            {
+              "story_id": "story_096686012a3e",
+              "title": "美国 AI 安全审查或将扩至开源模型：前沿定义对标 GPT-5.6，自愿框架面临收紧压力",
+              "url": "https://www.aibase.com/news/30308",
+              "source": "AIbase",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "据Wired援引消息人士，美国前沿AI安全审查机制或将于数月内扩展至开源模型，以OpenAI GPT-5.6能力为对标基准，DeepSeek、Meta等开源厂商可能被纳入，但目前审",
+          "why_it_matters": "开源模型若纳入美国安全审查，将直接影响DeepSeek等中国开源模型的海外分发与合规成本，开发者需关注模型出口与部署的政策风险。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "GPT-5.6成了审查标尺？开源模型出海要变天",
+              "angle": "以开发者视角，对比开源模型能力与GPT-5.6的差距，讨论审查若落地对使用DeepSeek等模型构建应用的影响。",
+              "needs_hands_on": false,
+              "risk": "消息来源单一，审查标准和执行时间未确认，需核实Wired报道原文。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "美国要审查开源AI？开发者该提前做好哪些准备",
+              "angle": "从实际开发部署角度，分享开源模型合规检查清单：许可证、数据合规、模型托管地域，给出手把手避坑建议。",
+              "needs_hands_on": false,
+              "risk": "目前政策未定，建议需基于现有规则推断，避免过度断言。"
+            },
+            {
+              "platform": "wechat",
+              "title": "开源AI审查时代将至：从自愿到强制的全球监管脉络",
+              "angle": "梳理美国AI安全框架从自愿到可能的强制演进，分析对开源生态、企业选型和全球AI竞争格局的长期影响。",
+              "needs_hands_on": false,
+              "risk": "需进一步交叉验证其他信源，确认中国开源模型是否被明确列为对象。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_9898acdd9eed",
+          "creator_event_id": "creator-e9a79240cb006deb",
+          "merged_story_ids": [
+            "story_9898acdd9eed"
+          ],
+          "title": "一些 Claude 用户很恼火，因为 Anthropic 的新水印会让他们在工作和课堂上作弊被抓包。 / Some Claude users are mad that Anthropic’s new watermarks will catch them cheating at their jobs, classes",
+          "url": "https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes",
+          "primary_url": "https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes",
+          "source": "TechCrunch AI",
+          "source_name": "Curated Media",
+          "source_count": 1,
+          "source_names": [
+            "TechCrunch AI"
+          ],
+          "score": 0.6441,
+          "importance": 0.6441,
+          "importance_score": 0.6441,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.5904,
+            "source_tier": 0.58,
+            "ai_relevance": 0.82,
+            "recency": 0.8353,
+            "story_heat": 0.25
+          },
+          "category": "watch",
+          "reasons": [
+            "multi_source",
+            "high_ai_relevance"
+          ],
+          "earliest_at": "2026-08-12T22:26:37Z",
+          "latest_at": "2026-08-13T10:23:51Z",
+          "persona_id": "pragmatic",
+          "persona_score": 50,
+          "persona_review": "水印只影响拿 AI 冒充原创的人，正常用不耽误。",
+          "creator_score": 68.9,
+          "creator_breakdown": {
+            "relevance": 0.68,
+            "freshness": 1.0,
+            "source": 0.78,
+            "impact": 0.25,
+            "novelty": 0.65,
+            "heat": 0.5254
+          },
+          "creator_bucket": "general_ai",
+          "primary_entity": "anthropic",
+          "verification_status": "confirmed",
+          "creator_reasons": [
+            "entity:anthropic"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "b7eb1383206875cd57f20e2a13046b68dfd1697a",
+            "title": "一些 Claude 用户很恼火，因为 Anthropic 的新水印会让他们在工作和课堂上作弊被抓包。 / Some Claude users are mad that Anthropic’s new watermarks will catch them cheating at their jobs, classes",
+            "title_zh": "一些 Claude 用户很恼火，因为 Anthropic 的新水印会让他们在工作和课堂上作弊被抓包。",
+            "title_en": "Some Claude users are mad that Anthropic’s new watermarks will catch them cheating at their jobs, classes",
+            "title_original": "Some Claude users are mad that Anthropic’s new watermarks will catch them cheating at their jobs, classes",
+            "recommend_reason_zh": "Anthropic为Claude推出新水印系统，部分用户为此愤怒，因为担心这些水印会暴露他们在工作或课堂上用AI作弊的行为，社交媒体上已经出现抱怨声。",
+            "url": "https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes",
+            "source": "TechCrunch AI",
+            "source_name": "Curated Media"
+          },
+          "sources": [
+            {
+              "story_id": "story_9898acdd9eed",
+              "title": "一些 Claude 用户很恼火，因为 Anthropic 的新水印会让他们在工作和课堂上作弊被抓包。 / Some Claude users are mad that Anthropic’s new watermarks will catch them cheating at their jobs, classes",
+              "url": "https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes",
+              "source": "TechCrunch AI",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "Anthropic 为 Claude 推出新水印系统，用于标记 AI 生成内容。部分用户担心这会让工作或课堂上的 AI 使用被识别为作弊，在社交媒体上表达不满。",
+          "why_it_matters": "对开发者而言，AI 生成代码可能被水印标记，影响代码合规性、审查或原创性判定，需关注使用边界。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "Claude 水印曝光？实测我的代码被标记了几处",
+              "angle": "第一人称实测水印在真实代码输出中的可见性，对比不同任务，展示是否影响正常开发。",
+              "needs_hands_on": true,
+              "risk": "未亲测，水印系统的具体实现和可见性未知。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "Claude 水印避坑指南：如何自查 AI 痕迹",
+              "angle": "以步骤形式教用户如何检测自己的 Claude 输出是否带水印，分享工具和判断标准，并提醒使用红线。",
+              "needs_hands_on": true,
+              "risk": "需验证水印检测工具的有效性和官方文档。"
+            },
+            {
+              "platform": "wechat",
+              "title": "从水印到合规：AI 生成内容标记的行业影响",
+              "angle": "解析 Anthropic 水印策略的背景、技术原理争议，以及对开发者工作流和行业伦理的长期影响。",
+              "needs_hands_on": false,
+              "risk": ""
+            }
+          ],
+          "enrichment_mode": "llm"
+        }
+      ],
+      "llm_meta": {
+        "provider": "deepseek",
+        "model": "deepseek-v4-flash",
+        "calls_used": 15,
+        "cache_hits": 1,
+        "fallback_count": 0
+      },
+      "dedup_meta": {
+        "secondary_dedup_merge_count": 4,
+        "secondary_dedup_source_count": 186
+      }
+    },
     {
       "edition_id": "2026-08-13-morning",
       "edition_kind": "morning",
