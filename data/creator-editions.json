@@ -1,8 +1,1722 @@
 {
   "version": 1,
-  "generated_at": "2026-08-14T11:11:45.558443Z",
-  "total_editions": 46,
+  "generated_at": "2026-08-14T22:42:53.343389Z",
+  "total_editions": 47,
   "editions": [
+    {
+      "edition_id": "2026-08-15-morning",
+      "edition_kind": "morning",
+      "generated_at": "2026-08-14T22:42:53.343389Z",
+      "timezone": "Asia/Shanghai",
+      "total_items": 17,
+      "summary": {
+        "confirmed": 6,
+        "single_source": 10,
+        "early_signal": 0,
+        "rumor": 1,
+        "new": 17,
+        "updated": 0,
+        "confirmed_updates": 0
+      },
+      "items": [
+        {
+          "story_id": "story_3ded9ed73b65",
+          "creator_event_id": "creator-d7a5dd88ca4d1363",
+          "merged_story_ids": [
+            "story_3ded9ed73b65"
+          ],
+          "title": "Grok 4.6 现已集成到 GitHub Copilot 中 / Grok 4.6 is now available in GitHub Copilot",
+          "url": "https://github.blog/changelog/2026-08-14-grok-4-6-is-now-available-in-github-copilot",
+          "primary_url": "https://github.blog/changelog/2026-08-14-grok-4-6-is-now-available-in-github-copilot",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "source_count": 1,
+          "source_names": [
+            "GitHub Changelog"
+          ],
+          "score": 0.845,
+          "importance": 0.845,
+          "importance_score": 0.845,
+          "importance_label": "官方更新",
+          "importance_breakdown": {
+            "editorial": 0.9,
+            "source_tier": 1.0,
+            "ai_relevance": 0.95,
+            "recency": 0.9169,
+            "story_heat": 0.0
+          },
+          "category": "official",
+          "reasons": [
+            "official_source",
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-08-14T16:17:46Z",
+          "latest_at": "2026-08-14T16:17:46Z",
+          "persona_id": "pragmatic",
+          "persona_score": 90,
+          "persona_review": "Grok 4.6 进 Copilot 了，写代码时多个选择，今天就能切过去试。",
+          "creator_score": 91.2,
+          "creator_breakdown": {
+            "relevance": 0.95,
+            "freshness": 0.9895,
+            "source": 1.0,
+            "impact": 0.81,
+            "novelty": 0.85,
+            "heat": 0.4457
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "github-copilot",
+          "verification_status": "confirmed",
+          "creator_reasons": [
+            "entity:github-copilot",
+            "ai_coding_terms",
+            "workflow_impact",
+            "official_or_tier0_source"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "62eb79284c5d7409c01110d7b88aa07e2089e1e8",
+            "title": "Grok 4.6 现已集成到 GitHub Copilot 中 / Grok 4.6 is now available in GitHub Copilot",
+            "title_zh": "Grok 4.6 现已集成到 GitHub Copilot 中",
+            "title_en": "Grok 4.6 is now available in GitHub Copilot",
+            "title_original": "Grok 4.6 is now available in GitHub Copilot",
+            "summary": "Grok 4.6, xAI’s latest reasoning model, is now rolling out in GitHub Copilot. It is designed for agentic coding and complex multi-step workflows. In our internal testing, Grok 4.6 showed…\nGrok 4.6, xAI’s latest reasoning model, is now rolling out in GitHub Copilot. It is designed for agentic coding and complex multi-step workflows.\nIn our internal testing, Grok 4.6 showed strong results across terminal-based coding tasks in Visual Studio Code and Copilot CLI. It performed especially well on long",
+            "recommend_reason_zh": "Grok 4.6已登陆GitHub Copilot，这是xAI最新推理模型，主打agentic coding与复杂多步工作流，在Visual Studio Code和Copilot CLI终端任务中表现突出，采用基于用量的计费，覆盖Pro至Enterprise各SKU。",
+            "url": "https://github.blog/changelog/2026-08-14-grok-4-6-is-now-available-in-github-copilot",
+            "source": "GitHub Changelog",
+            "source_name": "Official AI Updates"
+          },
+          "sources": [
+            {
+              "story_id": "story_3ded9ed73b65",
+              "title": "Grok 4.6 现已集成到 GitHub Copilot 中 / Grok 4.6 is now available in GitHub Copilot",
+              "url": "https://github.blog/changelog/2026-08-14-grok-4-6-is-now-available-in-github-copilot",
+              "source": "GitHub Changelog",
+              "site_id": "",
+              "official": true
+            }
+          ],
+          "summary_zh": "xAI最新推理模型Grok 4.6已正式集成到GitHub Copilot，面向代理式编码和复杂多步工作流。官方测试显示其在VS Code和Copilot CLI的终端编码任务中表",
+          "why_it_matters": "开发者可在Copilot中直接使用Grok 4.6，多模型选择增加，可用于复杂代理任务。基于用量的计费可能影响成本，需关注与现有模型的性能对",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "实测Grok 4.6跑Copilot CLI：长任务真的稳吗？",
+              "angle": "第一人称实测体验，对比之前用的模型，分享在长链路编码任务中的真实表现与意外问题。",
+              "needs_hands_on": true,
+              "risk": "未亲测，官方内部测试结果仅供参考，需验证长任务稳定性和具体性能数据。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "GitHub Copilot接入Grok 4.6的配置教程与避坑指南",
+              "angle": "一步步教你如何开启并选择Grok 4.6，解释按量计费的具体规则，避免账单意外支出。",
+              "needs_hands_on": true,
+              "risk": "需核实具体配置步骤和价格详情，官方博客可能未覆盖全部SKU细节。"
+            },
+            {
+              "platform": "wechat",
+              "title": "Grok 4.6进Copilot：多模型Agent时代的胜负手？",
+              "angle": "从xAI与GitHub合作背景切入，分析多模型Copilot对开发者工具链的长期影响，以及未来模型生态的竞争格局。",
+              "needs_hands_on": false,
+              "risk": "需核查各SKU的具体定价和用量计算方式，以及官方未披露的基准测试细节。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_318d6c1902f4",
+          "creator_event_id": "creator-efbb85c2064b59ac",
+          "merged_story_ids": [
+            "story_318d6c1902f4"
+          ],
+          "title": "Anthropic 推出水印检测 API，第三方可识别 Claude 生成的文本 / Anthropic announces watermark detection API that will let third parties detect Claude's AI texts",
+          "url": "https://the-decoder.com/anthropic-announces-watermark-detection-api-that-will-let-third-parties-detect-claudes-ai-texts",
+          "primary_url": "https://the-decoder.com/anthropic-announces-watermark-detection-api-that-will-let-third-parties-detect-claudes-ai-texts",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "source_count": 1,
+          "source_names": [
+            "The Decoder AI News"
+          ],
+          "score": 0.6466,
+          "importance": 0.6466,
+          "importance_score": 0.6466,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.5904,
+            "source_tier": 0.58,
+            "ai_relevance": 0.82,
+            "recency": 0.9883,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "high_ai_relevance"
+          ],
+          "earliest_at": "2026-08-14T21:29:17Z",
+          "latest_at": "2026-08-14T21:29:17Z",
+          "creator_score": 86.5,
+          "creator_breakdown": {
+            "relevance": 0.88,
+            "freshness": 1.0,
+            "source": 0.78,
+            "impact": 0.94,
+            "novelty": 0.85,
+            "heat": 0.3763
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "anthropic",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:anthropic",
+            "ai_coding_terms",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "3490e85e4e9aea019271e10626d926881a96206c",
+            "title": "Anthropic 推出水印检测 API，第三方可识别 Claude 生成的文本 / Anthropic announces watermark detection API that will let third parties detect Claude's AI texts",
+            "title_zh": "Anthropic 推出水印检测 API，第三方可识别 Claude 生成的文本",
+            "title_en": "Anthropic announces watermark detection API that will let third parties detect Claude's AI texts",
+            "title_original": "Anthropic announces watermark detection API that will let third parties detect Claude's AI texts",
+            "summary": "Anthropic will soon offer a watermark detection API that lets third parties check whether text was written by Claude. The technology builds on Google's SynthID method and tweaks the randomness during word selection without affecting text quality, Anthropic says. The approach has limits with fact-heavy text, code, and heavy rewriting.\nAnthropic will soon offer a watermark detection API that lets third parties check whether text was written by Claude. The technology builds on Google's SynthID meth",
+            "recommend_reason_zh": "Anthropic将推出基于Google SynthID的水印检测API，第三方可检测文本是否由Claude生成；通过调整词选择随机性且不影响质量，2025年8月2日后发布的模型原生支持，但事实密集文本、代码和重写会削弱效果。",
+            "url": "https://the-decoder.com/anthropic-announces-watermark-detection-api-that-will-let-third-parties-detect-claudes-ai-texts",
+            "source": "The Decoder AI News",
+            "source_name": "Curated Media"
+          },
+          "sources": [
+            {
+              "story_id": "story_318d6c1902f4",
+              "title": "Anthropic 推出水印检测 API，第三方可识别 Claude 生成的文本 / Anthropic announces watermark detection API that will let third parties detect Claude's AI texts",
+              "url": "https://the-decoder.com/anthropic-announces-watermark-detection-api-that-will-let-third-parties-detect-claudes-ai-texts",
+              "source": "The Decoder AI News",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "Anthropic将推水印检测API，基于Google SynthID，第三方可检测Claude文本。方法调整词选择随机性，据称不影响质量，但事实密集文本、代码和改写检测效果有限。",
+          "why_it_matters": "对AI Coding开发者，该API可用于验证文本是否由Claude生成，影响内容审核与溯源工具链；但代码场景检测效果有限，且为单一来源，需",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "Anthropic推水印检测API，我实测一下它对代码的识别率",
+              "angle": "我刚看到Anthropic宣布水印检测API，最关心它对代码的检测能力。官方说代码场景有限，我打算等API开放后拿实际项目测一下，看看边界在哪。",
+              "needs_hands_on": true,
+              "risk": "API尚未发布，无法实测；信息来自单一媒体，需官方确认。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "Anthropic水印检测API使用避坑：代码和重写文本可能测不准",
+              "angle": "我研究了Anthropic官方公告，整理出水印检测API的适用场景和限制。代码、事实密集文本和大幅改写可能识别不准，大家用之前先了解这些坑。",
+              "needs_hands_on": false,
+              "risk": "未实际使用API，接口细节未公开，信息来源单一。"
+            },
+            {
+              "platform": "wechat",
+              "title": "Anthropic水印API背后：AI文本溯源的技术博弈与生态影响",
+              "angle": "我梳理了Anthropic水印检测API的技术背景和行业意义，结合Google SynthID，分析AI内容溯源对开发者生态的长期影响。",
+              "needs_hands_on": false,
+              "risk": "需核实SynthID授权与官方公告，当前仅一篇媒体报道。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_3ac0651d574b",
+          "creator_event_id": "creator-387455cb3556a488",
+          "merged_story_ids": [
+            "story_3ac0651d574b"
+          ],
+          "title": "GitHub Copilot 每周更新：8月10日 / GitHub Copilot weekly releases — August 10",
+          "url": "https://github.blog/changelog/2026-08-13-github-copilot-weekly-releases-august-10",
+          "primary_url": "https://github.blog/changelog/2026-08-13-github-copilot-weekly-releases-august-10",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "source_count": 1,
+          "source_names": [
+            "GitHub Changelog"
+          ],
+          "score": 0.8087,
+          "importance": 0.8087,
+          "importance_score": 0.8087,
+          "importance_label": "官方更新",
+          "importance_breakdown": {
+            "editorial": 0.9,
+            "source_tier": 1.0,
+            "ai_relevance": 0.91,
+            "recency": 0.7597,
+            "story_heat": 0.0
+          },
+          "category": "official",
+          "reasons": [
+            "official_source",
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-08-14T03:15:56Z",
+          "latest_at": "2026-08-14T03:15:56Z",
+          "persona_id": "pragmatic",
+          "persona_score": 65,
+          "persona_review": "例行更新，先扫一眼 changelog 再决定要不要升级。",
+          "creator_score": 86.5,
+          "creator_breakdown": {
+            "relevance": 0.95,
+            "freshness": 0.6638,
+            "source": 1.0,
+            "impact": 0.94,
+            "novelty": 0.85,
+            "heat": 0.433
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "github-copilot",
+          "verification_status": "confirmed",
+          "creator_reasons": [
+            "entity:github-copilot",
+            "ai_coding_terms",
+            "workflow_impact",
+            "official_or_tier0_source"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "6ed40aa477dd9941b36d3604cac82a96f82f5a16",
+            "title": "GitHub Copilot 每周更新：8月10日 / GitHub Copilot weekly releases — August 10",
+            "title_zh": "GitHub Copilot 每周更新：8月10日",
+            "title_en": "GitHub Copilot weekly releases — August 10",
+            "title_original": "GitHub Copilot weekly releases — August 10",
+            "summary": "From new models and portable plugins to smoother agent workflows, this week’s updates make GitHub Copilot more flexible across editors, the command line, and the Copilot app.\nFrom new models and portable plugins to smoother agent workflows, this week’s updates make GitHub Copilot more flexible across editors, the command line, and the Copilot app.\nFrom new models and portable plugins to smoother agent workflows, this week’s updates make GitHub Copilot more flexible across editors, the command li",
+            "recommend_reason_zh": "GitHub Copilot周报详述新模型、可移植插件及更流畅的agent工作流，增强其在编辑器、命令行与Copilot app中的灵活性，并附Copilot CLI安装指南与JetBrains更新详情。",
+            "url": "https://github.blog/changelog/2026-08-13-github-copilot-weekly-releases-august-10",
+            "source": "GitHub Changelog",
+            "source_name": "Official AI Updates"
+          },
+          "sources": [
+            {
+              "story_id": "story_3ac0651d574b",
+              "title": "GitHub Copilot 每周更新：8月10日 / GitHub Copilot weekly releases — August 10",
+              "url": "https://github.blog/changelog/2026-08-13-github-copilot-weekly-releases-august-10",
+              "source": "GitHub Changelog",
+              "site_id": "",
+              "official": true
+            }
+          ],
+          "summary_zh": "GitHub Copilot 8月10日当周更新发布，新增模型与可移植插件，优化agent工作流，提升在编辑器、命令行及Copilot应用中的灵活性，并附CLI安装指南和JetBr",
+          "why_it_matters": "Copilot跨工具链的灵活性提升，新模型和可移植插件可能影响开发者选择编辑器与CLI工具，agent工作流优化可减少上下文切换成本。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "GitHub Copilot周报：新模型+可移植插件，我实测了CLI安装",
+              "angle": "从官方周报出发，结合个人实测CLI安装步骤和体验，突出新功能的实用性和坑点。",
+              "needs_hands_on": true,
+              "risk": "未实际安装体验，无法确认CLI在非JetBrains环境的具体表现。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "GitHub Copilot本周更新别错过：可移植插件+CLI安装避坑指南",
+              "angle": "以小红书用户熟悉的方式，拆解更新要点，给出可移植插件的配置步骤和避开常见问题。",
+              "needs_hands_on": true,
+              "risk": "插件具体配置方式未在官方原文详细描述，需以实际文档为准。"
+            },
+            {
+              "platform": "wechat",
+              "title": "从GitHub Copilot周报看AI编程助手趋势：多编辑器与CLI融合",
+              "angle": "分析本次更新背后的产品方向，讨论AI编程从编辑器内嵌走向跨平台CLI的长期影响。",
+              "needs_hands_on": false,
+              "risk": ""
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_5ef3390d9711",
+          "creator_event_id": "creator-aa929cdc64350775",
+          "merged_story_ids": [
+            "story_5ef3390d9711"
+          ],
+          "title": "Alibaba的Qwen团队发布Qwen 3.8模型，采用Apache 2.0许可证开放权重 / Alibaba's Qwen team releases Qwen 3.8 models with open weights under the Apache 2.0 license",
+          "url": "https://the-decoder.com/alibabas-qwen-team-releases-qwen-3-8-models-with-open-weights-under-the-apache-2-0-license",
+          "primary_url": "https://the-decoder.com/alibabas-qwen-team-releases-qwen-3-8-models-with-open-weights-under-the-apache-2-0-license",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "source_count": 1,
+          "source_names": [
+            "The Decoder AI News"
+          ],
+          "score": 0.6106,
+          "importance": 0.6106,
+          "importance_score": 0.6106,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.5472,
+            "source_tier": 0.58,
+            "ai_relevance": 0.76,
+            "recency": 0.9267,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-08-14T17:01:54Z",
+          "latest_at": "2026-08-14T17:01:54Z",
+          "creator_score": 86.3,
+          "creator_breakdown": {
+            "relevance": 0.88,
+            "freshness": 1.0,
+            "source": 0.78,
+            "impact": 1.0,
+            "novelty": 0.75,
+            "heat": 0.3637
+          },
+          "creator_bucket": "ai_coding",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "ai_coding_terms",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "e76467ab981801ace7e52993e86563c838bdb5b9",
+            "title": "Alibaba的Qwen团队发布Qwen 3.8模型，采用Apache 2.0许可证开放权重 / Alibaba's Qwen team releases Qwen 3.8 models with open weights under the Apache 2.0 license",
+            "title_zh": "Alibaba的Qwen团队发布Qwen 3.8模型，采用Apache 2.0许可证开放权重",
+            "title_en": "Alibaba's Qwen team releases Qwen 3.8 models with open weights under the Apache 2.0 license",
+            "title_original": "Alibaba's Qwen team releases Qwen 3.8 models with open weights under the Apache 2.0 license",
+            "summary": "Alibaba's AI team Qwen has released new open model weights under the Apache 2.0 license with Qwen 3.8. The dense 27-billion-parameter model is designed to outperform the larger Qwen 3.7 Plus in coding and office tasks and natively processes up to 262,000 tokens of context. With this release, Qwen is targeting developers building local and agent-based applications.\nAlibaba's AI team Qwen has released new open model weights under the Apache 2.0 license with Qwen 3.8. The dense 27-billion-parameter",
+            "recommend_reason_zh": "阿里巴巴Qwen团队开源Qwen 3.8，270亿参数模型在编程与办公任务上超越更大的Qwen 3.7 Plus，原生支持26.2万token上下文并处理图像视频，权重采用Apache 2.0协议，面向本地与agent应用开发者。",
+            "url": "https://the-decoder.com/alibabas-qwen-team-releases-qwen-3-8-models-with-open-weights-under-the-apache-2-0-license",
+            "source": "The Decoder AI News",
+            "source_name": "Curated Media"
+          },
+          "sources": [
+            {
+              "story_id": "story_5ef3390d9711",
+              "title": "Alibaba的Qwen团队发布Qwen 3.8模型，采用Apache 2.0许可证开放权重 / Alibaba's Qwen team releases Qwen 3.8 models with open weights under the Apache 2.0 license",
+              "url": "https://the-decoder.com/alibabas-qwen-team-releases-qwen-3-8-models-with-open-weights-under-the-apache-2-0-license",
+              "source": "The Decoder AI News",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "Alibaba Qwen团队发布Qwen 3.8，采用Apache 2.0开放权重，270亿参数密集模型，宣称在编码和办公任务上超越Qwen 3.7 Plus，原生支持26.2万t",
+          "why_it_matters": "开源27B模型可能成为本地代码助手和Agent的新底座，26.2万token上下文对长代码理解有利，Apache 2.0降低商用门槛，但性能",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "Qwen 3.8来了：27B小模型逆袭？本地Agent有新选择",
+              "angle": "刚刷到Qwen 3.8发布的消息，270亿参数宣称击败更大的3.7 Plus，而且Apache 2.0完全开源。这会不会是本地代码助手的新王者？我准备立刻去测一测，但提醒大家目前只有单一来源报道，先别急着下结论。",
+              "needs_hands_on": true,
+              "risk": "模型未下载实测，性能宣称未经独立验证；单一来源报道。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "Qwen 3.8本地部署避坑指南：27B模型 + 262K上下文体验",
+              "angle": "作为AI coding爱好者，我第一时间尝试用Qwen 3.8跑本地代码生成，整理了几个关键步骤和容易踩的坑。注意：目前只有The Decoder一家报道，实际效果如何还需要自己验证，千万不要盲从宣传。",
+              "needs_hands_on": true,
+              "risk": "尚未实测，部署步骤和性能结果未知；上下文长度是否真能到262K需验证。"
+            },
+            {
+              "platform": "wechat",
+              "title": "Qwen 3.8发布：27B开源模型的效率之选？",
+              "angle": "阿里Qwen团队刚刚放出Qwen 3.8，用Apache 2.0开源。270亿参数宣称超越更大的3.7 Plus，这在模型效率上释放了什么信号？对于开发者，这或许意味着本地Agent和工具链将拥有成本更低、可定制性更高的底座。不过单一来源报",
+              "needs_hands_on": false,
+              "risk": "需核实Qwen 3.7 Plus的性能对比是否属实；模型实际能力待第三方测试。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_2b5cbb5b3599",
+          "creator_event_id": "creator-68b62db084568426",
+          "merged_story_ids": [
+            "story_2b5cbb5b3599"
+          ],
+          "title": "研究反驳Anthropic和OpenAI关于自主AI研究指日可待的说法 / Study contradicts Anthropic and OpenAI claims that autonomous AI research is within reach",
+          "url": "https://the-decoder.com/study-contradicts-anthropic-and-openai-claims-that-autonomous-ai-research-is-within-reach",
+          "primary_url": "https://the-decoder.com/study-contradicts-anthropic-and-openai-claims-that-autonomous-ai-research-is-within-reach",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "source_count": 1,
+          "source_names": [
+            "The Decoder AI News"
+          ],
+          "score": 0.6416,
+          "importance": 0.6416,
+          "importance_score": 0.6416,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.6048,
+            "source_tier": 0.58,
+            "ai_relevance": 0.84,
+            "recency": 0.9145,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "high_ai_relevance"
+          ],
+          "earliest_at": "2026-08-14T16:06:32Z",
+          "latest_at": "2026-08-14T16:06:32Z",
+          "creator_score": 84.2,
+          "creator_breakdown": {
+            "relevance": 0.88,
+            "freshness": 0.9849,
+            "source": 0.78,
+            "impact": 0.81,
+            "novelty": 0.85,
+            "heat": 0.3746
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "anthropic",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:anthropic",
+            "ai_coding_terms",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "4c3d489d782ec4a61fd6646af91412ea90be4f3c",
+            "title": "研究反驳Anthropic和OpenAI关于自主AI研究指日可待的说法 / Study contradicts Anthropic and OpenAI claims that autonomous AI research is within reach",
+            "title_zh": "研究反驳Anthropic和OpenAI关于自主AI研究指日可待的说法",
+            "title_en": "Study contradicts Anthropic and OpenAI claims that autonomous AI research is within reach",
+            "title_original": "Study contradicts Anthropic and OpenAI claims that autonomous AI research is within reach",
+            "summary": "AI agents using Claude Opus 4.8 and GPT-5.6 Sol were given six days, $3,000 in API credits, and GPU access to independently write AI research papers. The original authors of unpublished NeurIPS papers rated the results as \"Reject.\" According to the study, conducted with Princeton and the UK AI Security Institute, frontier models can handle the full research engineering process but fall short on research judgment, creative problem-solving, and the ability to abandon failed approaches.\nAI agents u",
+            "recommend_reason_zh": "普林斯顿与英国AI安全研究所测试显示，Claude Opus 4.8和GPT-5.6 Sol智能体用六天、3000美元API额度独立撰写NeurIPS论文，却被原作者评为Reject，暴露研究判断力短板。",
+            "url": "https://the-decoder.com/study-contradicts-anthropic-and-openai-claims-that-autonomous-ai-research-is-within-reach",
+            "source": "The Decoder AI News",
+            "source_name": "Curated Media"
+          },
+          "sources": [
+            {
+              "story_id": "story_2b5cbb5b3599",
+              "title": "研究反驳Anthropic和OpenAI关于自主AI研究指日可待的说法 / Study contradicts Anthropic and OpenAI claims that autonomous AI research is within reach",
+              "url": "https://the-decoder.com/study-contradicts-anthropic-and-openai-claims-that-autonomous-ai-research-is-within-reach",
+              "source": "The Decoder AI News",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "普林斯顿与英国AI安全研究所测试显示，Claude Opus 4.8和GPT-5.6 Sol智能体用六天、3000美元API额度独立撰写NeurIPS论文，被原作者评为Reject",
+          "why_it_matters": "对AI Coding开发者而言，前沿智能体虽能执行研究工程流程，但无法自主完成高质量创新，依赖人机协作仍是必须，不可高估其独立解决问题的能力",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "AI自主研究被原作者打回：Anthropic和OpenAI的自信从哪来？",
+              "angle": "从这项研究出发，对比官方宣传与实测差距，讨论智能体在创新性任务上的真实边界，是否有过类似经历。",
+              "needs_hands_on": true,
+              "risk": "研究为单一来源，模型名称可能为虚构或测试版本，需核实研究细节。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "用Claude写论文被Reject？研究判断力才是最大短板",
+              "angle": "以第一人称分享使用AI写论文的经历，结合这项研究的结果，给出避坑建议：AI适合工程实现，不适合选题和创新。",
+              "needs_hands_on": true,
+              "risk": "个人体验可能与研究结论有偏差，未亲自复现实验。"
+            },
+            {
+              "platform": "wechat",
+              "title": "自主AI研究是炒作吗？一项测试给了真实答案",
+              "angle": "从行业背景分析，Anthropic和OpenAI为何宣称自主研究，而独立测试却给出相反结果，探讨AI能力的评估标准与长期影响。",
+              "needs_hands_on": false,
+              "risk": "属于评论性内容，需引用研究结论时标明出处，避免过度解读。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_7074c8777a54",
+          "creator_event_id": "creator-97117200f6de15c8",
+          "merged_story_ids": [
+            "story_7074c8777a54"
+          ],
+          "title": "Cursor插件规范及官方插件上线GitHub",
+          "url": "https://github.com/cursor/plugins",
+          "primary_url": "https://github.com/cursor/plugins",
+          "source": "github",
+          "source_name": "NewsNow",
+          "source_count": 1,
+          "source_names": [
+            "github"
+          ],
+          "score": 0.5208,
+          "importance": 0.5208,
+          "importance_score": 0.5208,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.468,
+            "source_tier": 0.32,
+            "ai_relevance": 0.65,
+            "recency": 1.0,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-08-14T22:18:27.119000Z",
+          "latest_at": "2026-08-14T22:18:27.119000Z",
+          "creator_score": 82.3,
+          "creator_breakdown": {
+            "relevance": 1.0,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.81,
+            "novelty": 0.85,
+            "heat": 0.3323
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "cursor",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:cursor",
+            "ai_coding_terms",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "be86f99c8fabe7e0c38c29066ae37b2b4b37f1d8",
+            "title": "Cursor插件规范及官方插件上线GitHub",
+            "title_zh": "Cursor插件规范及官方插件上线GitHub",
+            "title_en": "cursor /      plugins",
+            "title_original": "cursor /      plugins",
+            "url": "https://github.com/cursor/plugins",
+            "source": "github",
+            "source_name": "NewsNow"
+          },
+          "sources": [
+            {
+              "story_id": "story_7074c8777a54",
+              "title": "Cursor插件规范及官方插件上线GitHub",
+              "url": "https://github.com/cursor/plugins",
+              "source": "github",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "Cursor 官方在 GitHub 上线插件仓库并发布插件规范，目前信息来自单一来源，具体规范内容与插件功能尚未核实。",
+          "why_it_matters": "插件生态将影响 Cursor 的扩展能力和开发者工作流，但当前信息未经多方验证，需谨慎判断其官方性与实际可用性。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "Cursor 官方插件仓库刚上线，我第一时间去翻了规范",
+              "angle": "第一人称现场探访，展示仓库页面与初步印象，强调新版插件生态可能带来的变化。",
+              "needs_hands_on": true,
+              "risk": "仓库是否为官方发布、规范内容是否完整需亲测确认，且当前仅有单一来源。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "Cursor 插件规范来了？手把手教你如何看懂官方仓库",
+              "angle": "以步骤化方式解读仓库结构和规范要点，提醒避坑：目前消息未证实，先别急着开发。",
+              "needs_hands_on": true,
+              "risk": "未实际验证插件规范细节，需检查 GitHub 仓库真实性和官方账号身份。"
+            },
+            {
+              "platform": "wechat",
+              "title": "Cursor 官方插件上线：AI 编辑器生态竞争的新信号",
+              "angle": "从行业背景分析插件生态对 AI Coding 工具链的影响，对比其他编辑器插件体系，探讨长期趋势。",
+              "needs_hands_on": false,
+              "risk": "目前仅为单一来源，需等待官方公告或更多媒体报道佐证。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_c0648d9766a4",
+          "creator_event_id": "creator-ddb5ab330e00b1e3",
+          "merged_story_ids": [
+            "story_c0648d9766a4"
+          ],
+          "title": "Cursor 正式被 SpaceX 收购 / Cursor is now a part of SpaceX",
+          "url": "https://cursor.com/blog/joining-spacex",
+          "primary_url": "https://cursor.com/blog/joining-spacex",
+          "source": "Cursor Blog",
+          "source_name": "AI HOT",
+          "source_count": 1,
+          "source_names": [
+            "Cursor Blog"
+          ],
+          "score": 0.7307,
+          "importance": 0.7307,
+          "importance_score": 0.7307,
+          "importance_label": "行业动态",
+          "importance_breakdown": {
+            "editorial": 0.68,
+            "source_tier": 0.78,
+            "ai_relevance": 1.0,
+            "recency": 0.8618,
+            "story_heat": 0.0
+          },
+          "category": "industry",
+          "reasons": [
+            "high_ai_relevance"
+          ],
+          "earliest_at": "2026-08-14T12:00:00Z",
+          "latest_at": "2026-08-14T12:00:00Z",
+          "persona_id": "pragmatic",
+          "persona_score": 50,
+          "persona_review": "收购变数大，现有用户先观望，别急着改工作流。",
+          "creator_score": 80.3,
+          "creator_breakdown": {
+            "relevance": 1.0,
+            "freshness": 0.8821,
+            "source": 0.5,
+            "impact": 0.81,
+            "novelty": 0.85,
+            "heat": 0.4057
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "cursor",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:cursor",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "37be0084d39109564aa95e679db99447f43ba6a3",
+            "title": "Cursor 正式被 SpaceX 收购 / Cursor is now a part of SpaceX",
+            "title_zh": "Cursor 正式被 SpaceX 收购",
+            "title_en": "Cursor is now a part of SpaceX",
+            "title_original": "Cursor is now a part of SpaceX",
+            "summary": "Cursor 已被 SpaceX 正式收购，完成自 4 月启动的收购流程。合并后 Cursor 将获得全球最大 GPU 集群，以构建更强且运行成本更低的模型，从而以更低价格向客户提供更强大的模型。本周三发布的 Grok 4.6 是双方合作成果的早期体现。",
+            "recommend_reason_zh": "这篇宣布Cursor被SpaceX收购的文章，透露始于4月的流程已完成，Cursor将用全球最大GPU集群训练模型，并发布Grok 4.6验证成果。",
+            "url": "https://cursor.com/blog/joining-spacex",
+            "source": "Cursor Blog",
+            "source_name": "AI HOT"
+          },
+          "sources": [
+            {
+              "story_id": "story_c0648d9766a4",
+              "title": "Cursor 正式被 SpaceX 收购 / Cursor is now a part of SpaceX",
+              "url": "https://cursor.com/blog/joining-spacex",
+              "source": "Cursor Blog",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "Cursor 官方博客宣布已被 SpaceX 收购，自4月启动的流程已完成。合并后 Cursor 将获得全球最大 GPU 集群，以更低成本训练更强模型，并计划降低产品价格。周三发布",
+          "why_it_matters": "若属实，AI 编程工具的算力与成本结构将剧变，可能重塑模型定价与开发工作流；但单一来源，需警惕真实性。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "SpaceX 收购 Cursor？官方博客已官宣，但这事靠谱吗？",
+              "angle": "从开发者视角，第一人称表达震惊与质疑，分析官方博客细节，指出单一来源和 Grok 4.6 的关联，呼吁保持观望。",
+              "needs_hands_on": false,
+              "risk": "需核实博客原文真实性及 SpaceX 官方确认。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "Cursor 被 SpaceX 收购了？作为用户我该换工具吗？",
+              "angle": "第一人称分享自己查看官方博客的经过，总结目前已知信息，给开发者列出行动建议（如暂不迁移、关注后续公告），并提醒不要轻信传闻。",
+              "needs_hands_on": true,
+              "risk": "未验证收购实际影响及 Grok 4.6 在 Cursor 中的可用性。"
+            },
+            {
+              "platform": "wechat",
+              "title": "从 Cursor 被收购看 AI 编程工具背后的算力军备竞赛",
+              "angle": "以行业观察者身份，分析收购背后的战略逻辑（GPU 集群、模型成本），对比其他 AI 编程工具，探讨对开发者生态的长期影响，强调信息需进一步核实。",
+              "needs_hands_on": false,
+              "risk": "单一信源，需等待官方进一步披露细节。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_203ecf6e9943",
+          "creator_event_id": "creator-3d6f74893ccc901b",
+          "merged_story_ids": [
+            "story_203ecf6e9943"
+          ],
+          "title": "如何利用Agent应用将软件交付工作流引入GitHub / How to bring your software delivery workflow into GitHub with agent apps",
+          "url": "https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps",
+          "primary_url": "https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps",
+          "source": "GitHub AI & ML",
+          "source_name": "Official AI Updates",
+          "source_count": 1,
+          "source_names": [
+            "GitHub AI & ML"
+          ],
+          "score": 0.8283,
+          "importance": 0.8283,
+          "importance_score": 0.8283,
+          "importance_label": "官方更新",
+          "importance_breakdown": {
+            "editorial": 0.9,
+            "source_tier": 1.0,
+            "ai_relevance": 0.87,
+            "recency": 0.913,
+            "story_heat": 0.0
+          },
+          "category": "official",
+          "reasons": [
+            "official_source",
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-08-14T16:00:00Z",
+          "latest_at": "2026-08-14T16:00:00Z",
+          "persona_id": "pragmatic",
+          "persona_score": 75,
+          "persona_review": "官方教程，想用Agent自动化交付流程的可直接参考，但要自己配。",
+          "creator_score": 80.2,
+          "creator_breakdown": {
+            "relevance": 0.88,
+            "freshness": 0.9821,
+            "source": 1.0,
+            "impact": 0.43,
+            "novelty": 0.55,
+            "heat": 0.4399
+          },
+          "creator_bucket": "ai_coding",
+          "verification_status": "confirmed",
+          "creator_reasons": [
+            "ai_coding_terms",
+            "official_or_tier0_source"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "b1a201456e76369f9a92aecd439f6395eb2e2c52",
+            "title": "如何利用Agent应用将软件交付工作流引入GitHub / How to bring your software delivery workflow into GitHub with agent apps",
+            "title_zh": "如何利用Agent应用将软件交付工作流引入GitHub",
+            "title_en": "How to bring your software delivery workflow into GitHub with agent apps",
+            "title_original": "How to bring your software delivery workflow into GitHub with agent apps",
+            "summary": "See how four GitHub Agent Apps can help you scope, secure, roll out, and ship a feature across the SDLC–all without leaving GitHub.\nSee how four GitHub Agent Apps can help you scope, secure, roll out, and ship a feature across the SDLC–all without leaving GitHub.\nSee how four GitHub agent apps can help you scope, secure, roll out, and ship a feature across the SDLC–all without leaving GitHub.\nHow many tabs do you have open alongside your pull request?\nImagine picking up a new issue in your produ",
+            "recommend_reason_zh": "本文展示四个GitHub Agent Apps如何把Amplitude、Endor Labs、LaunchDarkly和PagerDuty引入Pull Request，一站式完成产品数据验证、依赖漏洞检查、功能开关配置与部署前状态核查，全程不用离开GitHub，彻底告别多标签页切换。",
+            "url": "https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps",
+            "source": "GitHub AI & ML",
+            "source_name": "Official AI Updates"
+          },
+          "sources": [
+            {
+              "story_id": "story_203ecf6e9943",
+              "title": "如何利用Agent应用将软件交付工作流引入GitHub / How to bring your software delivery workflow into GitHub with agent apps",
+              "url": "https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps",
+              "source": "GitHub AI & ML",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "GitHub 官方博客介绍四个 Agent Apps（Amplitude、Endor Labs、LaunchDarkly、PagerDuty）可直接集成到 Pull Request",
+          "why_it_matters": "将第三方工具以 Agent 形式嵌入 PR 流程，减少上下文切换，可能改变团队软件交付协作方式，但需验证实际集成效果与安全性。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "实测 GitHub Agent Apps：PR 里直接查数据、查漏洞、配开关，真能少开 5 个标签页？",
+              "angle": "以开发者第一人称实测四个 Agent Apps 在真实 PR 中的表现，对比原有工作流，突出新鲜感和效率差异。",
+              "needs_hands_on": true,
+              "risk": "未亲测四个 Agent 应用的实际配置门槛、响应速度和数据准确性，需确认官方文档中的接入方式是否如描述般顺畅。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "GitHub 新玩法｜4 个 Agent 应用把交付流程搬进 PR，避坑指南",
+              "angle": "从操作步骤出发，分享如何为仓库安装 Agent Apps、在 PR 中触发它们，并给出配置注意事项和常见坑，适合团队协作场景。",
+              "needs_hands_on": true,
+              "risk": "需要核实各 Agent 是否要求特定付费计划或企业版，以及权限设置是否影响现有 CI/CD 流水线。"
+            },
+            {
+              "platform": "wechat",
+              "title": "从“多标签页”到“一站式”：GitHub Agent Apps 如何重塑软件交付工作流",
+              "angle": "分析 GitHub 将第三方工具 Agent 化的产品思路，探讨对 SDLC 工具链整合、开发者体验和团队协作模式的长期影响。",
+              "needs_hands_on": false,
+              "risk": "需确认官方博客中提及的四个 Agent 的发布状态和适用范围，避免将概念性内容当作已全面开放的功能。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_5a09fec3239c",
+          "creator_event_id": "creator-d0b5de84476622c6",
+          "merged_story_ids": [
+            "story_5a09fec3239c"
+          ],
+          "title": "DeepSeek 峰谷电价更新",
+          "url": "https://api-docs.deepseek.com/news/news260813",
+          "primary_url": "https://api-docs.deepseek.com/news/news260813",
+          "source": "api-docs.deepseek.com",
+          "source_name": "Buzzing",
+          "source_count": 1,
+          "source_names": [
+            "api-docs.deepseek.com"
+          ],
+          "score": 0.5244,
+          "importance": 0.5244,
+          "importance_score": 0.5244,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.468,
+            "source_tier": 0.32,
+            "ai_relevance": 0.65,
+            "recency": 0.8811,
+            "story_heat": 0.25
+          },
+          "category": "watch",
+          "reasons": [
+            "multi_source"
+          ],
+          "earliest_at": "2026-08-14T09:55:33Z",
+          "latest_at": "2026-08-14T13:32:02.381000Z",
+          "creator_score": 79.8,
+          "creator_breakdown": {
+            "relevance": 0.88,
+            "freshness": 0.9205,
+            "source": 0.5,
+            "impact": 0.94,
+            "novelty": 0.85,
+            "heat": 0.4835
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "deepseek",
+          "verification_status": "confirmed",
+          "creator_reasons": [
+            "entity:deepseek",
+            "ai_coding_terms",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "c77cba701516586a9a2f25cd861b85d5acacb66d",
+            "title": "DeepSeek 峰谷电价更新",
+            "title_zh": "DeepSeek 峰谷电价更新",
+            "title_original": "DeepSeek 峰谷电价更新",
+            "url": "https://api-docs.deepseek.com/news/news260813",
+            "source": "api-docs.deepseek.com",
+            "source_name": "Buzzing"
+          },
+          "sources": [
+            {
+              "story_id": "story_5a09fec3239c",
+              "title": "DeepSeek 峰谷电价更新",
+              "url": "https://api-docs.deepseek.com/news/news260813",
+              "source": "api-docs.deepseek.com",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "DeepSeek 官方文档发布峰谷电价更新，针对 API 调用按用电峰谷时段调整计费。具体时段与折扣幅度以官方页面为准。",
+          "why_it_matters": "影响使用 DeepSeek API 的开发者成本，需调整请求时段与批处理策略；同时注意计费变化对预算和自动化任务的影响。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "DeepSeek 峰谷电价实测：低峰时段调用真能省钱？",
+              "angle": "分享我对比不同时段调用 DeepSeek API 的价格差异，记录实际扣费与官方文档的对应关系。",
+              "needs_hands_on": true,
+              "risk": "官方未给出具体峰谷时段和折扣，需实测确认计费变化；单一来源报道，价格细节待官方确认。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_a5a9de1a4652",
+          "creator_event_id": "creator-c16505bd57463ebb",
+          "merged_story_ids": [
+            "story_a5a9de1a4652"
+          ],
+          "title": "通义千问开源 Qwen3.8 系列模型 / We promised open weights for Qwen3.8. Now， time to meet them！ 🎉 ⚡ Qwen3.8-27B： - A native multimod…",
+          "url": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "primary_url": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+          "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+          "source_name": "AI HOT",
+          "source_count": 1,
+          "source_names": [
+            "X：通义千问 / Qwen (@Alibaba_Qwen)"
+          ],
+          "score": 0.7467,
+          "importance": 0.7467,
+          "importance_score": 0.7467,
+          "importance_label": "行业动态",
+          "importance_breakdown": {
+            "editorial": 0.71,
+            "source_tier": 0.78,
+            "ai_relevance": 1.0,
+            "recency": 0.9005,
+            "story_heat": 0.0
+          },
+          "category": "industry",
+          "reasons": [
+            "high_ai_relevance"
+          ],
+          "earliest_at": "2026-08-14T15:02:48Z",
+          "latest_at": "2026-08-14T15:02:48Z",
+          "persona_id": "pragmatic",
+          "persona_score": 92,
+          "persona_review": "开源权重直接可跑，多模态任务今天就能上手试。",
+          "creator_score": 79.2,
+          "creator_breakdown": {
+            "relevance": 0.88,
+            "freshness": 0.9583,
+            "source": 0.5,
+            "impact": 0.94,
+            "novelty": 0.75,
+            "heat": 0.4113
+          },
+          "creator_bucket": "ai_coding",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "ai_coding_terms",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "ef74b668854b5a5fd23bf9ef2f74ec6cf633a6ad",
+            "title": "通义千问开源 Qwen3.8 系列模型 / We promised open weights for Qwen3.8. Now， time to meet them！ 🎉 ⚡ Qwen3.8-27B： - A native multimod…",
+            "title_zh": "通义千问开源 Qwen3.8 系列模型",
+            "title_en": "We promised open weights for Qwen3.8. Now， time to meet them！ 🎉 ⚡ Qwen3.8-27B： - A native multimod…",
+            "title_original": "We promised open weights for Qwen3.8. Now， time to meet them！ 🎉 ⚡ Qwen3.8-27B： - A native multimod…",
+            "summary": "通义千问兑现承诺，开源 Qwen3.8 系列模型。其中 Qwen3.8-27B 为原生多模态稠密模型，仅 27B 参数即全面超越 Qwen3.7-Plus，原生支持 262K 上下文，可通过 YaRN 扩展至 1M tokens，采用 Apache 2.0 许可。Max 级 Qwen3.8-2.4T-A95B 的开放权重也已同步发布。",
+            "recommend_reason_zh": "Qwen3.8-27B开源，仅27B参数就在整体上超越Qwen3.7-Plus，原生多模态与262K上下文可扩展至1M，兼顾编程与办公场景。",
+            "url": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+            "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+            "source_name": "AI HOT"
+          },
+          "sources": [
+            {
+              "story_id": "story_a5a9de1a4652",
+              "title": "通义千问开源 Qwen3.8 系列模型 / We promised open weights for Qwen3.8. Now， time to meet them！ 🎉 ⚡ Qwen3.8-27B： - A native multimod…",
+              "url": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+              "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "通义千问开源 Qwen3.8 系列，Qwen3.8-27B 为原生多模态稠密模型，27B 参数整体超越 Qwen3.7-Plus，原生 262K 上下文可扩展至 1M，Apache",
+          "why_it_matters": "小参数开源模型在多模态与长上下文上逼近 Plus 级，开发者可本地部署并降低 API 成本，直接影响模型选型和 AI Coding 的本地化",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "27B 开源模型全面超越 Qwen3.7-Plus？我连夜实测了 Qwen3.8-27B",
+              "angle": "以第一人称记录从下载权重到跑通多模态与长上下文的全过程，对比官方宣称与真实表现，突出小参数模型的意外惊喜和坑点。",
+              "needs_hands_on": true,
+              "risk": "仅官方单条推文，未亲测；基准数值、上下文扩展效果和实际推理速度均待验证。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "本地部署 Qwen3.8-27B 保姆级教程：262K 上下文 + Apache 2.0，避坑指南",
+              "angle": "面向想本地跑的开发者，给出从环境准备、显存需求到 YaRN 扩展 1M 上下文的实操步骤，附上量化选择与常见报错解决方案。",
+              "needs_hands_on": true,
+              "risk": "官方未发布 27B 的显存与硬件要求，部署细节需自行测试确认。"
+            },
+            {
+              "platform": "wechat",
+              "title": "Qwen3.8 开源背后：小参数多模态模型如何重塑 AI Coding 本地化部署",
+              "angle": "从 Qwen3.8-27B 的架构与许可切入，分析小模型逼近大模型能力对私有化部署、数据安全和 AI Coding 工具链选型的长期影响。",
+              "needs_hands_on": false,
+              "risk": "单条来源，官方后续技术报告与第三方评测尚未发布，需持续跟踪。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_b984e2541573",
+          "creator_event_id": "creator-ee36a4bb14c97514",
+          "merged_story_ids": [
+            "story_b984e2541573"
+          ],
+          "title": "Show HN：APIMart——GPT-5与Sora 2的AI API折扣聚合器 / Show HN: APIMart: Discounted AI API Aggregator for GPT-5, Sora 2",
+          "url": "https://apimart.ai/register?aff=yScTCM",
+          "primary_url": "https://apimart.ai/register?aff=yScTCM",
+          "source": "HN Algolia · AI 24h",
+          "source_name": "Hacker News",
+          "source_count": 1,
+          "source_names": [
+            "HN Algolia · AI 24h"
+          ],
+          "score": 0.501,
+          "importance": 0.501,
+          "importance_score": 0.501,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.468,
+            "source_tier": 0.32,
+            "ai_relevance": 0.65,
+            "recency": 0.8901,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-08-14T14:14:13Z",
+          "latest_at": "2026-08-14T14:14:13Z",
+          "creator_score": 78.0,
+          "creator_breakdown": {
+            "relevance": 0.88,
+            "freshness": 0.9381,
+            "source": 0.58,
+            "impact": 0.81,
+            "novelty": 0.75,
+            "heat": 0.3253
+          },
+          "creator_bucket": "ai_coding",
+          "verification_status": "rumor",
+          "creator_reasons": [
+            "ai_coding_terms",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "1a84def17a34eee83784318458791cdb855fa3a4",
+            "title": "Show HN：APIMart——GPT-5与Sora 2的AI API折扣聚合器 / Show HN: APIMart: Discounted AI API Aggregator for GPT-5, Sora 2",
+            "title_zh": "Show HN：APIMart——GPT-5与Sora 2的AI API折扣聚合器",
+            "title_en": "Show HN: APIMart: Discounted AI API Aggregator for GPT-5, Sora 2",
+            "title_original": "Show HN: APIMart: Discounted AI API Aggregator for GPT-5, Sora 2",
+            "url": "https://apimart.ai/register?aff=yScTCM",
+            "source": "HN Algolia · AI 24h",
+            "source_name": "Hacker News"
+          },
+          "sources": [
+            {
+              "story_id": "story_b984e2541573",
+              "title": "Show HN：APIMart——GPT-5与Sora 2的AI API折扣聚合器 / Show HN: APIMart: Discounted AI API Aggregator for GPT-5, Sora 2",
+              "url": "https://apimart.ai/register?aff=yScTCM",
+              "source": "HN Algolia · AI 24h",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "APIMart 在 Hacker News 发布，自称是提供 GPT-5 与 Sora 2 等 AI API 折扣的聚合器，目前仅有发布方单方面信息，真实性待验证。",
+          "why_it_matters": "若属实，聚合折扣 API 可能降低多模型调用成本，但 GPT-5、Sora 2 尚未公开确认，需警惕代充或转售风险。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "GPT-5 还没影，APIMart 已经开卖折扣 API？",
+              "angle": "以开发者视角质疑新品真实性，列出需要验证的关键点：模型是否实际可用、折扣来源、以及是否涉及违规转售。",
+              "needs_hands_on": true,
+              "risk": "GPT-5 与 Sora 2 的官方发布状态未确认，APIMart 的服务未经独立验证。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "AI API 折扣聚合器避坑指南：APIMart 这类网站能信吗？",
+              "angle": "以实操视角分享如何测试此类聚合服务的可靠性，包括小额试单、对比官方定价、检查账单来源等步骤。",
+              "needs_hands_on": true,
+              "risk": "未对 APIMart 实际下单测试，折扣比例和到账稳定性未知。"
+            },
+            {
+              "platform": "wechat",
+              "title": "当 GPT-5 还没发布，为什么已经有人在卖它的 API？",
+              "angle": "从行业背景切入，分析 AI API 灰色转售与聚合模式的历史，探讨此类产品对开发者工作流和合规性的潜在影响。",
+              "needs_hands_on": false,
+              "risk": "GPT-5、Sora 2 的官方命名与可用性尚未确认，文中推断需明确标注为猜测。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_0276dc6b6132",
+          "creator_event_id": "creator-8c3d8c735c527074",
+          "merged_story_ids": [
+            "story_0276dc6b6132"
+          ],
+          "title": "2026年夏季开源模型生态观察：中国前沿模型规模领先，AMD与NVIDIA主导发布量 / State of Open Models: Summer 2026 Observations",
+          "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+          "primary_url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "source_count": 1,
+          "source_names": [
+            "Hugging Face Blog"
+          ],
+          "score": 0.8354,
+          "importance": 0.8354,
+          "importance_score": 0.8354,
+          "importance_label": "官方更新",
+          "importance_breakdown": {
+            "editorial": 0.9,
+            "source_tier": 1.0,
+            "ai_relevance": 0.95,
+            "recency": 0.7247,
+            "story_heat": 0.25
+          },
+          "category": "official",
+          "reasons": [
+            "official_source",
+            "multi_source",
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-08-14T00:00:00Z",
+          "latest_at": "2026-08-14T00:00:00Z",
+          "persona_id": "pragmatic",
+          "persona_score": 50,
+          "persona_review": "开源生态格局盘点，无新工具可上手，扫一眼知趋势即可。",
+          "creator_score": 75.0,
+          "creator_breakdown": {
+            "relevance": 0.65,
+            "freshness": 0.5821,
+            "source": 1.0,
+            "impact": 0.89,
+            "novelty": 0.75,
+            "heat": 0.5924
+          },
+          "creator_bucket": "general_ai",
+          "verification_status": "confirmed",
+          "creator_reasons": [
+            "workflow_impact",
+            "official_or_tier0_source"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "5cb7bd528d053cbf111887875eb8aa6f728e8205",
+            "title": "2026年夏季开源模型生态观察：中国前沿模型规模领先，AMD与NVIDIA主导发布量 / State of Open Models: Summer 2026 Observations",
+            "title_zh": "2026年夏季开源模型生态观察：中国前沿模型规模领先，AMD与NVIDIA主导发布量",
+            "title_en": "State of Open Models: Summer 2026 Observations",
+            "title_original": "State of Open Models: Summer 2026 Observations",
+            "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.\nWe’re on a journey to advance and democratize artificial intelligence through open source and open science.\n2. Attention ≠ Adoption 3. Open weights shift where value accumulates 4. Qwen has become the community's base model 5. Small models remain the practical layer 6. Agents are the new user Looking forward Notes on method In the AI world, time feels compressed. A few months after our spr",
+            "recommend_reason_zh": "这篇夏季报告追踪2026年1至8月开源模型生态，指出中国实验室前沿模型参数最高达2.78万亿，美国除NVIDIA 561B外多低于130B，Qwen成社区基础模型，而AMD与NVIDIA发布模型数量领跑。",
+            "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+            "source": "Hugging Face Blog",
+            "source_name": "Official AI Updates"
+          },
+          "sources": [
+            {
+              "story_id": "story_0276dc6b6132",
+              "title": "2026年夏季开源模型生态观察：中国前沿模型规模领先，AMD与NVIDIA主导发布量 / State of Open Models: Summer 2026 Observations",
+              "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+              "source": "Hugging Face Blog",
+              "site_id": "",
+              "official": true
+            }
+          ],
+          "summary_zh": "Hugging Face发布2026年夏季开源模型生态报告，1-8月中国前沿模型参数最高达2.78万亿，美国除NVIDIA 561B外多低于130B；Qwen成为社区基础模型，AM",
+          "why_it_matters": "开源模型竞争格局生变：中国走规模路线，美国重效率；Qwen成为社区默认基座，影响开发者选型；AMD与NVIDIA主导发布，影响硬件生态与推理",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "Qwen成了开源社区的默认基座？HF夏季报告背后的信号",
+              "angle": "我刚读完HF的夏季开源报告，最反直觉的是——参数规模最大的模型来自中国，而美国除了NVIDIA都在拼小模型。Qwen已经被社区当默认基座用了，这直接改变了我做RAG和Agent时的选型逻辑。",
+              "needs_hands_on": true,
+              "risk": "未实际对比Qwen与Llama等模型的性能，报告中的“社区默认基座”需结合具体使用场景验证"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "2026开源模型怎么选？一文看懂HF夏季生态报告",
+              "angle": "步骤：先看报告核心结论，再教大家如何根据自己需求选择模型规模：超大参数 vs 小模型，以及关注Qwen生态带来的周边工具兼容性。附避坑：不要盲目追求参数最大。",
+              "needs_hands_on": false,
+              "risk": "报告原始数据来自HF博客，未独立验证各模型参数与发布量统计口径"
+            },
+            {
+              "platform": "wechat",
+              "title": "从2.78万亿到Qwen基座：2026年开源模型生态的四个关键变化",
+              "angle": "系统分析：这篇报告揭示了开源AI正在从“模型竞赛”转向“生态竞赛”。中国以超大参数证明规模道路，美国以效率和小模型应对，Qwen通过开源策略成为事实标准，AMD与NVIDIA的发布竞争将影响整个工具链。",
+              "needs_hands_on": false,
+              "risk": "报道基于单一来源HF博客，需结合更多行业数据交叉验证"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_f20b139d2dd2",
+          "creator_event_id": "creator-c45cb02e4a609f7b",
+          "merged_story_ids": [
+            "story_f20b139d2dd2"
+          ],
+          "title": "GPT-5.6 Sol 提速 14 倍，OpenAI 推出 Cerebras 驱动的极速模式 / GPT-5.6 Sol goes 14x faster as OpenAI launches Ultrafast mode powered by Cerebras",
+          "url": "https://the-decoder.com/gpt-5-6-sol-goes-14x-faster-as-openai-launches-ultrafast-mode-powered-by-cerebras",
+          "primary_url": "https://the-decoder.com/gpt-5-6-sol-goes-14x-faster-as-openai-launches-ultrafast-mode-powered-by-cerebras",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "source_count": 1,
+          "source_names": [
+            "The Decoder AI News"
+          ],
+          "score": 0.6292,
+          "importance": 0.6292,
+          "importance_score": 0.6292,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.5904,
+            "source_tier": 0.58,
+            "ai_relevance": 0.82,
+            "recency": 0.8917,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "high_ai_relevance"
+          ],
+          "earliest_at": "2026-08-14T14:21:50Z",
+          "latest_at": "2026-08-14T14:21:50Z",
+          "creator_score": 74.6,
+          "creator_breakdown": {
+            "relevance": 0.68,
+            "freshness": 0.9412,
+            "source": 0.78,
+            "impact": 0.63,
+            "novelty": 0.85,
+            "heat": 0.3702
+          },
+          "creator_bucket": "general_ai",
+          "primary_entity": "openai",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:openai",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "77b3f08c36bdf8913964a83e8dbdca287c31408b",
+            "title": "GPT-5.6 Sol 提速 14 倍，OpenAI 推出 Cerebras 驱动的极速模式 / GPT-5.6 Sol goes 14x faster as OpenAI launches Ultrafast mode powered by Cerebras",
+            "title_zh": "GPT-5.6 Sol 提速 14 倍，OpenAI 推出 Cerebras 驱动的极速模式",
+            "title_en": "GPT-5.6 Sol goes 14x faster as OpenAI launches Ultrafast mode powered by Cerebras",
+            "title_original": "GPT-5.6 Sol goes 14x faster as OpenAI launches Ultrafast mode powered by Cerebras",
+            "summary": "OpenAI is launching \"Ultrafast,\" a new inference mode that delivers GPT-5.6 Sol at up to 750 output tokens per second, powered by Cerebras hardware from their $10 billion partnership. Together with \"Standard\" and \"Fast,\" Ultrafast creates a three-tier pricing structure that turns inference speed into its own product.\nOpenAI is launching \"Ultrafast,\" a new inference mode that delivers GPT-5.6 Sol at up to 750 output tokens per second, powered by Cerebras hardware from their $10 billion partnershi",
+            "recommend_reason_zh": "OpenAI推出Ultrafast模式，让GPT-5.6 Sol的推理速度达到每秒750 tokens，由Cerebras硬件驱动（来自百亿美元合作），并与Standard、Fast组成三级定价，把推理速度本身变成可售卖的产品。",
+            "url": "https://the-decoder.com/gpt-5-6-sol-goes-14x-faster-as-openai-launches-ultrafast-mode-powered-by-cerebras",
+            "source": "The Decoder AI News",
+            "source_name": "Curated Media"
+          },
+          "sources": [
+            {
+              "story_id": "story_f20b139d2dd2",
+              "title": "GPT-5.6 Sol 提速 14 倍，OpenAI 推出 Cerebras 驱动的极速模式 / GPT-5.6 Sol goes 14x faster as OpenAI launches Ultrafast mode powered by Cerebras",
+              "url": "https://the-decoder.com/gpt-5-6-sol-goes-14x-faster-as-openai-launches-ultrafast-mode-powered-by-cerebras",
+              "source": "The Decoder AI News",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "OpenAI推出Ultrafast推理模式，基于Cerebras硬件，让GPT-5.6 Sol达到每秒750输出token，较此前提速14倍，并与Standard、Fast构成三级",
+          "why_it_matters": "推理速度成为可选的付费维度，影响API成本与延迟权衡；开发者需评估Ultrafast模式在长任务、流式输出下的性价比与稳定性。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "刚测了GPT-5.6 Sol Ultrafast：750 token/s是种什么体验？",
+              "angle": "第一人称实测Ultrafast模式，对比Standard/Fast的延迟与生成质量差异，强调速度带来的交互改变。",
+              "needs_hands_on": true,
+              "risk": "仅单源报道，未亲测；需确认OpenAI官方API是否已开放该模式及计费方式。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "OpenAI Ultrafast模式实测避坑：速度翻倍但钱包也翻倍？",
+              "angle": "以开发者视角分享如何选择Standard/Fast/Ultrafast，给出成本与速度的权衡建议，标注适用场景。",
+              "needs_hands_on": true,
+              "risk": "具体定价和token费用未在原文中提及，需核实官方价格。"
+            },
+            {
+              "platform": "wechat",
+              "title": "OpenAI携手Cerebras：把推理速度变成商品，AI Coding会怎样？",
+              "angle": "从Cerebras百亿美元合作切入，分析硬件定制对模型推理生态的影响，以及Ultrafast模式对Agent类编码工具的意义。",
+              "needs_hands_on": false,
+              "risk": "对内部架构和合作细节的推测需与官方公告核对。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_b8125cc46db3",
+          "creator_event_id": "creator-b868979344a64839",
+          "merged_story_ids": [
+            "story_b8125cc46db3"
+          ],
+          "title": "Claude 文本水印机制如何运作 / How Claude's text watermark works",
+          "url": "https://www.anthropic.com/news/claude-text-watermark",
+          "primary_url": "https://www.anthropic.com/news/claude-text-watermark",
+          "source": "Anthropic：Newsroom（网页）",
+          "source_name": "AI HOT",
+          "source_count": 1,
+          "source_names": [
+            "Anthropic：Newsroom（网页）"
+          ],
+          "score": 0.8126,
+          "importance": 0.8126,
+          "importance_score": 0.8126,
+          "importance_label": "官方更新",
+          "importance_breakdown": {
+            "editorial": 0.65,
+            "source_tier": 1.0,
+            "ai_relevance": 1.0,
+            "recency": 0.9587,
+            "story_heat": 0.25
+          },
+          "category": "official",
+          "reasons": [
+            "multi_source",
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-08-14T19:15:51Z",
+          "latest_at": "2026-08-14T19:22:48.546000Z",
+          "persona_id": "pragmatic",
+          "persona_score": 55,
+          "persona_review": "水印原理说明，搞内容检测的可参考，日常开发先不用动。",
+          "creator_score": 73.6,
+          "creator_breakdown": {
+            "relevance": 0.68,
+            "freshness": 1.0,
+            "source": 1.0,
+            "impact": 0.25,
+            "novelty": 0.65,
+            "heat": 0.5844
+          },
+          "creator_bucket": "general_ai",
+          "primary_entity": "anthropic",
+          "verification_status": "confirmed",
+          "creator_reasons": [
+            "entity:anthropic",
+            "official_or_tier0_source"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "68cb2a8a92118d1fe106cd90cb8041ad02b60b28",
+            "title": "Claude 文本水印机制如何运作 / How Claude's text watermark works",
+            "title_zh": "Claude 文本水印机制如何运作",
+            "title_en": "How Claude's text watermark works",
+            "title_original": "How Claude's text watermark works",
+            "summary": "未来 Claude 模型生成的文本将包含水印，用于判断文本由 Claude 撰写的可能性，这是 Anthropic 为遵守欧盟《AI 法案》而实施的变更。该方法基于 Google DeepMind 的 SynthID-Text 技术，对输出质量、创造力和可读性无实际影响，读者无法区分水印文本与普通文本，且不增加额外 token 或成本。",
+            "recommend_reason_zh": "本文详解Claude新增文本水印机制：借用随机选词中的低风险选择嵌入密钥模式，可判定文本是否由Claude生成，且不影响输出，主要为了遵守欧盟AI法案。",
+            "url": "https://www.anthropic.com/news/claude-text-watermark",
+            "source": "Anthropic：Newsroom（网页）",
+            "source_name": "AI HOT"
+          },
+          "sources": [
+            {
+              "story_id": "story_b8125cc46db3",
+              "title": "Claude 文本水印机制如何运作 / How Claude's text watermark works",
+              "url": "https://www.anthropic.com/news/claude-text-watermark",
+              "source": "Anthropic：Newsroom（网页）",
+              "site_id": "",
+              "official": true
+            }
+          ],
+          "summary_zh": "Anthropic 宣布未来 Claude 模型生成的文本将嵌入基于 SynthID-Text 的水印，用于判断文本是否由 Claude 撰写，不增加 token 或成本，不影响输",
+          "why_it_matters": "水印影响 AI 生成内容的可追溯性，开发者需关注未来 Claude API 输出是否带水印，以及这对内容检测、合规和工具链的潜在影响。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "Claude 要加文本水印了，但我现在还没法测",
+              "angle": "以开发者身份解读 Anthropic 官方公告，指出水印是未来变更，当前 API 尚不可用，分享我对 SynthID-Text 技术原理的理解和等待实测的期待。",
+              "needs_hands_on": true,
+              "risk": "水印尚未上线，无法实际验证，所有描述仅基于官方公告。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "Claude 水印机制小白版：不花一分钱，但能认出 AI 写的字",
+              "angle": "用通俗例子解释水印如何嵌入随机选词，读者为什么无感，开发者不会多付成本，以及未来如何检测。附上避坑提示：别把水印误当成输出质量变差。",
+              "needs_hands_on": false,
+              "risk": "官方称无质量影响，但尚未公开检测工具或 API 细节。"
+            },
+            {
+              "platform": "wechat",
+              "title": "从 SynthID 到欧盟 AI 法案：Claude 文本水印背后的合规逻辑",
+              "angle": "梳理 Anthropic 为什么现在实施水印，SynthID-Text 与 Google DeepMind 的关系，以及这对 AI 内容生态、抄袭检测和未来监管的长期影响。",
+              "needs_hands_on": false,
+              "risk": "需要确认欧盟 AI 法案对生成式 AI 水印的具体要求是否如文所述。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_4a31f336fa32",
+          "creator_event_id": "creator-b8c09328c76944f5",
+          "merged_story_ids": [
+            "story_4a31f336fa32"
+          ],
+          "title": "Gemini 3.7 Flash 全面上线 Pro 与 Ultra 用户 / Gemini 3.7 Flash is now available to all Pro and Ultra users in Gemini chat. This model update deli…",
+          "url": "https://x.com/GeminiApp/status/2088326407730692538",
+          "primary_url": "https://x.com/GeminiApp/status/2088326407730692538",
+          "source": "X：Gemini (@GeminiApp)",
+          "source_name": "AI HOT",
+          "source_count": 1,
+          "source_names": [
+            "X：Gemini (@GeminiApp)"
+          ],
+          "score": 0.739,
+          "importance": 0.739,
+          "importance_score": 0.739,
+          "importance_label": "行业动态",
+          "importance_breakdown": {
+            "editorial": 0.66,
+            "source_tier": 0.78,
+            "ai_relevance": 1.0,
+            "recency": 0.9412,
+            "story_heat": 0.0
+          },
+          "category": "industry",
+          "reasons": [
+            "high_ai_relevance"
+          ],
+          "earliest_at": "2026-08-14T18:06:29Z",
+          "latest_at": "2026-08-14T18:06:29Z",
+          "persona_id": "pragmatic",
+          "persona_score": 62,
+          "persona_review": "API 没同步开放，聊天里能用但写代码还得等，暂时不用动。",
+          "creator_score": 72.3,
+          "creator_breakdown": {
+            "relevance": 0.68,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.76,
+            "novelty": 0.85,
+            "heat": 0.4086
+          },
+          "creator_bucket": "general_ai",
+          "primary_entity": "gemini",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:gemini",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "ae979d823c43b5207d5f47ae5382d70f81150f8a",
+            "title": "Gemini 3.7 Flash 全面上线 Pro 与 Ultra 用户 / Gemini 3.7 Flash is now available to all Pro and Ultra users in Gemini chat. This model update deli…",
+            "title_zh": "Gemini 3.7 Flash 全面上线 Pro 与 Ultra 用户",
+            "title_en": "Gemini 3.7 Flash is now available to all Pro and Ultra users in Gemini chat. This model update deli…",
+            "title_original": "Gemini 3.7 Flash is now available to all Pro and Ultra users in Gemini chat. This model update deli…",
+            "summary": "Gemini 3.7 Flash 现已向 Gemini 聊天中的 Pro 和 Ultra 用户开放。该模型更新提升了多步骤任务的推理与准确性，如智能整合数十个文件和邮件为一份主文档。同时，Gemini Spark 也已运行于 3.7 Flash，通过改进对 Google Workspace 应用的工具调用，让个人 AI 智能体更精准。",
+            "recommend_reason_zh": "Gemini 3.7 Flash已在Gemini chat中向所有Pro和Ultra用户开放，推理与准确性获提升，可智能串联几十份文件和邮件，汇成一份主文档。",
+            "url": "https://x.com/GeminiApp/status/2088326407730692538",
+            "source": "X：Gemini (@GeminiApp)",
+            "source_name": "AI HOT"
+          },
+          "sources": [
+            {
+              "story_id": "story_4a31f336fa32",
+              "title": "Gemini 3.7 Flash 全面上线 Pro 与 Ultra 用户 / Gemini 3.7 Flash is now available to all Pro and Ultra users in Gemini chat. This model update deli…",
+              "url": "https://x.com/GeminiApp/status/2088326407730692538",
+              "source": "X：Gemini (@GeminiApp)",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "Gemini 3.7 Flash 现已向 Gemini 聊天中的 Pro 和 Ultra 用户开放，提升多步骤任务推理与准确性，可整合数十份文件和邮件成一份主文档；Gemini S",
+          "why_it_matters": "这对依赖 Gemini 处理多步骤、跨文档任务的开发者意味着更强的推理能力和更可靠的工具调用，影响自动化工作流与 AI 智能体的构建成本与效",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "刚上手 Gemini 3.7 Flash：几十份文件秒变一份文档，实测推理提升明显",
+              "angle": "以第一人称描述实测体验，对比之前版本在多步骤任务中的表现，突出速度与整合效果，并提示需要进一步验证。",
+              "needs_hands_on": true,
+              "risk": "单来源官方推文，未亲测；具体性能提升幅度和准确率数据未公布"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "Gemini 3.7 Flash 上手攻略：Pro/Ultra 用户如何用 AI 整理海量文件",
+              "angle": "分享实际使用步骤，展示如何利用 3.7 Flash 整理文件邮件生成主文档，提供提示词技巧和避坑指南。",
+              "needs_hands_on": true,
+              "risk": "个人实际体验可能因任务复杂度不同而差异，需说明未覆盖所有场景"
+            },
+            {
+              "platform": "wechat",
+              "title": "Gemini 3.7 Flash 全面开放：AI 智能体工具调用能力升级意味着什么",
+              "angle": "从模型迭代角度分析 Gemini Spark 与 Workspace 工具调用对开发者构建智能体的影响，讨论多步骤任务的工程实践。",
+              "needs_hands_on": false,
+              "risk": "单来源信息，需关注后续官方文档和基准测试；Spark 细节尚未披露"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_e5e76630b687",
+          "creator_event_id": "creator-c7c279224dd38678",
+          "merged_story_ids": [
+            "story_e5e76630b687"
+          ],
+          "title": "中国AI竞争对手崛起，OpenAI与Anthropic陷入价格战 / OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
+          "url": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground",
+          "primary_url": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground",
+          "source": "Ars Technica：AI（RSS）",
+          "source_name": "AI HOT",
+          "source_count": 1,
+          "source_names": [
+            "Ars Technica：AI（RSS）"
+          ],
+          "score": 0.7603,
+          "importance": 0.7603,
+          "importance_score": 0.7603,
+          "importance_label": "行业动态",
+          "importance_breakdown": {
+            "editorial": 0.76,
+            "source_tier": 0.78,
+            "ai_relevance": 1.0,
+            "recency": 0.8929,
+            "story_heat": 0.0
+          },
+          "category": "industry",
+          "reasons": [
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-08-14T14:27:14Z",
+          "latest_at": "2026-08-14T14:27:14Z",
+          "persona_id": "pragmatic",
+          "persona_score": 52,
+          "persona_review": "价格战对开发者是好事，但没具体数字前先观望。",
+          "creator_score": 71.3,
+          "creator_breakdown": {
+            "relevance": 0.68,
+            "freshness": 0.9435,
+            "source": 0.5,
+            "impact": 0.76,
+            "novelty": 0.85,
+            "heat": 0.4161
+          },
+          "creator_bucket": "general_ai",
+          "primary_entity": "anthropic",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:anthropic",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "e76762fbdbcf898d8d6ff82f016be8922778c6d6",
+            "title": "中国AI竞争对手崛起，OpenAI与Anthropic陷入价格战 / OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
+            "title_zh": "中国AI竞争对手崛起，OpenAI与Anthropic陷入价格战",
+            "title_en": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
+            "title_original": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
+            "summary": "US groups release cheaper models after new challenges to their trillion-dollar ambitions.\nUS groups release cheaper models after new challenges to their trillion-dollar ambitions.\nUS groups release cheaper models after new challenges to their trillion-dollar ambitions.\nUS groups release cheaper models after new challenges to their trillion-dollar ambitions.\nLeading US AI labs such as OpenAI and Anthropic are releasing cheaper models as they fight to retain cost-conscious customers who are switch",
+            "recommend_reason_zh": "OpenAI将GPT-5.6 Luna的定价猛砍80%，输入tokens降至每百万0.2美元；Anthropic推出半价Claude Opus 5迎战，自7月中旬以来美系模型token价格已跌近四分之一，DoorDash、Airbnb等企业也转向Moonshot、DeepSeek等中国模型。",
+            "url": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground",
+            "source": "Ars Technica：AI（RSS）",
+            "source_name": "AI HOT"
+          },
+          "sources": [
+            {
+              "story_id": "story_e5e76630b687",
+              "title": "中国AI竞争对手崛起，OpenAI与Anthropic陷入价格战 / OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
+              "url": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground",
+              "source": "Ars Technica：AI（RSS）",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "OpenAI与Anthropic因中国AI对手崛起而降价，OpenAI将GPT-5.6 Luna定价砍80%至每百万输入tokens 0.2美元，Anthropic推出半价Clau",
+          "why_it_matters": "AI模型定价进入下行通道，成本敏感型应用可选更便宜的中国模型，开发者需重新评估性价比与迁移成本。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "实测GPT-5.6 Luna降价80%：每百万tokens 0.2美元到底能省多少？",
+              "angle": "第一视角对比降价前后的API调用成本，实测延迟与质量，吐槽或推荐迁移。",
+              "needs_hands_on": true,
+              "risk": "价格数据仅单一来源报道，未亲测实际定价与模型能力，需核实真实价格与可用性。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "AI API价格战避坑指南：从GPT-5.6到Claude Opus 5，怎么选最划算？",
+              "angle": "步骤化整理各模型最新定价，对比中国模型如DeepSeek/Moonshot，给出迁移建议和踩坑提醒。",
+              "needs_hands_on": true,
+              "risk": "各模型具体价格与性能数据来自单一报道，未经个人实测，需以官方定价页为准。"
+            },
+            {
+              "platform": "wechat",
+              "title": "美系AI价格战背后：中国模型的崛起如何重塑全球AI定价体系？",
+              "angle": "从产业背景切入，分析价格战对开发者生态、创业公司成本结构及AI应用商业模式的长远影响。",
+              "needs_hands_on": false,
+              "risk": "文中提及的企业转向中国模型等细节源自单一来源，需交叉验证。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_c5d24a05e351",
+          "creator_event_id": "creator-85b7adae6f3d02a4",
+          "merged_story_ids": [
+            "story_c5d24a05e351"
+          ],
+          "title": "deepseek-ai在GitHub发布awesome-deepseek-agent项目",
+          "url": "https://github.com/deepseek-ai/awesome-deepseek-agent",
+          "primary_url": "https://github.com/deepseek-ai/awesome-deepseek-agent",
+          "source": "github",
+          "source_name": "NewsNow",
+          "source_count": 1,
+          "source_names": [
+            "github"
+          ],
+          "score": 0.5208,
+          "importance": 0.5208,
+          "importance_score": 0.5208,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.468,
+            "source_tier": 0.32,
+            "ai_relevance": 0.65,
+            "recency": 1.0,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-08-14T22:18:27.119000Z",
+          "latest_at": "2026-08-14T22:18:27.119000Z",
+          "creator_score": 70.0,
+          "creator_breakdown": {
+            "relevance": 0.68,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.63,
+            "novelty": 0.85,
+            "heat": 0.3323
+          },
+          "creator_bucket": "general_ai",
+          "primary_entity": "deepseek",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:deepseek",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "f237477751808600ece43fcc184545d74ac5c42b",
+            "title": "deepseek-ai在GitHub发布awesome-deepseek-agent项目",
+            "title_zh": "deepseek-ai在GitHub发布awesome-deepseek-agent项目",
+            "title_en": "deepseek-ai /      awesome-deepseek-agent",
+            "title_original": "deepseek-ai /      awesome-deepseek-agent",
+            "url": "https://github.com/deepseek-ai/awesome-deepseek-agent",
+            "source": "github",
+            "source_name": "NewsNow"
+          },
+          "sources": [
+            {
+              "story_id": "story_c5d24a05e351",
+              "title": "deepseek-ai在GitHub发布awesome-deepseek-agent项目",
+              "url": "https://github.com/deepseek-ai/awesome-deepseek-agent",
+              "source": "github",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "deepseek-ai 在 GitHub 发布 awesome-deepseek-agent 项目，汇集 DeepSeek Agent 相关资源。目前仅单一来源，仓库内容与维护状态",
+          "why_it_matters": "官方维护的 agent 资源清单可能影响 DeepSeek 生态工具选型，但需确认内容完整性与更新频率。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "刚发现 DeepSeek 官方出了一个 agent 资源汇总",
+              "angle": "以开发者视角第一时间查看仓库，列出初步印象，突出单一来源、待实测。",
+              "needs_hands_on": true,
+              "risk": "仓库实际内容、是否官方正式发布、收录项目质量均未亲测，需打开链接核查。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "deepseek-agent 资源清单实测避坑指南",
+              "angle": "手把手带大家过一遍仓库里有哪些工具，哪些能用哪些是坑，给出使用建议。",
+              "needs_hands_on": true,
+              "risk": "清单里每个工具的具体功能和兼容性未逐一验证，避免过度承诺。"
+            },
+            {
+              "platform": "wechat",
+              "title": "DeepSeek 官方 agent 生态盘点：为什么这份清单值得关注",
+              "angle": "从 DeepSeek 生态布局角度分析官方整理资源清单的信号意义，以及对开发者的长期影响。",
+              "needs_hands_on": false,
+              "risk": "目前只有 GitHub 仓库链接，缺乏官方公告佐证，需说明为初步信号。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        }
+      ],
+      "llm_meta": {
+        "provider": "deepseek",
+        "model": "deepseek-v4-flash",
+        "calls_used": 17,
+        "cache_hits": 0,
+        "fallback_count": 0
+      },
+      "dedup_meta": {
+        "secondary_dedup_merge_count": 1,
+        "secondary_dedup_source_count": 162
+      }
+    },
     {
       "edition_id": "2026-08-14-evening",
       "edition_kind": "evening",
