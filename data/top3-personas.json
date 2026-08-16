@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T22:34:38.457744Z",
+  "generated_at": "2026-08-16T10:32:45.173542Z",
   "model": "deepseek-v4-flash",
   "personas": [
     {
@@ -21,50 +21,10 @@
   ],
   "items": [
     {
-      "story_id": "story_e27bfcf013b4",
-      "title": "OAuth 应用支持多个重定向 URI 和 Token 刷新 / Multiple redirect URIs and token refresh for OAuth apps",
-      "url": "https://github.blog/changelog/2026-08-14-multiple-redirect-uris-and-token-refresh-for-oauth-apps",
-      "rank": 1,
-      "reviews": {
-        "cynic": {
-          "score": 80,
-          "review": "总算补上了基本的OAuth功能，这不叫创新，叫还债。"
-        },
-        "paper-police": {
-          "score": 55,
-          "review": "官方 changelog 有具体功能，但无测试代码或独立验证，仅官方说法。"
-        },
-        "pragmatic": {
-          "score": 80,
-          "review": "OAuth 配置更灵活，多回调 URI 和令牌刷新今天就能用，省去绕路方案。"
-        }
-      }
-    },
-    {
-      "story_id": "story_b004ea508d1a",
-      "title": "Show HN: ThoughtDAG——用于大型语言模型对话的可编辑上下文图",
-      "url": "https://chenxiachan.github.io/thoughtdag",
-      "rank": 2,
-      "reviews": {
-        "cynic": {
-          "score": 45,
-          "review": "可编辑上下文图听着新鲜，但没给任何基准或对比，光画饼可不算数。"
-        },
-        "paper-police": {
-          "score": 30,
-          "review": "只有项目页面，无论文无代码无评测，无法验证可复现性。"
-        },
-        "pragmatic": {
-          "score": 72,
-          "review": "开源可上手，适合做复杂对话上下文管理，先跑 demo 再决定是否接入项目。"
-        }
-      }
-    },
-    {
       "story_id": "story_d572412cd374",
       "title": "使用 Codex 进行自动研究：我是如何实现内核速度提升 232 倍的",
       "url": "https://sankalp.bearblog.dev/autoresearch",
-      "rank": 3,
+      "rank": 1,
       "reviews": {
         "cynic": {
           "score": 55,
@@ -77,6 +37,46 @@
         "pragmatic": {
           "score": 62,
           "review": "自动研究案例有启发性，但依赖特定场景，直接抄作业容易翻车。"
+        }
+      }
+    },
+    {
+      "story_id": "story_fe87bc97dd0a",
+      "title": "Cursor 正式被 SpaceX 收购",
+      "url": "https://cursor.com/blog/joining-spacex",
+      "rank": 2,
+      "reviews": {
+        "cynic": {
+          "score": 15,
+          "review": "收购细节和金额全无，这不叫新闻叫段子。"
+        },
+        "paper-police": {
+          "score": 20,
+          "review": "官方博客单方说法，无第三方证实，收购真实性存疑。"
+        },
+        "pragmatic": {
+          "score": 55,
+          "review": "收购不影响现有功能，但未来走向不明，观望即可。"
+        }
+      }
+    },
+    {
+      "story_id": "story_7a8d440461c0",
+      "title": "如果LLM从未见过超出五年级水平的材料，会怎样？ / What happens when an LLM never sees material beyond fifth grade?",
+      "url": "https://news.ycombinator.com/item?id=49317760",
+      "rank": 3,
+      "reviews": {
+        "cynic": {
+          "score": 45,
+          "review": "把语料砍到五年级再测智商，这结论幼儿园大班都能猜着。"
+        },
+        "paper-police": {
+          "score": 20,
+          "review": "仅标题无细节，未提供论文或代码，难以验证实验真实性。"
+        },
+        "pragmatic": {
+          "score": 55,
+          "review": "研究向实验，验证数据质量对模型的影响，短期无工具可抄。"
         }
       }
     }
