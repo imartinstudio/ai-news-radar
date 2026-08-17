@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T22:33:38.937448Z",
+  "generated_at": "2026-08-17T10:41:31.855422Z",
   "model": "deepseek-v4-flash",
   "personas": [
     {
@@ -21,22 +21,42 @@
   ],
   "items": [
     {
-      "story_id": "story_0bf300873ab5",
-      "title": "新兴多智能体系统的模式与问题",
-      "url": "https://www.anthropic.com/research/multiagent-systems",
+      "story_id": "story_49a27a8cb3e7",
+      "title": "Codex 中 GPT-5.6 Sol 百万上下文放开：ChatGPT 账号也能用",
+      "url": "https://www.aibase.com/news/30389",
       "rank": 1,
       "reviews": {
         "cynic": {
-          "score": 90,
-          "review": "研究里讲真问题，比发布会上的'多智能体革命'实在。"
+          "score": 28,
+          "review": "百万上下文只活在PR稿里，先跑个真实长文档基准再吹。"
         },
         "paper-police": {
-          "score": 30,
-          "review": "官方分析无代码无benchmark，只有观点难验证，需附数据或论文。"
+          "score": 20,
+          "review": "仅媒体消息，无论文无代码无评测，百万上下文待第三方验证。"
         },
         "pragmatic": {
-          "score": 68,
-          "review": "多智能体开发的经验总结，无现成代码但能避坑。"
+          "score": 90,
+          "review": "百万上下文直接放开，写长文和超大代码库检索今天就能用。"
+        }
+      }
+    },
+    {
+      "story_id": "story_5df010d9d793",
+      "title": "Qwen 3.8 27B 表现出色，但默认推理强度过高导致过度思考 / Qwen 3.8 27B is excellent， but it defaults to wildly overthinking things",
+      "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b",
+      "rank": 2,
+      "reviews": {
+        "cynic": {
+          "score": 75,
+          "review": "实力在线，但默认参数像强迫症，简单问题也要绕三圈。"
+        },
+        "paper-police": {
+          "score": 25,
+          "review": "博客有观察无数据，无测评代码，过思考是无量化结论。"
+        },
+        "pragmatic": {
+          "score": 76,
+          "review": "模型很强但默认过度思考，接入时调低推理预算，省时省钱。"
         }
       }
     },
@@ -44,7 +64,7 @@
       "story_id": "story_ad56c119c312",
       "title": "Claude更新系统提示 已覆盖网页与iOS/Android应用",
       "url": "https://platform.claude.com/docs/en/release-notes/system-prompts",
-      "rank": 2,
+      "rank": 3,
       "reviews": {
         "cynic": {
           "score": 55,
@@ -57,26 +77,6 @@
         "pragmatic": {
           "score": 62,
           "review": "系统提示变了，调 API 的注意行为差异，先跑回归测试。"
-        }
-      }
-    },
-    {
-      "story_id": "story_7a8d440461c0",
-      "title": "如果LLM从未见过超出五年级水平的材料，会怎样？ / What happens when an LLM never sees material beyond fifth grade?",
-      "url": "https://news.ycombinator.com/item?id=49317760",
-      "rank": 3,
-      "reviews": {
-        "cynic": {
-          "score": 45,
-          "review": "把语料砍到五年级再测智商，这结论幼儿园大班都能猜着。"
-        },
-        "paper-police": {
-          "score": 20,
-          "review": "仅标题无细节，未提供论文或代码，难以验证实验真实性。"
-        },
-        "pragmatic": {
-          "score": 55,
-          "review": "研究向实验，验证数据质量对模型的影响，短期无工具可抄。"
         }
       }
     }
