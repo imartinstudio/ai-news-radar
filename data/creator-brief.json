@@ -1,90 +1,87 @@
 {
-  "edition_id": "2026-08-20-morning",
-  "edition_kind": "morning",
-  "generated_at": "2026-08-19T22:23:16.589369Z",
+  "edition_id": "2026-08-20-evening",
+  "edition_kind": "evening",
+  "generated_at": "2026-08-20T10:24:55.630294Z",
   "timezone": "Asia/Shanghai",
-  "total_items": 15,
+  "total_items": 13,
   "summary": {
-    "confirmed": 8,
-    "single_source": 7,
+    "confirmed": 1,
+    "single_source": 11,
     "early_signal": 0,
-    "rumor": 0,
-    "new": 15,
-    "updated": 0,
+    "rumor": 1,
+    "new": 11,
+    "updated": 2,
     "confirmed_updates": 0
   },
   "items": [
     {
-      "story_id": "story_91dc61f2b6f7",
-      "creator_event_id": "creator-9cdcbccf1568c795",
+      "story_id": "story_00c871457380",
+      "creator_event_id": "creator-f77d930fa7de7ce0",
       "merged_story_ids": [
-        "story_91dc61f2b6f7"
+        "story_00c871457380"
       ],
-      "title": "v2.1.236",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.236",
-      "primary_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.236",
+      "title": "v2.1.237",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.237",
+      "primary_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.237",
       "source": "Claude Code Releases",
       "source_name": "Curated Media",
       "source_count": 1,
       "source_names": [
         "Claude Code Releases"
       ],
-      "score": 0.6304,
-      "importance": 0.6304,
-      "importance_score": 0.6304,
+      "score": 0.6133,
+      "importance": 0.6133,
+      "importance_score": 0.6133,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.5688,
         "source_tier": 0.58,
         "ai_relevance": 0.79,
-        "recency": 0.9674,
+        "recency": 0.8727,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-08-19T20:02:05Z",
-      "latest_at": "2026-08-19T20:02:05Z",
-      "creator_score": 92.5,
+      "earliest_at": "2026-08-20T00:54:41Z",
+      "latest_at": "2026-08-20T00:54:41Z",
+      "creator_score": 83.0,
       "creator_breakdown": {
         "relevance": 1.0,
-        "freshness": 1.0,
+        "freshness": 0.9124,
         "source": 1.0,
-        "impact": 0.81,
-        "novelty": 0.85,
-        "heat": 0.3706
+        "impact": 0.43,
+        "novelty": 0.65,
+        "heat": 0.3647
       },
       "creator_bucket": "ai_coding",
       "primary_entity": "claude-code",
       "verification_status": "confirmed",
       "creator_reasons": [
         "entity:claude-code",
-        "ai_coding_terms",
-        "workflow_impact",
         "official_or_tier0_source"
       ],
       "change_type": "new",
       "primary_item": {
-        "id": "786ee5634dccccd90acd718df606a9f4d2af8524",
-        "title": "v2.1.236",
-        "title_original": "v2.1.236",
-        "summary": "What's changed\n\nAdded ANTHROPIC_DEFAULT_MODEL environment variable: sets the model new sessions start on, while a /model pick still overrides it and persists across restarts (unlike ANTHROPIC_MODEL...\nClaude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands. - Release v2.1.236 · anthropics/claude-code\nWhat&#39;s cha",
-        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.236",
+        "id": "d7f21d0642b6ba29cb4b7f625590fa9f051d3034",
+        "title": "v2.1.237",
+        "title_original": "v2.1.237",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.237",
         "source": "Claude Code Releases",
         "source_name": "Curated Media"
       },
       "sources": [
         {
-          "story_id": "story_91dc61f2b6f7",
-          "title": "v2.1.236",
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.236",
+          "story_id": "story_00c871457380",
+          "title": "v2.1.237",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.237",
           "source": "Claude Code Releases",
           "site_id": "",
           "official": true
         }
       ],
-      "summary_zh": "What's changed Added ANTHROPIC_DEFAULT_MODEL environment variable: sets the model new sess",
+      "summary_zh": "v2.1.237",
       "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
       "angles": [
         {
@@ -98,80 +95,563 @@
       "enrichment_mode": "rules_fallback"
     },
     {
-      "story_id": "story_5eb7373b87f5",
-      "creator_event_id": "creator-76a393af604b89dc",
+      "story_id": "story_638469aea104",
+      "creator_event_id": "creator-f6cb30167aa2fbb2",
       "merged_story_ids": [
-        "story_5eb7373b87f5"
+        "story_638469aea104"
       ],
-      "title": "为前沿模型提供零数据保留 / Offering Zero Data Retention for frontier models",
-      "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-      "primary_url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
+      "title": "币安现在允许人工智能代理进行交易，但控制它们很大程度上取决于用户 / Binance now lets AI agents trade, but keeping them in check is largely up to users",
+      "url": "https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users",
+      "primary_url": "https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users",
+      "source": "TechCrunch AI",
+      "source_name": "Curated Media",
       "source_count": 1,
       "source_names": [
-        "OpenAI News"
+        "TechCrunch AI"
       ],
-      "score": 0.8436,
-      "importance": 0.8436,
-      "importance_score": 0.8436,
-      "importance_label": "官方更新",
+      "score": 0.6216,
+      "importance": 0.6216,
+      "importance_score": 0.6216,
+      "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.9531,
+        "editorial": 0.5472,
+        "source_tier": 0.58,
+        "ai_relevance": 0.76,
+        "recency": 0.9879,
         "story_heat": 0.0
       },
-      "category": "official",
+      "category": "watch",
       "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
+        "recent_ai_signal"
       ],
-      "earliest_at": "2026-08-19T19:00:00Z",
-      "latest_at": "2026-08-19T19:00:00Z",
-      "creator_score": 89.3,
+      "earliest_at": "2026-08-20T09:30:00Z",
+      "latest_at": "2026-08-20T09:30:00Z",
+      "creator_score": 80.4,
       "creator_breakdown": {
-        "relevance": 0.88,
+        "relevance": 1.0,
         "freshness": 1.0,
-        "source": 1.0,
-        "impact": 0.81,
-        "novelty": 0.85,
-        "heat": 0.4453
+        "source": 0.78,
+        "impact": 0.43,
+        "novelty": 0.65,
+        "heat": 0.3676
       },
       "creator_bucket": "ai_coding",
-      "primary_entity": "openai",
-      "verification_status": "confirmed",
+      "primary_entity": "claude-code",
+      "verification_status": "single_source",
       "creator_reasons": [
-        "entity:openai",
-        "ai_coding_terms",
-        "workflow_impact",
-        "official_or_tier0_source"
+        "entity:claude-code"
       ],
-      "change_type": "new",
+      "change_type": "updated",
       "primary_item": {
-        "id": "1748b6a463c8de58fdb4ab7ec667c1548f30e9f4",
-        "title": "为前沿模型提供零数据保留 / Offering Zero Data Retention for frontier models",
-        "title_zh": "为前沿模型提供零数据保留",
-        "title_en": "Offering Zero Data Retention for frontier models",
-        "title_original": "Offering Zero Data Retention for frontier models",
-        "summary": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.\nOpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.\nOpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.\nAugust 19, 2026\nP",
-        "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-        "source": "OpenAI News",
-        "source_name": "Official AI Updates"
+        "id": "854d2cf9a8b927972193576a77e89c33beb2556e",
+        "title": "币安现在允许人工智能代理进行交易，但控制它们很大程度上取决于用户 / Binance now lets AI agents trade, but keeping them in check is largely up to users",
+        "title_zh": "币安现在允许人工智能代理进行交易，但控制它们很大程度上取决于用户",
+        "title_en": "Binance now lets AI agents trade, but keeping them in check is largely up to users",
+        "title_original": "Binance now lets AI agents trade, but keeping them in check is largely up to users",
+        "summary": "Binance's Agent OS works with tools including ChatGPT, Claude Code, and Cursor.\nBinance's Agent OS works with tools including ChatGPT, Claude Code, and Cursor.\n🚨 Flash Sale 🚨 Get $100 off your Disrupt 2026 ticket\nSave $300 on your Disrupt 2026 ticket: REGISTER NOW.\nLatest\nAI\nAmazon\nApps\nBiotech & Health\nClimate\nCloud Computing\nCommerce\nCrypto\nEnterprise\nEVs\nFintech\nFundraising\nGadgets\nGaming\nGoogle\nGovernment & Policy\nHardware\nInstagram\nLayoffs\nMedia & Entertainment\nMeta\nMicrosoft\nPrivacy\nRoboti",
+        "url": "https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users",
+        "source": "TechCrunch AI",
+        "source_name": "Curated Media"
       },
       "sources": [
         {
-          "story_id": "story_5eb7373b87f5",
-          "title": "为前沿模型提供零数据保留 / Offering Zero Data Retention for frontier models",
-          "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-          "source": "OpenAI News",
+          "story_id": "story_638469aea104",
+          "title": "币安现在允许人工智能代理进行交易，但控制它们很大程度上取决于用户 / Binance now lets AI agents trade, but keeping them in check is largely up to users",
+          "url": "https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users",
+          "source": "TechCrunch AI",
           "site_id": "",
-          "official": true
+          "official": false
         }
       ],
-      "summary_zh": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safet",
+      "summary_zh": "Binance's Agent OS works with tools including ChatGPT, Claude Code, and Cursor. Binance's ",
+      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "claude-code 这次更新真正改变了什么",
+          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
+          "needs_hands_on": true,
+          "risk": "未亲测前不要把官方描述写成实际效果。"
+        }
+      ],
+      "enrichment_mode": "rules_fallback"
+    },
+    {
+      "story_id": "story_fa80ad4bc0cb",
+      "creator_event_id": "creator-fd6a81c240cbb1c4",
+      "merged_story_ids": [
+        "story_fa80ad4bc0cb"
+      ],
+      "title": "随着 AI 模型路由的扩展，Stripe 同意收购 OpenRouter / Stripe agrees to buy OpenRouter as AI model routing expands",
+      "url": "https://www.artificialintelligence-news.com/news/stripe-openrouter-acquisition-ai-model-routing",
+      "primary_url": "https://www.artificialintelligence-news.com/news/stripe-openrouter-acquisition-ai-model-routing",
+      "source": "Artificial Intelligence News",
+      "source_name": "Curated Media",
+      "source_count": 1,
+      "source_names": [
+        "Artificial Intelligence News"
+      ],
+      "score": 0.6229,
+      "importance": 0.6229,
+      "importance_score": 0.6229,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5472,
+        "source_tier": 0.58,
+        "ai_relevance": 0.76,
+        "recency": 0.9951,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-20T10:00:00Z",
+      "latest_at": "2026-08-20T10:00:00Z",
+      "creator_score": 75.8,
+      "creator_breakdown": {
+        "relevance": 0.88,
+        "freshness": 1.0,
+        "source": 0.78,
+        "impact": 0.43,
+        "novelty": 0.55,
+        "heat": 0.368
+      },
+      "creator_bucket": "ai_coding",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "ai_coding_terms"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "4271a4f5e8a5985dbb69d0afb4e99caad902d892",
+        "title": "随着 AI 模型路由的扩展，Stripe 同意收购 OpenRouter / Stripe agrees to buy OpenRouter as AI model routing expands",
+        "title_zh": "随着 AI 模型路由的扩展，Stripe 同意收购 OpenRouter",
+        "title_en": "Stripe agrees to buy OpenRouter as AI model routing expands",
+        "title_original": "Stripe agrees to buy OpenRouter as AI model routing expands",
+        "summary": "Stripe has agreed to acquire OpenRouter, adding model-routing capabilities to its existing work around AI usage and token-billing tools.\nStripe has agreed to acquire OpenRouter, adding model-routing capabilities to its existing work around AI usage and token-billing tools.\nAI News is part of the TechForge Publications series\nTechForge\nAI Business Strategy\nMuhammad Zulhusni\nAugust 20, 2026\nShare this story:\nTags:\nCategories:\nStripe has agreed to acquire OpenRouter, an AI model-routing platform th",
+        "url": "https://www.artificialintelligence-news.com/news/stripe-openrouter-acquisition-ai-model-routing",
+        "source": "Artificial Intelligence News",
+        "source_name": "Curated Media"
+      },
+      "sources": [
+        {
+          "story_id": "story_fa80ad4bc0cb",
+          "title": "随着 AI 模型路由的扩展，Stripe 同意收购 OpenRouter / Stripe agrees to buy OpenRouter as AI model routing expands",
+          "url": "https://www.artificialintelligence-news.com/news/stripe-openrouter-acquisition-ai-model-routing",
+          "source": "Artificial Intelligence News",
+          "site_id": "",
+          "official": false
+        }
+      ],
+      "summary_zh": "Stripe has agreed to acquire OpenRouter, adding model-routing capabilities to its existing",
+      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "AI Coding 这次更新真正改变了什么",
+          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
+          "needs_hands_on": true,
+          "risk": "未亲测前不要把官方描述写成实际效果。"
+        }
+      ],
+      "enrichment_mode": "rules_fallback"
+    },
+    {
+      "story_id": "story_862f893e1ef5",
+      "creator_event_id": "creator-3c7cc56a1df5f745",
+      "merged_story_ids": [
+        "story_862f893e1ef5"
+      ],
+      "title": "一个前端的 9 天重构：我是怎么用 Codex 重做航栈的",
+      "url": "https://juejin.cn/post/7675187455232311311",
+      "primary_url": "https://juejin.cn/post/7675187455232311311",
+      "source": "juejin",
+      "source_name": "NewsNow",
+      "source_count": 1,
+      "source_names": [
+        "juejin"
+      ],
+      "score": 0.52,
+      "importance": 0.52,
+      "importance_score": 0.52,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9957,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-20T10:02:33.008000Z",
+      "latest_at": "2026-08-20T10:02:33.008000Z",
+      "creator_score": 74.6,
+      "creator_breakdown": {
+        "relevance": 1.0,
+        "freshness": 1.0,
+        "source": 0.5,
+        "impact": 0.43,
+        "novelty": 0.65,
+        "heat": 0.332
+      },
+      "creator_bucket": "ai_coding",
+      "primary_entity": "codex",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "entity:codex"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "69f80d22547f6deebd2f824917b5315007386e94",
+        "title": "一个前端的 9 天重构：我是怎么用 Codex 重做航栈的",
+        "title_zh": "一个前端的 9 天重构：我是怎么用 Codex 重做航栈的",
+        "title_original": "一个前端的 9 天重构：我是怎么用 Codex 重做航栈的",
+        "url": "https://juejin.cn/post/7675187455232311311",
+        "source": "juejin",
+        "source_name": "NewsNow"
+      },
+      "sources": [
+        {
+          "story_id": "story_862f893e1ef5",
+          "title": "一个前端的 9 天重构：我是怎么用 Codex 重做航栈的",
+          "url": "https://juejin.cn/post/7675187455232311311",
+          "source": "juejin",
+          "site_id": "",
+          "official": false
+        }
+      ],
+      "summary_zh": "一个前端的 9 天重构：我是怎么用 Codex 重做航栈的",
+      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "codex 这次更新真正改变了什么",
+          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
+          "needs_hands_on": true,
+          "risk": "未亲测前不要把官方描述写成实际效果。"
+        }
+      ],
+      "enrichment_mode": "rules_fallback"
+    },
+    {
+      "story_id": "story_41f4a70159de",
+      "creator_event_id": "creator-98df0cd549a3884e",
+      "merged_story_ids": [
+        "story_41f4a70159de"
+      ],
+      "title": "Asana 通过 Codex 在 2 周内完成了 5 年的工程工作 / Asana cleared 5 years of engineering work in 2 weeks with Codex",
+      "url": "https://openai.com/index/asana",
+      "primary_url": "https://openai.com/index/asana",
+      "source": "Hacker News · 24h最热",
+      "source_name": "Zeli",
+      "source_count": 1,
+      "source_names": [
+        "Hacker News · 24h最热"
+      ],
+      "score": 0.5096,
+      "importance": 0.5096,
+      "importance_score": 0.5096,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.938,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-20T05:54:20Z",
+      "latest_at": "2026-08-20T05:54:20Z",
+      "creator_score": 74.6,
+      "creator_breakdown": {
+        "relevance": 1.0,
+        "freshness": 1.0,
+        "source": 0.5,
+        "impact": 0.43,
+        "novelty": 0.65,
+        "heat": 0.3284
+      },
+      "creator_bucket": "ai_coding",
+      "primary_entity": "codex",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "entity:codex"
+      ],
+      "change_type": "updated",
+      "primary_item": {
+        "id": "481b39d641e66bf81e1e738e08577c8ec9522b23",
+        "title": "Asana 通过 Codex 在 2 周内完成了 5 年的工程工作 / Asana cleared 5 years of engineering work in 2 weeks with Codex",
+        "title_zh": "Asana 通过 Codex 在 2 周内完成了 5 年的工程工作",
+        "title_en": "Asana cleared 5 years of engineering work in 2 weeks with Codex",
+        "title_original": "Asana cleared 5 years of engineering work in 2 weeks with Codex",
+        "url": "https://openai.com/index/asana",
+        "source": "Hacker News · 24h最热",
+        "source_name": "Zeli"
+      },
+      "sources": [
+        {
+          "story_id": "story_41f4a70159de",
+          "title": "Asana 通过 Codex 在 2 周内完成了 5 年的工程工作 / Asana cleared 5 years of engineering work in 2 weeks with Codex",
+          "url": "https://openai.com/index/asana",
+          "source": "Hacker News · 24h最热",
+          "site_id": "",
+          "official": false
+        }
+      ],
+      "summary_zh": "Asana 通过 Codex 在 2 周内完成了 5 年的工程工作 / Asana cleared 5 years of engineering work in 2 weeks w",
+      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "codex 这次更新真正改变了什么",
+          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
+          "needs_hands_on": true,
+          "risk": "未亲测前不要把官方描述写成实际效果。"
+        }
+      ],
+      "enrichment_mode": "rules_fallback"
+    },
+    {
+      "story_id": "story_d31209099379",
+      "creator_event_id": "creator-08fbc1fecee14101",
+      "merged_story_ids": [
+        "story_d31209099379"
+      ],
+      "title": "Show HN：将网站转变为微型 CLI，以便 Claude Code 节省代币 / Show HN: Turning websites into micro CLIs for Claude Code to save on tokens",
+      "url": "https://github.com/only-cli/oc",
+      "primary_url": "https://github.com/only-cli/oc",
+      "source": "HN Algolia · AI 24h",
+      "source_name": "Hacker News",
+      "source_count": 1,
+      "source_names": [
+        "HN Algolia · AI 24h"
+      ],
+      "score": 0.4902,
+      "importance": 0.4902,
+      "importance_score": 0.4902,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.83,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-19T21:26:15Z",
+      "latest_at": "2026-08-19T21:26:15Z",
+      "creator_score": 72.7,
+      "creator_breakdown": {
+        "relevance": 1.0,
+        "freshness": 0.8256,
+        "source": 0.58,
+        "impact": 0.43,
+        "novelty": 0.65,
+        "heat": 0.3216
+      },
+      "creator_bucket": "ai_coding",
+      "primary_entity": "claude-code",
+      "verification_status": "rumor",
+      "creator_reasons": [
+        "entity:claude-code",
+        "ai_coding_terms"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "2912e0b8f7075c9db3be810cc5c2b70a68980759",
+        "title": "Show HN：将网站转变为微型 CLI，以便 Claude Code 节省代币 / Show HN: Turning websites into micro CLIs for Claude Code to save on tokens",
+        "title_zh": "Show HN：将网站转变为微型 CLI，以便 Claude Code 节省代币",
+        "title_en": "Show HN: Turning websites into micro CLIs for Claude Code to save on tokens",
+        "title_original": "Show HN: Turning websites into micro CLIs for Claude Code to save on tokens",
+        "url": "https://github.com/only-cli/oc",
+        "source": "HN Algolia · AI 24h",
+        "source_name": "Hacker News"
+      },
+      "sources": [
+        {
+          "story_id": "story_d31209099379",
+          "title": "Show HN：将网站转变为微型 CLI，以便 Claude Code 节省代币 / Show HN: Turning websites into micro CLIs for Claude Code to save on tokens",
+          "url": "https://github.com/only-cli/oc",
+          "source": "HN Algolia · AI 24h",
+          "site_id": "",
+          "official": false
+        }
+      ],
+      "summary_zh": "Show HN：将网站转变为微型 CLI，以便 Claude Code 节省代币 / Show HN: Turning websites into micro CLIs for C",
+      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "claude-code 这次更新真正改变了什么",
+          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
+          "needs_hands_on": true,
+          "risk": "未亲测前不要把官方描述写成实际效果。"
+        }
+      ],
+      "enrichment_mode": "rules_fallback"
+    },
+    {
+      "story_id": "story_054ab8afbe75",
+      "creator_event_id": "creator-6d132d3b15959c78",
+      "merged_story_ids": [
+        "story_054ab8afbe75"
+      ],
+      "title": "Android 版 MCP 正式登场：AppFunctions",
+      "url": "https://juejin.cn/post/7674818950488932398",
+      "primary_url": "https://juejin.cn/post/7674818950488932398",
+      "source": "juejin",
+      "source_name": "NewsNow",
+      "source_count": 1,
+      "source_names": [
+        "juejin"
+      ],
+      "score": 0.52,
+      "importance": 0.52,
+      "importance_score": 0.52,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9957,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-20T10:02:33.008000Z",
+      "latest_at": "2026-08-20T10:02:33.008000Z",
+      "creator_score": 71.6,
+      "creator_breakdown": {
+        "relevance": 0.9,
+        "freshness": 1.0,
+        "source": 0.5,
+        "impact": 0.43,
+        "novelty": 0.65,
+        "heat": 0.332
+      },
+      "creator_bucket": "ai_coding",
+      "primary_entity": "mcp",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "entity:mcp",
+        "ai_coding_terms"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "9a15c5fd5a7889676dc1905e4cf0a63eb84435c5",
+        "title": "Android 版 MCP 正式登场：AppFunctions",
+        "title_zh": "Android 版 MCP 正式登场：AppFunctions",
+        "title_original": "Android 版 MCP 正式登场：AppFunctions",
+        "url": "https://juejin.cn/post/7674818950488932398",
+        "source": "juejin",
+        "source_name": "NewsNow"
+      },
+      "sources": [
+        {
+          "story_id": "story_054ab8afbe75",
+          "title": "Android 版 MCP 正式登场：AppFunctions",
+          "url": "https://juejin.cn/post/7674818950488932398",
+          "source": "juejin",
+          "site_id": "",
+          "official": false
+        }
+      ],
+      "summary_zh": "Android 版 MCP 正式登场：AppFunctions",
+      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "mcp 这次更新真正改变了什么",
+          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
+          "needs_hands_on": true,
+          "risk": "未亲测前不要把官方描述写成实际效果。"
+        }
+      ],
+      "enrichment_mode": "rules_fallback"
+    },
+    {
+      "story_id": "story_20942fdcc0cb",
+      "creator_event_id": "creator-08b3cf1e1a7f60bf",
+      "merged_story_ids": [
+        "story_20942fdcc0cb"
+      ],
+      "title": "OpenAI升级Codex安全防护，新增危险操作拦截与权限控制",
+      "url": "https://www.aibase.com/news/30495",
+      "primary_url": "https://www.aibase.com/news/30495",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-20T10:20:26.929894Z",
+      "latest_at": "2026-08-20T10:20:26.929894Z",
+      "creator_score": 71.4,
+      "creator_breakdown": {
+        "relevance": 0.88,
+        "freshness": 1.0,
+        "source": 0.5,
+        "impact": 0.43,
+        "novelty": 0.65,
+        "heat": 0.4187
+      },
+      "creator_bucket": "ai_coding",
+      "primary_entity": "openai",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "entity:openai",
+        "ai_coding_terms"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "651ff7fbcf2e21de28c647cf4af49aa3ade5a8c4",
+        "title": "OpenAI升级Codex安全防护，新增危险操作拦截与权限控制",
+        "title_zh": "OpenAI升级Codex安全防护，新增危险操作拦截与权限控制",
+        "title_original": "OpenAI升级Codex安全防护，新增危险操作拦截与权限控制",
+        "summary": "OpenAI announced an upgrade to the security system of its AI coding agent Codex, implementing multiple security measures to reduce the risk of potential destruc\nOpenAI announced an upgrade to the security system of its AI coding agent Codex, implementing multiple security measures to reduce the risk of potential destruc\nOpenAI announced an upgrade to the security system of its AI coding agent Codex, implementing multiple security measures to reduce the risk of potential destruc\nExplore AI Fronti",
+        "url": "https://www.aibase.com/news/30495",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      },
+      "sources": [
+        {
+          "story_id": "story_20942fdcc0cb",
+          "title": "OpenAI升级Codex安全防护，新增危险操作拦截与权限控制",
+          "url": "https://www.aibase.com/news/30495",
+          "source": "AIbase",
+          "site_id": "",
+          "official": false
+        }
+      ],
+      "summary_zh": "OpenAI announced an upgrade to the security system of its AI coding agent Codex, implement",
       "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
       "angles": [
         {
@@ -185,412 +665,76 @@
       "enrichment_mode": "rules_fallback"
     },
     {
-      "story_id": "story_24b8f639b701",
-      "creator_event_id": "creator-c00b325b0ede137b",
+      "story_id": "story_8d7d53a3e367",
+      "creator_event_id": "creator-3214a70f59125b01",
       "merged_story_ids": [
-        "story_24b8f639b701"
+        "story_8d7d53a3e367"
       ],
-      "title": "跟踪组织代码质量趋势 / Track organization code quality trends",
-      "url": "https://github.blog/changelog/2026-08-19-track-organization-code-quality-trends",
-      "primary_url": "https://github.blog/changelog/2026-08-19-track-organization-code-quality-trends",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
+      "title": "DeepSeek Harness重磅更新：多模态支持全面上线，意外剧透V4视觉版动向",
+      "url": "https://www.aibase.com/news/30508",
+      "primary_url": "https://www.aibase.com/news/30508",
+      "source": "AIbase",
+      "source_name": "AIbase",
       "source_count": 1,
       "source_names": [
-        "GitHub Changelog"
+        "AIbase"
       ],
-      "score": 0.8212,
-      "importance": 0.8212,
-      "importance_score": 0.8212,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.8733,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-19T12:56:57Z",
-      "latest_at": "2026-08-19T12:56:57Z",
-      "creator_score": 86.5,
-      "creator_breakdown": {
-        "relevance": 0.88,
-        "freshness": 0.914,
-        "source": 1.0,
-        "impact": 0.81,
-        "novelty": 0.75,
-        "heat": 0.4374
-      },
-      "creator_bucket": "ai_coding",
-      "verification_status": "confirmed",
-      "creator_reasons": [
-        "ai_coding_terms",
-        "workflow_impact",
-        "official_or_tier0_source"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "52ef45c1784e20e142910f5a0f3a0f9f9bc3454f",
-        "title": "跟踪组织代码质量趋势 / Track organization code quality trends",
-        "title_zh": "跟踪组织代码质量趋势",
-        "title_en": "Track organization code quality trends",
-        "title_original": "Track organization code quality trends",
-        "summary": "The organization-level Code Quality dashboard now includes a Trends tab that shows how code quality has changed across your repositories over time. Instead of a point-in-time snapshot, you can see…\nThe organization-level Code Quality dashboard now includes a Trends tab that shows how code quality has changed across your repositories over time. Instead of a point-in-time snapshot, you can see whether open findings are trending up or down and which repositories are driving the change.\nWith this re",
-        "url": "https://github.blog/changelog/2026-08-19-track-organization-code-quality-trends",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      },
-      "sources": [
-        {
-          "story_id": "story_24b8f639b701",
-          "title": "跟踪组织代码质量趋势 / Track organization code quality trends",
-          "url": "https://github.blog/changelog/2026-08-19-track-organization-code-quality-trends",
-          "source": "GitHub Changelog",
-          "site_id": "",
-          "official": true
-        }
-      ],
-      "summary_zh": "The organization-level Code Quality dashboard now includes a Trends tab that shows how cod",
-      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "AI Coding 这次更新真正改变了什么",
-          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-          "needs_hands_on": true,
-          "risk": "未亲测前不要把官方描述写成实际效果。"
-        }
-      ],
-      "enrichment_mode": "rules_fallback"
-    },
-    {
-      "story_id": "story_c773429fa020",
-      "creator_event_id": "creator-d77c3af663abb816",
-      "merged_story_ids": [
-        "story_c773429fa020"
-      ],
-      "title": "适合初学者的 GitHub Copilot 应用程序：管理您的工作 / GitHub Copilot app for Beginners: Managing your work",
-      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-managing-your-work",
-      "primary_url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-managing-your-work",
-      "source": "GitHub AI & ML",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
-      "source_names": [
-        "GitHub AI & ML"
-      ],
-      "score": 0.8407,
-      "importance": 0.8407,
-      "importance_score": 0.8407,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.9372,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-19T17:50:23Z",
-      "latest_at": "2026-08-19T17:50:23Z",
-      "creator_score": 83.7,
-      "creator_breakdown": {
-        "relevance": 0.95,
-        "freshness": 1.0,
-        "source": 1.0,
-        "impact": 0.43,
-        "novelty": 0.65,
-        "heat": 0.4442
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "github-copilot",
-      "verification_status": "confirmed",
-      "creator_reasons": [
-        "entity:github-copilot",
-        "official_or_tier0_source"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "b9db6e949ee8eb8a7ffc8c1b6c3687e407eca048",
-        "title": "适合初学者的 GitHub Copilot 应用程序：管理您的工作 / GitHub Copilot app for Beginners: Managing your work",
-        "title_zh": "适合初学者的 GitHub Copilot 应用程序：管理您的工作",
-        "title_en": "GitHub Copilot app for Beginners: Managing your work",
-        "title_original": "GitHub Copilot app for Beginners: Managing your work",
-        "summary": "If you’re juggling multiple Copilot sessions, use the My work pane to track what's in flight, what's done, and what's next.\nIf you’re juggling multiple Copilot sessions, use the My work pane to track what's in flight, what's done, and what's next.\nIf you’re juggling multiple Copilot sessions, use the My work pane to track what’s in flight, what’s done, and what’s next.\nThis is the third post in our GitHub Copilot app for Beginners series. If you’re just joining us, check out, GitHub Copilot app ",
-        "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-managing-your-work",
-        "source": "GitHub AI & ML",
-        "source_name": "Official AI Updates"
-      },
-      "sources": [
-        {
-          "story_id": "story_c773429fa020",
-          "title": "适合初学者的 GitHub Copilot 应用程序：管理您的工作 / GitHub Copilot app for Beginners: Managing your work",
-          "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-managing-your-work",
-          "source": "GitHub AI & ML",
-          "site_id": "",
-          "official": false
-        }
-      ],
-      "summary_zh": "If you’re juggling multiple Copilot sessions, use the My work pane to track what's in flig",
-      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "github-copilot 这次更新真正改变了什么",
-          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-          "needs_hands_on": true,
-          "risk": "未亲测前不要把官方描述写成实际效果。"
-        }
-      ],
-      "enrichment_mode": "rules_fallback"
-    },
-    {
-      "story_id": "story_ad1cf550f418",
-      "creator_event_id": "creator-0a5a5287684ec71e",
-      "merged_story_ids": [
-        "story_ad1cf550f418"
-      ],
-      "title": "Anthropic 在网络关键能力时代放缓模型开发：暂停 RL 训练并强化安全防护",
-      "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
-      "primary_url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_name": "AI HOT",
-      "source_count": 1,
-      "source_names": [
-        "Hacker News 热门（buzzing.cc 中文翻译）"
-      ],
-      "score": 0.791,
-      "importance": 0.791,
-      "importance_score": 0.791,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.991,
-        "story_heat": 0.25
+        "recency": 1.0,
+        "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-08-19T21:42:09.969000Z",
-      "latest_at": "2026-08-19T21:42:09.969000Z",
-      "creator_score": 82.2,
+      "earliest_at": "2026-08-20T10:20:26.929894Z",
+      "latest_at": "2026-08-20T10:20:26.929894Z",
+      "creator_score": 74.3,
       "creator_breakdown": {
-        "relevance": 0.88,
-        "freshness": 1.0,
-        "source": 1.0,
-        "impact": 0.43,
-        "novelty": 0.65,
-        "heat": 0.5768
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "anthropic",
-      "verification_status": "confirmed",
-      "creator_reasons": [
-        "entity:anthropic",
-        "ai_coding_terms",
-        "official_or_tier0_source"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "ce2c0cdfe4ae069b6dfff67d4b091934d6e3d942",
-        "title": "Anthropic 在网络关键能力时代放缓模型开发：暂停 RL 训练并强化安全防护",
-        "title_zh": "Anthropic 在网络关键能力时代放缓模型开发：暂停 RL 训练并强化安全防护",
-        "title_original": "Anthropic 在网络关键能力时代放缓模型开发：暂停 RL 训练并强化安全防护",
-        "summary": "Anthropic 因 OpenAI-Hugging Face 事件及即将推出的 Astra 模型可能达到\"关键网络安全能力阈值\"，暂时放缓模型扩展速度，包括暂停最新模型两周的强化学习（RL）训练。公司已加强研究环境安全要求，包括工作负载隔离、网络隔离和持续安全测试，并扩大思维链监控范围。涉及 Astra 或网络模型的工作负载需满足最严格安全标准，部分训练和评估工作仍处于暂停状态。",
-        "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "source_name": "AI HOT"
-      },
-      "sources": [
-        {
-          "story_id": "story_ad1cf550f418",
-          "title": "Anthropic 在网络关键能力时代放缓模型开发：暂停 RL 训练并强化安全防护",
-          "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "site_id": "",
-          "official": false
-        }
-      ],
-      "summary_zh": "Anthropic 因 OpenAI-Hugging Face 事件及即将推出的 Astra 模型可能达到\"关键网络安全能力阈值\"，暂时放缓模型扩展速度，包括暂停最新模型两周的强化",
-      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "anthropic 这次更新真正改变了什么",
-          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-          "needs_hands_on": true,
-          "risk": "未亲测前不要把官方描述写成实际效果。"
-        }
-      ],
-      "enrichment_mode": "rules_fallback"
-    },
-    {
-      "story_id": "story_e3b2dd25e7af",
-      "creator_event_id": "creator-582129f520bf6fa0",
-      "merged_story_ids": [
-        "story_e3b2dd25e7af"
-      ],
-      "title": "不看一行代码！我用AI把爆火的“宝宝三假医院”做成了小程序",
-      "url": "https://waytoagi.feishu.cn/wiki/Voa1wqJ9LiEHaikYVLbcObMwnsf?from=from_copylink",
-      "primary_url": "https://waytoagi.feishu.cn/wiki/Voa1wqJ9LiEHaikYVLbcObMwnsf?from=from_copylink",
-      "source": "社区更新 · 2026-08-19",
-      "source_name": "WaytoAGI",
-      "source_count": 1,
-      "source_names": [
-        "社区更新 · 2026-08-19"
-      ],
-      "score": 0.5692,
-      "importance": 0.5692,
-      "importance_score": 0.5692,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.54,
-        "ai_relevance": 0.65,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-19T22:19:42.451829Z",
-      "latest_at": "2026-08-19T22:19:42.451829Z",
-      "creator_score": 79.7,
-      "creator_breakdown": {
-        "relevance": 0.88,
+        "relevance": 0.68,
         "freshness": 1.0,
         "source": 0.5,
-        "impact": 0.94,
-        "novelty": 0.75,
-        "heat": 0.3492
-      },
-      "creator_bucket": "ai_coding",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "ai_coding_terms",
-        "workflow_impact"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "0a30521e40e2ed51cabd0fce6b37eaad87955906",
-        "title": "不看一行代码！我用AI把爆火的“宝宝三假医院”做成了小程序",
-        "title_zh": "不看一行代码！我用AI把爆火的“宝宝三假医院”做成了小程序",
-        "title_original": "不看一行代码！我用AI把爆火的“宝宝三假医院”做成了小程序",
-        "summary": "从梳理需求、产出开发文档、统一视觉，到AI生成代码、素材托管、真机调试，再搞定类目审核卡点完成上线。梦飞把整个小程序的流程都从头走了一遍，还复盘了一些实操过程中的踩坑经验。普通人可以照搬这套思路，快速把想法变成可上线的小程序产品。",
-        "url": "https://waytoagi.feishu.cn/wiki/Voa1wqJ9LiEHaikYVLbcObMwnsf?from=from_copylink",
-        "source": "社区更新 · 2026-08-19",
-        "source_name": "WaytoAGI"
-      },
-      "sources": [
-        {
-          "story_id": "story_e3b2dd25e7af",
-          "title": "不看一行代码！我用AI把爆火的“宝宝三假医院”做成了小程序",
-          "url": "https://waytoagi.feishu.cn/wiki/Voa1wqJ9LiEHaikYVLbcObMwnsf?from=from_copylink",
-          "source": "社区更新 · 2026-08-19",
-          "site_id": "",
-          "official": false
-        }
-      ],
-      "summary_zh": "从梳理需求、产出开发文档、统一视觉，到AI生成代码、素材托管、真机调试，再搞定类目审核卡点完成上线。梦飞把整个小程序的流程都从头走了一遍，还复盘了一些实操过程中的踩坑经验。普通人可",
-      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "AI Coding 这次更新真正改变了什么",
-          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-          "needs_hands_on": true,
-          "risk": "未亲测前不要把官方描述写成实际效果。"
-        }
-      ],
-      "enrichment_mode": "rules_fallback"
-    },
-    {
-      "story_id": "story_c46fbea17e21",
-      "creator_event_id": "creator-94e01a65fd6b054f",
-      "merged_story_ids": [
-        "story_c46fbea17e21"
-      ],
-      "title": "DeepSeek harness 必装的 7 个插件，让你的使用体感翻倍",
-      "url": "https://waytoagi.feishu.cn/wiki/PpQzwwRV9iwCC6kpSnOcyT95n4b?from=from_copylink",
-      "primary_url": "https://waytoagi.feishu.cn/wiki/PpQzwwRV9iwCC6kpSnOcyT95n4b?from=from_copylink",
-      "source": "社区更新 · 2026-08-19",
-      "source_name": "WaytoAGI",
-      "source_count": 1,
-      "source_names": [
-        "社区更新 · 2026-08-19"
-      ],
-      "score": 0.5692,
-      "importance": 0.5692,
-      "importance_score": 0.5692,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.54,
-        "ai_relevance": 0.65,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-19T22:19:42.451829Z",
-      "latest_at": "2026-08-19T22:19:42.451829Z",
-      "creator_score": 78.8,
-      "creator_breakdown": {
-        "relevance": 0.88,
-        "freshness": 1.0,
-        "source": 0.5,
-        "impact": 0.81,
+        "impact": 0.89,
         "novelty": 0.85,
-        "heat": 0.3492
+        "heat": 0.4187
       },
-      "creator_bucket": "ai_coding",
+      "creator_bucket": "general_ai",
       "primary_entity": "deepseek",
       "verification_status": "single_source",
       "creator_reasons": [
         "entity:deepseek",
-        "ai_coding_terms",
         "workflow_impact"
       ],
       "change_type": "new",
       "primary_item": {
-        "id": "cd1afb647ca72ffae8da7d4137b5fc3d6732c638",
-        "title": "DeepSeek harness 必装的 7 个插件，让你的使用体感翻倍",
-        "title_zh": "DeepSeek harness 必装的 7 个插件，让你的使用体感翻倍",
-        "title_original": "DeepSeek harness 必装的 7 个插件，让你的使用体感翻倍",
-        "summary": "很多人本地部署了DeepSeek harness，能力还没有体验，就发现连文件都不能上传给AI分析，生成的文件还需要下载到本地预览。作者整理了7个DeepSeek harness必装的插件，可以让你的使用体感翻倍。",
-        "url": "https://waytoagi.feishu.cn/wiki/PpQzwwRV9iwCC6kpSnOcyT95n4b?from=from_copylink",
-        "source": "社区更新 · 2026-08-19",
-        "source_name": "WaytoAGI"
+        "id": "df6e8786b483bebf33a0fd03556d12f55bcb7285",
+        "title": "DeepSeek Harness重磅更新：多模态支持全面上线，意外剧透V4视觉版动向",
+        "title_zh": "DeepSeek Harness重磅更新：多模态支持全面上线，意外剧透V4视觉版动向",
+        "title_original": "DeepSeek Harness重磅更新：多模态支持全面上线，意外剧透V4视觉版动向",
+        "summary": "Just seven days after its release, the open-source intelligent agent tool DeepSeek Harness has already received a new version update, officially introducing enh\nJust seven days after its release, the open-source intelligent agent tool DeepSeek Harness has already received a new version update, officially introducing enh\nJust seven days after its release, the open-source intelligent agent tool DeepSeek Harness has already received a new version update, officially introducing enh\nExplore AI Fronti",
+        "url": "https://www.aibase.com/news/30508",
+        "source": "AIbase",
+        "source_name": "AIbase"
       },
       "sources": [
         {
-          "story_id": "story_c46fbea17e21",
-          "title": "DeepSeek harness 必装的 7 个插件，让你的使用体感翻倍",
-          "url": "https://waytoagi.feishu.cn/wiki/PpQzwwRV9iwCC6kpSnOcyT95n4b?from=from_copylink",
-          "source": "社区更新 · 2026-08-19",
+          "story_id": "story_8d7d53a3e367",
+          "title": "DeepSeek Harness重磅更新：多模态支持全面上线，意外剧透V4视觉版动向",
+          "url": "https://www.aibase.com/news/30508",
+          "source": "AIbase",
           "site_id": "",
           "official": false
         }
       ],
-      "summary_zh": "很多人本地部署了DeepSeek harness，能力还没有体验，就发现连文件都不能上传给AI分析，生成的文件还需要下载到本地预览。作者整理了7个DeepSeek harness必",
+      "summary_zh": "Just seven days after its release, the open-source intelligent agent tool DeepSeek Harness",
       "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
       "angles": [
         {
@@ -604,462 +748,46 @@
       "enrichment_mode": "rules_fallback"
     },
     {
-      "story_id": "story_fe9df585279b",
-      "creator_event_id": "creator-657001eb3e95985b",
+      "story_id": "story_a6a38128dce9",
+      "creator_event_id": "creator-797e0daa73cf66f0",
       "merged_story_ids": [
-        "story_fe9df585279b"
+        "story_a6a38128dce9"
       ],
-      "title": "Replit 使用 GPT-5.6 Luna 扩展了软件创建的范围 / Replit expands access to software creation with GPT-5.6 Luna",
-      "url": "https://openai.com/index/replit",
-      "primary_url": "https://openai.com/index/replit",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
+      "title": "MiniMax Design发布:用自然语言“指挥”视频创作，告别逐帧编辑",
+      "url": "https://www.aibase.com/news/30503",
+      "primary_url": "https://www.aibase.com/news/30503",
+      "source": "AIbase",
+      "source_name": "AIbase",
       "source_count": 1,
       "source_names": [
-        "OpenAI News"
+        "AIbase"
       ],
-      "score": 0.8243,
-      "importance": 0.8243,
-      "importance_score": 0.8243,
-      "importance_label": "官方更新",
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.8014,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-19T07:00:00Z",
-      "latest_at": "2026-08-19T07:00:00Z",
-      "creator_score": 76.8,
-      "creator_breakdown": {
-        "relevance": 0.88,
-        "freshness": 0.7653,
-        "source": 1.0,
-        "impact": 0.43,
-        "novelty": 0.65,
-        "heat": 0.4385
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "openai",
-      "verification_status": "confirmed",
-      "creator_reasons": [
-        "entity:openai",
-        "ai_coding_terms",
-        "official_or_tier0_source"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "d71879ede3f1afde8a969f61c2b4f4fabe2c6ba5",
-        "title": "Replit 使用 GPT-5.6 Luna 扩展了软件创建的范围 / Replit expands access to software creation with GPT-5.6 Luna",
-        "title_zh": "Replit 使用 GPT-5.6 Luna 扩展了软件创建的范围",
-        "title_en": "Replit expands access to software creation with GPT-5.6 Luna",
-        "title_original": "Replit expands access to software creation with GPT-5.6 Luna",
-        "summary": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.\nReplit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.\nReplit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.\nAugust 19, 2026\nReplit is introducing Free Mode, powered by GPT‑5.6 Luna, so anyone can t",
-        "url": "https://openai.com/index/replit",
-        "source": "OpenAI News",
-        "source_name": "Official AI Updates"
-      },
-      "sources": [
-        {
-          "story_id": "story_fe9df585279b",
-          "title": "Replit 使用 GPT-5.6 Luna 扩展了软件创建的范围 / Replit expands access to software creation with GPT-5.6 Luna",
-          "url": "https://openai.com/index/replit",
-          "source": "OpenAI News",
-          "site_id": "",
-          "official": true
-        }
-      ],
-      "summary_zh": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into workin",
-      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "openai 这次更新真正改变了什么",
-          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-          "needs_hands_on": true,
-          "risk": "未亲测前不要把官方描述写成实际效果。"
-        }
-      ],
-      "enrichment_mode": "rules_fallback"
-    },
-    {
-      "story_id": "story_73e40e7825ae",
-      "creator_event_id": "creator-ce9d0943d1e57d3b",
-      "merged_story_ids": [
-        "story_73e40e7825ae"
-      ],
-      "title": "Origin by Cursor",
-      "url": "https://www.producthunt.com/products/cursor",
-      "primary_url": "https://www.producthunt.com/products/cursor",
-      "source": "producthunt",
-      "source_name": "NewsNow",
-      "source_count": 1,
-      "source_names": [
-        "producthunt"
-      ],
-      "score": 0.52,
-      "importance": 0.52,
-      "importance_score": 0.52,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9958,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-19T22:02:02.654000Z",
-      "latest_at": "2026-08-19T22:02:02.654000Z",
-      "creator_score": 74.6,
-      "creator_breakdown": {
-        "relevance": 1.0,
-        "freshness": 1.0,
-        "source": 0.5,
-        "impact": 0.43,
-        "novelty": 0.65,
-        "heat": 0.332
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "cursor",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "entity:cursor"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "06982782f23895456db0d29630f4327178bdfbc5",
-        "title": "Origin by Cursor",
-        "title_en": "Origin by Cursor",
-        "title_original": "Origin by Cursor",
-        "url": "https://www.producthunt.com/products/cursor",
-        "source": "producthunt",
-        "source_name": "NewsNow"
-      },
-      "sources": [
-        {
-          "story_id": "story_73e40e7825ae",
-          "title": "Origin by Cursor",
-          "url": "https://www.producthunt.com/products/cursor",
-          "source": "producthunt",
-          "site_id": "",
-          "official": false
-        }
-      ],
-      "summary_zh": "Origin by Cursor",
-      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "cursor 这次更新真正改变了什么",
-          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-          "needs_hands_on": true,
-          "risk": "未亲测前不要把官方描述写成实际效果。"
-        }
-      ],
-      "enrichment_mode": "rules_fallback"
-    },
-    {
-      "story_id": "story_be580d9263f2",
-      "creator_event_id": "creator-3d06c7f61186fc1f",
-      "merged_story_ids": [
-        "story_be580d9263f2"
-      ],
-      "title": "Liquid AI 发布 LFM2.5 系列 QAD Q4_0 量化检查点，恢复 97% 精度损失 / LFM2.5 Q4\\_0 Checkpoints from Quantization-Aware Distillation",
-      "url": "https://huggingface.co/blog/LiquidAI/qad",
-      "primary_url": "https://huggingface.co/blog/LiquidAI/qad",
-      "source": "Hugging Face Blog",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "score": 0.8392,
-      "importance": 0.8392,
-      "importance_score": 0.8392,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.8843,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-19T13:48:49Z",
-      "latest_at": "2026-08-19T13:48:49Z",
-      "creator_score": 79.3,
-      "creator_breakdown": {
-        "relevance": 0.65,
-        "freshness": 0.9356,
-        "source": 1.0,
-        "impact": 0.76,
-        "novelty": 0.75,
-        "heat": 0.4437
-      },
-      "creator_bucket": "general_ai",
-      "verification_status": "confirmed",
-      "creator_reasons": [
-        "workflow_impact",
-        "official_or_tier0_source"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "62faba33f1940cf562ff65cd39d1d90d837fd659",
-        "title": "Liquid AI 发布 LFM2.5 系列 QAD Q4_0 量化检查点，恢复 97% 精度损失 / LFM2.5 Q4\\_0 Checkpoints from Quantization-Aware Distillation",
-        "title_zh": "Liquid AI 发布 LFM2.5 系列 QAD Q4_0 量化检查点，恢复 97% 精度损失",
-        "title_en": "LFM2.5 Q4\\_0 Checkpoints from Quantization-Aware Distillation",
-        "title_original": "LFM2.5 Q4\\_0 Checkpoints from Quantization-Aware Distillation",
-        "summary": "A Blog post by Liquid AI on Hugging Face\nA Blog post by Liquid AI on Hugging Face\nBenchmark results Speed and size on real edge hardware How to use QAD GGUFs Get Started with QAD GGUFs Citation Today, we release QAD Q4_0 GGUFs. These are updated 4-bit checkpoints for LFM2.5-230M, LFM2.5-350M, LFM2.5-1.2B-Instruct, and LFM2.5-2.6B. They allow developers to run LFM2.5 models at Q4_0 memory and speed without the usual quality drop:\nFor all four models, we compare their released GGUFs produced with ",
-        "url": "https://huggingface.co/blog/LiquidAI/qad",
-        "source": "Hugging Face Blog",
-        "source_name": "Official AI Updates"
-      },
-      "sources": [
-        {
-          "story_id": "story_be580d9263f2",
-          "title": "Liquid AI 发布 LFM2.5 系列 QAD Q4_0 量化检查点，恢复 97% 精度损失 / LFM2.5 Q4\\_0 Checkpoints from Quantization-Aware Distillation",
-          "url": "https://huggingface.co/blog/LiquidAI/qad",
-          "source": "Hugging Face Blog",
-          "site_id": "",
-          "official": true
-        }
-      ],
-      "summary_zh": "A Blog post by Liquid AI on Hugging Face A Blog post by Liquid AI on Hugging Face Benchmar",
-      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "AI Coding 这次更新真正改变了什么",
-          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-          "needs_hands_on": true,
-          "risk": "未亲测前不要把官方描述写成实际效果。"
-        }
-      ],
-      "enrichment_mode": "rules_fallback"
-    },
-    {
-      "story_id": "story_422170788714",
-      "creator_event_id": "creator-b11c039cf6999890",
-      "merged_story_ids": [
-        "story_422170788714"
-      ],
-      "title": "谷歌为搜索和 Gemini 提供新的人工智能研究工具 / Google packs Search and Gemini with new AI study tools",
-      "url": "https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini",
-      "primary_url": "https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini",
-      "source": "TechCrunch AI",
-      "source_name": "Curated Media",
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch AI"
-      ],
-      "score": 0.6278,
-      "importance": 0.6278,
-      "importance_score": 0.6278,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5688,
-        "source_tier": 0.58,
-        "ai_relevance": 0.79,
-        "recency": 0.9531,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-19T19:00:00Z",
-      "latest_at": "2026-08-19T19:00:00Z",
-      "creator_score": 75.8,
-      "creator_breakdown": {
-        "relevance": 0.68,
-        "freshness": 1.0,
-        "source": 0.78,
-        "impact": 0.63,
-        "novelty": 0.85,
-        "heat": 0.3697
-      },
-      "creator_bucket": "general_ai",
-      "primary_entity": "openai",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "entity:openai",
-        "workflow_impact"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "adbe4e77e4207157c0733ca6a4951ad59ff361b6",
-        "title": "谷歌为搜索和 Gemini 提供新的人工智能研究工具 / Google packs Search and Gemini with new AI study tools",
-        "title_zh": "谷歌为搜索和 Gemini 提供新的人工智能研究工具",
-        "title_en": "Google packs Search and Gemini with new AI study tools",
-        "title_original": "Google packs Search and Gemini with new AI study tools",
-        "summary": "The launch of the new study features marks Google's latest effort to make Gemini the AI assistant that students turn to when learning and studying, as it continues to compete with companies like OpenAI.\nThe launch of the new study features marks Google's latest effort to make Gemini the AI assistant that students turn to when learning and studying, as it continues to compete with companies like OpenAI.\n🚨 Flash Sale 🚨 Get $100 off your Disrupt 2026 ticket\nSave $300 on your Disrupt 2026 ticket: RE",
-        "url": "https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini",
-        "source": "TechCrunch AI",
-        "source_name": "Curated Media"
-      },
-      "sources": [
-        {
-          "story_id": "story_422170788714",
-          "title": "谷歌为搜索和 Gemini 提供新的人工智能研究工具 / Google packs Search and Gemini with new AI study tools",
-          "url": "https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini",
-          "source": "TechCrunch AI",
-          "site_id": "",
-          "official": false
-        }
-      ],
-      "summary_zh": "The launch of the new study features marks Google's latest effort to make Gemini the AI as",
-      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "openai 这次更新真正改变了什么",
-          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-          "needs_hands_on": true,
-          "risk": "未亲测前不要把官方描述写成实际效果。"
-        }
-      ],
-      "enrichment_mode": "rules_fallback"
-    },
-    {
-      "story_id": "story_c2a932b4c177",
-      "creator_event_id": "creator-ff7dcba4b5c35a2a",
-      "merged_story_ids": [
-        "story_c2a932b4c177"
-      ],
-      "title": "CodeQL 2.26.3 改进了 GitHub Actions 查询和 JavaScript 建模 / CodeQL 2.26.3 improves GitHub Actions queries and JavaScript modeling",
-      "url": "https://github.blog/changelog/2026-08-19-codeql-2-26-3-improves-github-actions-queries-and-javascript-modeling",
-      "primary_url": "https://github.blog/changelog/2026-08-19-codeql-2-26-3-improves-github-actions-queries-and-javascript-modeling",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "score": 0.841,
-      "importance": 0.841,
-      "importance_score": 0.841,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.9832,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-19T21:09:30Z",
-      "latest_at": "2026-08-19T21:09:30Z",
-      "creator_score": 74.0,
-      "creator_breakdown": {
-        "relevance": 0.4943,
-        "freshness": 1.0,
-        "source": 1.0,
-        "impact": 0.63,
-        "novelty": 0.75,
-        "heat": 0.4443
-      },
-      "creator_bucket": "general_ai",
-      "verification_status": "confirmed",
-      "creator_reasons": [
-        "workflow_impact",
-        "official_or_tier0_source"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "33dd888158164d0c0121116d57a69affc7df6950",
-        "title": "CodeQL 2.26.3 改进了 GitHub Actions 查询和 JavaScript 建模 / CodeQL 2.26.3 improves GitHub Actions queries and JavaScript modeling",
-        "title_zh": "CodeQL 2.26.3 改进了 GitHub Actions 查询和 JavaScript 建模",
-        "title_en": "CodeQL 2.26.3 improves GitHub Actions queries and JavaScript modeling",
-        "title_original": "CodeQL 2.26.3 improves GitHub Actions queries and JavaScript modeling",
-        "summary": "CodeQL 2.26.3 adds JavaScript, TypeScript, and Vue source modeling and improves the accuracy of several GitHub Actions queries. CodeQL is the static analysis engine behind GitHub code scanning, which helps…\nCodeQL 2.26.3 adds JavaScript, TypeScript, and Vue source modeling and improves the accuracy of several GitHub Actions queries. CodeQL is the static analysis engine behind GitHub code scanning , which helps you find and remediate security issues in your code.\nGitHub Actions\nJavaScript/TypeScr",
-        "url": "https://github.blog/changelog/2026-08-19-codeql-2-26-3-improves-github-actions-queries-and-javascript-modeling",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      },
-      "sources": [
-        {
-          "story_id": "story_c2a932b4c177",
-          "title": "CodeQL 2.26.3 改进了 GitHub Actions 查询和 JavaScript 建模 / CodeQL 2.26.3 improves GitHub Actions queries and JavaScript modeling",
-          "url": "https://github.blog/changelog/2026-08-19-codeql-2-26-3-improves-github-actions-queries-and-javascript-modeling",
-          "source": "GitHub Changelog",
-          "site_id": "",
-          "official": true
-        }
-      ],
-      "summary_zh": "CodeQL 2.26.3 adds JavaScript, TypeScript, and Vue source modeling and improves the accura",
-      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "AI Coding 这次更新真正改变了什么",
-          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-          "needs_hands_on": true,
-          "risk": "未亲测前不要把官方描述写成实际效果。"
-        }
-      ],
-      "enrichment_mode": "rules_fallback"
-    },
-    {
-      "story_id": "story_87765df97258",
-      "creator_event_id": "creator-e039b0d54f85856e",
-      "merged_story_ids": [
-        "story_87765df97258"
-      ],
-      "title": "本地跑模型、做微调，现在可以用同一套工具完成：Unsloth",
-      "url": "https://waytoagi.feishu.cn/wiki/ROglwXG4Aix56ukh1OpcQfJYnVg?from=from_copylink",
-      "primary_url": "https://waytoagi.feishu.cn/wiki/ROglwXG4Aix56ukh1OpcQfJYnVg?from=from_copylink",
-      "source": "社区更新 · 2026-08-19",
-      "source_name": "WaytoAGI",
-      "source_count": 1,
-      "source_names": [
-        "社区更新 · 2026-08-19"
-      ],
-      "score": 0.5692,
-      "importance": 0.5692,
-      "importance_score": 0.5692,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.54,
-        "ai_relevance": 0.65,
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
         "recency": 1.0,
         "story_heat": 0.0
       },
-      "category": "watch",
+      "category": "industry",
       "reasons": [
-        "recent_ai_signal"
+        "high_ai_relevance",
+        "high_importance"
       ],
-      "earliest_at": "2026-08-19T22:19:42.451829Z",
-      "latest_at": "2026-08-19T22:19:42.451829Z",
-      "creator_score": 70.1,
+      "earliest_at": "2026-08-20T10:20:26.929894Z",
+      "latest_at": "2026-08-20T10:20:26.929894Z",
+      "creator_score": 68.5,
       "creator_breakdown": {
         "relevance": 0.65,
         "freshness": 1.0,
         "source": 0.5,
-        "impact": 0.76,
+        "impact": 0.63,
         "novelty": 0.75,
-        "heat": 0.3492
+        "heat": 0.4187
       },
       "creator_bucket": "general_ai",
       "verification_status": "single_source",
@@ -1068,26 +796,26 @@
       ],
       "change_type": "new",
       "primary_item": {
-        "id": "051eccd9eec26e451b683896cbf9307dea223e50",
-        "title": "本地跑模型、做微调，现在可以用同一套工具完成：Unsloth",
-        "title_zh": "本地跑模型、做微调，现在可以用同一套工具完成：Unsloth",
-        "title_original": "本地跑模型、做微调，现在可以用同一套工具完成：Unsloth",
-        "summary": "如果只看本地推理 ， Ollama 、 LM Studio 和 llama.cpp都是比较成熟的方案。它们可以帮助你下载、管理和运行开源模型。但如果后面要基于自己的数据做 LoRA 或 QLoRA 微调，单纯的推理工具就不够了，还需要训练、数据处理和模型导出能力。Unsloth这套开源工具就给出了一体化的解决方案！",
-        "url": "https://waytoagi.feishu.cn/wiki/ROglwXG4Aix56ukh1OpcQfJYnVg?from=from_copylink",
-        "source": "社区更新 · 2026-08-19",
-        "source_name": "WaytoAGI"
+        "id": "5fc805e27b6f5edee03c07254eefbe8d2fc8a942",
+        "title": "MiniMax Design发布:用自然语言“指挥”视频创作，告别逐帧编辑",
+        "title_zh": "MiniMax Design发布:用自然语言“指挥”视频创作，告别逐帧编辑",
+        "title_original": "MiniMax Design发布:用自然语言“指挥”视频创作，告别逐帧编辑",
+        "summary": "On August 20, AI company MiniMax officially launched its productivity tool MiniMax Design, marking a new stage in multimodal content creation, moving from \"mani\nOn August 20, AI company MiniMax officially launched its productivity tool MiniMax Design, marking a new stage in multimodal content creation, moving from \"mani\nOn August 20, AI company MiniMax officially launched its productivity tool MiniMax Design, marking a new stage in multimodal content creation, moving from \"mani\nExplore AI Fronti",
+        "url": "https://www.aibase.com/news/30503",
+        "source": "AIbase",
+        "source_name": "AIbase"
       },
       "sources": [
         {
-          "story_id": "story_87765df97258",
-          "title": "本地跑模型、做微调，现在可以用同一套工具完成：Unsloth",
-          "url": "https://waytoagi.feishu.cn/wiki/ROglwXG4Aix56ukh1OpcQfJYnVg?from=from_copylink",
-          "source": "社区更新 · 2026-08-19",
+          "story_id": "story_a6a38128dce9",
+          "title": "MiniMax Design发布:用自然语言“指挥”视频创作，告别逐帧编辑",
+          "url": "https://www.aibase.com/news/30503",
+          "source": "AIbase",
           "site_id": "",
           "official": false
         }
       ],
-      "summary_zh": "如果只看本地推理 ， Ollama 、 LM Studio 和 llama.cpp都是比较成熟的方案。它们可以帮助你下载、管理和运行开源模型。但如果后面要基于自己的数据做 LoRA",
+      "summary_zh": "On August 20, AI company MiniMax officially launched its productivity tool MiniMax Design,",
       "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
       "angles": [
         {
@@ -1101,117 +829,37 @@
       "enrichment_mode": "rules_fallback"
     },
     {
-      "story_id": "story_bd35cc058b74",
-      "creator_event_id": "creator-221b53190c231617",
+      "story_id": "story_8755a669e239",
+      "creator_event_id": "creator-4960747aaf614278",
       "merged_story_ids": [
-        "story_bd35cc058b74"
+        "story_8755a669e239"
       ],
-      "title": "GLM-5.3在开放型号排名中名列前茅，价格低于竞争对手，但发布时间被推迟 / GLM-5.3 tops the open-model rankings and undercuts rivals on price, but its release is delayed",
-      "url": "https://the-decoder.com/glm-5-3-tops-the-open-model-rankings-and-undercuts-rivals-on-price-but-its-release-is-delayed",
-      "primary_url": "https://the-decoder.com/glm-5-3-tops-the-open-model-rankings-and-undercuts-rivals-on-price-but-its-release-is-delayed",
+      "title": "Anthropic 最强大的模型，代号“模型 2”，仅供内部使用 / Anthropic's most capable model, codenamed \"Model 2,\" is for internal use only",
+      "url": "https://the-decoder.com/anthropic-uses-an-unpublished-ai-model-called-model-2-internally",
+      "primary_url": "https://the-decoder.com/anthropic-uses-an-unpublished-ai-model-called-model-2-internally",
       "source": "The Decoder AI News",
       "source_name": "Curated Media",
       "source_count": 1,
       "source_names": [
         "The Decoder AI News"
       ],
-      "score": 0.6031,
-      "importance": 0.6031,
-      "importance_score": 0.6031,
+      "score": 0.6356,
+      "importance": 0.6356,
+      "importance_score": 0.6356,
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.5472,
+        "editorial": 0.5688,
         "source_tier": 0.58,
-        "ai_relevance": 0.76,
-        "recency": 0.8855,
+        "ai_relevance": 0.79,
+        "recency": 0.9962,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-08-19T13:54:16Z",
-      "latest_at": "2026-08-19T13:54:16Z",
-      "creator_score": 69.3,
-      "creator_breakdown": {
-        "relevance": 0.4111,
-        "freshness": 0.9379,
-        "source": 0.78,
-        "impact": 0.89,
-        "novelty": 0.75,
-        "heat": 0.3611
-      },
-      "creator_bucket": "general_ai",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "workflow_impact"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "c3a1b35b1d0fedde8921c41ac0ff68b064a54b39",
-        "title": "GLM-5.3在开放型号排名中名列前茅，价格低于竞争对手，但发布时间被推迟 / GLM-5.3 tops the open-model rankings and undercuts rivals on price, but its release is delayed",
-        "title_zh": "GLM-5.3在开放型号排名中名列前茅，价格低于竞争对手，但发布时间被推迟",
-        "title_en": "GLM-5.3 tops the open-model rankings and undercuts rivals on price, but its release is delayed",
-        "title_original": "GLM-5.3 tops the open-model rankings and undercuts rivals on price, but its release is delayed",
-        "url": "https://the-decoder.com/glm-5-3-tops-the-open-model-rankings-and-undercuts-rivals-on-price-but-its-release-is-delayed",
-        "source": "The Decoder AI News",
-        "source_name": "Curated Media"
-      },
-      "sources": [
-        {
-          "story_id": "story_bd35cc058b74",
-          "title": "GLM-5.3在开放型号排名中名列前茅，价格低于竞争对手，但发布时间被推迟 / GLM-5.3 tops the open-model rankings and undercuts rivals on price, but its release is delayed",
-          "url": "https://the-decoder.com/glm-5-3-tops-the-open-model-rankings-and-undercuts-rivals-on-price-but-its-release-is-delayed",
-          "source": "The Decoder AI News",
-          "site_id": "",
-          "official": false
-        }
-      ],
-      "summary_zh": "GLM-5.3在开放型号排名中名列前茅，价格低于竞争对手，但发布时间被推迟 / GLM-5.3 tops the open-model rankings and undercuts",
-      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "AI Coding 这次更新真正改变了什么",
-          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-          "needs_hands_on": true,
-          "risk": "未亲测前不要把官方描述写成实际效果。"
-        }
-      ],
-      "enrichment_mode": "rules_fallback"
-    },
-    {
-      "story_id": "story_f705b6b93bb0",
-      "creator_event_id": "creator-2786493a5ac2886d",
-      "merged_story_ids": [
-        "story_f705b6b93bb0"
-      ],
-      "title": "OpenAI 寻求通过新的客户隐私保护来超越 Anthropic / OpenAI seeks to one-up Anthropic with new customer privacy protections",
-      "url": "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections",
-      "primary_url": "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections",
-      "source": "TechCrunch AI",
-      "source_name": "Curated Media",
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch AI"
-      ],
-      "score": 0.6483,
-      "importance": 0.6483,
-      "importance_score": 0.6483,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5904,
-        "source_tier": 0.58,
-        "ai_relevance": 0.82,
-        "recency": 0.9979,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-08-19T22:10:46Z",
-      "latest_at": "2026-08-19T22:10:46Z",
+      "earliest_at": "2026-08-20T10:04:45Z",
+      "latest_at": "2026-08-20T10:04:45Z",
       "creator_score": 68.1,
       "creator_breakdown": {
         "relevance": 0.68,
@@ -1219,7 +867,7 @@
         "source": 0.78,
         "impact": 0.25,
         "novelty": 0.65,
-        "heat": 0.3769
+        "heat": 0.3725
       },
       "creator_bucket": "general_ai",
       "primary_entity": "anthropic",
@@ -1229,27 +877,27 @@
       ],
       "change_type": "new",
       "primary_item": {
-        "id": "735a4413ad2d6077810844daa7d05f4c63835907",
-        "title": "OpenAI 寻求通过新的客户隐私保护来超越 Anthropic / OpenAI seeks to one-up Anthropic with new customer privacy protections",
-        "title_zh": "OpenAI 寻求通过新的客户隐私保护来超越 Anthropic",
-        "title_en": "OpenAI seeks to one-up Anthropic with new customer privacy protections",
-        "title_original": "OpenAI seeks to one-up Anthropic with new customer privacy protections",
-        "summary": "A competition is developing between OpenAI and Anthropic over who can provide the best privacy protections for enterprise customer data.\nA competition is developing between OpenAI and Anthropic over who can provide the best privacy protections for enterprise customer data.\n🚨 Flash Sale 🚨 Get $100 off your Disrupt 2026 ticket\nSave $300 on your Disrupt 2026 ticket: REGISTER NOW.\nLatest\nAI\nAmazon\nApps\nBiotech & Health\nClimate\nCloud Computing\nCommerce\nCrypto\nEnterprise\nEVs\nFintech\nFundraising\nGadget",
-        "url": "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections",
-        "source": "TechCrunch AI",
+        "id": "038e6411c7ec931ba927b782b037746c2d129baf",
+        "title": "Anthropic 最强大的模型，代号“模型 2”，仅供内部使用 / Anthropic's most capable model, codenamed \"Model 2,\" is for internal use only",
+        "title_zh": "Anthropic 最强大的模型，代号“模型 2”，仅供内部使用",
+        "title_en": "Anthropic's most capable model, codenamed \"Model 2,\" is for internal use only",
+        "title_original": "Anthropic's most capable model, codenamed \"Model 2,\" is for internal use only",
+        "summary": "Anthropic uses an unpublished AI model internally that is more powerful than any publicly available version of Claude.\nAnthropic uses an unpublished AI model internally that is more powerful than any publicly available version of Claude.\nAnthropic is running an unreleased AI model internally that outperforms every publicly available version of Claude. That's according to the company's Risk Report from August 2026.\nThe report calls the model \"Model 2\" and places it in the Mythos class. Anthropic ",
+        "url": "https://the-decoder.com/anthropic-uses-an-unpublished-ai-model-called-model-2-internally",
+        "source": "The Decoder AI News",
         "source_name": "Curated Media"
       },
       "sources": [
         {
-          "story_id": "story_f705b6b93bb0",
-          "title": "OpenAI 寻求通过新的客户隐私保护来超越 Anthropic / OpenAI seeks to one-up Anthropic with new customer privacy protections",
-          "url": "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections",
-          "source": "TechCrunch AI",
+          "story_id": "story_8755a669e239",
+          "title": "Anthropic 最强大的模型，代号“模型 2”，仅供内部使用 / Anthropic's most capable model, codenamed \"Model 2,\" is for internal use only",
+          "url": "https://the-decoder.com/anthropic-uses-an-unpublished-ai-model-called-model-2-internally",
+          "source": "The Decoder AI News",
           "site_id": "",
           "official": false
         }
       ],
-      "summary_zh": "A competition is developing between OpenAI and Anthropic over who can provide the best pri",
+      "summary_zh": "Anthropic uses an unpublished AI model internally that is more powerful than any publicly ",
       "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
       "angles": [
         {
@@ -1261,17 +909,181 @@
         }
       ],
       "enrichment_mode": "rules_fallback"
+    },
+    {
+      "story_id": "story_18579c41a001",
+      "creator_event_id": "creator-8f7246f87e63d6f7",
+      "merged_story_ids": [
+        "story_18579c41a001"
+      ],
+      "title": "三分之一的 ChatGPT 广告出现在不相关的对话中 / A third of ChatGPT ads appear in irrelevant conversations",
+      "url": "https://www.artificialintelligence-news.com/news/a-third-of-chatgpt-ads-appear-in-irrelevant-conversations",
+      "primary_url": "https://www.artificialintelligence-news.com/news/a-third-of-chatgpt-ads-appear-in-irrelevant-conversations",
+      "source": "Artificial Intelligence News",
+      "source_name": "Curated Media",
+      "source_count": 1,
+      "source_names": [
+        "Artificial Intelligence News"
+      ],
+      "score": 0.6306,
+      "importance": 0.6306,
+      "importance_score": 0.6306,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5688,
+        "source_tier": 0.58,
+        "ai_relevance": 0.79,
+        "recency": 0.9685,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-20T08:07:40Z",
+      "latest_at": "2026-08-20T08:07:40Z",
+      "creator_score": 68.1,
+      "creator_breakdown": {
+        "relevance": 0.68,
+        "freshness": 1.0,
+        "source": 0.78,
+        "impact": 0.25,
+        "novelty": 0.65,
+        "heat": 0.3707
+      },
+      "creator_bucket": "general_ai",
+      "primary_entity": "openai",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "entity:openai"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "d58316205cb857ec1f3925ac80b1f992d03d8d10",
+        "title": "三分之一的 ChatGPT 广告出现在不相关的对话中 / A third of ChatGPT ads appear in irrelevant conversations",
+        "title_zh": "三分之一的 ChatGPT 广告出现在不相关的对话中",
+        "title_en": "A third of ChatGPT ads appear in irrelevant conversations",
+        "title_original": "A third of ChatGPT ads appear in irrelevant conversations",
+        "summary": "A third of ChatGPT ads appear in irrelevant conversations\nA third of ChatGPT ads appear in irrelevant conversations\nAI News is part of the TechForge Publications series\nTechForge\nSponsored Content\nJP Garbaccio, Head of AEO and SEO at Searchable\nAugust 20, 2026\nShare this story:\nTags:\nCategories:\nAdvertising inside ChatGPT arrived with a promise that the assistant already knows what the user wants. So far, that hasn’t entirely been the case.\nSearchable, the AI visibility platform , analysed more ",
+        "url": "https://www.artificialintelligence-news.com/news/a-third-of-chatgpt-ads-appear-in-irrelevant-conversations",
+        "source": "Artificial Intelligence News",
+        "source_name": "Curated Media"
+      },
+      "sources": [
+        {
+          "story_id": "story_18579c41a001",
+          "title": "三分之一的 ChatGPT 广告出现在不相关的对话中 / A third of ChatGPT ads appear in irrelevant conversations",
+          "url": "https://www.artificialintelligence-news.com/news/a-third-of-chatgpt-ads-appear-in-irrelevant-conversations",
+          "source": "Artificial Intelligence News",
+          "site_id": "",
+          "official": false
+        }
+      ],
+      "summary_zh": "A third of ChatGPT ads appear in irrelevant conversations A third of ChatGPT ads appear in",
+      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "openai 这次更新真正改变了什么",
+          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
+          "needs_hands_on": true,
+          "risk": "未亲测前不要把官方描述写成实际效果。"
+        }
+      ],
+      "enrichment_mode": "rules_fallback"
+    },
+    {
+      "story_id": "story_17af3813ac97",
+      "creator_event_id": "creator-a3520c11d8adb7bf",
+      "merged_story_ids": [
+        "story_17af3813ac97"
+      ],
+      "title": "OpenAI 构建安全系统，可在不存储客户数据的情况下捕获滥用行为 / OpenAI builds safety system that catches misuse without storing customer data",
+      "url": "https://the-decoder.com/openai-builds-safety-system-that-catches-misuse-without-storing-customer-data",
+      "primary_url": "https://the-decoder.com/openai-builds-safety-system-that-catches-misuse-without-storing-customer-data",
+      "source": "The Decoder AI News",
+      "source_name": "Curated Media",
+      "source_count": 1,
+      "source_names": [
+        "The Decoder AI News"
+      ],
+      "score": 0.6303,
+      "importance": 0.6303,
+      "importance_score": 0.6303,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5688,
+        "source_tier": 0.58,
+        "ai_relevance": 0.79,
+        "recency": 0.9671,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-20T08:01:18Z",
+      "latest_at": "2026-08-20T08:01:18Z",
+      "creator_score": 68.1,
+      "creator_breakdown": {
+        "relevance": 0.68,
+        "freshness": 1.0,
+        "source": 0.78,
+        "impact": 0.25,
+        "novelty": 0.65,
+        "heat": 0.3706
+      },
+      "creator_bucket": "general_ai",
+      "primary_entity": "openai",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "entity:openai"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "83c4f7f5081a9c82a8be4161594bb8e1fdabd85f",
+        "title": "OpenAI 构建安全系统，可在不存储客户数据的情况下捕获滥用行为 / OpenAI builds safety system that catches misuse without storing customer data",
+        "title_zh": "OpenAI 构建安全系统，可在不存储客户数据的情况下捕获滥用行为",
+        "title_en": "OpenAI builds safety system that catches misuse without storing customer data",
+        "title_original": "OpenAI builds safety system that catches misuse without storing customer data",
+        "summary": "OpenAI plans to offer its most advanced AI models to corporate customers without storing their data, while still detecting misuse.\nOpenAI plans to offer its most advanced AI models to corporate customers without storing their data, while still detecting misuse.\nOpenAI wants to offer enterprise customers its most advanced AI models without storing their data, while still catching misuse. The company built a safety system called \"Private Safety Processing\" to make that work.\nThe system detects abu",
+        "url": "https://the-decoder.com/openai-builds-safety-system-that-catches-misuse-without-storing-customer-data",
+        "source": "The Decoder AI News",
+        "source_name": "Curated Media"
+      },
+      "sources": [
+        {
+          "story_id": "story_17af3813ac97",
+          "title": "OpenAI 构建安全系统，可在不存储客户数据的情况下捕获滥用行为 / OpenAI builds safety system that catches misuse without storing customer data",
+          "url": "https://the-decoder.com/openai-builds-safety-system-that-catches-misuse-without-storing-customer-data",
+          "source": "The Decoder AI News",
+          "site_id": "",
+          "official": false
+        }
+      ],
+      "summary_zh": "OpenAI plans to offer its most advanced AI models to corporate customers without storing t",
+      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "openai 这次更新真正改变了什么",
+          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
+          "needs_hands_on": true,
+          "risk": "未亲测前不要把官方描述写成实际效果。"
+        }
+      ],
+      "enrichment_mode": "rules_fallback"
     }
   ],
   "llm_meta": {
     "provider": "deepseek",
     "model": "deepseek-v4-flash",
-    "calls_used": 15,
+    "calls_used": 13,
     "cache_hits": 0,
-    "fallback_count": 15
+    "fallback_count": 13
   },
   "dedup_meta": {
-    "secondary_dedup_merge_count": 3,
-    "secondary_dedup_source_count": 102
+    "secondary_dedup_merge_count": 1,
+    "secondary_dedup_source_count": 117
   }
 }
