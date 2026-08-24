@@ -1,8 +1,1992 @@
 {
   "version": 1,
-  "generated_at": "2026-08-23T10:35:19.981774Z",
+  "generated_at": "2026-08-24T10:54:53.995091Z",
   "total_editions": 60,
   "editions": [
+    {
+      "edition_id": "2026-08-24-evening",
+      "edition_kind": "evening",
+      "generated_at": "2026-08-24T10:54:53.995091Z",
+      "timezone": "Asia/Shanghai",
+      "total_items": 20,
+      "summary": {
+        "confirmed": 2,
+        "single_source": 16,
+        "early_signal": 2,
+        "rumor": 0,
+        "new": 20,
+        "updated": 0,
+        "confirmed_updates": 0
+      },
+      "items": [
+        {
+          "story_id": "story_a31e711ee9db",
+          "creator_event_id": "creator-5037ccb6d58938a1",
+          "merged_story_ids": [
+            "story_a31e711ee9db"
+          ],
+          "title": "Codex CLI 0.149.1",
+          "url": "https://developers.openai.com/codex/changelog",
+          "primary_url": "https://developers.openai.com/codex/changelog",
+          "source": "OpenAI Codex Changelog",
+          "source_name": "Official AI Updates",
+          "source_count": 1,
+          "source_names": [
+            "OpenAI Codex Changelog"
+          ],
+          "score": 0.8407,
+          "importance": 0.8407,
+          "importance_score": 0.8407,
+          "importance_label": "官方更新",
+          "importance_breakdown": {
+            "editorial": 0.9,
+            "source_tier": 1.0,
+            "ai_relevance": 0.98,
+            "recency": 0.8595,
+            "story_heat": 0.0
+          },
+          "category": "official",
+          "reasons": [
+            "official_source",
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-08-24T00:00:00Z",
+          "latest_at": "2026-08-24T00:00:00Z",
+          "persona_id": "pragmatic",
+          "persona_score": 62,
+          "persona_review": "日常小版本，扫一眼变更再升，没新功能不必动。",
+          "creator_score": 93.3,
+          "creator_breakdown": {
+            "relevance": 1.0,
+            "freshness": 0.8771,
+            "source": 1.0,
+            "impact": 1.0,
+            "novelty": 0.85,
+            "heat": 0.4442
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "codex",
+          "verification_status": "confirmed",
+          "creator_reasons": [
+            "entity:codex",
+            "ai_coding_terms",
+            "workflow_impact",
+            "official_or_tier0_source"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "6986cd90498eb6d2f2240556fbddd0fbab755c6b",
+            "title": "Codex CLI 0.149.1",
+            "title_en": "Codex CLI 0.149.1",
+            "title_original": "Codex CLI 0.149.1",
+            "summary": "Latest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nFull Changelog: rust-v0.149.0...rust-v0.149.1\nFull release on Github\nApple Messages: Use the Apple Messages plugin to read and search Messages chats on your Mac and prepare or send messages. It’s available on all plans in the ChatGPT desktop app for macOS. You can use the plugin in ChatGPT Work and Codex. By default, ChatGPT sends messages only after you",
+            "recommend_reason_zh": "Codex CLI 0.149.1的更新包括：在macOS ChatGPT桌面应用新增Apple Messages插件，默认须批准后发送；Site支持共同编辑与可编辑URL；Computer History向EEA、瑞士和英国开放；以及GitLab beta集成。",
+            "url": "https://developers.openai.com/codex/changelog",
+            "source": "OpenAI Codex Changelog",
+            "source_name": "Official AI Updates"
+          },
+          "sources": [
+            {
+              "story_id": "story_a31e711ee9db",
+              "title": "Codex CLI 0.149.1",
+              "url": "https://developers.openai.com/codex/changelog",
+              "source": "OpenAI Codex Changelog",
+              "site_id": "",
+              "official": true
+            }
+          ],
+          "summary_zh": "Codex CLI 0.149.1发布，新增Apple Messages插件，可在ChatGPT桌面版和Codex中读取、搜索和发送iMessage，默认需手动批准；Site支持共",
+          "why_it_matters": "这些更新让Codex从纯编码代理延伸到个人通讯与团队协作，GitLab beta直接降低企业团队接入门槛，同时消息发送需审批机制降低自动化误",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "试了下Codex 0.149.1：AI能读我的iMessage了，但发送前必须我点头",
+              "angle": "以个人实测角度，分享更新后Apple Messages插件在Codex中的实际体验，重点突出‘默认批准’这一安全设计与以往全自动的差异，以及Site共同编辑的协作感受。",
+              "needs_hands_on": true,
+              "risk": "未实际安装验证，Apple Messages插件具体能力如搜索范围和发送格式需实测确认。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "Codex 0.149.1更新笔记｜Apple Messages插件+GitLab beta，手把手避坑",
+              "angle": "以图文教程形式，整理更新步骤：如何启用Apple Messages插件、GitLab beta集成配置，以及Site协作的实用技巧，附上‘发送需批准’等关键注意事项。",
+              "needs_hands_on": true,
+              "risk": "GitLab beta配置流程和Apple Messages插件设置步骤未官方详述，需参考社区反馈补全。"
+            },
+            {
+              "platform": "wechat",
+              "title": "Codex 0.149.1解读：当AI编码助手开始接管你的iMessage和GitLab",
+              "angle": "从产品战略角度，分析OpenAI如何将Codex从CLI工具升级为个人工作流中枢：通过接入Apple Messages和GitLab beta，打通通讯与代码托管，探讨这对开发者隐私、权限管理及工具链格局的长期影响。",
+              "needs_hands_on": false,
+              "risk": "基于官方changelog推测，GitLab beta功能范围尚未完全公开，长期影响为分析性判断。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_85a415f73955",
+          "creator_event_id": "creator-997007014a7aed8e",
+          "merged_story_ids": [
+            "story_85a415f73955"
+          ],
+          "title": "Codex 斜杠命令完全指南：别再只会 /model 和 /status",
+          "url": "https://waytoagi.feishu.cn/wiki/InCcwEeg7iRYfjkmR7DcWdilnWd?from=from_copylink",
+          "primary_url": "https://waytoagi.feishu.cn/wiki/InCcwEeg7iRYfjkmR7DcWdilnWd?from=from_copylink",
+          "source": "社区更新 · 2026-08-23",
+          "source_name": "WaytoAGI",
+          "source_count": 1,
+          "source_names": [
+            "社区更新 · 2026-08-23"
+          ],
+          "score": 0.5692,
+          "importance": 0.5692,
+          "importance_score": 0.5692,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.468,
+            "source_tier": 0.54,
+            "ai_relevance": 0.65,
+            "recency": 1.0,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-08-24T10:29:00.831251Z",
+          "latest_at": "2026-08-24T10:29:00.831251Z",
+          "creator_score": 82.4,
+          "creator_breakdown": {
+            "relevance": 1.0,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.81,
+            "novelty": 0.85,
+            "heat": 0.3492
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "codex",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:codex",
+            "ai_coding_terms",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "35575f154c469177207eb01732d0caabf6c3c986",
+            "title": "Codex 斜杠命令完全指南：别再只会 /model 和 /status",
+            "title_zh": "Codex 斜杠命令完全指南：别再只会 /model 和 /status",
+            "title_original": "Codex 斜杠命令完全指南：别再只会 /model 和 /status",
+            "summary": "Codex 的斜杠命令相当于它的“控制面板”：提示词负责描述你想完成什么，斜杠命令负责控制 Codex 如何工作。作者这篇文章详细拆解了Codex CLI当前内置的全部斜杠命令，并补充了IDE扩展与桌面端特有命令。",
+            "url": "https://waytoagi.feishu.cn/wiki/InCcwEeg7iRYfjkmR7DcWdilnWd?from=from_copylink",
+            "source": "社区更新 · 2026-08-23",
+            "source_name": "WaytoAGI"
+          },
+          "sources": [
+            {
+              "story_id": "story_85a415f73955",
+              "title": "Codex 斜杠命令完全指南：别再只会 /model 和 /status",
+              "url": "https://waytoagi.feishu.cn/wiki/InCcwEeg7iRYfjkmR7DcWdilnWd?from=from_copylink",
+              "source": "社区更新 · 2026-08-23",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "WaytoAGI发文详解Codex CLI内置斜杠命令，将其比作控制面板，并补充IDE扩展与桌面端特有命令，帮助开发者摆脱仅用/model和/status的局限。",
+          "why_it_matters": "斜杠命令直接控制Codex工作方式，掌握全部命令可显著提升AI Coding效率与可控性，减少无效交互。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "Codex斜杠命令实战：从只会/model到高效控制面板",
+              "angle": "作为日常重度用户，分享自己尝试新发现的斜杠命令的真实体验，对比之前只用基础命令的差异。",
+              "needs_hands_on": true,
+              "risk": "文章为社区单源，未亲测全部命令，具体命令列表和效果需自行验证。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "Codex斜杠命令避坑指南：这些命令让效率翻倍",
+              "angle": "以步骤和结果为导向，整理常用斜杠命令的适用场景和易错点，附上个人实测截图。",
+              "needs_hands_on": true,
+              "risk": "未核实IDE扩展和桌面端特有命令是否与CLI版本一致。"
+            },
+            {
+              "platform": "wechat",
+              "title": "Codex斜杠命令体系解析：提示词之外的另一个控制维度",
+              "angle": "从工具设计角度分析斜杠命令如何与提示词协同，探讨其演进对AI Coding工作流的影响。",
+              "needs_hands_on": false,
+              "risk": "文章未提供完整命令清单，体系分析需基于已有公开资料交叉验证。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_7c2eaec862ac",
+          "creator_event_id": "creator-9ef8656449dc9ffb",
+          "merged_story_ids": [
+            "story_7c2eaec862ac"
+          ],
+          "title": "万字长文｜Codex 从入门到精通",
+          "url": "https://waytoagi.feishu.cn/wiki/XbCCwsMQSipBdvknK2fcGuipnQh?from=from_copylink",
+          "primary_url": "https://waytoagi.feishu.cn/wiki/XbCCwsMQSipBdvknK2fcGuipnQh?from=from_copylink",
+          "source": "社区更新 · 2026-08-23",
+          "source_name": "WaytoAGI",
+          "source_count": 1,
+          "source_names": [
+            "社区更新 · 2026-08-23"
+          ],
+          "score": 0.5692,
+          "importance": 0.5692,
+          "importance_score": 0.5692,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.468,
+            "source_tier": 0.54,
+            "ai_relevance": 0.65,
+            "recency": 1.0,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-08-24T10:29:00.831251Z",
+          "latest_at": "2026-08-24T10:29:00.831251Z",
+          "creator_score": 82.4,
+          "creator_breakdown": {
+            "relevance": 1.0,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.81,
+            "novelty": 0.85,
+            "heat": 0.3492
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "codex",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:codex",
+            "ai_coding_terms",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "010781424a60e7cf69596287129edd96c96d918a",
+            "title": "万字长文｜Codex 从入门到精通",
+            "title_zh": "万字长文｜Codex 从入门到精通",
+            "title_original": "万字长文｜Codex 从入门到精通",
+            "summary": "第一次打开 Codex，真正容易卡住的是眼前这些区域分别管什么：项目和任务有什么区别，Local、Worktree、Cloud 该选哪个，Plan 是不是必须开，权限应该给到哪里，Plugins、Skills、MCP 又为什么同时存在。作者这篇教程就从这些基础问题讲起，先把界面、按钮、工作区和常用能力认清，再判断哪些扩展功能值得接入。",
+            "url": "https://waytoagi.feishu.cn/wiki/XbCCwsMQSipBdvknK2fcGuipnQh?from=from_copylink",
+            "source": "社区更新 · 2026-08-23",
+            "source_name": "WaytoAGI"
+          },
+          "sources": [
+            {
+              "story_id": "story_7c2eaec862ac",
+              "title": "万字长文｜Codex 从入门到精通",
+              "url": "https://waytoagi.feishu.cn/wiki/XbCCwsMQSipBdvknK2fcGuipnQh?from=from_copylink",
+              "source": "社区更新 · 2026-08-23",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "WaytoAGI 社区发布万字长文，从入门到精通讲解 Codex：区分项目与任务、Local/Worktree/Cloud 选择、Plan 与权限设置，以及 Plugins、Ski",
+          "why_it_matters": "Codex 是重要的 AI 编程工具，但其界面和概念存在学习门槛。这篇教程有助于开发者快速理解工作流配置，减少试错成本，值得收藏参考。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "读完 Codex 万字教程，我发现了三个最容易卡住的新手误区",
+              "angle": "以个人实测角度，分享初次使用 Codex 时对项目/任务、环境选择、权限配置的困惑，并结合教程内容验证哪些说法有效。",
+              "needs_hands_on": true,
+              "risk": "原文为单来源社区教程，未亲测所有功能，需确认教程描述与实际版本一致。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "Codex 入门避坑指南：本地、云模式到底怎么选？",
+              "angle": "用步骤化讲解列出 Local、Worktree、Cloud 的区别和适用场景，总结新手最容易选错的地方，给出实用建议。",
+              "needs_hands_on": true,
+              "risk": "教程来自单一社区来源，云模式配额、权限细节以官方为准，未实测验证。"
+            },
+            {
+              "platform": "wechat",
+              "title": "从 Codex 看 AI 编程工具走向成熟：概念体系是门槛还是壁垒？",
+              "angle": "从工具演变角度，分析 Codex 引入复杂概念（项目/任务、扩展机制）背后的设计逻辑，以及这对开发者技能要求的影响。",
+              "needs_hands_on": false,
+              "risk": "基于单篇教程展开分析，需避免过度推断官方意图。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_6d668ecdee94",
+          "creator_event_id": "creator-c27da12241b2957d",
+          "merged_story_ids": [
+            "story_6d668ecdee94"
+          ],
+          "title": "给我 10 分钟，我教你掌握 Claude Code 的 80%。",
+          "url": "https://waytoagi.feishu.cn/wiki/XiIlwVRoZimHXikV9crcVuSsnBe?from=from_copylink",
+          "primary_url": "https://waytoagi.feishu.cn/wiki/XiIlwVRoZimHXikV9crcVuSsnBe?from=from_copylink",
+          "source": "社区更新 · 2026-08-23",
+          "source_name": "WaytoAGI",
+          "source_count": 1,
+          "source_names": [
+            "社区更新 · 2026-08-23"
+          ],
+          "score": 0.5692,
+          "importance": 0.5692,
+          "importance_score": 0.5692,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.468,
+            "source_tier": 0.54,
+            "ai_relevance": 0.65,
+            "recency": 1.0,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-08-24T10:29:00.831251Z",
+          "latest_at": "2026-08-24T10:29:00.831251Z",
+          "creator_score": 82.4,
+          "creator_breakdown": {
+            "relevance": 1.0,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.81,
+            "novelty": 0.85,
+            "heat": 0.3492
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "claude-code",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:claude-code",
+            "ai_coding_terms",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "54b9bbe680cd5a4fcb7a779c71b6850b8f47afa2",
+            "title": "给我 10 分钟，我教你掌握 Claude Code 的 80%。",
+            "title_zh": "给我 10 分钟，我教你掌握 Claude Code 的 80%。",
+            "title_original": "给我 10 分钟，我教你掌握 Claude Code 的 80%。",
+            "summary": "很多人看到Claude Code的第一反应是：这不是写代码的吗？终端、命令、插件一堆，小白很容易还没开始就被劝退。这篇文章是一个营销人173天的实操复盘，把Claude Code拆成了普通人也能上手的工作系统。",
+            "url": "https://waytoagi.feishu.cn/wiki/XiIlwVRoZimHXikV9crcVuSsnBe?from=from_copylink",
+            "source": "社区更新 · 2026-08-23",
+            "source_name": "WaytoAGI"
+          },
+          "sources": [
+            {
+              "story_id": "story_6d668ecdee94",
+              "title": "给我 10 分钟，我教你掌握 Claude Code 的 80%。",
+              "url": "https://waytoagi.feishu.cn/wiki/XiIlwVRoZimHXikV9crcVuSsnBe?from=from_copylink",
+              "source": "社区更新 · 2026-08-23",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "WaytoAGI 社区发布一篇 Claude Code 实操复盘，作者为营销人，用 173 天经验将 Claude Code 拆解为普通人可上手的工作系统，声称 10 分钟可掌握 ",
+          "why_it_matters": "Claude Code 正从程序员工具向非技术人群渗透，营销人实战教程表明 AI Coding 工作流可以按普通用户场景重新组织，对开发者生",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "营销人 173 天实测：Claude Code 真的能 10 分钟上手？",
+              "angle": "我按这篇复盘的方法试了三天，发现入门门槛比想象中低，但“掌握 80%”的说法需要打折扣。",
+              "needs_hands_on": true,
+              "risk": "教程宣称的 80% 掌握程度未经实际验证，且来源单一，需核实作者实操细节是否真实可复现。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "非程序员用 Claude Code 搭建工作流：从零到上手避坑指南",
+              "angle": "跟着这篇复盘操作时，我踩了这几个坑，记录下具体步骤和替代方案，帮你省下试错时间。",
+              "needs_hands_on": true,
+              "risk": "需要实际验证作者给出的方法是否适用于普通用户，尤其是终端操作和插件配置环节。"
+            },
+            {
+              "platform": "wechat",
+              "title": "从营销人到开发者：Claude Code 的用户边界正在消失",
+              "angle": "这篇文章反映了一个趋势：AI 编程工具正从专业开发场景走向大众，未来开发者工作流可能需要与更多非技术角色协作。",
+              "needs_hands_on": false,
+              "risk": ""
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_a9b8b4947ab2",
+          "creator_event_id": "creator-bf62de167af23f4b",
+          "merged_story_ids": [
+            "story_a9b8b4947ab2"
+          ],
+          "title": "Anthropics 发布 Claude Cowork 与 Claude Code 的社区插件市场 claude-plugins-community",
+          "url": "https://github.com/anthropics/claude-plugins-community",
+          "primary_url": "https://github.com/anthropics/claude-plugins-community",
+          "source": "github",
+          "source_name": "NewsNow",
+          "source_count": 1,
+          "source_names": [
+            "github"
+          ],
+          "score": 0.5208,
+          "importance": 0.5208,
+          "importance_score": 0.5208,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.468,
+            "source_tier": 0.32,
+            "ai_relevance": 0.65,
+            "recency": 1.0,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-08-24T10:29:20.784000Z",
+          "latest_at": "2026-08-24T10:29:20.784000Z",
+          "creator_score": 82.3,
+          "creator_breakdown": {
+            "relevance": 1.0,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.81,
+            "novelty": 0.85,
+            "heat": 0.3323
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "claude-code",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:claude-code",
+            "ai_coding_terms",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "90f2f2f9a092cd6a4bd04000118a819476c60de8",
+            "title": "Anthropics 发布 Claude Cowork 与 Claude Code 的社区插件市场 claude-plugins-community",
+            "title_zh": "Anthropics 发布 Claude Cowork 与 Claude Code 的社区插件市场 claude-plugins-community",
+            "title_en": "anthropics /      claude-plugins-community",
+            "title_original": "anthropics /      claude-plugins-community",
+            "url": "https://github.com/anthropics/claude-plugins-community",
+            "source": "github",
+            "source_name": "NewsNow"
+          },
+          "sources": [
+            {
+              "story_id": "story_a9b8b4947ab2",
+              "title": "Anthropics 发布 Claude Cowork 与 Claude Code 的社区插件市场 claude-plugins-community",
+              "url": "https://github.com/anthropics/claude-plugins-community",
+              "source": "github",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "Anthropics 在 GitHub 发布 claude-plugins-community，为 Claude Cowork 与 Claude Code 提供社区插件市场。目前仅",
+          "why_it_matters": "若属实，Claude Code 将具备类似 VS Code 的插件生态，影响开发者工具链选择与团队工作流集成。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "Claude Code 要搞插件市场了？我先去 GitHub 看了一眼",
+              "angle": "第一人称实测仓库内容，展示插件列表与安装方式，强调单品源码和社区热度。",
+              "needs_hands_on": true,
+              "risk": "仓库内容与官方身份尚未核实，仅单一 GitHub 来源。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "Claude Code 插件市场怎么用？3 步看懂 claude-plugins-community",
+              "angle": "手把手教查仓库、装插件、跑通一个示例，提醒注意当前还是社区版本。",
+              "needs_hands_on": true,
+              "risk": "未验证插件市场实际可用性，安装步骤可能随版本变化。"
+            },
+            {
+              "platform": "wechat",
+              "title": "Claude Code 插件生态萌芽：从 claude-plugins-community 看 AI Coding 工具",
+              "angle": "从插件市场看 Claude Code 生态战略，对比 Cursor、Codex，分析对工程团队的影响。",
+              "needs_hands_on": false,
+              "risk": "单一来源，需等待 Anthropics 官方公告或更多证据。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_61342fabfe9c",
+          "creator_event_id": "creator-2b668d8187f0d3e4",
+          "merged_story_ids": [
+            "story_61342fabfe9c"
+          ],
+          "title": "从零开发一个 DeepSeek Harness 插件",
+          "url": "https://waytoagi.feishu.cn/wiki/Ph2mwxxPCiwf2bkSfTrcGHd7nCf?from=from_copylink",
+          "primary_url": "https://waytoagi.feishu.cn/wiki/Ph2mwxxPCiwf2bkSfTrcGHd7nCf?from=from_copylink",
+          "source": "社区更新 · 2026-08-23",
+          "source_name": "WaytoAGI",
+          "source_count": 1,
+          "source_names": [
+            "社区更新 · 2026-08-23"
+          ],
+          "score": 0.5692,
+          "importance": 0.5692,
+          "importance_score": 0.5692,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.468,
+            "source_tier": 0.54,
+            "ai_relevance": 0.65,
+            "recency": 1.0,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-08-24T10:29:00.831251Z",
+          "latest_at": "2026-08-24T10:29:00.831251Z",
+          "creator_score": 80.7,
+          "creator_breakdown": {
+            "relevance": 0.88,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.94,
+            "novelty": 0.85,
+            "heat": 0.3492
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "deepseek",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:deepseek",
+            "ai_coding_terms",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "21e4d68afc098386883f4d4e25b7ed46a06b38d5",
+            "title": "从零开发一个 DeepSeek Harness 插件",
+            "title_zh": "从零开发一个 DeepSeek Harness 插件",
+            "title_original": "从零开发一个 DeepSeek Harness 插件",
+            "summary": "这篇文章是作者亲手做了一个插件并发布到GitHub的完整复盘：从 5 分钟跑通第一个插件，到踩过的两个真实的坑，到配置化、打包、发布。全程实操，命令可复制。",
+            "url": "https://waytoagi.feishu.cn/wiki/Ph2mwxxPCiwf2bkSfTrcGHd7nCf?from=from_copylink",
+            "source": "社区更新 · 2026-08-23",
+            "source_name": "WaytoAGI"
+          },
+          "sources": [
+            {
+              "story_id": "story_61342fabfe9c",
+              "title": "从零开发一个 DeepSeek Harness 插件",
+              "url": "https://waytoagi.feishu.cn/wiki/Ph2mwxxPCiwf2bkSfTrcGHd7nCf?from=from_copylink",
+              "source": "社区更新 · 2026-08-23",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "作者在 WaytoAGI 社区分享从零开发 DeepSeek Harness 插件的完整复盘，涵盖 5 分钟跑通首个插件、两个真实踩坑、配置化、打包与发布流程，命令可直接复制。",
+          "why_it_matters": "为开发者提供了 DeepSeek Harness 插件开发的实操模板，可降低上手门槛，加速工具链定制，影响 AI Coding 工作流中的自",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "我花 5 分钟跑通了第一个 DeepSeek Harness 插件，但踩了两个坑",
+              "angle": "以第一人称分享从零开发的亲测过程，突出速度与踩坑反差，强调实际体验和可复制的命令。",
+              "needs_hands_on": true,
+              "risk": "文章为单一来源，未亲测命令和插件功能；需验证环境依赖与版本兼容性。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "DeepSeek Harness 插件开发避坑指南：从零到发布全流程",
+              "angle": "以步骤拆解插件开发流程，重点呈现配置化、打包和发布的具体操作，以及作者踩过的坑和解决方法。",
+              "needs_hands_on": true,
+              "risk": "基于单一来源教程，未亲自验证步骤细节，需进一步测试命令可行性。"
+            },
+            {
+              "platform": "wechat",
+              "title": "从插件开发看 DeepSeek Harness 生态的进化方向",
+              "angle": "以插件开发为切入点，分析 Harness 对开发者工具链的意义，探讨插件生态成熟对 AI Coding 工作流的长期影响。",
+              "needs_hands_on": false,
+              "risk": "生态趋势判断基于单篇教程，需更多迹象佐证。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_87655b5efe47",
+          "creator_event_id": "creator-938eaa6ae9b88238",
+          "merged_story_ids": [
+            "story_87655b5efe47"
+          ],
+          "title": "DeepSeek Harness 发布一周，登顶 Top10 的插件，暴露了哪些真实需求？",
+          "url": "https://juejin.cn/post/7676498957653803008",
+          "primary_url": "https://juejin.cn/post/7676498957653803008",
+          "source": "juejin",
+          "source_name": "NewsNow",
+          "source_count": 1,
+          "source_names": [
+            "juejin"
+          ],
+          "score": 0.5199,
+          "importance": 0.5199,
+          "importance_score": 0.5199,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.468,
+            "source_tier": 0.32,
+            "ai_relevance": 0.65,
+            "recency": 0.9947,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-08-24T10:07:06.507000Z",
+          "latest_at": "2026-08-24T10:07:06.507000Z",
+          "creator_score": 78.7,
+          "creator_breakdown": {
+            "relevance": 0.88,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.81,
+            "novelty": 0.85,
+            "heat": 0.332
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "deepseek",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:deepseek",
+            "ai_coding_terms",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "e4995ae225431f7664ea44a1470716c94ee68d56",
+            "title": "DeepSeek Harness 发布一周，登顶 Top10 的插件，暴露了哪些真实需求？",
+            "title_zh": "DeepSeek Harness 发布一周，登顶 Top10 的插件，暴露了哪些真实需求？",
+            "title_original": "DeepSeek Harness 发布一周，登顶 Top10 的插件，暴露了哪些真实需求？",
+            "url": "https://juejin.cn/post/7676498957653803008",
+            "source": "juejin",
+            "source_name": "NewsNow"
+          },
+          "sources": [
+            {
+              "story_id": "story_87655b5efe47",
+              "title": "DeepSeek Harness 发布一周，登顶 Top10 的插件，暴露了哪些真实需求？",
+              "url": "https://juejin.cn/post/7676498957653803008",
+              "source": "juejin",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "掘金文章称，DeepSeek Harness 插件发布仅一周即进入 Top10 榜单，文章以此解读其反映的开发者真实需求，但未披露具体功能和榜单细节，属单一来源消息。",
+          "why_it_matters": "插件快速上榜可能暗示开发者对 DeepSeek 工具链的兴趣激增，或影响 AI 编程助手的选型，但需要更多可验证信息支撑。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "DeepSeek Harness 一周冲榜？我亲自试了试",
+              "angle": "作为一个追新工具的开发者，看到插件登顶后我立即安装实测，分享真实体验和与同类插件的对比。",
+              "needs_hands_on": true,
+              "risk": "尚未实际使用，仅根据单一标题消息，插件的功能和安装方式待核实。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "DeepSeek Harness 登顶插件榜？手把手教你安装验证",
+              "angle": "从小白视角出发，分步骤演示如何找到并安装这个插件，以及避坑提示，用实测结果说话。",
+              "needs_hands_on": true,
+              "risk": "暂无官方安装文档，步骤可能不准确，需核实。"
+            },
+            {
+              "platform": "wechat",
+              "title": "从 DeepSeek Harness 登顶看 AI Coding 工具链的演进",
+              "angle": "以插件登顶为引子，分析当前 AI 编程助手格局，讨论 DeepSeek 生态发展对开发工作流和行业趋势的长期影响。",
+              "needs_hands_on": false,
+              "risk": "仅凭标题推断趋势，需查阅更多资料以确认插件的关键特性。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_a0aa94a30a96",
+          "creator_event_id": "creator-c6550b7baa25ac48",
+          "merged_story_ids": [
+            "story_a0aa94a30a96"
+          ],
+          "title": "Anthropic Claude 与 API 服务中断 / Anthropic Claude and API service outages",
+          "url": "https://status.claude.com/uptime",
+          "primary_url": "https://status.claude.com/uptime",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "source_count": 1,
+          "source_names": [
+            "Hacker News"
+          ],
+          "score": 0.5108,
+          "importance": 0.5108,
+          "importance_score": 0.5108,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.468,
+            "source_tier": 0.32,
+            "ai_relevance": 0.65,
+            "recency": 0.9447,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-08-24T06:32:28Z",
+          "latest_at": "2026-08-24T06:32:28Z",
+          "creator_score": 78.7,
+          "creator_breakdown": {
+            "relevance": 0.88,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.81,
+            "novelty": 0.85,
+            "heat": 0.3288
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "anthropic",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:anthropic",
+            "ai_coding_terms",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "35baf536b42ef0e045df019f59a286cf27eb2c64",
+            "title": "Anthropic Claude 与 API 服务中断 / Anthropic Claude and API service outages",
+            "title_zh": "Anthropic Claude 与 API 服务中断",
+            "title_en": "Anthropic Claude and API service outages",
+            "title_original": "Anthropic Claude and API service outages",
+            "url": "https://status.claude.com/uptime",
+            "source": "Hacker News",
+            "source_name": "TechURLs"
+          },
+          "sources": [
+            {
+              "story_id": "story_a0aa94a30a96",
+              "title": "Anthropic Claude 与 API 服务中断 / Anthropic Claude and API service outages",
+              "url": "https://status.claude.com/uptime",
+              "source": "Hacker News",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "Anthropic Claude 与 API 出现服务中断，状态页面显示异常。目前仅单一来源报道，官方未发布详细说明，影响范围与恢复时间待确认。",
+          "why_it_matters": "依赖 Claude API 的 AI Coding 工具链可能受影响，开发工作流中断风险上升，需关注官方状态页。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "Claude API 挂了？开发者的第一反应",
+              "angle": "第一时间发现异常，查看状态页，分享排查过程与影响",
+              "needs_hands_on": false,
+              "risk": "单一来源，官方未确认，需核对状态页实时数据"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "Claude 服务中断避坑指南",
+              "angle": "作为开发者，遇到中断时如何检查、备份 key、切换备用模型",
+              "needs_hands_on": false,
+              "risk": "未亲测具体影响，需以官方状态页为准"
+            },
+            {
+              "platform": "wechat",
+              "title": "Claude 服务中断对 AI Coding 生态的警示",
+              "angle": "从单点故障看 AI 工具链的依赖风险，讨论多云策略",
+              "needs_hands_on": false,
+              "risk": "单一来源，需持续跟踪官方公告"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_436db66dca8f",
+          "creator_event_id": "creator-bd970d9b7c4e2706",
+          "merged_story_ids": [
+            "story_436db66dca8f"
+          ],
+          "title": "小米玄戒O100芯片发布：6nm工艺与3D堆叠赋能AI全速狂飙",
+          "url": "https://www.aibase.com/news/30574",
+          "primary_url": "https://www.aibase.com/news/30574",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "source_count": 1,
+          "source_names": [
+            "AIbase"
+          ],
+          "score": 0.7676,
+          "importance": 0.7676,
+          "importance_score": 0.7676,
+          "importance_label": "行业动态",
+          "importance_breakdown": {
+            "editorial": 0.72,
+            "source_tier": 0.78,
+            "ai_relevance": 1.0,
+            "recency": 1.0,
+            "story_heat": 0.0
+          },
+          "category": "industry",
+          "reasons": [
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-08-24T10:29:00.831251Z",
+          "latest_at": "2026-08-24T10:29:00.831251Z",
+          "persona_id": "pragmatic",
+          "persona_score": 55,
+          "persona_review": "芯片发布看看就好，写代码用不上，等终端落地再评估适配。",
+          "creator_score": 78.1,
+          "creator_breakdown": {
+            "relevance": 0.88,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.81,
+            "novelty": 0.75,
+            "heat": 0.4187
+          },
+          "creator_bucket": "ai_coding",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "ai_coding_terms",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "aeefb023cc3e834ab461c6683a24091621bb44ac",
+            "title": "小米玄戒O100芯片发布：6nm工艺与3D堆叠赋能AI全速狂飙",
+            "title_zh": "小米玄戒O100芯片发布：6nm工艺与3D堆叠赋能AI全速狂飙",
+            "title_original": "小米玄戒O100芯片发布：6nm工艺与3D堆叠赋能AI全速狂飙",
+            "summary": "Under the backdrop of the widespread adoption of large AI models, the competition among terminal manufacturers in hardware foundations is entering deeper waters\nUnder the backdrop of the widespread adoption of large AI models, the competition among terminal manufacturers in hardware foundations is entering deeper waters\nUnder the backdrop of the widespread adoption of large AI models, the competition among terminal manufacturers in hardware foundations is entering deeper waters\nExplore AI Fronti",
+            "recommend_reason_zh": "小米发布首款大模型AI加速芯片玄戒O100，采用6nm工艺与3D堆叠方案，内存带宽达1.22TB/s，并引入存内计算架构，为端侧大模型推理提供关键硬件支撑。",
+            "url": "https://www.aibase.com/news/30574",
+            "source": "AIbase",
+            "source_name": "AIbase"
+          },
+          "sources": [
+            {
+              "story_id": "story_436db66dca8f",
+              "title": "小米玄戒O100芯片发布：6nm工艺与3D堆叠赋能AI全速狂飙",
+              "url": "https://www.aibase.com/news/30574",
+              "source": "AIbase",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "小米发布首款大模型AI加速芯片玄戒O100，采用6nm工艺与3D堆叠，内存带宽达1.22TB/s，引入存内计算架构，目标支撑端侧大模型推理。目前仅AIbase单源报道，具体参数尚未",
+          "why_it_matters": "端侧AI推理硬件升级，可能影响端侧模型部署效率与成本。开发者需关注其生态兼容性及对现有推理框架的实际支持，避免被宣传参数误导。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "小米玄戒O100实测：端侧大模型推理真的会变快吗？",
+              "angle": "作为开发者，拿到芯片后第一时间跑常见端侧模型（如Llama、Qwen）对比速度与内存占用，分享真实数据与翻车经历。",
+              "needs_hands_on": true,
+              "risk": "芯片尚未实际到手，规格参数仅来自AIbase单源报道，需核实官方发布信息及实测环境。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "小米玄戒O100芯片：3步看懂它对手机AI开发的影响",
+              "angle": "用通俗步骤拆解：存内计算是什么、3D堆叠解决了什么问题、对App开发者意味着什么，给出避坑建议（如兼容性、功耗）。",
+              "needs_hands_on": false,
+              "risk": "技术细节整理自单篇报道，需交叉验证其他来源确认。"
+            },
+            {
+              "platform": "wechat",
+              "title": "从玄戒O100看端侧AI芯片竞争：小米的布局与开发者新机会",
+              "angle": "以行业视角分析小米芯片与高通、苹果的差异，探讨端侧AI推理生态演变，以及开发者如何提前适配新硬件。",
+              "needs_hands_on": false,
+              "risk": "需补充更多行业背景与官方披露，当前信息量不足以支撑完整分析。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_eb6fb8c3ef5c",
+          "creator_event_id": "creator-a8ebaa770b3ab830",
+          "merged_story_ids": [
+            "story_eb6fb8c3ef5c"
+          ],
+          "title": "Codex 开放 1M 上下文后，我折腾了一圈才发现：新版根本不是网上教的那样配置",
+          "url": "https://juejin.cn/post/7676238032370597940",
+          "primary_url": "https://juejin.cn/post/7676238032370597940",
+          "source": "juejin",
+          "source_name": "NewsNow",
+          "source_count": 1,
+          "source_names": [
+            "juejin"
+          ],
+          "score": 0.5199,
+          "importance": 0.5199,
+          "importance_score": 0.5199,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.468,
+            "source_tier": 0.32,
+            "ai_relevance": 0.65,
+            "recency": 0.9947,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-08-24T10:07:06.507000Z",
+          "latest_at": "2026-08-24T10:07:06.507000Z",
+          "creator_score": 74.6,
+          "creator_breakdown": {
+            "relevance": 1.0,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.43,
+            "novelty": 0.65,
+            "heat": 0.332
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "codex",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:codex"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "cb7afdb1f0566e9a613395850e7e98cf9cea1664",
+            "title": "Codex 开放 1M 上下文后，我折腾了一圈才发现：新版根本不是网上教的那样配置",
+            "title_zh": "Codex 开放 1M 上下文后，我折腾了一圈才发现：新版根本不是网上教的那样配置",
+            "title_original": "Codex 开放 1M 上下文后，我折腾了一圈才发现：新版根本不是网上教的那样配置",
+            "url": "https://juejin.cn/post/7676238032370597940",
+            "source": "juejin",
+            "source_name": "NewsNow"
+          },
+          "sources": [
+            {
+              "story_id": "story_eb6fb8c3ef5c",
+              "title": "Codex 开放 1M 上下文后，我折腾了一圈才发现：新版根本不是网上教的那样配置",
+              "url": "https://juejin.cn/post/7676238032370597940",
+              "source": "juejin",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "Codex 开放 1M 上下文后，有开发者实测发现新版配置与网上流传教程不一致，按其指引无法复现，需重新摸索配置方法。",
+          "why_it_matters": "若配置方式与教程脱节，开发者照搬旧教程会浪费时间与上下文额度，影响采用决策和调试效率。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "别再照抄旧教程：Codex 1M 上下文实测配置与网上说的不一样",
+              "angle": "以第一人称讲述自己按照网上教程配置失败、反复尝试后找到正确路径的过程，强调新版改动带来的信息差。",
+              "needs_hands_on": true,
+              "risk": "仅依据标题和单一来源，未亲测；具体配置步骤和差异需实际验证。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "Codex 1M 上下文配置避坑指南：网络教程已过时",
+              "angle": "以踩坑者视角，分享配置过程中的具体错误提示和正确设置步骤，提醒大家先查官方文档。",
+              "needs_hands_on": true,
+              "risk": "缺少正文细节，无法提供具体步骤，需补充实测内容。"
+            },
+            {
+              "platform": "wechat",
+              "title": "从 Codex 配置差异看 AI Coding 工具的迭代速度",
+              "angle": "从这次配置信息差切入，分析AI Coding工具频繁更新导致教程快速过时的现象，讨论开发者如何适应。",
+              "needs_hands_on": false,
+              "risk": "基于单一来源推断，需核实官方变更日志。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_2625e7ebe461",
+          "creator_event_id": "creator-0058acbe52578070",
+          "merged_story_ids": [
+            "story_2625e7ebe461"
+          ],
+          "title": "I've been working with Char, my (human!) assistant from @oceanstalent for 6 months. I think the best assistants today need to know how to work with AI agents. Char uses Claude Code and Codex to help me run podcast pos...",
+          "url": "https://x.com/petergyang/status/2091631590799737306",
+          "primary_url": "https://x.com/petergyang/status/2091631590799737306",
+          "source": "Follow Builders · X · Peter Yang",
+          "source_name": "Follow Builders",
+          "source_count": 1,
+          "source_names": [
+            "Follow Builders · X · Peter Yang"
+          ],
+          "score": 0.6382,
+          "importance": 0.6382,
+          "importance_score": 0.6382,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.612,
+            "source_tier": 0.62,
+            "ai_relevance": 0.85,
+            "recency": 0.8231,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "high_ai_relevance"
+          ],
+          "earliest_at": "2026-08-23T21:00:06Z",
+          "latest_at": "2026-08-23T21:00:06Z",
+          "creator_score": 72.1,
+          "creator_breakdown": {
+            "relevance": 1.0,
+            "freshness": 0.8022,
+            "source": 0.56,
+            "impact": 0.43,
+            "novelty": 0.65,
+            "heat": 0.3734
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "claude-code",
+          "verification_status": "early_signal",
+          "creator_reasons": [
+            "entity:claude-code"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "019dc2d1899f78de89062cde9d5529497fb32cb5",
+            "title": "I've been working with Char, my (human!) assistant from @oceanstalent for 6 months. I think the best assistants today need to know how to work with AI agents. Char uses Claude Code and Codex to help me run podcast pos...",
+            "title_en": "I've been working with Char, my (human!) assistant from @oceanstalent for 6 months. I think the best assistants today need to know how to work with AI agents. Char uses Claude Code and Codex to help me run podcast pos...",
+            "title_original": "I've been working with Char, my (human!) assistant from @oceanstalent for 6 months. I think the best assistants today need to know how to work with AI agents. Char uses Claude Code and Codex to help me run podcast pos...",
+            "url": "https://x.com/petergyang/status/2091631590799737306",
+            "source": "Follow Builders · X · Peter Yang",
+            "source_name": "Follow Builders"
+          },
+          "sources": [
+            {
+              "story_id": "story_2625e7ebe461",
+              "title": "I've been working with Char, my (human!) assistant from @oceanstalent for 6 months. I think the best assistants today need to know how to work with AI agents. Char uses Claude Code and Codex to help me run podcast pos...",
+              "url": "https://x.com/petergyang/status/2091631590799737306",
+              "source": "Follow Builders · X · Peter Yang",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "在X上，创作者Peter Yang称其人类助理Char使用Claude Code和Codex协助运营播客已有6个月，他认为优秀助理需懂得使用AI代理。此消息为早期信号，单一来源。",
+          "why_it_matters": "AI编码工具正从开发者专属走向团队角色，助理掌握Claude Code、Codex意味着工具选择门槛降低，工作流协作模式或生变，开发者需关注",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "我雇了6个月的人类助理，她用Claude Code和Codex帮我干活",
+              "angle": "从个人实测出发，分享如何教非技术助理使用AI编码工具，以及效率提升的直观感受。",
+              "needs_hands_on": true,
+              "risk": "Peter Yang的推文为单一来源，未确认具体工作流程，未亲自验证其效果。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "给非技术背景的助理用Claude Code？手把手避坑指南",
+              "angle": "以传闻中的案例为引，提供训练助理使用AI编码工具的步骤、常见坑和结果评估。",
+              "needs_hands_on": true,
+              "risk": "未亲测，且Claude Code和Codex对具体任务的适用性不明确，需实际验证。"
+            },
+            {
+              "platform": "wechat",
+              "title": "当人类助理开始使用AI代理，开发者工作流会怎么变？",
+              "angle": "从行业趋势角度分析AI Coding工具向非程序员渗透的长期影响，探讨协作模式与工具选择战略。",
+              "needs_hands_on": false,
+              "risk": "仅为单一来源传闻，需更多案例和数据支撑。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_c841c6b2a5f3",
+          "creator_event_id": "creator-55c04cfae56c8e0b",
+          "merged_story_ids": [
+            "story_c841c6b2a5f3"
+          ],
+          "title": "字节整合AI办公产品，TRAE、扣子团队并入豆包",
+          "url": "https://www.aibase.com/news/30576",
+          "primary_url": "https://www.aibase.com/news/30576",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "source_count": 1,
+          "source_names": [
+            "AIbase"
+          ],
+          "score": 0.7676,
+          "importance": 0.7676,
+          "importance_score": 0.7676,
+          "importance_label": "行业动态",
+          "importance_breakdown": {
+            "editorial": 0.72,
+            "source_tier": 0.78,
+            "ai_relevance": 1.0,
+            "recency": 1.0,
+            "story_heat": 0.0
+          },
+          "category": "industry",
+          "reasons": [
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-08-24T10:29:00.831251Z",
+          "latest_at": "2026-08-24T10:29:00.831251Z",
+          "persona_id": "pragmatic",
+          "persona_score": 52,
+          "persona_review": "组织调整不改变现有 API，短期不影响开发，观望产品走向即可。",
+          "creator_score": 70.4,
+          "creator_breakdown": {
+            "relevance": 0.88,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.43,
+            "novelty": 0.55,
+            "heat": 0.4187
+          },
+          "creator_bucket": "ai_coding",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "ai_coding_terms"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "bbf2b2813aedb138047f867ceabd2fb101456b8d",
+            "title": "字节整合AI办公产品，TRAE、扣子团队并入豆包",
+            "title_zh": "字节整合AI办公产品，TRAE、扣子团队并入豆包",
+            "title_original": "字节整合AI办公产品，TRAE、扣子团队并入豆包",
+            "summary": "On August 24, according to media reports, ByteDance has completed the team integration of its AI office products. The TRAE and Coze (Coze) teams will be fully i\nOn August 24, according to media reports, ByteDance has completed the team integration of its AI office products. The TRAE and Coze (Coze) teams will be fully i\nOn August 24, according to media reports, ByteDance has completed the team integration of its AI office products. The TRAE and Coze (Coze) teams will be fully i\nExplore AI Fronti",
+            "recommend_reason_zh": "字节跳动将TRAE与Coze团队并入豆包，TRAE Work和Coze能力整合至豆包，TRAE IDE及CLI保留为编程产品线，统一向豆包负责人赵琦汇报，AI办公资源进一步聚焦。",
+            "url": "https://www.aibase.com/news/30576",
+            "source": "AIbase",
+            "source_name": "AIbase"
+          },
+          "sources": [
+            {
+              "story_id": "story_c841c6b2a5f3",
+              "title": "字节整合AI办公产品，TRAE、扣子团队并入豆包",
+              "url": "https://www.aibase.com/news/30576",
+              "source": "AIbase",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "据AIbase报道，8月24日字节跳动完成AI办公产品团队整合，TRAE与扣子（Coze）团队并入豆包，TRAE Work及Coze能力整合至豆包，TRAE IDE与CLI保留为编",
+          "why_it_matters": "字节将TRAE与扣子并入豆包，AI办公资源向豆包聚焦；TRAE IDE与CLI保留为编程产品线，开发者需关注工具演进与豆包生态整合，避免投资",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "TRAE并入豆包：字节的AI编程工具要转向了？",
+              "angle": "作为用过TRAE的开发者，聊聊这次合并对AI Coding赛道的影响，以及TRAE IDE是否还能保持独立。",
+              "needs_hands_on": false,
+              "risk": "仅单源媒体报道，字节官方未确认，合并细节待证实。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "TRAE/扣子并入豆包，开发者需要做哪些准备？",
+              "angle": "整理了这次整合可能带来的账号、工具入口变化，以及如何避免踩坑，先收藏再看。",
+              "needs_hands_on": false,
+              "risk": "整合具体影响未落地，需等待官方说明。"
+            },
+            {
+              "platform": "wechat",
+              "title": "字节AI办公大整合：TRAE、扣子并入豆包的背后逻辑",
+              "angle": "从产品矩阵和战略角度，分析字节为何把AI办公工具统一到豆包，对开发者和企业客户意味着什么。",
+              "needs_hands_on": false,
+              "risk": "整合细节未官方确认，需持续跟踪官方公告。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_8a41da18f388",
+          "creator_event_id": "creator-998c96a50c894f30",
+          "merged_story_ids": [
+            "story_8a41da18f388"
+          ],
+          "title": "韩国修法为 AI 开绿灯：经监管审查后可使用限定个人数据",
+          "url": "https://www.aibase.com/news/30575",
+          "primary_url": "https://www.aibase.com/news/30575",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "source_count": 1,
+          "source_names": [
+            "AIbase"
+          ],
+          "score": 0.7676,
+          "importance": 0.7676,
+          "importance_score": 0.7676,
+          "importance_label": "行业动态",
+          "importance_breakdown": {
+            "editorial": 0.72,
+            "source_tier": 0.78,
+            "ai_relevance": 1.0,
+            "recency": 1.0,
+            "story_heat": 0.0
+          },
+          "category": "industry",
+          "reasons": [
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-08-24T10:29:00.831251Z",
+          "latest_at": "2026-08-24T10:29:00.831251Z",
+          "persona_id": "pragmatic",
+          "persona_score": 52,
+          "persona_review": "数据合规门槛或松动，但细则未出，暂时不用改方案。",
+          "creator_score": 70.4,
+          "creator_breakdown": {
+            "relevance": 0.88,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.43,
+            "novelty": 0.55,
+            "heat": 0.4187
+          },
+          "creator_bucket": "ai_coding",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "ai_coding_terms"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "d396324050e904c672a54d5a0829c02ab1491963",
+            "title": "韩国修法为 AI 开绿灯：经监管审查后可使用限定个人数据",
+            "title_zh": "韩国修法为 AI 开绿灯：经监管审查后可使用限定个人数据",
+            "title_original": "韩国修法为 AI 开绿灯：经监管审查后可使用限定个人数据",
+            "summary": "The Korean Personal Information Protection Committee recently stated that the National Assembly has unanimously passed an amendment to the Personal Information\nThe Korean Personal Information Protection Committee recently stated that the National Assembly has unanimously passed an amendment to the Personal Information\nThe Korean Personal Information Protection Committee recently stated that the National Assembly has unanimously passed an amendment to the Personal Information\nExplore AI Frontiers",
+            "recommend_reason_zh": "韩国国会一致通过修正案，经Korean Personal Information Protection Committee审查后，AI开发者可用限定个人数据；旧豁免仅限语音反欺诈和自主机器人，期限两年可延长至四年，新规六个月后生效。",
+            "url": "https://www.aibase.com/news/30575",
+            "source": "AIbase",
+            "source_name": "AIbase"
+          },
+          "sources": [
+            {
+              "story_id": "story_8a41da18f388",
+              "title": "韩国修法为 AI 开绿灯：经监管审查后可使用限定个人数据",
+              "url": "https://www.aibase.com/news/30575",
+              "source": "AIbase",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "韩国国会一致通过个人信息保护法修正案，允许AI开发者经个人信息保护委员会审查后使用限定个人数据。旧豁免仅限语音反欺诈和自主机器人，期限两年可延长至四年，新规六个月后生效。",
+          "why_it_matters": "对使用韩国用户数据训练或评估模型的开发者，数据获取将新增合规审查路径，需关注具体审批流程与范围，影响训练数据合规策略。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "韩国给AI数据松绑了？先别急着高兴",
+              "angle": "作为开发者，看到韩国修法允许用限定个人数据，但注意要过监管审查。旧豁免范围很窄，新规还要等六个月。这是真的放开还是换了个紧箍咒？",
+              "needs_hands_on": false,
+              "risk": "单一来源，修正案具体条款和审查流程细节待核实"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "在韩国做AI开发，如何合法使用个人数据？避坑指南",
+              "angle": "分享韩国新修法要点：经个人信息保护委员会审查后可用限定个人数据，旧豁免仅限语音反欺诈和自主机器人，期限可延至四年。提醒大家注意六个月后生效。",
+              "needs_hands_on": false,
+              "risk": "法规细节可能不完整，建议查询官方文件"
+            },
+            {
+              "platform": "wechat",
+              "title": "从韩国修法看AI数据监管的全球走向",
+              "angle": "分析韩国为何从严格限制转向有条件开放，对比其他地区监管思路，探讨对AI开发者的长远影响。",
+              "needs_hands_on": false,
+              "risk": "单源报道，需结合官方立法信息核查"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_c91442ec6dbf",
+          "creator_event_id": "creator-db2fd08b14fa1bff",
+          "merged_story_ids": [
+            "story_c91442ec6dbf",
+            "story_40d699f454ea"
+          ],
+          "title": "用我的 agent.md 提升 LLM 辅助代码质量 / My agent.md to improve LLM-assisted code quality",
+          "url": "https://news.ycombinator.com/item?id=49410932",
+          "primary_url": "https://news.ycombinator.com/item?id=49410932",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "source_count": 2,
+          "source_names": [
+            "hackernews",
+            "Hacker News (黑客新闻)"
+          ],
+          "score": 0.5199,
+          "importance": 0.5199,
+          "importance_score": 0.5199,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.468,
+            "source_tier": 0.32,
+            "ai_relevance": 0.65,
+            "recency": 0.9948,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-08-24T10:07:08.965000Z",
+          "latest_at": "2026-08-24T10:07:08.965000Z",
+          "creator_score": 70.0,
+          "creator_breakdown": {
+            "relevance": 0.88,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.43,
+            "novelty": 0.55,
+            "heat": 0.332
+          },
+          "creator_bucket": "ai_coding",
+          "verification_status": "confirmed",
+          "creator_reasons": [
+            "ai_coding_terms"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "bdc37bb0506dc265f613450407476cee220a8158",
+            "title": "用我的 agent.md 提升 LLM 辅助代码质量 / My agent.md to improve LLM-assisted code quality",
+            "title_zh": "用我的 agent.md 提升 LLM 辅助代码质量",
+            "title_en": "My agent.md to improve LLM-assisted code quality",
+            "title_original": "My agent.md to improve LLM-assisted code quality",
+            "url": "https://news.ycombinator.com/item?id=49410932",
+            "source": "hackernews",
+            "source_name": "NewsNow"
+          },
+          "sources": [
+            {
+              "story_id": "story_c91442ec6dbf",
+              "title": "用我的 agent.md 提升 LLM 辅助代码质量 / My agent.md to improve LLM-assisted code quality",
+              "url": "https://news.ycombinator.com/item?id=49410932",
+              "source": "hackernews",
+              "site_id": "",
+              "official": false
+            },
+            {
+              "story_id": "story_40d699f454ea",
+              "title": "用我的 agent.md 提升 LLM 辅助代码质量 / My agent.md to improve LLM-assisted code quality",
+              "url": "https://fabiensanglard.net/agent.md/index.html",
+              "source": "Hacker News (黑客新闻)",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "Hacker News 热帖：图形程序员 Fabiensanglard 公开分享自己的 agent.md 文件，目标是用它提升 LLM 辅助代码质量，并附上详细做法链接。",
+          "why_it_matters": "agent.md 正成为 AI 编程工作流中的重要配置，此类实践可能影响开发者如何为 Cursor、Claude Code 等工具编写项目级",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "我照着 agent.md 思路改了项目文档，AI 写代码真的变稳了吗？",
+              "angle": "第一人称：看到 Fabiensanglard 的分享后，马上在自己的仓库里试用同类 agent.md，记录 Cursor 和 Claude Code 生成代码的质量变化，用前后对比说话。",
+              "needs_hands_on": true,
+              "risk": "原文具体方法未核实，需访问文章确认 agent.md 的实际结构和效果。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "程序员实测：agent.md 让 AI 辅助代码质量提升的避坑指南",
+              "angle": "手把手教程：根据标题整理 agent.md 的写法要点、放置位置和常见踩坑点，分享我在测试中的实测结果和注意事项。",
+              "needs_hands_on": true,
+              "risk": "未阅读原文，具体步骤为推测，需亲自验证。"
+            },
+            {
+              "platform": "wechat",
+              "title": "agent.md 会是 AI 编程的下一个标配吗？从 Fabiensanglard 的实践看工程范式转变",
+              "angle": "深度分析：从 agent.md 在 AI 编程工具中的作用出发，对比 README、CONTRIBUTING 等既有规范，探讨它如何影响团队协作、代码质量和工程长期演进。",
+              "needs_hands_on": false,
+              "risk": "仅基于标题和公开信息，论文原文未提供系统论述，需补充更多案例。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_7a855623f65f",
+          "creator_event_id": "creator-931ac7b009cc5c9c",
+          "merged_story_ids": [
+            "story_7a855623f65f"
+          ],
+          "title": "你的开源模型可能藏有定时释放的后门 / Your Open Source Model Could Have a Hidden Time-Release Backdoor",
+          "url": "https://morgin.ai/articles/your-open-source-model-could-have-a-hidden-time-release-backdoor.html",
+          "primary_url": "https://morgin.ai/articles/your-open-source-model-could-have-a-hidden-time-release-backdoor.html",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "source_count": 1,
+          "source_names": [
+            "Hacker News"
+          ],
+          "score": 0.5106,
+          "importance": 0.5106,
+          "importance_score": 0.5106,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.468,
+            "source_tier": 0.32,
+            "ai_relevance": 0.65,
+            "recency": 0.9431,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-08-24T06:25:42Z",
+          "latest_at": "2026-08-24T06:25:42Z",
+          "creator_score": 72.0,
+          "creator_breakdown": {
+            "relevance": 0.65,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.89,
+            "novelty": 0.75,
+            "heat": 0.3287
+          },
+          "creator_bucket": "general_ai",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "5ce2cb5d136875c2d716ea9ecfd2a75b61cd6c9a",
+            "title": "你的开源模型可能藏有定时释放的后门 / Your Open Source Model Could Have a Hidden Time-Release Backdoor",
+            "title_zh": "你的开源模型可能藏有定时释放的后门",
+            "title_en": "Your Open Source Model Could Have a Hidden Time-Release Backdoor",
+            "title_original": "Your Open Source Model Could Have a Hidden Time-Release Backdoor",
+            "url": "https://morgin.ai/articles/your-open-source-model-could-have-a-hidden-time-release-backdoor.html",
+            "source": "Hacker News",
+            "source_name": "TechURLs"
+          },
+          "sources": [
+            {
+              "story_id": "story_7a855623f65f",
+              "title": "你的开源模型可能藏有定时释放的后门 / Your Open Source Model Could Have a Hidden Time-Release Backdoor",
+              "url": "https://morgin.ai/articles/your-open-source-model-could-have-a-hidden-time-release-backdoor.html",
+              "source": "Hacker News",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "Hacker News 上出现一条报道，警告开源模型可能被植入定时释放的后门，在特定条件满足时触发。该消息目前仅有单一信息源，未获独立证实，具体技术细节尚未披露。",
+          "why_it_matters": "若后门真实存在，使用开源大模型的开发者可能面临隐蔽的供应链攻击，尤其在代码生成与自动编程场景，需重新评估模型信任边界与审计流程。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "你下载的开源模型，可能藏着一个定时炸弹？",
+              "angle": "开源社区长期基于信任协作，但定时释放的后门意味着模型可能在关键部署后突然变脸。作为开发者，我们如何提前发现异常？",
+              "needs_hands_on": false,
+              "risk": "报道为单一来源，无实例佐证，需核实原始文章的技术依据。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "开源模型安全自查：三招排查隐藏后门",
+              "angle": "不必恐慌，动手排雷。第一步记录模型权重哈希，第二步隔离运行监控输出，第三步检查异常时间触发行为。亲测步骤如下（待补充）。",
+              "needs_hands_on": true,
+              "risk": "自查方法为一般性建议，并非针对该报道的官方方案，需验证有效性。"
+            },
+            {
+              "platform": "wechat",
+              "title": "定时后门：开源模型供应链安全的下一个黑天鹅？",
+              "angle": "从开源软件的 CVE 到开源模型的恶意权重，供应链攻击正在升级。本文梳理模型后门的技术路径、检测难点，以及对 AI 工程化的长期影响。",
+              "needs_hands_on": false,
+              "risk": "缺少具体案例和权威分析，需标注为前瞻性讨论。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_faa9f07849d1",
+          "creator_event_id": "creator-956a831e74fd50e9",
+          "merged_story_ids": [
+            "story_faa9f07849d1"
+          ],
+          "title": "Kimi K2.5 月底退役：月之暗面第一代万亿参数多模态模型谢幕",
+          "url": "https://www.aibase.com/news/30563",
+          "primary_url": "https://www.aibase.com/news/30563",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "source_count": 1,
+          "source_names": [
+            "AIbase"
+          ],
+          "score": 0.7676,
+          "importance": 0.7676,
+          "importance_score": 0.7676,
+          "importance_label": "行业动态",
+          "importance_breakdown": {
+            "editorial": 0.72,
+            "source_tier": 0.78,
+            "ai_relevance": 1.0,
+            "recency": 1.0,
+            "story_heat": 0.0
+          },
+          "category": "industry",
+          "reasons": [
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-08-24T10:29:00.831251Z",
+          "latest_at": "2026-08-24T10:29:00.831251Z",
+          "persona_id": "pragmatic",
+          "persona_score": 70,
+          "persona_review": "老模型退役，用K2.5的抓紧迁移，月底前测好替代方案。",
+          "creator_score": 70.4,
+          "creator_breakdown": {
+            "relevance": 0.68,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.63,
+            "novelty": 0.85,
+            "heat": 0.4187
+          },
+          "creator_bucket": "general_ai",
+          "primary_entity": "kimi",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:kimi",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "ad664556033a5311b1bf1a3b91d8f66eec0bb272",
+            "title": "Kimi K2.5 月底退役：月之暗面第一代万亿参数多模态模型谢幕",
+            "title_zh": "Kimi K2.5 月底退役：月之暗面第一代万亿参数多模态模型谢幕",
+            "title_original": "Kimi K2.5 月底退役：月之暗面第一代万亿参数多模态模型谢幕",
+            "summary": "The Moonshot announced today via Kimi's official Weibo that its first trillion-parameter multimodal model, Kimi K2.5, will retire at the end of this month. The\nThe Moonshot announced today via Kimi's official Weibo that its first trillion-parameter multimodal model, Kimi K2.5, will retire at the end of this month. The\nThe Moonshot announced today via Kimi's official Weibo that its first trillion-parameter multimodal model, Kimi K2.5, will retire at the end of this month. The\nExplore AI Frontiers",
+            "recommend_reason_zh": "The Moonshot宣布Kimi K2.5月底退役，这款首个万亿参数多模态模型1月开源，支持视觉文本与Agent任务；继任者Kimi K3达2.8万亿参数，采用KDA混合线性注意力，上下文达百万token。",
+            "url": "https://www.aibase.com/news/30563",
+            "source": "AIbase",
+            "source_name": "AIbase"
+          },
+          "sources": [
+            {
+              "story_id": "story_faa9f07849d1",
+              "title": "Kimi K2.5 月底退役：月之暗面第一代万亿参数多模态模型谢幕",
+              "url": "https://www.aibase.com/news/30563",
+              "source": "AIbase",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "月之暗面通过Kimi官方微博宣布，首个万亿参数多模态模型Kimi K2.5将于本月底退役。该模型今年1月开源，支持视觉文本与Agent任务；继任者Kimi K3据称达2.8万亿参数",
+          "why_it_matters": "依赖K2.5的开发者需在月底前规划迁移至K3或替代方案，关注API兼容性、调用成本与推理性能变化。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "Kimi K2.5退役倒计时：我实测K3迁移的真实体验",
+              "angle": "以开发者身份对比K2.5与K3在实际Agent任务中的表现，包括响应速度、上下文处理与API改动。",
+              "needs_hands_on": true,
+              "risk": "K3性能与兼容性未亲测，仅基于官方口径，需实际验证。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "Kimi K2.5月底停用，3步把项目平滑迁到K3",
+              "angle": "面向普通开发者，分享迁移到Kimi K3的操作步骤、遇到的坑和成本对比。",
+              "needs_hands_on": true,
+              "risk": "迁移工具和API差异未验证，需实际测试。"
+            },
+            {
+              "platform": "wechat",
+              "title": "从万亿到2.8万亿参数：Kimi K3背后的注意力机制革命",
+              "angle": "梳理K2.5退役与K3接棒背后的技术路线变化，分析KDA混合线性注意力对推理效率的长期影响。",
+              "needs_hands_on": false,
+              "risk": "技术细节来源于单一新闻源，需交叉验证。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_8291784bbe79",
+          "creator_event_id": "creator-d2988b329ecf72a5",
+          "merged_story_ids": [
+            "story_8291784bbe79"
+          ],
+          "title": "期待已久的DeepSeek多模态视觉模型终于上线了",
+          "url": "https://juejin.cn/post/7676330290206244870",
+          "primary_url": "https://juejin.cn/post/7676330290206244870",
+          "source": "juejin",
+          "source_name": "NewsNow",
+          "source_count": 1,
+          "source_names": [
+            "juejin"
+          ],
+          "score": 0.5199,
+          "importance": 0.5199,
+          "importance_score": 0.5199,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.468,
+            "source_tier": 0.32,
+            "ai_relevance": 0.65,
+            "recency": 0.9947,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-08-24T10:07:06.507000Z",
+          "latest_at": "2026-08-24T10:07:06.507000Z",
+          "creator_score": 70.0,
+          "creator_breakdown": {
+            "relevance": 0.68,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.63,
+            "novelty": 0.85,
+            "heat": 0.332
+          },
+          "creator_bucket": "general_ai",
+          "primary_entity": "deepseek",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:deepseek",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "578f63b84ca0a9b381bab4f68aeb5b0b82cd01d4",
+            "title": "期待已久的DeepSeek多模态视觉模型终于上线了",
+            "title_zh": "期待已久的DeepSeek多模态视觉模型终于上线了",
+            "title_original": "期待已久的DeepSeek多模态视觉模型终于上线了",
+            "url": "https://juejin.cn/post/7676330290206244870",
+            "source": "juejin",
+            "source_name": "NewsNow"
+          },
+          "sources": [
+            {
+              "story_id": "story_8291784bbe79",
+              "title": "期待已久的DeepSeek多模态视觉模型终于上线了",
+              "url": "https://juejin.cn/post/7676330290206244870",
+              "source": "juejin",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "掘金用户发帖称DeepSeek多模态视觉模型上线，但消息仅此一源，未经官方确认。",
+          "why_it_matters": "若属实，将补齐DeepSeek在视觉理解上的能力，影响涉及截图转代码、UI测试等开发场景。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "DeepSeek视觉模型上线了？我第一时间去试了试",
+              "angle": "作为AI开发者，看到消息后立刻去查API和模型列表，分享上手体验和实测结果，包括是否能访问、响应质量如何。",
+              "needs_hands_on": true,
+              "risk": "尚未确认模型是否真实可用，需验证实际调用是否成功，避免把传闻当实锤。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "DeepSeek多模态视觉模型来了！实测效果和避坑指南",
+              "angle": "以普通开发者/设计师视角，手把手演示如何用视觉模型处理图片，对比其他多模态模型的优缺点，并提醒大家注意信息来源和API成本。",
+              "needs_hands_on": true,
+              "risk": "消息为单源传闻，可能还未正式发布，需确认上线状态和定价。"
+            },
+            {
+              "platform": "wechat",
+              "title": "DeepSeek视觉模型上线背后：多模态对AI编程意味着什么",
+              "angle": "从行业角度分析DeepSeek补齐视觉能力对开发者生态的影响，结合生成式AI在UI自动化、视觉测试中的应用趋势，给出长期判断。",
+              "needs_hands_on": false,
+              "risk": "部分推断基于未证实消息，需等待官方发布后再完善结论。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_6b026728dcf0",
+          "creator_event_id": "creator-22aa1dadc896affa",
+          "merged_story_ids": [
+            "story_6b026728dcf0"
+          ],
+          "title": "Intelligence is getting cheaper. @OpenAI Sol's price reductions & discounts on Vercel AI Gateway have made Sol our fastest-growing frontier model. This shows ① that the demand for intelligence is highly elastic: as in...",
+          "url": "https://x.com/rauchg/status/2091671326897713424",
+          "primary_url": "https://x.com/rauchg/status/2091671326897713424",
+          "source": "Follow Builders · X · Guillermo Rauch",
+          "source_name": "Follow Builders",
+          "source_count": 1,
+          "source_names": [
+            "Follow Builders · X · Guillermo Rauch"
+          ],
+          "score": 0.6273,
+          "importance": 0.6273,
+          "importance_score": 0.6273,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.5832,
+            "source_tier": 0.62,
+            "ai_relevance": 0.81,
+            "recency": 0.855,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "high_ai_relevance"
+          ],
+          "earliest_at": "2026-08-23T23:38:00Z",
+          "latest_at": "2026-08-23T23:38:00Z",
+          "creator_score": 68.8,
+          "creator_breakdown": {
+            "relevance": 0.68,
+            "freshness": 0.868,
+            "source": 0.56,
+            "impact": 0.63,
+            "novelty": 0.85,
+            "heat": 0.3696
+          },
+          "creator_bucket": "general_ai",
+          "primary_entity": "openai",
+          "verification_status": "early_signal",
+          "creator_reasons": [
+            "entity:openai",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "ba5a85265d1b2ac4ba6baf07bb5bec61e322b77f",
+            "title": "Intelligence is getting cheaper. @OpenAI Sol's price reductions & discounts on Vercel AI Gateway have made Sol our fastest-growing frontier model. This shows ① that the demand for intelligence is highly elastic: as in...",
+            "title_en": "Intelligence is getting cheaper. @OpenAI Sol's price reductions & discounts on Vercel AI Gateway have made Sol our fastest-growing frontier model. This shows ① that the demand for intelligence is highly elastic: as in...",
+            "title_original": "Intelligence is getting cheaper. @OpenAI Sol's price reductions & discounts on Vercel AI Gateway have made Sol our fastest-growing frontier model. This shows ① that the demand for intelligence is highly elastic: as in...",
+            "url": "https://x.com/rauchg/status/2091671326897713424",
+            "source": "Follow Builders · X · Guillermo Rauch",
+            "source_name": "Follow Builders"
+          },
+          "sources": [
+            {
+              "story_id": "story_6b026728dcf0",
+              "title": "Intelligence is getting cheaper. @OpenAI Sol's price reductions & discounts on Vercel AI Gateway have made Sol our fastest-growing frontier model. This shows ① that the demand for intelligence is highly elastic: as in...",
+              "url": "https://x.com/rauchg/status/2091671326897713424",
+              "source": "Follow Builders · X · Guillermo Rauch",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "Vercel CEO Guillermo Rauch发帖称，OpenAI Sol经降价及Vercel AI Gateway折扣后，成为其平台增长最快的前沿模型，显示智能需求价格弹性",
+          "why_it_matters": "前沿模型降价或降低AI应用成本，影响开发者选型。但需验证Vercel数据与Sol实际性能，避免被单方宣传带偏。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "Sol降价后成Vercel增长最快模型？我实测了一把",
+              "angle": "以个人实测视角，对比Sol在Vercel AI Gateway上的成本与性能，验证Vercel CEO的说法是否属实。",
+              "needs_hands_on": true,
+              "risk": "未亲测Vercel官方后台数据，Sol真实价格与折扣需核实。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "Vercel AI Gateway用Sol省钱攻略：实测降价后效果",
+              "angle": "分享通过Vercel AI Gateway接入Sol的步骤、价格对比和避坑经验，用结果说话。",
+              "needs_hands_on": true,
+              "risk": "需验证Sol实际价格和Vercel折扣，避免误导。"
+            },
+            {
+              "platform": "wechat",
+              "title": "智能降价时代：从Sol看AI成本曲线对开发者的影响",
+              "angle": "分析价格弹性与AI成本下降趋势，讨论对开发者选型和应用架构的长期影响，但注明数据为单方声明。",
+              "needs_hands_on": false,
+              "risk": "需核实Vercel声明真实性，避免以传闻当事实。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_ce6219623afd",
+          "creator_event_id": "creator-e2d7358f6e3105a8",
+          "merged_story_ids": [
+            "story_ce6219623afd"
+          ],
+          "title": "全球首个真实数据训练烹饪AI基础模型发布，炒菜机器人进入“具身智能”新时代",
+          "url": "https://www.aibase.com/news/30580",
+          "primary_url": "https://www.aibase.com/news/30580",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "source_count": 1,
+          "source_names": [
+            "AIbase"
+          ],
+          "score": 0.7676,
+          "importance": 0.7676,
+          "importance_score": 0.7676,
+          "importance_label": "行业动态",
+          "importance_breakdown": {
+            "editorial": 0.72,
+            "source_tier": 0.78,
+            "ai_relevance": 1.0,
+            "recency": 1.0,
+            "story_heat": 0.0
+          },
+          "category": "industry",
+          "reasons": [
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-08-24T10:29:00.831251Z",
+          "latest_at": "2026-08-24T10:29:00.831251Z",
+          "persona_id": "pragmatic",
+          "persona_score": 55,
+          "persona_review": "方向有用但未开放，等能上手炒菜再关注。",
+          "creator_score": 68.5,
+          "creator_breakdown": {
+            "relevance": 0.65,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.63,
+            "novelty": 0.75,
+            "heat": 0.4187
+          },
+          "creator_bucket": "general_ai",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "95357b03325921743506592966964abfe94e9d1b",
+            "title": "全球首个真实数据训练烹饪AI基础模型发布，炒菜机器人进入“具身智能”新时代",
+            "title_zh": "全球首个真实数据训练烹饪AI基础模型发布，炒菜机器人进入“具身智能”新时代",
+            "title_original": "全球首个真实数据训练烹饪AI基础模型发布，炒菜机器人进入“具身智能”新时代",
+            "summary": "On August 23, Oak Deer Robotics officially launched the world's first multimodal cooking AI foundation model based on real kitchen data - \"CookingMuse ChefStart\nOn August 23, Oak Deer Robotics officially launched the world's first multimodal cooking AI foundation model based on real kitchen data - \"CookingMuse ChefStart\nOn August 23, Oak Deer Robotics officially launched the world's first multimodal cooking AI foundation model based on real kitchen data - \"CookingMuse ChefStart\nExplore AI Fronti",
+            "recommend_reason_zh": "Oak Deer Robotics发布全球首个基于真实厨房数据的多模态烹饪AI基础模型CookingMuse ChefStart，同时推出3K Visual AI Stir-frying Robot与具身机器人XianChao Ark，覆盖从理解到执行的完整链条。",
+            "url": "https://www.aibase.com/news/30580",
+            "source": "AIbase",
+            "source_name": "AIbase"
+          },
+          "sources": [
+            {
+              "story_id": "story_ce6219623afd",
+              "title": "全球首个真实数据训练烹饪AI基础模型发布，炒菜机器人进入“具身智能”新时代",
+              "url": "https://www.aibase.com/news/30580",
+              "source": "AIbase",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "8月23日，Oak Deer Robotics发布全球首个基于真实厨房数据的多模态烹饪AI基础模型CookingMuse ChefStart，并推出3K Visual AI Sti",
+          "why_it_matters": "烹饪AI从预设菜谱走向真实数据驱动的具身智能，可能改变餐饮后厨自动化成本与开发方式，对机器人控制、多模态感知与行业落地有参考价值。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "CookingMuse ChefStart：炒菜机器人终于学会看火候了？",
+              "angle": "作为开发者和机器人爱好者，实测其公开演示与文档，对比传统预编程炒菜机器人，分享真实厨房数据训练带来的感知差异。",
+              "needs_hands_on": true,
+              "risk": "仅单一来源（AIbase）报道，未提供技术细节、数据集规模或性能基准，需核实模型是否开放及可用性。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "炒菜机器人新物种？手把手带你拆解CookingMuse ChefStart",
+              "angle": "以科技博主视角，整理发布会的关键信息，用图解方式说明从视觉识别到颠勺执行的完整链路，并列出选购或试用的避坑点。",
+              "needs_hands_on": true,
+              "risk": "缺乏实际设备测试，具体烹饪效果、稳定性未知，需确认是否支持家庭场景或仅限商用。"
+            },
+            {
+              "platform": "wechat",
+              "title": "从菜谱到操作：烹饪基础模型如何重塑餐饮后厨自动化",
+              "angle": "结合行业背景，分析真实数据训练对AI Coding之外的具身智能赛道的影响，探讨机器人从感知到执行的工程挑战与商业化前景。",
+              "needs_hands_on": false,
+              "risk": "文章未提供模型参数、训练数据规模等关键信息，需谨慎引用“全球首个”的表述。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_3cf6331e7775",
+          "creator_event_id": "creator-66429076e99aa282",
+          "merged_story_ids": [
+            "story_3cf6331e7775"
+          ],
+          "title": "小米发布玄戒O3/O100/D100三款自研AI芯片，搭建人车家全生态算力底座",
+          "url": "https://www.aibase.com/news/30572",
+          "primary_url": "https://www.aibase.com/news/30572",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "source_count": 1,
+          "source_names": [
+            "AIbase"
+          ],
+          "score": 0.7676,
+          "importance": 0.7676,
+          "importance_score": 0.7676,
+          "importance_label": "行业动态",
+          "importance_breakdown": {
+            "editorial": 0.72,
+            "source_tier": 0.78,
+            "ai_relevance": 1.0,
+            "recency": 1.0,
+            "story_heat": 0.0
+          },
+          "category": "industry",
+          "reasons": [
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-08-24T10:29:00.831251Z",
+          "latest_at": "2026-08-24T10:29:00.831251Z",
+          "persona_id": "pragmatic",
+          "persona_score": 55,
+          "persona_review": "芯片发布离可用还早，短期不影响选型，等生态和产品落地再看。",
+          "creator_score": 68.5,
+          "creator_breakdown": {
+            "relevance": 0.65,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.63,
+            "novelty": 0.75,
+            "heat": 0.4187
+          },
+          "creator_bucket": "general_ai",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "9ad7791022b22eaef9a14ec0a4fc54b98ba1119a",
+            "title": "小米发布玄戒O3/O100/D100三款自研AI芯片，搭建人车家全生态算力底座",
+            "title_zh": "小米发布玄戒O3/O100/D100三款自研AI芯片，搭建人车家全生态算力底座",
+            "title_original": "小米发布玄戒O3/O100/D100三款自研AI芯片，搭建人车家全生态算力底座",
+            "summary": "Xiaomi officially launched its first high-bandwidth AI acceleration chip designed specifically for edge-side large models - Xuanjie O100. The chip uses the indu\nXiaomi officially launched its first high-bandwidth AI acceleration chip designed specifically for edge-side large models - Xuanjie O100. The chip uses the indu\nXiaomi officially launched its first high-bandwidth AI acceleration chip designed specifically for edge-side large models - Xuanjie O100. The chip uses the indu\nExplore AI Fronti",
+            "recommend_reason_zh": "Xiaomi发布Xuanjie O100等三款AI芯片，其带宽1.22 TB/s，为旗舰机16倍，边缘推理达330 TPS，为人车家全生态搭建算力底座。",
+            "url": "https://www.aibase.com/news/30572",
+            "source": "AIbase",
+            "source_name": "AIbase"
+          },
+          "sources": [
+            {
+              "story_id": "story_3cf6331e7775",
+              "title": "小米发布玄戒O3/O100/D100三款自研AI芯片，搭建人车家全生态算力底座",
+              "url": "https://www.aibase.com/news/30572",
+              "source": "AIbase",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "小米发布玄戒O3/O100/D100三款AI芯片，其中O100为高带宽边缘AI芯片，带宽1.22TB/s，边缘推理330TPS，欲建人车家全生态算力底座。目前仅单一信源报道。",
+          "why_it_matters": "端侧AI算力提升，可能改变开发者对边缘设备部署大模型的选型与成本评估，但该数据源自单一报道，需谨慎看待。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "小米玄戒O100发布：性能惊人，但谁实测过？",
+              "angle": "作为开发者，关注这款芯片是否真的能改变边缘AI开发，期待实测对比。",
+              "needs_hands_on": true,
+              "risk": "所有参数均来自单一新闻源，尚未有第三方实测或官方白皮书确认。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "小白也能看懂：小米玄戒芯片参数避坑指南",
+              "angle": "从参数解读入手，告诉开发者如何评估这类芯片，注意带宽和推理性能的实际意义，避免被宣传误导。",
+              "needs_hands_on": false,
+              "risk": "参数来源单一，未经过独立验证，需核对官方发布信息。"
+            },
+            {
+              "platform": "wechat",
+              "title": "小米造芯生态背后：端侧AI算力竞赛与开发者的机遇",
+              "angle": "分析小米芯片布局对端侧AI开发体系的影响，以及开发者如何适应。",
+              "needs_hands_on": false,
+              "risk": "本文为基于单一来源的行业分析，需以官方发布为准。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        }
+      ],
+      "llm_meta": {
+        "provider": "deepseek",
+        "model": "deepseek-v4-flash",
+        "calls_used": 20,
+        "cache_hits": 0,
+        "fallback_count": 0
+      },
+      "dedup_meta": {
+        "secondary_dedup_merge_count": 6,
+        "secondary_dedup_source_count": 100
+      }
+    },
     {
       "edition_id": "2026-08-23-evening",
       "edition_kind": "evening",
@@ -80238,1383 +82222,6 @@
       "dedup_meta": {
         "secondary_dedup_merge_count": 4,
         "secondary_dedup_source_count": 148
-      }
-    },
-    {
-      "edition_id": "2026-07-25-morning",
-      "edition_kind": "morning",
-      "generated_at": "2026-07-25T03:44:50.623651Z",
-      "timezone": "Asia/Shanghai",
-      "total_items": 16,
-      "summary": {
-        "confirmed": 6,
-        "single_source": 9,
-        "early_signal": 0,
-        "rumor": 1,
-        "new": 16,
-        "updated": 0,
-        "confirmed_updates": 0
-      },
-      "items": [
-        {
-          "story_id": "story_1869a425933d",
-          "creator_event_id": "creator-28679af0592e7a97",
-          "merged_story_ids": [
-            "story_1869a425933d"
-          ],
-          "title": "v2.1.220",
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.220",
-          "primary_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.220",
-          "source": "Claude Code Releases",
-          "source_name": "Curated Media",
-          "source_count": 1,
-          "source_names": [
-            "Claude Code Releases"
-          ],
-          "score": 0.6311,
-          "importance": 0.6311,
-          "importance_score": 0.6311,
-          "importance_label": "值得关注",
-          "importance_breakdown": {
-            "editorial": 0.5688,
-            "source_tier": 0.58,
-            "ai_relevance": 0.79,
-            "recency": 0.9715,
-            "story_heat": 0.0
-          },
-          "category": "watch",
-          "reasons": [
-            "recent_ai_signal"
-          ],
-          "earliest_at": "2026-07-25T01:35:55Z",
-          "latest_at": "2026-07-25T01:35:55Z",
-          "creator_score": 94.5,
-          "creator_breakdown": {
-            "relevance": 1.0,
-            "freshness": 1.0,
-            "source": 1.0,
-            "impact": 0.94,
-            "novelty": 0.85,
-            "heat": 0.3709
-          },
-          "creator_bucket": "ai_coding",
-          "primary_entity": "claude-code",
-          "verification_status": "confirmed",
-          "creator_reasons": [
-            "entity:claude-code",
-            "ai_coding_terms",
-            "workflow_impact",
-            "official_or_tier0_source"
-          ],
-          "change_type": "new",
-          "primary_item": {
-            "id": "f9afbec5018244cc036b556f510bb72ccfebabd1",
-            "title": "v2.1.220",
-            "title_original": "v2.1.220",
-            "summary": "What's changed\n\nBug fixes and reliability improvements\nClaude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands. - Release v2.1.220 · anthropics/claude-code\nWhat's changed\n\nBug fixes and reliability improvements\nWe read every piece of feedback, and take your input very seriously.\nTo see all available qualifiers, see",
-            "recommend_reason_zh": "Claude Code v2.1.220发布，修复了bug并提升了可靠性。这款终端内的agentic coding工具能理解代码库，通过自然语言命令执行常规任务、解释复杂代码和处理git工作流。",
-            "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.220",
-            "source": "Claude Code Releases",
-            "source_name": "Curated Media"
-          },
-          "sources": [
-            {
-              "story_id": "story_1869a425933d",
-              "title": "v2.1.220",
-              "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.220",
-              "source": "Claude Code Releases",
-              "site_id": "",
-              "official": true
-            }
-          ],
-          "summary_zh": "What's changed Bug fixes and reliability improvements Claude Code is an agentic coding too",
-          "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-          "angles": [
-            {
-              "platform": "x",
-              "title": "claude-code 这次更新真正改变了什么",
-              "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-              "needs_hands_on": true,
-              "risk": "未亲测前不要把官方描述写成实际效果。"
-            }
-          ],
-          "enrichment_mode": "rules_fallback"
-        },
-        {
-          "story_id": "story_6535391fdd48",
-          "creator_event_id": "creator-ef2f03554330b38c",
-          "merged_story_ids": [
-            "story_6535391fdd48"
-          ],
-          "title": "v2.1.219",
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.219",
-          "primary_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.219",
-          "source": "Claude Code Releases",
-          "source_name": "Curated Media",
-          "source_count": 1,
-          "source_names": [
-            "Claude Code Releases"
-          ],
-          "score": 0.6112,
-          "importance": 0.6112,
-          "importance_score": 0.6112,
-          "importance_label": "值得关注",
-          "importance_breakdown": {
-            "editorial": 0.5688,
-            "source_tier": 0.58,
-            "ai_relevance": 0.79,
-            "recency": 0.861,
-            "story_heat": 0.0
-          },
-          "category": "watch",
-          "reasons": [
-            "recent_ai_signal"
-          ],
-          "earliest_at": "2026-07-24T17:14:23Z",
-          "latest_at": "2026-07-24T17:14:23Z",
-          "creator_score": 92.2,
-          "creator_breakdown": {
-            "relevance": 1.0,
-            "freshness": 0.8873,
-            "source": 1.0,
-            "impact": 0.94,
-            "novelty": 0.85,
-            "heat": 0.3639
-          },
-          "creator_bucket": "ai_coding",
-          "primary_entity": "claude-code",
-          "verification_status": "confirmed",
-          "creator_reasons": [
-            "entity:claude-code",
-            "ai_coding_terms",
-            "workflow_impact",
-            "official_or_tier0_source"
-          ],
-          "change_type": "new",
-          "primary_item": {
-            "id": "eec532adce0c26a48e08c1ffe561c532e026eda7",
-            "title": "v2.1.219",
-            "title_original": "v2.1.219",
-            "summary": "What's changed\n\nAdded Claude Opus 5 (claude-opus-5), now the default Opus model — 1M context, fast mode at $10/$50 per Mtok\nAdded sandbox.network.strictAllowlist setting to deny non-allowlisted hos...\nClaude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands. - Release v2.1.219 · anthropics/claude-code\nWhat&#39;s cha",
-            "recommend_reason_zh": "Anthropic 发布 Claude Code v2.1.219，新增 Claude Opus 5 模型，支持 1M 上下文，fast mode 定价 $10/$50 per Mtok，并介绍了 Claude Code 作为终端中的智能编码工具。",
-            "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.219",
-            "source": "Claude Code Releases",
-            "source_name": "Curated Media"
-          },
-          "sources": [
-            {
-              "story_id": "story_6535391fdd48",
-              "title": "v2.1.219",
-              "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.219",
-              "source": "Claude Code Releases",
-              "site_id": "",
-              "official": true
-            }
-          ],
-          "summary_zh": "What's changed Added Claude Opus 5 (claude-opus-5), now the default Opus model — 1M contex",
-          "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-          "angles": [
-            {
-              "platform": "x",
-              "title": "claude-code 这次更新真正改变了什么",
-              "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-              "needs_hands_on": true,
-              "risk": "未亲测前不要把官方描述写成实际效果。"
-            }
-          ],
-          "enrichment_mode": "rules_fallback"
-        },
-        {
-          "story_id": "story_fdc1a7916c66",
-          "creator_event_id": "creator-ba582995b92693f1",
-          "merged_story_ids": [
-            "story_fdc1a7916c66"
-          ],
-          "title": "Claude Opus 5 现已登陆 GitHub Copilot / Claude Opus 5 is now available in GitHub Copilot",
-          "url": "https://github.blog/changelog/2026-07-24-claude-opus-5-is-now-available-in-github-copilot",
-          "primary_url": "https://github.blog/changelog/2026-07-24-claude-opus-5-is-now-available-in-github-copilot",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "source_count": 1,
-          "source_names": [
-            "GitHub Changelog"
-          ],
-          "score": 0.8337,
-          "importance": 0.8337,
-          "importance_score": 0.8337,
-          "importance_label": "官方更新",
-          "importance_breakdown": {
-            "editorial": 0.9,
-            "source_tier": 1.0,
-            "ai_relevance": 0.95,
-            "recency": 0.8539,
-            "story_heat": 0.0
-          },
-          "category": "official",
-          "reasons": [
-            "official_source",
-            "high_ai_relevance",
-            "high_importance"
-          ],
-          "earliest_at": "2026-07-24T16:40:04Z",
-          "latest_at": "2026-07-24T16:40:04Z",
-          "creator_score": 88.8,
-          "creator_breakdown": {
-            "relevance": 0.95,
-            "freshness": 0.873,
-            "source": 1.0,
-            "impact": 0.81,
-            "novelty": 0.85,
-            "heat": 0.4418
-          },
-          "creator_bucket": "ai_coding",
-          "primary_entity": "github-copilot",
-          "verification_status": "confirmed",
-          "creator_reasons": [
-            "entity:github-copilot",
-            "ai_coding_terms",
-            "workflow_impact",
-            "official_or_tier0_source"
-          ],
-          "change_type": "new",
-          "primary_item": {
-            "id": "99719984c257f5a2a60ae433e2420f724a945b33",
-            "title": "Claude Opus 5 现已登陆 GitHub Copilot / Claude Opus 5 is now available in GitHub Copilot",
-            "title_zh": "Claude Opus 5 现已登陆 GitHub Copilot",
-            "title_en": "Claude Opus 5 is now available in GitHub Copilot",
-            "title_original": "Claude Opus 5 is now available in GitHub Copilot",
-            "summary": "Claude Opus 5, Anthropic’s newest Opus model, is now available in GitHub Copilot. It is designed for complex, long-running coding tasks that require careful reasoning, effective tool use, and reliable…\nClaude Opus 5, Anthropic’s newest Opus model, is now available in GitHub Copilot. It is designed for complex, long-running coding tasks that require careful reasoning, effective tool use, and reliable execution across multiple steps.\nIn our early testing, Opus 5 showed strong performance on agenti",
-            "recommend_reason_zh": "Claude Opus 5正式登陆GitHub Copilot，专为复杂、多步骤的长期编码任务设计，在自主代码变更和回归验证等代理工作流中表现强劲，但增强的网络安全保障可能屏蔽部分请求。",
-            "url": "https://github.blog/changelog/2026-07-24-claude-opus-5-is-now-available-in-github-copilot",
-            "source": "GitHub Changelog",
-            "source_name": "Official AI Updates"
-          },
-          "sources": [
-            {
-              "story_id": "story_fdc1a7916c66",
-              "title": "Claude Opus 5 现已登陆 GitHub Copilot / Claude Opus 5 is now available in GitHub Copilot",
-              "url": "https://github.blog/changelog/2026-07-24-claude-opus-5-is-now-available-in-github-copilot",
-              "source": "GitHub Changelog",
-              "site_id": "",
-              "official": true
-            }
-          ],
-          "summary_zh": "Claude Opus 5, Anthropic’s newest Opus model, is now available in GitHub Copilot. It is de",
-          "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-          "angles": [
-            {
-              "platform": "x",
-              "title": "github-copilot 这次更新真正改变了什么",
-              "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-              "needs_hands_on": true,
-              "risk": "未亲测前不要把官方描述写成实际效果。"
-            }
-          ],
-          "enrichment_mode": "rules_fallback"
-        },
-        {
-          "story_id": "story_305ab2c30835",
-          "creator_event_id": "creator-164e48e9849dbda9",
-          "merged_story_ids": [
-            "story_305ab2c30835"
-          ],
-          "title": "全新Claude Opus 5亮相：前沿级智能体编程与计算机操控能力，价格不变 / Meet the New Claude Opus 5: Frontier-Class Agentic Coding and Computer Use at Unchanged Opus Pricing",
-          "url": "https://www.marktechpost.com/2026/07/24/meet-the-new-claude-opus-5-frontier-class-agentic-coding-and-computer-use-at-unchanged-opus-pricing",
-          "primary_url": "https://www.marktechpost.com/2026/07/24/meet-the-new-claude-opus-5-frontier-class-agentic-coding-and-computer-use-at-unchanged-opus-pricing",
-          "source": "MarkTechPost Research",
-          "source_name": "Curated Media",
-          "source_count": 1,
-          "source_names": [
-            "MarkTechPost Research"
-          ],
-          "score": 0.5886,
-          "importance": 0.5886,
-          "importance_score": 0.5886,
-          "importance_label": "值得关注",
-          "importance_breakdown": {
-            "editorial": 0.5112,
-            "source_tier": 0.58,
-            "ai_relevance": 0.71,
-            "recency": 0.9202,
-            "story_heat": 0.0
-          },
-          "category": "watch",
-          "reasons": [
-            "recent_ai_signal"
-          ],
-          "earliest_at": "2026-07-24T21:50:46Z",
-          "latest_at": "2026-07-24T21:50:46Z",
-          "creator_score": 86.4,
-          "creator_breakdown": {
-            "relevance": 0.88,
-            "freshness": 1.0,
-            "source": 0.78,
-            "impact": 0.94,
-            "novelty": 0.85,
-            "heat": 0.356
-          },
-          "creator_bucket": "ai_coding",
-          "primary_entity": "anthropic",
-          "verification_status": "single_source",
-          "creator_reasons": [
-            "entity:anthropic",
-            "ai_coding_terms",
-            "workflow_impact"
-          ],
-          "change_type": "new",
-          "primary_item": {
-            "id": "2dca80b9f79ee0e8222fe1e3ae51f132da5cc048",
-            "title": "全新Claude Opus 5亮相：前沿级智能体编程与计算机操控能力，价格不变 / Meet the New Claude Opus 5: Frontier-Class Agentic Coding and Computer Use at Unchanged Opus Pricing",
-            "title_zh": "全新Claude Opus 5亮相：前沿级智能体编程与计算机操控能力，价格不变",
-            "title_en": "Meet the New Claude Opus 5: Frontier-Class Agentic Coding and Computer Use at Unchanged Opus Pricing",
-            "title_original": "Meet the New Claude Opus 5: Frontier-Class Agentic Coding and Computer Use at Unchanged Opus Pricing",
-            "summary": "Anthropic released Claude Opus 5 with 1M token context, unchanged $5/$25 pricing, and state-of-the-art agentic coding benchmarks\nAnthropic released Claude Opus 5 with 1M token context, unchanged $5/$25 pricing, and state-of-the-art agentic coding benchmarks\nToday, Anthropic released Claude Opus 5 . It replaces Claude Opus 4.8 as the Opus-tier flagship. Pricing is unchanged at $5 per million input tokens and $25 per million output tokens.\nThe Anthropic team positions Opus 5 as approaching the int",
-            "recommend_reason_zh": "Anthropic发布了Claude Opus 5，定价不变（$5/$25每百万token），FrontierBench得分43.3%远超Opus 4.8的18.7%，IMO 2026六道题全部满分，展现前沿Agentic编码能力。",
-            "url": "https://www.marktechpost.com/2026/07/24/meet-the-new-claude-opus-5-frontier-class-agentic-coding-and-computer-use-at-unchanged-opus-pricing",
-            "source": "MarkTechPost Research",
-            "source_name": "Curated Media"
-          },
-          "sources": [
-            {
-              "story_id": "story_305ab2c30835",
-              "title": "全新Claude Opus 5亮相：前沿级智能体编程与计算机操控能力，价格不变 / Meet the New Claude Opus 5: Frontier-Class Agentic Coding and Computer Use at Unchanged Opus Pricing",
-              "url": "https://www.marktechpost.com/2026/07/24/meet-the-new-claude-opus-5-frontier-class-agentic-coding-and-computer-use-at-unchanged-opus-pricing",
-              "source": "MarkTechPost Research",
-              "site_id": "",
-              "official": false
-            }
-          ],
-          "summary_zh": "Anthropic released Claude Opus 5 with 1M token context, unchanged $5/$25 pricing, and stat",
-          "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-          "angles": [
-            {
-              "platform": "x",
-              "title": "anthropic 这次更新真正改变了什么",
-              "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-              "needs_hands_on": true,
-              "risk": "未亲测前不要把官方描述写成实际效果。"
-            }
-          ],
-          "enrichment_mode": "rules_fallback"
-        },
-        {
-          "story_id": "story_9a470bf343e9",
-          "creator_event_id": "creator-4d5dfb087995241e",
-          "merged_story_ids": [
-            "story_9a470bf343e9"
-          ],
-          "title": "Sakana 声称其 AI 模型路由器 Fugu Ultra v1.1 现已击败 Fable 5，甚至没把它纳入候选池 / Sakana claims its AI model router Fugu Ultra v1.1 now beats Fable 5 without even including it in the pool",
-          "url": "https://the-decoder.com/sakana-claims-its-ai-model-router-fugu-ultra-v1-1-now-beats-fable-5-without-even-including-it-in-the-pool",
-          "primary_url": "https://the-decoder.com/sakana-claims-its-ai-model-router-fugu-ultra-v1-1-now-beats-fable-5-without-even-including-it-in-the-pool",
-          "source": "The Decoder AI News",
-          "source_name": "Curated Media",
-          "source_count": 1,
-          "source_names": [
-            "The Decoder AI News"
-          ],
-          "score": 0.593,
-          "importance": 0.593,
-          "importance_score": 0.593,
-          "importance_label": "值得关注",
-          "importance_breakdown": {
-            "editorial": 0.5472,
-            "source_tier": 0.58,
-            "ai_relevance": 0.76,
-            "recency": 0.8292,
-            "story_heat": 0.0
-          },
-          "category": "watch",
-          "reasons": [
-            "recent_ai_signal"
-          ],
-          "earliest_at": "2026-07-24T14:37:57Z",
-          "latest_at": "2026-07-24T14:37:57Z",
-          "creator_score": 76.8,
-          "creator_breakdown": {
-            "relevance": 1.0,
-            "freshness": 0.8221,
-            "source": 0.78,
-            "impact": 0.43,
-            "novelty": 0.65,
-            "heat": 0.3575
-          },
-          "creator_bucket": "ai_coding",
-          "primary_entity": "claude-code",
-          "verification_status": "single_source",
-          "creator_reasons": [
-            "entity:claude-code"
-          ],
-          "change_type": "new",
-          "primary_item": {
-            "id": "2d02c90c24481a33bcb872a7a004932bf41514d0",
-            "title": "Sakana 声称其 AI 模型路由器 Fugu Ultra v1.1 现已击败 Fable 5，甚至没把它纳入候选池 / Sakana claims its AI model router Fugu Ultra v1.1 now beats Fable 5 without even including it in the pool",
-            "title_zh": "Sakana 声称其 AI 模型路由器 Fugu Ultra v1.1 现已击败 Fable 5，甚至没把它纳入候选池",
-            "title_en": "Sakana claims its AI model router Fugu Ultra v1.1 now beats Fable 5 without even including it in the pool",
-            "title_original": "Sakana claims its AI model router Fugu Ultra v1.1 now beats Fable 5 without even including it in the pool",
-            "summary": "Sakana AI has updated its Fugu Ultra AI router to version 1.1, claiming gains of up to 7.9 points over v1.0. Independent verification doesn't exist yet. The update adds a Claude Code-compatible endpoint. The service remains unavailable in the EU.\nSakana AI has updated its Fugu Ultra AI router to version 1.1, claiming gains of up to 7.9 points over v1.0. Independent verification doesn't exist yet. The update adds a Claude Code-compatible endpoint. The service remains unavailable in the EU.\nSakana",
-            "recommend_reason_zh": "Sakana AI声称其Fugu Ultra v1.1 AI路由器相比v1.0提升最多7.9分，且在没有将Fable 5纳入模型池的情况下仍能击败它，但所有成绩均未经独立验证。",
-            "url": "https://the-decoder.com/sakana-claims-its-ai-model-router-fugu-ultra-v1-1-now-beats-fable-5-without-even-including-it-in-the-pool",
-            "source": "The Decoder AI News",
-            "source_name": "Curated Media"
-          },
-          "sources": [
-            {
-              "story_id": "story_9a470bf343e9",
-              "title": "Sakana 声称其 AI 模型路由器 Fugu Ultra v1.1 现已击败 Fable 5，甚至没把它纳入候选池 / Sakana claims its AI model router Fugu Ultra v1.1 now beats Fable 5 without even including it in the pool",
-              "url": "https://the-decoder.com/sakana-claims-its-ai-model-router-fugu-ultra-v1-1-now-beats-fable-5-without-even-including-it-in-the-pool",
-              "source": "The Decoder AI News",
-              "site_id": "",
-              "official": false
-            }
-          ],
-          "summary_zh": "Sakana AI has updated its Fugu Ultra AI router to version 1.1, claiming gains of up to 7.9",
-          "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-          "angles": [
-            {
-              "platform": "x",
-              "title": "claude-code 这次更新真正改变了什么",
-              "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-              "needs_hands_on": true,
-              "risk": "未亲测前不要把官方描述写成实际效果。"
-            }
-          ],
-          "enrichment_mode": "rules_fallback"
-        },
-        {
-          "story_id": "story_8d86cf526edb",
-          "creator_event_id": "creator-d466d2232fb761dd",
-          "merged_story_ids": [
-            "story_8d86cf526edb"
-          ],
-          "title": "Show HN: 你有多会用 Claude Code？ / Show HN: How well do you use Claude Code?",
-          "url": "https://news.ycombinator.com/item?id=49042653",
-          "primary_url": "https://news.ycombinator.com/item?id=49042653",
-          "source": "HN Algolia · AI 24h",
-          "source_name": "Hacker News",
-          "source_count": 1,
-          "source_names": [
-            "HN Algolia · AI 24h"
-          ],
-          "score": 0.5093,
-          "importance": 0.5093,
-          "importance_score": 0.5093,
-          "importance_label": "值得关注",
-          "importance_breakdown": {
-            "editorial": 0.468,
-            "source_tier": 0.32,
-            "ai_relevance": 0.65,
-            "recency": 0.9358,
-            "story_heat": 0.0
-          },
-          "category": "watch",
-          "reasons": [
-            "recent_ai_signal"
-          ],
-          "earliest_at": "2026-07-24T23:00:38Z",
-          "latest_at": "2026-07-24T23:00:38Z",
-          "creator_score": 76.2,
-          "creator_breakdown": {
-            "relevance": 1.0,
-            "freshness": 1.0,
-            "source": 0.58,
-            "impact": 0.43,
-            "novelty": 0.65,
-            "heat": 0.3283
-          },
-          "creator_bucket": "ai_coding",
-          "primary_entity": "claude-code",
-          "verification_status": "rumor",
-          "creator_reasons": [
-            "entity:claude-code"
-          ],
-          "change_type": "new",
-          "primary_item": {
-            "id": "8bcf1695d489ab72648d1717ce2a4eda9129a9c3",
-            "title": "Show HN: 你有多会用 Claude Code？ / Show HN: How well do you use Claude Code?",
-            "title_zh": "Show HN: 你有多会用 Claude Code？",
-            "title_en": "Show HN: How well do you use Claude Code?",
-            "title_original": "Show HN: How well do you use Claude Code?",
-            "url": "https://news.ycombinator.com/item?id=49042653",
-            "source": "HN Algolia · AI 24h",
-            "source_name": "Hacker News"
-          },
-          "sources": [
-            {
-              "story_id": "story_8d86cf526edb",
-              "title": "Show HN: 你有多会用 Claude Code？ / Show HN: How well do you use Claude Code?",
-              "url": "https://news.ycombinator.com/item?id=49042653",
-              "source": "HN Algolia · AI 24h",
-              "site_id": "",
-              "official": false
-            }
-          ],
-          "summary_zh": "Show HN: 你有多会用 Claude Code？ / Show HN: How well do you use Claude Code?",
-          "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-          "angles": [
-            {
-              "platform": "x",
-              "title": "claude-code 这次更新真正改变了什么",
-              "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-              "needs_hands_on": true,
-              "risk": "未亲测前不要把官方描述写成实际效果。"
-            }
-          ],
-          "enrichment_mode": "rules_fallback"
-        },
-        {
-          "story_id": "story_25df5a5057ae",
-          "creator_event_id": "creator-7565fec27f05b243",
-          "merged_story_ids": [
-            "story_25df5a5057ae"
-          ],
-          "title": "为什么Cognition收购了Poke：AI个性正在变成竞争优势 / Why Cognition bought Poke: AI personality is becoming a competitive advantage",
-          "url": "https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage",
-          "primary_url": "https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage",
-          "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "source_count": 1,
-          "source_names": [
-            "TechCrunch AI"
-          ],
-          "score": 0.6007,
-          "importance": 0.6007,
-          "importance_score": 0.6007,
-          "importance_label": "值得关注",
-          "importance_breakdown": {
-            "editorial": 0.5472,
-            "source_tier": 0.58,
-            "ai_relevance": 0.76,
-            "recency": 0.8721,
-            "story_heat": 0.0
-          },
-          "category": "watch",
-          "reasons": [
-            "recent_ai_signal"
-          ],
-          "earliest_at": "2026-07-24T18:07:32Z",
-          "latest_at": "2026-07-24T18:07:32Z",
-          "creator_score": 73.9,
-          "creator_breakdown": {
-            "relevance": 0.88,
-            "freshness": 0.9095,
-            "source": 0.78,
-            "impact": 0.43,
-            "novelty": 0.55,
-            "heat": 0.3602
-          },
-          "creator_bucket": "ai_coding",
-          "verification_status": "single_source",
-          "creator_reasons": [
-            "ai_coding_terms"
-          ],
-          "change_type": "new",
-          "primary_item": {
-            "id": "c979864fffbd5c87babeb680d35a458322e44369",
-            "title": "为什么Cognition收购了Poke：AI个性正在变成竞争优势 / Why Cognition bought Poke: AI personality is becoming a competitive advantage",
-            "title_zh": "为什么Cognition收购了Poke：AI个性正在变成竞争优势",
-            "title_en": "Why Cognition bought Poke: AI personality is becoming a competitive advantage",
-            "title_original": "Why Cognition bought Poke: AI personality is becoming a competitive advantage",
-            "summary": "The acquisition brings Poke’s conversational style and interaction model to Cognition’s coding agent Devin, reflecting a growing belief that how AI assistants interact with users is as important as the models powering them.\nThe acquisition brings Poke’s conversational style and interaction model to Cognition’s coding agent Devin, reflecting a growing belief that how AI assistants interact with users is as important as the models powering them.\nLatest\nAI\nAmazon\nApps\nBiotech & Health\nClimate\nCloud",
-            "recommend_reason_zh": "Cognition收购Poke，将其对话风格和交互模型整合到编程代理Devin中，表明AI助手的交互方式正与模型本身同等重要。",
-            "url": "https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage",
-            "source": "TechCrunch AI",
-            "source_name": "Curated Media"
-          },
-          "sources": [
-            {
-              "story_id": "story_25df5a5057ae",
-              "title": "为什么Cognition收购了Poke：AI个性正在变成竞争优势 / Why Cognition bought Poke: AI personality is becoming a competitive advantage",
-              "url": "https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage",
-              "source": "TechCrunch AI",
-              "site_id": "",
-              "official": false
-            }
-          ],
-          "summary_zh": "The acquisition brings Poke’s conversational style and interaction model to Cognition’s co",
-          "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-          "angles": [
-            {
-              "platform": "x",
-              "title": "AI Coding 这次更新真正改变了什么",
-              "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-              "needs_hands_on": true,
-              "risk": "未亲测前不要把官方描述写成实际效果。"
-            }
-          ],
-          "enrichment_mode": "rules_fallback"
-        },
-        {
-          "story_id": "story_7d231e7bb6a8",
-          "creator_event_id": "creator-6ce21f31ae15c5a0",
-          "merged_story_ids": [
-            "story_7d231e7bb6a8"
-          ],
-          "title": "Claude 5 代模型上下文工程新规则：Claude Code 系统提示词精简超 80% / The new rules of context engineering for Claude 5 generation models",
-          "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
-          "primary_url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
-          "source": "Claude：Blog（网页）",
-          "source_name": "AI HOT",
-          "source_count": 1,
-          "source_names": [
-            "Claude：Blog（网页）"
-          ],
-          "score": 0.722,
-          "importance": 0.722,
-          "importance_score": 0.722,
-          "importance_label": "行业动态",
-          "importance_breakdown": {
-            "editorial": 0.65,
-            "source_tier": 0.78,
-            "ai_relevance": 1.0,
-            "recency": 0.8634,
-            "story_heat": 0.0
-          },
-          "category": "industry",
-          "reasons": [
-            "high_ai_relevance"
-          ],
-          "earliest_at": "2026-07-24T17:25:50.349000Z",
-          "latest_at": "2026-07-24T17:25:50.349000Z",
-          "creator_score": 72.8,
-          "creator_breakdown": {
-            "relevance": 1.0,
-            "freshness": 0.8921,
-            "source": 0.5,
-            "impact": 0.43,
-            "novelty": 0.65,
-            "heat": 0.4027
-          },
-          "creator_bucket": "ai_coding",
-          "primary_entity": "claude-code",
-          "verification_status": "single_source",
-          "creator_reasons": [
-            "entity:claude-code"
-          ],
-          "change_type": "new",
-          "primary_item": {
-            "id": "9bdb9918b520ffbba73202bacd9f3631e20d3f8e",
-            "title": "Claude 5 代模型上下文工程新规则：Claude Code 系统提示词精简超 80% / The new rules of context engineering for Claude 5 generation models",
-            "title_zh": "Claude 5 代模型上下文工程新规则：Claude Code 系统提示词精简超 80%",
-            "title_en": "The new rules of context engineering for Claude 5 generation models",
-            "title_original": "The new rules of context engineering for Claude 5 generation models",
-            "summary": "Anthropic 为 Claude Opus 5 和 Claude Fable 5 等新一代模型删除了 Claude Code 超过 80% 的系统提示词，且编码评测无显著损失。",
-            "recommend_reason_zh": "Anthropic移除Claude Code超过80%的系统提示词用于Claude Opus 5和Claude Fable 5，且编码评估无损失，并分享了上下文工程新规则。",
-            "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
-            "source": "Claude：Blog（网页）",
-            "source_name": "AI HOT"
-          },
-          "sources": [
-            {
-              "story_id": "story_7d231e7bb6a8",
-              "title": "Claude 5 代模型上下文工程新规则：Claude Code 系统提示词精简超 80% / The new rules of context engineering for Claude 5 generation models",
-              "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
-              "source": "Claude：Blog（网页）",
-              "site_id": "",
-              "official": false
-            }
-          ],
-          "summary_zh": "Anthropic 为 Claude Opus 5 和 Claude Fable 5 等新一代模型删除了 Claude Code 超过 80% 的系统提示词，且编码评测无显著损失。",
-          "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-          "angles": [
-            {
-              "platform": "x",
-              "title": "claude-code 这次更新真正改变了什么",
-              "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-              "needs_hands_on": true,
-              "risk": "未亲测前不要把官方描述写成实际效果。"
-            }
-          ],
-          "enrichment_mode": "rules_fallback"
-        },
-        {
-          "story_id": "story_c3c6061663c9",
-          "creator_event_id": "creator-06f2881605c6de9d",
-          "merged_story_ids": [
-            "story_c3c6061663c9"
-          ],
-          "title": "Claude 的语音模式现在在所有平台上都运行在 Anthropic 最强大的模型上 / Claude's voice mode now runs on Anthropic's most capable models across all platforms",
-          "url": "https://the-decoder.com/claudes-voice-mode-now-runs-on-anthropics-most-capable-models-across-all-platforms",
-          "primary_url": "https://the-decoder.com/claudes-voice-mode-now-runs-on-anthropics-most-capable-models-across-all-platforms",
-          "source": "The Decoder AI News",
-          "source_name": "Curated Media",
-          "source_count": 1,
-          "source_names": [
-            "The Decoder AI News"
-          ],
-          "score": 0.6114,
-          "importance": 0.6114,
-          "importance_score": 0.6114,
-          "importance_label": "值得关注",
-          "importance_breakdown": {
-            "editorial": 0.5904,
-            "source_tier": 0.58,
-            "ai_relevance": 0.82,
-            "recency": 0.7929,
-            "story_heat": 0.0
-          },
-          "category": "watch",
-          "reasons": [
-            "high_ai_relevance"
-          ],
-          "earliest_at": "2026-07-24T11:31:49Z",
-          "latest_at": "2026-07-24T11:31:49Z",
-          "creator_score": 71.7,
-          "creator_breakdown": {
-            "relevance": 0.88,
-            "freshness": 0.7446,
-            "source": 0.78,
-            "impact": 0.43,
-            "novelty": 0.65,
-            "heat": 0.364
-          },
-          "creator_bucket": "ai_coding",
-          "primary_entity": "anthropic",
-          "verification_status": "single_source",
-          "creator_reasons": [
-            "entity:anthropic",
-            "ai_coding_terms"
-          ],
-          "change_type": "new",
-          "primary_item": {
-            "id": "2995e0a97c09381d6094a6c0f5b4c83c4d25abb1",
-            "title": "Claude 的语音模式现在在所有平台上都运行在 Anthropic 最强大的模型上 / Claude's voice mode now runs on Anthropic's most capable models across all platforms",
-            "title_zh": "Claude 的语音模式现在在所有平台上都运行在 Anthropic 最强大的模型上",
-            "title_en": "Claude's voice mode now runs on Anthropic's most capable models across all platforms",
-            "title_original": "Claude's voice mode now runs on Anthropic's most capable models across all platforms",
-            "summary": "Voice conversations now run on the more powerful Opus and Sonnet models with access to Gmail, Google Calendar, and Slack. Claude is currently the only AI assistant that can compose and send emails directly by voice, giving it an edge over OpenAI and Google, whose voice output still sounds more natural.\nVoice conversations now run on the more powerful Opus and Sonnet models with access to Gmail, Google Calendar, and Slack. Claude is currently the only AI assistant that can compose and send emails",
-            "recommend_reason_zh": "Anthropic将Claude语音模式扩展到Opus和Sonnet模型，支持11种语言，并能直接通过语音调用Gmail、Google Calendar和Slack撰写发送邮件，成为唯一具备此能力的AI助手。",
-            "url": "https://the-decoder.com/claudes-voice-mode-now-runs-on-anthropics-most-capable-models-across-all-platforms",
-            "source": "The Decoder AI News",
-            "source_name": "Curated Media"
-          },
-          "sources": [
-            {
-              "story_id": "story_c3c6061663c9",
-              "title": "Claude 的语音模式现在在所有平台上都运行在 Anthropic 最强大的模型上 / Claude's voice mode now runs on Anthropic's most capable models across all platforms",
-              "url": "https://the-decoder.com/claudes-voice-mode-now-runs-on-anthropics-most-capable-models-across-all-platforms",
-              "source": "The Decoder AI News",
-              "site_id": "",
-              "official": false
-            }
-          ],
-          "summary_zh": "Voice conversations now run on the more powerful Opus and Sonnet models with access to Gma",
-          "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-          "angles": [
-            {
-              "platform": "x",
-              "title": "anthropic 这次更新真正改变了什么",
-              "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-              "needs_hands_on": true,
-              "risk": "未亲测前不要把官方描述写成实际效果。"
-            }
-          ],
-          "enrichment_mode": "rules_fallback"
-        },
-        {
-          "story_id": "story_7a180938e3b3",
-          "creator_event_id": "creator-46bbb9d738e53e06",
-          "merged_story_ids": [
-            "story_7a180938e3b3"
-          ],
-          "title": "AI 写代码总翻车？试试\"先画图再砌墙\"的 Vibe Coding 三步法",
-          "url": "https://juejin.cn/post/7665616004353261619",
-          "primary_url": "https://juejin.cn/post/7665616004353261619",
-          "source": "juejin",
-          "source_name": "NewsNow",
-          "source_count": 1,
-          "source_names": [
-            "juejin"
-          ],
-          "score": 0.5208,
-          "importance": 0.5208,
-          "importance_score": 0.5208,
-          "importance_label": "值得关注",
-          "importance_breakdown": {
-            "editorial": 0.468,
-            "source_tier": 0.32,
-            "ai_relevance": 0.65,
-            "recency": 1.0,
-            "story_heat": 0.0
-          },
-          "category": "watch",
-          "reasons": [
-            "recent_ai_signal"
-          ],
-          "earliest_at": "2026-07-25T03:36:30.292000Z",
-          "latest_at": "2026-07-25T03:36:30.292000Z",
-          "creator_score": 70.0,
-          "creator_breakdown": {
-            "relevance": 0.88,
-            "freshness": 1.0,
-            "source": 0.5,
-            "impact": 0.43,
-            "novelty": 0.55,
-            "heat": 0.3323
-          },
-          "creator_bucket": "ai_coding",
-          "verification_status": "single_source",
-          "creator_reasons": [
-            "ai_coding_terms"
-          ],
-          "change_type": "new",
-          "primary_item": {
-            "id": "4932951de5f1f05cef445ee503d3054d2826f0b2",
-            "title": "AI 写代码总翻车？试试\"先画图再砌墙\"的 Vibe Coding 三步法",
-            "title_zh": "AI 写代码总翻车？试试\"先画图再砌墙\"的 Vibe Coding 三步法",
-            "title_original": "AI 写代码总翻车？试试\"先画图再砌墙\"的 Vibe Coding 三步法",
-            "url": "https://juejin.cn/post/7665616004353261619",
-            "source": "juejin",
-            "source_name": "NewsNow"
-          },
-          "sources": [
-            {
-              "story_id": "story_7a180938e3b3",
-              "title": "AI 写代码总翻车？试试\"先画图再砌墙\"的 Vibe Coding 三步法",
-              "url": "https://juejin.cn/post/7665616004353261619",
-              "source": "juejin",
-              "site_id": "",
-              "official": false
-            }
-          ],
-          "summary_zh": "AI 写代码总翻车？试试\"先画图再砌墙\"的 Vibe Coding 三步法",
-          "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-          "angles": [
-            {
-              "platform": "x",
-              "title": "AI Coding 这次更新真正改变了什么",
-              "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-              "needs_hands_on": true,
-              "risk": "未亲测前不要把官方描述写成实际效果。"
-            }
-          ],
-          "enrichment_mode": "rules_fallback"
-        },
-        {
-          "story_id": "story_db9570cdaf10",
-          "creator_event_id": "creator-d3fefeb0647bff6b",
-          "merged_story_ids": [
-            "story_db9570cdaf10",
-            "story_8182507bcc16"
-          ],
-          "title": "Anthropic 发布 Claude Opus 5 / Introducing Claude Opus 5",
-          "url": "https://www.anthropic.com/news/claude-opus-5",
-          "primary_url": "https://www.anthropic.com/news/claude-opus-5",
-          "source": "Anthropic：Newsroom（网页）",
-          "source_name": "AI HOT",
-          "source_count": 2,
-          "source_names": [
-            "Anthropic：Newsroom（网页）",
-            "社区更新 · 2026-07-24"
-          ],
-          "score": 0.8764,
-          "importance": 0.8764,
-          "importance_score": 0.8764,
-          "importance_label": "官方更新",
-          "importance_breakdown": {
-            "editorial": 0.92,
-            "source_tier": 1.0,
-            "ai_relevance": 1.0,
-            "recency": 0.8631,
-            "story_heat": 0.25
-          },
-          "category": "official",
-          "reasons": [
-            "multi_source",
-            "high_ai_relevance",
-            "high_importance"
-          ],
-          "earliest_at": "2026-07-24T16:57:41Z",
-          "latest_at": "2026-07-24T17:24:25.589000Z",
-          "creator_score": 80.7,
-          "creator_breakdown": {
-            "relevance": 0.68,
-            "freshness": 0.8915,
-            "source": 1.0,
-            "impact": 0.63,
-            "novelty": 0.85,
-            "heat": 0.6067
-          },
-          "creator_bucket": "general_ai",
-          "primary_entity": "anthropic",
-          "verification_status": "confirmed",
-          "creator_reasons": [
-            "entity:anthropic",
-            "workflow_impact",
-            "official_or_tier0_source"
-          ],
-          "change_type": "new",
-          "primary_item": {
-            "id": "0e81d4cf8c1908c817163d7e08bd41ceb535298f",
-            "title": "Anthropic 发布 Claude Opus 5 / Introducing Claude Opus 5",
-            "title_zh": "Anthropic 发布 Claude Opus 5",
-            "title_en": "Introducing Claude Opus 5",
-            "title_original": "Introducing Claude Opus 5",
-            "summary": "Anthropic 发布 Claude Opus 5，其智能水平接近 Claude Fable 5，但价格减半。该模型在 Frontier-Bench v0.1 上性能超过 Opus 4.8 两倍以上，在 ARC-AGI 3 上得分是次优模型的三倍。Opus 5 即日起成为 Claude Max 的默认模型和 Claude Pro 的最强模型。",
-            "recommend_reason_zh": "Claude Opus 5在Frontier-Bench v0.1上性能超Opus 4.8两倍以上，成本更低；在CursorBench 3.2上以Fable 5一半成本达到接近峰值表现，且在有机化学任务上比Opus 4.8高10.2个百分点。",
-            "url": "https://www.anthropic.com/news/claude-opus-5",
-            "source": "Anthropic：Newsroom（网页）",
-            "source_name": "AI HOT"
-          },
-          "sources": [
-            {
-              "story_id": "story_db9570cdaf10",
-              "title": "Anthropic 发布 Claude Opus 5 / Introducing Claude Opus 5",
-              "url": "https://www.anthropic.com/news/claude-opus-5",
-              "source": "Anthropic：Newsroom（网页）",
-              "site_id": "",
-              "official": true
-            },
-            {
-              "story_id": "story_8182507bcc16",
-              "title": "Anthropic 发布 Claude Opus 5",
-              "url": "https://waytoagi.feishu.cn/wiki/AKbLw6rziinuS6kzJQecEjjdnlg?from=from_copylink",
-              "source": "社区更新 · 2026-07-24",
-              "site_id": "",
-              "official": false
-            }
-          ],
-          "summary_zh": "Anthropic 发布 Claude Opus 5，其智能水平接近 Claude Fable 5，但价格减半。该模型在 Frontier-Bench v0.1 上性能超过 Opu",
-          "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-          "angles": [
-            {
-              "platform": "x",
-              "title": "anthropic 这次更新真正改变了什么",
-              "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-              "needs_hands_on": true,
-              "risk": "未亲测前不要把官方描述写成实际效果。"
-            }
-          ],
-          "enrichment_mode": "rules_fallback"
-        },
-        {
-          "story_id": "story_0eeaaa42e633",
-          "creator_event_id": "creator-87f5b489a202d96f",
-          "merged_story_ids": [
-            "story_0eeaaa42e633"
-          ],
-          "title": "Claude 作品第5号 正式发布",
-          "url": "https://www.anthropic.com/claude-opus-5-system-card",
-          "primary_url": "https://www.anthropic.com/claude-opus-5-system-card",
-          "source": "www.anthropic.com",
-          "source_name": "Buzzing",
-          "source_count": 1,
-          "source_names": [
-            "www.anthropic.com"
-          ],
-          "score": 0.5208,
-          "importance": 0.5208,
-          "importance_score": 0.5208,
-          "importance_label": "值得关注",
-          "importance_breakdown": {
-            "editorial": 0.468,
-            "source_tier": 0.32,
-            "ai_relevance": 0.65,
-            "recency": 0.8613,
-            "story_heat": 0.25
-          },
-          "category": "watch",
-          "reasons": [
-            "multi_source"
-          ],
-          "earliest_at": "2026-07-24T16:57:41Z",
-          "latest_at": "2026-07-24T17:15:36.658000Z",
-          "creator_score": 78.5,
-          "creator_breakdown": {
-            "relevance": 0.68,
-            "freshness": 0.8878,
-            "source": 1.0,
-            "impact": 0.63,
-            "novelty": 0.85,
-            "heat": 0.4823
-          },
-          "creator_bucket": "general_ai",
-          "primary_entity": "anthropic",
-          "verification_status": "confirmed",
-          "creator_reasons": [
-            "entity:anthropic",
-            "workflow_impact",
-            "official_or_tier0_source"
-          ],
-          "change_type": "new",
-          "primary_item": {
-            "id": "634a5eaf6c720d0e8d6f3a0eb57d46bc2ea8bc69",
-            "title": "Claude 作品第5号 正式发布",
-            "title_zh": "Claude 作品第5号 正式发布",
-            "title_original": "克劳德 作品第5号",
-            "url": "https://www.anthropic.com/claude-opus-5-system-card",
-            "source": "www.anthropic.com",
-            "source_name": "Buzzing"
-          },
-          "sources": [
-            {
-              "story_id": "story_0eeaaa42e633",
-              "title": "Claude 作品第5号 正式发布",
-              "url": "https://www.anthropic.com/claude-opus-5-system-card",
-              "source": "www.anthropic.com",
-              "site_id": "",
-              "official": true
-            }
-          ],
-          "summary_zh": "Claude 作品第5号 正式发布",
-          "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-          "angles": [
-            {
-              "platform": "x",
-              "title": "anthropic 这次更新真正改变了什么",
-              "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-              "needs_hands_on": true,
-              "risk": "未亲测前不要把官方描述写成实际效果。"
-            }
-          ],
-          "enrichment_mode": "rules_fallback"
-        },
-        {
-          "story_id": "story_e6faf39224d8",
-          "creator_event_id": "creator-45be8aa17d14557c",
-          "merged_story_ids": [
-            "story_e6faf39224d8"
-          ],
-          "title": "Anthropic 联合 Andon Labs 发布 Drone-Bench，评估 AI 模型自主操控无人机执行定位追踪任务的能力 / Project Pilot： Can AI control a drone？",
-          "url": "https://www.anthropic.com/research/project-pilot",
-          "primary_url": "https://www.anthropic.com/research/project-pilot",
-          "source": "Anthropic：Research（发表成果 · 网页）",
-          "source_name": "AI HOT",
-          "source_count": 1,
-          "source_names": [
-            "Anthropic：Research（发表成果 · 网页）"
-          ],
-          "score": 0.7416,
-          "importance": 0.7416,
-          "importance_score": 0.7416,
-          "importance_label": "行业动态",
-          "importance_breakdown": {
-            "editorial": 0.73,
-            "source_tier": 0.78,
-            "ai_relevance": 1.0,
-            "recency": 0.8388,
-            "story_heat": 0.0
-          },
-          "category": "industry",
-          "reasons": [
-            "high_ai_relevance"
-          ],
-          "earliest_at": "2026-07-24T15:25:45.300000Z",
-          "latest_at": "2026-07-24T15:25:45.300000Z",
-          "creator_score": 77.2,
-          "creator_breakdown": {
-            "relevance": 0.68,
-            "freshness": 0.842,
-            "source": 1.0,
-            "impact": 0.63,
-            "novelty": 0.85,
-            "heat": 0.4096
-          },
-          "creator_bucket": "general_ai",
-          "primary_entity": "anthropic",
-          "verification_status": "confirmed",
-          "creator_reasons": [
-            "entity:anthropic",
-            "workflow_impact",
-            "official_or_tier0_source"
-          ],
-          "change_type": "new",
-          "primary_item": {
-            "id": "6d978bac4bc3e6f0fdd4b448336d72246c3748a0",
-            "title": "Anthropic 联合 Andon Labs 发布 Drone-Bench，评估 AI 模型自主操控无人机执行定位追踪任务的能力 / Project Pilot： Can AI control a drone？",
-            "title_zh": "Anthropic 联合 Andon Labs 发布 Drone-Bench，评估 AI 模型自主操控无人机执行定位追踪任务的能力",
-            "title_en": "Project Pilot： Can AI control a drone？",
-            "title_original": "Project Pilot： Can AI control a drone？",
-            "summary": "Anthropic 与 Andon Labs 合作推出 Drone-Bench，用于测试 AI 模型自主操控四旋翼无人机在室内环境中定位并追踪指定人员的能力。该基准将任务分解为 3D 地图重建、定位、导航、目标检测与跟随五个子任务，并通过软件复现实现快速评估。实验表明，该任务链的难度足以区分不同智能水平的模型，并揭示 AI 在物理世界操控能力上的进步轨迹。",
-            "recommend_reason_zh": "Anthropic与Andon Labs合作开发了Drone-Bench，测试AI模型能否自主控制四旋翼无人机在室内环境中定位并跟随行人，揭示无人机作为双用途技术的机遇与风险。",
-            "url": "https://www.anthropic.com/research/project-pilot",
-            "source": "Anthropic：Research（发表成果 · 网页）",
-            "source_name": "AI HOT"
-          },
-          "sources": [
-            {
-              "story_id": "story_e6faf39224d8",
-              "title": "Anthropic 联合 Andon Labs 发布 Drone-Bench，评估 AI 模型自主操控无人机执行定位追踪任务的能力 / Project Pilot： Can AI control a drone？",
-              "url": "https://www.anthropic.com/research/project-pilot",
-              "source": "Anthropic：Research（发表成果 · 网页）",
-              "site_id": "",
-              "official": true
-            }
-          ],
-          "summary_zh": "Anthropic 与 Andon Labs 合作推出 Drone-Bench，用于测试 AI 模型自主操控四旋翼无人机在室内环境中定位并追踪指定人员的能力。该基准将任务分解为 3",
-          "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-          "angles": [
-            {
-              "platform": "x",
-              "title": "anthropic 这次更新真正改变了什么",
-              "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-              "needs_hands_on": true,
-              "risk": "未亲测前不要把官方描述写成实际效果。"
-            }
-          ],
-          "enrichment_mode": "rules_fallback"
-        },
-        {
-          "story_id": "story_ee7cdb9daeba",
-          "creator_event_id": "creator-68338e82ee7d52e8",
-          "merged_story_ids": [
-            "story_ee7cdb9daeba"
-          ],
-          "title": "Anthropic发布Opus 5，能力“接近”Fable 5 / Anthropic releases Opus 5 with ‘close’ to Fable 5’s capabilities",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/970105/claude-opus-5-announced-anthropic-ai-model-release",
-          "primary_url": "https://www.theverge.com/ai-artificial-intelligence/970105/claude-opus-5-announced-anthropic-ai-model-release",
-          "source": "The Verge",
-          "source_name": "Curated Media",
-          "source_count": 1,
-          "source_names": [
-            "The Verge"
-          ],
-          "score": 0.5774,
-          "importance": 0.5774,
-          "importance_score": 0.5774,
-          "importance_label": "值得关注",
-          "importance_breakdown": {
-            "editorial": 0.5112,
-            "source_tier": 0.58,
-            "ai_relevance": 0.71,
-            "recency": 0.858,
-            "story_heat": 0.0
-          },
-          "category": "watch",
-          "reasons": [
-            "recent_ai_signal"
-          ],
-          "earliest_at": "2026-07-24T17:00:00Z",
-          "latest_at": "2026-07-24T17:00:00Z",
-          "creator_score": 75.3,
-          "creator_breakdown": {
-            "relevance": 0.68,
-            "freshness": 0.8813,
-            "source": 0.78,
-            "impact": 0.76,
-            "novelty": 0.85,
-            "heat": 0.3521
-          },
-          "creator_bucket": "general_ai",
-          "primary_entity": "anthropic",
-          "verification_status": "single_source",
-          "creator_reasons": [
-            "entity:anthropic",
-            "workflow_impact"
-          ],
-          "change_type": "new",
-          "primary_item": {
-            "id": "e7ccaaa4f6cad29ccf360c8be0b5f78301256ad9",
-            "title": "Anthropic发布Opus 5，能力“接近”Fable 5 / Anthropic releases Opus 5 with ‘close’ to Fable 5’s capabilities",
-            "title_zh": "Anthropic发布Opus 5，能力“接近”Fable 5",
-            "title_en": "Anthropic releases Opus 5 with ‘close’ to Fable 5’s capabilities",
-            "title_original": "Anthropic releases Opus 5 with ‘close’ to Fable 5’s capabilities",
-            "summary": "After the government’s cybersecurity concerns, the company gave this model more cyber safeguards than the previous Opus model.\nThe company said in a release that Opus 5 “comes close to the capabilities of Claude Fable 5 in many domains” and is much better at complex coding tasks.\nAfter the government’s cybersecurity concerns, the company gave this model more cyber safeguards than the previous Opus model.\nPosts from this topic will be added to your daily email digest and your homepage feed.\nSee A",
-            "recommend_reason_zh": "Anthropic发布Claude Opus 5，能力“接近Claude Fable 5”，定价与Opus 4.8一致（输入5美元/百万token），比Fable 5便宜一半，并新增更强网络安全防护。",
-            "url": "https://www.theverge.com/ai-artificial-intelligence/970105/claude-opus-5-announced-anthropic-ai-model-release",
-            "source": "The Verge",
-            "source_name": "Curated Media"
-          },
-          "sources": [
-            {
-              "story_id": "story_ee7cdb9daeba",
-              "title": "Anthropic发布Opus 5，能力“接近”Fable 5 / Anthropic releases Opus 5 with ‘close’ to Fable 5’s capabilities",
-              "url": "https://www.theverge.com/ai-artificial-intelligence/970105/claude-opus-5-announced-anthropic-ai-model-release",
-              "source": "The Verge",
-              "site_id": "",
-              "official": false
-            }
-          ],
-          "summary_zh": "After the government’s cybersecurity concerns, the company gave this model more cyber safe",
-          "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-          "angles": [
-            {
-              "platform": "x",
-              "title": "anthropic 这次更新真正改变了什么",
-              "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-              "needs_hands_on": true,
-              "risk": "未亲测前不要把官方描述写成实际效果。"
-            }
-          ],
-          "enrichment_mode": "rules_fallback"
-        },
-        {
-          "story_id": "story_0d5930cc53c6",
-          "creator_event_id": "creator-7ff63161755722f4",
-          "merged_story_ids": [
-            "story_0d5930cc53c6"
-          ],
-          "title": "OpenAI Presence 销售附带工程师的企业AI Agent / OpenAI Presence sells enterprise AI agents with engineers attached",
-          "url": "https://www.artificialintelligence-news.com/news/openai-presence-enterprise-ai-agents",
-          "primary_url": "https://www.artificialintelligence-news.com/news/openai-presence-enterprise-ai-agents",
-          "source": "Artificial Intelligence News",
-          "source_name": "Curated Media",
-          "source_count": 1,
-          "source_names": [
-            "Artificial Intelligence News"
-          ],
-          "score": 0.5919,
-          "importance": 0.5919,
-          "importance_score": 0.5919,
-          "importance_label": "值得关注",
-          "importance_breakdown": {
-            "editorial": 0.5688,
-            "source_tier": 0.58,
-            "ai_relevance": 0.79,
-            "recency": 0.7535,
-            "story_heat": 0.0
-          },
-          "category": "watch",
-          "reasons": [
-            "recent_ai_signal"
-          ],
-          "earliest_at": "2026-07-24T08:00:00Z",
-          "latest_at": "2026-07-24T08:00:00Z",
-          "creator_score": 68.9,
-          "creator_breakdown": {
-            "relevance": 0.68,
-            "freshness": 0.6563,
-            "source": 0.78,
-            "impact": 0.63,
-            "novelty": 0.85,
-            "heat": 0.3572
-          },
-          "creator_bucket": "general_ai",
-          "primary_entity": "openai",
-          "verification_status": "single_source",
-          "creator_reasons": [
-            "entity:openai",
-            "workflow_impact"
-          ],
-          "change_type": "new",
-          "primary_item": {
-            "id": "5db00b70405590d317c582068d9863594d749608",
-            "title": "OpenAI Presence 销售附带工程师的企业AI Agent / OpenAI Presence sells enterprise AI agents with engineers attached",
-            "title_zh": "OpenAI Presence 销售附带工程师的企业AI Agent",
-            "title_en": "OpenAI Presence sells enterprise AI agents with engineers attached",
-            "title_original": "OpenAI Presence sells enterprise AI agents with engineers attached",
-            "summary": "OpenAI Presence puts enterprise AI agents behind a managed deployment led by its own engineers, with pricing, models and access set case by case.\nOpenAI Presence puts enterprise AI agents behind a managed deployment led by its own engineers, with pricing, models and access set case by case.\nAI News is part of the TechForge Publications series\nTechForge\nArtificial Intelligence\nDashveenjit Kaur\nJuly 24, 2026\nShare this story:\nTags:\nCategories:\nThe newest way to buy enterprise AI agents from OpenAI",
-            "recommend_reason_zh": "OpenAI Presence 以托管模式出售企业AI代理，由自家Forward Deployed Engineers部署到单个任务（如处理保险理赔），并引用Gartner警告超过40%的代理AI项目将在2027年底前取消。",
-            "url": "https://www.artificialintelligence-news.com/news/openai-presence-enterprise-ai-agents",
-            "source": "Artificial Intelligence News",
-            "source_name": "Curated Media"
-          },
-          "sources": [
-            {
-              "story_id": "story_0d5930cc53c6",
-              "title": "OpenAI Presence 销售附带工程师的企业AI Agent / OpenAI Presence sells enterprise AI agents with engineers attached",
-              "url": "https://www.artificialintelligence-news.com/news/openai-presence-enterprise-ai-agents",
-              "source": "Artificial Intelligence News",
-              "site_id": "",
-              "official": false
-            }
-          ],
-          "summary_zh": "OpenAI Presence puts enterprise AI agents behind a managed deployment led by its own engin",
-          "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-          "angles": [
-            {
-              "platform": "x",
-              "title": "openai 这次更新真正改变了什么",
-              "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-              "needs_hands_on": true,
-              "risk": "未亲测前不要把官方描述写成实际效果。"
-            }
-          ],
-          "enrichment_mode": "rules_fallback"
-        },
-        {
-          "story_id": "story_9d86376a2f30",
-          "creator_event_id": "creator-559d50d67e910c5b",
-          "merged_story_ids": [
-            "story_9d86376a2f30"
-          ],
-          "title": "我试用了OpenAI的新AI键盘——对部分程序员来说很有趣，但对其他人来说有点费解 / I tried out OpenAI’s new AI keypad — which will be fun for some coders and slightly mystifying to everyone else",
-          "url": "https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else",
-          "primary_url": "https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else",
-          "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "source_count": 1,
-          "source_names": [
-            "TechCrunch AI"
-          ],
-          "score": 0.6281,
-          "importance": 0.6281,
-          "importance_score": 0.6281,
-          "importance_label": "值得关注",
-          "importance_breakdown": {
-            "editorial": 0.5688,
-            "source_tier": 0.58,
-            "ai_relevance": 0.79,
-            "recency": 0.9546,
-            "story_heat": 0.0
-          },
-          "category": "watch",
-          "reasons": [
-            "recent_ai_signal"
-          ],
-          "earliest_at": "2026-07-25T00:23:11Z",
-          "latest_at": "2026-07-25T00:23:11Z",
-          "creator_score": 68.1,
-          "creator_breakdown": {
-            "relevance": 0.68,
-            "freshness": 1.0,
-            "source": 0.78,
-            "impact": 0.25,
-            "novelty": 0.65,
-            "heat": 0.3698
-          },
-          "creator_bucket": "general_ai",
-          "primary_entity": "openai",
-          "verification_status": "single_source",
-          "creator_reasons": [
-            "entity:openai"
-          ],
-          "change_type": "new",
-          "primary_item": {
-            "id": "01f62e5ba648686bf3ba991a9217ea9e0576573c",
-            "title": "我试用了OpenAI的新AI键盘——对部分程序员来说很有趣，但对其他人来说有点费解 / I tried out OpenAI’s new AI keypad — which will be fun for some coders and slightly mystifying to everyone else",
-            "title_zh": "我试用了OpenAI的新AI键盘——对部分程序员来说很有趣，但对其他人来说有点费解",
-            "title_en": "I tried out OpenAI’s new AI keypad — which will be fun for some coders and slightly mystifying to everyone else",
-            "title_original": "I tried out OpenAI’s new AI keypad — which will be fun for some coders and slightly mystifying to everyone else",
-            "summary": "OpenAI's fancy new AI keypad will be a lot of fun for some, while many others are probably not going to touch it.\nOpenAI's fancy new AI keypad will be a lot of fun for some, while many others are probably not going to touch it.\nLatest\nAI\nAmazon\nApps\nBiotech & Health\nClimate\nCloud Computing\nCommerce\nCrypto\nEnterprise\nEVs\nFintech\nFundraising\nGadgets\nGaming\nGoogle\nGovernment & Policy\nHardware\nInstagram\nLayoffs\nMedia & Entertainment\nMeta\nMicrosoft\nPrivacy\nRobotics\nSecurity\nSocial\nSpace\nStartups\nTikT",
-            "recommend_reason_zh": "体验了OpenAI的新AI键盘，对某些程序员来说充满乐趣，但对其他人则略显神秘，文章详细分析了这款工具的两极分化体验。",
-            "url": "https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else",
-            "source": "TechCrunch AI",
-            "source_name": "Curated Media"
-          },
-          "sources": [
-            {
-              "story_id": "story_9d86376a2f30",
-              "title": "我试用了OpenAI的新AI键盘——对部分程序员来说很有趣，但对其他人来说有点费解 / I tried out OpenAI’s new AI keypad — which will be fun for some coders and slightly mystifying to everyone else",
-              "url": "https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else",
-              "source": "TechCrunch AI",
-              "site_id": "",
-              "official": false
-            }
-          ],
-          "summary_zh": "OpenAI's fancy new AI keypad will be a lot of fun for some, while many others are probably",
-          "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-          "angles": [
-            {
-              "platform": "x",
-              "title": "openai 这次更新真正改变了什么",
-              "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-              "needs_hands_on": true,
-              "risk": "未亲测前不要把官方描述写成实际效果。"
-            }
-          ],
-          "enrichment_mode": "rules_fallback"
-        }
-      ],
-      "llm_meta": {
-        "provider": "deepseek",
-        "model": "deepseek-chat",
-        "calls_used": 16,
-        "cache_hits": 0,
-        "fallback_count": 16
-      },
-      "dedup_meta": {
-        "secondary_dedup_merge_count": 2,
-        "secondary_dedup_source_count": 170
       }
     }
   ]

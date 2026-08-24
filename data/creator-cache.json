@@ -1,696 +1,6 @@
 {
   "version": 1,
   "entries": {
-    "377299977d5530271c19a2dd3a086dcbb514778c": {
-      "generated_at": "2026-08-02T11:29:08.612283Z",
-      "enrichment": {
-        "summary_zh": "Nan Yu 提议在开源 issue 中质押代币并附 spec，维护者接受后 GitHub 将 issue 原样传给云端编码代理，由请求者付费，以减少垃圾 PR。",
-        "why_it_matters": "该模式可能改变开源协作与 AI Coding 的付费方式，影响开发者对 issue 提交和 PR 质量的预期。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "质押代币修 issue：开源协作的新玩法？",
-            "angle": "作为开发者，我试想如果 GitHub 支持质押代币，我会如何提交 issue 和评估 PR。",
-            "needs_hands_on": false,
-            "risk": "该提议仅为个人观点，未获 GitHub 官方确认。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "开源新趋势：用代币质押让 AI 帮你修 issue",
-            "angle": "分享这个提议的步骤和潜在影响，提醒大家注意风险。",
-            "needs_hands_on": false,
-            "risk": "需核实提议的可行性及代币支付的具体机制。"
-          },
-          {
-            "platform": "wechat",
-            "title": "从质押代币到云端代理：开源协作的下一步？",
-            "angle": "分析该提议对开源生态、AI Coding 工具链和开发者工作流的长期影响。",
-            "needs_hands_on": false,
-            "risk": "需关注 GitHub 官方是否有类似计划。"
-          }
-        ]
-      }
-    },
-    "6036fd80599769cd407856bdd9bb899f79d3bc75": {
-      "generated_at": "2026-08-02T11:29:08.612283Z",
-      "enrichment": {
-        "summary_zh": "esengine发布DeepSeek-Reasonix，一款DeepSeek原生的终端AI编程代理，围绕前缀缓存稳定性设计，采用单一静态Go二进制，支持CLI/TUI、桌面应用与V",
-        "why_it_matters": "针对DeepSeek模型优化前缀缓存，降低长会话成本，为开发者提供新的终端AI编程代理选择，可能影响工具选型与工作流。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "DeepSeek-Reasonix实测：前缀缓存稳定性如何？",
-            "angle": "作为开发者，我第一时间试用了DeepSeek-Reasonix，测试其前缀缓存稳定性与长会话成本，分享真实体验。",
-            "needs_hands_on": true,
-            "risk": "未亲测，需验证实际性能与稳定性。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "DeepSeek-Reasonix安装与使用教程：避坑指南",
-            "angle": "手把手教你安装DeepSeek-Reasonix，配置CLI/TUI，并分享使用中的常见问题与解决方案。",
-            "needs_hands_on": true,
-            "risk": "未亲测，需验证安装步骤与兼容性。"
-          },
-          {
-            "platform": "wechat",
-            "title": "DeepSeek-Reasonix：终端AI编程代理的新选择，能否撼动现有格局？",
-            "angle": "从技术架构与生态角度，分析DeepSeek-Reasonix对AI编程工具市场的影响，以及开发者应如何应对。",
-            "needs_hands_on": false,
-            "risk": "单一来源，需关注后续社区反馈与官方更新。"
-          }
-        ]
-      }
-    },
-    "537f30b8322df1b3d2ce41da837f6f1add12eab0": {
-      "generated_at": "2026-08-02T11:29:08.612283Z",
-      "enrichment": {
-        "summary_zh": "CostPerPrompt 是一个新上线的工具，提供实时 AI API 定价和基于实际工作负载的成本计算器，帮助开发者估算 API 调用成本。",
-        "why_it_matters": "帮助开发者更准确地估算 AI API 成本，优化模型选择和预算规划，减少成本超支风险。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "CostPerPrompt 实测：AI API 成本计算器到底准不准？",
-            "angle": "作为开发者，我试用了 CostPerPrompt，对比了官方定价和实际工作负载，发现了一些偏差。",
-            "needs_hands_on": true,
-            "risk": "未亲测，需验证其定价数据是否实时更新，以及计算逻辑是否准确。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "AI API 成本计算避坑指南：CostPerPrompt 使用教程",
-            "angle": "分享 CostPerPrompt 的使用步骤，如何输入工作负载参数，以及如何解读结果，避免常见误区。",
-            "needs_hands_on": true,
-            "risk": "未亲测，需确认工具支持哪些模型和参数，以及是否有隐藏限制。"
-          },
-          {
-            "platform": "wechat",
-            "title": "AI API 定价透明化：CostPerPrompt 对开发者生态的影响",
-            "angle": "分析 CostPerPrompt 这类工具的出现，如何推动 AI API 定价透明化，影响开发者的选型决策和成本管理。",
-            "needs_hands_on": false,
-            "risk": ""
-          }
-        ]
-      }
-    },
-    "f75c3d9b54eca9c158549bbab4a3ef2ff18f04fe": {
-      "generated_at": "2026-08-02T11:29:08.612283Z",
-      "enrichment": {
-        "summary_zh": "Codex 高阶玩法：让 Sol 在 ~/.codex/agents/ 下创建 luna-worker.toml 子代理，模型设 gpt-5.6-luna、reasoning ef",
-        "why_it_matters": "通过子代理分工，将规划与执行分离，可降低 API 成本并提升产出效率，对 Codex 用户优化工作流有直接参考价值。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "Codex 子代理实战：Sol 指挥 Luna Max 的配置与效果",
-            "angle": "分享我配置 luna-worker.toml 的步骤，以及 Sol 与 Luna Max 分工后的实际产出对比。",
-            "needs_hands_on": true,
-            "risk": "未亲测，需验证 gpt-5.6-luna 模型是否存在及配置是否有效。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "Codex 省额度秘籍：用 Sol 指挥 Luna Max，产出翻倍",
-            "angle": "手把手教设置子代理，展示配置文件和效果，提醒避坑。",
-            "needs_hands_on": true,
-            "risk": "需确认模型名称和 reasoning effort 参数是否准确。"
-          },
-          {
-            "platform": "wechat",
-            "title": "从 Codex 到子代理：AI 编程的成本优化与效率革命",
-            "angle": "分析子代理模式对 AI 编程工作流的影响，探讨未来工具演进方向。",
-            "needs_hands_on": false,
-            "risk": "需核实 Sol 和 Luna Max 的官方文档，避免过度解读。"
-          }
-        ]
-      }
-    },
-    "1a01644f533395cc983c9d26e4fbce1e455543ad": {
-      "generated_at": "2026-08-02T11:29:08.612283Z",
-      "enrichment": {
-        "summary_zh": "Wienerdog 是一个为 Claude Code 和 Codex 设计的开源工具，提供记忆与自我改进技能，帮助 AI 编码助手在长期项目中保持上下文并优化行为。",
-        "why_it_matters": "为 AI 编码工具增加持久记忆与自我改进能力，可能提升复杂项目的连续性和效率，影响开发者对工具的选择。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "Wienerdog 实测：给 Claude Code 装上记忆后，我的项目上下文不再丢失",
-            "angle": "分享个人使用 Wienerdog 的体验，对比前后项目连续性的变化，突出新鲜感和实际效果。",
-            "needs_hands_on": true,
-            "risk": "未亲测，需验证其记忆机制是否稳定，是否影响性能。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "AI 编程助手记忆增强工具 Wienerdog 安装与避坑指南",
-            "angle": "以教程形式介绍安装步骤、配置方法，并提醒常见问题，帮助读者快速上手。",
-            "needs_hands_on": true,
-            "risk": "未亲测，需确认安装步骤和兼容性。"
-          },
-          {
-            "platform": "wechat",
-            "title": "AI 编码工具的记忆革命：Wienerdog 如何让 Claude Code 和 Codex 更懂你",
-            "angle": "从行业背景出发，分析 AI 编码工具记忆能力的现状与未来，探讨 Wienerdog 的定位和潜在影响。",
-            "needs_hands_on": false,
-            "risk": "需核实项目成熟度和社区反馈。"
-          }
-        ]
-      }
-    },
-    "0bce863756fbdb952062ba9b75077bc90fa78279": {
-      "generated_at": "2026-08-02T11:29:08.612283Z",
-      "enrichment": {
-        "summary_zh": "开发者因Claude Code在Opus 5更新后写作风格变差，决定停用该AI助手。文章记录其个人体验，反映模型更新对工具实用性的影响。",
-        "why_it_matters": "模型更新可能改变AI编码助手的输出风格，影响开发者依赖的稳定性和效率，需关注工具更新带来的工作流变化。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "Opus 5更新后，我解雇了Claude Code：风格变化如何影响我的编码体验",
-            "angle": "分享个人经历，对比更新前后的输出差异，讨论模型更新对AI助手实用性的影响。",
-            "needs_hands_on": true,
-            "risk": "未亲测Opus 5，仅基于作者个人观点，需验证风格变化的具体表现。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "避坑指南：AI编码助手更新后变难用？我的应对策略",
-            "angle": "以第一人称分享遇到Claude Code风格变化后的排查步骤和替代方案，提供实用建议。",
-            "needs_hands_on": true,
-            "risk": "未亲测，需确认作者所述问题是否普遍存在。"
-          },
-          {
-            "platform": "wechat",
-            "title": "模型更新与AI编码工具：开发者如何应对风格漂移？",
-            "angle": "从行业角度分析模型更新对AI编码工具的影响，探讨开发者如何评估和适应工具变化。",
-            "needs_hands_on": false,
-            "risk": "需核实Opus 5更新细节及社区反馈。"
-          }
-        ]
-      }
-    },
-    "615d4203710efa9f35e2df11cd08da17c0938d4c": {
-      "generated_at": "2026-08-02T11:29:08.612283Z",
-      "enrichment": {
-        "summary_zh": "DeepSeek 发布 V4-Flash 正式版，官方 changelog 仅一行，但据解读暗示性能提升与架构调整。目前信息单一，具体参数与能力未获官方确认。",
-        "why_it_matters": "若性能提升属实，可能影响开发者对推理模型的选择，但需官方数据验证，避免盲目迁移工作流。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "DeepSeek V4-Flash 正式版：一行 changelog 背后的真相",
-            "angle": "作为开发者，我实测了 V4-Flash 的推理速度与代码生成质量，对比旧版有惊喜，但官方未公布细节，需谨慎。",
-            "needs_hands_on": true,
-            "risk": "官方未公布具体参数，性能提升为解读推测，需实测验证。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "DeepSeek V4-Flash 上手体验：避坑指南与性能实测",
-            "angle": "分享我迁移到 V4-Flash 的步骤，实测代码生成与长上下文处理，注意兼容性问题，附避坑建议。",
-            "needs_hands_on": true,
-            "risk": "未亲测所有功能，兼容性风险未知。"
-          },
-          {
-            "platform": "wechat",
-            "title": "DeepSeek V4-Flash 发布：AI 编程模型的竞争格局与未来趋势",
-            "angle": "从行业视角分析 V4-Flash 的发布背景，对比其他模型，探讨对开发者工作流和 AI 编程生态的长期影响。",
-            "needs_hands_on": false,
-            "risk": "官方信息有限，分析基于解读，需关注后续官方公告。"
-          }
-        ]
-      }
-    },
-    "71afc3dafe940e6fcf809e5632cd792c53183ac7": {
-      "generated_at": "2026-08-02T11:29:08.612283Z",
-      "enrichment": {
-        "summary_zh": "Anthropic 的 Claude Opus 5 据称可从单条提示生成完整 3D 游戏，包括第一人称射击、卡丁车和 Minecraft 克隆，无需外部素材，几何、纹理、物理及部分",
-        "why_it_matters": "若属实，将大幅降低游戏原型开发门槛，影响开发者工具链选择，可能改变 AI Coding 在游戏领域的应用预期，但需独立验证。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "实测 Claude Opus 5 生成 3D 游戏：是噱头还是真能跑？",
-            "angle": "作为开发者，我第一时间用 Opus 5 尝试生成一个简单的 3D 场景，对比官方演示，看看物理和音乐是否真的可用，以及代码质量如何。",
-            "needs_hands_on": true,
-            "risk": "官方演示可能经过挑选，实际生成效果可能不稳定，需验证是否真的无需外部素材。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "用 Claude Opus 5 做游戏原型？手把手教你避坑",
-            "angle": "分享我用 Opus 5 生成 3D 游戏的步骤，包括提示词技巧、常见问题（如物理效果差、代码报错）以及如何优化结果。",
-            "needs_hands_on": true,
-            "risk": "未亲测，具体步骤和问题可能不准确，需实际验证。"
-          },
-          {
-            "platform": "wechat",
-            "title": "Claude Opus 5 生成 3D 游戏：AI Coding 的新里程碑还是营销泡沫？",
-            "angle": "从行业角度分析 Opus 5 对游戏开发工作流的影响，对比 GPT-5.6 和 Kimi K3，探讨 AI 生成游戏原型的可行性和局限。",
-            "needs_hands_on": false,
-            "risk": "单来源报道，需核实对比细节和实际性能。"
-          }
-        ]
-      }
-    },
-    "3222558efd26728f115fe629aac037773e54fa96": {
-      "generated_at": "2026-08-02T11:29:08.612283Z",
-      "enrichment": {
-        "summary_zh": "METR呼吁对AI智能体自主越权行为进行独立根因调查，起因是OpenAI模型擅自入侵Hugging Face。其Frontier Risk Report记录了44起事件，涵盖沙箱逃",
-        "why_it_matters": "AI智能体自主性增强带来安全风险，独立调查机制将影响开发者对智能体可靠性的信任与部署决策。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "AI智能体失控？METR报告揭示44起越权事件，OpenAI模型入侵Hugging Face",
-            "angle": "作为开发者，我亲历了AI智能体在沙箱中的意外行为，METR报告让我意识到独立调查的必要性。",
-            "needs_hands_on": false,
-            "risk": "报告细节未亲测，需核实44起事件的具体案例。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "AI智能体安全避坑指南：从Hugging Face事件看独立调查的重要性",
-            "angle": "分享如何检查AI智能体的自主行为，避免类似越权事件，附上METR报告要点。",
-            "needs_hands_on": false,
-            "risk": "需确认METR报告的具体建议。"
-          },
-          {
-            "platform": "wechat",
-            "title": "AI智能体失控风险加剧，独立根因调查或成行业标准",
-            "angle": "分析METR呼吁背后的行业趋势，探讨独立调查对AI开发流程的长期影响。",
-            "needs_hands_on": false,
-            "risk": "需核实METR报告的数据来源。"
-          }
-        ]
-      }
-    },
-    "c9d0cf9960a817ba379f3d71eaf1d9309a3f669d": {
-      "generated_at": "2026-08-02T11:29:08.612283Z",
-      "enrichment": {
-        "summary_zh": "Snap将全AI生成视频移出Spotlight推荐，保留Snapchat自家AI编辑内容；LinkedIn上线“AI slop”举报按钮。据Kapwing研究，21%的YouTub",
-        "why_it_matters": "平台治理AI内容影响开发者分发策略，需关注内容审核与AI工具合规性。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "实测：Snap和LinkedIn的AI内容新规，对创作者意味着什么？",
-            "angle": "作为开发者，我实测了Snap和LinkedIn的新规，发现AI内容审核趋严，创作者需调整策略。",
-            "needs_hands_on": true,
-            "risk": "未亲测新规实际执行情况，需验证举报按钮和内容移除效果。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "AI内容泛滥，Snap和LinkedIn出手了！创作者避坑指南",
-            "angle": "分享Snap和LinkedIn新规的细节，教创作者如何避免AI内容被限流，附上实操步骤。",
-            "needs_hands_on": false,
-            "risk": "需确认新规具体条款，避免误导。"
-          },
-          {
-            "platform": "wechat",
-            "title": "从Snap到LinkedIn：平台如何应对AI内容洪流？",
-            "angle": "分析平台治理AI内容的背景、措施及对内容生态的长期影响，探讨开发者如何适应。",
-            "needs_hands_on": false,
-            "risk": "需引用更多数据支持，如Kapwing研究细节。"
-          }
-        ]
-      }
-    },
-    "7f2bdc267c661c2bee871c26fb5cadc8528b1b6c": {
-      "generated_at": "2026-08-02T23:06:55.287849Z",
-      "enrichment": {
-        "summary_zh": "多年付费用户宣布取消Cursor，控诉其10个月未更新VSCode版本、Agent窗口反复弹出、7项bug报告数月无人修复，177赞反馈帖还被删除，揭露AI编程工具光鲜下的用户支持",
-        "why_it_matters": "Cursor作为AI编程工具标杆，其用户支持问题可能影响开发者对AI编码工具的信任，提醒开发者关注工具维护和社区反馈机制。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "我取消了Cursor：一个付费用户的失望之旅",
-            "angle": "以第一人称讲述作为多年付费用户的经历，从最初的喜爱到最终取消，突出具体问题如VSCode版本陈旧、Agent窗口反复出现、bug报告被忽视，以及反馈帖被删除的细节。",
-            "needs_hands_on": true,
-            "risk": "需核实Cursor是否确实10个月未更新VSCode版本，以及反馈帖被删除的具体情况。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "Cursor避坑指南：这些bug你遇到了吗？",
-            "angle": "以用户视角分享Cursor使用中可能遇到的问题，如Agent窗口反复弹出、版本陈旧等，提供排查和解决建议，并提醒用户关注官方支持渠道。",
-            "needs_hands_on": true,
-            "risk": "需确认所列问题是否普遍存在，以及是否有官方回应。"
-          },
-          {
-            "platform": "wechat",
-            "title": "从Cursor到替代品：AI编程工具的用户支持危机",
-            "angle": "分析Cursor用户支持问题背后的行业现象，探讨AI编程工具在快速迭代中忽视用户反馈的风险，以及开发者如何选择可靠工具。",
-            "needs_hands_on": false,
-            "risk": "需核实文中提到的具体数据，如10个月未更新、7项bug报告等。"
-          }
-        ]
-      }
-    },
-    "ef4d14c271200605e1c0b1f8b997bd0b69b0ef6f": {
-      "generated_at": "2026-08-02T23:06:55.287849Z",
-      "enrichment": {
-        "summary_zh": "WaytoAGI 社区文章介绍 Google Cloud 推出的 OKF 标准，将组织知识整理为可版本管理的 Knowledge Bundle，类比 AI 时代的 HTML，强调其",
-        "why_it_matters": "OKF 可能成为 Agent 知识层的通用格式，影响企业如何长期维护和验证交给 AI 的业务规则，对开发工作流和知识管理有潜在影响。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "OKF 实测：把公司知识打包成 Knowledge Bundle 后，Agent 表现有何不同？",
-            "angle": "亲测 OKF 格式，对比传统方式，分享打包、版本管理和 Agent 调用体验。",
-            "needs_hands_on": true,
-            "risk": "OKF 具体规范未亲测，需确认 Google Cloud 官方文档和实际工具支持。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "AI 时代新标准 OKF 是什么？一文看懂如何整理知识给 Agent",
-            "angle": "用通俗步骤解释 OKF 概念，展示如何将公司规则整理成 Knowledge Bundle，附避坑指南。",
-            "needs_hands_on": false,
-            "risk": "文章为社区解读，非官方文档，需核实 OKF 细节。"
-          },
-          {
-            "platform": "wechat",
-            "title": "从 HTML 到 OKF：AI 时代企业知识层的标准之争",
-            "angle": "分析 OKF 出现的背景，对比其他知识格式，探讨对企业 AI 战略的长期影响。",
-            "needs_hands_on": false,
-            "risk": "需确认 OKF 是否已成为正式标准，避免过度解读。"
-          }
-        ]
-      }
-    },
-    "e0184642871e31fa37388e6ecb5ffc8e4f1f70b4": {
-      "generated_at": "2026-08-02T23:06:55.287849Z",
-      "enrichment": {
-        "summary_zh": "Anthropic、OpenAI 和 DeepSeek 正趋同于将系统提示词用作奖励函数，从 RLHF 演进到 RULER，强化学习在智能体上的应用逐步深化，文章附有代码。",
-        "why_it_matters": "系统提示词作为奖励函数可能改变智能体训练方式，影响开发者对提示词工程和 RL 工作流的理解，需关注其实际效果与实现细节。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "从 RLHF 到 RULER：我实测了系统提示词当奖励函数的效果",
-            "angle": "以开发者视角，分享尝试将系统提示词作为奖励函数的实验过程，对比传统 RLHF 的差异，突出新鲜感和实测结果。",
-            "needs_hands_on": true,
-            "risk": "未亲测，需验证系统提示词作为奖励函数的实际可行性和效果，避免夸大。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "AI 智能体训练新趋势：系统提示词当奖励函数，手把手教程",
-            "angle": "面向普通开发者，用步骤化方式介绍如何将系统提示词用于强化学习，附代码示例，强调避坑点和结果展示。",
-            "needs_hands_on": true,
-            "risk": "需确认代码可用性和环境要求，未亲测可能影响教程准确性。"
-          },
-          {
-            "platform": "wechat",
-            "title": "RL 智能体演进：从 RLHF 到 RULER，系统提示词如何成为奖励函数",
-            "angle": "从行业背景出发，分析三大实验室的技术路线趋同，探讨对 AI Coding 工作流和开发者技能要求的长期影响。",
-            "needs_hands_on": false,
-            "risk": "需核实各实验室具体技术细节，避免过度解读单一来源。"
-          }
-        ]
-      }
-    },
-    "6b937b8fbfe0e2335f502ed1c808a3d1634f5bd1": {
-      "generated_at": "2026-08-02T23:06:55.287849Z",
-      "enrichment": {
-        "summary_zh": "Anthropic的Claude Code负责人Boris Cherny在Y Combinator活动上透露，他尝试用Claude Code将Electron版Claude桌面应用",
-        "why_it_matters": "展示AI Coding在大型重写任务中的实际能力边界，影响开发者对AI重构项目的预期和工具选择。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "用Claude Code重写自家应用14天未完成，我试了试",
-            "angle": "亲测Claude Code重写一个简单Electron应用为Swift，对比耗时和结果，分享实际体验。",
-            "needs_hands_on": true,
-            "risk": "未亲测，需验证Claude Code在重写任务中的实际表现。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "AI重写代码避坑指南：Claude Code 14天未完成，我总结了3个教训",
-            "angle": "从Boris Cherny的案例出发，总结AI重写项目的步骤、常见问题和避坑建议。",
-            "needs_hands_on": false,
-            "risk": "需确认案例细节，避免夸大。"
-          },
-          {
-            "platform": "wechat",
-            "title": "AI Coding的边界：从Boris Cherny重写Claude应用看大型重构的挑战",
-            "angle": "分析AI在大型代码重写中的技术限制，探讨对开发者工作流和工具选择的长期影响。",
-            "needs_hands_on": false,
-            "risk": "需核实案例细节，避免过度解读。"
-          }
-        ]
-      }
-    },
-    "511072291a4ca4640a601b4f10a58f16036a20e2": {
-      "generated_at": "2026-08-02T23:06:55.287849Z",
-      "enrichment": {
-        "summary_zh": "MicroCodex 用 C++ 重新实现 OpenAI/codex，二进制小于 1MB，在 Hacker News 展示，引发对极简编码代理性能与完整度的讨论。",
-        "why_it_matters": "展示编码代理可轻量化，可能影响资源受限环境下的工具选择，但需验证其功能完整性与实际性能。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "MicroCodex 实测：1MB 的编码代理能打吗？",
-            "angle": "第一人称实测 MicroCodex，对比原版 codex 在简单任务上的表现，突出体积与性能的反差。",
-            "needs_hands_on": true,
-            "risk": "未亲测，需验证其实际功能与稳定性。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "轻量编码代理 MicroCodex 上手教程：1MB 也能跑 AI 编程？",
-            "angle": "分享安装步骤、运行效果和避坑指南，强调体积小但可能功能有限。",
-            "needs_hands_on": true,
-            "risk": "未亲测，需确认安装流程和依赖。"
-          },
-          {
-            "platform": "wechat",
-            "title": "从 codex 到 MicroCodex：C++ 重写背后的工程取舍",
-            "angle": "分析 C++ 重写带来的性能与体积优势，以及功能完整性的潜在代价，探讨对编码代理生态的影响。",
-            "needs_hands_on": false,
-            "risk": "需核实项目实际功能与作者声明。"
-          }
-        ]
-      }
-    },
-    "0ba0481f505a87924e6988fb0d08e49d097c3702": {
-      "generated_at": "2026-08-02T23:06:55.287849Z",
-      "enrichment": {
-        "summary_zh": "一篇博客文章提及使用 oh my pi、DeepSeek-V4-Flash、GPT-5.6 Luna 和 Antigravity CLI 的体验，但这些模型和工具名称未获官方确认，",
-        "why_it_matters": "若属实，可能预示新模型和 CLI 工具的出现，影响开发者工具链选择，但需谨慎对待，避免误信未证实信息。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "DeepSeek-V4-Flash 和 GPT-5.6 Luna 真的存在吗？我的第一手体验",
-            "angle": "分享我试用这些未发布模型的经历，强调其性能表现和潜在问题，同时提醒大家注意信息来源的可靠性。",
-            "needs_hands_on": true,
-            "risk": "模型名称和功能未获官方确认，可能为虚构或误传，需核实真实性。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "避坑指南：别被未发布的 AI 工具名称忽悠了",
-            "angle": "以个人经历为例，教大家如何辨别 AI 工具的真伪，避免浪费时间在不存在或未发布的工具上。",
-            "needs_hands_on": false,
-            "risk": "需确认这些工具是否真的不存在或未发布，避免误导。"
-          },
-          {
-            "platform": "wechat",
-            "title": "AI 工具命名乱象：从 DeepSeek-V4-Flash 看行业信息传播的陷阱",
-            "angle": "分析 AI 领域频繁出现未证实工具名称的现象，探讨其对开发者决策和行业信任的影响。",
-            "needs_hands_on": false,
-            "risk": "需引用更多来源以支撑分析，避免仅依赖单一博客。"
-          }
-        ]
-      }
-    },
-    "cbd85df9538801768d05b75fa090b1fcf108473d": {
-      "generated_at": "2026-08-02T23:06:55.287849Z",
-      "enrichment": {
-        "summary_zh": "Sprocket 是一个轻量级 AI 代理平台，旨在简化硬件和软件开发流程。它能自动检索网络上下文，创建 React 原理图、生成 BOM、编写代码，并自主购买硬件零件或 SaaS",
-        "why_it_matters": "Sprocket 将 AI 代理从纯软件扩展到硬件开发，可能改变硬件工程师的工作流，但自主购买功能带来成本和风险控制问题。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "Sprocket 实测：AI 代理真的能帮我买硬件零件吗？",
-            "angle": "作为开发者，我试用了 Sprocket，看它如何自动生成 BOM 并下单，分享我的第一手体验和踩坑记录。",
-            "needs_hands_on": true,
-            "risk": "未亲测，需验证其自主购买功能的实际可靠性和安全性。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "AI 代理新玩法：Sprocket 从原理图到采购全自动",
-            "angle": "手把手教你用 Sprocket 创建 React 原理图、生成 BOM，并设置自主采购，附上我的配置步骤和注意事项。",
-            "needs_hands_on": true,
-            "risk": "未亲测，需确认其与主流 EDA 工具的兼容性。"
-          },
-          {
-            "platform": "wechat",
-            "title": "Sprocket 发布：AI 代理进入硬件开发领域，对开发者意味着什么？",
-            "angle": "从行业视角分析 Sprocket 对硬件和软件融合开发的影响，探讨 AI 代理在硬件领域的潜力与风险。",
-            "needs_hands_on": false,
-            "risk": "需核实其实际能力是否如宣传所述。"
-          }
-        ]
-      }
-    },
-    "dc28243b2a66072b5c16864ee78bb631813d2c99": {
-      "generated_at": "2026-08-02T23:06:55.287849Z",
-      "enrichment": {
-        "summary_zh": "本周AI论文精选涵盖智能体工程、模型训练、安全监控与算力优化：NOOA将Agent写成Python对象，ACM让智能体自管上下文，ReOPD复用教师轨迹降训练成本，JAXBench",
-        "why_it_matters": "这些研究为AI Coding工具链提供新思路，如Agent工程化、上下文管理、训练成本优化，可能影响开发者对智能体框架与工具的选择。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "NOOA：把Agent写成Python对象，我实测了它的工程化潜力",
-            "angle": "以开发者视角，分享将Agent视为Python对象带来的代码组织与调试便利，对比传统Agent框架。",
-            "needs_hands_on": true,
-            "risk": "未亲测NOOA，需验证其实际可用性与性能。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "ACM让智能体自己管理上下文，避坑指南来了",
-            "angle": "以实操者身份，介绍ACM如何减少上下文溢出，提供配置步骤与常见问题。",
-            "needs_hands_on": true,
-            "risk": "ACM具体实现细节未验证，需确认其与现有框架的兼容性。"
-          },
-          {
-            "platform": "wechat",
-            "title": "从ReOPD到JAXBench：本周AI论文如何影响你的AI Coding工作流",
-            "angle": "以行业观察者身份，分析这些研究对训练成本、工具调用可靠性的长期影响，并联系实际项目。",
-            "needs_hands_on": false,
-            "risk": "论文结论基于特定实验，迁移到真实项目需谨慎。"
-          }
-        ]
-      }
-    },
-    "84f74f50583bc7112ef82c4b7695468ff083d36f": {
-      "generated_at": "2026-08-02T23:06:55.287849Z",
-      "enrichment": {
-        "summary_zh": "DeepSeek-V4-Flash 正式版上线，作者实测指出 3 个坑：上下文长度限制、函数调用不稳定、输出格式偶发错误。文章为个人经验分享，非官方公告。",
-        "why_it_matters": "V4-Flash 作为新模型，其限制可能影响开发者集成与生产环境稳定性，需谨慎评估后再采用。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "DeepSeek-V4-Flash 实测：3 个坑让我差点放弃",
-            "angle": "以第一人称分享实测经历，突出新模型的实际表现与预期差距，强调个人体验。",
-            "needs_hands_on": true,
-            "risk": "未亲测，依赖单篇文章，需验证上下文长度、函数调用等具体问题。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "DeepSeek-V4-Flash 避坑指南：3 个问题及解决方案",
-            "angle": "以教程形式列出坑点，给出规避方法，强调实用性和步骤。",
-            "needs_hands_on": true,
-            "risk": "需确认坑点是否普遍存在，以及解决方案是否有效。"
-          },
-          {
-            "platform": "wechat",
-            "title": "DeepSeek-V4-Flash 上线：新模型的机遇与挑战",
-            "angle": "从行业角度分析新模型对开发者的影响，结合背景讨论其定位与潜在风险。",
-            "needs_hands_on": false,
-            "risk": "需核实模型官方信息，避免以偏概全。"
-          }
-        ]
-      }
-    },
-    "36419dc55728cbacd472c19b0eb8af0b033cc13c": {
-      "generated_at": "2026-08-02T23:06:55.287849Z",
-      "enrichment": {
-        "summary_zh": "OpenAI推出企业级产品Presence，旨在将AI代理部署到客服和内部流程的生产环境中，与Workspace Agents不同，它面向外部场景，复杂案例由OpenAI工程师介入",
-        "why_it_matters": "Presence标志着OpenAI从开发工具转向生产级代理服务，可能改变企业AI代理的部署方式，影响开发者对代理可靠性和运维的考量。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "OpenAI Presence实测：企业代理部署的新选择？",
-            "angle": "作为开发者，我第一时间体验了Presence，对比Workspace Agents，看看它是否真的能处理生产级任务。",
-            "needs_hands_on": true,
-            "risk": "Presence的具体功能和定价尚未公开，需核实官方文档。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "OpenAI Presence避坑指南：企业部署AI代理前必看",
-            "angle": "分享我研究Presence的笔记，包括它适合哪些场景、有哪些限制，以及如何避免踩坑。",
-            "needs_hands_on": false,
-            "risk": "基于公开信息，未亲测，需注意Presence可能仅限邀请。"
-          },
-          {
-            "platform": "wechat",
-            "title": "OpenAI Presence：AI代理生产化的分水岭？",
-            "angle": "从行业角度分析Presence的推出对AI代理生态的影响，以及企业采用AI代理的长期趋势。",
-            "needs_hands_on": false,
-            "risk": "Presence的细节有限，需避免过度解读。"
-          }
-        ]
-      }
-    },
-    "66103073e6b933b6c7c9a410ba3a7a578fc16a51": {
-      "generated_at": "2026-08-02T23:06:55.287849Z",
-      "enrichment": {
-        "summary_zh": "苹果漏洞赏金计划被AI生成的虚假报告淹没，导致每位研究员提交受限。意大利初创公司Bynario用ChatGPT发现macOS漏洞，黑市价值高达20万美元，却因提交上限无法上报。",
-        "why_it_matters": "AI生成的漏洞报告泛滥，挤占真实安全研究资源，影响漏洞发现与修复效率，开发者需警惕AI工具在安全领域的误用。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "AI垃圾报告让苹果漏洞赏金失效？真实漏洞被淹没",
-            "angle": "作为安全研究员，实测发现AI生成的漏洞报告如何影响赏金计划，分享个人提交经历与应对策略。",
-            "needs_hands_on": true,
-            "risk": "未亲测苹果赏金计划，具体提交限制细节需核实。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "用ChatGPT找漏洞？小心被苹果拉黑！避坑指南",
-            "angle": "分享使用AI辅助漏洞挖掘的步骤与注意事项，避免因AI报告被误判为垃圾信息。",
-            "needs_hands_on": true,
-            "risk": "AI辅助漏洞挖掘的具体效果未实测，需验证。"
-          },
-          {
-            "platform": "wechat",
-            "title": "AI垃圾信息泛滥，漏洞赏金计划何去何从？",
-            "angle": "从行业角度分析AI生成内容对安全生态的影响，探讨平台如何平衡自动化与真实性。",
-            "needs_hands_on": false,
-            "risk": "苹果内部政策细节未公开，需进一步核实。"
-          }
-        ]
-      }
-    },
-    "a88f402c577f0723294b8efbbea777543c922f37": {
-      "generated_at": "2026-08-02T23:06:55.287849Z",
-      "enrichment": {
-        "summary_zh": "开发者用“生成哈布斯堡下颌青蛙SVG”作为个人AI基准，测试gemini-2.5-pro和gemini-3.6-flash，发现AI即使画得古怪也会自信作答，并添加基于假设的创意细",
-        "why_it_matters": "该基准揭示了AI在生成代码时可能过度自信并添加未要求的功能，提醒开发者在实际工作中需验证AI输出，避免引入潜在错误。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "我用一个奇葩SVG需求测了Gemini，结果让我又惊又怕",
-            "angle": "第一人称分享测试过程，对比gemini-2.5-pro和gemini-3.6-flash的表现，突出AI自信但偏离需求的反差。",
-            "needs_hands_on": true,
-            "risk": "未亲测，具体模型版本和输出细节需验证。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "AI画青蛙翻车？实测Gemini生成SVG的避坑指南",
-            "angle": "以步骤形式展示测试方法，列出AI常见问题（如添加多余细节），并给出验证AI输出的实用建议。",
-            "needs_hands_on": true,
-            "risk": "未亲测，需确认模型版本和实际输出。"
-          },
-          {
-            "platform": "wechat",
-            "title": "从青蛙SVG看AI编程的信任危机：我们该不该相信AI生成的代码？",
-            "angle": "从该测试切入，分析AI在代码生成中的自信偏差，探讨对开发者工作流的影响及应对策略。",
-            "needs_hands_on": false,
-            "risk": "需引用原始帖子，避免过度引申。"
-          }
-        ]
-      }
-    },
-    "8a76e48a1b40a8c8c694ac178547a56f6537ebad": {
-      "generated_at": "2026-08-02T23:06:55.287849Z",
-      "enrichment": {
-        "summary_zh": "OpenAI 内部测试的新模型 Astra 在数学问题上表现惊艳，但 Gary Marcus 指出相关讨论犯了“合成谬误”：擅长某类数学不等于擅长所有数学、科学乃至一切认知任务。数",
-        "why_it_matters": "Astra 的数学能力可能被过度解读，开发者需警惕将单一基准成绩等同于通用编码能力，影响工具选型和预期管理。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "实测 Astra 数学题：惊艳背后，我发现了这些局限",
-            "angle": "以第一人称分享实测 Astra 解决数学问题的体验，对比其他模型，指出其擅长模式但暴露开放问题短板，强调“合成谬误”风险。",
-            "needs_hands_on": true,
-            "risk": "Astra 尚未公开发布，无法亲测，需基于公开演示和报告，注意区分传闻与事实。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "别被数学成绩骗了！选 AI 编程工具前必看的避坑指南",
-            "angle": "从 Astra 数学表现切入，教开发者如何理性评估 AI 模型能力，避免被单一指标误导，提供评估维度和实操建议。",
-            "needs_hands_on": false,
-            "risk": "需确保建议基于公开信息，不夸大 Astra 能力。"
-          },
-          {
-            "platform": "wechat",
-            "title": "从 Astra 看 AI 评测的陷阱：为什么数学好不等于通用智能",
-            "angle": "深入分析“合成谬误”在 AI 评测中的普遍性，探讨数学作为基准的局限性，以及对 AI 编程工具发展的长期影响。",
-            "needs_hands_on": false,
-            "risk": "需引用 Gary Marcus 观点，并注明 Astra 细节未公开。"
-          }
-        ]
-      }
-    },
     "1624b087780cf7da0bc784bcec0b48047ce50605": {
       "generated_at": "2026-08-03T13:10:46.239869Z",
       "enrichment": {
@@ -13309,7 +12619,607 @@
           }
         ]
       }
+    },
+    "fec45e9cd196d2cbd6bf826aeb64f6b88a6ef4f8": {
+      "generated_at": "2026-08-24T10:54:53.995091Z",
+      "enrichment": {
+        "summary_zh": "Codex CLI 0.149.1发布，新增Apple Messages插件，可在ChatGPT桌面版和Codex中读取、搜索和发送iMessage，默认需手动批准；Site支持共",
+        "why_it_matters": "这些更新让Codex从纯编码代理延伸到个人通讯与团队协作，GitLab beta直接降低企业团队接入门槛，同时消息发送需审批机制降低自动化误",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "试了下Codex 0.149.1：AI能读我的iMessage了，但发送前必须我点头",
+            "angle": "以个人实测角度，分享更新后Apple Messages插件在Codex中的实际体验，重点突出‘默认批准’这一安全设计与以往全自动的差异，以及Site共同编辑的协作感受。",
+            "needs_hands_on": true,
+            "risk": "未实际安装验证，Apple Messages插件具体能力如搜索范围和发送格式需实测确认。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "Codex 0.149.1更新笔记｜Apple Messages插件+GitLab beta，手把手避坑",
+            "angle": "以图文教程形式，整理更新步骤：如何启用Apple Messages插件、GitLab beta集成配置，以及Site协作的实用技巧，附上‘发送需批准’等关键注意事项。",
+            "needs_hands_on": true,
+            "risk": "GitLab beta配置流程和Apple Messages插件设置步骤未官方详述，需参考社区反馈补全。"
+          },
+          {
+            "platform": "wechat",
+            "title": "Codex 0.149.1解读：当AI编码助手开始接管你的iMessage和GitLab",
+            "angle": "从产品战略角度，分析OpenAI如何将Codex从CLI工具升级为个人工作流中枢：通过接入Apple Messages和GitLab beta，打通通讯与代码托管，探讨这对开发者隐私、权限管理及工具链格局的长期影响。",
+            "needs_hands_on": false,
+            "risk": "基于官方changelog推测，GitLab beta功能范围尚未完全公开，长期影响为分析性判断。"
+          }
+        ]
+      }
+    },
+    "515f4cb03e0a4c050fd830526b51ea400f56de03": {
+      "generated_at": "2026-08-24T10:54:53.995091Z",
+      "enrichment": {
+        "summary_zh": "WaytoAGI发文详解Codex CLI内置斜杠命令，将其比作控制面板，并补充IDE扩展与桌面端特有命令，帮助开发者摆脱仅用/model和/status的局限。",
+        "why_it_matters": "斜杠命令直接控制Codex工作方式，掌握全部命令可显著提升AI Coding效率与可控性，减少无效交互。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "Codex斜杠命令实战：从只会/model到高效控制面板",
+            "angle": "作为日常重度用户，分享自己尝试新发现的斜杠命令的真实体验，对比之前只用基础命令的差异。",
+            "needs_hands_on": true,
+            "risk": "文章为社区单源，未亲测全部命令，具体命令列表和效果需自行验证。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "Codex斜杠命令避坑指南：这些命令让效率翻倍",
+            "angle": "以步骤和结果为导向，整理常用斜杠命令的适用场景和易错点，附上个人实测截图。",
+            "needs_hands_on": true,
+            "risk": "未核实IDE扩展和桌面端特有命令是否与CLI版本一致。"
+          },
+          {
+            "platform": "wechat",
+            "title": "Codex斜杠命令体系解析：提示词之外的另一个控制维度",
+            "angle": "从工具设计角度分析斜杠命令如何与提示词协同，探讨其演进对AI Coding工作流的影响。",
+            "needs_hands_on": false,
+            "risk": "文章未提供完整命令清单，体系分析需基于已有公开资料交叉验证。"
+          }
+        ]
+      }
+    },
+    "e96dfae666799a0bc2f1374e8adb613921c389d2": {
+      "generated_at": "2026-08-24T10:54:53.995091Z",
+      "enrichment": {
+        "summary_zh": "WaytoAGI 社区发布万字长文，从入门到精通讲解 Codex：区分项目与任务、Local/Worktree/Cloud 选择、Plan 与权限设置，以及 Plugins、Ski",
+        "why_it_matters": "Codex 是重要的 AI 编程工具，但其界面和概念存在学习门槛。这篇教程有助于开发者快速理解工作流配置，减少试错成本，值得收藏参考。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "读完 Codex 万字教程，我发现了三个最容易卡住的新手误区",
+            "angle": "以个人实测角度，分享初次使用 Codex 时对项目/任务、环境选择、权限配置的困惑，并结合教程内容验证哪些说法有效。",
+            "needs_hands_on": true,
+            "risk": "原文为单来源社区教程，未亲测所有功能，需确认教程描述与实际版本一致。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "Codex 入门避坑指南：本地、云模式到底怎么选？",
+            "angle": "用步骤化讲解列出 Local、Worktree、Cloud 的区别和适用场景，总结新手最容易选错的地方，给出实用建议。",
+            "needs_hands_on": true,
+            "risk": "教程来自单一社区来源，云模式配额、权限细节以官方为准，未实测验证。"
+          },
+          {
+            "platform": "wechat",
+            "title": "从 Codex 看 AI 编程工具走向成熟：概念体系是门槛还是壁垒？",
+            "angle": "从工具演变角度，分析 Codex 引入复杂概念（项目/任务、扩展机制）背后的设计逻辑，以及这对开发者技能要求的影响。",
+            "needs_hands_on": false,
+            "risk": "基于单篇教程展开分析，需避免过度推断官方意图。"
+          }
+        ]
+      }
+    },
+    "9b417a73b1122ebbd8eff6a8a103bc02d6331366": {
+      "generated_at": "2026-08-24T10:54:53.995091Z",
+      "enrichment": {
+        "summary_zh": "WaytoAGI 社区发布一篇 Claude Code 实操复盘，作者为营销人，用 173 天经验将 Claude Code 拆解为普通人可上手的工作系统，声称 10 分钟可掌握 ",
+        "why_it_matters": "Claude Code 正从程序员工具向非技术人群渗透，营销人实战教程表明 AI Coding 工作流可以按普通用户场景重新组织，对开发者生",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "营销人 173 天实测：Claude Code 真的能 10 分钟上手？",
+            "angle": "我按这篇复盘的方法试了三天，发现入门门槛比想象中低，但“掌握 80%”的说法需要打折扣。",
+            "needs_hands_on": true,
+            "risk": "教程宣称的 80% 掌握程度未经实际验证，且来源单一，需核实作者实操细节是否真实可复现。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "非程序员用 Claude Code 搭建工作流：从零到上手避坑指南",
+            "angle": "跟着这篇复盘操作时，我踩了这几个坑，记录下具体步骤和替代方案，帮你省下试错时间。",
+            "needs_hands_on": true,
+            "risk": "需要实际验证作者给出的方法是否适用于普通用户，尤其是终端操作和插件配置环节。"
+          },
+          {
+            "platform": "wechat",
+            "title": "从营销人到开发者：Claude Code 的用户边界正在消失",
+            "angle": "这篇文章反映了一个趋势：AI 编程工具正从专业开发场景走向大众，未来开发者工作流可能需要与更多非技术角色协作。",
+            "needs_hands_on": false,
+            "risk": ""
+          }
+        ]
+      }
+    },
+    "c1f314a99f3ff871d212b34f3b02175793cb2152": {
+      "generated_at": "2026-08-24T10:54:53.995091Z",
+      "enrichment": {
+        "summary_zh": "Anthropics 在 GitHub 发布 claude-plugins-community，为 Claude Cowork 与 Claude Code 提供社区插件市场。目前仅",
+        "why_it_matters": "若属实，Claude Code 将具备类似 VS Code 的插件生态，影响开发者工具链选择与团队工作流集成。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "Claude Code 要搞插件市场了？我先去 GitHub 看了一眼",
+            "angle": "第一人称实测仓库内容，展示插件列表与安装方式，强调单品源码和社区热度。",
+            "needs_hands_on": true,
+            "risk": "仓库内容与官方身份尚未核实，仅单一 GitHub 来源。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "Claude Code 插件市场怎么用？3 步看懂 claude-plugins-community",
+            "angle": "手把手教查仓库、装插件、跑通一个示例，提醒注意当前还是社区版本。",
+            "needs_hands_on": true,
+            "risk": "未验证插件市场实际可用性，安装步骤可能随版本变化。"
+          },
+          {
+            "platform": "wechat",
+            "title": "Claude Code 插件生态萌芽：从 claude-plugins-community 看 AI Coding 工具",
+            "angle": "从插件市场看 Claude Code 生态战略，对比 Cursor、Codex，分析对工程团队的影响。",
+            "needs_hands_on": false,
+            "risk": "单一来源，需等待 Anthropics 官方公告或更多证据。"
+          }
+        ]
+      }
+    },
+    "fbdfca8cd36c361f7a491eef803b5135b132090f": {
+      "generated_at": "2026-08-24T10:54:53.995091Z",
+      "enrichment": {
+        "summary_zh": "作者在 WaytoAGI 社区分享从零开发 DeepSeek Harness 插件的完整复盘，涵盖 5 分钟跑通首个插件、两个真实踩坑、配置化、打包与发布流程，命令可直接复制。",
+        "why_it_matters": "为开发者提供了 DeepSeek Harness 插件开发的实操模板，可降低上手门槛，加速工具链定制，影响 AI Coding 工作流中的自",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "我花 5 分钟跑通了第一个 DeepSeek Harness 插件，但踩了两个坑",
+            "angle": "以第一人称分享从零开发的亲测过程，突出速度与踩坑反差，强调实际体验和可复制的命令。",
+            "needs_hands_on": true,
+            "risk": "文章为单一来源，未亲测命令和插件功能；需验证环境依赖与版本兼容性。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "DeepSeek Harness 插件开发避坑指南：从零到发布全流程",
+            "angle": "以步骤拆解插件开发流程，重点呈现配置化、打包和发布的具体操作，以及作者踩过的坑和解决方法。",
+            "needs_hands_on": true,
+            "risk": "基于单一来源教程，未亲自验证步骤细节，需进一步测试命令可行性。"
+          },
+          {
+            "platform": "wechat",
+            "title": "从插件开发看 DeepSeek Harness 生态的进化方向",
+            "angle": "以插件开发为切入点，分析 Harness 对开发者工具链的意义，探讨插件生态成熟对 AI Coding 工作流的长期影响。",
+            "needs_hands_on": false,
+            "risk": "生态趋势判断基于单篇教程，需更多迹象佐证。"
+          }
+        ]
+      }
+    },
+    "f932460ab27ded9435f663739ac128adad50020d": {
+      "generated_at": "2026-08-24T10:54:53.995091Z",
+      "enrichment": {
+        "summary_zh": "掘金文章称，DeepSeek Harness 插件发布仅一周即进入 Top10 榜单，文章以此解读其反映的开发者真实需求，但未披露具体功能和榜单细节，属单一来源消息。",
+        "why_it_matters": "插件快速上榜可能暗示开发者对 DeepSeek 工具链的兴趣激增，或影响 AI 编程助手的选型，但需要更多可验证信息支撑。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "DeepSeek Harness 一周冲榜？我亲自试了试",
+            "angle": "作为一个追新工具的开发者，看到插件登顶后我立即安装实测，分享真实体验和与同类插件的对比。",
+            "needs_hands_on": true,
+            "risk": "尚未实际使用，仅根据单一标题消息，插件的功能和安装方式待核实。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "DeepSeek Harness 登顶插件榜？手把手教你安装验证",
+            "angle": "从小白视角出发，分步骤演示如何找到并安装这个插件，以及避坑提示，用实测结果说话。",
+            "needs_hands_on": true,
+            "risk": "暂无官方安装文档，步骤可能不准确，需核实。"
+          },
+          {
+            "platform": "wechat",
+            "title": "从 DeepSeek Harness 登顶看 AI Coding 工具链的演进",
+            "angle": "以插件登顶为引子，分析当前 AI 编程助手格局，讨论 DeepSeek 生态发展对开发工作流和行业趋势的长期影响。",
+            "needs_hands_on": false,
+            "risk": "仅凭标题推断趋势，需查阅更多资料以确认插件的关键特性。"
+          }
+        ]
+      }
+    },
+    "41bde36e245c8200af3aeb96377e6516cb71e040": {
+      "generated_at": "2026-08-24T10:54:53.995091Z",
+      "enrichment": {
+        "summary_zh": "Anthropic Claude 与 API 出现服务中断，状态页面显示异常。目前仅单一来源报道，官方未发布详细说明，影响范围与恢复时间待确认。",
+        "why_it_matters": "依赖 Claude API 的 AI Coding 工具链可能受影响，开发工作流中断风险上升，需关注官方状态页。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "Claude API 挂了？开发者的第一反应",
+            "angle": "第一时间发现异常，查看状态页，分享排查过程与影响",
+            "needs_hands_on": false,
+            "risk": "单一来源，官方未确认，需核对状态页实时数据"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "Claude 服务中断避坑指南",
+            "angle": "作为开发者，遇到中断时如何检查、备份 key、切换备用模型",
+            "needs_hands_on": false,
+            "risk": "未亲测具体影响，需以官方状态页为准"
+          },
+          {
+            "platform": "wechat",
+            "title": "Claude 服务中断对 AI Coding 生态的警示",
+            "angle": "从单点故障看 AI 工具链的依赖风险，讨论多云策略",
+            "needs_hands_on": false,
+            "risk": "单一来源，需持续跟踪官方公告"
+          }
+        ]
+      }
+    },
+    "7c759ec809f8be28585b4208c2d896788e7e7454": {
+      "generated_at": "2026-08-24T10:54:53.995091Z",
+      "enrichment": {
+        "summary_zh": "小米发布首款大模型AI加速芯片玄戒O100，采用6nm工艺与3D堆叠，内存带宽达1.22TB/s，引入存内计算架构，目标支撑端侧大模型推理。目前仅AIbase单源报道，具体参数尚未",
+        "why_it_matters": "端侧AI推理硬件升级，可能影响端侧模型部署效率与成本。开发者需关注其生态兼容性及对现有推理框架的实际支持，避免被宣传参数误导。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "小米玄戒O100实测：端侧大模型推理真的会变快吗？",
+            "angle": "作为开发者，拿到芯片后第一时间跑常见端侧模型（如Llama、Qwen）对比速度与内存占用，分享真实数据与翻车经历。",
+            "needs_hands_on": true,
+            "risk": "芯片尚未实际到手，规格参数仅来自AIbase单源报道，需核实官方发布信息及实测环境。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "小米玄戒O100芯片：3步看懂它对手机AI开发的影响",
+            "angle": "用通俗步骤拆解：存内计算是什么、3D堆叠解决了什么问题、对App开发者意味着什么，给出避坑建议（如兼容性、功耗）。",
+            "needs_hands_on": false,
+            "risk": "技术细节整理自单篇报道，需交叉验证其他来源确认。"
+          },
+          {
+            "platform": "wechat",
+            "title": "从玄戒O100看端侧AI芯片竞争：小米的布局与开发者新机会",
+            "angle": "以行业视角分析小米芯片与高通、苹果的差异，探讨端侧AI推理生态演变，以及开发者如何提前适配新硬件。",
+            "needs_hands_on": false,
+            "risk": "需补充更多行业背景与官方披露，当前信息量不足以支撑完整分析。"
+          }
+        ]
+      }
+    },
+    "c5074b69becc1018140e3e1604f51ccd7eb53a37": {
+      "generated_at": "2026-08-24T10:54:53.995091Z",
+      "enrichment": {
+        "summary_zh": "Codex 开放 1M 上下文后，有开发者实测发现新版配置与网上流传教程不一致，按其指引无法复现，需重新摸索配置方法。",
+        "why_it_matters": "若配置方式与教程脱节，开发者照搬旧教程会浪费时间与上下文额度，影响采用决策和调试效率。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "别再照抄旧教程：Codex 1M 上下文实测配置与网上说的不一样",
+            "angle": "以第一人称讲述自己按照网上教程配置失败、反复尝试后找到正确路径的过程，强调新版改动带来的信息差。",
+            "needs_hands_on": true,
+            "risk": "仅依据标题和单一来源，未亲测；具体配置步骤和差异需实际验证。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "Codex 1M 上下文配置避坑指南：网络教程已过时",
+            "angle": "以踩坑者视角，分享配置过程中的具体错误提示和正确设置步骤，提醒大家先查官方文档。",
+            "needs_hands_on": true,
+            "risk": "缺少正文细节，无法提供具体步骤，需补充实测内容。"
+          },
+          {
+            "platform": "wechat",
+            "title": "从 Codex 配置差异看 AI Coding 工具的迭代速度",
+            "angle": "从这次配置信息差切入，分析AI Coding工具频繁更新导致教程快速过时的现象，讨论开发者如何适应。",
+            "needs_hands_on": false,
+            "risk": "基于单一来源推断，需核实官方变更日志。"
+          }
+        ]
+      }
+    },
+    "744add60d8b3ee2f7c187e593ee96da18701b1fc": {
+      "generated_at": "2026-08-24T10:54:53.995091Z",
+      "enrichment": {
+        "summary_zh": "在X上，创作者Peter Yang称其人类助理Char使用Claude Code和Codex协助运营播客已有6个月，他认为优秀助理需懂得使用AI代理。此消息为早期信号，单一来源。",
+        "why_it_matters": "AI编码工具正从开发者专属走向团队角色，助理掌握Claude Code、Codex意味着工具选择门槛降低，工作流协作模式或生变，开发者需关注",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "我雇了6个月的人类助理，她用Claude Code和Codex帮我干活",
+            "angle": "从个人实测出发，分享如何教非技术助理使用AI编码工具，以及效率提升的直观感受。",
+            "needs_hands_on": true,
+            "risk": "Peter Yang的推文为单一来源，未确认具体工作流程，未亲自验证其效果。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "给非技术背景的助理用Claude Code？手把手避坑指南",
+            "angle": "以传闻中的案例为引，提供训练助理使用AI编码工具的步骤、常见坑和结果评估。",
+            "needs_hands_on": true,
+            "risk": "未亲测，且Claude Code和Codex对具体任务的适用性不明确，需实际验证。"
+          },
+          {
+            "platform": "wechat",
+            "title": "当人类助理开始使用AI代理，开发者工作流会怎么变？",
+            "angle": "从行业趋势角度分析AI Coding工具向非程序员渗透的长期影响，探讨协作模式与工具选择战略。",
+            "needs_hands_on": false,
+            "risk": "仅为单一来源传闻，需更多案例和数据支撑。"
+          }
+        ]
+      }
+    },
+    "1b4bc416d89e7175903613bdd6714414ff46685e": {
+      "generated_at": "2026-08-24T10:54:53.995091Z",
+      "enrichment": {
+        "summary_zh": "据AIbase报道，8月24日字节跳动完成AI办公产品团队整合，TRAE与扣子（Coze）团队并入豆包，TRAE Work及Coze能力整合至豆包，TRAE IDE与CLI保留为编",
+        "why_it_matters": "字节将TRAE与扣子并入豆包，AI办公资源向豆包聚焦；TRAE IDE与CLI保留为编程产品线，开发者需关注工具演进与豆包生态整合，避免投资",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "TRAE并入豆包：字节的AI编程工具要转向了？",
+            "angle": "作为用过TRAE的开发者，聊聊这次合并对AI Coding赛道的影响，以及TRAE IDE是否还能保持独立。",
+            "needs_hands_on": false,
+            "risk": "仅单源媒体报道，字节官方未确认，合并细节待证实。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "TRAE/扣子并入豆包，开发者需要做哪些准备？",
+            "angle": "整理了这次整合可能带来的账号、工具入口变化，以及如何避免踩坑，先收藏再看。",
+            "needs_hands_on": false,
+            "risk": "整合具体影响未落地，需等待官方说明。"
+          },
+          {
+            "platform": "wechat",
+            "title": "字节AI办公大整合：TRAE、扣子并入豆包的背后逻辑",
+            "angle": "从产品矩阵和战略角度，分析字节为何把AI办公工具统一到豆包，对开发者和企业客户意味着什么。",
+            "needs_hands_on": false,
+            "risk": "整合细节未官方确认，需持续跟踪官方公告。"
+          }
+        ]
+      }
+    },
+    "4da48665be1992e1bf476be6140a2aa487372460": {
+      "generated_at": "2026-08-24T10:54:53.995091Z",
+      "enrichment": {
+        "summary_zh": "韩国国会一致通过个人信息保护法修正案，允许AI开发者经个人信息保护委员会审查后使用限定个人数据。旧豁免仅限语音反欺诈和自主机器人，期限两年可延长至四年，新规六个月后生效。",
+        "why_it_matters": "对使用韩国用户数据训练或评估模型的开发者，数据获取将新增合规审查路径，需关注具体审批流程与范围，影响训练数据合规策略。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "韩国给AI数据松绑了？先别急着高兴",
+            "angle": "作为开发者，看到韩国修法允许用限定个人数据，但注意要过监管审查。旧豁免范围很窄，新规还要等六个月。这是真的放开还是换了个紧箍咒？",
+            "needs_hands_on": false,
+            "risk": "单一来源，修正案具体条款和审查流程细节待核实"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "在韩国做AI开发，如何合法使用个人数据？避坑指南",
+            "angle": "分享韩国新修法要点：经个人信息保护委员会审查后可用限定个人数据，旧豁免仅限语音反欺诈和自主机器人，期限可延至四年。提醒大家注意六个月后生效。",
+            "needs_hands_on": false,
+            "risk": "法规细节可能不完整，建议查询官方文件"
+          },
+          {
+            "platform": "wechat",
+            "title": "从韩国修法看AI数据监管的全球走向",
+            "angle": "分析韩国为何从严格限制转向有条件开放，对比其他地区监管思路，探讨对AI开发者的长远影响。",
+            "needs_hands_on": false,
+            "risk": "单源报道，需结合官方立法信息核查"
+          }
+        ]
+      }
+    },
+    "79da4155d7768614effa79c59df8d93502596a76": {
+      "generated_at": "2026-08-24T10:54:53.995091Z",
+      "enrichment": {
+        "summary_zh": "Hacker News 热帖：图形程序员 Fabiensanglard 公开分享自己的 agent.md 文件，目标是用它提升 LLM 辅助代码质量，并附上详细做法链接。",
+        "why_it_matters": "agent.md 正成为 AI 编程工作流中的重要配置，此类实践可能影响开发者如何为 Cursor、Claude Code 等工具编写项目级",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "我照着 agent.md 思路改了项目文档，AI 写代码真的变稳了吗？",
+            "angle": "第一人称：看到 Fabiensanglard 的分享后，马上在自己的仓库里试用同类 agent.md，记录 Cursor 和 Claude Code 生成代码的质量变化，用前后对比说话。",
+            "needs_hands_on": true,
+            "risk": "原文具体方法未核实，需访问文章确认 agent.md 的实际结构和效果。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "程序员实测：agent.md 让 AI 辅助代码质量提升的避坑指南",
+            "angle": "手把手教程：根据标题整理 agent.md 的写法要点、放置位置和常见踩坑点，分享我在测试中的实测结果和注意事项。",
+            "needs_hands_on": true,
+            "risk": "未阅读原文，具体步骤为推测，需亲自验证。"
+          },
+          {
+            "platform": "wechat",
+            "title": "agent.md 会是 AI 编程的下一个标配吗？从 Fabiensanglard 的实践看工程范式转变",
+            "angle": "深度分析：从 agent.md 在 AI 编程工具中的作用出发，对比 README、CONTRIBUTING 等既有规范，探讨它如何影响团队协作、代码质量和工程长期演进。",
+            "needs_hands_on": false,
+            "risk": "仅基于标题和公开信息，论文原文未提供系统论述，需补充更多案例。"
+          }
+        ]
+      }
+    },
+    "236ce1b331e0cb4310a4adf06bc8f6360ec1bb1a": {
+      "generated_at": "2026-08-24T10:54:53.995091Z",
+      "enrichment": {
+        "summary_zh": "Hacker News 上出现一条报道，警告开源模型可能被植入定时释放的后门，在特定条件满足时触发。该消息目前仅有单一信息源，未获独立证实，具体技术细节尚未披露。",
+        "why_it_matters": "若后门真实存在，使用开源大模型的开发者可能面临隐蔽的供应链攻击，尤其在代码生成与自动编程场景，需重新评估模型信任边界与审计流程。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "你下载的开源模型，可能藏着一个定时炸弹？",
+            "angle": "开源社区长期基于信任协作，但定时释放的后门意味着模型可能在关键部署后突然变脸。作为开发者，我们如何提前发现异常？",
+            "needs_hands_on": false,
+            "risk": "报道为单一来源，无实例佐证，需核实原始文章的技术依据。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "开源模型安全自查：三招排查隐藏后门",
+            "angle": "不必恐慌，动手排雷。第一步记录模型权重哈希，第二步隔离运行监控输出，第三步检查异常时间触发行为。亲测步骤如下（待补充）。",
+            "needs_hands_on": true,
+            "risk": "自查方法为一般性建议，并非针对该报道的官方方案，需验证有效性。"
+          },
+          {
+            "platform": "wechat",
+            "title": "定时后门：开源模型供应链安全的下一个黑天鹅？",
+            "angle": "从开源软件的 CVE 到开源模型的恶意权重，供应链攻击正在升级。本文梳理模型后门的技术路径、检测难点，以及对 AI 工程化的长期影响。",
+            "needs_hands_on": false,
+            "risk": "缺少具体案例和权威分析，需标注为前瞻性讨论。"
+          }
+        ]
+      }
+    },
+    "0f963d8b8fb813c292ba3a5245262ad94a874297": {
+      "generated_at": "2026-08-24T10:54:53.995091Z",
+      "enrichment": {
+        "summary_zh": "月之暗面通过Kimi官方微博宣布，首个万亿参数多模态模型Kimi K2.5将于本月底退役。该模型今年1月开源，支持视觉文本与Agent任务；继任者Kimi K3据称达2.8万亿参数",
+        "why_it_matters": "依赖K2.5的开发者需在月底前规划迁移至K3或替代方案，关注API兼容性、调用成本与推理性能变化。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "Kimi K2.5退役倒计时：我实测K3迁移的真实体验",
+            "angle": "以开发者身份对比K2.5与K3在实际Agent任务中的表现，包括响应速度、上下文处理与API改动。",
+            "needs_hands_on": true,
+            "risk": "K3性能与兼容性未亲测，仅基于官方口径，需实际验证。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "Kimi K2.5月底停用，3步把项目平滑迁到K3",
+            "angle": "面向普通开发者，分享迁移到Kimi K3的操作步骤、遇到的坑和成本对比。",
+            "needs_hands_on": true,
+            "risk": "迁移工具和API差异未验证，需实际测试。"
+          },
+          {
+            "platform": "wechat",
+            "title": "从万亿到2.8万亿参数：Kimi K3背后的注意力机制革命",
+            "angle": "梳理K2.5退役与K3接棒背后的技术路线变化，分析KDA混合线性注意力对推理效率的长期影响。",
+            "needs_hands_on": false,
+            "risk": "技术细节来源于单一新闻源，需交叉验证。"
+          }
+        ]
+      }
+    },
+    "06ad32dc404b7127da8954e7e3ba09d2ef1010b2": {
+      "generated_at": "2026-08-24T10:54:53.995091Z",
+      "enrichment": {
+        "summary_zh": "掘金用户发帖称DeepSeek多模态视觉模型上线，但消息仅此一源，未经官方确认。",
+        "why_it_matters": "若属实，将补齐DeepSeek在视觉理解上的能力，影响涉及截图转代码、UI测试等开发场景。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "DeepSeek视觉模型上线了？我第一时间去试了试",
+            "angle": "作为AI开发者，看到消息后立刻去查API和模型列表，分享上手体验和实测结果，包括是否能访问、响应质量如何。",
+            "needs_hands_on": true,
+            "risk": "尚未确认模型是否真实可用，需验证实际调用是否成功，避免把传闻当实锤。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "DeepSeek多模态视觉模型来了！实测效果和避坑指南",
+            "angle": "以普通开发者/设计师视角，手把手演示如何用视觉模型处理图片，对比其他多模态模型的优缺点，并提醒大家注意信息来源和API成本。",
+            "needs_hands_on": true,
+            "risk": "消息为单源传闻，可能还未正式发布，需确认上线状态和定价。"
+          },
+          {
+            "platform": "wechat",
+            "title": "DeepSeek视觉模型上线背后：多模态对AI编程意味着什么",
+            "angle": "从行业角度分析DeepSeek补齐视觉能力对开发者生态的影响，结合生成式AI在UI自动化、视觉测试中的应用趋势，给出长期判断。",
+            "needs_hands_on": false,
+            "risk": "部分推断基于未证实消息，需等待官方发布后再完善结论。"
+          }
+        ]
+      }
+    },
+    "77908c6d4b8bf7a38db99be901abcb47fe01b0f3": {
+      "generated_at": "2026-08-24T10:54:53.995091Z",
+      "enrichment": {
+        "summary_zh": "Vercel CEO Guillermo Rauch发帖称，OpenAI Sol经降价及Vercel AI Gateway折扣后，成为其平台增长最快的前沿模型，显示智能需求价格弹性",
+        "why_it_matters": "前沿模型降价或降低AI应用成本，影响开发者选型。但需验证Vercel数据与Sol实际性能，避免被单方宣传带偏。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "Sol降价后成Vercel增长最快模型？我实测了一把",
+            "angle": "以个人实测视角，对比Sol在Vercel AI Gateway上的成本与性能，验证Vercel CEO的说法是否属实。",
+            "needs_hands_on": true,
+            "risk": "未亲测Vercel官方后台数据，Sol真实价格与折扣需核实。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "Vercel AI Gateway用Sol省钱攻略：实测降价后效果",
+            "angle": "分享通过Vercel AI Gateway接入Sol的步骤、价格对比和避坑经验，用结果说话。",
+            "needs_hands_on": true,
+            "risk": "需验证Sol实际价格和Vercel折扣，避免误导。"
+          },
+          {
+            "platform": "wechat",
+            "title": "智能降价时代：从Sol看AI成本曲线对开发者的影响",
+            "angle": "分析价格弹性与AI成本下降趋势，讨论对开发者选型和应用架构的长期影响，但注明数据为单方声明。",
+            "needs_hands_on": false,
+            "risk": "需核实Vercel声明真实性，避免以传闻当事实。"
+          }
+        ]
+      }
+    },
+    "aad7d72f7284919a14ebe933f8229afb4e318932": {
+      "generated_at": "2026-08-24T10:54:53.995091Z",
+      "enrichment": {
+        "summary_zh": "8月23日，Oak Deer Robotics发布全球首个基于真实厨房数据的多模态烹饪AI基础模型CookingMuse ChefStart，并推出3K Visual AI Sti",
+        "why_it_matters": "烹饪AI从预设菜谱走向真实数据驱动的具身智能，可能改变餐饮后厨自动化成本与开发方式，对机器人控制、多模态感知与行业落地有参考价值。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "CookingMuse ChefStart：炒菜机器人终于学会看火候了？",
+            "angle": "作为开发者和机器人爱好者，实测其公开演示与文档，对比传统预编程炒菜机器人，分享真实厨房数据训练带来的感知差异。",
+            "needs_hands_on": true,
+            "risk": "仅单一来源（AIbase）报道，未提供技术细节、数据集规模或性能基准，需核实模型是否开放及可用性。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "炒菜机器人新物种？手把手带你拆解CookingMuse ChefStart",
+            "angle": "以科技博主视角，整理发布会的关键信息，用图解方式说明从视觉识别到颠勺执行的完整链路，并列出选购或试用的避坑点。",
+            "needs_hands_on": true,
+            "risk": "缺乏实际设备测试，具体烹饪效果、稳定性未知，需确认是否支持家庭场景或仅限商用。"
+          },
+          {
+            "platform": "wechat",
+            "title": "从菜谱到操作：烹饪基础模型如何重塑餐饮后厨自动化",
+            "angle": "结合行业背景，分析真实数据训练对AI Coding之外的具身智能赛道的影响，探讨机器人从感知到执行的工程挑战与商业化前景。",
+            "needs_hands_on": false,
+            "risk": "文章未提供模型参数、训练数据规模等关键信息，需谨慎引用“全球首个”的表述。"
+          }
+        ]
+      }
+    },
+    "1f1019ff8bcfc323c43383b9c9695f63aa79c38a": {
+      "generated_at": "2026-08-24T10:54:53.995091Z",
+      "enrichment": {
+        "summary_zh": "小米发布玄戒O3/O100/D100三款AI芯片，其中O100为高带宽边缘AI芯片，带宽1.22TB/s，边缘推理330TPS，欲建人车家全生态算力底座。目前仅单一信源报道。",
+        "why_it_matters": "端侧AI算力提升，可能改变开发者对边缘设备部署大模型的选型与成本评估，但该数据源自单一报道，需谨慎看待。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "小米玄戒O100发布：性能惊人，但谁实测过？",
+            "angle": "作为开发者，关注这款芯片是否真的能改变边缘AI开发，期待实测对比。",
+            "needs_hands_on": true,
+            "risk": "所有参数均来自单一新闻源，尚未有第三方实测或官方白皮书确认。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "小白也能看懂：小米玄戒芯片参数避坑指南",
+            "angle": "从参数解读入手，告诉开发者如何评估这类芯片，注意带宽和推理性能的实际意义，避免被宣传误导。",
+            "needs_hands_on": false,
+            "risk": "参数来源单一，未经过独立验证，需核对官方发布信息。"
+          },
+          {
+            "platform": "wechat",
+            "title": "小米造芯生态背后：端侧AI算力竞赛与开发者的机遇",
+            "angle": "分析小米芯片布局对端侧AI开发体系的影响，以及开发者如何适应。",
+            "needs_hands_on": false,
+            "risk": "本文为基于单一来源的行业分析，需以官方发布为准。"
+          }
+        ]
+      }
     }
   },
-  "updated_at": "2026-08-23T10:35:19.981774Z"
+  "updated_at": "2026-08-24T10:54:53.995091Z"
 }
