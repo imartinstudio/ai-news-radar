@@ -1,8 +1,1653 @@
 {
   "version": 1,
-  "generated_at": "2026-08-25T10:51:40.784619Z",
+  "generated_at": "2026-08-25T22:53:25.544136Z",
   "total_editions": 60,
   "editions": [
+    {
+      "edition_id": "2026-08-26-morning",
+      "edition_kind": "morning",
+      "generated_at": "2026-08-25T22:53:25.544136Z",
+      "timezone": "Asia/Shanghai",
+      "total_items": 16,
+      "summary": {
+        "confirmed": 8,
+        "single_source": 7,
+        "early_signal": 0,
+        "rumor": 1,
+        "new": 15,
+        "updated": 1,
+        "confirmed_updates": 0
+      },
+      "items": [
+        {
+          "story_id": "story_72c69d1ef3c2",
+          "creator_event_id": "creator-4d7b0c1af3b311d6",
+          "merged_story_ids": [
+            "story_72c69d1ef3c2"
+          ],
+          "title": "GitHub Copilot 应用的自定义标签页现已正式发布。 / GitHub Copilot app Customize tab is generally available",
+          "url": "https://github.blog/changelog/2026-08-25-github-copilot-app-customize-tab-is-generally-available",
+          "primary_url": "https://github.blog/changelog/2026-08-25-github-copilot-app-customize-tab-is-generally-available",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "source_count": 1,
+          "source_names": [
+            "GitHub Changelog"
+          ],
+          "score": 0.8462,
+          "importance": 0.8462,
+          "importance_score": 0.8462,
+          "importance_label": "官方更新",
+          "importance_breakdown": {
+            "editorial": 0.9,
+            "source_tier": 1.0,
+            "ai_relevance": 0.91,
+            "recency": 0.9678,
+            "story_heat": 0.0
+          },
+          "category": "official",
+          "reasons": [
+            "official_source",
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-08-25T20:05:26Z",
+          "latest_at": "2026-08-25T20:05:26Z",
+          "persona_id": "pragmatic",
+          "persona_score": 72,
+          "persona_review": "自定义标签页转正，想调 Copilot 界面的今天就能改。",
+          "creator_score": 93.3,
+          "creator_breakdown": {
+            "relevance": 0.95,
+            "freshness": 1.0,
+            "source": 1.0,
+            "impact": 0.94,
+            "novelty": 0.85,
+            "heat": 0.4462
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "github-copilot",
+          "verification_status": "confirmed",
+          "creator_reasons": [
+            "entity:github-copilot",
+            "ai_coding_terms",
+            "workflow_impact",
+            "official_or_tier0_source"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "41c71e65ed28f30547f0ccf29c9cec56c4722a48",
+            "title": "GitHub Copilot 应用的自定义标签页现已正式发布。 / GitHub Copilot app Customize tab is generally available",
+            "title_zh": "GitHub Copilot 应用的自定义标签页现已正式发布。",
+            "title_en": "GitHub Copilot app Customize tab is generally available",
+            "title_original": "GitHub Copilot app Customize tab is generally available",
+            "summary": "Customize tab in the GitHub Copilot app brings MCP servers, plugins, skills, and canvases together in one place.\nCustomize tab in the GitHub Copilot app brings MCP servers, plugins, skills, and canvases together in one place.\nGitHub Copilot is more useful when it works with the tools, knowledge, and workflows your team already relies on.\nThe new Customize tab in the GitHub Copilot app brings MCP servers, plugins, skills, and canvases together in one place. Explore featured customizations, browse",
+            "recommend_reason_zh": "GitHub Copilot app 的 Customize tab 正式可用，将 MCP servers、plugins、skills、canvases 统一收拢，Featured 视图呈现精选定制，并支持对 issue 分诊和排优先级，方便团队按需配置 Copilot 工作流，值得一读。",
+            "url": "https://github.blog/changelog/2026-08-25-github-copilot-app-customize-tab-is-generally-available",
+            "source": "GitHub Changelog",
+            "source_name": "Official AI Updates"
+          },
+          "sources": [
+            {
+              "story_id": "story_72c69d1ef3c2",
+              "title": "GitHub Copilot 应用的自定义标签页现已正式发布。 / GitHub Copilot app Customize tab is generally available",
+              "url": "https://github.blog/changelog/2026-08-25-github-copilot-app-customize-tab-is-generally-available",
+              "source": "GitHub Changelog",
+              "site_id": "",
+              "official": true
+            }
+          ],
+          "summary_zh": "GitHub Copilot 应用的自定义标签页正式发布，将 MCP 服务器、插件、技能和画布统一收拢到一处，提供精选配置浏览，方便团队集中管理和配置 Copilot 工作流。",
+          "why_it_matters": "统一管理扩展与配置，降低团队接入 MCP、插件和技能的成本，改善 Copilot 与现有工具链的集成效率，减少零散配置的维护负担。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "GitHub Copilot 新增 Customize 页：MCP/插件/技能一屏管理，实测体验如何？",
+              "angle": "以开发者身份第一时间打开 Customize 页，展示统一管理界面，对比之前分散配置的差异，并实测添加一个 MCP server 的流程是否顺畅。",
+              "needs_hands_on": true,
+              "risk": "官方公告未提供具体 UI 截图和操作细节，仅基于 changelog 描述，实际功能可能需要亲测验证。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "GitHub Copilot 自定义页上线！3 步配置团队 MCP 和技能",
+              "angle": "以图文步骤形式演示如何进入 Customize 页、浏览精选配置、添加 MCP 服务器和技能，分享配置过程中遇到的兼容性问题和避坑指南。",
+              "needs_hands_on": true,
+              "risk": "未亲测实际界面和选项，操作步骤可能因版本不同而有差异，需以官方文档为准。"
+            },
+            {
+              "platform": "wechat",
+              "title": "GitHub Copilot 的 Customize 页：统一扩展生态，企业级配置将走向何方？",
+              "angle": "从 Copilot 扩展生态演进、MCP 标准普及、企业内部分级配置需求等角度，分析 Customize 页对开发工作流和团队管理方式的长期影响。",
+              "needs_hands_on": false,
+              "risk": "官方公告信息有限，未提供详细能力边界和权限控制说明，需结合后续文档分析。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_9ae1e7fe3cbc",
+          "creator_event_id": "creator-7705f0dfdd699e5f",
+          "merged_story_ids": [
+            "story_9ae1e7fe3cbc",
+            "story_55a2613433ab"
+          ],
+          "title": "浏览器扩展、站点工具和云登录 / Browser extensions, site tools, and cloud sign-in",
+          "url": "https://developers.openai.com/codex/changelog",
+          "primary_url": "https://developers.openai.com/codex/changelog",
+          "source": "OpenAI Codex Changelog",
+          "source_name": "Official AI Updates",
+          "source_count": 1,
+          "source_names": [
+            "OpenAI Codex Changelog"
+          ],
+          "score": 0.8203,
+          "importance": 0.8203,
+          "importance_score": 0.8203,
+          "importance_label": "官方更新",
+          "importance_breakdown": {
+            "editorial": 0.9,
+            "source_tier": 1.0,
+            "ai_relevance": 1.0,
+            "recency": 0.7241,
+            "story_heat": 0.0
+          },
+          "category": "official",
+          "reasons": [
+            "official_source",
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-08-25T00:00:00Z",
+          "latest_at": "2026-08-25T00:00:00Z",
+          "persona_id": "pragmatic",
+          "persona_score": 82,
+          "persona_review": "Codex 加浏览器扩展和云登录，写 agent 的今天就能试。",
+          "creator_score": 86.3,
+          "creator_breakdown": {
+            "relevance": 1.0,
+            "freshness": 0.5777,
+            "source": 1.0,
+            "impact": 0.94,
+            "novelty": 0.85,
+            "heat": 0.4371
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "codex",
+          "verification_status": "confirmed",
+          "creator_reasons": [
+            "entity:codex",
+            "ai_coding_terms",
+            "workflow_impact",
+            "official_or_tier0_source"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "51ed931c2017f8886cbfbea38e595e938427d78b",
+            "title": "浏览器扩展、站点工具和云登录 / Browser extensions, site tools, and cloud sign-in",
+            "title_zh": "浏览器扩展、站点工具和云登录",
+            "title_en": "Browser extensions, site tools, and cloud sign-in",
+            "title_original": "Browser extensions, site tools, and cloud sign-in",
+            "summary": "Latest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nMore browsers: Use the ChatGPT browser extension in Microsoft Edge, Brave, Opera, and Vivaldi, as well as Chrome. Set up\nyour browser in Settings > Computer Use in the ChatGPT desktop app.\nAll five support tab mentions and browser control; Opera doesn’t support\nside chat.\nSite tools (WebMCP): In the desktop app’s built-in browser, ChatGPT Work\nand Codex ",
+            "recommend_reason_zh": "ChatGPT与Codex更新：浏览器扩展新增支持Edge、Brave、Opera、Vivaldi；Site tools需用GPT-5.6 Sol或Terra；定时任务现可由Gmail、Slack、GitHub事件触发。",
+            "url": "https://developers.openai.com/codex/changelog",
+            "source": "OpenAI Codex Changelog",
+            "source_name": "Official AI Updates"
+          },
+          "sources": [
+            {
+              "story_id": "story_9ae1e7fe3cbc",
+              "title": "浏览器扩展、站点工具和云登录 / Browser extensions, site tools, and cloud sign-in",
+              "url": "https://developers.openai.com/codex/changelog",
+              "source": "OpenAI Codex Changelog",
+              "site_id": "",
+              "official": true
+            }
+          ],
+          "summary_zh": "Latest updates to ChatGPT and Codex Latest updates to ChatGPT and Codex Latest updates to ",
+          "why_it_matters": "Codex 加浏览器扩展和云登录，写 agent 的今天就能试。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "codex 这次更新真正改变了什么",
+              "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
+              "needs_hands_on": true,
+              "risk": "未亲测前不要把官方描述写成实际效果。"
+            }
+          ],
+          "enrichment_mode": "rules_fallback"
+        },
+        {
+          "story_id": "story_5af098c0ef24",
+          "creator_event_id": "creator-b0bd71bf595da127",
+          "merged_story_ids": [
+            "story_5af098c0ef24"
+          ],
+          "title": "Anthropic官方上线Claude Code插件目录",
+          "url": "https://github.com/anthropics/claude-plugins-official",
+          "primary_url": "https://github.com/anthropics/claude-plugins-official",
+          "source": "github",
+          "source_name": "NewsNow",
+          "source_count": 1,
+          "source_names": [
+            "github"
+          ],
+          "score": 0.52,
+          "importance": 0.52,
+          "importance_score": 0.52,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.468,
+            "source_tier": 0.32,
+            "ai_relevance": 0.65,
+            "recency": 0.9957,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-08-25T22:03:26.796000Z",
+          "latest_at": "2026-08-25T22:03:26.796000Z",
+          "creator_score": 82.3,
+          "creator_breakdown": {
+            "relevance": 1.0,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.81,
+            "novelty": 0.85,
+            "heat": 0.332
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "claude-code",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:claude-code",
+            "ai_coding_terms",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "8642d91878a6cdc5da827e11699dd3df0ed943fa",
+            "title": "Anthropic官方上线Claude Code插件目录",
+            "title_zh": "Anthropic官方上线Claude Code插件目录",
+            "title_en": "anthropics /      claude-plugins-official",
+            "title_original": "anthropics /      claude-plugins-official",
+            "url": "https://github.com/anthropics/claude-plugins-official",
+            "source": "github",
+            "source_name": "NewsNow"
+          },
+          "sources": [
+            {
+              "story_id": "story_5af098c0ef24",
+              "title": "Anthropic官方上线Claude Code插件目录",
+              "url": "https://github.com/anthropics/claude-plugins-official",
+              "source": "github",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "Anthropic在GitHub上新建了官方仓库anthropics/claude-plugins-official，作为Claude Code插件目录。该消息目前仅来自单一来源，",
+          "why_it_matters": "官方插件目录的诞生意味着Claude Code插件将走向规范化，开发者未来可更可靠地发现和安装插件，但当前消息来源单一，需等待官方进一步说明",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "我扒了一遍Anthropic刚上线的Claude Code插件目录",
+              "angle": "以开发者第一视角，第一时间查看官方插件仓库，看看有哪些值得装的插件，以及官方目录对插件生态的影响。",
+              "needs_hands_on": true,
+              "risk": "仓库内容尚未实际核实，插件列表和可用性需要验证。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "Claude Code官方插件目录来了！手把手教你找到靠谱插件",
+              "angle": "以小红书风格，分享如何访问官方插件目录，并给出查找和安装插件的步骤，提醒避开非官方来源。",
+              "needs_hands_on": true,
+              "risk": "未实际安装插件，步骤可能不完整。"
+            },
+            {
+              "platform": "wechat",
+              "title": "Anthropic上线Claude Code插件目录，生态分水岭到了？",
+              "angle": "从行业角度分析官方插件目录对Claude Code生态的影响，以及开发者如何应对插件生态的规范化。",
+              "needs_hands_on": false,
+              "risk": "单一来源，官方目录的具体内容和规划尚未透露。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_6ccc5b93e71a",
+          "creator_event_id": "creator-95f4ad7c67158d61",
+          "merged_story_ids": [
+            "story_6ccc5b93e71a"
+          ],
+          "title": "OpenWorker 新版发布，内置网络安全智能体 / OpenWorker -- an open source agent that doesn't just chat but completes tasks on your laptop -- just…",
+          "url": "https://x.com/AndrewYNg/status/2092315079576555806",
+          "primary_url": "https://x.com/AndrewYNg/status/2092315079576555806",
+          "source": "X：Andrew Ng（DeepLearning.AI 创始人） (@AndrewYNg)",
+          "source_name": "AI HOT",
+          "source_count": 1,
+          "source_names": [
+            "X：Andrew Ng（DeepLearning.AI 创始人） (@AndrewYNg)"
+          ],
+          "score": 0.7423,
+          "importance": 0.7423,
+          "importance_score": 0.7423,
+          "importance_label": "行业动态",
+          "importance_breakdown": {
+            "editorial": 0.67,
+            "source_tier": 0.78,
+            "ai_relevance": 1.0,
+            "recency": 0.9427,
+            "story_heat": 0.0
+          },
+          "category": "industry",
+          "reasons": [
+            "high_ai_relevance"
+          ],
+          "earliest_at": "2026-08-25T18:16:02Z",
+          "latest_at": "2026-08-25T18:16:02Z",
+          "persona_id": "pragmatic",
+          "persona_score": 85,
+          "persona_review": "开源代理可直接clone，内置安全模块，本地任务自动化今天就能试。",
+          "creator_score": 80.9,
+          "creator_breakdown": {
+            "relevance": 0.88,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 1.0,
+            "novelty": 0.75,
+            "heat": 0.4098
+          },
+          "creator_bucket": "ai_coding",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "ai_coding_terms",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "d1d7d8b4938352b2de83fe45b4d0d2ec94555d49",
+            "title": "OpenWorker 新版发布，内置网络安全智能体 / OpenWorker -- an open source agent that doesn't just chat but completes tasks on your laptop -- just…",
+            "title_zh": "OpenWorker 新版发布，内置网络安全智能体",
+            "title_en": "OpenWorker -- an open source agent that doesn't just chat but completes tasks on your laptop -- just…",
+            "title_original": "OpenWorker -- an open source agent that doesn't just chat but completes tasks on your laptop -- just…",
+            "summary": "Andrew Ng 旗下开源智能体 OpenWorker 发布新版，强化安全工作流。其 harness 完全开源，安全团队可审计无后门。新版内置代码漏洞扫描、依赖供应链注入检测和云安全配置检查三类网络安全智能体，并支持本地运行开源权重模型以保护敏感代码。",
+            "recommend_reason_zh": "OpenWorker 开源代理不仅能聊天，还能在笔记本电脑上完成任务；新版为安全工作流新增多项功能，而首次发布后尤其利于网络安全，攻击者已开始使用。",
+            "url": "https://x.com/AndrewYNg/status/2092315079576555806",
+            "source": "X：Andrew Ng（DeepLearning.AI 创始人） (@AndrewYNg)",
+            "source_name": "AI HOT"
+          },
+          "sources": [
+            {
+              "story_id": "story_6ccc5b93e71a",
+              "title": "OpenWorker 新版发布，内置网络安全智能体 / OpenWorker -- an open source agent that doesn't just chat but completes tasks on your laptop -- just…",
+              "url": "https://x.com/AndrewYNg/status/2092315079576555806",
+              "source": "X：Andrew Ng（DeepLearning.AI 创始人） (@AndrewYNg)",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "Andrew Ng 旗下开源智能体 OpenWorker 发布新版，harness 完全开源可审计。新增代码漏洞扫描、依赖供应链注入检测、云安全配置检查三类网络安全智能体，支持本地",
+          "why_it_matters": "开源可审计的智能体可嵌入开发流程，在本地完成三类安全检查，降低供应链风险，同时保护代码隐私，可能改变 DevSecOps 工具选型。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "Andrew Ng 开源智能体 OpenWorker 新版：内置三类安全扫描，开发者实测如何？",
+              "angle": "以开发者身份，看到 Andrew Ng 推文后立即下载 OpenWorker，实测代码漏洞扫描、依赖供应链检测和云安全配置检查，看它是否真的能发现真实项目里的问题。",
+              "needs_hands_on": true,
+              "risk": "仅来自 Andrew Ng 单一推文，未亲测；需确认实际安装步骤和扫描效果。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "OpenWorker 本地安全扫描实战：安装避坑与效果对比",
+              "angle": "手把手教大家用 OpenWorker 在本地跑开源模型进行代码安全扫描，包括环境配置、常见报错，以及扫描结果如何解读，适合想保护敏感代码又不想上传的开发者。",
+              "needs_hands_on": true,
+              "risk": "未亲测，具体版本号、依赖要求待确认；本地模型运行对硬件要求未知。"
+            },
+            {
+              "platform": "wechat",
+              "title": "AI Coding 智能体介入网络安全：OpenWorker 新版的技术路线与 DevSecOps 前景",
+              "angle": "从 Andrew Ng 发布 OpenWorker 新版切入，分析开源智能体在网络安全领域的机会：可审计性、本地模型隐私、三类自动化扫描对开发流程的长期影响，以及开源社区如何参与。",
+              "needs_hands_on": false,
+              "risk": "单一来源，需进一步确认功能细节和实际能力。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_2e1e1831ce49",
+          "creator_event_id": "creator-d5fb1fe8e6f775b6",
+          "merged_story_ids": [
+            "story_2e1e1831ce49"
+          ],
+          "title": "Granite 4.2 LLM 是如何构建的 / Granite 4.2 LLMs: How They're Built",
+          "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
+          "primary_url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
+          "source": "Hugging Face Blog",
+          "source_name": "Official AI Updates",
+          "source_count": 1,
+          "source_names": [
+            "Hugging Face Blog"
+          ],
+          "score": 0.8504,
+          "importance": 0.8504,
+          "importance_score": 0.8504,
+          "importance_label": "官方更新",
+          "importance_breakdown": {
+            "editorial": 0.9,
+            "source_tier": 1.0,
+            "ai_relevance": 0.99,
+            "recency": 0.9023,
+            "story_heat": 0.0
+          },
+          "category": "official",
+          "reasons": [
+            "official_source",
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-08-25T15:14:14Z",
+          "latest_at": "2026-08-25T15:14:14Z",
+          "persona_id": "pragmatic",
+          "persona_score": 72,
+          "persona_review": "技术拆解里有可抄的架构设计，但没给权重就只是参考。",
+          "creator_score": 79.8,
+          "creator_breakdown": {
+            "relevance": 0.88,
+            "freshness": 0.9587,
+            "source": 1.0,
+            "impact": 0.43,
+            "novelty": 0.55,
+            "heat": 0.4476
+          },
+          "creator_bucket": "ai_coding",
+          "verification_status": "confirmed",
+          "creator_reasons": [
+            "ai_coding_terms",
+            "official_or_tier0_source"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "b343f39bfe6c0fcb583e96ace127b7456d9cc623",
+            "title": "Granite 4.2 LLM 是如何构建的 / Granite 4.2 LLMs: How They're Built",
+            "title_zh": "Granite 4.2 LLM 是如何构建的",
+            "title_en": "Granite 4.2 LLMs: How They're Built",
+            "title_original": "Granite 4.2 LLMs: How They're Built",
+            "summary": "A Blog post by IBM Granite on Hugging Face\nA Blog post by IBM Granite on Hugging Face\nOverview Model Architecture Pre-Training SFT: Data Preparation & Quality Control Data Quality Control SFT Training Details Phase 2 SFT for the 30B Model Reinforcement Learning: A Multi-Stage, Multi-Environment Pipeline Training Methodology The Staged Curriculum Reward Signals Foundational RL: Build the Skills Agentic RL: Learning to Act (8B / 30B) Alignment: RLHF How the Three Sizes Differ Agentic AI Infrastruc",
+            "recommend_reason_zh": "这篇IBM Granite团队的技术博客详解Granite 4.2的构建过程，涵盖三尺寸（3B/8B/30B）模型从零预训练约15T tokens、扩展到512K上下文，以及多阶段RL如何让8B和30B模型在真实沙盒中学会工具调用。",
+            "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
+            "source": "Hugging Face Blog",
+            "source_name": "Official AI Updates"
+          },
+          "sources": [
+            {
+              "story_id": "story_2e1e1831ce49",
+              "title": "Granite 4.2 LLM 是如何构建的 / Granite 4.2 LLMs: How They're Built",
+              "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
+              "source": "Hugging Face Blog",
+              "site_id": "",
+              "official": true
+            }
+          ],
+          "summary_zh": "IBM 发布 Granite 4.2 技术博客，详解 3B/8B/30B 三尺寸模型从零预训练约 15T tokens、512K 上下文扩展，以及多阶段 RL 让 8B/30B 在",
+          "why_it_matters": "Granite 4.2 提供可本地部署的开源模型选项，其 512K 上下文与工具调用能力将影响开发者在代码生成、Agent 场景下的模型选型",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "Granite 4.2 技术博客速读：IBM 如何让 8B 模型在沙盒里学会调用工具",
+              "angle": "第一人称快速解读关键数字（15T tokens、512K 上下文）和 RL 训练流程，对比其他开源模型，指出实测差异。",
+              "needs_hands_on": true,
+              "risk": "未亲自运行模型，实际工具调用效果和性能待验证。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "手把手读懂 Granite 4.2 构建流程｜从预训练到 RLHF 的避坑指南",
+              "angle": "以笔记形式拆解博客中的关键步骤，强调数据质量控制和 RL 阶段设计，给想复现类似训练的开发者提供步骤和注意点。",
+              "needs_hands_on": true,
+              "risk": "博客未提供完整超参数，部分细节需查原论文或后续报告。"
+            },
+            {
+              "platform": "wechat",
+              "title": "Granite 4.2 背后的技术体系：15T tokens 预训练与多阶段 RL 的长期影响",
+              "angle": "从宏观角度分析 IBM 开源战略、模型尺寸梯度（3B/8B/30B）对开发者生态的影响，以及 512K 上下文的工程挑战。",
+              "needs_hands_on": false,
+              "risk": "需核对博客外部信息，如模型许可证、性能基准和实际部署案例。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_e1c25592fe2f",
+          "creator_event_id": "creator-7c3ed6e8627b8355",
+          "merged_story_ids": [
+            "story_e1c25592fe2f"
+          ],
+          "title": "WeatherNext 预测气旋：提前五天预警五级飓风 / https://x.com/i/article/2092249927812337664",
+          "url": "https://x.com/GoogleAI/status/2092275116503707733",
+          "primary_url": "https://x.com/GoogleAI/status/2092275116503707733",
+          "source": "X：Google AI (@GoogleAI)",
+          "source_name": "AI HOT",
+          "source_count": 1,
+          "source_names": [
+            "X：Google AI (@GoogleAI)"
+          ],
+          "score": 0.7539,
+          "importance": 0.7539,
+          "importance_score": 0.7539,
+          "importance_label": "行业动态",
+          "importance_breakdown": {
+            "editorial": 0.73,
+            "source_tier": 0.78,
+            "ai_relevance": 1.0,
+            "recency": 0.9073,
+            "story_heat": 0.0
+          },
+          "category": "industry",
+          "reasons": [
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-08-25T15:37:15Z",
+          "latest_at": "2026-08-25T15:37:15Z",
+          "persona_id": "pragmatic",
+          "persona_score": 55,
+          "persona_review": "气象预警有实际价值，但普通开发者用不上，等 API 开放再关注。",
+          "creator_score": 79.4,
+          "creator_breakdown": {
+            "relevance": 0.88,
+            "freshness": 0.9683,
+            "source": 0.5,
+            "impact": 0.94,
+            "novelty": 0.75,
+            "heat": 0.4139
+          },
+          "creator_bucket": "ai_coding",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "ai_coding_terms",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "5ae985e719104741d17e0406d4efd8ff4e4b64cf",
+            "title": "WeatherNext 预测气旋：提前五天预警五级飓风 / https://x.com/i/article/2092249927812337664",
+            "title_zh": "WeatherNext 预测气旋：提前五天预警五级飓风",
+            "title_en": "https://x.com/i/article/2092249927812337664",
+            "title_original": "https://x.com/i/article/2092249927812337664",
+            "summary": "Google AI 发布 WeatherNext 气旋预测模型，可同时预测风暴路径、强度和规模，比现有系统多提供一整天的预警时间。该模型在 2025 飓风季实战测试中，提前五天预测飓风 Melissa 在牙买加的五级登陆，系美国国家飓风中心首次实时使用 AI 模型。模型单场风暴可生成多达 1000 次模拟，代码与权重已开源。",
+            "recommend_reason_zh": "WeatherNext Cyclones首次让美国国家飓风中心在2025年实时用AI预报，三天预报精度堪比过去两天，还能多给一天预警，并一次生成1000个模拟。",
+            "url": "https://x.com/GoogleAI/status/2092275116503707733",
+            "source": "X：Google AI (@GoogleAI)",
+            "source_name": "AI HOT"
+          },
+          "sources": [
+            {
+              "story_id": "story_e1c25592fe2f",
+              "title": "WeatherNext 预测气旋：提前五天预警五级飓风 / https://x.com/i/article/2092249927812337664",
+              "url": "https://x.com/GoogleAI/status/2092275116503707733",
+              "source": "X：Google AI (@GoogleAI)",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "Google AI 发布 WeatherNext 气旋模型，官方称可同时预测路径/强度/规模，比现有系统多一天预警；实战中提前五天预警五级飓风。美国国家飓风中心首次实时使用 AI，",
+          "why_it_matters": "该模型开源代码与权重，展示了 AI 批量生成预测模拟的工程范式，开发者可借鉴其推理管道，但需评估算力成本与模型验证边界。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "WeatherNext 开源了，我试着本地跑了一下",
+              "angle": "以开发者第一人称，迅速克隆仓库、尝试推理，对比官方算力要求，实测跑不跑得动。",
+              "needs_hands_on": true,
+              "risk": "未亲测；官方数据基于高性能云环境，本地硬件和依赖未必兼容。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "手把手：从 GitHub 拉取 WeatherNext 到生成一次飓风预测",
+              "angle": "记录每一步安装、依赖、数据准备和输出，分享踩坑和性能瓶颈。",
+              "needs_hands_on": true,
+              "risk": "步骤未经实操验证，可能因环境而异。"
+            },
+            {
+              "platform": "wechat",
+              "title": "当美国国家飓风中心首次用 AI 预报：WeatherNext 背后是范式转移",
+              "angle": "分析该事件背景：气象预报从物理模型到生成式 AI 的转变，对开发者社区和防灾工作流的意义。",
+              "needs_hands_on": false,
+              "risk": "单一来源，需交叉验证官方声明。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_2bdeefb89f9a",
+          "creator_event_id": "creator-b403fb104c4baa82",
+          "merged_story_ids": [
+            "story_2bdeefb89f9a"
+          ],
+          "title": "我的 AI 原生开发流程：一个真实案例的完整复盘",
+          "url": "https://waytoagi.feishu.cn/wiki/XJEzwR5FGi60fuk9kVBcXeTOnah?from=from_copylink",
+          "primary_url": "https://waytoagi.feishu.cn/wiki/XJEzwR5FGi60fuk9kVBcXeTOnah?from=from_copylink",
+          "source": "社区更新 · 2026-08-25",
+          "source_name": "WaytoAGI",
+          "source_count": 1,
+          "source_names": [
+            "社区更新 · 2026-08-25"
+          ],
+          "score": 0.5692,
+          "importance": 0.5692,
+          "importance_score": 0.5692,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.468,
+            "source_tier": 0.54,
+            "ai_relevance": 0.65,
+            "recency": 1.0,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-08-25T22:21:16.894306Z",
+          "latest_at": "2026-08-25T22:21:16.894306Z",
+          "creator_score": 77.8,
+          "creator_breakdown": {
+            "relevance": 0.88,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.81,
+            "novelty": 0.75,
+            "heat": 0.3492
+          },
+          "creator_bucket": "ai_coding",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "ai_coding_terms",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "447477c47a8465ab739430a816319992ddd433fd",
+            "title": "我的 AI 原生开发流程：一个真实案例的完整复盘",
+            "title_zh": "我的 AI 原生开发流程：一个真实案例的完整复盘",
+            "title_original": "我的 AI 原生开发流程：一个真实案例的完整复盘",
+            "summary": "代码已经越来越像最容易交给Agent的环节，真正考验人的是做不做、怎么做、做完好不好用。宝玉这篇文章从BaoCut的远程转录功能出发，复盘了一套 AI 原生开发流程：可行性分析、设计文档、高精度原型、Agent 实现、自验证，再由人像普通用户一样黑盒测试。适合开发者、产品读，能帮你把 AI 从“写代码助手”变成完整开发协作系统。",
+            "url": "https://waytoagi.feishu.cn/wiki/XJEzwR5FGi60fuk9kVBcXeTOnah?from=from_copylink",
+            "source": "社区更新 · 2026-08-25",
+            "source_name": "WaytoAGI"
+          },
+          "sources": [
+            {
+              "story_id": "story_2bdeefb89f9a",
+              "title": "我的 AI 原生开发流程：一个真实案例的完整复盘",
+              "url": "https://waytoagi.feishu.cn/wiki/XJEzwR5FGi60fuk9kVBcXeTOnah?from=from_copylink",
+              "source": "社区更新 · 2026-08-25",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "宝玉发文复盘BaoCut远程转录功能的AI原生开发流程，涵盖可行性分析、设计文档、高精度原型、Agent实现、自验证及人工黑盒测试，强调代码环节最易交给AI，人的决策与验证才是关键",
+          "why_it_matters": "展示AI从代码助手升级为完整开发协作系统的方法，核心是人机分工与验证闭环，对开发者流程设计和工具选型有参考价值。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "用AI做完整功能，我踩过的坑和复盘",
+              "angle": "以第一人称分享复刻该流程的体验，对比自己平时直接用Agent写代码的差异，强调设计文档和黑盒测试的必要性。",
+              "needs_hands_on": true,
+              "risk": "未亲测该流程，具体步骤和效果依据原文描述，需验证可行性。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "AI原生开发流程5步法，从需求到上线避坑指南",
+              "angle": "拆解为步骤清单，配文字说明每个环节的输入输出，突出可行性分析和高精度原型如何避免后期返工。",
+              "needs_hands_on": true,
+              "risk": "原帖为社区复盘，无原始数据支持，步骤细节依赖转载准确性。"
+            },
+            {
+              "platform": "wechat",
+              "title": "AI开发进入第二阶段：你的流程还停留在写代码吗？",
+              "angle": "从行业视角分析AI原生开发的范式转变，结合原文案例讨论设计文档、自验证、黑盒测试在团队协作中的长期价值。",
+              "needs_hands_on": false,
+              "risk": "需确认原文作者身份及案例真实性，避免过度解读。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_7fc88b31ee75",
+          "creator_event_id": "creator-f3abf78957c8a4d5",
+          "merged_story_ids": [
+            "story_7fc88b31ee75",
+            "story_8acb8d88a88d",
+            "story_36bd4e0552dd",
+            "story_de9be90709d4"
+          ],
+          "title": "Keenable, which is building a web search index for AI agents and says several AI labs are using its API, raised a $26M seed led by Accel (Anna Heim/TechCrunch)",
+          "url": "https://www.techmeme.com/260825/p39",
+          "primary_url": "https://www.techmeme.com/260825/p39",
+          "source": "Techmeme",
+          "source_name": "TechURLs",
+          "source_count": 4,
+          "source_names": [
+            "Techmeme",
+            "TechCrunch AI",
+            "Business Insider",
+            "Hacker News · 24h最热"
+          ],
+          "score": 0.5119,
+          "importance": 0.5119,
+          "importance_score": 0.5119,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.468,
+            "source_tier": 0.32,
+            "ai_relevance": 0.65,
+            "recency": 0.9504,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-08-25T18:50:01Z",
+          "latest_at": "2026-08-25T18:50:01Z",
+          "creator_score": 77.7,
+          "creator_breakdown": {
+            "relevance": 0.88,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.81,
+            "novelty": 0.75,
+            "heat": 0.3292
+          },
+          "creator_bucket": "ai_coding",
+          "verification_status": "confirmed",
+          "creator_reasons": [
+            "ai_coding_terms",
+            "workflow_impact"
+          ],
+          "change_type": "updated",
+          "primary_item": {
+            "id": "e3c9f01dd4f89f78afdc4975f25bd6daeb1e095c",
+            "title": "Keenable, which is building a web search index for AI agents and says several AI labs are using its API, raised a $26M seed led by Accel (Anna Heim/TechCrunch)",
+            "title_en": "Keenable, which is building a web search index for AI agents and says several AI labs are using its API, raised a $26M seed led by Accel (Anna Heim/TechCrunch)",
+            "title_original": "Keenable, which is building a web search index for AI agents and says several AI labs are using its API, raised a $26M seed led by Accel (Anna Heim/TechCrunch)",
+            "url": "https://www.techmeme.com/260825/p39",
+            "source": "Techmeme",
+            "source_name": "TechURLs"
+          },
+          "sources": [
+            {
+              "story_id": "story_7fc88b31ee75",
+              "title": "Keenable, which is building a web search index for AI agents and says several AI labs are using its API, raised a $26M seed led by Accel (Anna Heim/TechCrunch)",
+              "url": "https://www.techmeme.com/260825/p39",
+              "source": "Techmeme",
+              "site_id": "",
+              "official": false
+            },
+            {
+              "story_id": "story_8acb8d88a88d",
+              "title": "Accel 投资的 Keenable 正在为 AI 代理索引整个网络 / Accel-backed Keenable is indexing the web for AI agents",
+              "url": "https://techcrunch.com/2026/08/25/accel-backed-keenable-is-indexing-the-web-for-ai-agents",
+              "source": "TechCrunch AI",
+              "site_id": "",
+              "official": false
+            },
+            {
+              "story_id": "story_36bd4e0552dd",
+              "title": "什么是“人肉代理”？形容那些盲目转发AI输出的同事的新词 / What is a 'meat proxy'? The new term for coworkers who blindly share AI output",
+              "url": "https://www.businessinsider.com/meat-proxy-tech-new-term-ai-2026-8",
+              "source": "Business Insider",
+              "site_id": "",
+              "official": false
+            },
+            {
+              "story_id": "story_de9be90709d4",
+              "title": "在 Windows 沙盒中运行 Minecraft，供计算机使用智能体操作 / Run Minecraft in a Windows sandbox for computer use agents",
+              "url": "https://cua.ai/docs/how-to-guides/sandbox/minecraft",
+              "source": "Hacker News · 24h最热",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "Keenable 为 AI 代理构建网络搜索索引，宣布完成由 Accel 领投的 2600 万美元种子轮融资，并称多个 AI 实验室已使用其 API。开发者或获得新的搜索后端选项，",
+          "why_it_matters": "AI 代理依赖网络搜索获取实时信息，Keenable 提供专门索引。开发者需评估其与现有方案的性能、成本和兼容性，影响代理工具的技术选型。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "Keenable 融资 2600 万美元，AI 代理搜索索引能否取代传统搜索 API？",
+              "angle": "作为开发者，我第一时间申请了 Keenable 的 API，对比 SerpAPI 和 Brave，实测延迟和结果质量，发现……",
+              "needs_hands_on": true,
+              "risk": "未亲测 API，需验证其性能、定价及所声称的实验室用户是否属实。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "AI 代理搜索后端怎么选？Keenable 等新竞品避坑指南",
+              "angle": "我尝试接入 Keenable，记录完整步骤和踩坑点，比如文档不全、超额计费，分享给大家参考。",
+              "needs_hands_on": true,
+              "risk": "未亲测，需核实文档完整性、计费方式和稳定性。"
+            },
+            {
+              "platform": "wechat",
+              "title": "AI 代理的搜索基础设施：Keenable 融资背后的开发者生态变局",
+              "angle": "从技术演进看，AI 代理搜索索引将如何改变工具链，开发者应关注哪些风险，以及融资对市场格局的长期影响。",
+              "needs_hands_on": false,
+              "risk": "需核实 Keenable 市场份额及‘多个 AI 实验室’的具体名称和采用情况。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_ee4c27dcee9b",
+          "creator_event_id": "creator-014872b18047d146",
+          "merged_story_ids": [
+            "story_ee4c27dcee9b"
+          ],
+          "title": "Google launches Gemini for legal work to automate contracts and research",
+          "url": "https://the-decoder.com/google-launches-gemini-for-legal-work-to-automate-contracts-and-research",
+          "primary_url": "https://the-decoder.com/google-launches-gemini-for-legal-work-to-automate-contracts-and-research",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "source_count": 1,
+          "source_names": [
+            "The Decoder AI News"
+          ],
+          "score": 0.6213,
+          "importance": 0.6213,
+          "importance_score": 0.6213,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.5688,
+            "source_tier": 0.58,
+            "ai_relevance": 0.79,
+            "recency": 0.917,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-08-25T16:21:09Z",
+          "latest_at": "2026-08-25T16:21:09Z",
+          "creator_score": 76.5,
+          "creator_breakdown": {
+            "relevance": 0.88,
+            "freshness": 0.9866,
+            "source": 0.78,
+            "impact": 0.43,
+            "novelty": 0.65,
+            "heat": 0.3675
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "anthropic",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:anthropic",
+            "ai_coding_terms"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "fcf9a7482c2dfcd0c9befd4a39a195668e2d12f5",
+            "title": "Google launches Gemini for legal work to automate contracts and research",
+            "title_en": "Google launches Gemini for legal work to automate contracts and research",
+            "title_original": "Google launches Gemini for legal work to automate contracts and research",
+            "summary": "With Gemini Enterprise for Legal, Google launches an AI solution for the legal industry that connects to systems like iManage, DocuSign, and Everlaw through MCP connectors. Partners like Deloitte sell ready-made AI agents for tasks like contract review. Anthropic already offers similar solutions. All providers use the same models as in their other products.\nWith Gemini Enterprise for Legal, Google launches an AI solution for the legal industry that connects to systems like iManage, DocuSign, and",
+            "recommend_reason_zh": "Google推出Gemini Enterprise for Legal，通过MCP连接器对接iManage、DocuSign、Everlaw等系统，Deloitte代售合同审查AI代理，Anthropic已有同类方案。",
+            "url": "https://the-decoder.com/google-launches-gemini-for-legal-work-to-automate-contracts-and-research",
+            "source": "The Decoder AI News",
+            "source_name": "Curated Media"
+          },
+          "sources": [
+            {
+              "story_id": "story_ee4c27dcee9b",
+              "title": "Google launches Gemini for legal work to automate contracts and research",
+              "url": "https://the-decoder.com/google-launches-gemini-for-legal-work-to-automate-contracts-and-research",
+              "source": "The Decoder AI News",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "Google发布面向法律行业的Gemini Enterprise for Legal，通过MCP连接器对接iManage、DocuSign、Everlaw等系统，Deloitte等",
+          "why_it_matters": "MCP连接器成为企业级AI集成的关键接口，法律垂直场景落地加速，开发者需关注不同厂商MCP生态差异及合规风险。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "Google用MCP把法律软件串起来了，但Anthropic早就这么干了",
+              "angle": "对比Google与Anthropic的MCP策略，强调企业AI集成正在从通用助手走向垂直工作流",
+              "needs_hands_on": true,
+              "risk": "单一信源，未亲测Gemini Enterprise for Legal，Deloitte合作细节及MCP连接器兼容性待核实"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "法律AI接入MCP实操：用Gemini还是Claude？避坑指南",
+              "angle": "从开发者视角讲解如何通过MCP连接器对接iManage、DocuSign等系统，分享集成步骤与数据合规注意事项",
+              "needs_hands_on": true,
+              "risk": "未实测Gemini Enterprise for Legal，MCP连接器实际效果和配置要求需官方文档确认"
+            },
+            {
+              "platform": "wechat",
+              "title": "MCP成为AI Agent的USB-C：Google入局法律行业的信号",
+              "angle": "分析MCP连接器如何成为企业级AI集成标准，Google与Anthropic的竞争对开发者和企业选型的影响",
+              "needs_hands_on": false,
+              "risk": "单一信源，需交叉验证Google官方公告及Anthropic同类方案的细节"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_d83b38ad2856",
+          "creator_event_id": "creator-529f354d885f8c0f",
+          "merged_story_ids": [
+            "story_d83b38ad2856"
+          ],
+          "title": "Show HN：MulmoTerminal —— 运行多个 Claude Code 会话，看看哪个需要你 / Show HN: MulmoTerminal – Run many Claude Code sessions, see which needs you",
+          "url": "https://github.com/receptron/mulmoterminal",
+          "primary_url": "https://github.com/receptron/mulmoterminal",
+          "source": "HN Algolia · AI 24h",
+          "source_name": "Hacker News",
+          "source_count": 1,
+          "source_names": [
+            "HN Algolia · AI 24h"
+          ],
+          "score": 0.5131,
+          "importance": 0.5131,
+          "importance_score": 0.5131,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.468,
+            "source_tier": 0.32,
+            "ai_relevance": 0.65,
+            "recency": 0.9575,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-08-25T19:20:48Z",
+          "latest_at": "2026-08-25T19:20:48Z",
+          "creator_score": 76.2,
+          "creator_breakdown": {
+            "relevance": 1.0,
+            "freshness": 1.0,
+            "source": 0.58,
+            "impact": 0.43,
+            "novelty": 0.65,
+            "heat": 0.3296
+          },
+          "creator_bucket": "ai_coding",
+          "primary_entity": "claude-code",
+          "verification_status": "rumor",
+          "creator_reasons": [
+            "entity:claude-code"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "3ace9441c46201f55ca95513df394bfef079eb8d",
+            "title": "Show HN：MulmoTerminal —— 运行多个 Claude Code 会话，看看哪个需要你 / Show HN: MulmoTerminal – Run many Claude Code sessions, see which needs you",
+            "title_zh": "Show HN：MulmoTerminal —— 运行多个 Claude Code 会话，看看哪个需要你",
+            "title_en": "Show HN: MulmoTerminal – Run many Claude Code sessions, see which needs you",
+            "title_original": "Show HN: MulmoTerminal – Run many Claude Code sessions, see which needs you",
+            "url": "https://github.com/receptron/mulmoterminal",
+            "source": "HN Algolia · AI 24h",
+            "source_name": "Hacker News"
+          },
+          "sources": [
+            {
+              "story_id": "story_d83b38ad2856",
+              "title": "Show HN：MulmoTerminal —— 运行多个 Claude Code 会话，看看哪个需要你 / Show HN: MulmoTerminal – Run many Claude Code sessions, see which needs you",
+              "url": "https://github.com/receptron/mulmoterminal",
+              "source": "HN Algolia · AI 24h",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "Show HN 发布 MulmoTerminal，一款在终端中并行运行多个 Claude Code 会话、并提示哪些会话需要用户关注的工具。目前仅单一来源，功能与稳定性未经独立验证",
+          "why_it_matters": "面向同时管理多个 AI 编码任务的开发者，可能提升并行工作流的可见性与效率，但需注意多会话资源消耗、上下文隔离及中断处理等工程风险。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "MulmoTerminal 实测：同时跑 5 个 Claude Code 会话是什么体验",
+              "angle": "作为开发者，我立刻 clone 了这个工具，测试多会话并行时的响应速度、资源占用和提示机制，分享真实感受。",
+              "needs_hands_on": true,
+              "risk": "尚未实际运行，功能细节和稳定性需核实；单一来源，可能为实验性项目。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "Claude Code 多开神器？MulmoTerminal 安装与避坑指南",
+              "angle": "手把手演示安装和启动多个会话的步骤，展示界面如何区分哪些会话在等待输入，并列出常见问题。",
+              "needs_hands_on": true,
+              "risk": "需要验证与现有终端、Claude Code 版本的兼容性；未提供截图或文档细节。"
+            },
+            {
+              "platform": "wechat",
+              "title": "当 AI 编码助手学会并行：从 Claude Code 多会话看开发工作流演进",
+              "angle": "从工具链演进角度分析，为什么会出现这类多会话管理器，对开发效率、成本控制和团队协作可能带来哪些长期影响。",
+              "needs_hands_on": false,
+              "risk": "原文未提供性能数据或设计原理，分析需基于一般 AI 编码工具背景，避免臆测。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_4b7b151c884e",
+          "creator_event_id": "creator-05f564af5a36f059",
+          "merged_story_ids": [
+            "story_4b7b151c884e"
+          ],
+          "title": "上线前如何评估 LLM / How to evaluate LLMs before production",
+          "url": "https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production",
+          "primary_url": "https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production",
+          "source": "GitHub AI & ML",
+          "source_name": "Official AI Updates",
+          "source_count": 1,
+          "source_names": [
+            "GitHub AI & ML"
+          ],
+          "score": 0.856,
+          "importance": 0.856,
+          "importance_score": 0.856,
+          "importance_label": "官方更新",
+          "importance_breakdown": {
+            "editorial": 0.9,
+            "source_tier": 1.0,
+            "ai_relevance": 0.94,
+            "recency": 0.989,
+            "story_heat": 0.0
+          },
+          "category": "official",
+          "reasons": [
+            "official_source",
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-08-25T21:35:11Z",
+          "latest_at": "2026-08-25T21:35:11Z",
+          "persona_id": "pragmatic",
+          "persona_score": 82,
+          "persona_review": "官方评估指南，照着做能少踩坑，适合上线前流程参考。",
+          "creator_score": 78.7,
+          "creator_breakdown": {
+            "relevance": 0.65,
+            "freshness": 1.0,
+            "source": 1.0,
+            "impact": 0.63,
+            "novelty": 0.75,
+            "heat": 0.4496
+          },
+          "creator_bucket": "general_ai",
+          "verification_status": "confirmed",
+          "creator_reasons": [
+            "workflow_impact",
+            "official_or_tier0_source"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "58d5f4b9ce327f354e841596ecbe42febb9706ac",
+            "title": "上线前如何评估 LLM / How to evaluate LLMs before production",
+            "title_zh": "上线前如何评估 LLM",
+            "title_en": "How to evaluate LLMs before production",
+            "title_original": "How to evaluate LLMs before production",
+            "summary": "These are the lessons we learned evaluating LLMs for real-world secret scanning.\nThese are the lessons we learned evaluating LLMs for real-world secret scanning.\nThese are the lessons we learned evaluating LLMs for real-world secret scanning.\nA language model can perform well on a clean benchmark and still struggle with the cases that matter in production.\nBenchmarks and curated datasets are useful when prototyping an LLM-based system. They help teams compare models, test an initial prompt, and ",
+            "recommend_reason_zh": "犹豫是否用LLM处理生产任务？这篇文章分享了GitHub secret scanning误报减少的实战经验，警示干净基准的局限，并给出以召回率为安全约束的三级评估框架。",
+            "url": "https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production",
+            "source": "GitHub AI & ML",
+            "source_name": "Official AI Updates"
+          },
+          "sources": [
+            {
+              "story_id": "story_4b7b151c884e",
+              "title": "上线前如何评估 LLM / How to evaluate LLMs before production",
+              "url": "https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production",
+              "source": "GitHub AI & ML",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "GitHub 分享上线前评估 LLM 的实战经验：干净基准表现好不等于生产可靠。针对 secret scanning 误报问题，提出以召回率为安全约束的三级评估框架，帮助团队验证模",
+          "why_it_matters": "提醒开发者在将 LLM 用于生产任务时，不能只依赖基准测试，需设计贴近真实场景的评估流程，减少误报和工程风险，避免模型上线后翻车。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "基准测试不可信？GitHub 如何评估 LLM 上线风险",
+              "angle": "作为开发者，我读了一份 GitHub 的评估指南，发现我们常依赖的基准其实有坑，分享一下三级评估框架和我的看法。",
+              "needs_hands_on": true,
+              "risk": "未亲自复现文中实验，需结合自身场景验证。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "上线前评估 LLM 的 3 个步骤，避坑指南",
+              "angle": "来抄作业！GitHub 官方给出的 LLM 评估三步法，每一步怎么操作，以及最容易踩的坑，亲测有效。",
+              "needs_hands_on": true,
+              "risk": "未用实际数据验证，具体效果因业务而异。"
+            },
+            {
+              "platform": "wechat",
+              "title": "从基准到生产：LLM 评估的体系化思考",
+              "angle": "GitHub 博客文章让我思考，LLM 评估不能只看准确率，更要看召回率等安全指标。本文分析三级评估框架背后的逻辑，以及对企业构建 AI 应用的长期影响。",
+              "needs_hands_on": false,
+              "risk": "需核实文章中的案例细节，避免过度解读。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_0536ff6c73c5",
+          "creator_event_id": "creator-258af15468d69025",
+          "merged_story_ids": [
+            "story_0536ff6c73c5"
+          ],
+          "title": "直接在安全公告中屏蔽用户 / Block users directly from security advisories",
+          "url": "https://github.blog/changelog/2026-08-25-block-users-directly-from-security-advisories",
+          "primary_url": "https://github.blog/changelog/2026-08-25-block-users-directly-from-security-advisories",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "source_count": 1,
+          "source_names": [
+            "GitHub Changelog"
+          ],
+          "score": 0.8346,
+          "importance": 0.8346,
+          "importance_score": 0.8346,
+          "importance_label": "官方更新",
+          "importance_breakdown": {
+            "editorial": 0.9,
+            "source_tier": 1.0,
+            "ai_relevance": 0.87,
+            "recency": 0.9479,
+            "story_heat": 0.0
+          },
+          "category": "official",
+          "reasons": [
+            "official_source",
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-08-25T18:38:57Z",
+          "latest_at": "2026-08-25T18:38:57Z",
+          "persona_id": "pragmatic",
+          "persona_score": 55,
+          "persona_review": "维护安全仓库能少点操作，但只影响小众场景，按需用。",
+          "creator_score": 75.9,
+          "creator_breakdown": {
+            "relevance": 0.4921,
+            "freshness": 1.0,
+            "source": 1.0,
+            "impact": 0.76,
+            "novelty": 0.75,
+            "heat": 0.4421
+          },
+          "creator_bucket": "general_ai",
+          "verification_status": "confirmed",
+          "creator_reasons": [
+            "workflow_impact",
+            "official_or_tier0_source"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "ddf97cc4234c61cbe446eb6957d1046445f13b83",
+            "title": "直接在安全公告中屏蔽用户 / Block users directly from security advisories",
+            "title_zh": "直接在安全公告中屏蔽用户",
+            "title_en": "Block users directly from security advisories",
+            "title_original": "Block users directly from security advisories",
+            "summary": "You can now block a user directly from a security advisory page in public repositories owned by either an organization or a personal account. This brings the streamlined moderation experience…\nYou can now block a user directly from a security advisory page in public repositories owned by either an organization or a personal account. This brings the streamlined moderation experience available for issues and pull requests to security advisories.\nSecurity advisories contain user-created content and",
+            "recommend_reason_zh": "对仓库维护者而言，GitHub此次更新让用户可直接从安全公告页面屏蔽用户，组织库仅管理员或版主可操作，个人库仅账户所有者可操作，省去跳转设置或用户资料的步骤。",
+            "url": "https://github.blog/changelog/2026-08-25-block-users-directly-from-security-advisories",
+            "source": "GitHub Changelog",
+            "source_name": "Official AI Updates"
+          },
+          "sources": [
+            {
+              "story_id": "story_0536ff6c73c5",
+              "title": "直接在安全公告中屏蔽用户 / Block users directly from security advisories",
+              "url": "https://github.blog/changelog/2026-08-25-block-users-directly-from-security-advisories",
+              "source": "GitHub Changelog",
+              "site_id": "",
+              "official": true
+            }
+          ],
+          "summary_zh": "GitHub 更新：现在可从安全公告页面直接屏蔽用户，适用于组织和个人的公开仓库，将 issues/PR 的简化审核体验扩展到安全公告，减少维护者跳转步骤。",
+          "why_it_matters": "安全公告包含用户生成内容，维护者在处理漏洞报告时可同步完成屏蔽操作，降低上下文切换成本，提升仓库治理与供应链安全响应效率。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "GitHub 新操作：从安全公告直接拉黑用户，亲测省了这几步",
+              "angle": "以维护者第一人称记录发现屏蔽入口的过程，对比旧流程跳转设置/用户资料页的繁琐，强调组织库和个人库的权限差异，呼吁大家实测反馈。",
+              "needs_hands_on": true,
+              "risk": "未实际验证 UI 入口位置；需确认组织库中仅管理员/版主可操作、个人库仅所有者可操作的边界条件。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "三步从 GitHub 安全公告屏蔽骚扰用户（附权限避坑）",
+              "angle": "用截图教程展示从 security advisory 页面找到屏蔽按钮的步骤，对比 issues/PR 中的已有入口，提醒公开仓库才生效、组织库权限限制等陷阱，结尾可邀读者在评论区补充实测结果。",
+              "needs_hands_on": true,
+              "risk": "未亲测 UI 具体位置，仅依据官方 changelog 描述；需核实是否所有公开仓库页面均即时生效。"
+            },
+            {
+              "platform": "wechat",
+              "title": "GitHub 将安全公告纳入内容审核：维护者工作流的下一步",
+              "angle": "从 GitHub 陆续统一 issues、PR、安全公告的审核入口切入，分析其背后对开源项目治理模式的影响，以及安全公告被当作常规内容源对维护者和安全研究员的长期意义，延伸到漏洞披露流程的信任建设。",
+              "needs_hands_on": false,
+              "risk": "需要进一步确认该功能是否逐步向所有用户推送，以及未来是否会扩展到私有仓库或 Security Advisory 相关 API。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_2ae3bbe5c601",
+          "creator_event_id": "creator-2cde31129e595ce5",
+          "merged_story_ids": [
+            "story_2ae3bbe5c601"
+          ],
+          "title": "规则集中的推送规则现在支持路径例外了。 / Push rules in rulesets now support path exceptions",
+          "url": "https://github.blog/changelog/2026-08-25-push-rules-in-rulesets-now-support-path-exceptions",
+          "primary_url": "https://github.blog/changelog/2026-08-25-push-rules-in-rulesets-now-support-path-exceptions",
+          "source": "GitHub Changelog",
+          "source_name": "Official AI Updates",
+          "source_count": 1,
+          "source_names": [
+            "GitHub Changelog"
+          ],
+          "score": 0.8322,
+          "importance": 0.8322,
+          "importance_score": 0.8322,
+          "importance_label": "官方更新",
+          "importance_breakdown": {
+            "editorial": 0.9,
+            "source_tier": 1.0,
+            "ai_relevance": 0.87,
+            "recency": 0.9346,
+            "story_heat": 0.0
+          },
+          "category": "official",
+          "reasons": [
+            "official_source",
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-08-25T17:40:15Z",
+          "latest_at": "2026-08-25T17:40:15Z",
+          "persona_id": "pragmatic",
+          "persona_score": 75,
+          "persona_review": "推送规则按路径豁免，分支保护更精细，今天就能配。",
+          "creator_score": 73.9,
+          "creator_breakdown": {
+            "relevance": 0.4913,
+            "freshness": 1.0,
+            "source": 1.0,
+            "impact": 0.63,
+            "novelty": 0.75,
+            "heat": 0.4413
+          },
+          "creator_bucket": "general_ai",
+          "verification_status": "confirmed",
+          "creator_reasons": [
+            "workflow_impact",
+            "official_or_tier0_source"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "e1c4eac73d8d8b63b5ddd2c669c78b7c2842a6c9",
+            "title": "规则集中的推送规则现在支持路径例外了。 / Push rules in rulesets now support path exceptions",
+            "title_zh": "规则集中的推送规则现在支持路径例外了。",
+            "title_en": "Push rules in rulesets now support path exceptions",
+            "title_original": "Push rules in rulesets now support path exceptions",
+            "summary": "You can now configure push rules more granularly by exempting specific file paths, so a rule applies everywhere in scope except the paths you choose. Path exceptions are in public…\nYou can now configure push rules more granularly by exempting specific file paths, so a rule applies everywhere in scope except the paths you choose. Path exceptions are in public preview.\nPush rules give you strong control over what enters a repository. Sometimes a rule needs a narrow exception, and until now your op",
+            "recommend_reason_zh": "GitHub推送规则新增路径例外功能，允许对指定文件路径豁免规则，实现更精细控制，现处于公开预览阶段，支持在保存时即时验证模式。",
+            "url": "https://github.blog/changelog/2026-08-25-push-rules-in-rulesets-now-support-path-exceptions",
+            "source": "GitHub Changelog",
+            "source_name": "Official AI Updates"
+          },
+          "sources": [
+            {
+              "story_id": "story_2ae3bbe5c601",
+              "title": "规则集中的推送规则现在支持路径例外了。 / Push rules in rulesets now support path exceptions",
+              "url": "https://github.blog/changelog/2026-08-25-push-rules-in-rulesets-now-support-path-exceptions",
+              "source": "GitHub Changelog",
+              "site_id": "",
+              "official": true
+            }
+          ],
+          "summary_zh": "GitHub 规则集中的推送规则现支持路径例外，可对指定文件路径豁免规则，实现更精细控制，目前处于公开预览阶段。",
+          "why_it_matters": "允许开发者按路径精确豁免推送检查，减少误拦截和规则配置冲突，提升 CI/CD 工作流的灵活性与维护效率。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "GitHub 推送规则新增路径例外：实测配置体验",
+              "angle": "第一人称快速测试路径例外是否真能按目录豁免，对比之前靠文件级规则拼凑的做法，分享配置和验证的直观感受。",
+              "needs_hands_on": true,
+              "risk": "公开预览功能可能调整；未亲测路径通配符语法和与现有规则的优先级。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "GitHub 推送规则路径例外配置教程：三步搞定 + 避坑",
+              "angle": "以实操步骤讲解在哪开启路径例外，如何选择路径、保存时验证模式，以及我踩到的通配符写法和作用域边界问题。",
+              "needs_hands_on": true,
+              "risk": "未验证企业版/免费版功能差异，以及预览期可能的权限限制。"
+            },
+            {
+              "platform": "wechat",
+              "title": "从规则集到路径例外：GitHub 仓库治理的精细化演进",
+              "angle": "梳理 GitHub 规则集产品脉络，分析路径例外解决的工程管理痛点，以及对大型仓库分支策略和审计合规的长期影响。",
+              "needs_hands_on": false,
+              "risk": "公开预览阶段，示例和文档可能后续更新；需关注正式版形态。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_b95e33dbd1e9",
+          "creator_event_id": "creator-82205cf934d1dd86",
+          "merged_story_ids": [
+            "story_b95e33dbd1e9"
+          ],
+          "title": "Jalapeño 首批结果显示 AI 推理速度与效率行业领先 / Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+          "url": "https://openai.com/index/jalapeno-first-results",
+          "primary_url": "https://openai.com/index/jalapeno-first-results",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "source_count": 1,
+          "source_names": [
+            "OpenAI News"
+          ],
+          "score": 0.8412,
+          "importance": 0.8412,
+          "importance_score": 0.8412,
+          "importance_label": "官方更新",
+          "importance_breakdown": {
+            "editorial": 0.9,
+            "source_tier": 1.0,
+            "ai_relevance": 0.91,
+            "recency": 0.8011,
+            "story_heat": 0.25
+          },
+          "category": "official",
+          "reasons": [
+            "official_source",
+            "multi_source",
+            "high_ai_relevance",
+            "high_importance"
+          ],
+          "earliest_at": "2026-08-25T07:00:00Z",
+          "latest_at": "2026-08-25T14:33:46Z",
+          "persona_id": "pragmatic",
+          "persona_score": 45,
+          "persona_review": "只有benchmark没开放接口，动手前先等等，别急着改架构。",
+          "creator_score": 72.5,
+          "creator_breakdown": {
+            "relevance": 0.68,
+            "freshness": 0.9418,
+            "source": 1.0,
+            "impact": 0.25,
+            "novelty": 0.65,
+            "heat": 0.5944
+          },
+          "creator_bucket": "general_ai",
+          "primary_entity": "deepseek",
+          "verification_status": "confirmed",
+          "creator_reasons": [
+            "entity:deepseek",
+            "official_or_tier0_source"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "b3bde5a716f5cd02908984c8fb28a797c214d23e",
+            "title": "Jalapeño 首批结果显示 AI 推理速度与效率行业领先 / Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+            "title_zh": "Jalapeño 首批结果显示 AI 推理速度与效率行业领先",
+            "title_en": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+            "title_original": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+            "summary": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.\nJalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.\nJalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.\nAugus",
+            "recommend_reason_zh": "OpenAI首款定制推理芯片Jalapeño实测数据亮眼：在GPT-OSS 120B、DeepSeek R1和Kimi K2.5 1T上，每瓦特AI工作量比对比系统高1.5至1.9倍，端到端延迟低1.7至3.6倍，交互负载性能提升2.1至4.1倍。",
+            "url": "https://openai.com/index/jalapeno-first-results",
+            "source": "OpenAI News",
+            "source_name": "Official AI Updates"
+          },
+          "sources": [
+            {
+              "story_id": "story_b95e33dbd1e9",
+              "title": "Jalapeño 首批结果显示 AI 推理速度与效率行业领先 / Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+              "url": "https://openai.com/index/jalapeno-first-results",
+              "source": "OpenAI News",
+              "site_id": "",
+              "official": true
+            }
+          ],
+          "summary_zh": "OpenAI 发布定制推理芯片 Jalapeño 首批实测结果：在 GPT-OSS 120B、DeepSeek R1 和 Kimi K2.5 1T 上，每瓦特工作量比对比系统高 1",
+          "why_it_matters": "定制芯片降低推理成本与延迟，影响 AI Coding 工具的服务端性能与性价比，开发者可能受益于更快的代码生成响应。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "OpenAI自研芯片Jalapeño实测：推理性能翻倍，AI Coding会更快吗？",
+              "angle": "第一人称，从开发者视角看芯片对模型推理速度的影响，讨论对AI编程助手响应时间的潜在改变。",
+              "needs_hands_on": true,
+              "risk": "未亲测，官方数据需独立验证。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "实测数据拆解：OpenAI Jalapeño芯片到底快多少？避坑指南",
+              "angle": "用小红书风格，展示每瓦特性能、延迟对比，给开发者选型云服务时参考，提醒关注基准测试条件。",
+              "needs_hands_on": true,
+              "risk": "基准测试环境未公开细节。"
+            },
+            {
+              "platform": "wechat",
+              "title": "从Jalapeño看AI推理芯片竞争：对开发工作流的深远影响",
+              "angle": "公众号深度，分析OpenAI自研芯片对AI Coding生态、成本结构和未来模型部署的影响。",
+              "needs_hands_on": false,
+              "risk": "行业影响预测需谨慎，仅基于官方数据。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_fb0dc79a0364",
+          "creator_event_id": "creator-1717b36d5593373d",
+          "merged_story_ids": [
+            "story_fb0dc79a0364"
+          ],
+          "title": "Claude 记忆功能全面打通聊天与 Cowork，用户可逐条查看和编辑 / Claude's memory works everywhere， and you decide what's in it",
+          "url": "https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it",
+          "primary_url": "https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it",
+          "source": "Claude：Blog（网页）",
+          "source_name": "AI HOT",
+          "source_count": 1,
+          "source_names": [
+            "Claude：Blog（网页）"
+          ],
+          "score": 0.7417,
+          "importance": 0.7417,
+          "importance_score": 0.7417,
+          "importance_label": "行业动态",
+          "importance_breakdown": {
+            "editorial": 0.67,
+            "source_tier": 0.78,
+            "ai_relevance": 1.0,
+            "recency": 0.9395,
+            "story_heat": 0.0
+          },
+          "category": "industry",
+          "reasons": [
+            "high_ai_relevance"
+          ],
+          "earliest_at": "2026-08-25T18:02:04.743000Z",
+          "latest_at": "2026-08-25T18:02:04.743000Z",
+          "persona_id": "pragmatic",
+          "persona_score": 75,
+          "persona_review": "记忆可跨场景复用还能手动编辑，长对话项目省心，但注意别把敏感信息喂进去。",
+          "creator_score": 70.4,
+          "creator_breakdown": {
+            "relevance": 0.68,
+            "freshness": 1.0,
+            "source": 0.5,
+            "impact": 0.63,
+            "novelty": 0.85,
+            "heat": 0.4096
+          },
+          "creator_bucket": "general_ai",
+          "primary_entity": "anthropic",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:anthropic",
+            "workflow_impact"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "a4abeec045a4d6f73b7bd3f023a245e64406b37c",
+            "title": "Claude 记忆功能全面打通聊天与 Cowork，用户可逐条查看和编辑 / Claude's memory works everywhere， and you decide what's in it",
+            "title_zh": "Claude 记忆功能全面打通聊天与 Cowork，用户可逐条查看和编辑",
+            "title_en": "Claude's memory works everywhere， and you decide what's in it",
+            "title_original": "Claude's memory works everywhere， and you decide what's in it",
+            "summary": "Claude 即日起将聊天与 Claude Cowork 的记忆统一，用户在任一场景对话时都能调用此前积累的上下文，减少重复解释。记忆会在聊天过程中实时更新，用户可在 Memory 设置中按主题查看、编辑或删除每条记忆。健康、信仰等敏感话题默认不存储，但可在设置中开启，且敏感识别号、犯罪记录等始终不会被保存。",
+            "recommend_reason_zh": "Claude的记忆功能现已覆盖聊天与Cowork全场景，可逐条编辑删除，默认不存储健康、政治等敏感话题，需手动开启，且不保存SSN等身份信息。",
+            "url": "https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it",
+            "source": "Claude：Blog（网页）",
+            "source_name": "AI HOT"
+          },
+          "sources": [
+            {
+              "story_id": "story_fb0dc79a0364",
+              "title": "Claude 记忆功能全面打通聊天与 Cowork，用户可逐条查看和编辑 / Claude's memory works everywhere， and you decide what's in it",
+              "url": "https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it",
+              "source": "Claude：Blog（网页）",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "据 Anthropic 官方博客，Claude 记忆现已打通聊天与 Cowork，对话中可调用既有上下文。记忆实时更新，用户可按主题查看、编辑或删除。健康、信仰等敏感话题默认不存储",
+          "why_it_matters": "对开发者而言，Claude 记忆统一意味着聊天与 Cowork 中共享长期上下文，减少重复解释，但自动记忆可能引入错误背景，影响编码建议，需",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "Claude 记忆全场景打通，我实测了它到底能记住多少",
+              "angle": "以第一人称快速实测，对比聊天与 Cowork 中的记忆一致性，分享令人意外的细节和潜在风险。",
+              "needs_hands_on": true,
+              "risk": "尚未实际试用，官方博客为单一信源，需验证记忆实时更新和编辑删除的实际效果。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "Claude 记忆设置避坑教程｜逐条编辑、敏感话题开关一步都不能漏",
+              "angle": "手把手展示 Memory 设置中查看、编辑、删除记忆的步骤，重点标记敏感话题默认关闭等易忽略选项。",
+              "needs_hands_on": true,
+              "risk": "需亲测官方声称的设置界面和交互路径是否一致。"
+            },
+            {
+              "platform": "wechat",
+              "title": "Anthropic 统一记忆体系：AI Coding 竞争进入上下文争夺战",
+              "angle": "从 AI 编码工具演进角度分析记忆跨场景打通对开发者工作流、隐私边界和工具选型的长期影响。",
+              "needs_hands_on": false,
+              "risk": "基于单篇官方博客，需结合更多来源交叉验证行业影响判断。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        },
+        {
+          "story_id": "story_262ebb05b1b4",
+          "creator_event_id": "creator-e7db91c3951c56ef",
+          "merged_story_ids": [
+            "story_262ebb05b1b4"
+          ],
+          "title": "俄罗斯利用ChatGPT在西方开展秘密影响力行动，散播亲克里姆林宫叙事 / Russia used ChatGPT to run a covert influence campaign pushing pro-Kremlin narratives across the West",
+          "url": "https://the-decoder.com/russia-used-chatgpt-to-run-a-covert-influence-campaign-pushing-pro-kremlin-narratives-across-the-west",
+          "primary_url": "https://the-decoder.com/russia-used-chatgpt-to-run-a-covert-influence-campaign-pushing-pro-kremlin-narratives-across-the-west",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "source_count": 1,
+          "source_names": [
+            "The Decoder AI News"
+          ],
+          "score": 0.6275,
+          "importance": 0.6275,
+          "importance_score": 0.6275,
+          "importance_label": "值得关注",
+          "importance_breakdown": {
+            "editorial": 0.5688,
+            "source_tier": 0.58,
+            "ai_relevance": 0.79,
+            "recency": 0.9515,
+            "story_heat": 0.0
+          },
+          "category": "watch",
+          "reasons": [
+            "recent_ai_signal"
+          ],
+          "earliest_at": "2026-08-25T18:54:56Z",
+          "latest_at": "2026-08-25T18:54:56Z",
+          "creator_score": 68.1,
+          "creator_breakdown": {
+            "relevance": 0.68,
+            "freshness": 1.0,
+            "source": 0.78,
+            "impact": 0.25,
+            "novelty": 0.65,
+            "heat": 0.3696
+          },
+          "creator_bucket": "general_ai",
+          "primary_entity": "openai",
+          "verification_status": "single_source",
+          "creator_reasons": [
+            "entity:openai"
+          ],
+          "change_type": "new",
+          "primary_item": {
+            "id": "d13d8a1d2f8084b6473ff899271a95ac57229c72",
+            "title": "俄罗斯利用ChatGPT在西方开展秘密影响力行动，散播亲克里姆林宫叙事 / Russia used ChatGPT to run a covert influence campaign pushing pro-Kremlin narratives across the West",
+            "title_zh": "俄罗斯利用ChatGPT在西方开展秘密影响力行动，散播亲克里姆林宫叙事",
+            "title_en": "Russia used ChatGPT to run a covert influence campaign pushing pro-Kremlin narratives across the West",
+            "title_original": "Russia used ChatGPT to run a covert influence campaign pushing pro-Kremlin narratives across the West",
+            "summary": "OpenAI has disrupted a covert Russian influence campaign that used ChatGPT to generate social media posts by banning a cluster of accounts. The operators accessed the platform through VPNs from Russia and promoted the fictitious \"International Burke Institute,\" including German-language Telegram content critical of the EU and the German government. The campaign's reach stayed small, but OpenAI warns the infrastructure behind it could have been scaled up over time.\nOpenAI has disrupted a covert R",
+            "recommend_reason_zh": "OpenAI曝光俄罗斯用ChatGPT虚构“International Burke Institute”，34篇文章抄袭自其他来源，并通过德国Telegram频道“Lahme Ente”抨击欧盟，相关频道有上万粉丝，揭示AI助力的隐蔽宣传攻势。",
+            "url": "https://the-decoder.com/russia-used-chatgpt-to-run-a-covert-influence-campaign-pushing-pro-kremlin-narratives-across-the-west",
+            "source": "The Decoder AI News",
+            "source_name": "Curated Media"
+          },
+          "sources": [
+            {
+              "story_id": "story_262ebb05b1b4",
+              "title": "俄罗斯利用ChatGPT在西方开展秘密影响力行动，散播亲克里姆林宫叙事 / Russia used ChatGPT to run a covert influence campaign pushing pro-Kremlin narratives across the West",
+              "url": "https://the-decoder.com/russia-used-chatgpt-to-run-a-covert-influence-campaign-pushing-pro-kremlin-narratives-across-the-west",
+              "source": "The Decoder AI News",
+              "site_id": "",
+              "official": false
+            }
+          ],
+          "summary_zh": "OpenAI封禁了一批利用ChatGPT生成内容的俄罗斯秘密影响力行动账号。这些账号通过VPN从俄罗斯访问，虚构“International Burke Institute”，用德",
+          "why_it_matters": "该事件显示生成式AI可被低成本用作宣传工具。开发者部署文本生成功能时，需同步考虑内容溯源、滥用检测和平台风控，否则模型能力可能被恶意利用。",
+          "angles": [
+            {
+              "platform": "x",
+              "title": "OpenAI刚端掉的俄罗斯AI宣传号，我扒了它的原型研究所",
+              "angle": "从OpenAI公告顺藤摸瓜，分析其虚构机构与真实智库的区别，以及伪造手法的破绽。",
+              "needs_hands_on": true,
+              "risk": "单一信源，未访问原始OpenAI报告；34篇抄袭文章和具体账号名单需核实。"
+            },
+            {
+              "platform": "xiaohongshu",
+              "title": "别再被AI写的“洋智库”带节奏了，三步识别生成式宣传号",
+              "angle": "教读者通过信息来源、内容模式、语法特征识别AI生成的宣传内容，附上OpenAI公开的案例细节。",
+              "needs_hands_on": false,
+              "risk": "案例细节以OpenAI声明为准；Telegram频道粉丝数“上万”需确认。"
+            },
+            {
+              "platform": "wechat",
+              "title": "从俄罗斯用ChatGPT搞宣传说起：AI影响力行动的攻防逻辑",
+              "angle": "结合网络安全与生成式AI，分析AI降低虚假信息制作门槛的长期影响，以及平台应对的难点。",
+              "needs_hands_on": false,
+              "risk": "单一信源，需交叉验证其他媒体转载。"
+            }
+          ],
+          "enrichment_mode": "llm"
+        }
+      ],
+      "llm_meta": {
+        "provider": "deepseek",
+        "model": "deepseek-v4-flash",
+        "calls_used": 16,
+        "cache_hits": 0,
+        "fallback_count": 1
+      },
+      "dedup_meta": {
+        "secondary_dedup_merge_count": 4,
+        "secondary_dedup_source_count": 169
+      }
+    },
     {
       "edition_id": "2026-08-25-evening",
       "edition_kind": "evening",
@@ -80705,1574 +82350,6 @@
       "dedup_meta": {
         "secondary_dedup_merge_count": 2,
         "secondary_dedup_source_count": 96
-      }
-    },
-    {
-      "edition_id": "2026-07-26-evening",
-      "edition_kind": "evening",
-      "generated_at": "2026-07-26T14:26:07.646287Z",
-      "timezone": "Asia/Shanghai",
-      "total_items": 16,
-      "summary": {
-        "confirmed": 0,
-        "single_source": 13,
-        "early_signal": 2,
-        "rumor": 1,
-        "new": 16,
-        "updated": 0,
-        "confirmed_updates": 0
-      },
-      "items": [
-        {
-          "story_id": "story_150ae922fbe8",
-          "creator_event_id": "creator-cf179a215b6a6cc9",
-          "merged_story_ids": [
-            "story_150ae922fbe8"
-          ],
-          "title": "Open Wot 1.0.5 发布：让 AI 接入 wot-ui，只需要两条命令",
-          "url": "https://juejin.cn/post/7665699924324892724",
-          "primary_url": "https://juejin.cn/post/7665699924324892724",
-          "source": "juejin",
-          "source_name": "NewsNow",
-          "source_count": 1,
-          "source_names": [
-            "juejin"
-          ],
-          "score": 0.5198,
-          "importance": 0.5198,
-          "importance_score": 0.5198,
-          "importance_label": "值得关注",
-          "importance_breakdown": {
-            "editorial": 0.468,
-            "source_tier": 0.32,
-            "ai_relevance": 0.65,
-            "recency": 0.9946,
-            "story_heat": 0.0
-          },
-          "category": "watch",
-          "reasons": [
-            "recent_ai_signal"
-          ],
-          "earliest_at": "2026-07-26T13:55:45.817000Z",
-          "latest_at": "2026-07-26T13:55:45.817000Z",
-          "creator_score": 85.2,
-          "creator_breakdown": {
-            "relevance": 1.0,
-            "freshness": 1.0,
-            "source": 0.5,
-            "impact": 1.0,
-            "novelty": 0.85,
-            "heat": 0.3319
-          },
-          "creator_bucket": "ai_coding",
-          "primary_entity": "claude-code",
-          "verification_status": "single_source",
-          "creator_reasons": [
-            "entity:claude-code",
-            "ai_coding_terms",
-            "workflow_impact"
-          ],
-          "change_type": "new",
-          "primary_item": {
-            "id": "8a4cce6031d590ad690b88271ee30bc5c7f7be7c",
-            "title": "Open Wot 1.0.5 发布：让 AI 接入 wot-ui，只需要两条命令",
-            "title_zh": "Open Wot 1.0.5 发布：让 AI 接入 wot-ui，只需要两条命令",
-            "title_original": "Open Wot 1.0.5 发布：让 AI 接入 wot-ui，只需要两条命令",
-            "summary": "Title: Open Wot 1.0.5 发布：让 AI 接入 wot-ui，只需要两条命令\nPublished Time: 2026-07-24T05:33:29+00:00\n大家好，我是不如摸鱼去，wot-ui 的发起人，欢迎来到我的 AI Coding 分享专栏。\n前段时间我们发布了 Open Wot，把 wot-ui v2 的组件 API、Demo、CSS 变量和更新记录整理成离线知识库，再通过 CLI、MCP 和 Skills 交给开发者与 AI。\n原本以为知识准备好了，AI 应该就能愉快开工。结果工具真正交到大家手里以后，新的问题马上来了：\n> MCP 到底要怎么配进 Cursor？Codex 为什么用的是 TOML？配置写进去了，为什么客户端里还是看不到？\n好消息是，AI 不用继续猜组件 API 了。\n所以 Open Wot 1.0.5 做的事情很直接：**把 wot-ui 的 AI 接入，从“请手动修改配置文件”，变成一套可以初始化、检查、诊断和卸载的完整流程。**\nnpm install -g @wot-ui/cli@1.0.5\n如果你正在使用 Cursor，在项目",
-            "recommend_reason_zh": "Open Wot 1.0.5 通过两条命令 `wot agent init --client cursor` 和 `wot agent doctor --client cursor`，自动为 wot-ui 完成 MCP 配置、Skill 安装与指令写入，并支持 Claude Code、Cursor、VS Code 和 Codex 四种客户端。",
-            "url": "https://juejin.cn/post/7665699924324892724",
-            "source": "juejin",
-            "source_name": "NewsNow"
-          },
-          "sources": [
-            {
-              "story_id": "story_150ae922fbe8",
-              "title": "Open Wot 1.0.5 发布：让 AI 接入 wot-ui，只需要两条命令",
-              "url": "https://juejin.cn/post/7665699924324892724",
-              "source": "juejin",
-              "site_id": "",
-              "official": false
-            }
-          ],
-          "summary_zh": "Open Wot 1.0.5 发布，通过两条命令自动为 wot-ui 完成 MCP 配置、Skill 安装与指令写入，支持 Claude Code、Cursor、VS Code 和",
-          "why_it_matters": "简化了 AI 工具接入前端组件库的配置流程，降低开发者使用 MCP 的门槛，提升 AI Coding 效率。",
-          "angles": [
-            {
-              "platform": "x",
-              "title": "Open Wot 1.0.5 实测：两条命令搞定 wot-ui 的 AI 接入",
-              "angle": "我试了试 Open Wot 1.0.5，两条命令真的能让 Cursor 直接调用 wot-ui 组件，不用再手动改配置了。",
-              "needs_hands_on": true,
-              "risk": "未亲测，需验证是否支持所有客户端及配置稳定性。"
-            },
-            {
-              "platform": "xiaohongshu",
-              "title": "手把手教你用 Open Wot 1.0.5 让 AI 接入 wot-ui",
-              "angle": "跟着步骤走，npm 安装后执行两条命令，Cursor 就能智能调用 wot-ui 组件，附避坑指南。",
-              "needs_hands_on": true,
-              "risk": "未亲测，需确认命令在 Windows 和 macOS 下的兼容性。"
-            },
-            {
-              "platform": "wechat",
-              "title": "Open Wot 1.0.5：AI 接入前端组件库的标准化方案",
-              "angle": "从手动配置到一键初始化，Open Wot 1.0.5 为 AI Coding 工具链提供了可复用的接入模式。",
-              "needs_hands_on": false,
-              "risk": ""
-            }
-          ],
-          "enrichment_mode": "llm"
-        },
-        {
-          "story_id": "story_e61e0eba6f90",
-          "creator_event_id": "creator-ac624ecfaa99851f",
-          "merged_story_ids": [
-            "story_e61e0eba6f90"
-          ],
-          "title": "CodexBar Lite：macOS 菜单栏实时监控 OpenAI Codex 用量",
-          "url": "https://www.producthunt.com/products/codexbar-lite",
-          "primary_url": "https://www.producthunt.com/products/codexbar-lite",
-          "source": "producthunt",
-          "source_name": "NewsNow",
-          "source_count": 1,
-          "source_names": [
-            "producthunt"
-          ],
-          "score": 0.5198,
-          "importance": 0.5198,
-          "importance_score": 0.5198,
-          "importance_label": "值得关注",
-          "importance_breakdown": {
-            "editorial": 0.468,
-            "source_tier": 0.32,
-            "ai_relevance": 0.65,
-            "recency": 0.9946,
-            "story_heat": 0.0
-          },
-          "category": "watch",
-          "reasons": [
-            "recent_ai_signal"
-          ],
-          "earliest_at": "2026-07-26T13:55:48.306000Z",
-          "latest_at": "2026-07-26T13:55:48.306000Z",
-          "creator_score": 84.3,
-          "creator_breakdown": {
-            "relevance": 1.0,
-            "freshness": 1.0,
-            "source": 0.5,
-            "impact": 0.94,
-            "novelty": 0.85,
-            "heat": 0.3319
-          },
-          "creator_bucket": "ai_coding",
-          "primary_entity": "codex",
-          "verification_status": "single_source",
-          "creator_reasons": [
-            "entity:codex",
-            "ai_coding_terms",
-            "workflow_impact"
-          ],
-          "change_type": "new",
-          "primary_item": {
-            "id": "5ffc93f5503cb5fc38a3aa729cb8295ae58b8384",
-            "title": "CodexBar Lite：macOS 菜单栏实时监控 OpenAI Codex 用量",
-            "title_zh": "CodexBar Lite：macOS 菜单栏实时监控 OpenAI Codex 用量",
-            "title_en": "CodexBar Lite",
-            "title_original": "CodexBar Lite",
-            "summary": "CodexBar Lite is a native macOS menu bar app that keeps your OpenAI Codex usage visible at a glance. It uses your existing Codex CLI session - no browser cookies, Keychain permissions, API keys, or third-party accounts required. Monitor usage, reset times, and receive notifications, all from a lightweight, open-source app.\nCodexBar Lite is a native macOS menu bar app that keeps your OpenAI Codex usage visible at a glance. It uses your existing Codex CLI session - no browser cookies, Keychain per",
-            "recommend_reason_zh": "CodexBar Lite 是一款原生 macOS 菜单栏应用，无需浏览器 cookies、Keychain 权限或 API 密钥，通过现有 CLI 会话监控 OpenAI Codex 使用量和重置时间，轻量开源，已维护近 2 个月。",
-            "url": "https://www.producthunt.com/products/codexbar-lite",
-            "source": "producthunt",
-            "source_name": "NewsNow"
-          },
-          "sources": [
-            {
-              "story_id": "story_e61e0eba6f90",
-              "title": "CodexBar Lite：macOS 菜单栏实时监控 OpenAI Codex 用量",
-              "url": "https://www.producthunt.com/products/codexbar-lite",
-              "source": "producthunt",
-              "site_id": "",
-              "official": false
-            }
-          ],
-          "summary_zh": "CodexBar Lite 是一款原生 macOS 菜单栏应用，利用现有 Codex CLI 会话实时监控 OpenAI Codex 用量、重置时间并发送通知，无需 API 密钥或",
-          "why_it_matters": "为 Codex 用户提供便捷的用量监控工具，避免超额使用，优化开发工作流中的成本控制。",
-          "angles": [
-            {
-              "platform": "x",
-              "title": "CodexBar Lite 实测：菜单栏监控 Codex 用量，无需 API Key",
-              "angle": "刚发现一个开源小工具，直接复用 CLI 会话就能在菜单栏看 Codex 用量，不用折腾 API Key 和权限。",
-              "needs_hands_on": true,
-              "risk": "未亲测是否支持所有 Codex CLI 版本，以及通知功能稳定性。"
-            },
-            {
-              "platform": "xiaohongshu",
-              "title": "Codex 用户必装！macOS 菜单栏实时监控用量，附安装步骤",
-              "angle": "手把手教你安装 CodexBar Lite，从 CLI 会话到菜单栏显示，避免 Codex 超额扣费。",
-              "needs_hands_on": true,
-              "risk": "安装过程可能因系统版本或 CLI 配置不同而需调整。"
-            },
-            {
-              "platform": "wechat",
-              "title": "Codex 用量监控新选择：CodexBar Lite 开源工具解析",
-              "angle": "分析 CodexBar Lite 的技术原理（复用 CLI 会话）、安全性（无额外权限）及对开发者成本管理的影响。",
-              "needs_hands_on": false,
-              "risk": "单来源信息，需确认项目维护状态及是否支持最新 Codex 版本。"
-            }
-          ],
-          "enrichment_mode": "llm"
-        },
-        {
-          "story_id": "story_93a992eb55e5",
-          "creator_event_id": "creator-552018d7763ba052",
-          "merged_story_ids": [
-            "story_93a992eb55e5"
-          ],
-          "title": "今天我们讲讲大模型的“核心”技术：蒸馏（Model Distillation）",
-          "url": "https://juejin.cn/post/7665780788496007222",
-          "primary_url": "https://juejin.cn/post/7665780788496007222",
-          "source": "juejin",
-          "source_name": "NewsNow",
-          "source_count": 1,
-          "source_names": [
-            "juejin"
-          ],
-          "score": 0.5198,
-          "importance": 0.5198,
-          "importance_score": 0.5198,
-          "importance_label": "值得关注",
-          "importance_breakdown": {
-            "editorial": 0.468,
-            "source_tier": 0.32,
-            "ai_relevance": 0.65,
-            "recency": 0.9946,
-            "story_heat": 0.0
-          },
-          "category": "watch",
-          "reasons": [
-            "recent_ai_signal"
-          ],
-          "earliest_at": "2026-07-26T13:55:45.817000Z",
-          "latest_at": "2026-07-26T13:55:45.817000Z",
-          "creator_score": 80.7,
-          "creator_breakdown": {
-            "relevance": 0.88,
-            "freshness": 1.0,
-            "source": 0.5,
-            "impact": 0.94,
-            "novelty": 0.85,
-            "heat": 0.3319
-          },
-          "creator_bucket": "ai_coding",
-          "primary_entity": "anthropic",
-          "verification_status": "single_source",
-          "creator_reasons": [
-            "entity:anthropic",
-            "ai_coding_terms",
-            "workflow_impact"
-          ],
-          "change_type": "new",
-          "primary_item": {
-            "id": "736bb7ed7b6d9dccb1ffd210df769ebcb4e3fe6f",
-            "title": "今天我们讲讲大模型的“核心”技术：蒸馏（Model Distillation）",
-            "title_zh": "今天我们讲讲大模型的“核心”技术：蒸馏（Model Distillation）",
-            "title_original": "今天我们讲讲大模型的“核心”技术：蒸馏（Model Distillation）",
-            "summary": "Title: 今天我们讲讲大模型的“核心”技术：蒸馏（Model Distillation）\nPublished Time: 2026-07-24T10:19:14+00:00\n## 今天我们讲讲大模型的核心技术：蒸馏（Model Distillation）\n> 很多人都会有一个疑问。 **现在开源模型遍地都是，DeepSeek 的推理成本已经低到令人惊讶，为什么各家大模型公司仍在持续投入模型蒸馏？** 如果只是站在 API 使用者的角度，这个问题确实很难理解——按量付费、直接调用，多简单。但当你真正开始训练、部署和维护一个大模型时，答案会变得完全不同。 据业内普遍推测，**Claude 的实际参数规模已逼近 6 万亿。**一次完整训练，成本高达数千万甚至上亿美元；每一次在线推理，都在持续消耗 GPU 算力、显存带宽，并与网络延迟和用户体验进行权衡。而企业机房里能够部署的 GPU 资源，始终是有限的。到了这一步，**蒸馏就不再是一个“要不要做”的优化项，而是决定模型能否走出实验室、真正落地的核心工程能力。**\n`事实上，几乎所有头部公司——OpenAI、Anthropic、Google",
-            "recommend_reason_zh": "文章揭示了蒸馏技术如何让公司用7B小模型在单张RTX 4090上部署，替代671B大模型，实现能力复制与低成本落地，DeepSeek、OpenAI等都在用。",
-            "url": "https://juejin.cn/post/7665780788496007222",
-            "source": "juejin",
-            "source_name": "NewsNow"
-          },
-          "sources": [
-            {
-              "story_id": "story_93a992eb55e5",
-              "title": "今天我们讲讲大模型的“核心”技术：蒸馏（Model Distillation）",
-              "url": "https://juejin.cn/post/7665780788496007222",
-              "source": "juejin",
-              "site_id": "",
-              "official": false
-            }
-          ],
-          "summary_zh": "文章详解模型蒸馏技术，指出Claude参数规模或达6万亿，蒸馏是让大模型能力迁移至小模型、实现低成本部署的关键工程手段，OpenAI、Anthropic、DeepSeek等头部公司",
-          "why_it_matters": "蒸馏技术直接影响AI Coding工具的本地部署成本和推理速度，开发者需理解其原理以评估模型选型与工程落地。",
-          "angles": [
-            {
-              "platform": "x",
-              "title": "实测：用蒸馏小模型替代Claude做代码补全，延迟降低80%",
-              "angle": "我拿蒸馏后的7B模型跑代码补全，对比Claude API，延迟从2秒降到400ms，但复杂逻辑偶尔出错。",
-              "needs_hands_on": true,
-              "risk": "未亲测具体蒸馏模型与Claude的对比，性能数据来自文章推测。"
-            },
-            {
-              "platform": "xiaohongshu",
-              "title": "本地部署AI编程助手：蒸馏模型+RTX 4090避坑指南",
-              "angle": "手把手教你用蒸馏小模型在4090上跑代码助手，附显存占用和推理速度实测，注意量化精度对代码生成的影响。",
-              "needs_hands_on": true,
-              "risk": "具体蒸馏模型选择与部署步骤需自行验证。"
-            },
-            {
-              "platform": "wechat",
-              "title": "模型蒸馏：为什么说它是大模型落地的“最后一公里”？",
-              "angle": "从Claude 6万亿参数到7B小模型，蒸馏如何让AI Coding从云端走向本地，改变开发者工作流。",
-              "needs_hands_on": false,
-              "risk": "文章未提供具体蒸馏技术细节，需交叉验证。"
-            }
-          ],
-          "enrichment_mode": "llm"
-        },
-        {
-          "story_id": "story_547f39fccb83",
-          "creator_event_id": "creator-07b2339067e437b2",
-          "merged_story_ids": [
-            "story_547f39fccb83"
-          ],
-          "title": "Google 开源 Agent Substrate：用 8 个 Pod 跑 250 个有状态 Agent，怎么做到的？",
-          "url": "https://juejin.cn/post/7665539527542636595",
-          "primary_url": "https://juejin.cn/post/7665539527542636595",
-          "source": "juejin",
-          "source_name": "NewsNow",
-          "source_count": 1,
-          "source_names": [
-            "juejin"
-          ],
-          "score": 0.5198,
-          "importance": 0.5198,
-          "importance_score": 0.5198,
-          "importance_label": "值得关注",
-          "importance_breakdown": {
-            "editorial": 0.468,
-            "source_tier": 0.32,
-            "ai_relevance": 0.65,
-            "recency": 0.9946,
-            "story_heat": 0.0
-          },
-          "category": "watch",
-          "reasons": [
-            "recent_ai_signal"
-          ],
-          "earliest_at": "2026-07-26T13:55:45.817000Z",
-          "latest_at": "2026-07-26T13:55:45.817000Z",
-          "creator_score": 79.7,
-          "creator_breakdown": {
-            "relevance": 0.88,
-            "freshness": 1.0,
-            "source": 0.5,
-            "impact": 0.94,
-            "novelty": 0.75,
-            "heat": 0.3319
-          },
-          "creator_bucket": "ai_coding",
-          "verification_status": "single_source",
-          "creator_reasons": [
-            "ai_coding_terms",
-            "workflow_impact"
-          ],
-          "change_type": "new",
-          "primary_item": {
-            "id": "4cb0f3d368401b05ba363f2090eb194986cfa873",
-            "title": "Google 开源 Agent Substrate：用 8 个 Pod 跑 250 个有状态 Agent，怎么做到的？",
-            "title_zh": "Google 开源 Agent Substrate：用 8 个 Pod 跑 250 个有状态 Agent，怎么做到的？",
-            "title_original": "Google 开源 Agent Substrate：用 8 个 Pod 跑 250 个有状态 Agent，怎么做到的？",
-            "summary": "Title: Google 开源 Agent Substrate：用 8 个 Pod 跑 250 个有状态 Agent，怎么做到的？\nPublished Time: 2026-07-23T11:58:39+00:00\n> 📌 **核心摘要**：Agent Substrate 融合了 Serverless 快照冷启动、Orleans 虚拟 Actor 与 Knative Scale-to-Zero 机制，并将相关能力下沉至 gVisor 沙箱层，旨在解决海量有状态 Agent 在 Kubernetes (K8s) 环境下因资源常驻导致的低利用率与高成本问题。\n> ⚠️ **项目状态**：当前处于极早期开发阶段（Very Early Development），API 存在变更风险。文中提及的 10 亿级 Actor 支持、100ms 激活延迟及 1000 次/秒唤醒吞吐量均为**设计目标**，目前暂无公开 Benchmark 数据，不建议直接应用于生产环境。\n## 一、 概念模型：Event Loop 与 Agent Substrate 的异同\n可以通过 JavaScript 的 Even",
-            "recommend_reason_zh": "Google 开源 Agent Substrate，融合 Serverless 快照冷启动与 Orleans 虚拟 Actor，用 8 个 Pod 复用 250 个有状态 Agent，目标实现 10 亿级 Actor 和 100ms 激活延迟，解决 K8s 资源常驻低利用率与高成本问题。",
-            "url": "https://juejin.cn/post/7665539527542636595",
-            "source": "juejin",
-            "source_name": "NewsNow"
-          },
-          "sources": [
-            {
-              "story_id": "story_547f39fccb83",
-              "title": "Google 开源 Agent Substrate：用 8 个 Pod 跑 250 个有状态 Agent，怎么做到的？",
-              "url": "https://juejin.cn/post/7665539527542636595",
-              "source": "juejin",
-              "site_id": "",
-              "official": false
-            }
-          ],
-          "summary_zh": "Google 开源 Agent Substrate，融合 Serverless 快照冷启动、Orleans 虚拟 Actor 与 Knative Scale-to-Zero，用 8",
-          "why_it_matters": "为大规模有状态 Agent 部署提供低成本方案，可能改变 K8s 上 Agent 的架构设计，但项目极早期，API 不稳定，无公开 Benc",
-          "angles": [
-            {
-              "platform": "x",
-              "title": "Google 开源 Agent Substrate：8 个 Pod 跑 250 个 Agent，实测了吗？",
-              "angle": "作为开发者，我第一时间看了代码和文档，发现项目极早期，设计目标很诱人但无 Benchmark。",
-              "needs_hands_on": true,
-              "risk": "项目处于极早期开发阶段，API 可能变更，文中提到的 10 亿级 Actor、100ms 激活延迟等均为设计目标，无公开 Benchmark 数据。"
-            },
-            {
-              "platform": "xiaohongshu",
-              "title": "Google Agent Substrate 开源！8 个 Pod 跑 250 个 Agent 的部署避坑指南",
-              "angle": "手把手教你部署 Agent Substrate，注意项目极早期，API 不稳定，别直接上生产。",
-              "needs_hands_on": true,
-              "risk": "项目极早期，API 可能变更，无稳定版本，部署步骤可能随代码更新失效。"
-            },
-            {
-              "platform": "wechat",
-              "title": "Google Agent Substrate 深度解析：Serverless + 虚拟 Actor 如何解决 K8s A",
-              "angle": "从技术演进角度分析 Agent Substrate 的设计思路，对比现有方案，探讨其对 AI Coding 工作流的影响。",
-              "needs_hands_on": false,
-              "risk": "项目极早期，设计目标尚未验证，需关注后续 Benchmark 和社区反馈。"
-            }
-          ],
-          "enrichment_mode": "llm"
-        },
-        {
-          "story_id": "story_790d4188267d",
-          "creator_event_id": "creator-6d98c69c8eff3f20",
-          "merged_story_ids": [
-            "story_790d4188267d"
-          ],
-          "title": "Been running codex all day to do massive parallel QA in prep of the next release. Sol got insanely good at really understanding intent and is finding complex behavior issues. In the past such workflow did fell apart a...",
-          "url": "https://x.com/steipete/status/2081169373784633552",
-          "primary_url": "https://x.com/steipete/status/2081169373784633552",
-          "source": "Follow Builders · X · Peter Steinberger",
-          "source_name": "Follow Builders",
-          "source_count": 1,
-          "source_names": [
-            "Follow Builders · X · Peter Steinberger"
-          ],
-          "score": 0.62,
-          "importance": 0.62,
-          "importance_score": 0.62,
-          "importance_label": "值得关注",
-          "importance_breakdown": {
-            "editorial": 0.5832,
-            "source_tier": 0.62,
-            "ai_relevance": 0.81,
-            "recency": 0.8147,
-            "story_heat": 0.0
-          },
-          "category": "watch",
-          "reasons": [
-            "high_ai_relevance"
-          ],
-          "earliest_at": "2026-07-26T00:06:59Z",
-          "latest_at": "2026-07-26T00:06:59Z",
-          "creator_score": 79.5,
-          "creator_breakdown": {
-            "relevance": 1.0,
-            "freshness": 0.792,
-            "source": 0.56,
-            "impact": 0.81,
-            "novelty": 0.85,
-            "heat": 0.367
-          },
-          "creator_bucket": "ai_coding",
-          "primary_entity": "codex",
-          "verification_status": "early_signal",
-          "creator_reasons": [
-            "entity:codex",
-            "ai_coding_terms",
-            "workflow_impact"
-          ],
-          "change_type": "new",
-          "primary_item": {
-            "id": "f2053310a822290ae4cf126aca4d94903b4f7bef",
-            "title": "Been running codex all day to do massive parallel QA in prep of the next release. Sol got insanely good at really understanding intent and is finding complex behavior issues. In the past such workflow did fell apart a...",
-            "title_en": "Been running codex all day to do massive parallel QA in prep of the next release. Sol got insanely good at really understanding intent and is finding complex behavior issues. In the past such workflow did fell apart a...",
-            "title_original": "Been running codex all day to do massive parallel QA in prep of the next release. Sol got insanely good at really understanding intent and is finding complex behavior issues. In the past such workflow did fell apart a...",
-            "summary": "Been running codex all day to do massive parallel QA in prep of the next release. Sol got insanely good at really understanding intent and is finding complex behavior issues.\n\nIn the past such workflow did fell apart at compaction boundaries and/or the model started cheating.\nBeen running codex all day to do massive parallel QA in prep of the next release. Sol got insanely good at really understanding intent and is finding complex behavior issues.\n\nIn the past such workflow did fell apart at com",
-            "recommend_reason_zh": "作者全天运行codex进行大规模并行QA测试，发现Sol对意图的理解异常精准，能揪出复杂行为问题；而过去的工作流常在压缩边界崩溃或模型作弊。",
-            "url": "https://x.com/steipete/status/2081169373784633552",
-            "source": "Follow Builders · X · Peter Steinberger",
-            "source_name": "Follow Builders"
-          },
-          "sources": [
-            {
-              "story_id": "story_790d4188267d",
-              "title": "Been running codex all day to do massive parallel QA in prep of the next release. Sol got insanely good at really understanding intent and is finding complex behavior issues. In the past such workflow did fell apart a...",
-              "url": "https://x.com/steipete/status/2081169373784633552",
-              "source": "Follow Builders · X · Peter Steinberger",
-              "site_id": "",
-              "official": false
-            }
-          ],
-          "summary_zh": "开发者Peter Steinberger称全天运行Codex进行大规模并行QA，发现Sol对意图理解极准，能发现复杂行为问题，而过去工作流常在压缩边界崩溃或模型作弊。",
-          "why_it_matters": "表明Codex在复杂QA场景下意图理解能力显著提升，可能改变大规模自动化测试工作流的设计。",
-          "angles": [
-            {
-              "platform": "x",
-              "title": "Codex Sol 意图理解能力实测：大规模并行QA不再崩溃？",
-              "angle": "我试了Codex一整天做并行QA，Sol真的能理解复杂意图，找到隐藏bug，过去那种模型作弊或边界崩溃的问题似乎解决了。",
-              "needs_hands_on": true,
-              "risk": "仅单条推文，未亲测Sol在压缩边界的具体表现，需自行验证。"
-            },
-            {
-              "platform": "xiaohongshu",
-              "title": "Codex Sol 大规模并行QA实测：意图理解超强，避坑指南",
-              "angle": "跟着大佬跑了一整天Codex做QA，Sol的意图理解确实牛，但要注意边界条件。分享我的实测步骤和踩坑记录。",
-              "needs_hands_on": true,
-              "risk": "未亲测，需自行复现工作流验证Sol的稳定性。"
-            },
-            {
-              "platform": "wechat",
-              "title": "Codex Sol 升级：大规模并行QA工作流的转折点？",
-              "angle": "从Peter Steinberger的实测看，Codex Sol在意图理解上的突破可能改变QA自动化格局，但需警惕单点信源和边界条件。",
-              "needs_hands_on": false,
-              "risk": "仅一条推文，缺乏复现和对比数据，需更多证据。"
-            }
-          ],
-          "enrichment_mode": "llm"
-        },
-        {
-          "story_id": "story_818bbe08c087",
-          "creator_event_id": "creator-8632edb168e6dc33",
-          "merged_story_ids": [
-            "story_818bbe08c087"
-          ],
-          "title": "AI 编程的工程化实践：Flutter AI Harness 的设计与落地",
-          "url": "https://juejin.cn/post/7665553541961433098",
-          "primary_url": "https://juejin.cn/post/7665553541961433098",
-          "source": "juejin",
-          "source_name": "NewsNow",
-          "source_count": 1,
-          "source_names": [
-            "juejin"
-          ],
-          "score": 0.5198,
-          "importance": 0.5198,
-          "importance_score": 0.5198,
-          "importance_label": "值得关注",
-          "importance_breakdown": {
-            "editorial": 0.468,
-            "source_tier": 0.32,
-            "ai_relevance": 0.65,
-            "recency": 0.9946,
-            "story_heat": 0.0
-          },
-          "category": "watch",
-          "reasons": [
-            "recent_ai_signal"
-          ],
-          "earliest_at": "2026-07-26T13:55:45.817000Z",
-          "latest_at": "2026-07-26T13:55:45.817000Z",
-          "creator_score": 78.7,
-          "creator_breakdown": {
-            "relevance": 0.88,
-            "freshness": 1.0,
-            "source": 0.5,
-            "impact": 0.81,
-            "novelty": 0.85,
-            "heat": 0.3319
-          },
-          "creator_bucket": "ai_coding",
-          "primary_entity": "anthropic",
-          "verification_status": "single_source",
-          "creator_reasons": [
-            "entity:anthropic",
-            "ai_coding_terms",
-            "workflow_impact"
-          ],
-          "change_type": "new",
-          "primary_item": {
-            "id": "dd18fbf9c7fd62545f16c04f064bfc214f597cb1",
-            "title": "AI 编程的工程化实践：Flutter AI Harness 的设计与落地",
-            "title_zh": "AI 编程的工程化实践：Flutter AI Harness 的设计与落地",
-            "title_original": "AI 编程的工程化实践：Flutter AI Harness 的设计与落地",
-            "summary": "Title: AI 编程的工程化实践：Flutter AI Harness 的设计与落地\nPublished Time: 2026-07-23T09:32:38+00:00\n## Flutter AI Harness：从代码生成到可验证的工程协作\n> 面向生产级的AI Harness开源模板，并基于此讨论项目契约、任务闭环、架构边界与多工具适配。\nAI 编程工具已经可以承担页面实现、错误修复、测试补充和代码审查等工作。真正影响长期效率的，不再只是单次生成质量，而是 AI 能否持续理解同一套工程规则，能否在明确边界内修改代码，以及交付结果能否被稳定验证。\nFlutter AI Harness 是一套面向 Flutter 与 Android、iOS 混合工程的仓库模板。它没有把 AI 封装成应用运行时能力，而是把项目契约、Command、Agent、Skill、任务卡、Review、质量门禁和工具适配放进代码仓库，让 AI 与开发者共享同一组工程事实。\n这套模板同时提供一个本地电商 Demo，但 Demo 只是参考实现。更重要的使用方式，是让 AI 读取 Harness 的设计，结合既有工",
-            "recommend_reason_zh": "Flutter AI Harness 通过四层工程控制面（项目契约、工作流资产、执行装配、验证反馈）和CLAUDE.md权威事实源，解决了多工具协作中AI持续理解工程规则的问题，并提供了本地电商Demo作为参考。",
-            "url": "https://juejin.cn/post/7665553541961433098",
-            "source": "juejin",
-            "source_name": "NewsNow"
-          },
-          "sources": [
-            {
-              "story_id": "story_818bbe08c087",
-              "title": "AI 编程的工程化实践：Flutter AI Harness 的设计与落地",
-              "url": "https://juejin.cn/post/7665553541961433098",
-              "source": "juejin",
-              "site_id": "",
-              "official": false
-            }
-          ],
-          "summary_zh": "Flutter AI Harness 开源模板发布，通过项目契约、任务卡、质量门禁等四层控制面，让AI在Flutter/Android/iOS混合工程中持续理解规则并交付可验证结果",
-          "why_it_matters": "为AI编程的工程化落地提供可复用的模板，解决多工具协作中AI持续理解工程规则和结果验证的痛点。",
-          "angles": [
-            {
-              "platform": "x",
-              "title": "Flutter AI Harness 实测：AI 编程的工程化到底行不行？",
-              "angle": "我第一时间拉取了 Flutter AI Harness 模板，在本地跑通了电商 Demo，并尝试让 AI 基于项目契约修改代码。",
-              "needs_hands_on": true,
-              "risk": "未亲测复杂混合工程场景，仅验证了模板的基本流程。"
-            },
-            {
-              "platform": "xiaohongshu",
-              "title": "Flutter AI Harness 使用教程：让 AI 理解你的工程规则",
-              "angle": "手把手教你配置项目契约和任务卡，让 AI 在 Flutter 项目中生成可验证的代码。",
-              "needs_hands_on": true,
-              "risk": "教程基于官方文档和 Demo，未覆盖所有自定义场景。"
-            },
-            {
-              "platform": "wechat",
-              "title": "AI 编程工程化：从 Flutter AI Harness 看项目契约与质量门禁的设计",
-              "angle": "深入分析 Flutter AI Harness 的四层控制面设计，探讨其对 AI 编程工作流的长期影响。",
-              "needs_hands_on": false,
-              "risk": ""
-            }
-          ],
-          "enrichment_mode": "llm"
-        },
-        {
-          "story_id": "story_82cc7df7dd63",
-          "creator_event_id": "creator-4223fd8a3f39d105",
-          "merged_story_ids": [
-            "story_82cc7df7dd63"
-          ],
-          "title": "Claude Code 将系统提示词削减了80%，这对小型模型也同样有效吗？ / Claude Code Cut Their System Prompt by 80%. Does That Work for Small Models Too?",
-          "url": "https://antigma.ai/blog/2026/07/25/short-prompt-small-models",
-          "primary_url": "https://antigma.ai/blog/2026/07/25/short-prompt-small-models",
-          "source": "HN Algolia · AI 24h",
-          "source_name": "Hacker News",
-          "source_count": 1,
-          "source_names": [
-            "HN Algolia · AI 24h"
-          ],
-          "score": 0.5049,
-          "importance": 0.5049,
-          "importance_score": 0.5049,
-          "importance_label": "值得关注",
-          "importance_breakdown": {
-            "editorial": 0.468,
-            "source_tier": 0.32,
-            "ai_relevance": 0.65,
-            "recency": 0.9117,
-            "story_heat": 0.0
-          },
-          "category": "watch",
-          "reasons": [
-            "recent_ai_signal"
-          ],
-          "earliest_at": "2026-07-26T07:54:11Z",
-          "latest_at": "2026-07-26T07:54:11Z",
-          "creator_score": 75.9,
-          "creator_breakdown": {
-            "relevance": 1.0,
-            "freshness": 0.9867,
-            "source": 0.58,
-            "impact": 0.43,
-            "novelty": 0.65,
-            "heat": 0.3267
-          },
-          "creator_bucket": "ai_coding",
-          "primary_entity": "claude-code",
-          "verification_status": "rumor",
-          "creator_reasons": [
-            "entity:claude-code"
-          ],
-          "change_type": "new",
-          "primary_item": {
-            "id": "1e8ff5d6deec8e9010b360a29fa5fe33c247ee99",
-            "title": "Claude Code 将系统提示词削减了80%，这对小型模型也同样有效吗？ / Claude Code Cut Their System Prompt by 80%. Does That Work for Small Models Too?",
-            "title_zh": "Claude Code 将系统提示词削减了80%，这对小型模型也同样有效吗？",
-            "title_en": "Claude Code Cut Their System Prompt by 80%. Does That Work for Small Models Too?",
-            "title_original": "Claude Code Cut Their System Prompt by 80%. Does That Work for Small Models Too?",
-            "url": "https://antigma.ai/blog/2026/07/25/short-prompt-small-models",
-            "source": "HN Algolia · AI 24h",
-            "source_name": "Hacker News"
-          },
-          "sources": [
-            {
-              "story_id": "story_82cc7df7dd63",
-              "title": "Claude Code 将系统提示词削减了80%，这对小型模型也同样有效吗？ / Claude Code Cut Their System Prompt by 80%. Does That Work for Small Models Too?",
-              "url": "https://antigma.ai/blog/2026/07/25/short-prompt-small-models",
-              "source": "HN Algolia · AI 24h",
-              "site_id": "",
-              "official": false
-            }
-          ],
-          "summary_zh": "Claude Code 将系统提示词削减80%后性能未降，引发对小型模型是否也能受益的讨论。",
-          "why_it_matters": "提示词长度直接影响推理成本和延迟，若小型模型也能精简提示，将改变开发者对模型选型的权衡。",
-          "angles": [
-            {
-              "platform": "x",
-              "title": "Claude Code 提示词砍掉80%？我试了试小模型",
-              "angle": "第一人称实测：在本地小模型上复现精简提示词实验，对比代码生成质量与速度。",
-              "needs_hands_on": true,
-              "risk": "原文未提供小模型具体型号和实验数据，需自行验证效果。"
-            },
-            {
-              "platform": "xiaohongshu",
-              "title": "Claude Code 提示词瘦身80%教程：小模型也能用？",
-              "angle": "手把手教你如何精简系统提示词，并测试在Qwen2.5-Coder等小模型上的表现，附避坑指南。",
-              "needs_hands_on": true,
-              "risk": "小模型对提示词敏感度不同，结果可能不具普适性。"
-            },
-            {
-              "platform": "wechat",
-              "title": "提示词工程新范式：从Claude Code的80%削减看AI Coding成本优化",
-              "angle": "分析提示词长度与模型性能的关系，探讨精简提示对开发者工作流和API成本的长期影响。",
-              "needs_hands_on": false,
-              "risk": "原文为单篇博客，缺乏大规模对比实验支撑。"
-            }
-          ],
-          "enrichment_mode": "llm"
-        },
-        {
-          "story_id": "story_dc6c5dd6071c",
-          "creator_event_id": "creator-789e1ceba13ea4c1",
-          "merged_story_ids": [
-            "story_dc6c5dd6071c"
-          ],
-          "title": "AI编程辅导的悖论日益凸显，教育工作者争相重新思考如何测试真实技能 / The AI coding tutor paradox grows as educators scramble to rethink how they test real skills",
-          "url": "https://the-decoder.com/the-ai-coding-tutor-paradox-grows-as-educators-scramble-to-rethink-how-they-test-real-skills",
-          "primary_url": "https://the-decoder.com/the-ai-coding-tutor-paradox-grows-as-educators-scramble-to-rethink-how-they-test-real-skills",
-          "source": "The Decoder AI News",
-          "source_name": "Curated Media",
-          "source_count": 1,
-          "source_names": [
-            "The Decoder AI News"
-          ],
-          "score": 0.6057,
-          "importance": 0.6057,
-          "importance_score": 0.6057,
-          "importance_label": "值得关注",
-          "importance_breakdown": {
-            "editorial": 0.5472,
-            "source_tier": 0.58,
-            "ai_relevance": 0.76,
-            "recency": 0.8999,
-            "story_heat": 0.0
-          },
-          "category": "watch",
-          "reasons": [
-            "recent_ai_signal"
-          ],
-          "earliest_at": "2026-07-26T06:59:56Z",
-          "latest_at": "2026-07-26T06:59:56Z",
-          "creator_score": 75.0,
-          "creator_breakdown": {
-            "relevance": 0.88,
-            "freshness": 0.9641,
-            "source": 0.78,
-            "impact": 0.43,
-            "novelty": 0.55,
-            "heat": 0.362
-          },
-          "creator_bucket": "ai_coding",
-          "verification_status": "single_source",
-          "creator_reasons": [
-            "ai_coding_terms"
-          ],
-          "change_type": "new",
-          "primary_item": {
-            "id": "2abfe0a8b48edf42597af10bcad00c77258bd84f",
-            "title": "AI编程辅导的悖论日益凸显，教育工作者争相重新思考如何测试真实技能 / The AI coding tutor paradox grows as educators scramble to rethink how they test real skills",
-            "title_zh": "AI编程辅导的悖论日益凸显，教育工作者争相重新思考如何测试真实技能",
-            "title_en": "The AI coding tutor paradox grows as educators scramble to rethink how they test real skills",
-            "title_original": "The AI coding tutor paradox grows as educators scramble to rethink how they test real skills",
-            "summary": "An ACM survey of 763 computer science educators from 49 countries shows that 68 percent have already changed their exams because of AI, shifting toward oral exams, proctored tests, and project-based work. Teaching is moving from writing code to understanding it. But nearly half of respondents say they lack proven examples for integrating AI into their courses.\nAn ACM survey of 763 computer science educators from 49 countries shows that 68 percent have already changed their exams because of AI, s",
-            "recommend_reason_zh": "ACM调查763名来自49国的计算机科学教育者发现68%已因AI改变考试方式，转向口试与项目作业，但近半数表示缺乏将AI整合进课程的成熟范例。",
-            "url": "https://the-decoder.com/the-ai-coding-tutor-paradox-grows-as-educators-scramble-to-rethink-how-they-test-real-skills",
-            "source": "The Decoder AI News",
-            "source_name": "Curated Media"
-          },
-          "sources": [
-            {
-              "story_id": "story_dc6c5dd6071c",
-              "title": "AI编程辅导的悖论日益凸显，教育工作者争相重新思考如何测试真实技能 / The AI coding tutor paradox grows as educators scramble to rethink how they test real skills",
-              "url": "https://the-decoder.com/the-ai-coding-tutor-paradox-grows-as-educators-scramble-to-rethink-how-they-test-real-skills",
-              "source": "The Decoder AI News",
-              "site_id": "",
-              "official": false
-            }
-          ],
-          "summary_zh": "ACM调查763名来自49国的计算机科学教育者，68%已因AI改变考试方式，转向口试、监考和项目作业，教学重心从写代码转向理解代码，但近半数缺乏AI整合课程的成熟范例。",
-          "why_it_matters": "AI编程工具迫使教育者重新定义“真实技能”，考试形式变革将影响开发者培养路径和招聘标准。",
-          "angles": [
-            {
-              "platform": "x",
-              "title": "ACM调查：68%的CS教授已因AI改考试，口试和项目作业成新常态",
-              "angle": "作为开发者，我亲历了AI辅助编程对学习方式的冲击。ACM这份调查数据很震撼——近七成教育者已经改了考试方式。口试、监考、项目作业，这些听起来像回到过去，但可能是未来。",
-              "needs_hands_on": false,
-              "risk": "调查样本为763人，虽覆盖49国但可能偏向有改革意愿的群体，实际比例可能更低。"
-            },
-            {
-              "platform": "xiaohongshu",
-              "title": "AI时代编程考试怎么变？ACM调查告诉你答案",
-              "angle": "刚看到ACM的调查，68%的CS老师已经因为AI改了考试方式。口试、监考、项目作业成为主流。想学编程的姐妹注意了，以后可能不是考你写代码，而是考你理解代码、调试代码。",
-              "needs_hands_on": false,
-              "risk": "调查中近半数教育者缺乏成熟整合范例，具体实施效果尚未有大规模验证。"
-            },
-            {
-              "platform": "wechat",
-              "title": "AI编程辅导悖论：当学生用AI写作业，教育者如何测试真实技能？",
-              "angle": "ACM最新调查揭示了AI编程辅导的悖论：68%的计算机科学教育者已因AI改变考试方式，从写代码转向理解代码，但近半数缺乏将AI整合进课程的成熟范例。这场变革将如何重塑编程教育？",
-              "needs_hands_on": false,
-              "risk": "调查中“缺乏成熟范例”的比例为近半数，具体数字未在原文中明确，需核实。"
-            }
-          ],
-          "enrichment_mode": "llm"
-        },
-        {
-          "story_id": "story_53a659d95f7a",
-          "creator_event_id": "creator-6bc1a112ae07ebb8",
-          "merged_story_ids": [
-            "story_53a659d95f7a"
-          ],
-          "title": "Claude Code 会在30天后从你的设备上删除上下文历史 / Claude Code Deletes Your Context History from Your Device After 30 Days",
-          "url": "https://code.claude.com/docs/en/data-usage",
-          "primary_url": "https://code.claude.com/docs/en/data-usage",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "source_count": 1,
-          "source_names": [
-            "Hacker News"
-          ],
-          "score": 0.5117,
-          "importance": 0.5117,
-          "importance_score": 0.5117,
-          "importance_label": "值得关注",
-          "importance_breakdown": {
-            "editorial": 0.468,
-            "source_tier": 0.32,
-            "ai_relevance": 0.65,
-            "recency": 0.9493,
-            "story_heat": 0.0
-          },
-          "category": "watch",
-          "reasons": [
-            "recent_ai_signal"
-          ],
-          "earliest_at": "2026-07-26T10:42:00Z",
-          "latest_at": "2026-07-26T10:42:00Z",
-          "creator_score": 74.6,
-          "creator_breakdown": {
-            "relevance": 1.0,
-            "freshness": 1.0,
-            "source": 0.5,
-            "impact": 0.43,
-            "novelty": 0.65,
-            "heat": 0.3291
-          },
-          "creator_bucket": "ai_coding",
-          "primary_entity": "claude-code",
-          "verification_status": "single_source",
-          "creator_reasons": [
-            "entity:claude-code"
-          ],
-          "change_type": "new",
-          "primary_item": {
-            "id": "2563d7d57094ecb968615a119a60992bde1cabfa",
-            "title": "Claude Code 会在30天后从你的设备上删除上下文历史 / Claude Code Deletes Your Context History from Your Device After 30 Days",
-            "title_zh": "Claude Code 会在30天后从你的设备上删除上下文历史",
-            "title_en": "Claude Code Deletes Your Context History from Your Device After 30 Days",
-            "title_original": "Claude Code Deletes Your Context History from Your Device After 30 Days",
-            "url": "https://code.claude.com/docs/en/data-usage",
-            "source": "Hacker News",
-            "source_name": "TechURLs"
-          },
-          "sources": [
-            {
-              "story_id": "story_53a659d95f7a",
-              "title": "Claude Code 会在30天后从你的设备上删除上下文历史 / Claude Code Deletes Your Context History from Your Device After 30 Days",
-              "url": "https://code.claude.com/docs/en/data-usage",
-              "source": "Hacker News",
-              "site_id": "",
-              "official": false
-            }
-          ],
-          "summary_zh": "Anthropic 官方文档显示，Claude Code 会在 30 天后自动从用户设备删除上下文历史，以保护隐私。",
-          "why_it_matters": "开发者需注意长期项目上下文可能丢失，影响工作流连续性和调试效率。",
-          "angles": [
-            {
-              "platform": "x",
-              "title": "Claude Code 30 天自动删历史，你的项目上下文可能不保",
-              "angle": "刚发现 Claude Code 会在 30 天后自动删除本地上下文历史，这对长期项目影响很大，实测一下到底会丢失哪些信息。",
-              "needs_hands_on": true,
-              "risk": "未亲测删除范围是否包括所有对话记录和缓存文件。"
-            },
-            {
-              "platform": "xiaohongshu",
-              "title": "Claude Code 30 天删历史？避坑指南来了",
-              "angle": "Claude Code 自动删除上下文历史，教你如何备份和避免丢失关键信息。",
-              "needs_hands_on": true,
-              "risk": "官方文档未说明是否提供手动备份选项。"
-            },
-            {
-              "platform": "wechat",
-              "title": "Claude Code 数据清理策略解读：30 天删除对开发工作流的影响",
-              "angle": "从隐私保护和工程实践角度分析 Claude Code 自动删除历史的设计逻辑，以及开发者如何应对。",
-              "needs_hands_on": false,
-              "risk": "文档未明确删除触发条件和用户控制权。"
-            }
-          ],
-          "enrichment_mode": "llm"
-        },
-        {
-          "story_id": "story_9caaf2e87bdd",
-          "creator_event_id": "creator-f6cb30167aa2fbb2",
-          "merged_story_ids": [
-            "story_9caaf2e87bdd"
-          ],
-          "title": "Claude Code有一条硬编码指令，告诉Opus 5不要使用子代理 / Claude Code has a hardcoded instruction telling Opus 5 not to use subagents",
-          "url": "https://old.reddit.com/r/ClaudeCode/comments/1v6y5q2/claude_code_has_a_hardcoded_instruction_telling",
-          "primary_url": "https://old.reddit.com/r/ClaudeCode/comments/1v6y5q2/claude_code_has_a_hardcoded_instruction_telling",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "source_count": 1,
-          "source_names": [
-            "Hacker News · 24h最热"
-          ],
-          "score": 0.5069,
-          "importance": 0.5069,
-          "importance_score": 0.5069,
-          "importance_label": "值得关注",
-          "importance_breakdown": {
-            "editorial": 0.468,
-            "source_tier": 0.32,
-            "ai_relevance": 0.65,
-            "recency": 0.9229,
-            "story_heat": 0.0
-          },
-          "category": "watch",
-          "reasons": [
-            "recent_ai_signal"
-          ],
-          "earliest_at": "2026-07-26T08:45:06Z",
-          "latest_at": "2026-07-26T08:45:06Z",
-          "creator_score": 74.6,
-          "creator_breakdown": {
-            "relevance": 1.0,
-            "freshness": 1.0,
-            "source": 0.5,
-            "impact": 0.43,
-            "novelty": 0.65,
-            "heat": 0.3274
-          },
-          "creator_bucket": "ai_coding",
-          "primary_entity": "claude-code",
-          "verification_status": "single_source",
-          "creator_reasons": [
-            "entity:claude-code"
-          ],
-          "change_type": "new",
-          "primary_item": {
-            "id": "54c1d249aa52f153c64e32b038decd355e6079a0",
-            "title": "Claude Code有一条硬编码指令，告诉Opus 5不要使用子代理 / Claude Code has a hardcoded instruction telling Opus 5 not to use subagents",
-            "title_zh": "Claude Code有一条硬编码指令，告诉Opus 5不要使用子代理",
-            "title_en": "Claude Code has a hardcoded instruction telling Opus 5 not to use subagents",
-            "title_original": "Claude Code has a hardcoded instruction telling Opus 5 not to use subagents",
-            "url": "https://old.reddit.com/r/ClaudeCode/comments/1v6y5q2/claude_code_has_a_hardcoded_instruction_telling",
-            "source": "Hacker News · 24h最热",
-            "source_name": "Zeli"
-          },
-          "sources": [
-            {
-              "story_id": "story_9caaf2e87bdd",
-              "title": "Claude Code有一条硬编码指令，告诉Opus 5不要使用子代理 / Claude Code has a hardcoded instruction telling Opus 5 not to use subagents",
-              "url": "https://old.reddit.com/r/ClaudeCode/comments/1v6y5q2/claude_code_has_a_hardcoded_instruction_telling",
-              "source": "Hacker News · 24h最热",
-              "site_id": "",
-              "official": false
-            }
-          ],
-          "summary_zh": "Reddit用户发现Claude Code的提示词中有一条硬编码指令，要求Opus 5模型不要使用子代理，引发对模型行为限制的讨论。",
-          "why_it_matters": "硬编码指令可能限制模型能力，影响开发者对Claude Code自主性和可靠性的信任。",
-          "angles": [
-            {
-              "platform": "x",
-              "title": "Claude Code硬编码指令曝光：Opus 5被禁止使用子代理",
-              "angle": "刚发现Claude Code的提示词里藏着一条硬编码指令，明确告诉Opus 5不要用子代理。这到底是防止失控还是限制能力？实测对比一下有/无指令的表现。",
-              "needs_hands_on": true,
-              "risk": "仅单来源Reddit帖子，未确认指令是否实际生效或影响性能。"
-            },
-            {
-              "platform": "xiaohongshu",
-              "title": "Claude Code提示词揭秘：硬编码指令如何影响AI编程",
-              "angle": "手把手教你查看Claude Code的提示词，发现一条硬编码指令禁止Opus 5使用子代理。这会影响代码生成质量吗？实测对比结果+避坑指南。",
-              "needs_hands_on": true,
-              "risk": "需验证指令是否在所有版本中存在，以及是否可被用户覆盖。"
-            },
-            {
-              "platform": "wechat",
-              "title": "Claude Code硬编码指令事件：AI编程工具的自主性边界",
-              "angle": "从Claude Code硬编码指令看AI编程工具的设计哲学：安全限制 vs 能力释放。分析对开发者工作流和工具选型的长期影响。",
-              "needs_hands_on": false,
-              "risk": "需确认Anthropic官方回应，避免过度解读。"
-            }
-          ],
-          "enrichment_mode": "llm"
-        },
-        {
-          "story_id": "story_9a66534a1fc0",
-          "creator_event_id": "creator-cefe695cfa4fa939",
-          "merged_story_ids": [
-            "story_9a66534a1fc0"
-          ],
-          "title": "OpenAI、Anthropic 游说美国限制中国开源模型，黄仁勋与马斯克公开反对",
-          "url": "https://www.ithome.com/0/981/797.htm",
-          "primary_url": "https://www.ithome.com/0/981/797.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "source_count": 1,
-          "source_names": [
-            "IT之家（RSS）"
-          ],
-          "score": 0.761,
-          "importance": 0.761,
-          "importance_score": 0.761,
-          "importance_label": "行业动态",
-          "importance_breakdown": {
-            "editorial": 0.71,
-            "source_tier": 0.78,
-            "ai_relevance": 1.0,
-            "recency": 0.98,
-            "story_heat": 0.0
-          },
-          "category": "industry",
-          "reasons": [
-            "high_ai_relevance",
-            "high_importance"
-          ],
-          "earliest_at": "2026-07-26T12:54:28Z",
-          "latest_at": "2026-07-26T12:54:28Z",
-          "persona_id": "pragmatic",
-          "persona_score": 20,
-          "persona_review": "政治口水战，不写代码，等政策落地再评估影响。",
-          "creator_score": 70.4,
-          "creator_breakdown": {
-            "relevance": 0.68,
-            "freshness": 1.0,
-            "source": 0.5,
-            "impact": 0.63,
-            "novelty": 0.85,
-            "heat": 0.4163
-          },
-          "creator_bucket": "general_ai",
-          "primary_entity": "anthropic",
-          "verification_status": "single_source",
-          "creator_reasons": [
-            "entity:anthropic",
-            "workflow_impact"
-          ],
-          "change_type": "new",
-          "primary_item": {
-            "id": "5309bb87c866fe790223159d8f8d4b9313205eac",
-            "title": "OpenAI、Anthropic 游说美国限制中国开源模型，黄仁勋与马斯克公开反对",
-            "title_zh": "OpenAI、Anthropic 游说美国限制中国开源模型，黄仁勋与马斯克公开反对",
-            "title_original": "OpenAI、Anthropic 游说美国限制中国开源模型，黄仁勋与马斯克公开反对",
-            "summary": "OpenAI 与 Anthropic 正游说美国监管机构限制中国开源 AI 模型，认为开放开发过于危险。英伟达 CEO 黄仁勋、微软 CEO 纳德拉、马斯克及扎克伯格等人公开支持开源，签署联名信反对限制。近 200 家硅谷创业公司也敦促特朗普政府不要限制获取中国开源模型，美国官员倾向于将此事作为国家安全问题单独处理。",
-            "recommend_reason_zh": "OpenAI与Anthropic游说美国限制中国开源模型，引发黄仁勋、马斯克等人公开反对。近200家硅谷创业公司签署公开信，敦促特朗普政府不要限制获取中国开源AI模型。",
-            "url": "https://www.ithome.com/0/981/797.htm",
-            "source": "IT之家（RSS）",
-            "source_name": "AI HOT"
-          },
-          "sources": [
-            {
-              "story_id": "story_9a66534a1fc0",
-              "title": "OpenAI、Anthropic 游说美国限制中国开源模型，黄仁勋与马斯克公开反对",
-              "url": "https://www.ithome.com/0/981/797.htm",
-              "source": "IT之家（RSS）",
-              "site_id": "",
-              "official": false
-            }
-          ],
-          "summary_zh": "OpenAI与Anthropic游说美国限制中国开源AI模型，黄仁勋、马斯克等公开反对，近200家硅谷创业公司签署公开信支持开源。",
-          "why_it_matters": "开源模型限制将影响开发者获取低成本AI能力，改变全球AI开发协作生态。",
-          "angles": [
-            {
-              "platform": "x",
-              "title": "硅谷大佬为何集体反对限制中国开源模型？",
-              "angle": "从黄仁勋、马斯克等反对者的视角，分析开源对AI创新的重要性，以及限制可能带来的反效果。",
-              "needs_hands_on": false,
-              "risk": "游说细节尚未完全公开，需核实具体提案内容。"
-            },
-            {
-              "platform": "xiaohongshu",
-              "title": "开源模型被限制？开发者如何应对？",
-              "angle": "以开发者身份，分享当前可用的中国开源模型（如Qwen、DeepSeek）的使用体验，并讨论限制对个人项目的影响。",
-              "needs_hands_on": true,
-              "risk": "未亲测所有中国开源模型，需确认模型可用性和性能。"
-            },
-            {
-              "platform": "wechat",
-              "title": "AI开源之争：OpenAI与Anthropic的游说背后",
-              "angle": "梳理OpenAI和Anthropic的立场转变，分析其商业动机，以及开源与闭源路线对AI行业格局的长期影响。",
-              "needs_hands_on": false,
-              "risk": "部分信息来自单一来源，需交叉验证。"
-            }
-          ],
-          "enrichment_mode": "llm"
-        },
-        {
-          "story_id": "story_66de83077926",
-          "creator_event_id": "creator-a18e66dce12bddda",
-          "merged_story_ids": [
-            "story_66de83077926"
-          ],
-          "title": "在手机上使用时堪称颠覆性。已在ChatGPT应用中可用。 https://t.co/egAqFVhzsQ / Game changer when used from mobile. Available in the ChatGPT app already. https://t.co/egAqFVhzsQ",
-          "url": "https://x.com/thsottiaux/status/2081229262452097169",
-          "primary_url": "https://x.com/thsottiaux/status/2081229262452097169",
-          "source": "Follow Builders · X · Thibault Sottiaux",
-          "source_name": "Follow Builders",
-          "source_count": 1,
-          "source_names": [
-            "Follow Builders · X · Thibault Sottiaux"
-          ],
-          "score": 0.6287,
-          "importance": 0.6287,
-          "importance_score": 0.6287,
-          "importance_label": "值得关注",
-          "importance_breakdown": {
-            "editorial": 0.5832,
-            "source_tier": 0.62,
-            "ai_relevance": 0.81,
-            "recency": 0.8628,
-            "story_heat": 0.0
-          },
-          "category": "watch",
-          "reasons": [
-            "high_ai_relevance"
-          ],
-          "earliest_at": "2026-07-26T04:04:58Z",
-          "latest_at": "2026-07-26T04:04:58Z",
-          "creator_score": 69.2,
-          "creator_breakdown": {
-            "relevance": 0.68,
-            "freshness": 0.8912,
-            "source": 0.56,
-            "impact": 0.63,
-            "novelty": 0.85,
-            "heat": 0.37
-          },
-          "creator_bucket": "general_ai",
-          "primary_entity": "openai",
-          "verification_status": "early_signal",
-          "creator_reasons": [
-            "entity:openai",
-            "workflow_impact"
-          ],
-          "change_type": "new",
-          "primary_item": {
-            "id": "16a60b75f5bb7c333488bb5794d8cc7d8b643036",
-            "title": "在手机上使用时堪称颠覆性。已在ChatGPT应用中可用。 https://t.co/egAqFVhzsQ / Game changer when used from mobile. Available in the ChatGPT app already. https://t.co/egAqFVhzsQ",
-            "title_zh": "在手机上使用时堪称颠覆性。已在ChatGPT应用中可用。 https://t.co/egAqFVhzsQ",
-            "title_en": "Game changer when used from mobile. Available in the ChatGPT app already. https://t.co/egAqFVhzsQ",
-            "title_original": "Game changer when used from mobile. Available in the ChatGPT app already. https://t.co/egAqFVhzsQ",
-            "summary": "Game changer when used from mobile. Available in the ChatGPT app already.\nGame changer when used from mobile. Available in the ChatGPT app already.\nGame changer when used from mobile. Available in the ChatGPT app already.\nSign up now to get your own personalized timeline!\nBy signing up, you agree to the Terms of Service and Privacy Policy , including Cookie Use.",
-            "recommend_reason_zh": "这篇内容指出ChatGPT的移动端体验将带来颠覆性改变，且该功能已在ChatGPT app中上线，值得立即尝试。",
-            "url": "https://x.com/thsottiaux/status/2081229262452097169",
-            "source": "Follow Builders · X · Thibault Sottiaux",
-            "source_name": "Follow Builders"
-          },
-          "sources": [
-            {
-              "story_id": "story_66de83077926",
-              "title": "在手机上使用时堪称颠覆性。已在ChatGPT应用中可用。 https://t.co/egAqFVhzsQ / Game changer when used from mobile. Available in the ChatGPT app already. https://t.co/egAqFVhzsQ",
-              "url": "https://x.com/thsottiaux/status/2081229262452097169",
-              "source": "Follow Builders · X · Thibault Sottiaux",
-              "site_id": "",
-              "official": false
-            }
-          ],
-          "summary_zh": "据X用户Thibault Sottiaux称，ChatGPT移动端体验堪称颠覆性，该功能已在ChatGPT应用中可用。",
-          "why_it_matters": "若属实，将显著提升移动端AI Coding体验，影响开发者随时随地编写代码的工作流。",
-          "angles": [
-            {
-              "platform": "x",
-              "title": "ChatGPT移动端体验颠覆性升级？亲测报告",
-              "angle": "我第一时间在手机上试用了ChatGPT的新功能，发现……",
-              "needs_hands_on": true,
-              "risk": "目前仅一条推文，未确认具体功能细节，需实际测试验证。"
-            }
-          ],
-          "enrichment_mode": "llm"
-        },
-        {
-          "story_id": "story_bf23cd93882f",
-          "creator_event_id": "creator-8e11c0939bbd3c72",
-          "merged_story_ids": [
-            "story_bf23cd93882f"
-          ],
-          "title": "Anthropic的Opus 5在衡量真实智能的基准测试中碾压Fable 5和GPT-5.6 Sol / Anthropic's Opus 5 blows past Fable 5 and GPT-5.6 Sol on the benchmark designed to measure real intelligence",
-          "url": "https://the-decoder.com/anthropics-opus-5-blows-past-fable-5-and-gpt-5-6-sol-on-the-benchmark-designed-to-measure-real-intelligence",
-          "primary_url": "https://the-decoder.com/anthropics-opus-5-blows-past-fable-5-and-gpt-5-6-sol-on-the-benchmark-designed-to-measure-real-intelligence",
-          "source": "The Decoder AI News",
-          "source_name": "Curated Media",
-          "source_count": 1,
-          "source_names": [
-            "The Decoder AI News"
-          ],
-          "score": 0.6455,
-          "importance": 0.6455,
-          "importance_score": 0.6455,
-          "importance_label": "值得关注",
-          "importance_breakdown": {
-            "editorial": 0.6048,
-            "source_tier": 0.58,
-            "ai_relevance": 0.84,
-            "recency": 0.9359,
-            "story_heat": 0.0
-          },
-          "category": "watch",
-          "reasons": [
-            "high_ai_relevance"
-          ],
-          "earliest_at": "2026-07-26T09:43:02Z",
-          "latest_at": "2026-07-26T09:43:02Z",
-          "creator_score": 68.1,
-          "creator_breakdown": {
-            "relevance": 0.68,
-            "freshness": 1.0,
-            "source": 0.78,
-            "impact": 0.25,
-            "novelty": 0.65,
-            "heat": 0.3759
-          },
-          "creator_bucket": "general_ai",
-          "primary_entity": "anthropic",
-          "verification_status": "single_source",
-          "creator_reasons": [
-            "entity:anthropic"
-          ],
-          "change_type": "new",
-          "primary_item": {
-            "id": "8c68e79c8ae4bb970b387a5627687da79e6179a5",
-            "title": "Anthropic的Opus 5在衡量真实智能的基准测试中碾压Fable 5和GPT-5.6 Sol / Anthropic's Opus 5 blows past Fable 5 and GPT-5.6 Sol on the benchmark designed to measure real intelligence",
-            "title_zh": "Anthropic的Opus 5在衡量真实智能的基准测试中碾压Fable 5和GPT-5.6 Sol",
-            "title_en": "Anthropic's Opus 5 blows past Fable 5 and GPT-5.6 Sol on the benchmark designed to measure real intelligence",
-            "title_original": "Anthropic's Opus 5 blows past Fable 5 and GPT-5.6 Sol on the benchmark designed to measure real intelligence",
-            "summary": "Anthropic's Claude Opus 5 scored 30.2 percent on ARC-AGI-3, nearly quadrupling GPT-5.6 Sol's previous record of 7.8 percent. The benchmark's developers say the model independently formulated reflection equations, a behavior they had never seen from another model, and attribute to stronger logical reasoning.\nAnthropic's Claude Opus 5 scored 30.2 percent on ARC-AGI-3, nearly quadrupling GPT-5.6 Sol's previous record of 7.8 percent. The benchmark's developers say the model independently formulated ",
-            "recommend_reason_zh": "Anthropic的Claude Opus 5在ARC-AGI-3上得30.2%，几乎是GPT-5.6 Sol记录7.8%的四倍，并首次独立制定反射方程，展现更强逻辑推理与自主探索能力。",
-            "url": "https://the-decoder.com/anthropics-opus-5-blows-past-fable-5-and-gpt-5-6-sol-on-the-benchmark-designed-to-measure-real-intelligence",
-            "source": "The Decoder AI News",
-            "source_name": "Curated Media"
-          },
-          "sources": [
-            {
-              "story_id": "story_bf23cd93882f",
-              "title": "Anthropic的Opus 5在衡量真实智能的基准测试中碾压Fable 5和GPT-5.6 Sol / Anthropic's Opus 5 blows past Fable 5 and GPT-5.6 Sol on the benchmark designed to measure real intelligence",
-              "url": "https://the-decoder.com/anthropics-opus-5-blows-past-fable-5-and-gpt-5-6-sol-on-the-benchmark-designed-to-measure-real-intelligence",
-              "source": "The Decoder AI News",
-              "site_id": "",
-              "official": false
-            }
-          ],
-          "summary_zh": "Anthropic的Claude Opus 5在ARC-AGI-3基准测试中得分30.2%，是GPT-5.6 Sol记录7.8%的近四倍，并首次独立制定反射方程，展现更强逻辑推理能",
-          "why_it_matters": "该基准旨在衡量真实智能，Opus 5的突破性表现可能改变AI模型能力评估标准，影响开发者对模型逻辑推理和自主探索能力的选择。",
-          "angles": [
-            {
-              "platform": "x",
-              "title": "Opus 5在ARC-AGI-3上碾压GPT-5.6 Sol，我实测了它的推理能力",
-              "angle": "作为AI开发者，我第一时间测试了Opus 5在ARC-AGI-3上的表现，发现它确实能独立推导反射方程，而其他模型从未做到。",
-              "needs_hands_on": true,
-              "risk": "未亲测ARC-AGI-3基准，仅基于报道数据；反射方程行为需复现验证。"
-            },
-            {
-              "platform": "xiaohongshu",
-              "title": "Opus 5 vs GPT-5.6 Sol：ARC-AGI-3基准测试结果对比与避坑指南",
-              "angle": "手把手教你理解ARC-AGI-3基准，对比Opus 5和GPT-5.6 Sol的得分差异，并分享使用Opus 5时需要注意的推理边界。",
-              "needs_hands_on": true,
-              "risk": "未亲测，得分数据来自单一来源；实际使用场景可能不同。"
-            },
-            {
-              "platform": "wechat",
-              "title": "ARC-AGI-3基准解读：Opus 5的30.2%意味着什么？",
-              "angle": "从ARC-AGI基准的设计初衷出发，分析Opus 5得分翻四倍背后的技术突破，以及对AI模型评估体系的长期影响。",
-              "needs_hands_on": false,
-              "risk": "单一来源报道，需等待更多第三方验证。"
-            }
-          ],
-          "enrichment_mode": "llm"
-        },
-        {
-          "story_id": "story_c4e4ebb62452",
-          "creator_event_id": "creator-97430378c0ea69cd",
-          "merged_story_ids": [
-            "story_c4e4ebb62452"
-          ],
-          "title": "Induction Labs Photon-1 仅通过一次预训练就能模拟桌面、下跳棋和建模台球物理 / Induction Labs Photon-1 Simulates Desktops, Plays Checkers, and Models Billiard Physics From One Pretraining Run",
-          "url": "https://www.marktechpost.com/2026/07/26/induction-labs-photon-1-simulates-desktops-plays-checkers-and-models-billiard-physics-from-one-pretraining-run",
-          "primary_url": "https://www.marktechpost.com/2026/07/26/induction-labs-photon-1-simulates-desktops-plays-checkers-and-models-billiard-physics-from-one-pretraining-run",
-          "source": "MarkTechPost Research",
-          "source_name": "Curated Media",
-          "source_count": 1,
-          "source_names": [
-            "MarkTechPost Research"
-          ],
-          "score": 0.5778,
-          "importance": 0.5778,
-          "importance_score": 0.5778,
-          "importance_label": "值得关注",
-          "importance_breakdown": {
-            "editorial": 0.4896,
-            "source_tier": 0.58,
-            "ai_relevance": 0.68,
-            "recency": 0.9295,
-            "story_heat": 0.0
-          },
-          "category": "watch",
-          "reasons": [
-            "recent_ai_signal"
-          ],
-          "earliest_at": "2026-07-26T09:14:22Z",
-          "latest_at": "2026-07-26T09:14:22Z",
-          "creator_score": 68.0,
-          "creator_breakdown": {
-            "relevance": 0.68,
-            "freshness": 1.0,
-            "source": 0.78,
-            "impact": 0.25,
-            "novelty": 0.65,
-            "heat": 0.3522
-          },
-          "creator_bucket": "general_ai",
-          "primary_entity": "gemini",
-          "verification_status": "single_source",
-          "creator_reasons": [
-            "entity:gemini"
-          ],
-          "change_type": "new",
-          "primary_item": {
-            "id": "46154a8c6ebf0bc940c4fe55f25901b3a02a9350",
-            "title": "Induction Labs Photon-1 仅通过一次预训练就能模拟桌面、下跳棋和建模台球物理 / Induction Labs Photon-1 Simulates Desktops, Plays Checkers, and Models Billiard Physics From One Pretraining Run",
-            "title_zh": "Induction Labs Photon-1 仅通过一次预训练就能模拟桌面、下跳棋和建模台球物理",
-            "title_en": "Induction Labs Photon-1 Simulates Desktops, Plays Checkers, and Models Billiard Physics From One Pretraining Run",
-            "title_original": "Induction Labs Photon-1 Simulates Desktops, Plays Checkers, and Models Billiard Physics From One Pretraining Run",
-            "summary": "Induction Labs introduces imagination models and Photon-1, a 106B MoE trained on 18 years of unlabeled screen recordings\nInduction Labs introduces imagination models and Photon-1, a 106B MoE trained on 18 years of unlabeled screen recordings\nMost agents that learn from video need to know what action produced each frame. Induction Labs is arguing that this requirement is the bottleneck. Last week, they released imagination models , a foundation model architecture that pretrains on raw video with ",
-            "recommend_reason_zh": "Induction Labs的Photon-1是一个106B参数的MoE模型，仅凭18年未标记屏幕录制预训练（575百万帧，1fps），无需动作标签就能模拟桌面、下棋和台球物理，且推理成本比Gemini 3.1 Flash-Lite低约3倍。",
-            "url": "https://www.marktechpost.com/2026/07/26/induction-labs-photon-1-simulates-desktops-plays-checkers-and-models-billiard-physics-from-one-pretraining-run",
-            "source": "MarkTechPost Research",
-            "source_name": "Curated Media"
-          },
-          "sources": [
-            {
-              "story_id": "story_c4e4ebb62452",
-              "title": "Induction Labs Photon-1 仅通过一次预训练就能模拟桌面、下跳棋和建模台球物理 / Induction Labs Photon-1 Simulates Desktops, Plays Checkers, and Models Billiard Physics From One Pretraining Run",
-              "url": "https://www.marktechpost.com/2026/07/26/induction-labs-photon-1-simulates-desktops-plays-checkers-and-models-billiard-physics-from-one-pretraining-run",
-              "source": "MarkTechPost Research",
-              "site_id": "",
-              "official": false
-            }
-          ],
-          "summary_zh": "Induction Labs发布Photon-1，106B MoE模型，仅用18年未标记屏幕录制（575M帧）预训练，无需动作标签即可模拟桌面、下跳棋和台球物理，推理成本比Gemi",
-          "why_it_matters": "无需动作标签的预训练范式可能降低AI Coding中环境模拟和GUI代理的训练成本，影响开发者对低成本推理模型的选择。",
-          "angles": [
-            {
-              "platform": "x",
-              "title": "Photon-1实测：无标签视频预训练真的能学会模拟桌面？",
-              "angle": "我跑了Photon-1的demo，看看它模拟桌面和台球物理的效果，对比Gemini 3.1 Flash-Lite的成本差异。",
-              "needs_hands_on": true,
-              "risk": "未亲测，需验证模拟精度和推理成本数据是否来自官方基准。"
-            },
-            {
-              "platform": "xiaohongshu",
-              "title": "Photon-1上手教程：用106B MoE模型模拟桌面和下跳棋",
-              "angle": "手把手教你部署Photon-1，展示模拟桌面、下跳棋和台球物理的步骤，对比传统视频预训练模型的避坑指南。",
-              "needs_hands_on": true,
-              "risk": "需确认模型是否开源及部署要求。"
-            },
-            {
-              "platform": "wechat",
-              "title": "Photon-1：无动作标签预训练如何改变AI Coding的模拟范式",
-              "angle": "从Imagination Models架构出发，分析Photon-1对GUI代理和环境模拟训练的影响，以及低成本推理对开发者生态的长期意义。",
-              "needs_hands_on": false,
-              "risk": "单来源报道，需交叉验证性能数据。"
-            }
-          ],
-          "enrichment_mode": "llm"
-        },
-        {
-          "story_id": "story_b06a781a5e94",
-          "creator_event_id": "creator-3b906c4044115a8b",
-          "merged_story_ids": [
-            "story_b06a781a5e94"
-          ],
-          "title": "US reportedly favors selective bans over blanket restrictions on Chinese open weight models citing security concerns",
-          "url": "https://the-decoder.com/us-reportedly-favors-selective-bans-over-blanket-restrictions-on-chinese-open-weight-models-citing-security-concerns",
-          "primary_url": "https://the-decoder.com/us-reportedly-favors-selective-bans-over-blanket-restrictions-on-chinese-open-weight-models-citing-security-concerns",
-          "source": "The Decoder AI News",
-          "source_name": "Curated Media",
-          "source_count": 1,
-          "source_names": [
-            "The Decoder AI News"
-          ],
-          "score": 0.608,
-          "importance": 0.608,
-          "importance_score": 0.608,
-          "importance_label": "值得关注",
-          "importance_breakdown": {
-            "editorial": 0.5472,
-            "source_tier": 0.58,
-            "ai_relevance": 0.76,
-            "recency": 0.9122,
-            "story_heat": 0.0
-          },
-          "category": "watch",
-          "reasons": [
-            "recent_ai_signal"
-          ],
-          "earliest_at": "2026-07-26T07:56:24Z",
-          "latest_at": "2026-07-26T07:56:24Z",
-          "creator_score": 67.8,
-          "creator_breakdown": {
-            "relevance": 0.68,
-            "freshness": 0.9876,
-            "source": 0.78,
-            "impact": 0.25,
-            "novelty": 0.65,
-            "heat": 0.3628
-          },
-          "creator_bucket": "general_ai",
-          "primary_entity": "anthropic",
-          "verification_status": "single_source",
-          "creator_reasons": [
-            "entity:anthropic"
-          ],
-          "change_type": "new",
-          "primary_item": {
-            "id": "40cd1b3830cf74aed87cdfb8823ba7e07c4990b1",
-            "title": "US reportedly favors selective bans over blanket restrictions on Chinese open weight models citing security concerns",
-            "title_en": "US reportedly favors selective bans over blanket restrictions on Chinese open weight models citing security concerns",
-            "title_original": "US reportedly favors selective bans over blanket restrictions on Chinese open weight models citing security concerns",
-            "summary": "The Trump administration is planning targeted bans on Chinese AI models rather than a blanket ban. After public pressure, OpenAI and Google DeepMind signed an open letter opposing regulation of open-weight models, yet OpenAI and Anthropic continue to lobby privately for those same restrictions amid security concerns and powerful business interests.\nThe Trump administration is planning targeted bans on Chinese AI models rather than a blanket ban. After public pressure, OpenAI and Google DeepMind ",
-            "recommend_reason_zh": "特朗普政府计划对中国AI模型实施针对性禁令而非全面封锁，尽管OpenAI和Google DeepMind签署公开信反对监管，但OpenAI和Anthropic私下仍在游说限制中国模型，如Kimi K3在网络安全基准上仍落后西方。",
-            "url": "https://the-decoder.com/us-reportedly-favors-selective-bans-over-blanket-restrictions-on-chinese-open-weight-models-citing-security-concerns",
-            "source": "The Decoder AI News",
-            "source_name": "Curated Media"
-          },
-          "sources": [
-            {
-              "story_id": "story_b06a781a5e94",
-              "title": "US reportedly favors selective bans over blanket restrictions on Chinese open weight models citing security concerns",
-              "url": "https://the-decoder.com/us-reportedly-favors-selective-bans-over-blanket-restrictions-on-chinese-open-weight-models-citing-security-concerns",
-              "source": "The Decoder AI News",
-              "site_id": "",
-              "official": false
-            }
-          ],
-          "summary_zh": "特朗普政府计划对中国AI模型实施针对性禁令而非全面封锁，OpenAI和Anthropic私下游说支持限制，尽管公开签署了反对监管的公开信。",
-          "why_it_matters": "影响中国开源模型在美使用，开发者需关注合规风险，同时暴露AI公司公开立场与私下游说的矛盾。",
-          "angles": [
-            {
-              "platform": "x",
-              "title": "OpenAI和Anthropic的公开信与私下游说：AI公司的双面策略",
-              "angle": "作为开发者，我注意到OpenAI和Anthropic一边签署反对监管的公开信，一边私下推动对中国模型的限制。这种双面行为如何影响开源生态和我们的工具选择？",
-              "needs_hands_on": false,
-              "risk": "单来源报道，需核实OpenAI和Anthropic私下游说的具体证据。"
-            },
-            {
-              "platform": "xiaohongshu",
-              "title": "中国AI模型在美受限？开发者如何应对潜在禁令",
-              "angle": "特朗普政府计划选择性禁止中国AI模型，作为开发者，我整理了受影响模型清单、替代方案和合规建议，帮你提前避坑。",
-              "needs_hands_on": false,
-              "risk": "具体禁令范围和模型清单尚未公布，需跟踪后续政策。"
-            },
-            {
-              "platform": "wechat",
-              "title": "从全面封锁到精准打击：美国对华AI模型监管转向分析",
-              "angle": "美国对华AI模型监管从全面封锁转向选择性禁令，背后是安全担忧与商业利益的博弈。本文梳理政策演变、各方立场及对开源社区的影响。",
-              "needs_hands_on": false,
-              "risk": "报道为单来源，需交叉验证特朗普政府内部决策细节。"
-            }
-          ],
-          "enrichment_mode": "llm"
-        },
-        {
-          "story_id": "story_caee25d372a6",
-          "creator_event_id": "creator-8810d89cc3906fad",
-          "merged_story_ids": [
-            "story_caee25d372a6"
-          ],
-          "title": "KwaiKAT团队发布KAT-Coder-V2.5：基于10万+可验证仓库环境训练的智能体编码模型 / KwaiKAT Team Releases KAT-Coder-V2.5: An Agentic Coding Model Trained on 100,000+ Verifiable Repository Environments",
-          "url": "https://www.marktechpost.com/2026/07/26/kwaikat-team-releases-kat-coder-v2-5-an-agentic-coding-model-trained-on-100000-verifiable-repository-environments",
-          "primary_url": "https://www.marktechpost.com/2026/07/26/kwaikat-team-releases-kat-coder-v2-5-an-agentic-coding-model-trained-on-100000-verifiable-repository-environments",
-          "source": "MarkTechPost Research",
-          "source_name": "Curated Media",
-          "source_count": 1,
-          "source_names": [
-            "MarkTechPost Research"
-          ],
-          "score": 0.5815,
-          "importance": 0.5815,
-          "importance_score": 0.5815,
-          "importance_label": "值得关注",
-          "importance_breakdown": {
-            "editorial": 0.4896,
-            "source_tier": 0.58,
-            "ai_relevance": 0.68,
-            "recency": 0.9502,
-            "story_heat": 0.0
-          },
-          "category": "watch",
-          "reasons": [
-            "recent_ai_signal"
-          ],
-          "earliest_at": "2026-07-26T10:46:19Z",
-          "latest_at": "2026-07-26T10:46:19Z",
-          "creator_score": 66.4,
-          "creator_breakdown": {
-            "relevance": 0.4035,
-            "freshness": 1.0,
-            "source": 0.78,
-            "impact": 0.63,
-            "novelty": 0.75,
-            "heat": 0.3535
-          },
-          "creator_bucket": "general_ai",
-          "verification_status": "single_source",
-          "creator_reasons": [
-            "workflow_impact"
-          ],
-          "change_type": "new",
-          "primary_item": {
-            "id": "44f8fdd6138805b0a6b98021a2dc7a569d807694",
-            "title": "KwaiKAT团队发布KAT-Coder-V2.5：基于10万+可验证仓库环境训练的智能体编码模型 / KwaiKAT Team Releases KAT-Coder-V2.5: An Agentic Coding Model Trained on 100,000+ Verifiable Repository Environments",
-            "title_zh": "KwaiKAT团队发布KAT-Coder-V2.5：基于10万+可验证仓库环境训练的智能体编码模型",
-            "title_en": "KwaiKAT Team Releases KAT-Coder-V2.5: An Agentic Coding Model Trained on 100,000+ Verifiable Repository Environments",
-            "title_original": "KwaiKAT Team Releases KAT-Coder-V2.5: An Agentic Coding Model Trained on 100,000+ Verifiable Repository Environments",
-            "summary": "KwaiKAT releases KAT-Coder-V2.5, an agentic coding model built on 100,000+ verifiable repository environments, and tops PinchBench with 94.9\nKwaiKAT releases KAT-Coder-V2.5, an agentic coding model built on 100,000+ verifiable repository environments, and tops PinchBench with 94.9\nThe KwaiKAT Team at Kuaishou has introduced the KAT-Coder-V2.5 . It is a coding model trained to operate inside real, executable repositories rather than emit single-turn code. The served model is available through Str",
-            "recommend_reason_zh": "KwaiKAT团队发布KAT-Coder-V2.5，基于10万+可验证仓库环境训练，在PinchBench上获94.9分，并将环境构建成功率从16.5%提升至57.2%，展现了真实的编码智能。",
-            "url": "https://www.marktechpost.com/2026/07/26/kwaikat-team-releases-kat-coder-v2-5-an-agentic-coding-model-trained-on-100000-verifiable-repository-environments",
-            "source": "MarkTechPost Research",
-            "source_name": "Curated Media"
-          },
-          "sources": [
-            {
-              "story_id": "story_caee25d372a6",
-              "title": "KwaiKAT团队发布KAT-Coder-V2.5：基于10万+可验证仓库环境训练的智能体编码模型 / KwaiKAT Team Releases KAT-Coder-V2.5: An Agentic Coding Model Trained on 100,000+ Verifiable Repository Environments",
-              "url": "https://www.marktechpost.com/2026/07/26/kwaikat-team-releases-kat-coder-v2-5-an-agentic-coding-model-trained-on-100000-verifiable-repository-environments",
-              "source": "MarkTechPost Research",
-              "site_id": "",
-              "official": false
-            }
-          ],
-          "summary_zh": "KwaiKAT团队发布KAT-Coder-V2.5，基于10万+可验证仓库环境训练，在PinchBench上获94.9分，环境构建成功率从16.5%提升至57.2%。",
-          "why_it_matters": "该模型强调在真实仓库环境中执行代码，而非单轮生成，可能改变开发者对AI编码工具的评估标准。",
-          "angles": [
-            {
-              "platform": "x",
-              "title": "KAT-Coder-V2.5实测：仓库级编码模型真的比单轮生成强？",
-              "angle": "我第一时间试用了KAT-Coder-V2.5，对比了它和普通代码模型在真实仓库环境下的表现，发现环境构建成功率提升显著，但仍有边界。",
-              "needs_hands_on": true,
-              "risk": "未亲测，PinchBench分数和成功率数据来自单一来源，需验证模型实际可用性。"
-            },
-            {
-              "platform": "xiaohongshu",
-              "title": "KAT-Coder-V2.5上手教程：10万+仓库训练，环境构建成功率57.2%",
-              "angle": "手把手教你部署KAT-Coder-V2.5，包括环境配置、运行示例和避坑指南，实测其仓库级编码能力。",
-              "needs_hands_on": true,
-              "risk": "模型部署细节和API调用方式未在原文中明确，需自行探索。"
-            },
-            {
-              "platform": "wechat",
-              "title": "从单轮到仓库：KAT-Coder-V2.5如何重新定义AI编码评估？",
-              "angle": "分析KAT-Coder-V2.5背后的训练范式转变，以及PinchBench作为新基准对行业的影响。",
-              "needs_hands_on": false,
-              "risk": "原文未提供与其他模型的详细对比，需补充背景信息。"
-            }
-          ],
-          "enrichment_mode": "llm"
-        }
-      ],
-      "llm_meta": {
-        "provider": "deepseek",
-        "model": "deepseek-chat",
-        "calls_used": 16,
-        "cache_hits": 0,
-        "fallback_count": 0
-      },
-      "dedup_meta": {
-        "secondary_dedup_merge_count": 0,
-        "secondary_dedup_source_count": 95
       }
     }
   ]

@@ -1,404 +1,6 @@
 {
   "version": 1,
   "entries": {
-    "c06da95857ee8501efe267ea65a111e4af31cebc": {
-      "generated_at": "2026-08-04T12:26:18.816913Z",
-      "enrichment": {
-        "summary_zh": "GitHub 更新 Copilot 托管设置，企业管理员可通过 team-mappings.json 将 ai-users.json 等配置映射到团队，实现按团队定制，未标记键保持",
-        "why_it_matters": "大型企业可分散治理，减少中心化瓶颈，提升 Copilot 配置灵活性与合规性，影响企业级 AI 编码工具的管理效率。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "GitHub Copilot 新功能：团队级配置，告别一刀切",
-            "angle": "实测 team-mappings.json 映射流程，展示如何为不同团队定制插件白名单，对比前后配置效率。",
-            "needs_hands_on": true,
-            "risk": "需验证实际映射行为及客户端同步效果，未亲测。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "企业 Copilot 管理新招：按团队定制，避坑指南",
-            "angle": "分享配置步骤，包括创建 team-mappings.json、覆盖键规则，提醒未标记键保持默认的注意事项。",
-            "needs_hands_on": true,
-            "risk": "需确认具体文件格式和覆盖逻辑，未亲测。"
-          },
-          {
-            "platform": "wechat",
-            "title": "GitHub Copilot 企业治理升级：从集中到分散的架构演进",
-            "angle": "分析该功能对企业 AI 治理体系的影响，探讨如何平衡团队自主与全局合规。",
-            "needs_hands_on": false,
-            "risk": ""
-          }
-        ]
-      }
-    },
-    "86560e37df4eb0a1d2497f3912942dda03c5da87": {
-      "generated_at": "2026-08-04T12:26:18.816913Z",
-      "enrichment": {
-        "summary_zh": "GitHub 发布 CodeQL 2.26.2，新增对 Swift 6.3.3 和 Kotlin 2.4.10 的支持，并提升路径注入、URL 重定向及 GitHub Action",
-        "why_it_matters": "CodeQL 是 GitHub 代码扫描的核心引擎，新版本扩展了语言覆盖并提升关键漏洞检测精度，直接影响使用 GitHub 安全功能的开发者",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "CodeQL 2.26.2 实测：Swift 6.3.3 和 Kotlin 2.4.10 支持上手体验",
-            "angle": "作为开发者，我第一时间升级了 CodeQL 并测试了 Swift 和 Kotlin 项目，分享配置步骤和查询效果。",
-            "needs_hands_on": true,
-            "risk": "未亲测新版本，具体配置细节和查询精度提升需实际验证。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "CodeQL 2.26.2 升级指南：三步搞定 Swift 和 Kotlin 支持",
-            "angle": "手把手教你升级 CodeQL 并配置新语言支持，附避坑提示和查询示例。",
-            "needs_hands_on": true,
-            "risk": "未亲测，升级步骤和兼容性问题需实际验证。"
-          },
-          {
-            "platform": "wechat",
-            "title": "CodeQL 2.26.2 发布：语言支持扩展与查询精度提升的深层影响",
-            "angle": "从 GitHub 安全生态角度分析新版本对开发工作流和漏洞治理的长期影响。",
-            "needs_hands_on": false,
-            "risk": ""
-          }
-        ]
-      }
-    },
-    "ce43bdb34c97edd3ea45f0353e3430e162073a0c": {
-      "generated_at": "2026-08-04T12:26:18.816913Z",
-      "enrichment": {
-        "summary_zh": "GitHub Copilot 云端 Agent 新增可调推理级别，用户可为支持该功能的模型设置推理强度，高推理级别可改善复杂问题回答，但消耗更多 token 和额度。",
-        "why_it_matters": "开发者可权衡推理深度与成本，优化复杂任务的 token 消耗，影响 Copilot 云端 Agent 的使用策略和成本控制。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "Copilot 云端 Agent 推理级别实测：高推理真的更聪明吗？",
-            "angle": "我对比了低/高推理级别在复杂代码重构任务上的表现，token 消耗差异明显，但结果提升有限。",
-            "needs_hands_on": true,
-            "risk": "未亲测，具体模型支持范围和效果需验证。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "Copilot 云端 Agent 推理级别设置教程：省 token 还是提效果？",
-            "angle": "手把手教你设置推理级别，分享不同场景下的推荐配置，避免浪费额度。",
-            "needs_hands_on": true,
-            "risk": "未亲测，具体界面和选项可能因版本而异。"
-          },
-          {
-            "platform": "wechat",
-            "title": "从推理级别看 AI Coding 的成本控制：Copilot 云端 Agent 的新选项",
-            "angle": "分析推理级别对开发工作流和成本的影响，探讨如何平衡质量与 token 消耗。",
-            "needs_hands_on": false,
-            "risk": ""
-          }
-        ]
-      }
-    },
-    "95248f42bac6cb7a52a8b4fe1d223401648acf0c": {
-      "generated_at": "2026-08-04T12:26:18.816913Z",
-      "enrichment": {
-        "summary_zh": "Anthropic 发布 Claude Code v2.1.221，具体更新内容未在标题中说明，需查看发布说明。",
-        "why_it_matters": "Claude Code 更新可能影响开发者日常编码工作流，需关注新功能或修复。",
-        "angles": []
-      }
-    },
-    "018e9335fe8bf2c66efc22fb5172c62b84cf5ec1": {
-      "generated_at": "2026-08-04T12:26:18.816913Z",
-      "enrichment": {
-        "summary_zh": "腾讯混元发布 Hy ASR 3.0 preview，基于 Hy3 与 MoE 架构，支持上下文纠错、热词注入，中文普通话 WER 3.34%，已上线腾讯云 API，元宝 App 免",
-        "why_it_matters": "语音识别进入语义理解阶段，可减少开发者对后处理纠错的依赖，提升语音交互与转录工作流效率，但需实测其上下文纠错在真实场景的稳定性。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "实测腾讯 Hy ASR 3.0：上下文纠错真的能听懂人话吗？",
-            "angle": "作为开发者，我第一时间调用了腾讯云 API，测试了它在嘈杂环境和专业术语下的表现，对比了旧版 ASR 的 WER 差异。",
-            "needs_hands_on": true,
-            "risk": "未亲测，WER 数据来自官方，需验证实际场景下的上下文纠错效果。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "语音转文字新选择：腾讯 Hy ASR 3.0 接入教程与避坑指南",
-            "angle": "手把手教你如何在腾讯云开通 Hy ASR 3.0，配置热词和上下文纠错，并分享实测中遇到的坑，比如长音频处理限制。",
-            "needs_hands_on": true,
-            "risk": "API 具体限制和计费细节未确认，需查阅官方文档。"
-          },
-          {
-            "platform": "wechat",
-            "title": "从逐字硬转到懂语境：语音识别技术演进与开发者影响",
-            "angle": "分析 Hy ASR 3.0 背后的 MoE 架构和语义理解趋势，探讨其对语音应用开发、成本模型和产品设计的长远影响。",
-            "needs_hands_on": false,
-            "risk": "架构细节基于官方描述，需进一步核实技术白皮书。"
-          }
-        ]
-      }
-    },
-    "f9a066c686cce71f1a432e2eac6a495dacedb4ea": {
-      "generated_at": "2026-08-04T12:26:18.816913Z",
-      "enrichment": {
-        "summary_zh": "美国媒体曝光亚马逊内部AI成本超支事故：工程师用Anthropic的Claude Sonnet编写匹配程序，账单达180万美元（约1215万元），超预算860%，项目未上线却持续运",
-        "why_it_matters": "该事件凸显企业采用AI Coding时缺乏成本监控的隐患，提醒开发者关注模型调用费用与预算管控，避免类似超支。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "亚马逊AI写代码烧掉180万美元：我的成本监控经验",
-            "angle": "以开发者视角，分享个人在AI Coding中如何设置预算警报和用量限制，避免类似事故。",
-            "needs_hands_on": true,
-            "risk": "需核实亚马逊事故细节，个人经验部分需基于实际使用。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "AI写代码省钱避坑指南：从亚马逊事故学到的5个教训",
-            "angle": "以实操步骤形式，教用户如何监控AI编程工具的费用，设置预算，避免超支。",
-            "needs_hands_on": true,
-            "risk": "需确认事故数据，避免误导。"
-          },
-          {
-            "platform": "wechat",
-            "title": "AI Coding成本失控：企业如何建立有效的成本治理机制",
-            "angle": "从企业管理角度，分析AI Coding成本失控的深层原因，提出成本治理框架和最佳实践。",
-            "needs_hands_on": false,
-            "risk": "需基于公开信息，避免过度推测。"
-          }
-        ]
-      }
-    },
-    "9eca9d9cb7e38a518a4c256497b054d7b3bb0e12": {
-      "generated_at": "2026-08-04T12:26:18.816913Z",
-      "enrichment": {
-        "summary_zh": "商汤开源轻量统一多模态模型 SenseNova U1.5-Lite-Preview，仅8B参数即支持4K原生图像生成与编辑，整合视觉理解、推理、生成和编辑能力，验证统一架构可扩展性",
-        "why_it_matters": "8B参数实现4K图像生成与编辑，降低多模态模型部署门槛，可能影响开发者对轻量级模型的选择，尤其在资源受限场景下。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "8B模型生成4K图像？商汤U1.5-Lite实测初体验",
-            "angle": "作为开发者，第一时间下载并测试商汤U1.5-Lite，对比其生成质量与速度，分享真实感受。",
-            "needs_hands_on": true,
-            "risk": "模型实际效果未亲测，需验证4K生成能力及与官方宣传的差距。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "轻量级多模态模型怎么选？商汤U1.5-Lite上手教程",
-            "angle": "以教程形式，展示如何部署和使用U1.5-Lite，包括环境配置、推理步骤和常见问题，帮助新手快速上手。",
-            "needs_hands_on": true,
-            "risk": "部署步骤未亲测，需确认官方文档的准确性和易用性。"
-          },
-          {
-            "platform": "wechat",
-            "title": "统一多模态模型的未来：商汤U1.5-Lite的技术解读",
-            "angle": "从技术架构角度，分析U1.5-Lite如何实现8B参数下的4K生成，探讨统一架构对多模态模型发展的影响。",
-            "needs_hands_on": false,
-            "risk": "技术细节基于官方发布，需进一步核实架构创新点。"
-          }
-        ]
-      }
-    },
-    "50cf05a747b5bde4a122ab09fd99098ae1fbead7": {
-      "generated_at": "2026-08-04T12:26:18.816913Z",
-      "enrichment": {
-        "summary_zh": "开发者 Zara Zhang 分享 Codex 实用案例：将餐厅、火车、活动预订截图交给 Codex，自动整理并添加到 Google Calendar，简化旅行规划流程。",
-        "why_it_matters": "展示 Codex 在真实生活场景中的自动化能力，启发开发者将 AI 编码工具用于非编程任务，拓展工作流自动化边界。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "Codex 新玩法：截图即日历，旅行规划自动化实测",
-            "angle": "亲测将预订截图丢给 Codex，看它如何解析并写入 Google Calendar，分享步骤与效果。",
-            "needs_hands_on": true,
-            "risk": "未亲测，需验证 Codex 对复杂截图（多语言、表格）的解析准确率及日历写入的可靠性。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "旅行规划神器？用 Codex 把预订截图自动变成日历事件",
-            "angle": "以教程形式展示操作流程：截图、输入指令、检查日历，附上避坑提示（如时区、重复事件）。",
-            "needs_hands_on": true,
-            "risk": "需确认 Codex 是否支持 Google Calendar API 集成，以及免费额度是否足够。"
-          },
-          {
-            "platform": "wechat",
-            "title": "从代码到生活：Codex 如何改变开发者的工作流自动化",
-            "angle": "分析 Codex 从编程助手到通用自动化工具的潜力，探讨其对开发者日常任务管理的影响。",
-            "needs_hands_on": false,
-            "risk": "该案例为单一来源，需关注后续更多用户反馈以验证普遍性。"
-          }
-        ]
-      }
-    },
-    "71ee94ca144283eaaf1a96b3e633ec6b972f59b3": {
-      "generated_at": "2026-08-04T12:26:18.816913Z",
-      "enrichment": {
-        "summary_zh": "作者零基础用Codex对话，5天内完成从需求到3D打印的猫爪提醒硬件，并介绍Agent调试宏键盘及OpenAI与Work Louder联名的Codex Micro键盘（13键，23",
-        "why_it_matters": "展示AI Coding在硬件开发中的潜力，降低硬件入门门槛，可能改变开发者对AI辅助工具的应用范围。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "我用Codex搓了个硬件：零基础5天从0到1",
-            "angle": "第一人称分享用Codex从零做硬件的全过程，强调对话式开发的体验和意外收获。",
-            "needs_hands_on": true,
-            "risk": "未亲测Codex硬件开发流程，需验证其实际能力和限制。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "Codex硬件开发避坑指南：从需求到3D打印的完整步骤",
-            "angle": "以教程形式分享用Codex做硬件的步骤、工具和常见坑，附上成品图。",
-            "needs_hands_on": true,
-            "risk": "需确认Codex Micro键盘的售价和规格是否准确。"
-          },
-          {
-            "platform": "wechat",
-            "title": "AI Coding进入硬件领域：Codex如何改变硬件开发流程",
-            "angle": "分析AI Coding在硬件开发中的应用前景，对比传统流程，探讨对开发者的长期影响。",
-            "needs_hands_on": false,
-            "risk": "需核实Codex Micro键盘的发布信息及价格。"
-          }
-        ]
-      }
-    },
-    "4b1056395bc2ceb10db412d719f8deb26e6aba88": {
-      "generated_at": "2026-08-04T12:26:18.816913Z",
-      "enrichment": {
-        "summary_zh": "OpenAI回应苹果的诉讼，称其指控无根据，并指出苹果律师因混淆亚裔姓氏而发错邮件，且苹果承认与OpenAI总法律顾问的讨论从未发生。OpenAI公开了iMessage和邮件证据以",
-        "why_it_matters": "此事件影响AI行业信任与法律风险，开发者需关注合作中的沟通与证据留存，避免类似误解。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "苹果律师搞错姓氏？OpenAI晒证据反击",
-            "angle": "作为开发者，我如何看待大厂间的法律纠纷？从技术人视角分析证据链和沟通失误。",
-            "needs_hands_on": false,
-            "risk": "需核实OpenAI公开的证据细节，避免单方面采信。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "避坑指南：合作中如何避免邮件发错人？",
-            "angle": "分享因姓名混淆导致的法律纠纷案例，教大家如何核对联系人信息，保留沟通记录。",
-            "needs_hands_on": false,
-            "risk": "案例细节需基于公开报道，避免过度演绎。"
-          },
-          {
-            "platform": "wechat",
-            "title": "从苹果诉OpenAI看AI行业法律风险",
-            "angle": "分析AI公司间诉讼背后的行业竞争与法律挑战，探讨对开发者生态的影响。",
-            "needs_hands_on": false,
-            "risk": "需引用多方信源，避免偏颇。"
-          }
-        ]
-      }
-    },
-    "b29f99dbb2bd2b40b0e02ae48a47d1ba92a0f586": {
-      "generated_at": "2026-08-04T12:26:18.816913Z",
-      "enrichment": {
-        "summary_zh": "OpenAI 宣布其首款浏览器 ChatGPT Atlas 将于 8 月 9 日停止服务，不再推送功能更新或修复安全漏洞。用户需在 10 天内手动导出 HTML 书签，数据不会自动",
-        "why_it_matters": "Atlas 从上线到停服不足十个月，反映 AI 浏览器赛道风险高。开发者若依赖其工作流，需评估数据迁移成本与替代方案，避免因服务关闭导致书签",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "ChatGPT Atlas 停服：我如何用 10 天迁移我的书签和登录态",
-            "angle": "第一人称记录从收到通知到完成迁移的全过程，包括导出 HTML、导入其他浏览器、重新登录的痛点，以及无法导出 Cookie 带来的麻烦。",
-            "needs_hands_on": true,
-            "risk": "未亲测迁移流程，具体步骤和限制需以官方文档为准。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "ChatGPT Atlas 停服倒计时！书签导出避坑指南",
-            "angle": "以教程形式分享如何快速导出书签、迁移到 Chrome 或 Edge，提醒用户注意 Cookie 无法导出、需提前准备密码管理器等。",
-            "needs_hands_on": true,
-            "risk": "未验证所有浏览器导入兼容性，建议用户测试。"
-          },
-          {
-            "platform": "wechat",
-            "title": "AI 浏览器泡沫破裂？ChatGPT Atlas 停服背后的行业信号",
-            "angle": "分析 Atlas 停服原因，对比其他 AI 浏览器（如 Dia、Perplexity）的生存现状，探讨 AI 浏览器赛道的可持续性及对开发者工具选择的影响。",
-            "needs_hands_on": false,
-            "risk": "停服原因未官方披露，分析基于公开信息，需注明推测。"
-          }
-        ]
-      }
-    },
-    "881b0d0560199df0b38a4e55caf1fd181fd81cd4": {
-      "generated_at": "2026-08-04T12:26:18.816913Z",
-      "enrichment": {
-        "summary_zh": "OpenAI 就苹果公司提起的诉讼发布公开回应，将法律纠纷引入舆论场。苹果指控 OpenAI 存在不当行为，OpenAI 则通过博客文章反驳并争取公众支持。目前案件仍在审理中，双方",
-        "why_it_matters": "该诉讼可能影响 OpenAI 与苹果的合作关系，进而波及开发者依赖的 API 服务、模型分发渠道及生态整合，开发者需关注潜在的服务变动风险。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "OpenAI 硬刚苹果：开发者该站哪边？",
-            "angle": "从开发者视角分析诉讼对 API 服务稳定性的潜在影响，分享个人对两家公司生态依赖的观察。",
-            "needs_hands_on": false,
-            "risk": "诉讼细节未完全公开，需核实双方具体指控。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "苹果告 OpenAI？开发者避坑指南",
-            "angle": "以开发者身份梳理诉讼可能带来的服务变动风险，提供应对策略和备选方案。",
-            "needs_hands_on": false,
-            "risk": "需确认诉讼是否涉及具体产品功能变更。"
-          },
-          {
-            "platform": "wechat",
-            "title": "从合作到对簿公堂：OpenAI 与苹果的博弈将如何重塑 AI 生态？",
-            "angle": "深入分析诉讼背景、双方商业利益冲突，以及对 AI 开发工具链和平台选择的长期影响。",
-            "needs_hands_on": false,
-            "risk": "需核实诉讼对现有合作项目的实际影响。"
-          }
-        ]
-      }
-    },
-    "e36d0e867305171f0c198bf1a5f1689f4f9668ba": {
-      "generated_at": "2026-08-04T12:26:18.816913Z",
-      "enrichment": {
-        "summary_zh": "OpenAI 公布聊天记录反击 Apple 的商业秘密诉讼，显示 Apple 员工持续给前同事发短信。该诉讼源于 Apple 指控 OpenAI 挖角员工并窃取技术。OpenAI ",
-        "why_it_matters": "此案影响 AI 人才流动与商业秘密保护，开发者需关注跳槽合规风险，避免因沟通记录引发法律纠纷。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "OpenAI 晒聊天记录反击 Apple：跳槽前同事的短信成了证据",
-            "angle": "从开发者视角，讨论跳槽时与前同事沟通的边界，引用本案聊天记录作为警示。",
-            "needs_hands_on": false,
-            "risk": "聊天记录具体内容未披露，需核实原始法庭文件。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "AI 从业者跳槽避坑指南：从 Apple 诉 OpenAI 学到的 3 个法律要点",
-            "angle": "以小红书风格，总结跳槽时如何避免商业秘密纠纷，包括沟通记录、技术资料处理等。",
-            "needs_hands_on": false,
-            "risk": "法律建议需咨询专业律师，本文仅基于公开报道。"
-          },
-          {
-            "platform": "wechat",
-            "title": "Apple 诉 OpenAI：商业秘密诉讼背后的 AI 人才争夺战",
-            "angle": "深度分析 AI 行业人才竞争与法律风险，探讨对开发者职业选择的影响。",
-            "needs_hands_on": false,
-            "risk": "诉讼进展未定，需跟踪后续法院裁决。"
-          }
-        ]
-      }
-    },
-    "188738b03fceef38e92bfd2f8a6abdfeb9603e62": {
-      "generated_at": "2026-08-04T12:26:18.816913Z",
-      "enrichment": {
-        "summary_zh": "GitHub 新增 Copilot 云代理自动化，可由 issue 或 PR 评论触发，指定评论文本即可运行，如生成文档。Copilot Pro、Pro+、Max、Business",
-        "why_it_matters": "评论触发自动化简化了开发流程，减少手动操作，提升效率。但需注意策略配置和触发文本的准确性，避免误触发。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "GitHub Copilot 自动化新玩法：评论即触发",
-            "angle": "实测评论触发自动化，分享配置步骤和实际效果，强调效率提升和潜在坑。",
-            "needs_hands_on": true,
-            "risk": "未亲测，需验证触发文本匹配规则和权限要求。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "GitHub Copilot 自动化：评论触发，文档自动生成",
-            "angle": "手把手教程，展示如何设置评论触发自动化，生成文档，附避坑指南。",
-            "needs_hands_on": true,
-            "risk": "未亲测，需确认具体配置界面和触发条件。"
-          },
-          {
-            "platform": "wechat",
-            "title": "GitHub Copilot 自动化更新：评论触发，重塑开发工作流",
-            "angle": "分析该功能对团队协作和 CI/CD 流程的影响，探讨自动化策略和最佳实践。",
-            "needs_hands_on": false,
-            "risk": "需核实企业版策略配置细节。"
-          }
-        ]
-      }
-    },
     "5bc94edc914c85eb6b1e3830c7f8e896dbfcc8df": {
       "generated_at": "2026-08-04T23:25:18.919578Z",
       "enrichment": {
@@ -12913,7 +12515,457 @@
           }
         ]
       }
+    },
+    "464bd0c0c28869f43cadebd720fc71636e1ec41c": {
+      "generated_at": "2026-08-25T22:53:25.544136Z",
+      "enrichment": {
+        "summary_zh": "GitHub Copilot 应用的自定义标签页正式发布，将 MCP 服务器、插件、技能和画布统一收拢到一处，提供精选配置浏览，方便团队集中管理和配置 Copilot 工作流。",
+        "why_it_matters": "统一管理扩展与配置，降低团队接入 MCP、插件和技能的成本，改善 Copilot 与现有工具链的集成效率，减少零散配置的维护负担。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "GitHub Copilot 新增 Customize 页：MCP/插件/技能一屏管理，实测体验如何？",
+            "angle": "以开发者身份第一时间打开 Customize 页，展示统一管理界面，对比之前分散配置的差异，并实测添加一个 MCP server 的流程是否顺畅。",
+            "needs_hands_on": true,
+            "risk": "官方公告未提供具体 UI 截图和操作细节，仅基于 changelog 描述，实际功能可能需要亲测验证。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "GitHub Copilot 自定义页上线！3 步配置团队 MCP 和技能",
+            "angle": "以图文步骤形式演示如何进入 Customize 页、浏览精选配置、添加 MCP 服务器和技能，分享配置过程中遇到的兼容性问题和避坑指南。",
+            "needs_hands_on": true,
+            "risk": "未亲测实际界面和选项，操作步骤可能因版本不同而有差异，需以官方文档为准。"
+          },
+          {
+            "platform": "wechat",
+            "title": "GitHub Copilot 的 Customize 页：统一扩展生态，企业级配置将走向何方？",
+            "angle": "从 Copilot 扩展生态演进、MCP 标准普及、企业内部分级配置需求等角度，分析 Customize 页对开发工作流和团队管理方式的长期影响。",
+            "needs_hands_on": false,
+            "risk": "官方公告信息有限，未提供详细能力边界和权限控制说明，需结合后续文档分析。"
+          }
+        ]
+      }
+    },
+    "9360f2d4798c72f5708f8d12288a3180e84ed729": {
+      "generated_at": "2026-08-25T22:53:25.544136Z",
+      "enrichment": {
+        "summary_zh": "Anthropic在GitHub上新建了官方仓库anthropics/claude-plugins-official，作为Claude Code插件目录。该消息目前仅来自单一来源，",
+        "why_it_matters": "官方插件目录的诞生意味着Claude Code插件将走向规范化，开发者未来可更可靠地发现和安装插件，但当前消息来源单一，需等待官方进一步说明",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "我扒了一遍Anthropic刚上线的Claude Code插件目录",
+            "angle": "以开发者第一视角，第一时间查看官方插件仓库，看看有哪些值得装的插件，以及官方目录对插件生态的影响。",
+            "needs_hands_on": true,
+            "risk": "仓库内容尚未实际核实，插件列表和可用性需要验证。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "Claude Code官方插件目录来了！手把手教你找到靠谱插件",
+            "angle": "以小红书风格，分享如何访问官方插件目录，并给出查找和安装插件的步骤，提醒避开非官方来源。",
+            "needs_hands_on": true,
+            "risk": "未实际安装插件，步骤可能不完整。"
+          },
+          {
+            "platform": "wechat",
+            "title": "Anthropic上线Claude Code插件目录，生态分水岭到了？",
+            "angle": "从行业角度分析官方插件目录对Claude Code生态的影响，以及开发者如何应对插件生态的规范化。",
+            "needs_hands_on": false,
+            "risk": "单一来源，官方目录的具体内容和规划尚未透露。"
+          }
+        ]
+      }
+    },
+    "eefdacf32b907707ee37c4994a17a43fc2aea54b": {
+      "generated_at": "2026-08-25T22:53:25.544136Z",
+      "enrichment": {
+        "summary_zh": "Andrew Ng 旗下开源智能体 OpenWorker 发布新版，harness 完全开源可审计。新增代码漏洞扫描、依赖供应链注入检测、云安全配置检查三类网络安全智能体，支持本地",
+        "why_it_matters": "开源可审计的智能体可嵌入开发流程，在本地完成三类安全检查，降低供应链风险，同时保护代码隐私，可能改变 DevSecOps 工具选型。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "Andrew Ng 开源智能体 OpenWorker 新版：内置三类安全扫描，开发者实测如何？",
+            "angle": "以开发者身份，看到 Andrew Ng 推文后立即下载 OpenWorker，实测代码漏洞扫描、依赖供应链检测和云安全配置检查，看它是否真的能发现真实项目里的问题。",
+            "needs_hands_on": true,
+            "risk": "仅来自 Andrew Ng 单一推文，未亲测；需确认实际安装步骤和扫描效果。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "OpenWorker 本地安全扫描实战：安装避坑与效果对比",
+            "angle": "手把手教大家用 OpenWorker 在本地跑开源模型进行代码安全扫描，包括环境配置、常见报错，以及扫描结果如何解读，适合想保护敏感代码又不想上传的开发者。",
+            "needs_hands_on": true,
+            "risk": "未亲测，具体版本号、依赖要求待确认；本地模型运行对硬件要求未知。"
+          },
+          {
+            "platform": "wechat",
+            "title": "AI Coding 智能体介入网络安全：OpenWorker 新版的技术路线与 DevSecOps 前景",
+            "angle": "从 Andrew Ng 发布 OpenWorker 新版切入，分析开源智能体在网络安全领域的机会：可审计性、本地模型隐私、三类自动化扫描对开发流程的长期影响，以及开源社区如何参与。",
+            "needs_hands_on": false,
+            "risk": "单一来源，需进一步确认功能细节和实际能力。"
+          }
+        ]
+      }
+    },
+    "409dbfcfc6aa28488620c725afc2d54b9bb5b3f5": {
+      "generated_at": "2026-08-25T22:53:25.544136Z",
+      "enrichment": {
+        "summary_zh": "IBM 发布 Granite 4.2 技术博客，详解 3B/8B/30B 三尺寸模型从零预训练约 15T tokens、512K 上下文扩展，以及多阶段 RL 让 8B/30B 在",
+        "why_it_matters": "Granite 4.2 提供可本地部署的开源模型选项，其 512K 上下文与工具调用能力将影响开发者在代码生成、Agent 场景下的模型选型",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "Granite 4.2 技术博客速读：IBM 如何让 8B 模型在沙盒里学会调用工具",
+            "angle": "第一人称快速解读关键数字（15T tokens、512K 上下文）和 RL 训练流程，对比其他开源模型，指出实测差异。",
+            "needs_hands_on": true,
+            "risk": "未亲自运行模型，实际工具调用效果和性能待验证。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "手把手读懂 Granite 4.2 构建流程｜从预训练到 RLHF 的避坑指南",
+            "angle": "以笔记形式拆解博客中的关键步骤，强调数据质量控制和 RL 阶段设计，给想复现类似训练的开发者提供步骤和注意点。",
+            "needs_hands_on": true,
+            "risk": "博客未提供完整超参数，部分细节需查原论文或后续报告。"
+          },
+          {
+            "platform": "wechat",
+            "title": "Granite 4.2 背后的技术体系：15T tokens 预训练与多阶段 RL 的长期影响",
+            "angle": "从宏观角度分析 IBM 开源战略、模型尺寸梯度（3B/8B/30B）对开发者生态的影响，以及 512K 上下文的工程挑战。",
+            "needs_hands_on": false,
+            "risk": "需核对博客外部信息，如模型许可证、性能基准和实际部署案例。"
+          }
+        ]
+      }
+    },
+    "1f75d8760e2110f5a847c2e43351ae7e18a6746c": {
+      "generated_at": "2026-08-25T22:53:25.544136Z",
+      "enrichment": {
+        "summary_zh": "Google AI 发布 WeatherNext 气旋模型，官方称可同时预测路径/强度/规模，比现有系统多一天预警；实战中提前五天预警五级飓风。美国国家飓风中心首次实时使用 AI，",
+        "why_it_matters": "该模型开源代码与权重，展示了 AI 批量生成预测模拟的工程范式，开发者可借鉴其推理管道，但需评估算力成本与模型验证边界。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "WeatherNext 开源了，我试着本地跑了一下",
+            "angle": "以开发者第一人称，迅速克隆仓库、尝试推理，对比官方算力要求，实测跑不跑得动。",
+            "needs_hands_on": true,
+            "risk": "未亲测；官方数据基于高性能云环境，本地硬件和依赖未必兼容。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "手把手：从 GitHub 拉取 WeatherNext 到生成一次飓风预测",
+            "angle": "记录每一步安装、依赖、数据准备和输出，分享踩坑和性能瓶颈。",
+            "needs_hands_on": true,
+            "risk": "步骤未经实操验证，可能因环境而异。"
+          },
+          {
+            "platform": "wechat",
+            "title": "当美国国家飓风中心首次用 AI 预报：WeatherNext 背后是范式转移",
+            "angle": "分析该事件背景：气象预报从物理模型到生成式 AI 的转变，对开发者社区和防灾工作流的意义。",
+            "needs_hands_on": false,
+            "risk": "单一来源，需交叉验证官方声明。"
+          }
+        ]
+      }
+    },
+    "828eb9306e178d803e977c590dbe2984723bd71f": {
+      "generated_at": "2026-08-25T22:53:25.544136Z",
+      "enrichment": {
+        "summary_zh": "宝玉发文复盘BaoCut远程转录功能的AI原生开发流程，涵盖可行性分析、设计文档、高精度原型、Agent实现、自验证及人工黑盒测试，强调代码环节最易交给AI，人的决策与验证才是关键",
+        "why_it_matters": "展示AI从代码助手升级为完整开发协作系统的方法，核心是人机分工与验证闭环，对开发者流程设计和工具选型有参考价值。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "用AI做完整功能，我踩过的坑和复盘",
+            "angle": "以第一人称分享复刻该流程的体验，对比自己平时直接用Agent写代码的差异，强调设计文档和黑盒测试的必要性。",
+            "needs_hands_on": true,
+            "risk": "未亲测该流程，具体步骤和效果依据原文描述，需验证可行性。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "AI原生开发流程5步法，从需求到上线避坑指南",
+            "angle": "拆解为步骤清单，配文字说明每个环节的输入输出，突出可行性分析和高精度原型如何避免后期返工。",
+            "needs_hands_on": true,
+            "risk": "原帖为社区复盘，无原始数据支持，步骤细节依赖转载准确性。"
+          },
+          {
+            "platform": "wechat",
+            "title": "AI开发进入第二阶段：你的流程还停留在写代码吗？",
+            "angle": "从行业视角分析AI原生开发的范式转变，结合原文案例讨论设计文档、自验证、黑盒测试在团队协作中的长期价值。",
+            "needs_hands_on": false,
+            "risk": "需确认原文作者身份及案例真实性，避免过度解读。"
+          }
+        ]
+      }
+    },
+    "fdcf330c6c97adc581e40b888b774c4b07ae8bdb": {
+      "generated_at": "2026-08-25T22:53:25.544136Z",
+      "enrichment": {
+        "summary_zh": "Keenable 为 AI 代理构建网络搜索索引，宣布完成由 Accel 领投的 2600 万美元种子轮融资，并称多个 AI 实验室已使用其 API。开发者或获得新的搜索后端选项，",
+        "why_it_matters": "AI 代理依赖网络搜索获取实时信息，Keenable 提供专门索引。开发者需评估其与现有方案的性能、成本和兼容性，影响代理工具的技术选型。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "Keenable 融资 2600 万美元，AI 代理搜索索引能否取代传统搜索 API？",
+            "angle": "作为开发者，我第一时间申请了 Keenable 的 API，对比 SerpAPI 和 Brave，实测延迟和结果质量，发现……",
+            "needs_hands_on": true,
+            "risk": "未亲测 API，需验证其性能、定价及所声称的实验室用户是否属实。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "AI 代理搜索后端怎么选？Keenable 等新竞品避坑指南",
+            "angle": "我尝试接入 Keenable，记录完整步骤和踩坑点，比如文档不全、超额计费，分享给大家参考。",
+            "needs_hands_on": true,
+            "risk": "未亲测，需核实文档完整性、计费方式和稳定性。"
+          },
+          {
+            "platform": "wechat",
+            "title": "AI 代理的搜索基础设施：Keenable 融资背后的开发者生态变局",
+            "angle": "从技术演进看，AI 代理搜索索引将如何改变工具链，开发者应关注哪些风险，以及融资对市场格局的长期影响。",
+            "needs_hands_on": false,
+            "risk": "需核实 Keenable 市场份额及‘多个 AI 实验室’的具体名称和采用情况。"
+          }
+        ]
+      }
+    },
+    "3382a6366c035f413dc71beb2b26fd526ae4c379": {
+      "generated_at": "2026-08-25T22:53:25.544136Z",
+      "enrichment": {
+        "summary_zh": "Google发布面向法律行业的Gemini Enterprise for Legal，通过MCP连接器对接iManage、DocuSign、Everlaw等系统，Deloitte等",
+        "why_it_matters": "MCP连接器成为企业级AI集成的关键接口，法律垂直场景落地加速，开发者需关注不同厂商MCP生态差异及合规风险。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "Google用MCP把法律软件串起来了，但Anthropic早就这么干了",
+            "angle": "对比Google与Anthropic的MCP策略，强调企业AI集成正在从通用助手走向垂直工作流",
+            "needs_hands_on": true,
+            "risk": "单一信源，未亲测Gemini Enterprise for Legal，Deloitte合作细节及MCP连接器兼容性待核实"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "法律AI接入MCP实操：用Gemini还是Claude？避坑指南",
+            "angle": "从开发者视角讲解如何通过MCP连接器对接iManage、DocuSign等系统，分享集成步骤与数据合规注意事项",
+            "needs_hands_on": true,
+            "risk": "未实测Gemini Enterprise for Legal，MCP连接器实际效果和配置要求需官方文档确认"
+          },
+          {
+            "platform": "wechat",
+            "title": "MCP成为AI Agent的USB-C：Google入局法律行业的信号",
+            "angle": "分析MCP连接器如何成为企业级AI集成标准，Google与Anthropic的竞争对开发者和企业选型的影响",
+            "needs_hands_on": false,
+            "risk": "单一信源，需交叉验证Google官方公告及Anthropic同类方案的细节"
+          }
+        ]
+      }
+    },
+    "cc137ece04a403369311821f44c253bb8e435c52": {
+      "generated_at": "2026-08-25T22:53:25.544136Z",
+      "enrichment": {
+        "summary_zh": "Show HN 发布 MulmoTerminal，一款在终端中并行运行多个 Claude Code 会话、并提示哪些会话需要用户关注的工具。目前仅单一来源，功能与稳定性未经独立验证",
+        "why_it_matters": "面向同时管理多个 AI 编码任务的开发者，可能提升并行工作流的可见性与效率，但需注意多会话资源消耗、上下文隔离及中断处理等工程风险。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "MulmoTerminal 实测：同时跑 5 个 Claude Code 会话是什么体验",
+            "angle": "作为开发者，我立刻 clone 了这个工具，测试多会话并行时的响应速度、资源占用和提示机制，分享真实感受。",
+            "needs_hands_on": true,
+            "risk": "尚未实际运行，功能细节和稳定性需核实；单一来源，可能为实验性项目。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "Claude Code 多开神器？MulmoTerminal 安装与避坑指南",
+            "angle": "手把手演示安装和启动多个会话的步骤，展示界面如何区分哪些会话在等待输入，并列出常见问题。",
+            "needs_hands_on": true,
+            "risk": "需要验证与现有终端、Claude Code 版本的兼容性；未提供截图或文档细节。"
+          },
+          {
+            "platform": "wechat",
+            "title": "当 AI 编码助手学会并行：从 Claude Code 多会话看开发工作流演进",
+            "angle": "从工具链演进角度分析，为什么会出现这类多会话管理器，对开发效率、成本控制和团队协作可能带来哪些长期影响。",
+            "needs_hands_on": false,
+            "risk": "原文未提供性能数据或设计原理，分析需基于一般 AI 编码工具背景，避免臆测。"
+          }
+        ]
+      }
+    },
+    "36fda405c22814a22e6ad790b0270a562dbb4237": {
+      "generated_at": "2026-08-25T22:53:25.544136Z",
+      "enrichment": {
+        "summary_zh": "GitHub 分享上线前评估 LLM 的实战经验：干净基准表现好不等于生产可靠。针对 secret scanning 误报问题，提出以召回率为安全约束的三级评估框架，帮助团队验证模",
+        "why_it_matters": "提醒开发者在将 LLM 用于生产任务时，不能只依赖基准测试，需设计贴近真实场景的评估流程，减少误报和工程风险，避免模型上线后翻车。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "基准测试不可信？GitHub 如何评估 LLM 上线风险",
+            "angle": "作为开发者，我读了一份 GitHub 的评估指南，发现我们常依赖的基准其实有坑，分享一下三级评估框架和我的看法。",
+            "needs_hands_on": true,
+            "risk": "未亲自复现文中实验，需结合自身场景验证。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "上线前评估 LLM 的 3 个步骤，避坑指南",
+            "angle": "来抄作业！GitHub 官方给出的 LLM 评估三步法，每一步怎么操作，以及最容易踩的坑，亲测有效。",
+            "needs_hands_on": true,
+            "risk": "未用实际数据验证，具体效果因业务而异。"
+          },
+          {
+            "platform": "wechat",
+            "title": "从基准到生产：LLM 评估的体系化思考",
+            "angle": "GitHub 博客文章让我思考，LLM 评估不能只看准确率，更要看召回率等安全指标。本文分析三级评估框架背后的逻辑，以及对企业构建 AI 应用的长期影响。",
+            "needs_hands_on": false,
+            "risk": "需核实文章中的案例细节，避免过度解读。"
+          }
+        ]
+      }
+    },
+    "dd0dcafd8fbfd80656ef501919e746ea5371fe4a": {
+      "generated_at": "2026-08-25T22:53:25.544136Z",
+      "enrichment": {
+        "summary_zh": "GitHub 更新：现在可从安全公告页面直接屏蔽用户，适用于组织和个人的公开仓库，将 issues/PR 的简化审核体验扩展到安全公告，减少维护者跳转步骤。",
+        "why_it_matters": "安全公告包含用户生成内容，维护者在处理漏洞报告时可同步完成屏蔽操作，降低上下文切换成本，提升仓库治理与供应链安全响应效率。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "GitHub 新操作：从安全公告直接拉黑用户，亲测省了这几步",
+            "angle": "以维护者第一人称记录发现屏蔽入口的过程，对比旧流程跳转设置/用户资料页的繁琐，强调组织库和个人库的权限差异，呼吁大家实测反馈。",
+            "needs_hands_on": true,
+            "risk": "未实际验证 UI 入口位置；需确认组织库中仅管理员/版主可操作、个人库仅所有者可操作的边界条件。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "三步从 GitHub 安全公告屏蔽骚扰用户（附权限避坑）",
+            "angle": "用截图教程展示从 security advisory 页面找到屏蔽按钮的步骤，对比 issues/PR 中的已有入口，提醒公开仓库才生效、组织库权限限制等陷阱，结尾可邀读者在评论区补充实测结果。",
+            "needs_hands_on": true,
+            "risk": "未亲测 UI 具体位置，仅依据官方 changelog 描述；需核实是否所有公开仓库页面均即时生效。"
+          },
+          {
+            "platform": "wechat",
+            "title": "GitHub 将安全公告纳入内容审核：维护者工作流的下一步",
+            "angle": "从 GitHub 陆续统一 issues、PR、安全公告的审核入口切入，分析其背后对开源项目治理模式的影响，以及安全公告被当作常规内容源对维护者和安全研究员的长期意义，延伸到漏洞披露流程的信任建设。",
+            "needs_hands_on": false,
+            "risk": "需要进一步确认该功能是否逐步向所有用户推送，以及未来是否会扩展到私有仓库或 Security Advisory 相关 API。"
+          }
+        ]
+      }
+    },
+    "8febeaeb448c051c67b43e5fa7fd9900687c9436": {
+      "generated_at": "2026-08-25T22:53:25.544136Z",
+      "enrichment": {
+        "summary_zh": "GitHub 规则集中的推送规则现支持路径例外，可对指定文件路径豁免规则，实现更精细控制，目前处于公开预览阶段。",
+        "why_it_matters": "允许开发者按路径精确豁免推送检查，减少误拦截和规则配置冲突，提升 CI/CD 工作流的灵活性与维护效率。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "GitHub 推送规则新增路径例外：实测配置体验",
+            "angle": "第一人称快速测试路径例外是否真能按目录豁免，对比之前靠文件级规则拼凑的做法，分享配置和验证的直观感受。",
+            "needs_hands_on": true,
+            "risk": "公开预览功能可能调整；未亲测路径通配符语法和与现有规则的优先级。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "GitHub 推送规则路径例外配置教程：三步搞定 + 避坑",
+            "angle": "以实操步骤讲解在哪开启路径例外，如何选择路径、保存时验证模式，以及我踩到的通配符写法和作用域边界问题。",
+            "needs_hands_on": true,
+            "risk": "未验证企业版/免费版功能差异，以及预览期可能的权限限制。"
+          },
+          {
+            "platform": "wechat",
+            "title": "从规则集到路径例外：GitHub 仓库治理的精细化演进",
+            "angle": "梳理 GitHub 规则集产品脉络，分析路径例外解决的工程管理痛点，以及对大型仓库分支策略和审计合规的长期影响。",
+            "needs_hands_on": false,
+            "risk": "公开预览阶段，示例和文档可能后续更新；需关注正式版形态。"
+          }
+        ]
+      }
+    },
+    "67748f97552bbdee7d23aca840bde4067ffca05a": {
+      "generated_at": "2026-08-25T22:53:25.544136Z",
+      "enrichment": {
+        "summary_zh": "OpenAI 发布定制推理芯片 Jalapeño 首批实测结果：在 GPT-OSS 120B、DeepSeek R1 和 Kimi K2.5 1T 上，每瓦特工作量比对比系统高 1",
+        "why_it_matters": "定制芯片降低推理成本与延迟，影响 AI Coding 工具的服务端性能与性价比，开发者可能受益于更快的代码生成响应。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "OpenAI自研芯片Jalapeño实测：推理性能翻倍，AI Coding会更快吗？",
+            "angle": "第一人称，从开发者视角看芯片对模型推理速度的影响，讨论对AI编程助手响应时间的潜在改变。",
+            "needs_hands_on": true,
+            "risk": "未亲测，官方数据需独立验证。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "实测数据拆解：OpenAI Jalapeño芯片到底快多少？避坑指南",
+            "angle": "用小红书风格，展示每瓦特性能、延迟对比，给开发者选型云服务时参考，提醒关注基准测试条件。",
+            "needs_hands_on": true,
+            "risk": "基准测试环境未公开细节。"
+          },
+          {
+            "platform": "wechat",
+            "title": "从Jalapeño看AI推理芯片竞争：对开发工作流的深远影响",
+            "angle": "公众号深度，分析OpenAI自研芯片对AI Coding生态、成本结构和未来模型部署的影响。",
+            "needs_hands_on": false,
+            "risk": "行业影响预测需谨慎，仅基于官方数据。"
+          }
+        ]
+      }
+    },
+    "1031675df5ec795df2e4a90dc194112decade9aa": {
+      "generated_at": "2026-08-25T22:53:25.544136Z",
+      "enrichment": {
+        "summary_zh": "据 Anthropic 官方博客，Claude 记忆现已打通聊天与 Cowork，对话中可调用既有上下文。记忆实时更新，用户可按主题查看、编辑或删除。健康、信仰等敏感话题默认不存储",
+        "why_it_matters": "对开发者而言，Claude 记忆统一意味着聊天与 Cowork 中共享长期上下文，减少重复解释，但自动记忆可能引入错误背景，影响编码建议，需",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "Claude 记忆全场景打通，我实测了它到底能记住多少",
+            "angle": "以第一人称快速实测，对比聊天与 Cowork 中的记忆一致性，分享令人意外的细节和潜在风险。",
+            "needs_hands_on": true,
+            "risk": "尚未实际试用，官方博客为单一信源，需验证记忆实时更新和编辑删除的实际效果。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "Claude 记忆设置避坑教程｜逐条编辑、敏感话题开关一步都不能漏",
+            "angle": "手把手展示 Memory 设置中查看、编辑、删除记忆的步骤，重点标记敏感话题默认关闭等易忽略选项。",
+            "needs_hands_on": true,
+            "risk": "需亲测官方声称的设置界面和交互路径是否一致。"
+          },
+          {
+            "platform": "wechat",
+            "title": "Anthropic 统一记忆体系：AI Coding 竞争进入上下文争夺战",
+            "angle": "从 AI 编码工具演进角度分析记忆跨场景打通对开发者工作流、隐私边界和工具选型的长期影响。",
+            "needs_hands_on": false,
+            "risk": "基于单篇官方博客，需结合更多来源交叉验证行业影响判断。"
+          }
+        ]
+      }
+    },
+    "cb7a50ecf45533ddaad9e37486026985960281d7": {
+      "generated_at": "2026-08-25T22:53:25.544136Z",
+      "enrichment": {
+        "summary_zh": "OpenAI封禁了一批利用ChatGPT生成内容的俄罗斯秘密影响力行动账号。这些账号通过VPN从俄罗斯访问，虚构“International Burke Institute”，用德",
+        "why_it_matters": "该事件显示生成式AI可被低成本用作宣传工具。开发者部署文本生成功能时，需同步考虑内容溯源、滥用检测和平台风控，否则模型能力可能被恶意利用。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "OpenAI刚端掉的俄罗斯AI宣传号，我扒了它的原型研究所",
+            "angle": "从OpenAI公告顺藤摸瓜，分析其虚构机构与真实智库的区别，以及伪造手法的破绽。",
+            "needs_hands_on": true,
+            "risk": "单一信源，未访问原始OpenAI报告；34篇抄袭文章和具体账号名单需核实。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "别再被AI写的“洋智库”带节奏了，三步识别生成式宣传号",
+            "angle": "教读者通过信息来源、内容模式、语法特征识别AI生成的宣传内容，附上OpenAI公开的案例细节。",
+            "needs_hands_on": false,
+            "risk": "案例细节以OpenAI声明为准；Telegram频道粉丝数“上万”需确认。"
+          },
+          {
+            "platform": "wechat",
+            "title": "从俄罗斯用ChatGPT搞宣传说起：AI影响力行动的攻防逻辑",
+            "angle": "结合网络安全与生成式AI，分析AI降低虚假信息制作门槛的长期影响，以及平台应对的难点。",
+            "needs_hands_on": false,
+            "risk": "单一信源，需交叉验证其他媒体转载。"
+          }
+        ]
+      }
     }
   },
-  "updated_at": "2026-08-25T10:51:40.784619Z"
+  "updated_at": "2026-08-25T22:53:25.544136Z"
 }
