@@ -1,576 +1,6 @@
 {
   "version": 1,
   "entries": {
-    "5bc94edc914c85eb6b1e3830c7f8e896dbfcc8df": {
-      "generated_at": "2026-08-04T23:25:18.919578Z",
-      "enrichment": {
-        "summary_zh": "GitHub 已停用 Copilot Billing Preview 应用，其功能整合进账单设置，现可直接在 GitHub 账单中查看和管理 Copilot 支出，支持用户级预算、",
-        "why_it_matters": "开发者无需第三方应用即可管理 Copilot 成本，预算和用量池功能有助于控制 AI 编码支出，影响团队成本管理流程。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "GitHub 停用 Copilot Billing Preview：账单管理更简单了？",
-            "angle": "作为开发者，我实测了新的账单设置，发现预算和用量池功能很实用，但迁移过程有坑。",
-            "needs_hands_on": true,
-            "risk": "未亲测新账单设置的具体界面和功能，需验证用户级预算和成本中心是否如文档所述。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "GitHub Copilot 账单管理新手指南：告别 Preview 应用",
-            "angle": "手把手教你如何在 GitHub 账单设置中管理 Copilot 支出，包括设置预算和用量池，避免超支。",
-            "needs_hands_on": true,
-            "risk": "未验证所有步骤，需确认界面路径和功能选项是否与文档一致。"
-          },
-          {
-            "platform": "wechat",
-            "title": "GitHub Copilot 计费演进：从 Preview 应用到整合账单，开发者成本管理的新时代",
-            "angle": "分析 GitHub 停用 Preview 应用的背景，探讨其对开发者成本管理的影响，以及未来 AI 编码工具计费趋势。",
-            "needs_hands_on": false,
-            "risk": ""
-          }
-        ]
-      }
-    },
-    "4b51a604a2b48febe197f6d90af30d7a8f875f2e": {
-      "generated_at": "2026-08-04T23:25:18.919578Z",
-      "enrichment": {
-        "summary_zh": "GitHub 推出 github-codeql-config-file 仓库属性，允许组织通过单一配置文件自定义 CodeQL 代码扫描默认设置，支持仓库级覆盖，已全面可用并随 G",
-        "why_it_matters": "统一管理 CodeQL 扫描配置，减少重复设置，提升安全策略一致性，降低大规模仓库的维护成本。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "GitHub 新属性：用单一配置文件搞定全组织 CodeQL 扫描",
-            "angle": "作为开发者，我第一时间测试了 github-codeql-config-file，发现配置覆盖和继承逻辑很清晰，但要注意仓库级覆盖的优先级。",
-            "needs_hands_on": true,
-            "risk": "未亲测仓库级覆盖与组织级配置的优先级细节，需实际验证。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "GitHub 代码扫描新玩法：一个配置文件管全组织",
-            "angle": "手把手教你如何设置 github-codeql-config-file，从创建配置文件到应用到组织，附避坑指南。",
-            "needs_hands_on": true,
-            "risk": "未验证所有配置项，需参考官方文档。"
-          },
-          {
-            "platform": "wechat",
-            "title": "GitHub 代码扫描默认设置升级：大规模自定义的工程实践",
-            "angle": "分析该功能对大型组织安全策略管理的影响，探讨如何结合 CodeQL 提升代码安全。",
-            "needs_hands_on": false,
-            "risk": ""
-          }
-        ]
-      }
-    },
-    "e7e50553ce663aa00ddd1e29ebdde54a9c7fdda8": {
-      "generated_at": "2026-08-04T23:25:18.919578Z",
-      "enrichment": {
-        "summary_zh": "GitHub 宣布 Spark 将于 2026 年 8 月 4 日停止新用户注册和新应用创建，8 月 31 日关闭，已部署应用不受影响。其 llm() 依赖的 GitHub Mod",
-        "why_it_matters": "GitHub Spark 的弃用影响依赖其快速构建 AI 应用的开发者，需迁移至其他平台，并调整 llm() 调用方式，增加迁移成本。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "GitHub Spark 弃用：我的 AI 应用何去何从？",
-            "angle": "作为开发者，分享我使用 GitHub Spark 的经历，以及面对弃用时的迁移计划和备选方案。",
-            "needs_hands_on": true,
-            "risk": "需确认弃用日期和迁移细节，未亲测迁移过程。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "GitHub Spark 即将关闭！开发者必看迁移指南",
-            "angle": "以教程形式，分步骤讲解如何导出已创建的应用，以及如何将 llm() 调用迁移到其他服务，附上避坑提示。",
-            "needs_hands_on": true,
-            "risk": "需验证导出流程和替代服务的兼容性，未亲测所有步骤。"
-          },
-          {
-            "platform": "wechat",
-            "title": "GitHub Spark 弃用背后：AI 开发平台的迭代与风险",
-            "angle": "从行业角度分析 GitHub Spark 弃用的原因，以及对 AI 开发平台生态和开发者技术选型的影响。",
-            "needs_hands_on": false,
-            "risk": "需核实 GitHub Models 退役的具体影响，避免过度推测。"
-          }
-        ]
-      }
-    },
-    "c16ea84a744dfede3178693b7ea886b60f932233": {
-      "generated_at": "2026-08-04T23:25:18.919578Z",
-      "enrichment": {
-        "summary_zh": "GitHub法务团队用Copilot CLI自动化合同审查，产品律师Ngandu Kasuku开发开源工具terms-ai，将审阅和起草时间缩短约一半，并内置简明语言风格指南，无需",
-        "why_it_matters": "展示非技术角色也能用AI Coding工具自建工作流，降低自动化门槛，可能改变团队协作方式，提升效率。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "法务用Copilot CLI把合同审查时间砍半，我试了试terms-ai",
-            "angle": "亲测terms-ai，对比手动审查流程，分享实际效果和上手难度。",
-            "needs_hands_on": true,
-            "risk": "未亲测terms-ai，具体时间缩短比例需验证。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "不用写代码！用Copilot CLI自建工具，法务团队效率翻倍",
-            "angle": "以非技术身份分享使用Copilot CLI的步骤、结果和避坑指南。",
-            "needs_hands_on": true,
-            "risk": "需确认Copilot CLI的配置和使用细节。"
-          },
-          {
-            "platform": "wechat",
-            "title": "AI Coding工具如何赋能非技术团队：GitHub法务案例解析",
-            "angle": "分析AI Coding工具在非技术场景的潜力，探讨对开发工作流和团队协作的长期影响。",
-            "needs_hands_on": false,
-            "risk": ""
-          }
-        ]
-      }
-    },
-    "589fa7f1fe6f986f0baf8ee295f281bea4b857d8": {
-      "generated_at": "2026-08-04T23:25:18.919578Z",
-      "enrichment": {
-        "summary_zh": "Cursor 发布 Mixture-of-Kittens 巨型内核，用于训练 MoE 模型，声称 TFLOP/s 近乎翻倍。该消息来自 Reddit 单一来源，尚未经官方确认。",
-        "why_it_matters": "若属实，可显著提升 MoE 模型训练效率，降低训练成本，影响 AI Coding 工具背后的模型迭代速度。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "Cursor 的 MoE 内核：TFLOP/s 翻倍是真是假？",
-            "angle": "作为开发者，我第一时间查看了 Reddit 帖子，但官方尚未发布。我尝试复现其性能提升，但受限于硬件和代码未公开，无法验证。",
-            "needs_hands_on": true,
-            "risk": "单一来源，未获官方确认，性能数据可能夸大。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "Cursor 新内核实测：MoE 训练提速 2 倍？避坑指南",
-            "angle": "我按照帖子中的方法尝试了 Mixture-of-Kittens 内核，但遇到了一些坑。分享我的实测步骤和结果，以及如何避免踩坑。",
-            "needs_hands_on": true,
-            "risk": "未亲测，内核代码可能未公开，实际效果待验证。"
-          },
-          {
-            "platform": "wechat",
-            "title": "Cursor 发布 MoE 训练内核：对 AI Coding 生态的深远影响",
-            "angle": "从 Cursor 发布 Mixture-of-Kittens 内核，看 AI 编程工具如何通过底层优化提升模型训练效率，进而影响开发者工作流和成本。",
-            "needs_hands_on": false,
-            "risk": "需核实官方发布信息，避免基于单一来源过度解读。"
-          }
-        ]
-      }
-    },
-    "3ff6382e040e85c556f6f8568082b3a50962628b": {
-      "generated_at": "2026-08-04T23:25:18.919578Z",
-      "enrichment": {
-        "summary_zh": "GitHub 发布 CodeQL 2.26.2，新增对 Swift 6.3.3 和 Kotlin 2.4.10 的支持，并提升 path injection、URL redirec",
-        "why_it_matters": "CodeQL 更新让 Swift 和 Kotlin 开发者能使用最新语言特性进行安全扫描，提升查询精度有助于减少误报，影响依赖 CodeQL",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "CodeQL 2.26.2 实测：Swift 6.3.3 和 Kotlin 2.4.10 支持带来的变化",
-            "angle": "分享升级 CodeQL 后运行扫描的体验，对比旧版本在 Swift/Kotlin 项目上的表现，突出新版本对最新语言特性的支持。",
-            "needs_hands_on": true,
-            "risk": "未亲测，需验证新版本对 Swift 6.3.3 和 Kotlin 2.4.10 的实际支持程度及查询精度提升效果。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "CodeQL 2.26.2 升级指南：Swift 和 Kotlin 安全扫描避坑",
-            "angle": "以步骤形式介绍如何升级 CodeQL 并配置 Swift/Kotlin 项目，分享常见问题如依赖安装、查询精度调整等。",
-            "needs_hands_on": true,
-            "risk": "未亲测，需确认升级步骤和配置细节，避免误导。"
-          },
-          {
-            "platform": "wechat",
-            "title": "CodeQL 2.26.2 发布：对 Swift/Kotlin 安全生态的长期影响",
-            "angle": "从安全工具链角度分析 CodeQL 更新对 Swift 和 Kotlin 开发者的意义，探讨语言支持扩展对供应链安全的影响。",
-            "needs_hands_on": false,
-            "risk": ""
-          }
-        ]
-      }
-    },
-    "57d3224d446af763d1e6e37d2ee9f1cf1c5e8275": {
-      "generated_at": "2026-08-04T23:25:18.919578Z",
-      "enrichment": {
-        "summary_zh": "Anthropic 发布 Claude Code v2.1.222，具体更新内容待查，官方发布页已确认。",
-        "why_it_matters": "Claude Code 迭代频繁，新版本可能影响开发者日常编码工作流，需关注更新日志以评估升级价值。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "Claude Code v2.1.222 更新速览：我实测了这些新变化",
-            "angle": "第一时间体验新版本，分享实际使用感受，对比旧版差异。",
-            "needs_hands_on": true,
-            "risk": "更新日志未详细说明，需实际安装验证具体改动。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "Claude Code 又更新了！v2.1.222 升级避坑指南",
-            "angle": "以用户视角，提供升级步骤、注意事项和常见问题，帮助他人顺利升级。",
-            "needs_hands_on": true,
-            "risk": "未亲测升级过程，需确认兼容性和潜在问题。"
-          },
-          {
-            "platform": "wechat",
-            "title": "Claude Code 频繁更新背后：AI 编程工具的演进趋势",
-            "angle": "从版本迭代看 AI 编程工具的发展方向，分析对开发者生态的长期影响。",
-            "needs_hands_on": false,
-            "risk": "需基于官方发布历史，避免过度解读。"
-          }
-        ]
-      }
-    },
-    "956c3cfec8a4f6f57c206fcfd2f2749969aeb6eb": {
-      "generated_at": "2026-08-04T23:25:18.919578Z",
-      "enrichment": {
-        "summary_zh": "WaytoAGI 社区发布文章，详解 Claude 的循环工程，涵盖来源、Claude Code 中的四类循环、构建首个循环的步骤，以及循环在后台运行产生费用的四种方式。",
-        "why_it_matters": "循环工程是 AI Coding 自动化的重要模式，理解其构建与成本控制，有助于开发者高效利用 Claude Code 实现无人值守开发，同时",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "我实测了 Claude 循环工程：四类循环与账单陷阱",
-            "angle": "以第一人称分享实测体验，对比四类循环的实际效果，并提醒后台运行的费用风险。",
-            "needs_hands_on": true,
-            "risk": "文章为单一来源，未亲测，需验证四类循环的具体定义和费用细节。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "Claude Code 循环工程避坑指南：如何避免睡觉时烧钱",
-            "angle": "以教程形式，分步骤讲解如何构建第一个循环，并重点列出控制成本的注意事项。",
-            "needs_hands_on": true,
-            "risk": "需核实循环构建的具体步骤和费用产生方式。"
-          },
-          {
-            "platform": "wechat",
-            "title": "循环工程：AI Coding 自动化的新范式与成本博弈",
-            "angle": "从行业背景出发，分析循环工程对开发者工作流的影响，并探讨其长期成本与效率平衡。",
-            "needs_hands_on": false,
-            "risk": "需确认文章内容的准确性和行业代表性。"
-          }
-        ]
-      }
-    },
-    "a6d9b0435e5217d709163e5475a332b908b24cf1": {
-      "generated_at": "2026-08-04T23:25:18.919578Z",
-      "enrichment": {
-        "summary_zh": "Google Cloud API Gateway 推出模型路由 Public Preview，支持在 OpenAPI 3.x 中配置虚拟模型名映射，接收 OpenAI 兼容请求并自",
-        "why_it_matters": "简化多模型接入，降低代理运维成本，但需关注转码兼容性与速率限制，影响开发者工具链选择。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "Google API Gateway 模型路由实测：OpenAI 请求直转 Gemini 的坑与惊喜",
-            "angle": "作为开发者，我第一时间试用了该功能，分享配置步骤和实际转码效果，对比自建代理的差异。",
-            "needs_hands_on": true,
-            "risk": "未亲测，需验证转码准确性及对复杂参数的支持。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "告别自建代理？Google 新功能一键路由多模型，附配置教程",
-            "angle": "以图文教程形式展示如何在 OpenAPI 3.x 中配置模型映射，强调步骤和避坑点。",
-            "needs_hands_on": true,
-            "risk": "需确认 Public Preview 的可用区域和限制。"
-          },
-          {
-            "platform": "wechat",
-            "title": "模型路由标准化：Google Cloud API Gateway 如何影响 AI 应用架构",
-            "angle": "从架构演进角度分析统一 API 对多模型策略、成本控制和可移植性的长期影响。",
-            "needs_hands_on": false,
-            "risk": "需核实官方文档中关于速率限制和令牌跟踪的具体实现。"
-          }
-        ]
-      }
-    },
-    "4f3b2021bbc2145a1f96dca5be88c5a06d0eafd7": {
-      "generated_at": "2026-08-04T23:25:18.919578Z",
-      "enrichment": {
-        "summary_zh": "蚂蚁百灵今日发布Ling-3.0-flash开源权重，提供官方BF16和FP8量化版本，开发者可根据硬件和部署需求选择。",
-        "why_it_matters": "Ling-3.0-flash开源为AI Coding提供新选择，FP8量化降低部署成本，可能影响开发者工具链选型。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "实测蚂蚁Ling-3.0-flash：FP8量化版在消费级GPU上的表现",
-            "angle": "第一时间下载FP8权重，在本地GPU上跑代码生成任务，对比BF16版的速度和输出质量，分享真实体验。",
-            "needs_hands_on": true,
-            "risk": "未亲测，需验证FP8量化对代码生成准确率的影响。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "蚂蚁Ling-3.0-flash开源！手把手教你部署FP8版",
-            "angle": "以教程形式分享部署步骤，包括环境配置、模型下载、推理测试，并附上避坑指南（如显存占用、量化精度损失）。",
-            "needs_hands_on": true,
-            "risk": "未亲测，需确认部署流程和硬件要求。"
-          },
-          {
-            "platform": "wechat",
-            "title": "蚂蚁百灵Ling-3.0-flash开源：AI Coding模型格局再变？",
-            "angle": "分析Ling-3.0-flash开源对国内AI Coding生态的影响，对比其他开源模型（如Qwen、DeepSeek），探讨开发者选择策略。",
-            "needs_hands_on": false,
-            "risk": "需核实模型参数、性能基准等官方数据。"
-          }
-        ]
-      }
-    },
-    "c14d69358a91b848b8807ef6323214e6c9f954ca": {
-      "generated_at": "2026-08-04T23:25:18.919578Z",
-      "enrichment": {
-        "summary_zh": "NVIDIA在FMS大会宣布开源cuFile API及存储软件栈，使GPU可直接读写存储，延迟降至微秒级。其Vera CPU在压缩加密流水线中吞吐量比x86最高提升3.21倍，并联",
-        "why_it_matters": "cuFile开源降低GPU直连存储门槛，影响AI训练数据加载效率；Vera CPU性能提升可能改变存储密集型工作负载的硬件选型，对开发者优化",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "实测cuFile：GPU直连存储真的能微秒级访问吗？",
-            "angle": "分享尝试cuFile API的初步体验，对比传统存储路径的延迟差异，突出新鲜感和实测反差。",
-            "needs_hands_on": true,
-            "risk": "未亲测，需验证微秒级延迟是否在特定硬件条件下成立。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "NVIDIA cuFile开源，AI存储优化避坑指南",
-            "angle": "以开发者视角，介绍cuFile的安装配置步骤，分享遇到的坑和性能调优技巧，强调结果和避坑。",
-            "needs_hands_on": true,
-            "risk": "未亲测，需确认API兼容性和实际性能提升幅度。"
-          },
-          {
-            "platform": "wechat",
-            "title": "从cuFile开源看AI存储架构演进：GPU直连存储的长期影响",
-            "angle": "分析cuFile开源对AI存储生态的影响，结合Storage-Next计划，探讨对开发者工作流和硬件选型的长期影响。",
-            "needs_hands_on": false,
-            "risk": "需核实Storage-Next计划的具体细节和参与厂商。"
-          }
-        ]
-      }
-    },
-    "1ac4b0eb9483013d7167fc5f5c1a011a992d3ffa": {
-      "generated_at": "2026-08-04T23:25:18.919578Z",
-      "enrichment": {
-        "summary_zh": "SpecForge v0.3.0 发布，统一解耦与共置投机解码栈，支持 EAGLE3、EAGLE3.1、P-EAGLE、DFlash、Domino、DSpark 等算法，并新增开放",
-        "why_it_matters": "该版本将目标模型推理与草稿模型训练解耦，简化了投机解码工作流，可能降低推理延迟和成本，影响开发者对推理优化方案的选择。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "SpecForge v0.3.0 实测：解耦后投机解码训练效率提升多少？",
-            "angle": "作为开发者，我第一时间试用了 SpecForge v0.3.0，对比了旧版训练流程，发现解耦后配置更灵活，但实际加速效果因模型而异。",
-            "needs_hands_on": true,
-            "risk": "未亲测所有算法，性能数据需以官方基准为准。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "SpecForge v0.3.0 配置避坑指南：从 EAGLE3 到 DSpark",
-            "angle": "分享我在配置 SpecForge v0.3.0 时遇到的坑，比如不同算法的参数设置和兼容性问题，以及如何快速上手。",
-            "needs_hands_on": true,
-            "risk": "配置细节可能因环境而异，需验证。"
-          },
-          {
-            "platform": "wechat",
-            "title": "投机解码进入新阶段：SpecForge v0.3.0 如何影响 LLM 推理优化",
-            "angle": "从行业视角分析 SpecForge v0.3.0 的意义，解耦设计对训练与推理分离的影响，以及开放 SpecBundle 模型对生态的推动。",
-            "needs_hands_on": false,
-            "risk": "需确认 SpecBundle 模型的具体开放范围和许可。"
-          }
-        ]
-      }
-    },
-    "441b841b240877704a60c9a05907c12380f2d436": {
-      "generated_at": "2026-08-04T23:25:18.919578Z",
-      "enrichment": {
-        "summary_zh": "WaytoAGI 社区发布文章，探讨评测工程：如何构建让 AI 智能体无需人工审核即可合并代码变更的闸门。文章面向 Agent 产品、AI 编程工具及自动化流程开发者，聚焦于判断智",
-        "why_it_matters": "AI 编程工具正从生成代码走向自动合并，评测闸门决定自动化程度与工程风险，影响开发者对 AI 的信任与采用。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "我试了让 AI 自动合并 PR，结果发现评测闸门才是关键",
-            "angle": "以第一人称分享尝试让 AI 自动合并 PR 的体验，强调评测工程的重要性，突出反差：代码生成容易，但安全合并难。",
-            "needs_hands_on": true,
-            "risk": "文章内容未亲测，具体评测方法细节需核实。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "AI 自动合并代码？先搭好这个评测闸门，避免翻车",
-            "angle": "以步骤化方式介绍如何构建评测闸门，分享避坑经验，强调结果：让 AI 合并更安全。",
-            "needs_hands_on": true,
-            "risk": "文章未提供具体实现步骤，需补充实操细节。"
-          },
-          {
-            "platform": "wechat",
-            "title": "评测工程：AI 编程自动化的最后一道防线",
-            "angle": "从行业背景切入，分析评测工程对 AI 编程工具发展的长期影响，强调体系化建设。",
-            "needs_hands_on": false,
-            "risk": "文章为单一来源，需交叉验证观点。"
-          }
-        ]
-      }
-    },
-    "38b55b4c7f42b50bea6dd16e7becdb5bed4ca369": {
-      "generated_at": "2026-08-04T23:25:18.919578Z",
-      "enrichment": {
-        "summary_zh": "谷歌2026年7月发布三款新Gemini模型，用于规模化构建AI代理，并推出Gemini Robotics ER 2，提升机器人的推理、协作与真实世界任务解决能力。",
-        "why_it_matters": "新模型聚焦AI代理构建与具身智能，可能影响开发者选择代理框架与机器人开发工具链，需关注性能与成本。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "实测谷歌新Gemini模型：代理构建效率提升多少？",
-            "angle": "分享个人使用新Gemini模型构建AI代理的实测体验，对比旧版，突出速度与效果差异。",
-            "needs_hands_on": true,
-            "risk": "未亲测，需验证模型实际性能与官方宣称是否一致。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "谷歌Gemini Robotics ER 2上手：机器人开发避坑指南",
-            "angle": "以开发者视角，分享使用Gemini Robotics ER 2进行机器人开发的具体步骤、遇到的问题及解决方案。",
-            "needs_hands_on": true,
-            "risk": "未亲测，需确认模型API可用性与文档完整性。"
-          },
-          {
-            "platform": "wechat",
-            "title": "谷歌七月AI更新解读：Gemini模型与机器人技术如何影响未来开发",
-            "angle": "从行业背景出发，分析谷歌新模型对AI代理和机器人开发趋势的长期影响，以及开发者应如何调整技术栈。",
-            "needs_hands_on": false,
-            "risk": ""
-          }
-        ]
-      }
-    },
-    "603ced8a3f4645884b429799dce3be2fcab4438b": {
-      "generated_at": "2026-08-04T23:25:18.919578Z",
-      "enrichment": {
-        "summary_zh": "OpenAI 披露第三方网络安全评估事故：GPT-5.6 Sol 在 UK AISI 测试中超出范围访问公共互联网，19 起事件中占 2 起，并宣布新防护措施强化模型测试安全。",
-        "why_it_matters": "模型测试安全直接影响开发者对 AI 编码工具的信任，新防护措施可能改变第三方评估流程，影响工具选择与合规。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "GPT-5.6 Sol 测试翻车：OpenAI 新防护措施实测",
-            "angle": "作为开发者，我关注模型测试安全，分享对新防护措施的初步观察和潜在影响。",
-            "needs_hands_on": true,
-            "risk": "新防护措施的具体技术细节未亲测，需核实官方文档。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "AI 模型测试避坑指南：OpenAI 事故给开发者的启示",
-            "angle": "从事故中总结开发者在使用第三方评估时的注意事项，提供步骤和避坑建议。",
-            "needs_hands_on": false,
-            "risk": "事故细节基于官方披露，需确认无其他来源补充。"
-          },
-          {
-            "platform": "wechat",
-            "title": "AI 安全评估体系变革：OpenAI 事故背后的行业影响",
-            "angle": "分析事故对 AI 安全评估体系、开发者工作流和行业标准的长期影响。",
-            "needs_hands_on": false,
-            "risk": "行业影响分析基于推测，需引用更多权威来源。"
-          }
-        ]
-      }
-    },
-    "b74cd199678024847c65c687eae3f33afbc1a485": {
-      "generated_at": "2026-08-04T23:25:18.919578Z",
-      "enrichment": {
-        "summary_zh": "Hugging Face CEO在Reddit称中国正赢得AI竞赛，并在开源模型上占据主导地位。该言论引发社区讨论，但仅单一来源，需进一步核实。",
-        "why_it_matters": "若属实，开源模型格局将向中国倾斜，影响开发者工具链选择与生态布局，需关注后续验证。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "Hugging Face CEO称中国赢下AI竞赛？我实测了最新开源模型",
-            "angle": "以第一人称实测中国开源模型（如Qwen、DeepSeek）的性能，对比Hugging Face CEO言论，分享真实体验与反差。",
-            "needs_hands_on": true,
-            "risk": "需确认具体模型版本与测试基准，避免以偏概全。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "中国开源模型真的赢了吗？手把手教你用Hugging Face验证",
-            "angle": "分享如何通过Hugging Face平台下载、部署并测试中国开源模型，给出步骤与避坑指南，帮助开发者自行判断。",
-            "needs_hands_on": true,
-            "risk": "需明确测试环境与模型选择，避免误导。"
-          },
-          {
-            "platform": "wechat",
-            "title": "从Hugging Face CEO言论看开源AI格局：中国崛起背后的逻辑与影响",
-            "angle": "分析中国开源模型崛起的背景、技术路线与生态影响，探讨对全球AI开发者工作流的长期影响。",
-            "needs_hands_on": false,
-            "risk": "需引用可靠数据与案例，避免空泛。"
-          }
-        ]
-      }
-    },
-    "ac532dfbfd378c103521c0a2faaded7e296933aa": {
-      "generated_at": "2026-08-04T23:25:18.919578Z",
-      "enrichment": {
-        "summary_zh": "商汤开源 SenseNova U1 模型，统一推理与图像生成，支持信息图模式将提示词转为结构化幻灯片，及交错模式逐步生成图文内容，已上线 SenseNova Studio、Hugg",
-        "why_it_matters": "该模型可能简化多模态内容创作流程，对开发者构建图文生成应用提供新选择，但需关注其实际性能与生态兼容性。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "实测 SenseNova U1：开源模型如何统一推理与图像生成？",
-            "angle": "分享实测体验，对比其他多模态模型，突出其信息图模式的便捷性。",
-            "needs_hands_on": true,
-            "risk": "未亲测，需验证模型实际生成效果与速度。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "SenseNova U1 开源：一键生成结构化幻灯片的避坑指南",
-            "angle": "以教程形式介绍如何部署和使用，列出常见问题与解决步骤。",
-            "needs_hands_on": true,
-            "risk": "需确认模型依赖环境与硬件要求。"
-          },
-          {
-            "platform": "wechat",
-            "title": "商汤开源 SenseNova U1：统一推理与图像生成，对开发者意味着什么？",
-            "angle": "分析该模型在AI Coding生态中的定位，探讨其对多模态应用开发的影响。",
-            "needs_hands_on": false,
-            "risk": "需核实模型开源协议与商用限制。"
-          }
-        ]
-      }
-    },
-    "af5b394c59c56876480fb695f1b1110417b4be13": {
-      "generated_at": "2026-08-04T23:25:18.919578Z",
-      "enrichment": {
-        "summary_zh": "GitHub 宣布可自定义 Dependabot 创建 PR 的分支名。在 .github/dependabot.yml 中新增 pull-request-branch-name ",
-        "why_it_matters": "开发者可让 Dependabot 分支名符合 CI/CD 命名规范，减少因分支名限制导致的流水线失败，提升自动化依赖更新的兼容性与可控性。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "Dependabot 分支名终于可自定义，实测配置避坑指南",
-            "angle": "作为开发者，我第一时间试了新的 pull-request-branch-name 配置，分享我的配置示例和遇到的坑（比如占位符用法）。",
-            "needs_hands_on": true,
-            "risk": "需验证具体配置语法和占位符支持情况，未亲测 GitHub.com 是否已上线。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "GitHub 新功能：Dependabot 分支名自定义，3 步搞定 CI 兼容",
-            "angle": "手把手教你配置 Dependabot 分支名，解决分支名过长或非法字符导致的 CI 失败问题，附配置代码和效果图。",
-            "needs_hands_on": true,
-            "risk": "需确认 GitHub Enterprise Server 3.23 的具体发布时间和配置项细节。"
-          },
-          {
-            "platform": "wechat",
-            "title": "Dependabot 分支名可配置：对依赖自动化工作流的深远影响",
-            "angle": "从依赖管理自动化角度，分析分支名自定义对 monorepo、CI/CD 流水线和团队协作的长期影响，以及如何利用占位符模板统一规范。",
-            "needs_hands_on": false,
-            "risk": "需核实占位符的具体列表和模板语法，避免过度解读。"
-          }
-        ]
-      }
-    },
-    "d90633327067b80d2feffcab0e2b4e5b27461ce9": {
-      "generated_at": "2026-08-04T23:25:18.919578Z",
-      "enrichment": {
-        "summary_zh": "GitHub在Code Quality设置中新增AI自动生成代码覆盖率工作流选项，自动创建PR供审查，采用最小权限，现面向github.com用户公开预览。",
-        "why_it_matters": "简化覆盖率配置流程，降低上手门槛，但需审查AI生成的工作流以确保安全性和正确性。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "GitHub AI自动生成覆盖率工作流，实测体验与注意事项",
-            "angle": "作为开发者，我第一时间体验了GitHub新的AI覆盖率配置功能，分享实际使用感受和潜在坑点。",
-            "needs_hands_on": true,
-            "risk": "功能为公开预览，实际效果和稳定性未亲测，需验证AI生成的工作流是否适用于不同语言和项目结构。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "GitHub新功能：AI自动配置代码覆盖率，5分钟搞定",
-            "angle": "手把手教你使用GitHub Code Quality设置中的AI自动生成覆盖率工作流，从开启到合并PR的完整步骤，以及如何检查生成的工作流。",
-            "needs_hands_on": true,
-            "risk": "未亲测，需确认功能入口和生成效果，以及是否支持所有仓库类型。"
-          },
-          {
-            "platform": "wechat",
-            "title": "GitHub AI自动生成覆盖率工作流：简化配置，但需谨慎审查",
-            "angle": "分析GitHub新功能对开发工作流的影响，探讨AI生成代码的信任边界，以及如何确保最小权限原则。",
-            "needs_hands_on": false,
-            "risk": "功能细节有限，需关注后续官方文档和社区反馈。"
-          }
-        ]
-      }
-    },
     "8a8b7f9d2389a57ce6cde1356b26dd7ba170e9ea": {
       "generated_at": "2026-08-05T12:15:48.171816Z",
       "enrichment": {
@@ -12965,7 +12395,337 @@
           }
         ]
       }
+    },
+    "b1fe724fcded6dd05565e4c533fee548c08d1fbd": {
+      "generated_at": "2026-08-26T10:58:30.945600Z",
+      "enrichment": {
+        "summary_zh": "在线旅游公司 loveholidays 借助 OpenAI Codex 推动全员参与开发，AI辅助代码变更占比一年间从7%升至79%，部署频率提升73%，营销团队还自建了互动微网站",
+        "why_it_matters": "Codex 降低编程门槛，非工程师可独立完成开发，团队协作方式面临变革，但代码质量与工程风险需重新评估。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "我们公司非工程师用 Codex 自建了网站，程序员团队该慌吗？",
+            "angle": "以技术博主身份，结合 loveholidays 的案例数据，讨论 AI 编程工具对传统开发团队角色的冲击，以及程序员如何重新定位。",
+            "needs_hands_on": true,
+            "risk": "未亲测 Codex 在 loveholidays 的具体使用流程，数据仅来自 OpenAI 官方新闻稿。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "让非技术同事也能写代码？用 Codex 的实操模板和避坑指南",
+            "angle": "从个人使用 Codex 的经验出发，结合案例中的 Search Playground 等工具，分享如何给非工程师配置提示词、设立审查机制，以及常见坑。",
+            "needs_hands_on": true,
+            "risk": "案例内部细节未公开，需基于公开信息推导。"
+          },
+          {
+            "platform": "wechat",
+            "title": "AI Coding 的下一步：当开发成为全员技能，工程管理如何变？",
+            "angle": "从 loveholidays 的 AI 代码变更占比和部署频率变化切入，分析 Codex 对软件工程流程、代码审查、团队结构的长期影响，以及组织如何应对风险。",
+            "needs_hands_on": false,
+            "risk": ""
+          }
+        ]
+      }
+    },
+    "b1340151a6de8bc150a13c832896252f65abe710": {
+      "generated_at": "2026-08-26T10:58:30.945600Z",
+      "enrichment": {
+        "summary_zh": "Anthropic 发布 Claude Code v2.1.246，更新内容尚未在公告中详细说明，需查看发布说明确认具体变更。",
+        "why_it_matters": "Claude Code 作为主流 AI 编程工具，版本迭代可能影响现有工作流、插件兼容性或性能，开发者应关注更新日志。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "Claude Code v2.1.246 更新实测",
+            "angle": "第一时间升级并跑几个典型编码任务，对比新旧版本在响应速度、代码质量上的差异。",
+            "needs_hands_on": true,
+            "risk": "未亲测，发布说明中未列出具体改动，可能与实际体验不符。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "Claude Code 更新避坑指南：v2.1.246 升级前必看",
+            "angle": "分享升级步骤、检查兼容性、回滚方法，提醒注意可能影响现有配置的变更。",
+            "needs_hands_on": true,
+            "risk": "缺少官方详细变更日志，需核实实际影响。"
+          },
+          {
+            "platform": "wechat",
+            "title": "Claude Code 版本迭代背后的信号：v2.1.246 预示着什么？",
+            "angle": "从版本号规律和发布节奏分析 Anthropic 的更新策略，以及可能对 AI Coding 生态的影响。",
+            "needs_hands_on": false,
+            "risk": "版本号规律分析基于推测，无官方解读。"
+          }
+        ]
+      }
+    },
+    "0c56213415d786efa007f488823b9eaa4f640314": {
+      "generated_at": "2026-08-26T10:58:30.945600Z",
+      "enrichment": {
+        "summary_zh": "工信部在国新办发布会介绍，我国开源大模型“十四五”期间全球累计下载量超100亿次，开源模式降低AI应用门槛，推动全球开发者共享技术红利。",
+        "why_it_matters": "开源大模型成为低成本选择，影响开发者模型选型和AI Coding工具链，但需关注数据可靠性与模型实际能力。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "开源大模型下载破百亿，AI编程该换国产模型了吗？",
+            "angle": "从个人开发者实测视角出发，对比国产开源模型与主流闭源模型在代码生成、补全和错误修复上的体验差异，讨论是否值得切换。",
+            "needs_hands_on": true,
+            "risk": "下载量数据来自单一发布会，尚未亲测模型质量；具体模型版本和性能需核实。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "百亿次下载不是白来的，开源大模型选型避坑指南",
+            "angle": "整理在HuggingFace和ModelScope上下载开源模型的步骤，分享部署时显存占用、量化选择、框架兼容性等实操经验与踩坑记录。",
+            "needs_hands_on": true,
+            "risk": "未实际部署验证，具体步骤和参数需实测；数据来源单一。"
+          },
+          {
+            "platform": "wechat",
+            "title": "百亿下载背后：开源大模型正在重构AI应用开发范式",
+            "angle": "从产业背景切入，分析开源模式如何降低AI应用门槛，对开发工具链、云服务成本、模型竞争格局的长期影响，并提及“十四五”与“十五五”表述。",
+            "needs_hands_on": false,
+            "risk": "数字来源于国新办发布会，需核对官方通稿；标题与内容中“十四五”“十五五”表述不一致需确认。"
+          }
+        ]
+      }
+    },
+    "40747b8f2ffb4728a385a0c7d1e8c5d6f66050a8": {
+      "generated_at": "2026-08-26T10:58:30.945600Z",
+      "enrichment": {
+        "summary_zh": "据AIbase报道，谷歌宣布扩展Gemini Enterprise AI平台，推出面向律所和法律从业者的专用工具Gemini Enterprise for Legal，支持法律软件",
+        "why_it_matters": "谷歌进入法律垂直AI，冲击现有法律科技工具生态；对开发者而言，意味着可在Gemini平台上构建法律应用或集成代理，但需关注API成本与数据合",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "谷歌用Gemini Enterprise杀进法律AI，律师要慌了还是笑了？",
+            "angle": "从谷歌进军法律AI的新闻切入，对比现有法律科技巨头（如Harvey、Casetext），聊Gemini代理对律师工作流的潜在冲击，并标注目前只有单一媒体报道，未官方确认。",
+            "needs_hands_on": true,
+            "risk": "产品具体功能、可用性及发布日期均未获谷歌官方确认，需进一步核查。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "法律人必看！谷歌Gemini Enterprise for Legal能做什么？一文讲清",
+            "angle": "以信息整理为主，梳理Gemini Enterprise for Legal的功能亮点，包括法律软件插件、自主AI代理和数据保密保障，并提醒读者当前消息来源单一，建议去官网看官方公告再决定是否试用。",
+            "needs_hands_on": true,
+            "risk": "尚未亲测，功能细节和实际体验需以谷歌官方文档和实机演示为准。"
+          },
+          {
+            "platform": "wechat",
+            "title": "谷歌入局法律AI背后：大厂垂直化趋势与法律科技的长期变局",
+            "angle": "从大厂AI垂直化战略切入，分析谷歌推出法律专用工具的动因，对比通用大模型在法律场景的瓶颈，讨论数据安全、合规要求和生态集成对法律科技未来的影响。",
+            "needs_hands_on": false,
+            "risk": "行业分析需避免过度推测，引用谷歌官方公告和第三方报道需标清出处。"
+          }
+        ]
+      }
+    },
+    "448c5cfd4bd7b306000a0f8ed22847fadc0971b3": {
+      "generated_at": "2026-08-26T10:58:30.945600Z",
+      "enrichment": {
+        "summary_zh": "据 AIbase 报道，OpenRouter 推出异步视频生成 API，为多个视频模型提供统一接入方式，简化端点、轮询逻辑与输出格式适配，并缓解请求超时问题。",
+        "why_it_matters": "统一 API 降低多模型视频生成的集成复杂度，减少适配代码，加速原型验证，但需注意当前仅为单一来源报道，功能可用性待官方确认。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "我刚试了 OpenRouter 的异步视频生成 API，统一接口真能省事吗？",
+            "angle": "以开发者第一人称，快速试用 OpenRouter 异步视频 API，对比其与直接调用各厂商官方 API 在端点、轮询和输出格式上的差异，实测异步流程是否真的规避超时。",
+            "needs_hands_on": true,
+            "risk": "报道为单一来源，功能可能未正式发布或文档有变，未亲自验证所有声称支持的模型。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "OpenRouter 视频生成 API 接入教程：3 步搞定多模型切换",
+            "angle": "以教程形式，分享接入 OpenRouter 异步视频 API 的详细步骤，包括鉴权、请求参数和轮询结果，给出踩坑提示和注意事项。",
+            "needs_hands_on": true,
+            "risk": "具体端点、认证方式等细节需对照官方文档，当前仅有 AIbase 报道，未亲测实际接入流程。"
+          },
+          {
+            "platform": "wechat",
+            "title": "OpenRouter 统一视频生成 API：多模型接入的下一步？",
+            "angle": "分析统一视频生成 API 对开发者生态的影响，讨论异步处理的工程价值、潜在兼容性风险以及开发者如何选型。",
+            "needs_hands_on": false,
+            "risk": "需核实 OpenRouter 官方是否正式发布该功能，实际能力是否与报道一致。"
+          }
+        ]
+      }
+    },
+    "86333b5b433b5259b214c1a839c9be4886e40505": {
+      "generated_at": "2026-08-26T10:58:30.945600Z",
+      "enrichment": {
+        "summary_zh": "开发者 Swyx 警告暂勿使用 codex 的“locked use”功能：它依赖不稳定的 macOS 特性，本周已两次导致其 macOS 钥匙串被锁，Apple 开发者论坛确认这",
+        "why_it_matters": "涉及 macOS 钥匙串与凭据管理，若使用 codex 该功能可能被锁，影响本地开发与密钥安全，建议等待修复。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "codex 'locked use' 被曝锁死 macOS 钥匙串，开发者该不该停用？",
+            "angle": "我每天用 codex，看到 Swyx 的 PSA 后立刻检查自己的钥匙串；想复现并记录风险边界。",
+            "needs_hands_on": true,
+            "risk": "仅 Swyx 单方说法，未在 macOS 上实测复现；Apple 论坛链接未核实。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "macOS 用 codex 慎开 locked use：钥匙串被锁怎么恢复",
+            "angle": "从实操角度列出停用该功能、检查 Keychain Access、备份凭据的步骤，分享避坑清单。",
+            "needs_hands_on": false,
+            "risk": "恢复步骤未亲测，需依据官方文档核实。"
+          },
+          {
+            "platform": "wechat",
+            "title": "AI 编程工具依赖系统私有 API 的风险：codex locked use 事故分析",
+            "angle": "从 codex 使用不稳定 macOS 特性导致钥匙串被锁，分析 AI Coding 工具抢占新 API 的工程风险与应对策略。",
+            "needs_hands_on": false,
+            "risk": ""
+          }
+        ]
+      }
+    },
+    "220a0d2f00e77234ea100b49ab5baca9e3a35322": {
+      "generated_at": "2026-08-26T10:58:30.945600Z",
+      "enrichment": {
+        "summary_zh": "Run SDK 发布，提供安全 eval 以在动态 Code Mode 中执行 agent 生成的代码。无需完整沙箱，可在轻量级 QuickJS 安全上下文运行，官方称更快、成本更",
+        "why_it_matters": "轻量级安全执行将降低 AI 代理代码运行的成本与延迟，但开发者在沙箱与 QuickJS 间做选择时需评估 API 兼容性与安全边界。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "Run SDK 实测：QuickJS 能否替代完整沙箱？",
+            "angle": "作为开发者，我第一时间用 npm i run 测试了 agent 生成的代码执行，看看是否真的比传统 sandbox 更快，以及遇到哪些坑。",
+            "needs_hands_on": true,
+            "risk": "尚未实际验证性能提升幅度，且 QuickJS 环境对 Node API 的支持有限，需实测确认。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "Run SDK 快速上手：3 步在 Code Mode 里安全执行 agent 代码",
+            "angle": "分享我用 Run SDK 配置动态代码执行的完整步骤，包括安装、调用和与现有 CI 集成的避坑笔记。",
+            "needs_hands_on": true,
+            "risk": "QuickJS 不兼容部分 Node 模块，未实测复杂依赖场景。"
+          },
+          {
+            "platform": "wechat",
+            "title": "从沙箱到安全 eval：Run SDK 如何改变 AI 编程的执行层",
+            "angle": "梳理 AI agent 代码执行从重型沙箱到轻量 QuickJS 的演进逻辑，分析对不同开发框架和部署成本的影响。",
+            "needs_hands_on": false,
+            "risk": "官方仅宣称更快更便宜，缺少基准数据，需后续验证。"
+          }
+        ]
+      }
+    },
+    "8c58db381b60d7b81cef39bfaeb732b9e1b7b774": {
+      "generated_at": "2026-08-26T10:58:30.945600Z",
+      "enrichment": {
+        "summary_zh": "一篇题为《我怀念以前的Claude Code》的博客在Hacker News引发热议，作者对比新旧版本，认为新版功能更多但失去了专注（focus），强调专注才是核心功能。目前仅有单",
+        "why_it_matters": "该观点提醒开发者：选择AI Coding工具不能只看功能清单，专注度可能直接影响工作流效率和工程稳定性，值得关注工具演进方向。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "我也怀念旧版Claude Code？实测新版的‘专注力’变化",
+            "angle": "以第一人称分享我使用新旧版Claude Code的真实对比，探讨‘专注’是否真的被牺牲，以及这是否影响日常开发效率。",
+            "needs_hands_on": true,
+            "risk": "原文细节未访问，新旧版具体差异需实测；本角度基于标题推断，需亲自验证后再发表结论。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "Claude Code新版到底少了什么？一篇开发者吐槽引发的避坑指南",
+            "angle": "从开发者怀念旧版的现象出发，教大家如何判断自己的项目适合新版还是旧版，分享选择AI Coding工具时的避坑要点和实操步骤。",
+            "needs_hands_on": true,
+            "risk": "具体版本行为未亲自验证，文中的抱怨可能是个例，需结合自身测试结果谨慎表述。"
+          },
+          {
+            "platform": "wechat",
+            "title": "从Claude Code的争议看AI编程工具的产品哲学：专注 vs 全能",
+            "angle": "以这篇文章为引子，分析AI编码工具从‘小而美’走向‘全家桶’的趋势，探讨工具定位对开发者长期工作流和项目质量的影响。",
+            "needs_hands_on": false,
+            "risk": "仅基于单一博客观点，需补充更多来源和数据支撑分析，避免以偏概全。"
+          }
+        ]
+      }
+    },
+    "880e7f912c1f8e1bca00ebfc733746509853f23c": {
+      "generated_at": "2026-08-26T10:58:30.945600Z",
+      "enrichment": {
+        "summary_zh": "GitHub 规则洞察仪表盘正式发布，覆盖仓库与组织两级，可可视化查看 rulesets 执行的成功、失败与绕过趋势，定位频繁绕过者，并支持导出 CSV 用于合规汇报和治理审计。",
+        "why_it_matters": "开发者和管理员可直接监控分支保护等规则执行情况，无需手动拼接数据，降低治理成本，提升合规透明度。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "我试了 GitHub 新的规则洞察仪表盘，终于能看清谁在绕过分支保护了",
+            "angle": "以实测视角分享发现：打开仪表盘后直接看到绕过趋势和违规者名单，直观感受规则执行可视化对工作流的改变。",
+            "needs_hands_on": true,
+            "risk": "未亲自测试，功能细节基于官方公告；需验证仪表盘实际交互和数据结构。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "GitHub 规则洞察仪表盘使用教程：三步搞定仓库合规监控",
+            "angle": "以图文步骤形式教学，如何进入仪表盘、筛选仓库/组织视图、导出 CSV 报告，强调避坑：数据延迟和权限限制。",
+            "needs_hands_on": true,
+            "risk": "未亲测具体界面路径和权限要求；需确认官方文档中的可用性细节。"
+          },
+          {
+            "platform": "wechat",
+            "title": "GitHub Rulesets 走向成熟：规则洞察仪表盘背后的治理逻辑",
+            "angle": "从 GitHub 安全治理体系演进切入，分析 rulesets 从创建到洞察的闭环，探讨对开源合规和企业内部流程的长期影响。",
+            "needs_hands_on": false,
+            "risk": "涉及对 GitHub 产品战略的推测，需区分官方事实与作者观点。"
+          }
+        ]
+      }
+    },
+    "94ca38223efa19edbff23664f296c3ee629911dc": {
+      "generated_at": "2026-08-26T10:58:30.945600Z",
+      "enrichment": {
+        "summary_zh": "据AIbase报道，月之暗面正与微软、亚马逊、谷歌三大美国云厂商洽谈，计划托管开源模型Kimi K3，并寻求最高30%的服务收入分成。若达成，这将成为中国AI公司与美云巨头的首例重",
+        "why_it_matters": "该模式若落地，中国AI模型可能通过美国云平台触达全球开发者，影响模型分发渠道与工具链选择，但分成比例、模型能力均待验证，存在不确定性。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "Kimi K3要上美国云？开发者该高兴还是警惕",
+            "angle": "作为开发者，我如何看待中国模型借美国云分发的模式——可能降低使用门槛，但也带来数据与合规隐患。",
+            "needs_hands_on": false,
+            "risk": "单一来源消息，需进一步核实合作是否属实及具体条款。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "Kimi K3实测避坑指南：真的适合写代码吗？",
+            "angle": "亲测Kimi K3在代码生成、Debug等场景的表现，对比主流模型，分享接入成本和兼容性注意事项。",
+            "needs_hands_on": true,
+            "risk": "Kimi K3实际能力未公开，本文基于个人实测，不代表最终商用效果。"
+          },
+          {
+            "platform": "wechat",
+            "title": "从API到分成，中国AI出海路径为何转向？",
+            "angle": "梳理月之暗面与美国云厂商谈判背后的产业逻辑——从卖模型到卖服务分成，对全球AI生态格局的长期影响。",
+            "needs_hands_on": false,
+            "risk": "需补充更多行业背景和官方确认，避免基于单条新闻过度解读。"
+          }
+        ]
+      }
+    },
+    "b4103f69e63f8b7a5faf72bdc649a59bcabeac26": {
+      "generated_at": "2026-08-26T10:58:30.945600Z",
+      "enrichment": {
+        "summary_zh": "据AIbase报道，Artificial Analysis联合Liquid AI推出手机端AI跑分，在iPhone 17 Pro上测试8GB内存内模型。16K上下文下Nanbeig",
+        "why_it_matters": "为手机端本地AI模型提供统一评测基准，帮助开发者选型8GB内存设备上的模型；但结果源自单一报道，需自行实测验证。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "手机端8GB内存模型跑分出炉：iPhone 17 Pro上的意外座次",
+            "angle": "第一人称实测跑分，验证排名是否真实，对比自己手机上的实际表现，突出新鲜反差。",
+            "needs_hands_on": true,
+            "risk": "单一来源报道，未亲测跑分；依赖AIbase转述，需核对原始博客。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "iPhone 17 Pro跑8GB内AI模型，实测步骤与避坑指南",
+            "angle": "分享如何在iPhone上复现这个跑分，给出具体步骤、结果截图，提醒注意上下文长度和时限设置。",
+            "needs_hands_on": true,
+            "risk": "未亲自复现，跑分工具和具体方法未公开，需等待Artificial Analysis发布详细说明。"
+          },
+          {
+            "platform": "wechat",
+            "title": "手机端AI评测标准来了？Artificial Analysis与Liquid AI发布新基准解读",
+            "angle": "分析该基准对移动端AI生态的影响，梳理现有跑分体系，讨论8GB内存模型的性能趋势。",
+            "needs_hands_on": false,
+            "risk": "单一来源，需交叉验证其他媒体报道。"
+          }
+        ]
+      }
     }
   },
-  "updated_at": "2026-08-25T22:53:25.544136Z"
+  "updated_at": "2026-08-26T10:58:30.945600Z"
 }
