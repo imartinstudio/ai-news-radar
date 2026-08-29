@@ -1,456 +1,6 @@
 {
   "version": 1,
   "entries": {
-    "86d207a78c6c8d5924aa6d2a90d8f922b92d3c2a": {
-      "generated_at": "2026-08-07T22:58:54.341950Z",
-      "enrichment": {
-        "summary_zh": "GitHub 官方宣布 Copilot 代码审查的 Lite 和 Balanced 力度分级现已全面可用，开发者可按 PR 复杂度调整审查深度，原有 Low/Medium 配置自动",
-        "why_it_matters": "按风险选择 AI 审查强度，避免小改动被过度审查，提升代码审查效率，影响团队工作流与审查成本。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "Copilot 审查分级全面可用：Lite 模式到底够不够用？",
-            "angle": "亲测 Lite 与 Balanced 在不同 PR 上的审查差异，对比之前的 Low/Medium，谈谈实际体验",
-            "needs_hands_on": true,
-            "risk": "未实际使用新分级功能，具体审查效果待验证"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "Copilot 代码审查分级设置指南：3 步切换 Lite/Balanced",
-            "angle": "图文展示如何配置新的审查力度，分享按 PR 类型选择级别的避坑建议",
-            "needs_hands_on": true,
-            "risk": "具体配置步骤基于官方文档，需确认界面是否一致"
-          },
-          {
-            "platform": "wechat",
-            "title": "AI 代码审查走向精细化：Copilot 分级背后的工程权衡",
-            "angle": "分析审查力度分级对代码评审流程、团队协作和 AI 成本控制的长期影响",
-            "needs_hands_on": false,
-            "risk": ""
-          }
-        ]
-      }
-    },
-    "4965b31602d74bda1bd71ef60e105cb6647efd28": {
-      "generated_at": "2026-08-07T22:58:54.341950Z",
-      "enrichment": {
-        "summary_zh": "GitHub Copilot 使用指标 API 新增按第三方代理（Claude、Codex 等）拆分统计的活动数据，通过 totals_by_3rd_party_agent 数组按",
-        "why_it_matters": "团队可量化不同 AI 编码代理在 GitHub 工作流中的实际采用率，为工具选型、采购决策和成本分摊提供数据依据。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "Copilot 指标 API 细拆到每个 Agent：你的 Claude/Codex 用量终于能对比了",
-            "angle": "作为开发者，我第一时间查看了新 API 返回的 totals_by_3rd_party_agent 结构，发现从单一桶到按 agent 拆分的变化会直接影响团队预算和工具选择。",
-            "needs_hands_on": true,
-            "risk": "API 响应结构和认证方式需对照官方文档实测，未亲测。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "用 Copilot metrics API 查看 Claude vs Codex 实际用量",
-            "angle": "手把手教你调用 Copilot usage metrics API，在返回 JSON 里找到 totals_by_3rd_party_agent 数组，拆出各 agent 的活跃数，帮你避开'只有一个总数'的坑。",
-            "needs_hands_on": true,
-            "risk": "需验证 API 是否对所有 enterprise 组织开放，以及是否有 rate limit。"
-          },
-          {
-            "platform": "wechat",
-            "title": "GitHub 把 Claude 和 Codex 用量拆开给你看：AI 编码代理进入可观测时代",
-            "angle": "从 GitHub 官方 changelog 看，新增 totals_by_3rd_party_agent 意味着代理工具不再黑箱，它如何影响企业 AI 编码工具的评估、成本治理和长期路线图。",
-            "needs_hands_on": false,
-            "risk": "需要引用 changelog 原文，避免夸大功能范围（如是否支持 Copilot Free/Pro 尚未明确）。"
-          }
-        ]
-      }
-    },
-    "631761e0b2ec0b528d425d1bfc9a25f1eb89b4b9": {
-      "generated_at": "2026-08-07T22:58:54.341950Z",
-      "enrichment": {
-        "summary_zh": "GitHub 密钥扫描更新：扩展 push protection 默认拦截的密钥类型，新增 Lovable Labs 为 secret scanning 合作伙伴，并为告警补充所有",
-        "why_it_matters": "密钥扫描覆盖扩大，降低开发者误提交密钥的风险；更丰富的告警元数据帮助快速定位和处置泄露，提升仓库安全运维效率。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "实测 GitHub 新的密钥扫描：Push Protection 到底拦住了什么？",
-            "angle": "第一人称分享：我试试提交一个包含新检测类型（如 Lovable Labs）密钥的 commit，看看是否真的会被拦截，以及告警里的元数据长什么样。",
-            "needs_hands_on": true,
-            "risk": "尚未验证具体新增的密钥类型列表，以及实际拦截行为是否与文档完全一致。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "手把手配置 GitHub 密钥扫描，防止 API Key 泄露到仓库",
-            "angle": "从零开始设置 secret scanning 和 push protection，查看告警中的所有者、创建/过期日期等元数据，分享避坑步骤和检查清单。",
-            "needs_hands_on": true,
-            "risk": "需要确认最新 GitHub UI 中告警元数据的具体展示位置与完整字段，避免操作步骤过时。"
-          },
-          {
-            "platform": "wechat",
-            "title": "GitHub 密钥扫描进化：从拦截到溯源，开发者安全闭环如何形成",
-            "angle": "从行业背景分析本次更新的定位：合作伙伴扩展增强生态，告警元数据则补齐了溯源能力，讨论其对开发工作流和安全治理的长期影响。",
-            "needs_hands_on": false,
-            "risk": ""
-          }
-        ]
-      }
-    },
-    "70159cf16585e2ea5fdf29dd5fe1fc8fbab0f99b": {
-      "generated_at": "2026-08-07T22:58:54.341950Z",
-      "enrichment": {
-        "summary_zh": "GitHub 调整 Code Quality：启用后不再自动创建让 Copilot 审查 PR 的规则集，已有仓库的相关设置已被关闭，此变更影响 Enterprise Cloud ",
-        "why_it_matters": "减少自动审查流程的意外介入，团队需手动配置 Copilot 审查，避免规则集自动添加带来的流程变化与噪音。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "GitHub 悄悄改了 Code Quality，我的 PR 审查流程变了",
-            "angle": "以开发者视角描述升级后 PR 审查规则集不再自动添加 Copilot 的实际体验，对比之前自动审查的差异，强调对工作流的影响。",
-            "needs_hands_on": true,
-            "risk": "需要确认自己的仓库是否受影响，以及现有规则集是否仍保留可删。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "GitHub Code Quality 更新避坑：Copilot 不再自动审 PR",
-            "angle": "分享如何检查仓库中旧的 Copilot 审查规则集，以及手动重新配置审查的步骤和注意事项，避免团队流程中断。",
-            "needs_hands_on": true,
-            "risk": "需要验证手动配置的具体步骤和 UI 位置，官方未提供详细指南。"
-          },
-          {
-            "platform": "wechat",
-            "title": "从强制到可选：GitHub 为何收回 Copilot 的自动审查权限",
-            "angle": "分析 GitHub 调整 Code Quality 规则集背后的产品逻辑，讨论 AI 审查在团队协作中的定位，以及对未来 AI 代码审查工具演进的影响。",
-            "needs_hands_on": false,
-            "risk": "官方未说明具体原因，避免过度推测。"
-          }
-        ]
-      }
-    },
-    "6dff252aada298259e1f41579e221e55040d0d61": {
-      "generated_at": "2026-08-07T22:58:54.341950Z",
-      "enrichment": {
-        "summary_zh": "OpenAI发布新模型Astra的初步网络安全评估，显示其智能体编程与网络攻防能力显著增强，按Preparedness Framework已无法排除达到Critical级关键能力，",
-        "why_it_matters": "Astra接近关键级网络能力，意味着AI编程助手可能具备更强攻击潜力，开发者在SDLC中需加强代码审计与供应链安全。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "OpenAI说Astra能打网络战，我却只想让它帮我写代码",
-            "angle": "以开发者第一人称，对比官方安全评估与实际使用体验，探讨高能力AI agent在编程中的便利与安全边界。",
-            "needs_hands_on": true,
-            "risk": "Astra模型是否已公开可用、评估细节未完全披露，需核实其实际编程能力和安全限制。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "用Astra写自动化脚本前，先看OpenAI这份安全评估",
-            "angle": "分享如何解读评估报告，列出使用高能力AI agent时的配置、合规和防漏洞步骤，帮助普通开发者避坑。",
-            "needs_hands_on": false,
-            "risk": "评估仅针对网络能力，对编程工作流的具体影响需进一步确认。"
-          },
-          {
-            "platform": "wechat",
-            "title": "当AI模型具备关键网络能力，AI Coding的安全临界点来了",
-            "angle": "从OpenAI的Preparedness Framework切入，分析Astra能力提升对开发工具链、开源生态和长期安全治理的体系性影响。",
-            "needs_hands_on": false,
-            "risk": "需核实Framework分级标准及Astra的具体评估数据。"
-          }
-        ]
-      }
-    },
-    "c2a8a90f6fe2544e8c9bc4f6d0500f74ccb9c88e": {
-      "generated_at": "2026-08-07T22:58:54.341950Z",
-      "enrichment": {
-        "summary_zh": "腾讯云开源TencentDB Agent Memory v2.0，一款MIT许可的团队级AI Agent记忆中枢，将对话和代码沉淀为可复用资产，避免新会话重复上下文。据官方数据，P",
-        "why_it_matters": "为团队AI Coding提供统一记忆层，可降低重复上下文成本，影响多智能体协作与编程工具选型，但需实测验证性能与兼容性。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "腾讯开源Agent Memory v2.0：我实测了PersonaMem准确率是否真从48%到76%",
-            "angle": "第一人称实测开源仓库，对比官方数据，分享配置与效果差异",
-            "needs_hands_on": true,
-            "risk": "官方数据仅来源单篇文章，未亲测，准确率提升需复现验证"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "腾讯新开源Agent Memory v2.0部署避坑指南",
-            "angle": "手把手教搭建团队级记忆中枢，记录常见报错和调参经验",
-            "needs_hands_on": true,
-            "risk": "部署步骤和兼容性未验证，需自行测试"
-          },
-          {
-            "platform": "wechat",
-            "title": "从48%到76%：腾讯Agent Memory v2.0如何重构AI编程团队的知识复用",
-            "angle": "分析团队级记忆对AI编程工作流的长期影响，结合上下文工程演进",
-            "needs_hands_on": false,
-            "risk": "基于单一来源，需交叉验证数据与架构细节"
-          }
-        ]
-      }
-    },
-    "f2d44b98ae7dc28b3e96a1135371f9921ed66338": {
-      "generated_at": "2026-08-07T22:58:54.341950Z",
-      "enrichment": {
-        "summary_zh": "Reddit r/LocalLLaMA 用户分享一张 LLM API 成本可视化图，用实际调用支出数据作为依据，向公司申请本地部署资源。帖子强调用量化对比说服决策层，而非仅凭技术偏",
-        "why_it_matters": "将 API 调用成本与本地硬件投入同图对比，为开发者申请 GPU 资源提供量化话术，直接影响部署选型与长期预算决策。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "我把 API 账单画成一张图，老板同意了本地 GPU 采购",
-            "angle": "第一人称叙述如何用成本可视化抵消本地部署的审批阻力，强调 API 月账单逐年累加与本地硬件折旧对冲。",
-            "needs_hands_on": true,
-            "risk": "原帖未公布图表具体数据与对照方法，需核实成本统计口径。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "手把手教你做 LLM API 成本可视化图，申请预算不再被拒",
-            "angle": "从记录 API 调用、拆分 token 费用、对比本地 GPU 租购成本出发，分享做图和汇报的避坑细节。",
-            "needs_hands_on": true,
-            "risk": "未亲测原帖图表工具与数据来源，需确认是否包含电费、运维等隐藏成本。"
-          },
-          {
-            "platform": "wechat",
-            "title": "从 API 到本地：一张成本图背后的 AI 基础设施决策逻辑",
-            "angle": "分析企业级 LLM 部署中 API 与本地资源的成本构成、决策时机和团队协作问题，以本事件为由头展开。",
-            "needs_hands_on": false,
-            "risk": "单来源信息，需进一步追踪原帖是否有后续讨论或数据原文。"
-          }
-        ]
-      }
-    },
-    "62e007d148bae6db050ef6f1ccd7c518af9e627b": {
-      "generated_at": "2026-08-07T22:58:54.341950Z",
-      "enrichment": {
-        "summary_zh": "GitHub 为企业托管设置新增 MCP 允许列表，通过 `allowedMcpServers` 和 `deniedMcpServers` 键集中控制 Copilot 客户端可运行",
-        "why_it_matters": "企业级 MCP 安全管控落地，管理员可统一限制 Copilot 连接的服务器，降低数据泄露和工具滥用风险，影响企业 AI Coding 工具",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "GitHub Copilot 终于让企业拉黑 MCP 服务器了",
-            "angle": "作为开发者，以前 MCP 服务器随便连，现在企业管理员能强制管控；个人开发者虽不受影响，但需要思考未来 MCP 生态是否会被企业策略切割。",
-            "needs_hands_on": false,
-            "risk": ""
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "企业版 Copilot 新增 MCP 白名单，配置避坑指南",
-            "angle": "手把手教你设置 `allowedMcpServers` 和 `deniedMcpServers` 的步骤，注意 fail-closed 策略和生效客户端范围，避免误封导致 Copilot 不可用。",
-            "needs_hands_on": true,
-            "risk": "未实际在企业托管环境中测试配置路径，UI 可能随版本变化；需核对官方文档确认键值格式。"
-          },
-          {
-            "platform": "wechat",
-            "title": "MCP 安全治理：GitHub 企业允许列表背后的生态信号",
-            "angle": "从 MCP 生态发展看，企业安全需求正推动平台级管控，GitHub 此举可能引领其他 AI 编程工具跟进，未来 MCP 服务的可信分发和审计将成为核心议题。",
-            "needs_hands_on": false,
-            "risk": "需避免夸大影响，仅基于官方公告推断趋势，未涉及具体竞品动向。"
-          }
-        ]
-      }
-    },
-    "f4eedd302a023260304a775bf838e629410d91b9": {
-      "generated_at": "2026-08-07T22:58:54.341950Z",
-      "enrichment": {
-        "summary_zh": "Firecrawl 在 Product Hunt 发布新 MCP，提供规模化搜索、抓取并与网页交互的 API，面向 AI 代理的数据采集场景。",
-        "why_it_matters": "为 AI Coding 工具提供标准化的网页交互能力，可让 Agent 直接抓取动态页面，减少自建爬虫成本。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "MCP 来了：Firecrawl 让 Agent 自己抓网页",
-            "angle": "第一人称实测：用 Firecrawl MCP 跑一个动态页面抓取，看它和普通爬虫的差距",
-            "needs_hands_on": true,
-            "risk": "尚未亲测，具体速率限制和交互能力未披露"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "Firecrawl MCP 上手：三步让 AI 帮你抓取任何网页",
-            "angle": "分享操作步骤、遇到的反爬坑和结果展示，给出避坑建议",
-            "needs_hands_on": true,
-            "risk": "实际抓取效果和付费额度需实测确认"
-          },
-          {
-            "platform": "wechat",
-            "title": "Firecrawl MCP 发布：AI 代理的网页交互能力将走向标准化",
-            "angle": "分析 MCP 在数据获取领域的生态意义，对比同类工具，探讨工程风险",
-            "needs_hands_on": false,
-            "risk": "信息来源单一，需关注官方文档验证能力边界"
-          }
-        ]
-      }
-    },
-    "31f8a8ea1e9cf3194511e9e89b3614044db8e8f1": {
-      "generated_at": "2026-08-07T22:58:54.341950Z",
-      "enrichment": {
-        "summary_zh": "开发者 chenyme 在 GitHub 开源 grok2api，一个支持 Grok 多账号的 API 网关项目。项目通过多账号管理来提供 Grok 接口代理，具体实现与兼容性尚待",
-        "why_it_matters": "对 AI Coding 开发者来说，多账号网关可降低 Grok API 调用成本，但需关注稳定性、账号风控与合规风险，避免影响工作流。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "刚开源就冲上 GitHub：Grok 多账号网关 grok2api 能用吗？",
-            "angle": "第一人称实测 grok2api 的部署体验，对比官方 API 的延迟与稳定性，分享多账号轮询是否可行。",
-            "needs_hands_on": true,
-            "risk": "项目为 single_source，尚未验证其实际功能与稳定性，需实测确认。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "手把手部署 grok2api：Grok 多账号 API 网关避坑指南",
-            "angle": "记录从克隆仓库到配置账号的完整步骤，展示遇到的坑和踩坑解法，适合开发者入门。",
-            "needs_hands_on": true,
-            "risk": "需要验证仓库文档是否完整，以及账号轮询逻辑是否如描述工作。"
-          },
-          {
-            "platform": "wechat",
-            "title": "Grok 多账号 API 网关开源，AI Coding 成本战的下一张牌？",
-            "angle": "从 grok2api 看多账号 API 网关的兴起，分析其对开发工具链和成本结构的影响，以及合规风险。",
-            "needs_hands_on": false,
-            "risk": "未亲测，需结合更多来源核实项目成熟度与维护状态。"
-          }
-        ]
-      }
-    },
-    "2bdab84912a0fe6a3b07ed24b8defa0cbe3b6148": {
-      "generated_at": "2026-08-07T22:58:54.341950Z",
-      "enrichment": {
-        "summary_zh": "Simon Willison 在其博客分享《月光与混乱》项目，该项目由 Codex 与 GPT-5.6 Sol Ultra 联合打造，主题为浣熊劫案。目前来源单一，具体玩法与构建细",
-        "why_it_matters": "展示 AI 编码代理与前沿模型协作完成创意项目的实例，可能影响开发者对 AI 工具链的选型与工作流预期，但需实际验证。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "我试了 Codex + GPT-5.6 Sol Ultra 复刻浣熊劫案，结果出乎意料",
-            "angle": "Simon Willison 又晒新作品，这次是《月光与混乱》。我亲自上手体验，看 AI 编码工具到底能多快做出一个小游戏，并分享实测感受。",
-            "needs_hands_on": true,
-            "risk": "原文未提供具体代码或玩法，仅基于标题推测；GPT-5.6 Sol Ultra 的存在与能力需进一步核实。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "保姆级教程：用 Codex 和 GPT-5.6 Sol Ultra 做一个小游戏",
-            "angle": "手把手教你用这两个工具从零打造一个浣熊劫案主题的小游戏，包含详细步骤、踩坑记录和最终效果展示。",
-            "needs_hands_on": true,
-            "risk": "未亲测该工具组合，具体操作细节可能不准确；需验证 GPT-5.6 Sol Ultra 的可用性和 API 限制。"
-          },
-          {
-            "platform": "wechat",
-            "title": "从 Codex 到 GPT-5.6 Sol Ultra：AI 编码代理的进化与创意项目的边界",
-            "angle": "以《月光与混乱》为引子，梳理 AI 编码工具近期的演进脉络，分析这类协同创作对开发者日常工作和技能要求的长远影响。",
-            "needs_hands_on": false,
-            "risk": "单一信源，项目细节和工具能力未经多方验证，分析需谨慎。"
-          }
-        ]
-      }
-    },
-    "bee18cd4767f2c8e4fccff46d349a0406c5bc965": {
-      "generated_at": "2026-08-07T22:58:54.341950Z",
-      "enrichment": {
-        "summary_zh": "GitHub 宣布新增“Relates to” issue 关联关系（公开预览），可连接两个 issue 而不暗示阻塞、重复等语义；同时多选字段在 issues 和 project",
-        "why_it_matters": "开发者可用更精确的 issue 关系组织工作，多选字段 GA 后项目管理更灵活，减少自定义字段和标签的维护成本。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "GitHub 悄悄上线 Relates to 关联，issue 治理终于不用 Hack 了",
-            "angle": "第一人称体验公开预览，对比之前用 parent/blocked by 的变通方案，展示新关系带来的语义清晰度。",
-            "needs_hands_on": true,
-            "risk": "需验证公开预览是否对所有仓库开放，以及 API 是否同步支持。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "GitHub 多选字段正式版来了！关联 issue 新玩法实测",
-            "angle": "手把手演示如何在 Projects 中配置多选字段、创建 Relates to 关联，附避坑指南（如权限和可见性设置）。",
-            "needs_hands_on": true,
-            "risk": "未实测企业版/团队版权限差异，预览功能可能在组织设置中默认关闭。"
-          },
-          {
-            "platform": "wechat",
-            "title": "GitHub 项目管理的语义化升级：Relates to 与多选字段全解读",
-            "angle": "从 issue 关系建模演进和字段类型扩展的角度，分析对技术团队协作流程和自动化工作流的长期影响。",
-            "needs_hands_on": false,
-            "risk": "需关注官方后续对预览功能的定价和可用性更新。"
-          }
-        ]
-      }
-    },
-    "8a802488647aeaf44eefbdf835ffc71f8405b274": {
-      "generated_at": "2026-08-07T22:58:54.341950Z",
-      "enrichment": {
-        "summary_zh": "OpenAI 依据其准备框架评估即将推出的模型 Astra，将其列为首个“critical”级网络安全模型，并计划实施额外控制措施，同时推进该模型的广泛可用，将先进网络能力交给防御",
-        "why_it_matters": "“critical”级意味着更高风险管控，开发者接入Astra时需注意安全限制与合规成本，其网络能力也可能改变AI编码中的漏洞检测与防御工作",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "OpenAI 首个“critical”级模型 Astra：安全分级背后的开发者信号",
-            "angle": "以开发者身份解读 OpenAI 安全分级机制，分析 Astra 对现有安全工具链的冲击，以及我们何时能真正用上它。",
-            "needs_hands_on": true,
-            "risk": "Astra 尚未公开可用，无法实测，官方具体分级标准和额外控制措施细节未完整披露。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "Astra 模型来了！OpenAI 安全分级指南与接入避坑要点",
-            "angle": "用白话拆解 OpenAI 的准备框架，给开发者列出接入 critical 级模型时的步骤和注意事项，避免踩坑。",
-            "needs_hands_on": true,
-            "risk": "接入步骤基于官方声明推断，未实际体验 Astra，需后续 API 开放后验证。"
-          },
-          {
-            "platform": "wechat",
-            "title": "OpenAI 首个“critical”级模型背后：AI 安全治理的分水岭",
-            "angle": "从行业体系角度分析 OpenAI 准备框架与 critical 级模型对 AI 安全生态的长期影响，以及开发者如何调整自己的工具链和合规策略。",
-            "needs_hands_on": false,
-            "risk": "需核实 Astra 的具体能力边界及 OpenAI 官方安全控制措施的详细文档。"
-          }
-        ]
-      }
-    },
-    "68c4bcc7acd26b22081e62bfae9b6dac76b8eded": {
-      "generated_at": "2026-08-07T22:58:54.341950Z",
-      "enrichment": {
-        "summary_zh": "OpenAI表示，因其无法排除即将推出的模型Astra具备关键网络能力的可能性，已扩大对其的安全测试，此举可能导致Astra发布延迟。",
-        "why_it_matters": "Astra发布延迟会影响依赖OpenAI模型的AI Coding工具链更新计划；模型潜在网络安全风险也需开发者评估。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "OpenAI罕见承认：Astra可能具备关键网络攻击能力",
-            "angle": "从安全测试扩大这一反常信号切入，讨论AI能力边界与发布策略的矛盾。",
-            "needs_hands_on": false,
-            "risk": "单一来源报道（Axios），OpenAI官方未确认具体能力范围与延迟时间。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "Astra发布可能延期，AI Coding选型要注意什么",
-            "angle": "以开发者视角，梳理模型安全审查对工具选型和项目排期的影响，分享避坑经验。",
-            "needs_hands_on": false,
-            "risk": "实际发布时间与能力细节未验证，不能替代官方公告。"
-          },
-          {
-            "platform": "wechat",
-            "title": "从Astra安全测试看AI模型发布的新常态",
-            "angle": "分析前沿模型安全评估趋严的行业趋势，以及对AI Coding生态长期演进的潜在影响。",
-            "needs_hands_on": false,
-            "risk": "属行业趋势推断，需结合更多后续报道交叉验证。"
-          }
-        ]
-      }
-    },
-    "888aba697de9a7725b8235ccd51096e18a244db7": {
-      "generated_at": "2026-08-07T22:58:54.341950Z",
-      "enrichment": {
-        "summary_zh": "OpenAI宣布暂停内部模型Astra的“内部活动”，因其安全评估显示可能具备关键级网络安全能力，不符合公司新制定的安全标准。OpenAI澄清该模型与Hugging Face数据泄",
-        "why_it_matters": "模型能力逼近安全红线，开发者在选型时需关注安全评估与合规风险，尤其涉及网络攻防场景，可能影响模型发布节奏和可用性。",
-        "angles": [
-          {
-            "platform": "x",
-            "title": "OpenAI 叫停 Astra：安全红线比能力更重要？",
-            "angle": "作为开发者，我如何看待模型因能力过强被暂停？分享对安全评估与模型可用性平衡的观察。",
-            "needs_hands_on": false,
-            "risk": "Astra 具体能力未经官方详述，需确认安全评估标准细节。"
-          },
-          {
-            "platform": "xiaohongshu",
-            "title": "OpenAI 暂停 Astra 模型，给 AI 开发者的 3 个避坑提醒",
-            "angle": "从这次事件出发，整理选择模型时如何评估安全风险、避免依赖不稳定模型的实操建议。",
-            "needs_hands_on": false,
-            "risk": "事件细节有限，需避免过度解读，引用官方声明。"
-          },
-          {
-            "platform": "wechat",
-            "title": "从 OpenAI 暂停 Astra 看 AI 安全标准的收紧趋势",
-            "angle": "以第一人称视角，分析 AI 厂商安全审查趋严对模型发布节奏、开发者生态和行业规范的影响。",
-            "needs_hands_on": false,
-            "risk": "需追踪 OpenAI 后续安全政策及行业反应，防止以偏概全。"
-          }
-        ]
-      }
-    },
     "fff888f526bd26fc9de24559b20fa1524ad22046": {
       "generated_at": "2026-08-08T10:44:53.378923Z",
       "enrichment": {
@@ -12508,7 +12058,157 @@
           }
         ]
       }
+    },
+    "ea22b437a059320e34f2d93980445b7755ff5281": {
+      "generated_at": "2026-08-29T03:48:10.791211Z",
+      "enrichment": {
+        "summary_zh": "GitHub Copilot 本周更新：支持在 Slack 和 Teams 中开启团队会话；在 app、CLI、IDE 中提供更多自定义控制；并发布 VS Code 1.135 完",
+        "why_it_matters": "Copilot 从 IDE 扩展到 Slack/Teams 等协作平台，团队可直接在聊天中驱动 AI 编程，同时细粒度自定义将影响各类工具链",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "实测：在 Slack 里用 GitHub Copilot 团队会话，体验如何？",
+            "angle": "以第一人称尝试在 Slack 中创建团队会话，对比传统 IDE 内使用，讨论协作效率和摩擦点。",
+            "needs_hands_on": true,
+            "risk": "原文未提供团队会话的具体配置步骤与限制（如套餐、权限），需实测验证。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "GitHub Copilot 团队会话设置教程｜Slack/Teams 避坑指南",
+            "angle": "分享从 IDE 到聊天平台开启 Copilot 团队会话的分步操作，列出常见问题与避坑提示。",
+            "needs_hands_on": true,
+            "risk": "具体启用路径和界面信息缺失，需亲测后补充，不能照搬未知细节。"
+          },
+          {
+            "platform": "wechat",
+            "title": "Copilot 进入 Slack 与 Teams：AI 编程助手从『个人插件』走向『团队基建』",
+            "angle": "分析 GitHub 将 Copilot 扩展到聊天平台的战略背景，探讨其对团队协作流程、代码审查与知识共享的长期影响。",
+            "needs_hands_on": false,
+            "risk": "原文仅提及功能更新，未说明战略意图，需在分析中明确标注为推测。"
+          }
+        ]
+      }
+    },
+    "c8c9fda0bac02e5c754280279a686d8597891880": {
+      "generated_at": "2026-08-29T03:48:10.791211Z",
+      "enrichment": {
+        "summary_zh": "GitHub Copilot 在 Visual Studio 2026 八月更新，为 Free 至 Enterprise 用户新增推理控制、模型选择、团队共享代理和代码审查时机等能",
+        "why_it_matters": "开发者可按需选择模型和定制推理，团队可共享专用代理，代码审查时机可控，直接影响效率与合规。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "Visual Studio Copilot 八月更新实测：推理控制、模型切换全体验",
+            "angle": "以开发者身份实测，展示如何调节 Copilot 推理深度、切换模型，对比黑盒模式的差异。",
+            "needs_hands_on": true,
+            "risk": "未实际安装 Insiders 版本，具体操作步骤和交互细节需亲自验证。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "VS Code 里 Copilot 八月新功能怎么用？手把手避坑指南",
+            "angle": "用截图步骤演示开启推理控制、选择模型、分享代理以及设置代码审查时机，附常见问题与避坑提示。",
+            "needs_hands_on": true,
+            "risk": "原文未提供菜单路径，具体 UI 位置和命名需在 Visual Studio 2026 中实际确认。"
+          },
+          {
+            "platform": "wechat",
+            "title": "从黑盒到可控：GitHub Copilot 八月更新意味着什么？",
+            "angle": "分析 Copilot 从自动补全到可控推理、团队级代理共享的演进，对企业 AI 工具选型与工程治理的长期影响。",
+            "needs_hands_on": false,
+            "risk": ""
+          }
+        ]
+      }
+    },
+    "2cf805c4ec4ccc8009d39c93660ce86d13f5be94": {
+      "generated_at": "2026-08-29T03:48:10.791211Z",
+      "enrichment": {
+        "summary_zh": "OpenAI 因 SpaceX 收购 Cursor 后出现信任问题，决定 11 月 12 日起停止通过 Cursor 提供 GPT 模型访问；开发者仍可自备 OpenAI API ",
+        "why_it_matters": "影响依赖 Cursor 与 GPT 组合的开发者工作流，需评估迁移至其他 IDE 或自带密钥方案；事件真实性与影响范围待核实。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "Cursor 用户炸锅：OpenAI 终止合作，我的 GPT 还能用吗？",
+            "angle": "以 Cursor 日常用户身份，第一时间检查自己的订阅和模型配置，分享对新闻的惊讶与自查结果，对比其他模型入口的可用性。",
+            "needs_hands_on": true,
+            "risk": "单一信源，未获 OpenAI 或 Cursor 官方确认，实际影响范围待验证。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "Cursor 里 GPT 要没了？手把手教你用自有 API Key 继续用",
+            "angle": "以开发者角度，实测在 Cursor 中配置 OpenAI API Key 的步骤，展示截图和结果，提醒避坑（如额度、模型名称等）。",
+            "needs_hands_on": true,
+            "risk": "具体操作步骤未实测，需确认 Cursor 是否支持自定义 API 密钥（依据新闻描述）。"
+          },
+          {
+            "platform": "wechat",
+            "title": "从 Cursor 到 SpaceX：OpenAI 终止合作的背后，AI 编程工具生态的权力游戏",
+            "angle": "从行业背景切入，分析收购引发的信任危机、OpenAI 对模型分发的控制策略，以及对开发者工具链依赖风险的长期影响。",
+            "needs_hands_on": false,
+            "risk": "事件尚未官方确认，分析基于单一信源，需后续跟进。"
+          }
+        ]
+      }
+    },
+    "a270687813c28d829c80cb4b87a79a9a43741a1b": {
+      "generated_at": "2026-08-29T03:48:10.791211Z",
+      "enrichment": {
+        "summary_zh": "OpenAI正为Codex开发“Persistent Mode”，让agent无限期运行并自主生成后续任务。WIRED发现相关代码，OpenAI确认测试中但暂无发布计划。此前GPT",
+        "why_it_matters": "若上线，开发者可将长周期任务交给agent自主推进，但自主运行的权限边界与数据安全风险将直接影响工作流设计和工具选型。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "OpenAI的Codex要“永生”了？Persistent Mode代码泄露，自主AI离我们还有多远？",
+            "angle": "以开发者视角，从WIRED报道切入，讨论自主agent的潜力与失控风险，强调新功能尚未发布但代码已可见。",
+            "needs_hands_on": true,
+            "risk": "功能未发布，仅基于代码和官方确认，无实际运行数据，无法亲测。"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "OpenAI Codex持久模式实测前必看：你的数据会被AI删掉吗？",
+            "angle": "整理已知事实，提醒开发者注意权限控制和数据备份，避免agent自主操作造成损失。",
+            "needs_hands_on": false,
+            "risk": "GPT-5.6 Sol误删数据的具体场景和细节未完全核实，需谨慎表述。"
+          },
+          {
+            "platform": "wechat",
+            "title": "从Codex到Persistent Mode：OpenAI的自主Agent野心与安全边界",
+            "angle": "分析OpenAI的agent演进路线，探讨持久模式对开发工作流的长期影响，以及行业需共同面对的治理挑战。",
+            "needs_hands_on": false,
+            "risk": "单一来源报道，且持久模式功能细节有限，需标注推测成分。"
+          }
+        ]
+      }
+    },
+    "8ce05b38fa9dbb0e93ca0eaa681276f2a7738d61": {
+      "generated_at": "2026-08-29T03:48:10.791211Z",
+      "enrichment": {
+        "summary_zh": "SpaceX 收购 Cursor 后，OpenAI 据称决定禁止其使用自家模型，Anthropic 可能跟进。HN 讨论称 Cursor 对第三方模型不友好，有开发者转向 Code",
+        "why_it_matters": "AI 编程工具深度绑定模型厂商授权，收购引发连锁禁令风险；开发者需重新评估工具链，考虑多模型自带订阅方案。",
+        "angles": [
+          {
+            "platform": "x",
+            "title": "收购后首个禁令：OpenAI 封杀 Cursor，我们该换工具吗？",
+            "angle": "第一人称实测从 Cursor 迁移到 Claude Code 的经历，看到模型授权对工具生态的影响。",
+            "needs_hands_on": true,
+            "risk": "OpenAI 禁令细节与收购进展均未获官方确认，需核实原始来源"
+          },
+          {
+            "platform": "xiaohongshu",
+            "title": "Cursor 被 SpaceX 收购后，我果断换回 Claude Code+Codex 自带订阅",
+            "angle": "分享迁移步骤、成本对比和避坑经验，提醒关注模型授权变化。",
+            "needs_hands_on": true,
+            "risk": "未亲测 Cursor 对第三方模型的真实限制，可能因版本不同有差异"
+          },
+          {
+            "platform": "wechat",
+            "title": "从 Cursor 被收购看 AI 编程工具的模型绑定困局",
+            "angle": "分析模型厂商与代码工具整合趋势，探讨收购对开发者生态的长期影响。",
+            "needs_hands_on": false,
+            "risk": "Anthropic 是否跟进未证实，需关注官方后续声明"
+          }
+        ]
+      }
     }
   },
-  "updated_at": "2026-08-28T21:27:17.755598Z"
+  "updated_at": "2026-08-29T03:48:10.791211Z"
 }
