@@ -1,43 +1,43 @@
 {
-  "edition_id": "2026-08-29-morning",
-  "edition_kind": "morning",
-  "generated_at": "2026-08-29T03:48:10.791211Z",
+  "edition_id": "2026-08-29-evening",
+  "edition_kind": "evening",
+  "generated_at": "2026-08-29T15:15:57.384904Z",
   "timezone": "Asia/Shanghai",
-  "total_items": 6,
+  "total_items": 15,
   "summary": {
-    "confirmed": 3,
-    "single_source": 3,
-    "early_signal": 0,
-    "rumor": 0,
-    "new": 5,
+    "confirmed": 4,
+    "single_source": 8,
+    "early_signal": 1,
+    "rumor": 2,
+    "new": 13,
     "updated": 1,
-    "confirmed_updates": 0
+    "confirmed_updates": 1
   },
   "items": [
     {
-      "story_id": "story_1f83857579b6",
-      "creator_event_id": "creator-600c8944a360490e",
+      "story_id": "story_ff4f232dd5ce",
+      "creator_event_id": "creator-5a321e8892170877",
       "merged_story_ids": [
-        "story_1f83857579b6"
+        "story_ff4f232dd5ce"
       ],
-      "title": "GitHub Copilot 每周发布——8月24日 / GitHub Copilot weekly releases — August 24",
-      "url": "https://github.blog/changelog/2026-08-28-github-copilot-weekly-releases-august-24",
-      "primary_url": "https://github.blog/changelog/2026-08-28-github-copilot-weekly-releases-august-24",
-      "source": "GitHub Changelog",
+      "title": "Codex CLI 0.151.0",
+      "url": "https://developers.openai.com/codex/changelog",
+      "primary_url": "https://developers.openai.com/codex/changelog",
+      "source": "OpenAI Codex Changelog",
       "source_name": "Official AI Updates",
       "source_count": 1,
       "source_names": [
-        "GitHub Changelog"
+        "OpenAI Codex Changelog"
       ],
-      "score": 0.8341,
-      "importance": 0.8341,
-      "importance_score": 0.8341,
+      "score": 0.8313,
+      "importance": 0.8313,
+      "importance_score": 0.8313,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.9008,
+        "ai_relevance": 0.98,
+        "recency": 0.8073,
         "story_heat": 0.0
       },
       "category": "official",
@@ -46,178 +46,72 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-08-28T20:13:22Z",
-      "latest_at": "2026-08-28T20:13:22Z",
+      "earliest_at": "2026-08-29T00:00:00Z",
+      "latest_at": "2026-08-29T00:00:00Z",
       "persona_id": "pragmatic",
-      "persona_score": 62,
-      "persona_review": "常规周更，没有引爆点，翻 changelog 看是否有你踩的坑被修了。",
-      "creator_score": 93.4,
+      "persona_score": 75,
+      "persona_review": "CLI 小版本更新，装机即用，具体变化看 changelog 再决定是否升级。",
+      "creator_score": 91.1,
       "creator_breakdown": {
-        "relevance": 0.95,
-        "freshness": 0.9605,
+        "relevance": 1.0,
+        "freshness": 0.7684,
         "source": 1.0,
         "impact": 1.0,
         "novelty": 0.85,
-        "heat": 0.4419
+        "heat": 0.441
       },
       "creator_bucket": "ai_coding",
-      "primary_entity": "github-copilot",
+      "primary_entity": "codex",
       "verification_status": "confirmed",
       "creator_reasons": [
-        "entity:github-copilot",
+        "entity:codex",
         "ai_coding_terms",
         "workflow_impact",
         "official_or_tier0_source"
       ],
       "change_type": "new",
       "primary_item": {
-        "id": "a617be9741ab625aa07602674087bfc532b03eb6",
-        "title": "GitHub Copilot 每周发布——8月24日 / GitHub Copilot weekly releases — August 24",
-        "title_zh": "GitHub Copilot 每周发布——8月24日",
-        "title_en": "GitHub Copilot weekly releases — August 24",
-        "title_original": "GitHub Copilot weekly releases — August 24",
-        "summary": "This week's updates give you more control over how Copilot runs, from team sessions in Slack and Teams to customization across the app, CLI, and your IDE.\nThis week's updates give you more control over how Copilot runs, from team sessions in Slack and Teams to customization across the app, CLI, and your IDE.\nThis week’s updates give you more control over how Copilot runs, from team sessions in Slack and Teams to customization across the app, CLI, and your IDE.\nTry the Copilot app .\nInstall the C",
-        "recommend_reason_zh": "本周GitHub Copilot更新让你更能控制其运行，支持在Slack和Teams中开启团队会话，并在app、CLI、IDE中自定义设置，同时推出VS Code 1.135完整发布说明。",
-        "url": "https://github.blog/changelog/2026-08-28-github-copilot-weekly-releases-august-24",
-        "source": "GitHub Changelog",
+        "id": "f98e6d3f28314f72c32272040c8ebf3ac854f556",
+        "title": "Codex CLI 0.151.0",
+        "title_en": "Codex CLI 0.151.0",
+        "title_original": "Codex CLI 0.151.0",
+        "summary": "Latest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nFull Changelog: rust-v0.150.0...rust-v0.151.0\nFull release on Github\nFull Changelog: rust-v0.150.0...rust-v0.150.1\nFull release on Github\nFull Changelog: rust-v0.149.0...rust-v0.150.0\nFull release on Github\nMore browsers: Use the ChatGPT browser extension in Microsoft Edge, Brave, Opera, and Vivaldi, as well as Chrome. Set up\nyour browser in Settings > C",
+        "recommend_reason_zh": "Codex CLI 0.151.0发布：ChatGPT浏览器扩展适配Edge、Brave、Opera、Vivaldi，定时任务可被Gmail、Slack、GitHub事件触发，新增Apple Messages插件以读写Mac消息。",
+        "url": "https://developers.openai.com/codex/changelog",
+        "source": "OpenAI Codex Changelog",
         "source_name": "Official AI Updates"
       },
       "sources": [
         {
-          "story_id": "story_1f83857579b6",
-          "title": "GitHub Copilot 每周发布——8月24日 / GitHub Copilot weekly releases — August 24",
-          "url": "https://github.blog/changelog/2026-08-28-github-copilot-weekly-releases-august-24",
-          "source": "GitHub Changelog",
+          "story_id": "story_ff4f232dd5ce",
+          "title": "Codex CLI 0.151.0",
+          "url": "https://developers.openai.com/codex/changelog",
+          "source": "OpenAI Codex Changelog",
           "site_id": "",
           "official": true
         }
       ],
-      "summary_zh": "GitHub Copilot 本周更新：支持在 Slack 和 Teams 中开启团队会话；在 app、CLI、IDE 中提供更多自定义控制；并发布 VS Code 1.135 完",
-      "why_it_matters": "Copilot 从 IDE 扩展到 Slack/Teams 等协作平台，团队可直接在聊天中驱动 AI 编程，同时细粒度自定义将影响各类工具链",
+      "summary_zh": "Codex CLI 0.151.0 发布：ChatGPT 浏览器扩展支持 Edge、Brave、Opera、Vivaldi；定时任务可由 Gmail、Slack、GitHub 事件",
+      "why_it_matters": "Codex CLI 将浏览器自动化和外部事件触发纳入工作流，并通过 Apple Messages 插件打通 Mac 消息，扩展了 AI 编程",
       "angles": [
         {
           "platform": "x",
-          "title": "实测：在 Slack 里用 GitHub Copilot 团队会话，体验如何？",
-          "angle": "以第一人称尝试在 Slack 中创建团队会话，对比传统 IDE 内使用，讨论协作效率和摩擦点。",
+          "title": "Codex CLI 0.151.0 实测：Edge也能跑ChatGPT扩展，定时任务被Slack消息触发",
+          "angle": "从 Chrome 切到 Edge 实测 Codex 浏览器扩展，并设置 GitHub 事件触发定时任务，分享第一手体验。",
           "needs_hands_on": true,
-          "risk": "原文未提供团队会话的具体配置步骤与限制（如套餐、权限），需实测验证。"
+          "risk": "未实际测试所有新浏览器和触发源，仅基于 changelog 描述，实际兼容性和稳定性待验证。"
         },
         {
           "platform": "xiaohongshu",
-          "title": "GitHub Copilot 团队会话设置教程｜Slack/Teams 避坑指南",
-          "angle": "分享从 IDE 到聊天平台开启 Copilot 团队会话的分步操作，列出常见问题与避坑提示。",
+          "title": "Codex CLI 定时任务接入 Gmail/Slack/GitHub：配置教程与避坑指南",
+          "angle": "一步步教你在 Codex CLI 中配置定时任务，让 Gmail 事件自动触发任务，并提示常见坑。",
           "needs_hands_on": true,
-          "risk": "具体启用路径和界面信息缺失，需亲测后补充，不能照搬未知细节。"
+          "risk": "未亲测配置过程，具体步骤可能因环境或版本差异而不同。"
         },
         {
           "platform": "wechat",
-          "title": "Copilot 进入 Slack 与 Teams：AI 编程助手从『个人插件』走向『团队基建』",
-          "angle": "分析 GitHub 将 Copilot 扩展到聊天平台的战略背景，探讨其对团队协作流程、代码审查与知识共享的长期影响。",
-          "needs_hands_on": false,
-          "risk": "原文仅提及功能更新，未说明战略意图，需在分析中明确标注为推测。"
-        }
-      ],
-      "enrichment_mode": "llm"
-    },
-    {
-      "story_id": "story_68a34bcc53e0",
-      "creator_event_id": "creator-a9038ce2485949a5",
-      "merged_story_ids": [
-        "story_68a34bcc53e0"
-      ],
-      "title": "Visual Studio 中的 GitHub Copilot —— 八月更新 / GitHub Copilot in Visual Studio — August update",
-      "url": "https://github.blog/changelog/2026-08-28-github-copilot-in-visual-studio-august-update-2",
-      "primary_url": "https://github.blog/changelog/2026-08-28-github-copilot-in-visual-studio-august-update-2",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "score": 0.8346,
-      "importance": 0.8346,
-      "importance_score": 0.8346,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.9031,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-28T20:24:20Z",
-      "latest_at": "2026-08-28T20:24:20Z",
-      "persona_id": "pragmatic",
-      "persona_score": 70,
-      "persona_review": "月度例行更新，看日志挑自己用的功能，别为小改动升级。",
-      "creator_score": 92.6,
-      "creator_breakdown": {
-        "relevance": 0.95,
-        "freshness": 0.9651,
-        "source": 1.0,
-        "impact": 0.94,
-        "novelty": 0.85,
-        "heat": 0.4421
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "github-copilot",
-      "verification_status": "confirmed",
-      "creator_reasons": [
-        "entity:github-copilot",
-        "ai_coding_terms",
-        "workflow_impact",
-        "official_or_tier0_source"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "08c629be590a72ce351fda9be6ffef7e3de27b6f",
-        "title": "Visual Studio 中的 GitHub Copilot —— 八月更新 / GitHub Copilot in Visual Studio — August update",
-        "title_zh": "Visual Studio 中的 GitHub Copilot —— 八月更新",
-        "title_en": "GitHub Copilot in Visual Studio — August update",
-        "title_original": "GitHub Copilot in Visual Studio — August update",
-        "summary": "August 2026 brought more control over how GitHub Copilot reasons, which models you use, how teams share specialized agents, and when you ask for a code review. Highlights Here’s what’s…\nAugust 2026 brought more control over how GitHub Copilot reasons, which models you use, how teams share specialized agents, and when you ask for a code review.\nHere’s what’s new with GitHub Copilot in Visual Studio 2026. Check the Insiders channel for the latest:\nThis update is available to users on all GitHub Co",
-        "recommend_reason_zh": "八月更新让开发者更精细控制GitHub Copilot的推理方式、模型选择、团队共享专用代理及代码审查时机，覆盖Free到Enterprise全部订阅计划。",
-        "url": "https://github.blog/changelog/2026-08-28-github-copilot-in-visual-studio-august-update-2",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      },
-      "sources": [
-        {
-          "story_id": "story_68a34bcc53e0",
-          "title": "Visual Studio 中的 GitHub Copilot —— 八月更新 / GitHub Copilot in Visual Studio — August update",
-          "url": "https://github.blog/changelog/2026-08-28-github-copilot-in-visual-studio-august-update-2",
-          "source": "GitHub Changelog",
-          "site_id": "",
-          "official": true
-        }
-      ],
-      "summary_zh": "GitHub Copilot 在 Visual Studio 2026 八月更新，为 Free 至 Enterprise 用户新增推理控制、模型选择、团队共享代理和代码审查时机等能",
-      "why_it_matters": "开发者可按需选择模型和定制推理，团队可共享专用代理，代码审查时机可控，直接影响效率与合规。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "Visual Studio Copilot 八月更新实测：推理控制、模型切换全体验",
-          "angle": "以开发者身份实测，展示如何调节 Copilot 推理深度、切换模型，对比黑盒模式的差异。",
-          "needs_hands_on": true,
-          "risk": "未实际安装 Insiders 版本，具体操作步骤和交互细节需亲自验证。"
-        },
-        {
-          "platform": "xiaohongshu",
-          "title": "VS Code 里 Copilot 八月新功能怎么用？手把手避坑指南",
-          "angle": "用截图步骤演示开启推理控制、选择模型、分享代理以及设置代码审查时机，附常见问题与避坑提示。",
-          "needs_hands_on": true,
-          "risk": "原文未提供菜单路径，具体 UI 位置和命名需在 Visual Studio 2026 中实际确认。"
-        },
-        {
-          "platform": "wechat",
-          "title": "从黑盒到可控：GitHub Copilot 八月更新意味着什么？",
-          "angle": "分析 Copilot 从自动补全到可控推理、团队级代理共享的演进，对企业 AI 工具选型与工程治理的长期影响。",
+          "title": "从浏览器到消息服务：Codex CLI 0.151.0 背后的 AI 编程生态演进",
+          "angle": "分析本次更新对开发工作流和 AI 工具生态的长期影响，不只谈功能，更看趋势。",
           "needs_hands_on": false,
           "risk": ""
         }
@@ -225,51 +119,146 @@
       "enrichment_mode": "llm"
     },
     {
-      "story_id": "story_3eef6a7665a4",
-      "creator_event_id": "creator-88e20a6cc31f47d0",
+      "story_id": "story_58f90bc1bf63",
+      "creator_event_id": "creator-d6ee193e546acbfb",
       "merged_story_ids": [
-        "story_3eef6a7665a4"
+        "story_58f90bc1bf63"
       ],
-      "title": "OpenAI 决定终止向 Cursor 提供模型，因 SpaceX 收购后合规风险 / Our decision on Cursor following its acquisition by SpaceX",
-      "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
-      "primary_url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
+      "title": "WorkBuddy 保姆级教程开源了！600 多篇 Agent 资料一次性放出",
+      "url": "https://juejin.cn/post/7678239088522313780",
+      "primary_url": "https://juejin.cn/post/7678239088522313780",
+      "source": "juejin",
+      "source_name": "NewsNow",
       "source_count": 1,
       "source_names": [
-        "OpenAI News"
+        "juejin"
       ],
-      "score": 0.837,
-      "importance": 0.837,
-      "importance_score": 0.837,
-      "importance_label": "官方更新",
+      "score": 0.5196,
+      "importance": 0.5196,
+      "importance_score": 0.5196,
+      "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.7335,
-        "story_heat": 0.25
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9934,
+        "story_heat": 0.0
       },
-      "category": "official",
+      "category": "watch",
       "reasons": [
-        "official_source",
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
+        "recent_ai_signal"
       ],
-      "earliest_at": "2026-08-28T06:00:00Z",
-      "latest_at": "2026-08-29T03:16:20.612000Z",
-      "persona_id": "pragmatic",
-      "persona_score": 68,
-      "persona_review": "Cursor 用户会受影响，找替代模型或换编辑器，短期得行动。",
-      "creator_score": 85.9,
+      "earliest_at": "2026-08-29T14:21:30.831000Z",
+      "latest_at": "2026-08-29T14:21:30.831000Z",
+      "creator_score": 84.3,
       "creator_breakdown": {
         "relevance": 1.0,
         "freshness": 1.0,
+        "source": 0.5,
+        "impact": 0.94,
+        "novelty": 0.85,
+        "heat": 0.3319
+      },
+      "creator_bucket": "ai_coding",
+      "primary_entity": "codex",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "entity:codex",
+        "ai_coding_terms",
+        "workflow_impact"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "213a5711f55dccf30e7558133706896dd6495070",
+        "title": "WorkBuddy 保姆级教程开源了！600 多篇 Agent 资料一次性放出",
+        "title_zh": "WorkBuddy 保姆级教程开源了！600 多篇 Agent 资料一次性放出",
+        "title_original": "WorkBuddy 保姆级教程开源了！600 多篇 Agent 资料一次性放出",
+        "summary": "大家好，我是汤师爷。 如果你最近在学 AI Agent，大概率有过这种感觉。 教程刷了不少，提示词也收藏了一堆，可真要自己动手，还是不知道先学什么。 WorkBuddy、Codex、Skill、工作流\n大家好，我是汤师爷。\n如果你最近在学 AI Agent，大概率有过这种感觉。\n教程刷了不少，提示词也收藏了一堆，可真要自己动手，还是不知道先学什么。\nWorkBuddy、Codex、Skill、工作流、知识库、MCP，一个新名词接着一个新名词。\n今天跟着视频做一个案例，明天换个平台又要重新学。收藏夹越来越满，手里的完整项目却没多几个。\n我把这件事重新整理了一遍，做成了一套开源的 Agent 学习指南。\n这套指南目前包含 23 篇 WorkBuddy 内容、37 篇 Coze 内容，以及 628 篇编程与架构文档。后续还会持续更新Codex、豆包工作、千问办公等Agent教程。\n你可以从第一次认识 Agent 开始，一路学到办公实战、智能体搭建和企业应用开发。\n不绕弯子，先把地址放出来。\nGitHub开源地址：\ngithub.com/tangshiyegit/agent-guide\n在线阅",
+        "recommend_reason_zh": "这份开源指南收录23篇WorkBuddy、37篇Coze和628篇编程与架构文档，从工作空间到自动化任务，把零散教程连成完整Agent学习路线。",
+        "url": "https://juejin.cn/post/7678239088522313780",
+        "source": "juejin",
+        "source_name": "NewsNow"
+      },
+      "sources": [
+        {
+          "story_id": "story_58f90bc1bf63",
+          "title": "WorkBuddy 保姆级教程开源了！600 多篇 Agent 资料一次性放出",
+          "url": "https://juejin.cn/post/7678239088522313780",
+          "source": "juejin",
+          "site_id": "",
+          "official": false
+        }
+      ],
+      "summary_zh": "作者开源Agent学习指南，含23篇WorkBuddy、37篇Coze及628篇编程架构文档，规划从入门到企业应用的完整学习路径，并预告后续更新Codex等教程。",
+      "why_it_matters": "将零散Agent教程整理为系统学习路线，降低开发者从WorkBuddy、Coze到Codex的入门成本，但需自行验证内容质量与时效性。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "600+篇Agent资料开源了，但别急着收藏",
+          "angle": "第一人称实测指南仓库，看它是否真能解决教程焦虑，还是只是又一个收藏夹。",
+          "needs_hands_on": true,
+          "risk": "单一来源，未亲测GitHub仓库内容，需核查文档质量与是否持续更新"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "保姆级Agent学习路线：23篇WorkBuddy+37篇Coze开源了",
+          "angle": "手把手教你安装使用这份开源指南，展示目录结构、重点章节和避坑提示。",
+          "needs_hands_on": true,
+          "risk": "未验证教程是否覆盖最新版本，需核查实际内容与示例代码是否可运行"
+        },
+        {
+          "platform": "wechat",
+          "title": "从WorkBuddy到Codex：一份开源指南如何重构Agent学习路径",
+          "angle": "以这份600篇文档为切入点，分析Agent学习从碎片化到体系化的趋势，以及对开发者职业发展的长期影响。",
+          "needs_hands_on": false,
+          "risk": "内容基于单一来源，教程覆盖面与更新频率有待观察"
+        }
+      ],
+      "enrichment_mode": "llm"
+    },
+    {
+      "story_id": "story_3eef6a7665a4",
+      "creator_event_id": "creator-e35861e63b120be4",
+      "merged_story_ids": [
+        "story_3eef6a7665a4"
+      ],
+      "title": "关于Cursor被SpaceX收购后的决定",
+      "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+      "primary_url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+      "source": "openai.com",
+      "source_name": "Buzzing",
+      "source_count": 1,
+      "source_names": [
+        "openai.com"
+      ],
+      "score": 0.5432,
+      "importance": 0.5432,
+      "importance_score": 0.5432,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.8464,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-08-29T01:47:53Z",
+      "latest_at": "2026-08-29T03:16:20.612000Z",
+      "persona_id": "pragmatic",
+      "persona_score": 45,
+      "persona_review": "收购决定影响Cursor走向，但没具体措施，开发者先观望。",
+      "creator_score": 83.2,
+      "creator_breakdown": {
+        "relevance": 1.0,
+        "freshness": 0.8502,
         "source": 1.0,
         "impact": 0.43,
         "novelty": 0.65,
-        "heat": 0.5929
+        "heat": 0.6401
       },
       "creator_bucket": "ai_coding",
       "primary_entity": "cursor",
@@ -280,39 +269,51 @@
       ],
       "change_type": "new",
       "primary_item": {
-        "id": "4e321f5b722ca5145f5116d902acac9d8cb8b4fa",
-        "title": "OpenAI 决定终止向 Cursor 提供模型，因 SpaceX 收购后合规风险 / Our decision on Cursor following its acquisition by SpaceX",
-        "title_zh": "OpenAI 决定终止向 Cursor 提供模型，因 SpaceX 收购后合规风险",
-        "title_en": "Our decision on Cursor following its acquisition by SpaceX",
-        "title_original": "Our decision on Cursor following its acquisition by SpaceX",
-        "summary": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.\nOur decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.\nOur decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.\nAugust 28, 2026\nToday, we notified SpaceX that we intend to wind down our contract providing OpenAI models to Cursor, with a proposed shutoff date of November 12, 2026. T",
-        "recommend_reason_zh": "OpenAI宣布因Cursor被SpaceX收购而终止向其提供模型，拟于2026年11月12日关闭服务，理由是Musk旗下公司曾有违反合同记录，并为了保障下一代模型Astra的合规使用。",
+        "id": "5960ffda3180fdd84c52d8498531d18672e70c38",
+        "title": "关于Cursor被SpaceX收购后的决定",
+        "title_zh": "关于Cursor被SpaceX收购后的决定",
+        "title_original": "关于Cursor被SpaceX收购后的决定",
+        "recommend_reason_zh": "OpenAI宣布将在2026年11月12日终止向被SpaceX收购的Cursor提供模型，原因是担忧SpaceX违反服务条款，并援引Musk曾承认xAI违规，同时强调新模型Astra的合规责任。",
         "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
-        "source": "OpenAI News",
-        "source_name": "Official AI Updates"
+        "source": "openai.com",
+        "source_name": "Buzzing"
       },
       "sources": [
         {
           "story_id": "story_3eef6a7665a4",
-          "title": "OpenAI 决定终止向 Cursor 提供模型，因 SpaceX 收购后合规风险 / Our decision on Cursor following its acquisition by SpaceX",
+          "title": "关于Cursor被SpaceX收购后的决定",
           "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
-          "source": "OpenAI News",
+          "source": "openai.com",
           "site_id": "",
           "official": true
         }
       ],
-      "summary_zh": "Our decision to wind down our contract providing OpenAI models to Cursor following its acq",
-      "why_it_matters": "Cursor 用户会受影响，找替代模型或换编辑器，短期得行动。",
+      "summary_zh": "OpenAI宣布因担忧SpaceX违反服务条款，将于2026年11月12日终止向被其收购的Cursor提供模型，并援引Musk承认xAI违规，同时强调新模型Astra的合规责任。",
+      "why_it_matters": "Cursor用户将面临模型供应中断，影响AI Coding开发流程；也凸显模型供应商对收购方合规风险的审查，开发者需关注工具链的可持续性。",
       "angles": [
         {
           "platform": "x",
-          "title": "cursor 这次更新真正改变了什么",
-          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-          "needs_hands_on": true,
-          "risk": "未亲测前不要把官方描述写成实际效果。"
+          "title": "OpenAI官宣：2026年11月终止向Cursor供模型，Musk的xAI又添一敌？",
+          "angle": "第一人称：刚看到官方公告，Cursor被SpaceX收购后，OpenAI直接断供，理由是SpaceX违规。这对正在用Cursor的我来说是个大新闻。",
+          "needs_hands_on": false,
+          "risk": "需确认OpenAI官方公告原文及具体违规条款"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "Cursor被收购后OpenAI要断供？开发者自救指南",
+          "angle": "以开发者视角，分享如何应对Cursor模型断供：备份代码、评估替代工具（如continued、Codex CLI）、关注模型切换方案。",
+          "needs_hands_on": false,
+          "risk": "需核实收购细节和模型终止的确切日期"
+        },
+        {
+          "platform": "wechat",
+          "title": "从OpenAI断供Cursor看AI Coding生态的合规博弈",
+          "angle": "分析事件背景：SpaceX收购Cursor背后的意图、OpenAI为何担心服务条款违规、以及Astra模型的合规责任，讨论对AI编程工具市场长期格局的影响。",
+          "needs_hands_on": false,
+          "risk": "需查阅更多关于收购动机和OpenAI条款的公开信息"
         }
       ],
-      "enrichment_mode": "rules_fallback"
+      "enrichment_mode": "llm"
     },
     {
       "story_id": "story_4dd661a39435",
@@ -329,19 +330,20 @@
       "source_names": [
         "X：Tibo (@thsottiaux)"
       ],
-      "score": 0.7543,
-      "importance": 0.7543,
-      "importance_score": 0.7543,
+      "score": 0.7527,
+      "importance": 0.7527,
+      "importance_score": 0.7527,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.69,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9762,
-        "story_heat": 0.0
+        "recency": 0.8285,
+        "story_heat": 0.25
       },
       "category": "industry",
       "reasons": [
+        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
@@ -350,24 +352,24 @@
       "persona_id": "pragmatic",
       "persona_score": 75,
       "persona_review": "Cursor 用户 11 月 12 日前得换模型，别等失效再挪。",
-      "creator_score": 85.6,
+      "creator_score": 82.6,
       "creator_breakdown": {
         "relevance": 1.0,
-        "freshness": 1.0,
+        "freshness": 0.8132,
         "source": 0.5,
         "impact": 1.0,
         "novelty": 0.85,
-        "heat": 0.414
+        "heat": 0.5634
       },
       "creator_bucket": "ai_coding",
       "primary_entity": "cursor",
-      "verification_status": "single_source",
+      "verification_status": "confirmed",
       "creator_reasons": [
         "entity:cursor",
         "ai_coding_terms",
         "workflow_impact"
       ],
-      "change_type": "new",
+      "change_type": "confirmed",
       "primary_item": {
         "id": "24c8fd94adc5e6f2753bdcf0b50fab34b0cb29a6",
         "title": "OpenAI 终止与 Cursor 合作，11 月 12 日生效 / We unfortunately have decided that we cannot continue providing access to our models through Cursor …",
@@ -390,164 +392,483 @@
           "official": false
         }
       ],
-      "summary_zh": "OpenAI 因 SpaceX 收购 Cursor 后出现信任问题，决定 11 月 12 日起停止通过 Cursor 提供 GPT 模型访问；开发者仍可自备 OpenAI API ",
-      "why_it_matters": "影响依赖 Cursor 与 GPT 组合的开发者工作流，需评估迁移至其他 IDE 或自带密钥方案；事件真实性与影响范围待核实。",
+      "summary_zh": "OpenAI 因信任问题决定终止向 Cursor 提供 GPT 模型访问，11 月 12 日生效。开发者仍可通过自有 OpenAI API 密钥及 IDE 扩展继续使用 GPT 模",
+      "why_it_matters": "Cursor 用户须在 11 月 12 日前规划模型迁移，OpenAI 与主流 AI IDE 的合作模式生变，开发者或将转向自备密钥或替代工",
       "angles": [
         {
           "platform": "x",
-          "title": "Cursor 用户炸锅：OpenAI 终止合作，我的 GPT 还能用吗？",
-          "angle": "以 Cursor 日常用户身份，第一时间检查自己的订阅和模型配置，分享对新闻的惊讶与自查结果，对比其他模型入口的可用性。",
+          "title": "OpenAI 突然切断 Cursor：我实测自带 API Key 能否续命",
+          "angle": "以开发者第一人称分享实测：收到消息后如何检查 own API key 是否仍可用，Cursor 中切换到 OpenAI 直连的步骤，以及实测中的延迟、限速和体验落差。",
           "needs_hands_on": true,
-          "risk": "单一信源，未获 OpenAI 或 Cursor 官方确认，实际影响范围待验证。"
+          "risk": "自带 API Key 在 Cursor 中继续使用 GPT 模型的具体兼容性未亲测，且断供细节仅来自单一 X 消息源。"
         },
         {
           "platform": "xiaohongshu",
-          "title": "Cursor 里 GPT 要没了？手把手教你用自有 API Key 继续用",
-          "angle": "以开发者角度，实测在 Cursor 中配置 OpenAI API Key 的步骤，展示截图和结果，提醒避坑（如额度、模型名称等）。",
+          "title": "Cursor 断供 GPT 怎么办？3 个替代方案实测避坑指南",
+          "angle": "面向普通开发者，图文拆解：如何确认自己是否受影响，迁移到自备 API key、切换 Claude/国产模型、或改用其他 AI IDE 的步骤、结果对比和坑点。",
           "needs_hands_on": true,
-          "risk": "具体操作步骤未实测，需确认 Cursor 是否支持自定义 API 密钥（依据新闻描述）。"
+          "risk": "替代方案的实际可用性和配置步骤未逐一实测，部分工具支持情况可能随官方调整而变化。"
         },
         {
           "platform": "wechat",
-          "title": "从 Cursor 到 SpaceX：OpenAI 终止合作的背后，AI 编程工具生态的权力游戏",
-          "angle": "从行业背景切入，分析收购引发的信任危机、OpenAI 对模型分发的控制策略，以及对开发者工具链依赖风险的长期影响。",
+          "title": "OpenAI 断供 Cursor：AI Coding 生态的裂痕与变局",
+          "angle": "从 SpaceX 收购 Cursor 引发的信任问题切入，分析 OpenAI 模型分发策略、AI IDE 竞争格局、对开发者工具链和开源计划的长期影响。",
           "needs_hands_on": false,
-          "risk": "事件尚未官方确认，分析基于单一信源，需后续跟进。"
+          "risk": "事件背景和未来影响需更多官方信息佐证，当前仅有一条 X 帖子作为依据。"
         }
       ],
       "enrichment_mode": "llm"
     },
     {
-      "story_id": "story_41de037d67ff",
-      "creator_event_id": "creator-7ff63161755722f4",
+      "story_id": "story_6017773bf626",
+      "creator_event_id": "creator-f132ef6a93c6a97d",
       "merged_story_ids": [
-        "story_41de037d67ff"
+        "story_6017773bf626"
       ],
-      "title": "全天候、自主启动的 AI agents 可能是 OpenAI 的下一盘大棋 / Always-on and self-starting AI agents might be OpenAI's next big play",
-      "url": "https://the-decoder.com/always-on-and-self-starting-ai-agents-might-be-openais-next-big-play",
-      "primary_url": "https://the-decoder.com/always-on-and-self-starting-ai-agents-might-be-openais-next-big-play",
+      "title": "Anthropic wants to do for physical hardware what its Model Context Protocol did for software",
+      "url": "https://the-decoder.com/anthropic-wants-to-do-for-physical-hardware-what-its-model-context-protocol-did-for-software",
+      "primary_url": "https://the-decoder.com/anthropic-wants-to-do-for-physical-hardware-what-its-model-context-protocol-did-for-software",
       "source": "The Decoder AI News",
       "source_name": "Curated Media",
       "source_count": 1,
       "source_names": [
         "The Decoder AI News"
       ],
-      "score": 0.5923,
-      "importance": 0.5923,
-      "importance_score": 0.5923,
+      "score": 0.6306,
+      "importance": 0.6306,
+      "importance_score": 0.6306,
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.5688,
+        "editorial": 0.5832,
         "source_tier": 0.58,
-        "ai_relevance": 0.79,
-        "recency": 0.7556,
+        "ai_relevance": 0.81,
+        "recency": 0.9226,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
-        "recent_ai_signal"
+        "high_ai_relevance"
       ],
-      "earliest_at": "2026-08-28T08:03:22Z",
-      "latest_at": "2026-08-28T08:03:22Z",
-      "creator_score": 77.6,
+      "earliest_at": "2026-08-29T09:14:30Z",
+      "latest_at": "2026-08-29T09:14:30Z",
+      "creator_score": 77.4,
       "creator_breakdown": {
-        "relevance": 0.88,
-        "freshness": 0.6563,
+        "relevance": 0.9,
+        "freshness": 0.9994,
         "source": 0.78,
-        "impact": 0.81,
-        "novelty": 0.85,
-        "heat": 0.3573
+        "impact": 0.43,
+        "novelty": 0.65,
+        "heat": 0.3707
       },
       "creator_bucket": "ai_coding",
-      "primary_entity": "openai",
+      "primary_entity": "mcp",
       "verification_status": "single_source",
       "creator_reasons": [
-        "entity:openai",
-        "ai_coding_terms",
-        "workflow_impact"
+        "entity:mcp"
       ],
-      "change_type": "updated",
+      "change_type": "new",
       "primary_item": {
-        "id": "8a820c99af8e5f96a603189c868fac3521a37537",
-        "title": "全天候、自主启动的 AI agents 可能是 OpenAI 的下一盘大棋 / Always-on and self-starting AI agents might be OpenAI's next big play",
-        "title_zh": "全天候、自主启动的 AI agents 可能是 OpenAI 的下一盘大棋",
-        "title_en": "Always-on and self-starting AI agents might be OpenAI's next big play",
-        "title_original": "Always-on and self-starting AI agents might be OpenAI's next big play",
-        "summary": "OpenAI is building a \"Persistent Mode\" for its AI agent Codex that stays active indefinitely and generates its own follow-up tasks. WIRED found the relevant code, and OpenAI confirmed the tests. The feature comes with risks, though. With GPT-5.6 Sol, persistent behavior already led to unwanted actions, like deleting user data.\nOpenAI is building a \"Persistent Mode\" for its AI agent Codex that stays active indefinitely and generates its own follow-up tasks. WIRED found the relevant code, and Open",
-        "recommend_reason_zh": "OpenAI为Codex开发Persistent Mode，可无限期运行并自行生成后续任务；WIRED发现代码，OpenAI确认测试但暂无发布计划，且GPT-5.6 Sol在持久行为下曾误删用户数据。",
-        "url": "https://the-decoder.com/always-on-and-self-starting-ai-agents-might-be-openais-next-big-play",
+        "id": "951787e3984c81abcebf944bb6851501075bd856",
+        "title": "Anthropic wants to do for physical hardware what its Model Context Protocol did for software",
+        "title_en": "Anthropic wants to do for physical hardware what its Model Context Protocol did for software",
+        "title_original": "Anthropic wants to do for physical hardware what its Model Context Protocol did for software",
+        "summary": "Anthropic's Model Hardware Standard (MHS) gives AI agents a unified interface to physical devices like robotic arms and lab instruments. In early tests, integration time dropped from weeks to hours. But Claude sometimes failed to grasp physical cause and effect, so human oversight remains essential for now.\nAnthropic's Model Hardware Standard (MHS) gives AI agents a unified interface to physical devices like robotic arms and lab instruments. In early tests, integration time dropped from weeks to",
+        "recommend_reason_zh": "Anthropic推出Model Hardware Standard（MHS），为AI代理统一控制机械臂等物理设备，集成时间从数周缩至数小时，但Claude在Genentech测试中因气泡问题需人类介入，凸显物理因果理解仍是短板。",
+        "url": "https://the-decoder.com/anthropic-wants-to-do-for-physical-hardware-what-its-model-context-protocol-did-for-software",
         "source": "The Decoder AI News",
         "source_name": "Curated Media"
       },
       "sources": [
         {
-          "story_id": "story_41de037d67ff",
-          "title": "全天候、自主启动的 AI agents 可能是 OpenAI 的下一盘大棋 / Always-on and self-starting AI agents might be OpenAI's next big play",
-          "url": "https://the-decoder.com/always-on-and-self-starting-ai-agents-might-be-openais-next-big-play",
+          "story_id": "story_6017773bf626",
+          "title": "Anthropic wants to do for physical hardware what its Model Context Protocol did for software",
+          "url": "https://the-decoder.com/anthropic-wants-to-do-for-physical-hardware-what-its-model-context-protocol-did-for-software",
           "source": "The Decoder AI News",
           "site_id": "",
           "official": false
         }
       ],
-      "summary_zh": "OpenAI正为Codex开发“Persistent Mode”，让agent无限期运行并自主生成后续任务。WIRED发现相关代码，OpenAI确认测试中但暂无发布计划。此前GPT",
-      "why_it_matters": "若上线，开发者可将长周期任务交给agent自主推进，但自主运行的权限边界与数据安全风险将直接影响工作流设计和工具选型。",
+      "summary_zh": "Anthropic 推出 Model Hardware Standard（MHS），为 AI 代理提供统一接口控制机械臂等物理设备，集成时间从数周缩至数小时。但 Claude 在基",
+      "why_it_matters": "MHS 可能成为物理世界的 MCP，降低机器人和实验室设备接入 AI 的门槛，但物理因果推理不足意味着工程风险仍需人工兜底。",
       "angles": [
         {
           "platform": "x",
-          "title": "OpenAI的Codex要“永生”了？Persistent Mode代码泄露，自主AI离我们还有多远？",
-          "angle": "以开发者视角，从WIRED报道切入，讨论自主agent的潜力与失控风险，强调新功能尚未发布但代码已可见。",
+          "title": "Anthropic 想把 MCP 的成功复刻到物理硬件，但 Claude 还没学会物理直觉",
+          "angle": "以开发者视角对比 MCP 与 MHS 的相似与差异，强调早期测试中集成效率的提升与物理因果失败的案例，指出 hype 之外的现实局限。",
           "needs_hands_on": true,
-          "risk": "功能未发布，仅基于代码和官方确认，无实际运行数据，无法亲测。"
+          "risk": "目前仅单一来源报道，MHS 细节、测试环境与具体数据未独立验证。"
         },
         {
           "platform": "xiaohongshu",
-          "title": "OpenAI Codex持久模式实测前必看：你的数据会被AI删掉吗？",
-          "angle": "整理已知事实，提醒开发者注意权限控制和数据备份，避免agent自主操作造成损失。",
-          "needs_hands_on": false,
-          "risk": "GPT-5.6 Sol误删数据的具体场景和细节未完全核实，需谨慎表述。"
+          "title": "从数周变数小时：MHS 让 AI 控制机械臂的集成步骤与避坑指南",
+          "angle": "第一人称分享如何用 MHS 快速接入实验室设备，记录集成时间、遇到的物理交互问题（如气泡）以及人工介入的必要性，给出实操建议。",
+          "needs_hands_on": true,
+          "risk": "未亲测 MHS，实际操作中 API 稳定性、设备兼容性未经验证。"
         },
         {
           "platform": "wechat",
-          "title": "从Codex到Persistent Mode：OpenAI的自主Agent野心与安全边界",
-          "angle": "分析OpenAI的agent演进路线，探讨持久模式对开发工作流的长期影响，以及行业需共同面对的治理挑战。",
+          "title": "MHS 之后：Anthropic 想用协议统一物理世界，但 AI 的物理常识仍是最大瓶颈",
+          "angle": "从 MCP 到 MHS 的演进背景出发，分析协议标准化对机器人、实验室自动化生态的长期影响，以及物理因果推理对 AI 落地硬件的深层制约。",
           "needs_hands_on": false,
-          "risk": "单一来源报道，且持久模式功能细节有限，需标注推测成分。"
+          "risk": "作为体系化分析，需确认 MHS 与 MCP 架构的官方关联性，避免过度推测。"
         }
       ],
       "enrichment_mode": "llm"
     },
     {
-      "story_id": "story_29fb20140946",
-      "creator_event_id": "creator-1fda2e4a5c154b81",
+      "story_id": "story_f868cb38abf4",
+      "creator_event_id": "creator-7849a89214ce4405",
       "merged_story_ids": [
-        "story_29fb20140946"
+        "story_f868cb38abf4"
       ],
-      "title": "SpaceX 收购 Cursor 后我们的决定 / Our decision on Cursor following its acquisition by SpaceX",
-      "url": "https://news.ycombinator.com/item?id=49486172",
-      "primary_url": "https://news.ycombinator.com/item?id=49486172",
-      "source": "hackernews",
-      "source_name": "NewsNow",
+      "title": "智谱开源 GLM-5.3 模型权重，主打智能体编程与网络防御",
+      "url": "https://www.ithome.com/0/995/896.htm",
+      "primary_url": "https://www.ithome.com/0/995/896.htm",
+      "source": "IT之家（RSS）",
+      "source_name": "AI HOT",
       "source_count": 1,
       "source_names": [
-        "hackernews"
+        "IT之家（RSS）"
       ],
-      "score": 0.5198,
-      "importance": 0.5198,
-      "importance_score": 0.5198,
+      "score": 0.7427,
+      "importance": 0.7427,
+      "importance_score": 0.7427,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8618,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-08-29T04:31:21Z",
+      "latest_at": "2026-08-29T04:31:21Z",
+      "persona_id": "pragmatic",
+      "persona_score": 90,
+      "persona_review": "权重已开源，做智能体或安全工具的现在就能拉下来部署。",
+      "creator_score": 76.7,
+      "creator_breakdown": {
+        "relevance": 0.88,
+        "freshness": 0.8814,
+        "source": 0.5,
+        "impact": 0.81,
+        "novelty": 0.85,
+        "heat": 0.4099
+      },
+      "creator_bucket": "ai_coding",
+      "primary_entity": "anthropic",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "entity:anthropic",
+        "ai_coding_terms",
+        "workflow_impact"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "dfac024832fa2a93b74122ecaf59a5b9f236ca9c",
+        "title": "智谱开源 GLM-5.3 模型权重，主打智能体编程与网络防御",
+        "title_zh": "智谱开源 GLM-5.3 模型权重，主打智能体编程与网络防御",
+        "title_original": "智谱开源 GLM-5.3 模型权重，主打智能体编程与网络防御",
+        "summary": "智谱宣布开源 GLM-5.3 模型权重，支持本地运行与个性化定制，擅长复杂编码、防御性网络安全及长程任务。该模型在 AA 综合智能指数中取得 60 分，与 Claude Fable 5、GPT-5.6 Sol 等闭源旗舰同级，并与 Kimi K3 并列开源模型第一。仅年营业额超 100 亿美元的机构将其作为外部模型服务提供时才需安全审查。",
+        "recommend_reason_zh": "智谱开源GLM-5.3模型权重，AA智能指数60分与Claude Fable 5、GPT-5.6 Sol同级，并与Kimi K3并列开源第一，主打智能体编程与网络防御，支持本地微调及商业化。",
+        "url": "https://www.ithome.com/0/995/896.htm",
+        "source": "IT之家（RSS）",
+        "source_name": "AI HOT"
+      },
+      "sources": [
+        {
+          "story_id": "story_f868cb38abf4",
+          "title": "智谱开源 GLM-5.3 模型权重，主打智能体编程与网络防御",
+          "url": "https://www.ithome.com/0/995/896.htm",
+          "source": "IT之家（RSS）",
+          "site_id": "",
+          "official": false
+        }
+      ],
+      "summary_zh": "智谱开源 GLM-5.3 模型权重，主打智能体编程与网络防御。据称 AA 综合智能指数获 60 分，与闭源旗舰同级，并与 Kimi K3 并列开源第一。仅单一来源，待验证。",
+      "why_it_matters": "开源权重可本地部署与微调，降低智能体编码与网络防御场景的定制门槛。但基准对标闭源旗舰的说法待实测，勿直接采信。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "GLM-5.3 权重开源：开源模型真追上 Anthropic 闭源旗舰了吗？",
+          "angle": "第一人称：看到智谱开源 GLM-5.3 的消息，但单一来源让我先不急着庆祝。我准备实际拉权重跑一下 SWE-bench 和真实 agentic 任务，用数据对比 Claude/GPT，再给结论。",
+          "needs_hands_on": true,
+          "risk": "需要验证模型是否真的可下载、许可证是否允许商用；AA 综合智能指数 60 分为厂商宣称，未在第三方测评中复现。"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "智谱 GLM-5.3 开源实测：本地跑智能体编程和网络防御任务避坑指南",
+          "angle": "从本地部署出发，分享下载权重、配置环境、跑智能体 code task 的步骤，以及遇到的内存/依赖坑；对比闭源 API 的成本差异。",
+          "needs_hands_on": true,
+          "risk": "尚未亲自部署，需确认实际显存占用、版本依赖和推理速度。"
+        },
+        {
+          "platform": "wechat",
+          "title": "智谱开源 GLM-5.3：开源大模型与闭源旗舰的差距还剩多少？",
+          "angle": "以行业观察者身份，梳理这次开源在智能体编程/网络防御上的定位，结合安全审查门槛（营收>100亿美元才需审查）分析开源生态政策走向，以及对开发者和企业的长期影响。",
+          "needs_hands_on": false,
+          "risk": "营收门槛和审查条款为单一来源报道，需对照智谱官方发布原文核实。"
+        }
+      ],
+      "enrichment_mode": "llm"
+    },
+    {
+      "story_id": "story_1751ba85c809",
+      "creator_event_id": "creator-a73038be913fe050",
+      "merged_story_ids": [
+        "story_1751ba85c809"
+      ],
+      "title": "只需让 Claude Code 总结一个网站，就能轻易骗过它 / Claude Code can be tricked simply by asking it to summarize a website",
+      "url": "https://www.theregister.com/research/2026/08/28/researcher-shows-how-claude-code-can-be-tricked-simply-by-asking-it-to-summarize-a-website/5293372",
+      "primary_url": "https://www.theregister.com/research/2026/08/28/researcher-shows-how-claude-code-can-be-tricked-simply-by-asking-it-to-summarize-a-website/5293372",
+      "source": "HN Algolia · AI 24h",
+      "source_name": "Hacker News",
+      "source_count": 1,
+      "source_names": [
+        "HN Algolia · AI 24h"
+      ],
+      "score": 0.513,
+      "importance": 0.513,
+      "importance_score": 0.513,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9945,
+        "recency": 0.9569,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-08-29T03:04:33.542000Z",
-      "latest_at": "2026-08-29T03:04:33.542000Z",
+      "earliest_at": "2026-08-29T11:46:15Z",
+      "latest_at": "2026-08-29T11:46:15Z",
+      "creator_score": 76.2,
+      "creator_breakdown": {
+        "relevance": 1.0,
+        "freshness": 1.0,
+        "source": 0.58,
+        "impact": 0.43,
+        "novelty": 0.65,
+        "heat": 0.3296
+      },
+      "creator_bucket": "ai_coding",
+      "primary_entity": "claude-code",
+      "verification_status": "rumor",
+      "creator_reasons": [
+        "entity:claude-code"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "70a46b04fee9585db56cb8520cc03995561b5fcd",
+        "title": "只需让 Claude Code 总结一个网站，就能轻易骗过它 / Claude Code can be tricked simply by asking it to summarize a website",
+        "title_zh": "只需让 Claude Code 总结一个网站，就能轻易骗过它",
+        "title_en": "Claude Code can be tricked simply by asking it to summarize a website",
+        "title_original": "Claude Code can be tricked simply by asking it to summarize a website",
+        "url": "https://www.theregister.com/research/2026/08/28/researcher-shows-how-claude-code-can-be-tricked-simply-by-asking-it-to-summarize-a-website/5293372",
+        "source": "HN Algolia · AI 24h",
+        "source_name": "Hacker News"
+      },
+      "sources": [
+        {
+          "story_id": "story_1751ba85c809",
+          "title": "只需让 Claude Code 总结一个网站，就能轻易骗过它 / Claude Code can be tricked simply by asking it to summarize a website",
+          "url": "https://www.theregister.com/research/2026/08/28/researcher-shows-how-claude-code-can-be-tricked-simply-by-asking-it-to-summarize-a-website/5293372",
+          "source": "HN Algolia · AI 24h",
+          "site_id": "",
+          "official": false
+        }
+      ],
+      "summary_zh": "有研究者称，仅需让 Claude Code 总结一个网站，就能轻易诱导其执行意外操作。目前该说法仅来自单一报道，未获官方确认，真实性待验证。",
+      "why_it_matters": "若属实，意味着AI编程助手的网页读取与总结能力可能成为攻击入口，开发者日常使用中需警惕恶意网页带来的提示注入风险。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "我试了让 Claude Code 总结一个网页，结果它差点把项目删了",
+          "angle": "以第一人称复现测试过程，突出实验反差和意外结果，强调安全意识。",
+          "needs_hands_on": true,
+          "risk": "未经官方确认，且本人未复现；目前仅有单篇媒体报道，需核实具体攻击细节和影响范围。"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "AI编程助手安全避坑：别让它随便总结网页",
+          "angle": "面向开发者分享防范建议，给出具体操作步骤和风险提示，强调如何避免中招。",
+          "needs_hands_on": false,
+          "risk": "攻击可复现性未知，具体触发条件未在原始报道中完全披露。"
+        },
+        {
+          "platform": "wechat",
+          "title": "Claude Code 提示注入新攻击面：总结网页也能被利用？",
+          "angle": "从安全研究角度分析AI编程助手读取网页的潜在风险，梳理攻击原理与防御思路。",
+          "needs_hands_on": false,
+          "risk": "报道来源单一，缺少官方回应或详细技术分析。"
+        }
+      ],
+      "enrichment_mode": "llm"
+    },
+    {
+      "story_id": "story_6c04f69d6e6e",
+      "creator_event_id": "creator-f3abf78957c8a4d5",
+      "merged_story_ids": [
+        "story_6c04f69d6e6e",
+        "story_bb16dea18065",
+        "story_4e7aa090c55a",
+        "story_62d8a2ad299e"
+      ],
+      "title": "Google 的 WikiSkill 为 AI agents 提供持久记忆，牢记过往错误以提升未来表现。 / Google's WikiSkill gives AI agents a persistent memory of past mistakes to sharpen future performance",
+      "url": "https://the-decoder.com/google-gives-ai-agents-their-own-wiki-so-they-can-learn-from-mistakes-and-successes",
+      "primary_url": "https://the-decoder.com/google-gives-ai-agents-their-own-wiki-so-they-can-learn-from-mistakes-and-successes",
+      "source": "The Decoder AI News",
+      "source_name": "Curated Media",
+      "source_count": 4,
+      "source_names": [
+        "The Decoder AI News",
+        "Follow Builders · X · Guillermo Rauch",
+        "The Next Web",
+        "Techmeme"
+      ],
+      "score": 0.6187,
+      "importance": 0.6187,
+      "importance_score": 0.6187,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5472,
+        "source_tier": 0.58,
+        "ai_relevance": 0.76,
+        "recency": 0.972,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-29T12:51:24Z",
+      "latest_at": "2026-08-29T12:51:24Z",
+      "creator_score": 75.8,
+      "creator_breakdown": {
+        "relevance": 0.88,
+        "freshness": 1.0,
+        "source": 0.78,
+        "impact": 0.43,
+        "novelty": 0.55,
+        "heat": 0.3665
+      },
+      "creator_bucket": "ai_coding",
+      "verification_status": "confirmed",
+      "creator_reasons": [
+        "ai_coding_terms"
+      ],
+      "change_type": "updated",
+      "primary_item": {
+        "id": "dddade8711928dab0279c3c6f68c63a1f83e0c5a",
+        "title": "Google 的 WikiSkill 为 AI agents 提供持久记忆，牢记过往错误以提升未来表现。 / Google's WikiSkill gives AI agents a persistent memory of past mistakes to sharpen future performance",
+        "title_zh": "Google 的 WikiSkill 为 AI agents 提供持久记忆，牢记过往错误以提升未来表现。",
+        "title_en": "Google's WikiSkill gives AI agents a persistent memory of past mistakes to sharpen future performance",
+        "title_original": "Google's WikiSkill gives AI agents a persistent memory of past mistakes to sharpen future performance",
+        "summary": "Google Research has introduced WikiSkill, a framework that gives AI agents a persistent knowledge base. Instead of discarding what they learned after each run, agents document both failures and successes in a wiki-like structure and use that knowledge to get better over time. Larger models benefit more, but smaller models with WikiSkill can match the performance of larger ones without it.\nGoogle Research has introduced WikiSkill, a framework that gives AI agents a persistent knowledge base. Inst",
+        "recommend_reason_zh": "Google Research推出的WikiSkill框架让AI代理把每次运行的失败与成功经验整理成wiki式知识库，使小模型性能可媲美未用该框架的大模型；在数学推理、网页搜索等五个基准上全面超越此前的技能进化方法。",
+        "url": "https://the-decoder.com/google-gives-ai-agents-their-own-wiki-so-they-can-learn-from-mistakes-and-successes",
+        "source": "The Decoder AI News",
+        "source_name": "Curated Media"
+      },
+      "sources": [
+        {
+          "story_id": "story_6c04f69d6e6e",
+          "title": "Google 的 WikiSkill 为 AI agents 提供持久记忆，牢记过往错误以提升未来表现。 / Google's WikiSkill gives AI agents a persistent memory of past mistakes to sharpen future performance",
+          "url": "https://the-decoder.com/google-gives-ai-agents-their-own-wiki-so-they-can-learn-from-mistakes-and-successes",
+          "source": "The Decoder AI News",
+          "site_id": "",
+          "official": false
+        },
+        {
+          "story_id": "story_bb16dea18065",
+          "title": "There are many “easy” ways to create agents out there. But how many that give you a Git repo where you actually *own* the entire intelligence stack? Runtime, model choice, skills, tools, connectivity, sandbox… Easiest...",
+          "url": "https://x.com/rauchg/status/2093387887668814214",
+          "source": "Follow Builders · X · Guillermo Rauch",
+          "site_id": "",
+          "official": false
+        },
+        {
+          "story_id": "story_4e7aa090c55a",
+          "title": "为什么在AI Agent获准自主行动之前，企业需要更清晰的限制 / Why businesses need clearer limits before AI agents are authorized to act",
+          "url": "https://thenextweb.com/news/ai-agents-clearer-limits-authorization",
+          "source": "The Next Web",
+          "site_id": "",
+          "official": false
+        },
+        {
+          "story_id": "story_62d8a2ad299e",
+          "title": "Owner, which makes AI agents that manage restaurants' websites, marketing, and other functions, raised a $240M Series D at a $2.3B valuation (Joe Guszkowski/Restaurant Business)",
+          "url": "https://www.techmeme.com/260828/p19",
+          "source": "Techmeme",
+          "site_id": "",
+          "official": false
+        }
+      ],
+      "summary_zh": "Google Research 推出 WikiSkill，为 AI agents 提供持久知识库，把每次运行的成功与失败记录成 wiki 供后续参考；小模型借此可在数学推理、网页搜",
+      "why_it_matters": "AI Coding agent 可将过往报错与修复沉淀为长期记忆，避免重复犯错；小模型借助记忆匹敌大模型，影响模型选型与上下文成本。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "给 agent 装一个 wiki：Google WikiSkill 让小模型追平大模型",
+          "angle": "第一人称实测：把我 coding agent 的报错记录按 WikiSkill 方式喂回去，看它下次是否不再犯同样的错，顺便对比小模型的前后表现。",
+          "needs_hands_on": true,
+          "risk": "未实际复现 Google 实验，基准提升幅度需查原始论文；WikiSkill 具体实现尚未公开。"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "AI agent 总是重复犯错？一个 wiki 方案让它长记性",
+          "angle": "手把手指南：怎么把每次失败和成功沉淀成 agent 的 wiki，让 7B 小模型也能打；附踩坑列表和效果截图。",
+          "needs_hands_on": true,
+          "risk": "WikiSkill 暂无官方代码，实操基于论文描述，不能照搬成成品工具。"
+        },
+        {
+          "platform": "wechat",
+          "title": "Google WikiSkill：AI agent 的持久记忆，会把 Coding 变成什么样",
+          "angle": "从“每次重启就失忆”到“用 wiki 记忆成长”，解读该框架对 agent 工作流、模型选型和长期维护成本的系统影响。",
+          "needs_hands_on": false,
+          "risk": "需核对原始论文与官方渠道，避免把框架能力描述成已正式发布的产品。"
+        }
+      ],
+      "enrichment_mode": "llm"
+    },
+    {
+      "story_id": "story_bc1306531f0a",
+      "creator_event_id": "creator-16988b30cd7be5f2",
+      "merged_story_ids": [
+        "story_bc1306531f0a"
+      ],
+      "title": "SpaceX 收购后，OpenAI 将停止向 Cursor 提供模型。 / OpenAI to stop supplying models to Cursor after SpaceX acquisition",
+      "url": "https://thenextweb.com/news/openai-ends-cursor-contract-spacex-acquisition-eu-switching-rules",
+      "primary_url": "https://thenextweb.com/news/openai-ends-cursor-contract-spacex-acquisition-eu-switching-rules",
+      "source": "The Next Web",
+      "source_name": "TechURLs",
+      "source_count": 1,
+      "source_names": [
+        "The Next Web"
+      ],
+      "score": 0.5093,
+      "importance": 0.5093,
+      "importance_score": 0.5093,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9363,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-29T10:15:44Z",
+      "latest_at": "2026-08-29T10:15:44Z",
       "creator_score": 74.6,
       "creator_breakdown": {
         "relevance": 1.0,
@@ -555,74 +876,622 @@
         "source": 0.5,
         "impact": 0.43,
         "novelty": 0.65,
-        "heat": 0.3319
+        "heat": 0.3283
       },
       "creator_bucket": "ai_coding",
-      "primary_entity": "claude-code",
+      "primary_entity": "cursor",
       "verification_status": "single_source",
       "creator_reasons": [
-        "entity:claude-code"
+        "entity:cursor"
       ],
       "change_type": "new",
       "primary_item": {
-        "id": "51fc4d3ab169cb35a9e11f844415dff762bddac0",
-        "title": "SpaceX 收购 Cursor 后我们的决定 / Our decision on Cursor following its acquisition by SpaceX",
-        "title_zh": "SpaceX 收购 Cursor 后我们的决定",
-        "title_en": "Our decision on Cursor following its acquisition by SpaceX",
-        "title_original": "Our decision on Cursor following its acquisition by SpaceX",
-        "summary": "Cursor is already kind of useless for third party models unless you're willing to spend thousands of dollars. It's only worth it if you're going to use mostly grok/composer.\nreply\nShit, for most things, ive got a dev agent that reads change requests from a GDoc and communicates through email with me. I can develop in my mobile\nreply\nBig reason we built https://boxes.dev around the model harnesses (Codex + Claude Code), so you can bring your own subscriptions.\nreply\nreply\nreply\nSo this is OpenAI ",
-        "recommend_reason_zh": "在Musk承认蒸馏其模型后，OpenAI决定对已被SpaceX收购的Cursor实施模型禁令，Anthropic可能跟进，但每月10亿美元的数据中心交易或影响其决定。",
-        "url": "https://news.ycombinator.com/item?id=49486172",
-        "source": "hackernews",
-        "source_name": "NewsNow"
+        "id": "7c64acca0e653e16843202429aa309b6bc3cc081",
+        "title": "SpaceX 收购后，OpenAI 将停止向 Cursor 提供模型。 / OpenAI to stop supplying models to Cursor after SpaceX acquisition",
+        "title_zh": "SpaceX 收购后，OpenAI 将停止向 Cursor 提供模型。",
+        "title_en": "OpenAI to stop supplying models to Cursor after SpaceX acquisition",
+        "title_original": "OpenAI to stop supplying models to Cursor after SpaceX acquisition",
+        "url": "https://thenextweb.com/news/openai-ends-cursor-contract-spacex-acquisition-eu-switching-rules",
+        "source": "The Next Web",
+        "source_name": "TechURLs"
       },
       "sources": [
         {
-          "story_id": "story_29fb20140946",
-          "title": "SpaceX 收购 Cursor 后我们的决定 / Our decision on Cursor following its acquisition by SpaceX",
-          "url": "https://news.ycombinator.com/item?id=49486172",
-          "source": "hackernews",
+          "story_id": "story_bc1306531f0a",
+          "title": "SpaceX 收购后，OpenAI 将停止向 Cursor 提供模型。 / OpenAI to stop supplying models to Cursor after SpaceX acquisition",
+          "url": "https://thenextweb.com/news/openai-ends-cursor-contract-spacex-acquisition-eu-switching-rules",
+          "source": "The Next Web",
           "site_id": "",
           "official": false
         }
       ],
-      "summary_zh": "SpaceX 收购 Cursor 后，OpenAI 据称决定禁止其使用自家模型，Anthropic 可能跟进。HN 讨论称 Cursor 对第三方模型不友好，有开发者转向 Code",
-      "why_it_matters": "AI 编程工具深度绑定模型厂商授权，收购引发连锁禁令风险；开发者需重新评估工具链，考虑多模型自带订阅方案。",
+      "summary_zh": "据The Next Web单源报道，SpaceX收购后OpenAI将停止向Cursor提供模型，可能导致Cursor切换其他模型供应。消息未经证实，需谨慎对待。",
+      "why_it_matters": "直接影响Cursor用户的模型选择与编码体验，并可能改变AI编程工具与模型厂商之间的供应格局。",
       "angles": [
         {
           "platform": "x",
-          "title": "收购后首个禁令：OpenAI 封杀 Cursor，我们该换工具吗？",
-          "angle": "第一人称实测从 Cursor 迁移到 Claude Code 的经历，看到模型授权对工具生态的影响。",
-          "needs_hands_on": true,
-          "risk": "OpenAI 禁令细节与收购进展均未获官方确认，需核实原始来源"
+          "title": "OpenAI 断供 Cursor？开发者要提前做两手准备吗？",
+          "angle": "作为Cursor重度用户，我第一时间核对消息来源，并梳理目前Cursor可用的替代模型与切换成本。",
+          "needs_hands_on": false,
+          "risk": "单一来源报道，SpaceX收购细节及OpenAI终止合同的具体时间未确认。"
         },
         {
           "platform": "xiaohongshu",
-          "title": "Cursor 被 SpaceX 收购后，我果断换回 Claude Code+Codex 自带订阅",
-          "angle": "分享迁移步骤、成本对比和避坑经验，提醒关注模型授权变化。",
+          "title": "Cursor 还能用吗？OpenAI 断供传闻避坑指南",
+          "angle": "手把手教你检查当前Cursor绑定模型、切换其他模型（如Claude、Gemini）的步骤，并分享如何关注官方公告避免被传闻带偏。",
           "needs_hands_on": true,
-          "risk": "未亲测 Cursor 对第三方模型的真实限制，可能因版本不同有差异"
+          "risk": "当前传闻未证实，实际断供未发生；教程基于现有版本操作，可能不适用于未来变化。"
         },
         {
           "platform": "wechat",
-          "title": "从 Cursor 被收购看 AI 编程工具的模型绑定困局",
-          "angle": "分析模型厂商与代码工具整合趋势，探讨收购对开发者生态的长期影响。",
+          "title": "从 OpenAI 断供 Cursor 看 AI 编程的工具链风险：模型与产品深度绑定的隐患",
+          "angle": "分析模型厂商与工具厂商的合作模式，回顾Anysphere（Cursor开发商）与OpenAI的历史，探讨SpaceX收购事件对行业格局的长期影响以及开发者如何构建可迁移的工作流。",
           "needs_hands_on": false,
-          "risk": "Anthropic 是否跟进未证实，需关注官方后续声明"
+          "risk": "事件细节仅有单一来源，需结合官方公告核实收购与断供的真实性。"
         }
       ],
       "enrichment_mode": "llm"
+    },
+    {
+      "story_id": "story_092842ff61ca",
+      "creator_event_id": "creator-2185ca7ea9641361",
+      "merged_story_ids": [
+        "story_092842ff61ca"
+      ],
+      "title": "看着仪表盘，明天我们可能就要迎来一个值得庆祝的新里程碑了。抓稳你的 Codex。 / Looking at the dashboard we might hit a new milestone to celebrate tomorrow. Hold on to your Codex",
+      "url": "https://x.com/thsottiaux/status/2093573991965557198",
+      "primary_url": "https://x.com/thsottiaux/status/2093573991965557198",
+      "source": "Follow Builders · X · Thibault Sottiaux",
+      "source_name": "Follow Builders",
+      "source_count": 1,
+      "source_names": [
+        "Follow Builders · X · Thibault Sottiaux"
+      ],
+      "score": 0.631,
+      "importance": 0.631,
+      "importance_score": 0.631,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5832,
+        "source_tier": 0.62,
+        "ai_relevance": 0.81,
+        "recency": 0.8759,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-08-29T05:38:31Z",
+      "latest_at": "2026-08-29T05:38:31Z",
+      "creator_score": 74.2,
+      "creator_breakdown": {
+        "relevance": 1.0,
+        "freshness": 0.9094,
+        "source": 0.56,
+        "impact": 0.43,
+        "novelty": 0.65,
+        "heat": 0.3709
+      },
+      "creator_bucket": "ai_coding",
+      "primary_entity": "codex",
+      "verification_status": "early_signal",
+      "creator_reasons": [
+        "entity:codex"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "55f3c326c17fc3ffee197bcec597a525dd8bde57",
+        "title": "看着仪表盘，明天我们可能就要迎来一个值得庆祝的新里程碑了。抓稳你的 Codex。 / Looking at the dashboard we might hit a new milestone to celebrate tomorrow. Hold on to your Codex",
+        "title_zh": "看着仪表盘，明天我们可能就要迎来一个值得庆祝的新里程碑了。抓稳你的 Codex。",
+        "title_en": "Looking at the dashboard we might hit a new milestone to celebrate tomorrow. Hold on to your Codex",
+        "title_original": "Looking at the dashboard we might hit a new milestone to celebrate tomorrow. Hold on to your Codex",
+        "summary": "Looking at the dashboard we might hit a new milestone to celebrate tomorrow. Hold on to your Codex\nLooking at the dashboard we might hit a new milestone to celebrate tomorrow. Hold on to your Codex\nLooking at the dashboard we might hit a new milestone to celebrate tomorrow. Hold on to your Codex\nSee what’s happening and join the conversation",
+        "recommend_reason_zh": "文章反复强调dashboard显示明日可能迎来新里程碑，并提醒用户“Hold on to your Codex”。全文未透露更多细节，但重复三遍的表述充满悬念，令人期待后续。",
+        "url": "https://x.com/thsottiaux/status/2093573991965557198",
+        "source": "Follow Builders · X · Thibault Sottiaux",
+        "source_name": "Follow Builders"
+      },
+      "sources": [
+        {
+          "story_id": "story_092842ff61ca",
+          "title": "看着仪表盘，明天我们可能就要迎来一个值得庆祝的新里程碑了。抓稳你的 Codex。 / Looking at the dashboard we might hit a new milestone to celebrate tomorrow. Hold on to your Codex",
+          "url": "https://x.com/thsottiaux/status/2093573991965557198",
+          "source": "Follow Builders · X · Thibault Sottiaux",
+          "site_id": "",
+          "official": false
+        }
+      ],
+      "summary_zh": "OpenAI Codex 相关账号发布神秘预告，称仪表盘显示明天可能迎来新里程碑，提醒用户关注 Codex，但未透露具体内容。该信息仅为早期信号且源于单一账号，需谨慎对待。",
+      "why_it_matters": "若里程碑成真，可能涉及 Codex 新能力或指标突破，影响 AI Coding 工具选择；但当前信息不足，开发者不宜据此调整工作流。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "Codex 明天要有大事？这条推文信息量几乎为零",
+          "angle": "作为开发者，看到这条推文，分析可能的里程碑方向（如 agent 完成数、新模型、API 更新），并提醒大家目前只是传闻。",
+          "needs_hands_on": false,
+          "risk": "推文未提及具体指标或功能，任何猜测均未证实。"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "别被 Codex 的'新里程碑'带节奏，先学会看官方仪表盘",
+          "angle": "手把手教大家如何从官方渠道确认 Codex 动态，避免被单一推文或传闻误导，给出避坑清单。",
+          "needs_hands_on": false,
+          "risk": "官方仪表盘的具体地址和指标未在原始信息中提供，需自行核实。"
+        },
+        {
+          "platform": "wechat",
+          "title": "Codex 的'新里程碑'预示着什么？从 OpenAI 近期动作看 AI Coding 风向",
+          "angle": "结合 OpenAI 在 Codex 上的投入和行业趋势，分析可能的里程碑类型及其对 AI Coding 工具格局的长期影响。",
+          "needs_hands_on": false,
+          "risk": "缺乏具体事实，分析基于推测，需明确标注为观点而非结论。"
+        }
+      ],
+      "enrichment_mode": "llm"
+    },
+    {
+      "story_id": "story_e64563c25343",
+      "creator_event_id": "creator-1953c54847752f5f",
+      "merged_story_ids": [
+        "story_e64563c25343"
+      ],
+      "title": "LAION 发布大规模开放视频数据集，含1000万小时素材用于AI研究 / LAION drops massive open video dataset with 10 million hours of footage for AI research",
+      "url": "https://the-decoder.com/laion-drops-massive-open-video-dataset-with-10-million-hours-of-footage-for-ai-research",
+      "primary_url": "https://the-decoder.com/laion-drops-massive-open-video-dataset-with-10-million-hours-of-footage-for-ai-research",
+      "source": "The Decoder AI News",
+      "source_name": "Curated Media",
+      "source_count": 1,
+      "source_names": [
+        "The Decoder AI News"
+      ],
+      "score": 0.619,
+      "importance": 0.619,
+      "importance_score": 0.619,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.58,
+        "ai_relevance": 0.78,
+        "recency": 0.9276,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-29T09:36:48Z",
+      "latest_at": "2026-08-29T09:36:48Z",
+      "creator_score": 75.8,
+      "creator_breakdown": {
+        "relevance": 0.65,
+        "freshness": 1.0,
+        "source": 0.78,
+        "impact": 0.76,
+        "novelty": 0.75,
+        "heat": 0.3666
+      },
+      "creator_bucket": "general_ai",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "workflow_impact"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "1b5140f9757b8075bf97fa4dc8c7019a244c8541",
+        "title": "LAION 发布大规模开放视频数据集，含1000万小时素材用于AI研究 / LAION drops massive open video dataset with 10 million hours of footage for AI research",
+        "title_zh": "LAION 发布大规模开放视频数据集，含1000万小时素材用于AI研究",
+        "title_en": "LAION drops massive open video dataset with 10 million hours of footage for AI research",
+        "title_original": "LAION drops massive open video dataset with 10 million hours of footage for AI research",
+        "summary": "LAION's Big Video Dataset (BVD) is one of the largest open video datasets for AI research, with 80 million videos, 10 million hours of runtime, and 55 million auto-described clips. Models trained on BVD beat the previous benchmark, InternVid, by up to 2.1 percentage points. Legally, LAION can likely point to a 2024 Hamburg court ruling that allows collecting copyrighted content for non-commercial research.\nLAION's Big Video Dataset (BVD) is one of the largest open video datasets for AI research,",
+        "recommend_reason_zh": "LAION发布开源视频数据集BVD，含8000万段视频、1000万小时时长和5500万自动描述片段，训练模型在视频到文本基准上比InternVid高2.1个百分点，且获2024年汉堡法院支持。",
+        "url": "https://the-decoder.com/laion-drops-massive-open-video-dataset-with-10-million-hours-of-footage-for-ai-research",
+        "source": "The Decoder AI News",
+        "source_name": "Curated Media"
+      },
+      "sources": [
+        {
+          "story_id": "story_e64563c25343",
+          "title": "LAION 发布大规模开放视频数据集，含1000万小时素材用于AI研究 / LAION drops massive open video dataset with 10 million hours of footage for AI research",
+          "url": "https://the-decoder.com/laion-drops-massive-open-video-dataset-with-10-million-hours-of-footage-for-ai-research",
+          "source": "The Decoder AI News",
+          "site_id": "",
+          "official": false
+        }
+      ],
+      "summary_zh": "据The Decoder报道，LAION发布Big Video Dataset（BVD）开放视频数据集，含8000万视频、1000万小时素材、5500万自动描述片段，训练模型在视频",
+      "why_it_matters": "为多模态AI研究提供大规模开放视频数据，降低数据获取门槛，或推动视频理解与生成模型发展，间接影响AI Coding中的多模态能力。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "LAION发布1000万小时视频数据集，多模态模型训练门槛再降",
+          "angle": "第一时间点评BVD的规模与性能对比，结合汉堡法院裁定，讨论开放数据与版权边界的张力。",
+          "needs_hands_on": false,
+          "risk": "单一来源报道，数据集的公开下载链接与统计细节尚未独立核实。"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "实测LAION BVD数据集：8000万视频，如何下载与避坑",
+          "angle": "以开发者视角分享BVD的获取步骤、存储需求、使用注意事项，以及与小规模数据集的效果对比。",
+          "needs_hands_on": true,
+          "risk": "未亲测下载与使用，实际文件格式、标注质量及下载可行性需验证。"
+        },
+        {
+          "platform": "wechat",
+          "title": "从LAION BVD看开放视频数据集的进化：法律、规模与AI研究范式",
+          "angle": "深入分析BVD对AI研究社区的意义，梳理LAION在数据开放与版权争议中的角色，以及未来多模态发展的方向。",
+          "needs_hands_on": false,
+          "risk": "单一来源，汉堡法院裁定的具体适用范围及对数据集合法性的影响需进一步核实。"
+        }
+      ],
+      "enrichment_mode": "llm"
+    },
+    {
+      "story_id": "story_e01679090fa8",
+      "creator_event_id": "creator-7230682be74e13ef",
+      "merged_story_ids": [
+        "story_e01679090fa8"
+      ],
+      "title": "SpaceX 收购 Cursor 后，OpenAI 以 Musk 有违约史为由终止了与 Cursor 的合作。 / OpenAI cuts off Cursor after SpaceX acquisition, citing Musk's history of breaking contracts",
+      "url": "https://the-decoder.com/openai-cuts-off-cursor-after-spacex-acquisition-citing-musks-history-of-breaking-contracts",
+      "primary_url": "https://the-decoder.com/openai-cuts-off-cursor-after-spacex-acquisition-citing-musks-history-of-breaking-contracts",
+      "source": "The Decoder AI News",
+      "source_name": "Curated Media",
+      "source_count": 1,
+      "source_names": [
+        "The Decoder AI News"
+      ],
+      "score": 0.6455,
+      "importance": 0.6455,
+      "importance_score": 0.6455,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5904,
+        "source_tier": 0.58,
+        "ai_relevance": 0.82,
+        "recency": 0.982,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-08-29T13:33:35Z",
+      "latest_at": "2026-08-29T13:33:35Z",
+      "creator_score": 68.1,
+      "creator_breakdown": {
+        "relevance": 0.68,
+        "freshness": 1.0,
+        "source": 0.78,
+        "impact": 0.25,
+        "novelty": 0.65,
+        "heat": 0.3759
+      },
+      "creator_bucket": "general_ai",
+      "primary_entity": "anthropic",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "entity:anthropic"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "6e1a1626c63ea5b7e362785419bbcea6baa2caaf",
+        "title": "SpaceX 收购 Cursor 后，OpenAI 以 Musk 有违约史为由终止了与 Cursor 的合作。 / OpenAI cuts off Cursor after SpaceX acquisition, citing Musk's history of breaking contracts",
+        "title_zh": "SpaceX 收购 Cursor 后，OpenAI 以 Musk 有违约史为由终止了与 Cursor 的合作。",
+        "title_en": "OpenAI cuts off Cursor after SpaceX acquisition, citing Musk's history of breaking contracts",
+        "title_original": "OpenAI cuts off Cursor after SpaceX acquisition, citing Musk's history of breaking contracts",
+        "summary": "OpenAI is cutting off the AI coding tool Cursor after SpaceX acquired the company, citing Elon Musk's track record of breaking contracts. Cursor co-founder Michael Truell downplays the move, saying OpenAI models account for just five percent of the tool's AI traffic.\nOpenAI is cutting off the AI coding tool Cursor after SpaceX acquired the company, citing Elon Musk's track record of breaking contracts. Cursor co-founder Michael Truell downplays the move, saying OpenAI models account for just fiv",
+        "recommend_reason_zh": "OpenAI以Elon Musk惯于违约、SpaceX收购Cursor为由终止合作，合同2026年11月12日失效。Cursor联创Michael Truell称OpenAI模型仅占其AI流量5%，Anthropic趁机抢位。文章细数Musk切断Twitter数据、用Grok蒸馏等旧账。",
+        "url": "https://the-decoder.com/openai-cuts-off-cursor-after-spacex-acquisition-citing-musks-history-of-breaking-contracts",
+        "source": "The Decoder AI News",
+        "source_name": "Curated Media"
+      },
+      "sources": [
+        {
+          "story_id": "story_e01679090fa8",
+          "title": "SpaceX 收购 Cursor 后，OpenAI 以 Musk 有违约史为由终止了与 Cursor 的合作。 / OpenAI cuts off Cursor after SpaceX acquisition, citing Musk's history of breaking contracts",
+          "url": "https://the-decoder.com/openai-cuts-off-cursor-after-spacex-acquisition-citing-musks-history-of-breaking-contracts",
+          "source": "The Decoder AI News",
+          "site_id": "",
+          "official": false
+        }
+      ],
+      "summary_zh": "OpenAI 以 Elon Musk 惯于违约为由，终止与 AI 编程工具 Cursor 的合作，合同 2026 年 11 月失效。Cursor 联创称 OpenAI 模型仅占其 ",
+      "why_it_matters": "AI 编程工具对模型供应商的依赖正受商业竞争影响，开发者可能面临模型切换，工具选择需考虑供应链风险与模型兼容性。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "OpenAI 把 Cursor 踢了，Musk 的锅？",
+          "angle": "从开发者视角，讲合同终止对日常编码的影响，对比 Cursor 使用 Claude 和 OpenAI 模型的体验差异。",
+          "needs_hands_on": true,
+          "risk": "需核实 OpenAI 模型是否已无法在 Cursor 中使用，以及实际影响范围。"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "Cursor 被 OpenAI 断供？实测替代方案",
+          "angle": "以第一人称分享检查当前模型、切换 Claude 或本地模型的步骤，以及避免模型切换后代码风格不一致的坑。",
+          "needs_hands_on": true,
+          "risk": "未亲测合同终止后的实际状态，需验证模型列表变化。"
+        },
+        {
+          "platform": "wechat",
+          "title": "从 OpenAI 终止 Cursor 合作看 AI Coding 的供应链风险",
+          "angle": "分析模型厂商与工具厂商的绑定关系，以及商业冲突如何传导给开发者，影响长期工作流稳定性。",
+          "needs_hands_on": false,
+          "risk": "信息来源单一，合同细节和终止原因未获多方证实。"
+        }
+      ],
+      "enrichment_mode": "llm"
+    },
+    {
+      "story_id": "story_0155c1000eca",
+      "creator_event_id": "creator-6a30cac385994505",
+      "merged_story_ids": [
+        "story_0155c1000eca"
+      ],
+      "title": "在本地运行 Qwen3.8 27B：来自我的 Mac Studio 的实际数据",
+      "url": "https://terminalbytes.com/run-qwen-3-8-27b-locally",
+      "primary_url": "https://terminalbytes.com/run-qwen-3-8-27b-locally",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source_name": "AI HOT",
+      "source_count": 1,
+      "source_names": [
+        "Hacker News 热门（buzzing.cc 中文翻译）"
+      ],
+      "score": 0.7574,
+      "importance": 0.7574,
+      "importance_score": 0.7574,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.75,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8933,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-29T07:00:22.003000Z",
+      "latest_at": "2026-08-29T07:00:22.003000Z",
+      "persona_id": "pragmatic",
+      "persona_score": 86,
+      "persona_review": "有实测数据就能直接抄配置，跑本地大模型的可以照这个调。",
+      "creator_score": 67.4,
+      "creator_breakdown": {
+        "relevance": 0.65,
+        "freshness": 0.9435,
+        "source": 0.5,
+        "impact": 0.63,
+        "novelty": 0.75,
+        "heat": 0.4151
+      },
+      "creator_bucket": "general_ai",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "workflow_impact"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "d8d0fc7e9d682fb59b806837b4fba07f487f2821",
+        "title": "在本地运行 Qwen3.8 27B：来自我的 Mac Studio 的实际数据",
+        "title_zh": "在本地运行 Qwen3.8 27B：来自我的 Mac Studio 的实际数据",
+        "title_original": "在本地运行 Qwen3.8 27B：来自我的 Mac Studio 的实际数据",
+        "summary": "Qwen3.8 27B（27.3B 参数，混合注意力架构，262，144 token 上下文窗口，Apache 2.0 开源）在 Mac Studio M3 Ultra 上经 Ollama 以 Q4_K_M 量化（17GB）生成速度约 14 tokens/s。",
+        "recommend_reason_zh": "实测Mac Studio M3 Ultra跑Qwen3.8 27B：Ollama速度14.2 tok/s，较前代减半，但输出精简使总耗时67秒优于72秒；还测了1-bit量化，附RAM计算。",
+        "url": "https://terminalbytes.com/run-qwen-3-8-27b-locally",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "source_name": "AI HOT"
+      },
+      "sources": [
+        {
+          "story_id": "story_0155c1000eca",
+          "title": "在本地运行 Qwen3.8 27B：来自我的 Mac Studio 的实际数据",
+          "url": "https://terminalbytes.com/run-qwen-3-8-27b-locally",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "site_id": "",
+          "official": false
+        }
+      ],
+      "summary_zh": "实测在Mac Studio M3 Ultra上通过Ollama以Q4_K_M量化运行Qwen3.8 27B，生成速度约14.2 tokens/s，较前代减半，但输出精简使总耗时67",
+      "why_it_matters": "本地运行27B模型的速度与内存取舍，直接影响开发者选择量化档位和硬件配置，并提示大模型本地化对编码工作流的可行性。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "Qwen3.8 27B在Mac Studio上的实测：14.2 tok/s到底够不够用？",
+          "angle": "第一人称分享实测数据，对比前代速度减半但总耗时更优，讨论本地大模型在编码辅助中的实际体验。",
+          "needs_hands_on": true,
+          "risk": "单一来源，未亲测，具体速度依赖硬件和量化配置"
+        },
+        {
+          "platform": "xiaohongshu",
+          "title": "Mac本地跑Qwen3.8 27B：Ollama+量化避坑指南",
+          "angle": "从下载量化模型、配置Ollama到实测速度，手把手教避免内存不足和速度过慢，附RAM计算。",
+          "needs_hands_on": true,
+          "risk": "需要亲测验证RAM和速度数据"
+        },
+        {
+          "platform": "wechat",
+          "title": "Qwen3.8 27B本地运行的背后：本地大模型离日常开发还有多远？",
+          "angle": "从这次实测看本地大模型的能力边界，分析量化、硬件成本和对AI Coding工作流的长期影响。",
+          "needs_hands_on": false,
+          "risk": "数据基于单一来源，需进一步核实原文上下文"
+        }
+      ],
+      "enrichment_mode": "llm"
+    },
+    {
+      "story_id": "story_61fe48bdf72f",
+      "creator_event_id": "creator-563bbd85ad7187ce",
+      "merged_story_ids": [
+        "story_61fe48bdf72f"
+      ],
+      "title": "Hugging Face 发布 Microduck：一款 399 美元、25 厘米高的开源双足机器人，用强化学习训练。 / Hugging Face Unveils Microduck: A $399 Open-Source 25 cm Biped You Train with Reinforcement Learning",
+      "url": "https://www.marktechpost.com/2026/08/28/pollen-robotics-hugging-face-microduck-399-open-source-rl-biped-robot",
+      "primary_url": "https://www.marktechpost.com/2026/08/28/pollen-robotics-hugging-face-microduck-399-open-source-rl-biped-robot",
+      "source": "MarkTechPost Research",
+      "source_name": "Curated Media",
+      "source_count": 1,
+      "source_names": [
+        "MarkTechPost Research"
+      ],
+      "score": 0.5801,
+      "importance": 0.5801,
+      "importance_score": 0.5801,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5112,
+        "source_tier": 0.58,
+        "ai_relevance": 0.71,
+        "recency": 0.8731,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-29T05:25:16Z",
+      "latest_at": "2026-08-29T05:25:16Z",
+      "creator_score": 66.4,
+      "creator_breakdown": {
+        "relevance": 0.403,
+        "freshness": 0.9039,
+        "source": 0.78,
+        "impact": 0.76,
+        "novelty": 0.75,
+        "heat": 0.353
+      },
+      "creator_bucket": "general_ai",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "workflow_impact"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "ad1032bafff4d5faa6397fa52ec8e3c697fb9f66",
+        "title": "Hugging Face 发布 Microduck：一款 399 美元、25 厘米高的开源双足机器人，用强化学习训练。 / Hugging Face Unveils Microduck: A $399 Open-Source 25 cm Biped You Train with Reinforcement Learning",
+        "title_zh": "Hugging Face 发布 Microduck：一款 399 美元、25 厘米高的开源双足机器人，用强化学习训练。",
+        "title_en": "Hugging Face Unveils Microduck: A $399 Open-Source 25 cm Biped You Train with Reinforcement Learning",
+        "title_original": "Hugging Face Unveils Microduck: A $399 Open-Source 25 cm Biped You Train with Reinforcement Learning",
+        "url": "https://www.marktechpost.com/2026/08/28/pollen-robotics-hugging-face-microduck-399-open-source-rl-biped-robot",
+        "source": "MarkTechPost Research",
+        "source_name": "Curated Media"
+      },
+      "sources": [
+        {
+          "story_id": "story_61fe48bdf72f",
+          "title": "Hugging Face 发布 Microduck：一款 399 美元、25 厘米高的开源双足机器人，用强化学习训练。 / Hugging Face Unveils Microduck: A $399 Open-Source 25 cm Biped You Train with Reinforcement Learning",
+          "url": "https://www.marktechpost.com/2026/08/28/pollen-robotics-hugging-face-microduck-399-open-source-rl-biped-robot",
+          "source": "MarkTechPost Research",
+          "site_id": "",
+          "official": false
+        }
+      ],
+      "summary_zh": "Hugging Face 发布 Microduck：一款 399 美元、25 厘米高的开源双足机器人，用强化学习训练。 / Hugging Face Unveils Microdu",
+      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "AI Coding 这次更新真正改变了什么",
+          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
+          "needs_hands_on": true,
+          "risk": "未亲测前不要把官方描述写成实际效果。"
+        }
+      ],
+      "enrichment_mode": "rules_fallback"
+    },
+    {
+      "story_id": "story_8f4305b81b8e",
+      "creator_event_id": "creator-0c3aea5c06110cd6",
+      "merged_story_ids": [
+        "story_8f4305b81b8e"
+      ],
+      "title": "研究人员诱骗 Claude、Codex 和 Hermes 运行恶意软件 / Researcher Tricked Claude, Codex and Hermes into Running Malware",
+      "url": "https://startupfortune.com/researcher-alon-hertz-tricked-claude-codex-and-hermes-into-running-malware",
+      "primary_url": "https://startupfortune.com/researcher-alon-hertz-tricked-claude-codex-and-hermes-into-running-malware",
+      "source": "HN Algolia · AI 24h",
+      "source_name": "Hacker News",
+      "source_count": 1,
+      "source_names": [
+        "HN Algolia · AI 24h"
+      ],
+      "score": 0.5049,
+      "importance": 0.5049,
+      "importance_score": 0.5049,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9116,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-29T08:24:36Z",
+      "latest_at": "2026-08-29T08:24:36Z",
+      "creator_score": 63.5,
+      "creator_breakdown": {
+        "relevance": 0.68,
+        "freshness": 0.9786,
+        "source": 0.58,
+        "impact": 0.25,
+        "novelty": 0.65,
+        "heat": 0.3267
+      },
+      "creator_bucket": "general_ai",
+      "primary_entity": "anthropic",
+      "verification_status": "rumor",
+      "creator_reasons": [
+        "entity:anthropic"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "41347271e5898acea41bac15d9219a38467d5af9",
+        "title": "研究人员诱骗 Claude、Codex 和 Hermes 运行恶意软件 / Researcher Tricked Claude, Codex and Hermes into Running Malware",
+        "title_zh": "研究人员诱骗 Claude、Codex 和 Hermes 运行恶意软件",
+        "title_en": "Researcher Tricked Claude, Codex and Hermes into Running Malware",
+        "title_original": "Researcher Tricked Claude, Codex and Hermes into Running Malware",
+        "url": "https://startupfortune.com/researcher-alon-hertz-tricked-claude-codex-and-hermes-into-running-malware",
+        "source": "HN Algolia · AI 24h",
+        "source_name": "Hacker News"
+      },
+      "sources": [
+        {
+          "story_id": "story_8f4305b81b8e",
+          "title": "研究人员诱骗 Claude、Codex 和 Hermes 运行恶意软件 / Researcher Tricked Claude, Codex and Hermes into Running Malware",
+          "url": "https://startupfortune.com/researcher-alon-hertz-tricked-claude-codex-and-hermes-into-running-malware",
+          "source": "HN Algolia · AI 24h",
+          "site_id": "",
+          "official": false
+        }
+      ],
+      "summary_zh": "研究人员诱骗 Claude、Codex 和 Hermes 运行恶意软件 / Researcher Tricked Claude, Codex and Hermes into Run",
+      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "anthropic 这次更新真正改变了什么",
+          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
+          "needs_hands_on": true,
+          "risk": "未亲测前不要把官方描述写成实际效果。"
+        }
+      ],
+      "enrichment_mode": "rules_fallback"
     }
   ],
   "llm_meta": {
     "provider": "deepseek",
     "model": "deepseek-v4-flash",
-    "calls_used": 6,
+    "calls_used": 15,
     "cache_hits": 0,
-    "fallback_count": 1
+    "fallback_count": 2
   },
   "dedup_meta": {
-    "secondary_dedup_merge_count": 5,
-    "secondary_dedup_source_count": 149
+    "secondary_dedup_merge_count": 2,
+    "secondary_dedup_source_count": 124
   }
 }
