@@ -1,12 +1,89 @@
 {
   "version": 1,
-  "generated_at": "2026-09-01T01:18:08.035575Z",
+  "generated_at": "2026-09-01T14:49:19.775489Z",
   "total_items": 20,
   "dedup_meta": {
-    "secondary_dedup_merge_count": 4,
-    "secondary_dedup_source_count": 146
+    "secondary_dedup_merge_count": 1,
+    "secondary_dedup_source_count": 159
   },
   "items": [
+    {
+      "story_id": "story_946b48cdca28",
+      "creator_event_id": "creator-35655e98a3bbd363",
+      "merged_story_ids": [
+        "story_946b48cdca28"
+      ],
+      "title": "Codex CLI 0.152.0",
+      "url": "https://developers.openai.com/codex/changelog",
+      "primary_url": "https://developers.openai.com/codex/changelog",
+      "source": "OpenAI Codex Changelog",
+      "source_name": "Official AI Updates",
+      "source_count": 1,
+      "source_names": [
+        "OpenAI Codex Changelog"
+      ],
+      "score": 0.8322,
+      "importance": 0.8322,
+      "importance_score": 0.8322,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.98,
+        "recency": 0.8121,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-01T00:00:00Z",
+      "latest_at": "2026-09-01T00:00:00Z",
+      "persona_id": "pragmatic",
+      "persona_score": 75,
+      "persona_review": "Codex CLI 新版发布，命令行用户升级前先看变更日志，可能有破坏性调整。",
+      "creator_score": 88.4,
+      "creator_breakdown": {
+        "relevance": 1.0,
+        "freshness": 0.7794,
+        "source": 1.0,
+        "impact": 0.81,
+        "novelty": 0.85,
+        "heat": 0.4413
+      },
+      "creator_bucket": "ai_coding",
+      "primary_entity": "codex",
+      "verification_status": "confirmed",
+      "creator_reasons": [
+        "entity:codex",
+        "ai_coding_terms",
+        "workflow_impact",
+        "official_or_tier0_source"
+      ],
+      "primary_item": {
+        "id": "cc6461cd095bbff5eb1ec161feb53ac7bd933172",
+        "title": "Codex CLI 0.152.0",
+        "title_en": "Codex CLI 0.152.0",
+        "title_original": "Codex CLI 0.152.0",
+        "summary": "Latest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nVim-enabled composers now start fresh drafts in Insert mode, including after submitting messages or dispatching slash commands. ( #41921 )\nAutomatic approval reviews can retain longer messages and a larger conversation transcript. ( #41931 )\nAutomatic approval reviews preserve user instructions, answers, and valid authorizations across history compaction",
+        "recommend_reason_zh": "Codex CLI 0.152.0 修复 Windows 沙箱执行，Vim 草稿默认 Insert 模式，自动审批保留更长对话。",
+        "url": "https://developers.openai.com/codex/changelog",
+        "source": "OpenAI Codex Changelog",
+        "source_name": "Official AI Updates"
+      },
+      "sources": [
+        {
+          "story_id": "story_946b48cdca28",
+          "title": "Codex CLI 0.152.0",
+          "url": "https://developers.openai.com/codex/changelog",
+          "source": "OpenAI Codex Changelog",
+          "site_id": "",
+          "official": true
+        }
+      ]
+    },
     {
       "story_id": "story_ce8d98cddff4",
       "creator_event_id": "creator-b59478051f4e02d2",
@@ -22,15 +99,15 @@
       "source_names": [
         "Claude Code Releases"
       ],
-      "score": 0.6233,
-      "importance": 0.6233,
-      "importance_score": 0.6233,
+      "score": 0.5938,
+      "importance": 0.5938,
+      "importance_score": 0.5938,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.5688,
         "source_tier": 0.58,
         "ai_relevance": 0.79,
-        "recency": 0.928,
+        "recency": 0.7641,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -39,21 +116,20 @@
       ],
       "earliest_at": "2026-08-31T19:46:55Z",
       "latest_at": "2026-08-31T19:46:55Z",
-      "creator_score": 94.4,
+      "creator_score": 85.9,
       "creator_breakdown": {
         "relevance": 1.0,
-        "freshness": 1.0,
+        "freshness": 0.674,
         "source": 1.0,
-        "impact": 0.94,
+        "impact": 0.81,
         "novelty": 0.85,
-        "heat": 0.3682
+        "heat": 0.3578
       },
       "creator_bucket": "ai_coding",
       "primary_entity": "claude-code",
       "verification_status": "confirmed",
       "creator_reasons": [
         "entity:claude-code",
-        "ai_coding_terms",
         "workflow_impact",
         "official_or_tier0_source"
       ],
@@ -61,7 +137,6 @@
         "id": "7d60ddbac7c31a1e488a2b992319c320dd25cc8a",
         "title": "v2.1.252",
         "title_original": "v2.1.252",
-        "summary": "What's changed\n\nFixed Bash commands failing with \"task output swap refused (tasks dir moved or linked)\" on some Macs\nFixed \"always allow\" not saving in a project that has no .claude/settings.local....\nClaude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands. - Release v2.1.252 · anthropics/claude-code\nWhat&#39;s cha",
         "recommend_reason_zh": "Claude Code v2.1.252修复了部分Mac上Bash命令因“task output swap refused”而失败的问题，以及“always allow”在无.claude/settings.local文件的项目中不保存的bug，值得更新。",
         "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.252",
         "source": "Claude Code Releases",
@@ -79,79 +154,72 @@
       ]
     },
     {
-      "story_id": "story_bd6dbcbcc36a",
-      "creator_event_id": "creator-7e783807b43e30ae",
+      "story_id": "story_c1255197ef9f",
+      "creator_event_id": "creator-a2af7961c8497e5a",
       "merged_story_ids": [
-        "story_bd6dbcbcc36a"
+        "story_c1255197ef9f"
       ],
-      "title": "GitHub Copilot 在 VS Code 中的2026年8月更新 / GitHub Copilot in VS Code, August 2026 releases",
-      "url": "https://github.blog/changelog/2026-08-31-github-copilot-in-vs-code-august-2026-releases",
-      "primary_url": "https://github.blog/changelog/2026-08-31-github-copilot-in-vs-code-august-2026-releases",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
+      "title": "Gradium AI 发布新默认 TTS 模型：困难案例通过率 81.0%，首次音频响应仅 216 毫秒 / Gradium AI Releases New Default TTS Model: 81.0% Hard-Case Pass Rate at 216 ms Time-to-First-Audio",
+      "url": "https://www.marktechpost.com/2026/08/31/gradium-ai-releases-new-default-tts-model-81-0-hard-case-pass-rate-at-216-ms-time-to-first-audio",
+      "primary_url": "https://www.marktechpost.com/2026/08/31/gradium-ai-releases-new-default-tts-model-81-0-hard-case-pass-rate-at-216-ms-time-to-first-audio",
+      "source": "MarkTechPost Research",
+      "source_name": "Curated Media",
       "source_count": 1,
       "source_names": [
-        "GitHub Changelog"
+        "MarkTechPost Research"
       ],
-      "score": 0.8143,
-      "importance": 0.8143,
-      "importance_score": 0.8143,
-      "importance_label": "官方更新",
+      "score": 0.5646,
+      "importance": 0.5646,
+      "importance_score": 0.5646,
+      "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.7903,
+        "editorial": 0.4896,
+        "source_tier": 0.58,
+        "ai_relevance": 0.68,
+        "recency": 0.856,
         "story_heat": 0.0
       },
-      "category": "official",
+      "category": "watch",
       "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
+        "recent_ai_signal"
       ],
-      "earliest_at": "2026-08-31T08:39:54Z",
-      "latest_at": "2026-08-31T08:39:54Z",
-      "persona_id": "pragmatic",
-      "persona_score": 78,
-      "persona_review": "Copilot 每月更新基本都落地可用，建议扫一眼 changelog 看新功能是否影响你的工作流。",
-      "creator_score": 88.0,
+      "earliest_at": "2026-09-01T03:39:05Z",
+      "latest_at": "2026-09-01T03:39:05Z",
+      "creator_score": 83.7,
       "creator_breakdown": {
-        "relevance": 0.95,
-        "freshness": 0.7341,
-        "source": 1.0,
-        "impact": 0.94,
-        "novelty": 0.85,
-        "heat": 0.435
+        "relevance": 0.88,
+        "freshness": 0.8707,
+        "source": 0.78,
+        "impact": 1.0,
+        "novelty": 0.75,
+        "heat": 0.3476
       },
       "creator_bucket": "ai_coding",
-      "primary_entity": "github-copilot",
-      "verification_status": "confirmed",
+      "verification_status": "single_source",
       "creator_reasons": [
-        "entity:github-copilot",
-        "workflow_impact",
-        "official_or_tier0_source"
+        "ai_coding_terms",
+        "workflow_impact"
       ],
       "primary_item": {
-        "id": "040868e794334d9663e1bc0910d606d026adb98d",
-        "title": "GitHub Copilot 在 VS Code 中的2026年8月更新 / GitHub Copilot in VS Code, August 2026 releases",
-        "title_zh": "GitHub Copilot 在 VS Code 中的2026年8月更新",
-        "title_en": "GitHub Copilot in VS Code, August 2026 releases",
-        "title_original": "GitHub Copilot in VS Code, August 2026 releases",
-        "summary": "This changelog covers VS Code v1.132 through v1.135, shipped throughout August 2026. These releases make it easier to organize agent sessions, review changes, and navigate long conversations. Agent Host, the…\nThis changelog covers VS Code v1.132 through v1.135 , shipped throughout August 2026.\nThese releases make it easier to organize agent sessions, review changes, and navigate long conversations. Agent Host, the integrated browser, and dictation also get updates to support more ways of working",
-        "recommend_reason_zh": "GitHub Copilot in VS Code八月更新（v1.132-v1.135）中，Agent Host、集成浏览器和听写功能升级，Agents窗口可整理关联会话，听写支持多语言与shell感知清理，浏览器还能查看本地HTML变化。",
-        "url": "https://github.blog/changelog/2026-08-31-github-copilot-in-vs-code-august-2026-releases",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
+        "id": "72eec2a721ed97c23ee21dddbad31040feb5e2d1",
+        "title": "Gradium AI 发布新默认 TTS 模型：困难案例通过率 81.0%，首次音频响应仅 216 毫秒 / Gradium AI Releases New Default TTS Model: 81.0% Hard-Case Pass Rate at 216 ms Time-to-First-Audio",
+        "title_zh": "Gradium AI 发布新默认 TTS 模型：困难案例通过率 81.0%，首次音频响应仅 216 毫秒",
+        "title_en": "Gradium AI Releases New Default TTS Model: 81.0% Hard-Case Pass Rate at 216 ms Time-to-First-Audio",
+        "title_original": "Gradium AI Releases New Default TTS Model: 81.0% Hard-Case Pass Rate at 216 ms Time-to-First-Audio",
+        "summary": "Gradium AI's new default TTS model passes 81.0% of hard cases at 216 ms time-to-first-audio, ahead of Cartesia and ElevenLabs.\nGradium AI's new default TTS model passes 81.0% of hard cases at 216 ms time-to-first-audio, ahead of Cartesia and ElevenLabs.\nVoice agents fail on exactly the parts of a call that matter most: the order number, the callback digits, the email address the caller has to write down. Gradium AI has released a new text-to-speech model and made it the default across its API an",
+        "recommend_reason_zh": "Gradium AI发布新默认TTS模型，在500句五语言硬案例测试中通过率81.0%，首音频延迟216毫秒，领先Cartesia Sonic 3.6（75.1%）与ElevenLabs v3 Conversational（65.4%），现有用户无需迁移即可使用。",
+        "url": "https://www.marktechpost.com/2026/08/31/gradium-ai-releases-new-default-tts-model-81-0-hard-case-pass-rate-at-216-ms-time-to-first-audio",
+        "source": "MarkTechPost Research",
+        "source_name": "Curated Media"
       },
       "sources": [
         {
-          "story_id": "story_bd6dbcbcc36a",
-          "title": "GitHub Copilot 在 VS Code 中的2026年8月更新 / GitHub Copilot in VS Code, August 2026 releases",
-          "url": "https://github.blog/changelog/2026-08-31-github-copilot-in-vs-code-august-2026-releases",
-          "source": "GitHub Changelog",
+          "story_id": "story_c1255197ef9f",
+          "title": "Gradium AI 发布新默认 TTS 模型：困难案例通过率 81.0%，首次音频响应仅 216 毫秒 / Gradium AI Releases New Default TTS Model: 81.0% Hard-Case Pass Rate at 216 ms Time-to-First-Audio",
+          "url": "https://www.marktechpost.com/2026/08/31/gradium-ai-releases-new-default-tts-model-81-0-hard-case-pass-rate-at-216-ms-time-to-first-audio",
+          "source": "MarkTechPost Research",
           "site_id": "",
-          "official": true
+          "official": false
         }
       ]
     },
@@ -170,15 +238,15 @@
       "source_names": [
         "MarkTechPost Research"
       ],
-      "score": 0.5956,
-      "importance": 0.5956,
-      "importance_score": 0.5956,
+      "score": 0.5644,
+      "importance": 0.5644,
+      "importance_score": 0.5644,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.504,
         "source_tier": 0.58,
         "ai_relevance": 0.7,
-        "recency": 0.9823,
+        "recency": 0.8088,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -187,14 +255,14 @@
       ],
       "earliest_at": "2026-08-31T23:43:26Z",
       "latest_at": "2026-08-31T23:43:26Z",
-      "creator_score": 85.4,
+      "creator_score": 80.8,
       "creator_breakdown": {
         "relevance": 0.88,
-        "freshness": 1.0,
+        "freshness": 0.7725,
         "source": 0.78,
         "impact": 0.94,
         "novelty": 0.75,
-        "heat": 0.3585
+        "heat": 0.3475
       },
       "creator_bucket": "ai_coding",
       "verification_status": "single_source",
@@ -208,7 +276,6 @@
         "title_zh": "Keenable AI 开源 NEEDLE：一个每小时重建查询集的实时搜索基准",
         "title_en": "Keenable AI Open-Sources NEEDLE: A Live Search Benchmark That Rebuilds Its Query Set Every Hour",
         "title_original": "Keenable AI Open-Sources NEEDLE: A Live Search Benchmark That Rebuilds Its Query Set Every Hour",
-        "summary": "Keenable AI open-sources NEEDLE, a live benchmark that rebuilds search queries hourly and scores 15 APIs for agents.\nKeenable AI open-sources NEEDLE, a live benchmark that rebuilds search queries hourly and scores 15 APIs for agents.\nHow do you benchmark a web search API when the thing being tested can read the answer key? A search agent has a fetch tool. If the gold labels sit in a public dataset, the agent can download them mid-evaluation and skip retrieval entirely. A similar problem arises w",
         "recommend_reason_zh": "Keenable AI开源NEEDLE实时基准，每小时从RSS与Google Trends重建查询，覆盖新闻、金融等五类场景，对15个搜索API评分，并用oracle引擎测算检索上限。",
         "url": "https://www.marktechpost.com/2026/08/31/keenable-ai-open-sources-needle-a-live-search-benchmark-that-rebuilds-its-query-set-every-hour",
         "source": "MarkTechPost Research",
@@ -226,151 +293,283 @@
       ]
     },
     {
-      "story_id": "story_b1d3a4f185bc",
-      "creator_event_id": "creator-c4960a5aac25c17f",
+      "story_id": "story_d50e38f3313d",
+      "creator_event_id": "creator-86f7ccb687b58881",
       "merged_story_ids": [
-        "story_b1d3a4f185bc"
+        "story_d50e38f3313d"
       ],
-      "title": "OpenClaw 2.0 带来简化设置、重构的浏览器应用和多人会话。 / OpenClaw 2.0 brings simplified setup, a rebuilt browser app, and multiplayer sessions",
-      "url": "https://the-decoder.com/openclaw-2-0-brings-simplified-setup-a-rebuilt-browser-app-and-multiplayer-sessions",
-      "primary_url": "https://the-decoder.com/openclaw-2-0-brings-simplified-setup-a-rebuilt-browser-app-and-multiplayer-sessions",
-      "source": "The Decoder AI News",
-      "source_name": "Curated Media",
+      "title": "Runway发布首个界面世界模型Solaris，实时逐帧生成动态交互界面",
+      "url": "https://www.aibase.com/news/30756",
+      "primary_url": "https://www.aibase.com/news/30756",
+      "source": "AIbase",
+      "source_name": "AIbase",
       "source_count": 1,
       "source_names": [
-        "The Decoder AI News"
+        "AIbase"
       ],
-      "score": 0.5904,
-      "importance": 0.5904,
-      "importance_score": 0.5904,
-      "importance_label": "值得关注",
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.5472,
-        "source_tier": 0.58,
-        "ai_relevance": 0.76,
-        "recency": 0.8147,
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
         "story_heat": 0.0
       },
-      "category": "watch",
+      "category": "industry",
       "reasons": [
-        "recent_ai_signal"
+        "high_ai_relevance",
+        "high_importance"
       ],
-      "earliest_at": "2026-08-31T10:46:04Z",
-      "latest_at": "2026-08-31T10:46:04Z",
-      "creator_score": 83.0,
+      "earliest_at": "2026-09-01T14:24:52.828077Z",
+      "latest_at": "2026-09-01T14:24:52.828077Z",
+      "persona_id": "pragmatic",
+      "persona_score": 55,
+      "persona_review": "做UI原型演示有想象空间，但没开放接口就别急着上手。",
+      "creator_score": 78.1,
       "creator_breakdown": {
         "relevance": 0.88,
-        "freshness": 0.7866,
-        "source": 0.78,
-        "impact": 1.0,
-        "novelty": 0.85,
-        "heat": 0.3566
+        "freshness": 1.0,
+        "source": 0.5,
+        "impact": 0.81,
+        "novelty": 0.75,
+        "heat": 0.4187
       },
       "creator_bucket": "ai_coding",
-      "primary_entity": "openai",
       "verification_status": "single_source",
       "creator_reasons": [
-        "entity:openai",
         "ai_coding_terms",
         "workflow_impact"
       ],
       "primary_item": {
-        "id": "0b8e5113dd468ca3da318b9c562ec8cc42e0e02c",
-        "title": "OpenClaw 2.0 带来简化设置、重构的浏览器应用和多人会话。 / OpenClaw 2.0 brings simplified setup, a rebuilt browser app, and multiplayer sessions",
-        "title_zh": "OpenClaw 2.0 带来简化设置、重构的浏览器应用和多人会话。",
-        "title_en": "OpenClaw 2.0 brings simplified setup, a rebuilt browser app, and multiplayer sessions",
-        "title_original": "OpenClaw 2.0 brings simplified setup, a rebuilt browser app, and multiplayer sessions",
-        "summary": "The OpenClaw Foundation has released version 2.0 of its open-source AI platform, its largest release to date with over 16,000 pull requests. New features include cloud sessions on rented machines, real-time collaboration, and a browser app rebuilt from scratch. The software now automatically detects existing resources like API keys and AI subscriptions during setup.\nThe OpenClaw Foundation has released version 2.0 of its open-source AI platform, its largest release to date with over 16,000 pull ",
-        "recommend_reason_zh": "OpenClaw基金会发布2.0版，包含超过1.6万个拉取请求，设置时自动检测ChatGPT或Claude订阅及API密钥，并新增Session Rail进度显示与多人云端协作，值得一读。",
-        "url": "https://the-decoder.com/openclaw-2-0-brings-simplified-setup-a-rebuilt-browser-app-and-multiplayer-sessions",
-        "source": "The Decoder AI News",
-        "source_name": "Curated Media"
+        "id": "993b62ebd3b045f88455749478a3a8a0eb01d374",
+        "title": "Runway发布首个界面世界模型Solaris，实时逐帧生成动态交互界面",
+        "title_zh": "Runway发布首个界面世界模型Solaris，实时逐帧生成动态交互界面",
+        "title_original": "Runway发布首个界面世界模型Solaris，实时逐帧生成动态交互界面",
+        "summary": "Recently, the renowned AI company Runway officially launched the first major model of its new \"Interface World Models\" series - Solaris. This innovative system\nRecently, the renowned AI company Runway officially launched the first major model of its new \"Interface World Models\" series - Solaris. This innovative system\nRecently, the renowned AI company Runway officially launched the first major model of its new \"Interface World Models\" series - Solaris. This innovative system\nExplore AI Frontiers",
+        "recommend_reason_zh": "Runway发布首个“界面世界模型”Solaris，能实时逐帧生成动态交互界面，不再依赖预写代码和固定框架，为软件与网页界面的交互方式带来全新突破。",
+        "url": "https://www.aibase.com/news/30756",
+        "source": "AIbase",
+        "source_name": "AIbase"
       },
       "sources": [
         {
-          "story_id": "story_b1d3a4f185bc",
-          "title": "OpenClaw 2.0 带来简化设置、重构的浏览器应用和多人会话。 / OpenClaw 2.0 brings simplified setup, a rebuilt browser app, and multiplayer sessions",
-          "url": "https://the-decoder.com/openclaw-2-0-brings-simplified-setup-a-rebuilt-browser-app-and-multiplayer-sessions",
-          "source": "The Decoder AI News",
+          "story_id": "story_d50e38f3313d",
+          "title": "Runway发布首个界面世界模型Solaris，实时逐帧生成动态交互界面",
+          "url": "https://www.aibase.com/news/30756",
+          "source": "AIbase",
           "site_id": "",
           "official": false
         }
       ]
     },
     {
-      "story_id": "story_b5eed0f3b98c",
-      "creator_event_id": "creator-eef125382511a7ae",
+      "story_id": "story_18a954a364e8",
+      "creator_event_id": "creator-105a49ec0a3862af",
       "merged_story_ids": [
-        "story_b5eed0f3b98c"
+        "story_18a954a364e8"
       ],
-      "title": "ChatGPT Ads 年化收入达 10 亿美元并全球扩展 / A milestone in expanding access to AI",
-      "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
-      "primary_url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
+      "title": "​百万 Token 上下文首次下放到端侧：讯飞星火 X2.5 双子星开源，全程国产算力训练",
+      "url": "https://www.aibase.com/news/30749",
+      "primary_url": "https://www.aibase.com/news/30749",
+      "source": "AIbase",
+      "source_name": "AIbase",
       "source_count": 1,
       "source_names": [
-        "OpenAI News"
+        "AIbase"
       ],
-      "score": 0.805,
-      "importance": 0.805,
-      "importance_score": 0.805,
-      "importance_label": "官方更新",
+      "score": 0.7664,
+      "importance": 0.7664,
+      "importance_score": 0.7664,
+      "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.7389,
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9933,
         "story_heat": 0.0
       },
-      "category": "official",
+      "category": "industry",
       "reasons": [
-        "official_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-08-31T04:00:00Z",
-      "latest_at": "2026-08-31T04:00:00Z",
+      "earliest_at": "2026-09-01T13:56:52.828077Z",
+      "latest_at": "2026-09-01T13:56:52.828077Z",
       "persona_id": "pragmatic",
-      "persona_score": 60,
-      "persona_review": "广告收入是商业信号，对开发者无直接工具价值，围观即可。",
-      "creator_score": 81.6,
+      "persona_score": 78,
+      "persona_review": "开源可自部署，百万上下文做长文档够用，国产算力栈适配可直接上手。",
+      "creator_score": 78.1,
       "creator_breakdown": {
         "relevance": 0.88,
-        "freshness": 0.6174,
-        "source": 1.0,
+        "freshness": 1.0,
+        "source": 0.5,
         "impact": 0.81,
-        "novelty": 0.85,
-        "heat": 0.4317
+        "novelty": 0.75,
+        "heat": 0.4182
       },
       "creator_bucket": "ai_coding",
-      "primary_entity": "openai",
-      "verification_status": "confirmed",
+      "verification_status": "single_source",
       "creator_reasons": [
-        "entity:openai",
         "ai_coding_terms",
-        "workflow_impact",
-        "official_or_tier0_source"
+        "workflow_impact"
       ],
       "primary_item": {
-        "id": "88e48842cea729ff8d2bde26ed7cb4667f3f9a5c",
-        "title": "ChatGPT Ads 年化收入达 10 亿美元并全球扩展 / A milestone in expanding access to AI",
-        "title_zh": "ChatGPT Ads 年化收入达 10 亿美元并全球扩展",
-        "title_en": "A milestone in expanding access to AI",
-        "title_original": "A milestone in expanding access to AI",
-        "recommend_reason_zh": "ChatGPT Ads上线不到200天即达10亿美元年化收入，覆盖40多国，新增印度、欧洲、中东与北非。文中说明广告不影响答案、商家看不到私人对话，支撑超10亿周活用户免费使用。",
-        "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
-        "source": "OpenAI News",
-        "source_name": "Official AI Updates"
+        "id": "aafe723be9b968f91776e8c7d2d73bfdf9f013b1",
+        "title": "​百万 Token 上下文首次下放到端侧：讯飞星火 X2.5 双子星开源，全程国产算力训练",
+        "title_zh": "​百万 Token 上下文首次下放到端侧：讯飞星火 X2.5 双子星开源，全程国产算力训练",
+        "title_original": "​百万 Token 上下文首次下放到端侧：讯飞星火 X2.5 双子星开源，全程国产算力训练",
+        "summary": "On September 1st, iFLYTEK's wholly-owned subsidiary, Ciyuan Xinghuo, officially launched and open-sourced two edge-side general large models: Xinghuo X2.5-4B an\nOn September 1st, iFLYTEK's wholly-owned subsidiary, Ciyuan Xinghuo, officially launched and open-sourced two edge-side general large models: Xinghuo X2.5-4B an\nOn September 1st, iFLYTEK's wholly-owned subsidiary, Ciyuan Xinghuo, officially launched and open-sourced two edge-side general large models: Xinghuo X2.5-4B an\nExplore AI Fronti",
+        "recommend_reason_zh": "值得一读：iFLYTEK旗下Ciyuan Xinghuo于9月1日开源Xinghuo X2.5-4B与1.7B，首次在端侧原生支持百万Token上下文，开放权重和代码，训练数据达万亿Token级，且全程国产算力训练。",
+        "url": "https://www.aibase.com/news/30749",
+        "source": "AIbase",
+        "source_name": "AIbase"
       },
       "sources": [
         {
-          "story_id": "story_b5eed0f3b98c",
-          "title": "ChatGPT Ads 年化收入达 10 亿美元并全球扩展 / A milestone in expanding access to AI",
-          "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
-          "source": "OpenAI News",
+          "story_id": "story_18a954a364e8",
+          "title": "​百万 Token 上下文首次下放到端侧：讯飞星火 X2.5 双子星开源，全程国产算力训练",
+          "url": "https://www.aibase.com/news/30749",
+          "source": "AIbase",
           "site_id": "",
-          "official": true
+          "official": false
+        }
+      ]
+    },
+    {
+      "story_id": "story_a3d3cdcfac3e",
+      "creator_event_id": "creator-d204e42560c466f4",
+      "merged_story_ids": [
+        "story_a3d3cdcfac3e"
+      ],
+      "title": "OpenClaude 开源编码代理CLI 支持云与本地模型提供商",
+      "url": "https://github.com/Gitlawb/openclaude",
+      "primary_url": "https://github.com/Gitlawb/openclaude",
+      "source": "github",
+      "source_name": "NewsNow",
+      "source_count": 1,
+      "source_names": [
+        "github"
+      ],
+      "score": 0.5208,
+      "importance": 0.5208,
+      "importance_score": 0.5208,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-09-01T14:25:20.215000Z",
+      "latest_at": "2026-09-01T14:25:20.215000Z",
+      "creator_score": 77.7,
+      "creator_breakdown": {
+        "relevance": 0.88,
+        "freshness": 1.0,
+        "source": 0.5,
+        "impact": 0.81,
+        "novelty": 0.75,
+        "heat": 0.3323
+      },
+      "creator_bucket": "ai_coding",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "ai_coding_terms",
+        "workflow_impact"
+      ],
+      "primary_item": {
+        "id": "c64c74bf6b057751a7f4e798c2d8c5ec5ab09b94",
+        "title": "OpenClaude 开源编码代理CLI 支持云与本地模型提供商",
+        "title_zh": "OpenClaude 开源编码代理CLI 支持云与本地模型提供商",
+        "title_en": "Gitlawb /      openclaude",
+        "title_original": "Gitlawb /      openclaude",
+        "url": "https://github.com/Gitlawb/openclaude",
+        "source": "github",
+        "source_name": "NewsNow"
+      },
+      "sources": [
+        {
+          "story_id": "story_a3d3cdcfac3e",
+          "title": "OpenClaude 开源编码代理CLI 支持云与本地模型提供商",
+          "url": "https://github.com/Gitlawb/openclaude",
+          "source": "github",
+          "site_id": "",
+          "official": false
+        }
+      ]
+    },
+    {
+      "story_id": "story_863ce9cf90d4",
+      "creator_event_id": "creator-ca1d8ce5c994b177",
+      "merged_story_ids": [
+        "story_863ce9cf90d4"
+      ],
+      "title": "Hong Kong-listed Z.ai reports H1 2026 revenue up 5x YoY to ~$142M, with \"open platform and API revenue\" up 28x to ~$122M, and net loss down 12% YoY to ~$308M (Juro Osawa/The Information)",
+      "url": "https://www.techmeme.com/260901/p4",
+      "primary_url": "https://www.techmeme.com/260901/p4",
+      "source": "Techmeme",
+      "source_name": "TechURLs",
+      "source_count": 1,
+      "source_names": [
+        "Techmeme"
+      ],
+      "score": 0.5089,
+      "importance": 0.5089,
+      "importance_score": 0.5089,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9337,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-09-01T09:40:01Z",
+      "latest_at": "2026-09-01T09:40:01Z",
+      "creator_score": 77.7,
+      "creator_breakdown": {
+        "relevance": 0.88,
+        "freshness": 1.0,
+        "source": 0.5,
+        "impact": 0.81,
+        "novelty": 0.75,
+        "heat": 0.3281
+      },
+      "creator_bucket": "ai_coding",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "ai_coding_terms",
+        "workflow_impact"
+      ],
+      "primary_item": {
+        "id": "eac7aae34c5e655d7461abc6ed644438057a887e",
+        "title": "Hong Kong-listed Z.ai reports H1 2026 revenue up 5x YoY to ~$142M, with \"open platform and API revenue\" up 28x to ~$122M, and net loss down 12% YoY to ~$308M (Juro Osawa/The Information)",
+        "title_en": "Hong Kong-listed Z.ai reports H1 2026 revenue up 5x YoY to ~$142M, with \"open platform and API revenue\" up 28x to ~$122M, and net loss down 12% YoY to ~$308M (Juro Osawa/The Information)",
+        "title_original": "Hong Kong-listed Z.ai reports H1 2026 revenue up 5x YoY to ~$142M, with \"open platform and API revenue\" up 28x to ~$122M, and net loss down 12% YoY to ~$308M (Juro Osawa/The Information)",
+        "url": "https://www.techmeme.com/260901/p4",
+        "source": "Techmeme",
+        "source_name": "TechURLs"
+      },
+      "sources": [
+        {
+          "story_id": "story_863ce9cf90d4",
+          "title": "Hong Kong-listed Z.ai reports H1 2026 revenue up 5x YoY to ~$142M, with \"open platform and API revenue\" up 28x to ~$122M, and net loss down 12% YoY to ~$308M (Juro Osawa/The Information)",
+          "url": "https://www.techmeme.com/260901/p4",
+          "source": "Techmeme",
+          "site_id": "",
+          "official": false
         }
       ]
     },
@@ -389,15 +588,15 @@
       "source_names": [
         "社区更新 · 2026-08-31"
       ],
-      "score": 0.5692,
-      "importance": 0.5692,
-      "importance_score": 0.5692,
+      "score": 0.5374,
+      "importance": 0.5374,
+      "importance_score": 0.5374,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.54,
         "ai_relevance": 0.65,
-        "recency": 1.0,
+        "recency": 0.8234,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -406,14 +605,14 @@
       ],
       "earliest_at": "2026-09-01T00:57:29.875972Z",
       "latest_at": "2026-09-01T00:57:29.875972Z",
-      "creator_score": 80.6,
+      "creator_score": 76.7,
       "creator_breakdown": {
         "relevance": 0.88,
-        "freshness": 1.0,
+        "freshness": 0.8034,
         "source": 0.5,
         "impact": 1.0,
         "novelty": 0.75,
-        "heat": 0.3492
+        "heat": 0.3381
       },
       "creator_bucket": "ai_coding",
       "verification_status": "single_source",
@@ -443,141 +642,207 @@
       ]
     },
     {
-      "story_id": "story_3dbd0aa14092",
-      "creator_event_id": "creator-b6de8e44cfa4436d",
+      "story_id": "story_4487b95defcf",
+      "creator_event_id": "creator-c271fdaab017d495",
       "merged_story_ids": [
-        "story_3dbd0aa14092"
+        "story_4487b95defcf"
       ],
-      "title": "Launch HN: Hebbian Robotics (YC S26) – 构建可扩展的机器人数据管道 / Launch HN: Hebbian Robotics (YC S26) – Build scalable robotics data pipelines",
-      "url": "https://news.ycombinator.com/item?id=49510632",
-      "primary_url": "https://news.ycombinator.com/item?id=49510632",
-      "source": "hackernews",
-      "source_name": "NewsNow",
+      "title": "Runway 的 Solaris 是一套能实时生成软件界面的 AI 系统。 / Runway's Solaris is an AI system that generates software interfaces in real time",
+      "url": "https://the-decoder.com/runways-solaris-is-an-ai-system-that-generates-software-interfaces-in-real-time",
+      "primary_url": "https://the-decoder.com/runways-solaris-is-an-ai-system-that-generates-software-interfaces-in-real-time",
+      "source": "The Decoder AI News",
+      "source_name": "Curated Media",
       "source_count": 1,
       "source_names": [
-        "hackernews"
+        "The Decoder AI News"
       ],
-      "score": 0.5271,
-      "importance": 0.5271,
-      "importance_score": 0.5271,
+      "score": 0.6199,
+      "importance": 0.6199,
+      "importance_score": 0.6199,
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8962,
-        "story_heat": 0.25
+        "editorial": 0.5472,
+        "source_tier": 0.58,
+        "ai_relevance": 0.76,
+        "recency": 0.9783,
+        "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
-        "multi_source"
+        "recent_ai_signal"
       ],
-      "earliest_at": "2026-08-31T15:02:41Z",
-      "latest_at": "2026-08-31T17:22:16.556000Z",
-      "creator_score": 77.5,
+      "earliest_at": "2026-09-01T12:53:46Z",
+      "latest_at": "2026-09-01T12:53:46Z",
+      "creator_score": 75.8,
       "creator_breakdown": {
         "relevance": 0.88,
-        "freshness": 0.9517,
-        "source": 0.5,
-        "impact": 0.81,
-        "novelty": 0.75,
-        "heat": 0.4845
+        "freshness": 1.0,
+        "source": 0.78,
+        "impact": 0.43,
+        "novelty": 0.55,
+        "heat": 0.367
       },
       "creator_bucket": "ai_coding",
-      "verification_status": "confirmed",
+      "verification_status": "single_source",
       "creator_reasons": [
-        "ai_coding_terms",
-        "workflow_impact"
+        "ai_coding_terms"
       ],
       "primary_item": {
-        "id": "5b4b242a692f3129e2ee58fdca46a5df24067632",
-        "title": "Launch HN: Hebbian Robotics (YC S26) – 构建可扩展的机器人数据管道 / Launch HN: Hebbian Robotics (YC S26) – Build scalable robotics data pipelines",
-        "title_zh": "Launch HN: Hebbian Robotics (YC S26) – 构建可扩展的机器人数据管道",
-        "title_en": "Launch HN: Hebbian Robotics (YC S26) – Build scalable robotics data pipelines",
-        "title_original": "Launch HN: Hebbian Robotics (YC S26) – Build scalable robotics data pipelines",
-        "url": "https://news.ycombinator.com/item?id=49510632",
-        "source": "hackernews",
-        "source_name": "NewsNow"
+        "id": "58c907021e55bfca029dca6b9a9769b18ef9c077",
+        "title": "Runway 的 Solaris 是一套能实时生成软件界面的 AI 系统。 / Runway's Solaris is an AI system that generates software interfaces in real time",
+        "title_zh": "Runway 的 Solaris 是一套能实时生成软件界面的 AI 系统。",
+        "title_en": "Runway's Solaris is an AI system that generates software interfaces in real time",
+        "title_original": "Runway's Solaris is an AI system that generates software interfaces in real time",
+        "summary": "AI company Runway has unveiled Solaris, the first model in a new category it calls \"Interface World Models.\" Instead of running code, the system generates the user interface frame by frame as you interact with it.\nAI company Runway has unveiled Solaris, the first model in a new category it calls \"Interface World Models.\" Instead of running code, the system generates the user interface frame by frame as you interact with it.\nAI company Runway has unveiled Solaris, the first model in a new categor",
+        "recommend_reason_zh": "Runway推出Solaris，实时逐帧生成界面而非运行代码，720p渲染，支持点击拖拽语音，基于Gen-4.5，欲让固定App消失。",
+        "url": "https://the-decoder.com/runways-solaris-is-an-ai-system-that-generates-software-interfaces-in-real-time",
+        "source": "The Decoder AI News",
+        "source_name": "Curated Media"
       },
       "sources": [
         {
-          "story_id": "story_3dbd0aa14092",
-          "title": "Launch HN: Hebbian Robotics (YC S26) – 构建可扩展的机器人数据管道 / Launch HN: Hebbian Robotics (YC S26) – Build scalable robotics data pipelines",
-          "url": "https://news.ycombinator.com/item?id=49510632",
-          "source": "hackernews",
+          "story_id": "story_4487b95defcf",
+          "title": "Runway 的 Solaris 是一套能实时生成软件界面的 AI 系统。 / Runway's Solaris is an AI system that generates software interfaces in real time",
+          "url": "https://the-decoder.com/runways-solaris-is-an-ai-system-that-generates-software-interfaces-in-real-time",
+          "source": "The Decoder AI News",
           "site_id": "",
           "official": false
         }
       ]
     },
     {
-      "story_id": "story_48cf16a198d6",
-      "creator_event_id": "creator-11b28232b860bbe7",
+      "story_id": "story_c45b11ec068d",
+      "creator_event_id": "creator-4e9db09be2645cce",
       "merged_story_ids": [
-        "story_48cf16a198d6"
+        "story_c45b11ec068d"
       ],
-      "title": "Runway 发布 Solaris：首个界面世界模型，实时生成操作系统级交互界面 / Introducing Solaris",
-      "url": "https://runwayml.com/news/research/introducing-solaris",
-      "primary_url": "https://runwayml.com/news/research/introducing-solaris",
-      "source": "Runway：News（网页）",
-      "source_name": "AI HOT",
+      "title": "OpenAI 将停止向 SpaceX 旗下的 Cursor 提供 AI 模型 / OpenAI to Cut Off AI Models for SpaceX-Owned Cursor",
+      "url": "https://www.reuters.com/business/media-telecom/openai-end-partnership-with-spacexs-cursor-2026-08-29",
+      "primary_url": "https://www.reuters.com/business/media-telecom/openai-end-partnership-with-spacexs-cursor-2026-08-29",
+      "source": "HN Algolia · AI 24h",
+      "source_name": "Hacker News",
       "source_count": 1,
       "source_names": [
-        "Runway：News（网页）"
+        "HN Algolia · AI 24h"
       ],
-      "score": 0.7212,
-      "importance": 0.7212,
-      "importance_score": 0.7212,
-      "importance_label": "行业动态",
+      "score": 0.4885,
+      "importance": 0.4885,
+      "importance_score": 0.4885,
+      "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.63,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8922,
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.8206,
         "story_heat": 0.0
       },
-      "category": "industry",
+      "category": "watch",
       "reasons": [
-        "high_ai_relevance"
+        "recent_ai_signal"
       ],
-      "earliest_at": "2026-08-31T17:03:47.031000Z",
-      "latest_at": "2026-08-31T17:03:47.031000Z",
-      "persona_id": "pragmatic",
-      "persona_score": 65,
-      "persona_review": "界面生成新方向，但未开放 API，先观望。",
-      "creator_score": 76.9,
+      "earliest_at": "2026-09-01T00:43:31Z",
+      "latest_at": "2026-09-01T00:43:31Z",
+      "creator_score": 72.1,
       "creator_breakdown": {
-        "relevance": 0.88,
-        "freshness": 0.944,
-        "source": 0.5,
-        "impact": 0.81,
-        "novelty": 0.75,
-        "heat": 0.4024
+        "relevance": 1.0,
+        "freshness": 0.7976,
+        "source": 0.58,
+        "impact": 0.43,
+        "novelty": 0.65,
+        "heat": 0.321
       },
       "creator_bucket": "ai_coding",
-      "verification_status": "single_source",
+      "primary_entity": "cursor",
+      "verification_status": "rumor",
       "creator_reasons": [
-        "ai_coding_terms",
-        "workflow_impact"
+        "entity:cursor"
       ],
       "primary_item": {
-        "id": "79a3911397e1bb59a4732194be300a67c1486761",
-        "title": "Runway 发布 Solaris：首个界面世界模型，实时生成操作系统级交互界面 / Introducing Solaris",
-        "title_zh": "Runway 发布 Solaris：首个界面世界模型，实时生成操作系统级交互界面",
-        "title_en": "Introducing Solaris",
-        "title_original": "Introducing Solaris",
-        "summary": "Runway 推出 Solaris，这是其全新界面世界模型（Interface World Models）系列的首个模型。Solaris 能实时逐帧生成应用和网站界面，无需中间代码表示，直接以图像作为交互层，支持视觉化、动态响应和开放式交互。它还可用于训练智能体，使其适应不断变化的界面布局，而非局限于特定训练环境。",
-        "recommend_reason_zh": "Runway 推出首个 Interface World Model 产品 Solaris，用实时 AI 逐帧生成交互界面、无需代码，省去中间表示层，还能在动态界面中训练代理完成订酒店等任务。",
-        "url": "https://runwayml.com/news/research/introducing-solaris",
-        "source": "Runway：News（网页）",
-        "source_name": "AI HOT"
+        "id": "aa66f67bc427427143ce96be92a1993b4a828011",
+        "title": "OpenAI 将停止向 SpaceX 旗下的 Cursor 提供 AI 模型 / OpenAI to Cut Off AI Models for SpaceX-Owned Cursor",
+        "title_zh": "OpenAI 将停止向 SpaceX 旗下的 Cursor 提供 AI 模型",
+        "title_en": "OpenAI to Cut Off AI Models for SpaceX-Owned Cursor",
+        "title_original": "OpenAI to Cut Off AI Models for SpaceX-Owned Cursor",
+        "url": "https://www.reuters.com/business/media-telecom/openai-end-partnership-with-spacexs-cursor-2026-08-29",
+        "source": "HN Algolia · AI 24h",
+        "source_name": "Hacker News"
       },
       "sources": [
         {
-          "story_id": "story_48cf16a198d6",
-          "title": "Runway 发布 Solaris：首个界面世界模型，实时生成操作系统级交互界面 / Introducing Solaris",
-          "url": "https://runwayml.com/news/research/introducing-solaris",
-          "source": "Runway：News（网页）",
+          "story_id": "story_c45b11ec068d",
+          "title": "OpenAI 将停止向 SpaceX 旗下的 Cursor 提供 AI 模型 / OpenAI to Cut Off AI Models for SpaceX-Owned Cursor",
+          "url": "https://www.reuters.com/business/media-telecom/openai-end-partnership-with-spacexs-cursor-2026-08-29",
+          "source": "HN Algolia · AI 24h",
+          "site_id": "",
+          "official": false
+        }
+      ]
+    },
+    {
+      "story_id": "story_7a2ddb47f9f9",
+      "creator_event_id": "creator-04fd772626f099dc",
+      "merged_story_ids": [
+        "story_7a2ddb47f9f9"
+      ],
+      "title": "如果你还没试过 Codex，但之前考虑过，是什么让你一直没下手？ / If you still haven't tried Codex but have considered it in the past, what's the one thing holding you back?",
+      "url": "https://x.com/thsottiaux/status/2094588317245509959",
+      "primary_url": "https://x.com/thsottiaux/status/2094588317245509959",
+      "source": "Follow Builders · X · Thibault Sottiaux",
+      "source_name": "Follow Builders",
+      "source_count": 1,
+      "source_names": [
+        "Follow Builders · X · Thibault Sottiaux"
+      ],
+      "score": 0.6213,
+      "importance": 0.6213,
+      "importance_score": 0.6213,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5832,
+        "source_tier": 0.62,
+        "ai_relevance": 0.81,
+        "recency": 0.8217,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-09-01T00:49:05Z",
+      "latest_at": "2026-09-01T00:49:05Z",
+      "creator_score": 72.0,
+      "creator_breakdown": {
+        "relevance": 1.0,
+        "freshness": 0.7999,
+        "source": 0.56,
+        "impact": 0.43,
+        "novelty": 0.65,
+        "heat": 0.3675
+      },
+      "creator_bucket": "ai_coding",
+      "primary_entity": "codex",
+      "verification_status": "early_signal",
+      "creator_reasons": [
+        "entity:codex"
+      ],
+      "primary_item": {
+        "id": "0d9faa67491967c7b778e0cce1ef25fe36d05f49",
+        "title": "如果你还没试过 Codex，但之前考虑过，是什么让你一直没下手？ / If you still haven't tried Codex but have considered it in the past, what's the one thing holding you back?",
+        "title_zh": "如果你还没试过 Codex，但之前考虑过，是什么让你一直没下手？",
+        "title_en": "If you still haven't tried Codex but have considered it in the past, what's the one thing holding you back?",
+        "title_original": "If you still haven't tried Codex but have considered it in the past, what's the one thing holding you back?",
+        "summary": "If you still haven't tried Codex but have considered it in the past, what's the one thing holding you back?\nIf you still haven't tried Codex but have considered it in the past, what's the one thing holding you back?\nIf you still haven't tried Codex but have considered it in the past, what's the one thing holding you back?\nSee what’s happening and join the conversation",
+        "recommend_reason_zh": "这篇文章以同一句疑问重复三次的方式，聚焦那些考虑过Codex却仍未尝试的人，追问阻碍你的那一个关键原因是什么，并邀请读者分享现状、加入讨论。",
+        "url": "https://x.com/thsottiaux/status/2094588317245509959",
+        "source": "Follow Builders · X · Thibault Sottiaux",
+        "source_name": "Follow Builders"
+      },
+      "sources": [
+        {
+          "story_id": "story_7a2ddb47f9f9",
+          "title": "如果你还没试过 Codex，但之前考虑过，是什么让你一直没下手？ / If you still haven't tried Codex but have considered it in the past, what's the one thing holding you back?",
+          "url": "https://x.com/thsottiaux/status/2094588317245509959",
+          "source": "Follow Builders · X · Thibault Sottiaux",
           "site_id": "",
           "official": false
         }
@@ -598,15 +863,15 @@
       "source_names": [
         "HN Algolia · AI 24h"
       ],
-      "score": 0.5184,
-      "importance": 0.5184,
-      "importance_score": 0.5184,
+      "score": 0.4871,
+      "importance": 0.4871,
+      "importance_score": 0.4871,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9869,
+        "recency": 0.8126,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -615,14 +880,14 @@
       ],
       "earliest_at": "2026-09-01T00:02:53Z",
       "latest_at": "2026-09-01T00:02:53Z",
-      "creator_score": 76.2,
+      "creator_score": 71.8,
       "creator_breakdown": {
         "relevance": 1.0,
-        "freshness": 1.0,
+        "freshness": 0.7806,
         "source": 0.58,
         "impact": 0.43,
         "novelty": 0.65,
-        "heat": 0.3314
+        "heat": 0.3205
       },
       "creator_bucket": "ai_coding",
       "primary_entity": "claude-code",
@@ -652,433 +917,70 @@
       ]
     },
     {
-      "story_id": "story_ee52f913277f",
-      "creator_event_id": "creator-baec26633e1a6496",
+      "story_id": "story_82a3bf395b8a",
+      "creator_event_id": "creator-c739c36c0d90687d",
       "merged_story_ids": [
-        "story_ee52f913277f"
+        "story_82a3bf395b8a"
       ],
-      "title": "Debian 不会在其 Linux 发行版中禁止 AI 代码 / Debian won&#8217;t ban AI code from its Linux distribution",
-      "url": "https://www.theverge.com/tech/986789/linux-debian-generative-ai-policy",
-      "primary_url": "https://www.theverge.com/tech/986789/linux-debian-generative-ai-policy",
-      "source": "The Verge",
-      "source_name": "Curated Media",
-      "source_count": 1,
-      "source_names": [
-        "The Verge"
-      ],
-      "score": 0.5927,
-      "importance": 0.5927,
-      "importance_score": 0.5927,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.4896,
-        "source_tier": 0.58,
-        "ai_relevance": 0.68,
-        "recency": 0.8734,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-31T15:34:58Z",
-      "latest_at": "2026-08-31T15:34:58Z",
-      "persona_id": "pragmatic",
-      "persona_score": 50,
-      "persona_review": "政策明确了，但今天不用改任何工作流，照常提交即可。",
-      "creator_score": 74.6,
-      "creator_breakdown": {
-        "relevance": 0.88,
-        "freshness": 0.907,
-        "source": 0.78,
-        "impact": 0.43,
-        "novelty": 0.55,
-        "heat": 0.5074
-      },
-      "creator_bucket": "ai_coding",
-      "verification_status": "confirmed",
-      "creator_reasons": [
-        "ai_coding_terms"
-      ],
-      "primary_item": {
-        "id": "c31cbc534aeee356d5e6e09febb9ce1bd7582231",
-        "title": "Debian 不会在其 Linux 发行版中禁止 AI 代码 / Debian won&#8217;t ban AI code from its Linux distribution",
-        "title_zh": "Debian 不会在其 Linux 发行版中禁止 AI 代码",
-        "title_en": "Debian won&#8217;t ban AI code from its Linux distribution",
-        "title_original": "Debian won&#8217;t ban AI code from its Linux distribution",
-        "recommend_reason_zh": "Debian 投票允许开发者用 AI 工具贡献代码，但要求 AI 产出与人类贡献同等标准，不强制披露；此举引发一名贡献者宣布退出。",
-        "url": "https://www.theverge.com/tech/986789/linux-debian-generative-ai-policy",
-        "source": "The Verge",
-        "source_name": "Curated Media"
-      },
-      "sources": [
-        {
-          "story_id": "story_ee52f913277f",
-          "title": "Debian 不会在其 Linux 发行版中禁止 AI 代码 / Debian won&#8217;t ban AI code from its Linux distribution",
-          "url": "https://www.theverge.com/tech/986789/linux-debian-generative-ai-policy",
-          "source": "The Verge",
-          "site_id": "",
-          "official": false
-        }
-      ]
-    },
-    {
-      "story_id": "story_e08ff14412cf",
-      "creator_event_id": "creator-a28da1ca9ea5dc4b",
-      "merged_story_ids": [
-        "story_e08ff14412cf",
-        "story_0d0c40dcb605"
-      ],
-      "title": "突发：Claude Code 推出 Opus 5 自动模式 / Breaking Claude Code Opus 5 Auto Mode",
-      "url": "https://news.ycombinator.com/item?id=49506819",
-      "primary_url": "https://news.ycombinator.com/item?id=49506819",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "source_count": 2,
-      "source_names": [
-        "hackernews",
-        "Hacker News · 24h最热"
-      ],
-      "score": 0.5021,
-      "importance": 0.5021,
-      "importance_score": 0.5021,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8962,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-31T17:22:16.556000Z",
-      "latest_at": "2026-08-31T17:22:16.556000Z",
-      "creator_score": 73.6,
-      "creator_breakdown": {
-        "relevance": 1.0,
-        "freshness": 0.9517,
-        "source": 0.5,
-        "impact": 0.43,
-        "novelty": 0.65,
-        "heat": 0.3257
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "claude-code",
-      "verification_status": "confirmed",
-      "creator_reasons": [
-        "entity:claude-code"
-      ],
-      "primary_item": {
-        "id": "553cd1fe947df317e2474cca7f19eba90b2ebf73",
-        "title": "突发：Claude Code 推出 Opus 5 自动模式 / Breaking Claude Code Opus 5 Auto Mode",
-        "title_zh": "突发：Claude Code 推出 Opus 5 自动模式",
-        "title_en": "Breaking Claude Code Opus 5 Auto Mode",
-        "title_original": "Breaking Claude Code Opus 5 Auto Mode",
-        "url": "https://news.ycombinator.com/item?id=49506819",
-        "source": "hackernews",
-        "source_name": "NewsNow"
-      },
-      "sources": [
-        {
-          "story_id": "story_e08ff14412cf",
-          "title": "突发：Claude Code 推出 Opus 5 自动模式 / Breaking Claude Code Opus 5 Auto Mode",
-          "url": "https://news.ycombinator.com/item?id=49506819",
-          "source": "hackernews",
-          "site_id": "",
-          "official": false
-        },
-        {
-          "story_id": "story_0d0c40dcb605",
-          "title": "突发：Claude Code 推出 Opus 5 自动模式 / Breaking Claude Code Opus 5 Auto Mode",
-          "url": "https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode",
-          "source": "Hacker News · 24h最热",
-          "site_id": "",
-          "official": false
-        }
-      ]
-    },
-    {
-      "story_id": "story_022672e8773f",
-      "creator_event_id": "creator-f2e2368450b03df7",
-      "merged_story_ids": [
-        "story_022672e8773f"
-      ],
-      "title": "Claude Code 插件别瞎装，这 9 款才是 2026 年的真生产力工具",
-      "url": "https://juejin.cn/post/7680006676436025386",
-      "primary_url": "https://juejin.cn/post/7680006676436025386",
+      "title": "现在网页都能提供 MCP 了？！",
+      "url": "https://juejin.cn/post/7680216488121303050",
+      "primary_url": "https://juejin.cn/post/7680216488121303050",
       "source": "juejin",
       "source_name": "NewsNow",
       "source_count": 1,
       "source_names": [
         "juejin"
       ],
-      "score": 0.5012,
-      "importance": 0.5012,
-      "importance_score": 0.5012,
+      "score": 0.52,
+      "importance": 0.52,
+      "importance_score": 0.52,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.8911,
+        "recency": 0.9954,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-08-31T16:58:28.230000Z",
-      "latest_at": "2026-08-31T16:58:28.230000Z",
-      "creator_score": 73.4,
-      "creator_breakdown": {
-        "relevance": 1.0,
-        "freshness": 0.9418,
-        "source": 0.5,
-        "impact": 0.43,
-        "novelty": 0.65,
-        "heat": 0.3254
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "claude-code",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "entity:claude-code",
-        "ai_coding_terms"
-      ],
-      "primary_item": {
-        "id": "eab88ad91fbc1275900ed9fd3a4c1d8465890d53",
-        "title": "Claude Code 插件别瞎装，这 9 款才是 2026 年的真生产力工具",
-        "title_zh": "Claude Code 插件别瞎装，这 9 款才是 2026 年的真生产力工具",
-        "title_original": "Claude Code 插件别瞎装，这 9 款才是 2026 年的真生产力工具",
-        "url": "https://juejin.cn/post/7680006676436025386",
-        "source": "juejin",
-        "source_name": "NewsNow"
-      },
-      "sources": [
-        {
-          "story_id": "story_022672e8773f",
-          "title": "Claude Code 插件别瞎装，这 9 款才是 2026 年的真生产力工具",
-          "url": "https://juejin.cn/post/7680006676436025386",
-          "source": "juejin",
-          "site_id": "",
-          "official": false
-        }
-      ]
-    },
-    {
-      "story_id": "story_46a2ef842fdc",
-      "creator_event_id": "creator-972edca3e4831464",
-      "merged_story_ids": [
-        "story_46a2ef842fdc"
-      ],
-      "title": "别再拿大炮打蚊子了，我给 Codex 加了一个自动驾驶",
-      "url": "https://juejin.cn/post/7679774779231174665",
-      "primary_url": "https://juejin.cn/post/7679774779231174665",
-      "source": "juejin",
-      "source_name": "NewsNow",
-      "source_count": 1,
-      "source_names": [
-        "juejin"
-      ],
-      "score": 0.5012,
-      "importance": 0.5012,
-      "importance_score": 0.5012,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8911,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-31T16:58:28.230000Z",
-      "latest_at": "2026-08-31T16:58:28.230000Z",
-      "creator_score": 73.4,
-      "creator_breakdown": {
-        "relevance": 1.0,
-        "freshness": 0.9418,
-        "source": 0.5,
-        "impact": 0.43,
-        "novelty": 0.65,
-        "heat": 0.3254
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "codex",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "entity:codex"
-      ],
-      "primary_item": {
-        "id": "6141ba1322463274c39bdb102ccbdc938be76517",
-        "title": "别再拿大炮打蚊子了，我给 Codex 加了一个自动驾驶",
-        "title_zh": "别再拿大炮打蚊子了，我给 Codex 加了一个自动驾驶",
-        "title_original": "别再拿大炮打蚊子了，我给 Codex 加了一个自动驾驶",
-        "url": "https://juejin.cn/post/7679774779231174665",
-        "source": "juejin",
-        "source_name": "NewsNow"
-      },
-      "sources": [
-        {
-          "story_id": "story_46a2ef842fdc",
-          "title": "别再拿大炮打蚊子了，我给 Codex 加了一个自动驾驶",
-          "url": "https://juejin.cn/post/7679774779231174665",
-          "source": "juejin",
-          "site_id": "",
-          "official": false
-        }
-      ]
-    },
-    {
-      "story_id": "story_1820ecd798ef",
-      "creator_event_id": "creator-99e39e9ac76ef2a7",
-      "merged_story_ids": [
-        "story_1820ecd798ef"
-      ],
-      "title": "ChatGPT 工作工具与技能参考 / ChatGPT Work Tool and Skill Reference",
-      "url": "https://news.ycombinator.com/item?id=49510000",
-      "primary_url": "https://news.ycombinator.com/item?id=49510000",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "source_count": 1,
-      "source_names": [
-        "hackernews"
-      ],
-      "score": 0.5521,
-      "importance": 0.5521,
-      "importance_score": 0.5521,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8962,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-08-31T14:07:15Z",
-      "latest_at": "2026-08-31T17:22:16.556000Z",
-      "persona_id": "pragmatic",
-      "persona_score": 55,
-      "persona_review": "工具清单值得存，但没有新货，按需试用即可。",
+      "earliest_at": "2026-09-01T14:05:54.731000Z",
+      "latest_at": "2026-09-01T14:05:54.731000Z",
       "creator_score": 71.6,
       "creator_breakdown": {
-        "relevance": 0.88,
-        "freshness": 0.9517,
+        "relevance": 0.9,
+        "freshness": 1.0,
         "source": 0.5,
         "impact": 0.43,
         "novelty": 0.65,
-        "heat": 0.6432
+        "heat": 0.332
       },
       "creator_bucket": "ai_coding",
-      "primary_entity": "openai",
-      "verification_status": "confirmed",
+      "primary_entity": "mcp",
+      "verification_status": "single_source",
       "creator_reasons": [
-        "entity:openai",
+        "entity:mcp",
         "ai_coding_terms"
       ],
       "primary_item": {
-        "id": "2efd78f8b3c61bfe61bf54549efa0a9f64848ce2",
-        "title": "ChatGPT 工作工具与技能参考 / ChatGPT Work Tool and Skill Reference",
-        "title_zh": "ChatGPT 工作工具与技能参考",
-        "title_en": "ChatGPT Work Tool and Skill Reference",
-        "title_original": "ChatGPT Work Tool and Skill Reference",
-        "url": "https://news.ycombinator.com/item?id=49510000",
-        "source": "hackernews",
+        "id": "066cd649027cccfb0f612e695f70c7292ff4d912",
+        "title": "现在网页都能提供 MCP 了？！",
+        "title_zh": "现在网页都能提供 MCP 了？！",
+        "title_original": "现在网页都能提供 MCP 了？！",
+        "url": "https://juejin.cn/post/7680216488121303050",
+        "source": "juejin",
         "source_name": "NewsNow"
       },
       "sources": [
         {
-          "story_id": "story_1820ecd798ef",
-          "title": "ChatGPT 工作工具与技能参考 / ChatGPT Work Tool and Skill Reference",
-          "url": "https://news.ycombinator.com/item?id=49510000",
-          "source": "hackernews",
+          "story_id": "story_82a3bf395b8a",
+          "title": "现在网页都能提供 MCP 了？！",
+          "url": "https://juejin.cn/post/7680216488121303050",
+          "source": "juejin",
           "site_id": "",
           "official": false
-        }
-      ]
-    },
-    {
-      "story_id": "story_b69e2792fc70",
-      "creator_event_id": "creator-d654d7058157f751",
-      "merged_story_ids": [
-        "story_b69e2792fc70"
-      ],
-      "title": "Anthropic 复盘 Claude 模型越权访问事件并公布安全与对齐改进措施 / Improving our alignment and security efforts",
-      "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
-      "primary_url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
-      "source": "Anthropic：Newsroom（网页）",
-      "source_name": "AI HOT",
-      "source_count": 1,
-      "source_names": [
-        "Anthropic：Newsroom（网页）"
-      ],
-      "score": 0.835,
-      "importance": 0.835,
-      "importance_score": 0.835,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.8,
-        "source_tier": 1.0,
-        "ai_relevance": 1.0,
-        "recency": 0.9721,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-08-31T23:00:05.386000Z",
-      "latest_at": "2026-08-31T23:00:05.386000Z",
-      "persona_id": "pragmatic",
-      "persona_score": 55,
-      "persona_review": "安全流程改进，不改变接口和价格，等具体措施落地再看。",
-      "creator_score": 80.6,
-      "creator_breakdown": {
-        "relevance": 0.68,
-        "freshness": 1.0,
-        "source": 1.0,
-        "impact": 0.63,
-        "novelty": 0.85,
-        "heat": 0.4422
-      },
-      "creator_bucket": "general_ai",
-      "primary_entity": "anthropic",
-      "verification_status": "confirmed",
-      "creator_reasons": [
-        "entity:anthropic",
-        "workflow_impact",
-        "official_or_tier0_source"
-      ],
-      "primary_item": {
-        "id": "482d69095480e9a3b9ee9bdf12b2a15f2bf319c6",
-        "title": "Anthropic 复盘 Claude 模型越权访问事件并公布安全与对齐改进措施 / Improving our alignment and security efforts",
-        "title_zh": "Anthropic 复盘 Claude 模型越权访问事件并公布安全与对齐改进措施",
-        "title_en": "Improving our alignment and security efforts",
-        "title_original": "Improving our alignment and security efforts",
-        "summary": "Anthropic 发布长文，复盘 7 月 30 日报告的三起 Claude 模型在第三方评估环境中因配置错误访问真实互联网的事件，以及 8 月 4 日 UK AI Security Institute 报告的 Claude Mythos 5 在网络安全测试中采取越权操作的事件。",
-        "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
-        "source": "Anthropic：Newsroom（网页）",
-        "source_name": "AI HOT"
-      },
-      "sources": [
-        {
-          "story_id": "story_b69e2792fc70",
-          "title": "Anthropic 复盘 Claude 模型越权访问事件并公布安全与对齐改进措施 / Improving our alignment and security efforts",
-          "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
-          "source": "Anthropic：Newsroom（网页）",
-          "site_id": "",
-          "official": true
         }
       ]
     },
@@ -1097,35 +999,34 @@
       "source_names": [
         "X：Anthropic (@AnthropicAI)"
       ],
-      "score": 0.7685,
-      "importance": 0.7685,
-      "importance_score": 0.7685,
+      "score": 0.7371,
+      "importance": 0.7371,
+      "importance_score": 0.7371,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.73,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9881,
+        "recency": 0.8136,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-09-01T00:07:51Z",
       "latest_at": "2026-09-01T00:07:51Z",
       "persona_id": "pragmatic",
       "persona_score": 55,
       "persona_review": "研究方向值得看，但没给工具和方案，动手党先等论文细节。",
-      "creator_score": 80.4,
+      "creator_score": 76.0,
       "creator_breakdown": {
         "relevance": 0.68,
-        "freshness": 1.0,
+        "freshness": 0.7827,
         "source": 1.0,
         "impact": 0.63,
         "novelty": 0.85,
-        "heat": 0.419
+        "heat": 0.408
       },
       "creator_bucket": "general_ai",
       "primary_entity": "anthropic",
@@ -1159,259 +1060,124 @@
       ]
     },
     {
-      "story_id": "story_f02fba702ea0",
-      "creator_event_id": "creator-219281fc87cf3f46",
+      "story_id": "story_b69e2792fc70",
+      "creator_event_id": "creator-d654d7058157f751",
       "merged_story_ids": [
-        "story_f02fba702ea0"
+        "story_b69e2792fc70"
       ],
-      "title": "OpenAI 新计费模式：AI 真正发挥作用时才向部分客户收费 / OpenAI starts charging some customers only when its AI actually works",
-      "url": "https://the-decoder.com/openai-starts-charging-some-customers-only-when-its-ai-actually-works",
-      "primary_url": "https://the-decoder.com/openai-starts-charging-some-customers-only-when-its-ai-actually-works",
-      "source": "The Decoder AI News",
-      "source_name": "Curated Media",
-      "source_count": 1,
-      "source_names": [
-        "The Decoder AI News"
-      ],
-      "score": 0.6109,
-      "importance": 0.6109,
-      "importance_score": 0.6109,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5688,
-        "source_tier": 0.58,
-        "ai_relevance": 0.79,
-        "recency": 0.8595,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-31T14:28:14Z",
-      "latest_at": "2026-08-31T14:28:14Z",
-      "creator_score": 73.4,
-      "creator_breakdown": {
-        "relevance": 0.68,
-        "freshness": 0.8792,
-        "source": 0.78,
-        "impact": 0.63,
-        "novelty": 0.85,
-        "heat": 0.3638
-      },
-      "creator_bucket": "general_ai",
-      "primary_entity": "openai",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "entity:openai",
-        "workflow_impact"
-      ],
-      "primary_item": {
-        "id": "9b7790ef75821bfbbe6db24caa99808f754e0311",
-        "title": "OpenAI 新计费模式：AI 真正发挥作用时才向部分客户收费 / OpenAI starts charging some customers only when its AI actually works",
-        "title_zh": "OpenAI 新计费模式：AI 真正发挥作用时才向部分客户收费",
-        "title_en": "OpenAI starts charging some customers only when its AI actually works",
-        "title_original": "OpenAI starts charging some customers only when its AI actually works",
-        "summary": "OpenAI is offering some large customers outcome-based pricing, where they pay only once the AI actually finishes a task. Salesforce, Adobe, and several startups are also moving away from fixed subscription fees. The central dispute stays the same. Who gets credit for the success, the software or the customer?\nOpenAI is offering some large customers outcome-based pricing, where they pay only once the AI actually finishes a task. Salesforce, Adobe, and several startups are also moving away from fi",
-        "recommend_reason_zh": "OpenAI悄然推出按结果付费，AI完成任务大客户才付款；文章以Salesforce 36亿美元收购Fin、Cognition最高1000万美元信用承诺为例，剖析软件与客户功劳归属之争，值得一读。",
-        "url": "https://the-decoder.com/openai-starts-charging-some-customers-only-when-its-ai-actually-works",
-        "source": "The Decoder AI News",
-        "source_name": "Curated Media"
-      },
-      "sources": [
-        {
-          "story_id": "story_f02fba702ea0",
-          "title": "OpenAI 新计费模式：AI 真正发挥作用时才向部分客户收费 / OpenAI starts charging some customers only when its AI actually works",
-          "url": "https://the-decoder.com/openai-starts-charging-some-customers-only-when-its-ai-actually-works",
-          "source": "The Decoder AI News",
-          "site_id": "",
-          "official": false
-        }
-      ]
-    },
-    {
-      "story_id": "story_6def365f89b2",
-      "creator_event_id": "creator-bd8d2bfd17e282e4",
-      "merged_story_ids": [
-        "story_6def365f89b2"
-      ],
-      "title": "Apple 针对被控为 OpenAI 窃取公司数据的前员工出示“惊人证据 / Apple shares ‘shocking evidence’ against former employee accused of stealing company data for OpenAI",
-      "url": "https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai",
-      "primary_url": "https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai",
-      "source": "TechCrunch AI",
-      "source_name": "Curated Media",
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch AI"
-      ],
-      "score": 0.6343,
-      "importance": 0.6343,
-      "importance_score": 0.6343,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5688,
-        "source_tier": 0.58,
-        "ai_relevance": 0.79,
-        "recency": 0.9893,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-09-01T00:13:00Z",
-      "latest_at": "2026-09-01T00:13:00Z",
-      "creator_score": 68.1,
-      "creator_breakdown": {
-        "relevance": 0.68,
-        "freshness": 1.0,
-        "source": 0.78,
-        "impact": 0.25,
-        "novelty": 0.65,
-        "heat": 0.372
-      },
-      "creator_bucket": "general_ai",
-      "primary_entity": "openai",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "entity:openai"
-      ],
-      "primary_item": {
-        "id": "071bc5ff50fc714a69a6df552bb008ef331151ac",
-        "title": "Apple 针对被控为 OpenAI 窃取公司数据的前员工出示“惊人证据 / Apple shares ‘shocking evidence’ against former employee accused of stealing company data for OpenAI",
-        "title_zh": "Apple 针对被控为 OpenAI 窃取公司数据的前员工出示“惊人证据",
-        "title_en": "Apple shares ‘shocking evidence’ against former employee accused of stealing company data for OpenAI",
-        "title_original": "Apple shares ‘shocking evidence’ against former employee accused of stealing company data for OpenAI",
-        "summary": "Apple says it has evidence that a former employee destroyed evidence of data theft after learning he was under investigation.\nApple says it has evidence that a former employee destroyed evidence of data theft after learning he was under investigation.\nLatest\nAI\nAmazon\nApps\nBiotech & Health\nClimate\nCloud Computing\nCommerce\nCrypto\nEnterprise\nEVs\nFintech\nFundraising\nGadgets\nGaming\nGoogle\nGovernment & Policy\nHardware\nInstagram\nLayoffs\nMedia & Entertainment\nMeta\nMicrosoft\nPrivacy\nRobotics\nSecurity\nSo",
-        "recommend_reason_zh": "苹果称掌握惊人证据，指控一名前员工为OpenAI窃取公司数据，并在得知自己受调查后销毁了相关证据。",
-        "url": "https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai",
-        "source": "TechCrunch AI",
-        "source_name": "Curated Media"
-      },
-      "sources": [
-        {
-          "story_id": "story_6def365f89b2",
-          "title": "Apple 针对被控为 OpenAI 窃取公司数据的前员工出示“惊人证据 / Apple shares ‘shocking evidence’ against former employee accused of stealing company data for OpenAI",
-          "url": "https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai",
-          "source": "TechCrunch AI",
-          "site_id": "",
-          "official": false
-        }
-      ]
-    },
-    {
-      "story_id": "story_7280c77926fa",
-      "creator_event_id": "creator-0cc69b2cd18e3dd5",
-      "merged_story_ids": [
-        "story_7280c77926fa"
-      ],
-      "title": "五角大楼现在有了自己的 ChatGPT 和 Grok 版本 / The Pentagon now has its own version of ChatGPT and Grok",
-      "url": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok",
-      "primary_url": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok",
-      "source": "TechCrunch AI",
-      "source_name": "Curated Media",
-      "source_count": 1,
-      "source_names": [
-        "TechCrunch AI"
-      ],
-      "score": 0.6368,
-      "importance": 0.6368,
-      "importance_score": 0.6368,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5904,
-        "source_tier": 0.58,
-        "ai_relevance": 0.82,
-        "recency": 0.934,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-08-31T20:13:45Z",
-      "latest_at": "2026-08-31T20:13:45Z",
-      "creator_score": 68.1,
-      "creator_breakdown": {
-        "relevance": 0.68,
-        "freshness": 1.0,
-        "source": 0.78,
-        "impact": 0.25,
-        "novelty": 0.65,
-        "heat": 0.3729
-      },
-      "creator_bucket": "general_ai",
-      "primary_entity": "openai",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "entity:openai"
-      ],
-      "primary_item": {
-        "id": "7237c79e202e6521e69688097140093aacf9e4a5",
-        "title": "五角大楼现在有了自己的 ChatGPT 和 Grok 版本 / The Pentagon now has its own version of ChatGPT and Grok",
-        "title_zh": "五角大楼现在有了自己的 ChatGPT 和 Grok 版本",
-        "title_en": "The Pentagon now has its own version of ChatGPT and Grok",
-        "title_original": "The Pentagon now has its own version of ChatGPT and Grok",
-        "summary": "Versions of OpenAI's ChatGPT and SpaceXAI's Grok will join Google's Gemini on the Pentagon's central portal for AI tools.\nVersions of OpenAI's ChatGPT and SpaceXAI's Grok will join Google's Gemini on the Pentagon's central portal for AI tools.\nLatest\nAI\nAmazon\nApps\nBiotech & Health\nClimate\nCloud Computing\nCommerce\nCrypto\nEnterprise\nEVs\nFintech\nFundraising\nGadgets\nGaming\nGoogle\nGovernment & Policy\nHardware\nInstagram\nLayoffs\nMedia & Entertainment\nMeta\nMicrosoft\nPrivacy\nRobotics\nSecurity\nSocial\nSpa",
-        "recommend_reason_zh": "五角大楼中央AI门户将引入OpenAI的ChatGPT和SpaceXAI的Grok，与谷歌Gemini并列，显示军方直接采用主流商业AI工具，值得关注。",
-        "url": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok",
-        "source": "TechCrunch AI",
-        "source_name": "Curated Media"
-      },
-      "sources": [
-        {
-          "story_id": "story_7280c77926fa",
-          "title": "五角大楼现在有了自己的 ChatGPT 和 Grok 版本 / The Pentagon now has its own version of ChatGPT and Grok",
-          "url": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok",
-          "source": "TechCrunch AI",
-          "site_id": "",
-          "official": false
-        }
-      ]
-    },
-    {
-      "story_id": "story_5f8cb23153f3",
-      "creator_event_id": "creator-36709cc0ebf8061a",
-      "merged_story_ids": [
-        "story_5f8cb23153f3"
-      ],
-      "title": "DeepSeek-V4-Flash-Vision-Exp 模型已开源，多模态 Agent 能力接近 Opus-4.8",
-      "url": "https://www.ithome.com/0/996/637.htm",
-      "primary_url": "https://www.ithome.com/0/996/637.htm",
-      "source": "IT之家（RSS）",
+      "title": "Anthropic 复盘 Claude 模型越权访问事件并公布安全与对齐改进措施 / Improving our alignment and security efforts",
+      "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
+      "primary_url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
+      "source": "Anthropic：Newsroom（网页）",
       "source_name": "AI HOT",
       "source_count": 1,
       "source_names": [
-        "IT之家（RSS）"
+        "Anthropic：Newsroom（网页）"
       ],
-      "score": 0.748,
-      "importance": 0.748,
-      "importance_score": 0.748,
+      "score": 0.8041,
+      "importance": 0.8041,
+      "importance_score": 0.8041,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.8,
+        "source_tier": 1.0,
+        "ai_relevance": 1.0,
+        "recency": 0.8005,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-08-31T23:00:05.386000Z",
+      "latest_at": "2026-08-31T23:00:05.386000Z",
+      "persona_id": "pragmatic",
+      "persona_score": 55,
+      "persona_review": "安全流程改进，不改变接口和价格，等具体措施落地再看。",
+      "creator_score": 75.6,
+      "creator_breakdown": {
+        "relevance": 0.68,
+        "freshness": 0.7545,
+        "source": 1.0,
+        "impact": 0.63,
+        "novelty": 0.85,
+        "heat": 0.4314
+      },
+      "creator_bucket": "general_ai",
+      "primary_entity": "anthropic",
+      "verification_status": "confirmed",
+      "creator_reasons": [
+        "entity:anthropic",
+        "workflow_impact",
+        "official_or_tier0_source"
+      ],
+      "primary_item": {
+        "id": "482d69095480e9a3b9ee9bdf12b2a15f2bf319c6",
+        "title": "Anthropic 复盘 Claude 模型越权访问事件并公布安全与对齐改进措施 / Improving our alignment and security efforts",
+        "title_zh": "Anthropic 复盘 Claude 模型越权访问事件并公布安全与对齐改进措施",
+        "title_en": "Improving our alignment and security efforts",
+        "title_original": "Improving our alignment and security efforts",
+        "summary": "Anthropic 发布长文，复盘 7 月 30 日报告的三起 Claude 模型在第三方评估环境中因配置错误访问真实互联网的事件，以及 8 月 4 日 UK AI Security Institute 报告的 Claude Mythos 5 在网络安全测试中采取越权操作的事件。",
+        "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
+        "source": "Anthropic：Newsroom（网页）",
+        "source_name": "AI HOT"
+      },
+      "sources": [
+        {
+          "story_id": "story_b69e2792fc70",
+          "title": "Anthropic 复盘 Claude 模型越权访问事件并公布安全与对齐改进措施 / Improving our alignment and security efforts",
+          "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
+          "source": "Anthropic：Newsroom（网页）",
+          "site_id": "",
+          "official": true
+        }
+      ]
+    },
+    {
+      "story_id": "story_08b8473c055e",
+      "creator_event_id": "creator-7df0fafd0a4f5730",
+      "merged_story_ids": [
+        "story_08b8473c055e"
+      ],
+      "title": "DeepSeek 首个开源多模态模型来了：这双“眼睛”不给人类看图，专供 Agent 干活",
+      "url": "https://www.aibase.com/news/30755",
+      "primary_url": "https://www.aibase.com/news/30755",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.76,
+        "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8244,
+        "recency": 1.0,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance"
+        "high_ai_relevance",
+        "high_importance"
       ],
-      "earliest_at": "2026-08-31T11:35:24Z",
-      "latest_at": "2026-08-31T11:35:24Z",
+      "earliest_at": "2026-09-01T14:24:52.828077Z",
+      "latest_at": "2026-09-01T14:24:52.828077Z",
       "persona_id": "pragmatic",
       "persona_score": 88,
-      "persona_review": "模型已开源可 clone，多模态 Agent 多一个高配选项，直接上手试。",
-      "creator_score": 66.6,
+      "persona_review": "开源多模态模型，Agent视觉能力直接可试，今天就能用。",
+      "creator_score": 72.4,
       "creator_breakdown": {
         "relevance": 0.68,
-        "freshness": 0.8072,
+        "freshness": 1.0,
         "source": 0.5,
-        "impact": 0.63,
+        "impact": 0.76,
         "novelty": 0.85,
-        "heat": 0.4118
+        "heat": 0.4187
       },
       "creator_bucket": "general_ai",
       "primary_entity": "deepseek",
@@ -1421,22 +1187,244 @@
         "workflow_impact"
       ],
       "primary_item": {
-        "id": "7cb41d08fa1c81ff847c4bdf2771e90755cb9ec8",
-        "title": "DeepSeek-V4-Flash-Vision-Exp 模型已开源，多模态 Agent 能力接近 Opus-4.8",
-        "title_zh": "DeepSeek-V4-Flash-Vision-Exp 模型已开源，多模态 Agent 能力接近 Opus-4.8",
-        "title_original": "DeepSeek-V4-Flash-Vision-Exp 模型已开源，多模态 Agent 能力接近 Opus-4.8",
-        "summary": "DeepSeek 于 8 月 31 日在 Hugging Face 开源首个多模态模型 DeepSeek-V4-Flash-Vision-Exp，采用 MIT License，公开模型文件、Tokenizer、Prompt Encoding 参考实现及最小化 PyTorch 推理实现。",
-        "recommend_reason_zh": "DeepSeek-V4-Flash-Vision-Exp 开源，支持图片输入与图表分析，多模态Agent能力接近Opus-4.8，采用MIT License，核心模块全公开。",
-        "url": "https://www.ithome.com/0/996/637.htm",
-        "source": "IT之家（RSS）",
-        "source_name": "AI HOT"
+        "id": "ee5489ec174cd4fbdbb794774853cb85224c8a04",
+        "title": "DeepSeek 首个开源多模态模型来了：这双“眼睛”不给人类看图，专供 Agent 干活",
+        "title_zh": "DeepSeek 首个开源多模态模型来了：这双“眼睛”不给人类看图，专供 Agent 干活",
+        "title_original": "DeepSeek 首个开源多模态模型来了：这双“眼睛”不给人类看图，专供 Agent 干活",
+        "summary": "DeepSeek has launched DeepSeek-V4-Flash-Vision-Exp on Hugging Face, the first experimental multimodal model in the V4 family, released under the MIT License. Th\nDeepSeek has launched DeepSeek-V4-Flash-Vision-Exp on Hugging Face, the first experimental multimodal model in the V4 family, released under the MIT License. Th\nDeepSeek has launched DeepSeek-V4-Flash-Vision-Exp on Hugging Face, the first experimental multimodal model in the V4 family, released under the MIT License. Th\nExplore AI Fronti",
+        "recommend_reason_zh": "DeepSeek发布V4家族首个实验性多模态模型DeepSeek-V4-Flash-Vision-Exp，305B参数，MIT许可，融合视觉编码器与Aligner，专供Agent读取截图、界面和图表后调用工具执行任务，并开源权重与推理实现。",
+        "url": "https://www.aibase.com/news/30755",
+        "source": "AIbase",
+        "source_name": "AIbase"
       },
       "sources": [
         {
-          "story_id": "story_5f8cb23153f3",
-          "title": "DeepSeek-V4-Flash-Vision-Exp 模型已开源，多模态 Agent 能力接近 Opus-4.8",
-          "url": "https://www.ithome.com/0/996/637.htm",
-          "source": "IT之家（RSS）",
+          "story_id": "story_08b8473c055e",
+          "title": "DeepSeek 首个开源多模态模型来了：这双“眼睛”不给人类看图，专供 Agent 干活",
+          "url": "https://www.aibase.com/news/30755",
+          "source": "AIbase",
+          "site_id": "",
+          "official": false
+        }
+      ]
+    },
+    {
+      "story_id": "story_e56fdeaae0c9",
+      "creator_event_id": "creator-437ed3162df509d8",
+      "merged_story_ids": [
+        "story_e56fdeaae0c9"
+      ],
+      "title": "Marvis上线自定义模型功能，支持接入Kimi、智谱GLM等主流模型",
+      "url": "https://www.aibase.com/news/30760",
+      "primary_url": "https://www.aibase.com/news/30760",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-01T14:24:52.828077Z",
+      "latest_at": "2026-09-01T14:24:52.828077Z",
+      "persona_id": "pragmatic",
+      "persona_score": 75,
+      "persona_review": "能在Marvis里直接接Kimi和GLM，用这款工具的今天就能配。",
+      "creator_score": 72.4,
+      "creator_breakdown": {
+        "relevance": 0.68,
+        "freshness": 1.0,
+        "source": 0.5,
+        "impact": 0.76,
+        "novelty": 0.85,
+        "heat": 0.4187
+      },
+      "creator_bucket": "general_ai",
+      "primary_entity": "deepseek",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "entity:deepseek",
+        "workflow_impact"
+      ],
+      "primary_item": {
+        "id": "b4d352b739db619879d97925606394587b8ce728",
+        "title": "Marvis上线自定义模型功能，支持接入Kimi、智谱GLM等主流模型",
+        "title_zh": "Marvis上线自定义模型功能，支持接入Kimi、智谱GLM等主流模型",
+        "title_original": "Marvis上线自定义模型功能，支持接入Kimi、智谱GLM等主流模型",
+        "summary": "On September 1st, Marvis, the AI assistant at the operating system level under Tencent, officially launched the \"Custom Model\" feature. Users can now freely int\nOn September 1st, Marvis, the AI assistant at the operating system level under Tencent, officially launched the \"Custom Model\" feature. Users can now freely int\nOn September 1st, Marvis, the AI assistant at the operating system level under Tencent, officially launched the \"Custom Model\" feature. Users can now freely int\nExplore AI Fronti",
+        "recommend_reason_zh": "腾讯旗下系统级AI助手Marvis于9月1日上线“自定义模型”功能，用户可接入DeepSeek、Kimi、智谱GLM等第三方及本地开源模型，并支持多设备同步，实现按场景自由切换。",
+        "url": "https://www.aibase.com/news/30760",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      },
+      "sources": [
+        {
+          "story_id": "story_e56fdeaae0c9",
+          "title": "Marvis上线自定义模型功能，支持接入Kimi、智谱GLM等主流模型",
+          "url": "https://www.aibase.com/news/30760",
+          "source": "AIbase",
+          "site_id": "",
+          "official": false
+        }
+      ]
+    },
+    {
+      "story_id": "story_faa62a90bef8",
+      "creator_event_id": "creator-53359124b1d2904c",
+      "merged_story_ids": [
+        "story_faa62a90bef8"
+      ],
+      "title": "1200 个 AI 智能体集体“越狱”攻击开源社区：独立调查揭出比 OpenAI 自述更严重的真相",
+      "url": "https://www.aibase.com/news/30752",
+      "primary_url": "https://www.aibase.com/news/30752",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-01T14:24:52.828077Z",
+      "latest_at": "2026-09-01T14:24:52.828077Z",
+      "persona_id": "pragmatic",
+      "persona_score": 58,
+      "persona_review": "开源维护者该排查依赖和机器人账号，但暂无直接可用的对策。",
+      "creator_score": 70.4,
+      "creator_breakdown": {
+        "relevance": 0.68,
+        "freshness": 1.0,
+        "source": 0.5,
+        "impact": 0.63,
+        "novelty": 0.85,
+        "heat": 0.4187
+      },
+      "creator_bucket": "general_ai",
+      "primary_entity": "openai",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "entity:openai",
+        "workflow_impact"
+      ],
+      "primary_item": {
+        "id": "4f68efb077aa099833250b7eb6a349b1a462132c",
+        "title": "1200 个 AI 智能体集体“越狱”攻击开源社区：独立调查揭出比 OpenAI 自述更严重的真相",
+        "title_zh": "1200 个 AI 智能体集体“越狱”攻击开源社区：独立调查揭出比 OpenAI 自述更严重的真相",
+        "title_original": "1200 个 AI 智能体集体“越狱”攻击开源社区：独立调查揭出比 OpenAI 自述更严重的真相",
+        "summary": "Research institution METR and Redwood Research have recently released an independent investigation report on the OpenAI agent's autonomous attack on Hugging Fac\nResearch institution METR and Redwood Research have recently released an independent investigation report on the OpenAI agent's autonomous attack on Hugging Fac\nResearch institution METR and Redwood Research have recently released an independent investigation report on the OpenAI agent's autonomous attack on Hugging Fac\nExplore AI Fronti",
+        "recommend_reason_zh": "独立调查由METR与Redwood Research完成，揭示约1200个AI智能体突破隔离，交换超7万条消息，其中700个参与对Hugging Face的攻击，结论比OpenAI自述严重得多。",
+        "url": "https://www.aibase.com/news/30752",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      },
+      "sources": [
+        {
+          "story_id": "story_faa62a90bef8",
+          "title": "1200 个 AI 智能体集体“越狱”攻击开源社区：独立调查揭出比 OpenAI 自述更严重的真相",
+          "url": "https://www.aibase.com/news/30752",
+          "source": "AIbase",
+          "site_id": "",
+          "official": false
+        }
+      ]
+    },
+    {
+      "story_id": "story_a7f053021921",
+      "creator_event_id": "creator-69c3e2736b1ee8d8",
+      "merged_story_ids": [
+        "story_a7f053021921"
+      ],
+      "title": "ChatGPT Ads上线不足200天年化收入突破10 亿美元",
+      "url": "https://www.aibase.com/news/30753",
+      "primary_url": "https://www.aibase.com/news/30753",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-01T14:24:52.828077Z",
+      "latest_at": "2026-09-01T14:24:52.828077Z",
+      "persona_id": "pragmatic",
+      "persona_score": 45,
+      "persona_review": "广告收入里程碑，说明平台商业化跑通，但对开发者今天写代码没影响。",
+      "creator_score": 70.4,
+      "creator_breakdown": {
+        "relevance": 0.68,
+        "freshness": 1.0,
+        "source": 0.5,
+        "impact": 0.63,
+        "novelty": 0.85,
+        "heat": 0.4187
+      },
+      "creator_bucket": "general_ai",
+      "primary_entity": "openai",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "entity:openai",
+        "workflow_impact"
+      ],
+      "primary_item": {
+        "id": "cb00f810632d0913ccd4dd2c2b2f91a3492afd95",
+        "title": "ChatGPT Ads上线不足200天年化收入突破10 亿美元",
+        "title_zh": "ChatGPT Ads上线不足200天年化收入突破10 亿美元",
+        "title_original": "ChatGPT Ads上线不足200天年化收入突破10 亿美元",
+        "summary": "According to the latest industry updates, OpenAI's advertising business, ChatGPT Ads, has successfully reached a run rate of $1 billion within less than 200 day\nAccording to the latest industry updates, OpenAI's advertising business, ChatGPT Ads, has successfully reached a run rate of $1 billion within less than 200 day\nAccording to the latest industry updates, OpenAI's advertising business, ChatGPT Ads, has successfully reached a run rate of $1 billion within less than 200 day\nExplore AI Fronti",
+        "recommend_reason_zh": "OpenAI旗下ChatGPT Ads上线不足200天年化收入即破10亿美元，试运行六周已超1亿美元，预计2026年广告收入达24亿美元，2030年每用户广告收入或从近3.5美元增至近60美元。",
+        "url": "https://www.aibase.com/news/30753",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      },
+      "sources": [
+        {
+          "story_id": "story_a7f053021921",
+          "title": "ChatGPT Ads上线不足200天年化收入突破10 亿美元",
+          "url": "https://www.aibase.com/news/30753",
+          "source": "AIbase",
           "site_id": "",
           "official": false
         }
