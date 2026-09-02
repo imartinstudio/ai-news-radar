@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "generated_at": "2026-09-02T00:10:11.445641Z",
+  "generated_at": "2026-09-02T14:22:15.575542Z",
   "total_items": 20,
   "dedup_meta": {
-    "secondary_dedup_merge_count": 6,
-    "secondary_dedup_source_count": 180
+    "secondary_dedup_merge_count": 4,
+    "secondary_dedup_source_count": 207
   },
   "items": [
     {
@@ -22,15 +22,15 @@
       "source_names": [
         "Claude Code Releases"
       ],
-      "score": 0.6332,
-      "importance": 0.6332,
-      "importance_score": 0.6332,
+      "score": 0.6003,
+      "importance": 0.6003,
+      "importance_score": 0.6003,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.5688,
         "source_tier": 0.58,
         "ai_relevance": 0.79,
-        "recency": 0.9829,
+        "recency": 0.8004,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -39,14 +39,14 @@
       ],
       "earliest_at": "2026-09-01T22:33:20Z",
       "latest_at": "2026-09-01T22:33:20Z",
-      "creator_score": 95.4,
+      "creator_score": 87.5,
       "creator_breakdown": {
         "relevance": 1.0,
-        "freshness": 1.0,
+        "freshness": 0.7546,
         "source": 1.0,
-        "impact": 1.0,
+        "impact": 0.81,
         "novelty": 0.85,
-        "heat": 0.3716
+        "heat": 0.3601
       },
       "creator_bucket": "ai_coding",
       "primary_entity": "claude-code",
@@ -61,7 +61,6 @@
         "id": "31c0dfcb209ae94e2dc5510fee7ba902d958bc5e",
         "title": "v2.1.258",
         "title_original": "v2.1.258",
-        "summary": "What's changed\n\nFixed Claude Code failing to launch on macOS 12 (Monterey), a regression introduced in 2.1.255\nFixed remote and scheduled sessions failing with \"user messages must have non-empty co...\nClaude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands. - Release v2.1.258 · anthropics/claude-code\nWhat&#39;s cha",
         "recommend_reason_zh": "本次Claude Code v2.1.258更新修复了macOS 12 Monterey上无法启动的回归问题，该问题由2.1.255版本引入；还解决了远程和定时会话出现\"user messages must have non-empty\"报错，开发者应关注。",
         "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.258",
         "source": "Claude Code Releases",
@@ -93,15 +92,15 @@
       "source_names": [
         "GitHub Changelog"
       ],
-      "score": 0.8355,
-      "importance": 0.8355,
-      "importance_score": 0.8355,
+      "score": 0.8036,
+      "importance": 0.8036,
+      "importance_score": 0.8036,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9526,
+        "recency": 0.7757,
         "story_heat": 0.0
       },
       "category": "official",
@@ -115,14 +114,14 @@
       "persona_id": "pragmatic",
       "persona_score": 85,
       "persona_review": "给用户预算加期限，管理员今天就能设，避免超支。",
-      "creator_score": 93.3,
+      "creator_score": 87.3,
       "creator_breakdown": {
         "relevance": 0.95,
-        "freshness": 1.0,
+        "freshness": 0.7004,
         "source": 1.0,
         "impact": 0.94,
         "novelty": 0.85,
-        "heat": 0.4424
+        "heat": 0.4313
       },
       "creator_bucket": "ai_coding",
       "primary_entity": "github-copilot",
@@ -139,7 +138,6 @@
         "title_zh": "为单个用户预算设置有效期",
         "title_en": "Set an expiration date for individual user budgets",
         "title_original": "Set an expiration date for individual user budgets",
-        "summary": "You can now set an optional expiration date on an individual user budget, and GitHub removes the budget on that date. This capability is generally available. The user then falls…\nYou can now set an optional expiration date on an individual user budget, and GitHub removes the budget on that date. This capability is generally available. The user then falls back to the next budget that applies to them (i.e., their cost center per-user budget or otherwise your universal budget).\nPreviously, you had ",
         "recommend_reason_zh": "GitHub Copilot用户预算新增可选过期日期，到期自动移除并回退至下一级预算，省去手动清理临时覆盖的麻烦，支持通过Budget REST API的expires_at字段设置，适用于Copilot Business和Enterprise计划。",
         "url": "https://github.blog/changelog/2026-09-01-set-an-expiration-date-for-individual-user-budgets",
         "source": "GitHub Changelog",
@@ -150,6 +148,78 @@
           "story_id": "story_5de5820ec3a1",
           "title": "为单个用户预算设置有效期 / Set an expiration date for individual user budgets",
           "url": "https://github.blog/changelog/2026-09-01-set-an-expiration-date-for-individual-user-budgets",
+          "source": "GitHub Changelog",
+          "site_id": "",
+          "official": true
+        }
+      ]
+    },
+    {
+      "story_id": "story_0684dd59481d",
+      "creator_event_id": "creator-e123e96cc0c93c8d",
+      "merged_story_ids": [
+        "story_0684dd59481d"
+      ],
+      "title": "Claude Fable 5.1 is generally available in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-09-01-claude-fable-5-1-generally-available-in-github-copilot",
+      "primary_url": "https://github.blog/changelog/2026-09-01-claude-fable-5-1-generally-available-in-github-copilot",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "score": 0.8082,
+      "importance": 0.8082,
+      "importance_score": 0.8082,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.95,
+        "recency": 0.7124,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-01T14:29:23Z",
+      "latest_at": "2026-09-01T14:29:23Z",
+      "creator_score": 82.4,
+      "creator_breakdown": {
+        "relevance": 0.95,
+        "freshness": 0.553,
+        "source": 1.0,
+        "impact": 0.81,
+        "novelty": 0.85,
+        "heat": 0.4329
+      },
+      "creator_bucket": "ai_coding",
+      "primary_entity": "github-copilot",
+      "verification_status": "confirmed",
+      "creator_reasons": [
+        "entity:github-copilot",
+        "workflow_impact",
+        "official_or_tier0_source"
+      ],
+      "primary_item": {
+        "id": "5c39fd45760df276f4fece1ddc3c6292d6ec5949",
+        "title": "Claude Fable 5.1 is generally available in GitHub Copilot",
+        "title_en": "Claude Fable 5.1 is generally available in GitHub Copilot",
+        "title_original": "Claude Fable 5.1 is generally available in GitHub Copilot",
+        "summary": "Claude Fable 5.1 from Anthropic is now available in GitHub Copilot. The latest model in Anthropic’s Mythos class, Claude Fable 5.1 is designed for long-horizon, autonomous coding and knowledge-work tasks.…\nClaude Fable 5.1 from Anthropic is now available in GitHub Copilot. The latest model in Anthropic’s Mythos class, Claude Fable 5.1 is designed for long-horizon, autonomous coding and knowledge-work tasks.\nIn our internal testing, Claude Fable 5.1 demonstrated strong performance on substantial,",
+        "url": "https://github.blog/changelog/2026-09-01-claude-fable-5-1-generally-available-in-github-copilot",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      },
+      "sources": [
+        {
+          "story_id": "story_0684dd59481d",
+          "title": "Claude Fable 5.1 is generally available in GitHub Copilot",
+          "url": "https://github.blog/changelog/2026-09-01-claude-fable-5-1-generally-available-in-github-copilot",
           "source": "GitHub Changelog",
           "site_id": "",
           "official": true
@@ -171,15 +241,15 @@
       "source_names": [
         "GitHub Changelog"
       ],
-      "score": 0.8411,
-      "importance": 0.8411,
-      "importance_score": 0.8411,
+      "score": 0.8097,
+      "importance": 0.8097,
+      "importance_score": 0.8097,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9396,
+        "recency": 0.7651,
         "story_heat": 0.0
       },
       "category": "official",
@@ -193,14 +263,14 @@
       "persona_id": "pragmatic",
       "persona_score": 90,
       "persona_review": "直接省人工审流程，PR 合并链路今天就能接上 Copilot。",
-      "creator_score": 88.3,
+      "creator_score": 81.7,
       "creator_breakdown": {
         "relevance": 0.88,
-        "freshness": 1.0,
+        "freshness": 0.6765,
         "source": 1.0,
         "impact": 0.81,
         "novelty": 0.75,
-        "heat": 0.4444
+        "heat": 0.4334
       },
       "creator_bucket": "ai_coding",
       "verification_status": "confirmed",
@@ -215,7 +285,6 @@
         "title_zh": "Copilot 代码审查现已支持批准 pull request",
         "title_en": "Copilot code review can now approve pull requests",
         "title_original": "Copilot code review can now approve pull requests",
-        "summary": "Copilot now tells you when a pull request is ready to approve, and admins can authorize it to sign off on approval. The ability for Copilot to approve is off…\nCopilot now tells you when a pull request is ready to approve, and admins can authorize it to sign off on approval. The ability for Copilot to approve is off by default and configurable at the enterprise, organization, and repository level. The approval assessments will now appear as a part of the overview comment in every Copilot review. ",
         "recommend_reason_zh": "Copilot code review新增审批评估，可提示PR是否可批准，管理员能在企业、组织、仓库三级授权，默认关闭，现向Copilot Pro等计划开放公开预览。",
         "url": "https://github.blog/changelog/2026-09-01-copilot-code-review-can-now-approve-pull-requests",
         "source": "GitHub Changelog",
@@ -233,153 +302,348 @@
       ]
     },
     {
-      "story_id": "story_f1c64ea64db1",
-      "creator_event_id": "creator-ecd3fc0a11083d11",
+      "story_id": "story_9235b0b9bda1",
+      "creator_event_id": "creator-6ae896c22a6316f2",
       "merged_story_ids": [
-        "story_f1c64ea64db1"
+        "story_9235b0b9bda1"
       ],
-      "title": "GitHub CLI 新增功能：支持在 issue、pull request 和评论中展示媒体内容 / GitHub CLI: Media in issues, pull requests, and comments",
-      "url": "https://github.blog/changelog/2026-09-01-github-cli-media-in-issues-pull-requests-and-comments",
-      "primary_url": "https://github.blog/changelog/2026-09-01-github-cli-media-in-issues-pull-requests-and-comments",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
+      "title": "Anthropic 双发 Claude Fable 5.1 与 Mythos 5.1：编程跑分翻倍，缓存读取费用直降 75%",
+      "url": "https://www.aibase.com/news/30767",
+      "primary_url": "https://www.aibase.com/news/30767",
+      "source": "AIbase",
+      "source_name": "AIbase",
       "source_count": 1,
       "source_names": [
-        "GitHub Changelog"
+        "AIbase"
       ],
-      "score": 0.8172,
-      "importance": 0.8172,
-      "importance_score": 0.8172,
-      "importance_label": "官方更新",
+      "score": 0.76,
+      "importance": 0.76,
+      "importance_score": 0.76,
+      "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.8513,
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9576,
         "story_heat": 0.0
       },
-      "category": "official",
+      "category": "industry",
       "reasons": [
-        "official_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-09-01T12:35:59Z",
-      "latest_at": "2026-09-01T12:35:59Z",
-      "creator_score": 87.4,
+      "earliest_at": "2026-09-02T10:58:21.449353Z",
+      "latest_at": "2026-09-02T10:58:21.449353Z",
+      "creator_score": 79.1,
       "creator_breakdown": {
         "relevance": 0.88,
-        "freshness": 0.8607,
-        "source": 1.0,
-        "impact": 0.94,
-        "novelty": 0.75,
-        "heat": 0.436
+        "freshness": 1.0,
+        "source": 0.5,
+        "impact": 0.81,
+        "novelty": 0.85,
+        "heat": 0.416
       },
       "creator_bucket": "ai_coding",
-      "verification_status": "confirmed",
+      "primary_entity": "anthropic",
+      "verification_status": "single_source",
       "creator_reasons": [
+        "entity:anthropic",
         "ai_coding_terms",
-        "workflow_impact",
-        "official_or_tier0_source"
+        "workflow_impact"
       ],
       "primary_item": {
-        "id": "d2504bf5d8fe9f94a1ad03bfbe442904dc458f63",
-        "title": "GitHub CLI 新增功能：支持在 issue、pull request 和评论中展示媒体内容 / GitHub CLI: Media in issues, pull requests, and comments",
-        "title_zh": "GitHub CLI 新增功能：支持在 issue、pull request 和评论中展示媒体内容",
-        "title_en": "GitHub CLI: Media in issues, pull requests, and comments",
-        "title_original": "GitHub CLI: Media in issues, pull requests, and comments",
-        "summary": "GitHub CLI now has a repeatable --attach flag that uploads a local image or video and references it inline in an issue, pull request, or comment body. This is now…\nGitHub CLI now has a repeatable --attach flag that uploads a local image or video and references it inline in an issue, pull request, or comment body.\nThis is now generally available to all users on GitHub across all plans. You just need to update gh to v2.99.0.\nSome things are easier to show than to describe (i.e., a UI bug, a render",
-        "recommend_reason_zh": "GitHub CLI新增--attach参数，可直接在命令行上传图片或视频到issue、PR和comment，需更新至gh v2.99.0，图片限10MB，免费版视频10MB、付费版100MB。",
-        "url": "https://github.blog/changelog/2026-09-01-github-cli-media-in-issues-pull-requests-and-comments",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
+        "id": "cfeb69d1071fa4c018fd94fe73ca802dafb80a87",
+        "title": "Anthropic 双发 Claude Fable 5.1 与 Mythos 5.1：编程跑分翻倍，缓存读取费用直降 75%",
+        "title_zh": "Anthropic 双发 Claude Fable 5.1 与 Mythos 5.1：编程跑分翻倍，缓存读取费用直降 75%",
+        "title_original": "Anthropic 双发 Claude Fable 5.1 与 Mythos 5.1：编程跑分翻倍，缓存读取费用直降 75%",
+        "summary": "On September 1st local time, Anthropic announced the launch of Claude Fable 5.1 and Claude Mythos 5.1 models, calling them \"the most advanced programming and kn\nOn September 1st local time, Anthropic announced the launch of Claude Fable 5.1 and Claude Mythos 5.1 models, calling them \"the most advanced programming and kn\nOn September 1st local time, Anthropic announced the launch of Claude Fable 5.1 and Claude Mythos 5.1 models, calling them \"the most advanced programming and kn\nExplore AI Fronti",
+        "url": "https://www.aibase.com/news/30767",
+        "source": "AIbase",
+        "source_name": "AIbase"
       },
       "sources": [
         {
-          "story_id": "story_f1c64ea64db1",
-          "title": "GitHub CLI 新增功能：支持在 issue、pull request 和评论中展示媒体内容 / GitHub CLI: Media in issues, pull requests, and comments",
-          "url": "https://github.blog/changelog/2026-09-01-github-cli-media-in-issues-pull-requests-and-comments",
-          "source": "GitHub Changelog",
+          "story_id": "story_9235b0b9bda1",
+          "title": "Anthropic 双发 Claude Fable 5.1 与 Mythos 5.1：编程跑分翻倍，缓存读取费用直降 75%",
+          "url": "https://www.aibase.com/news/30767",
+          "source": "AIbase",
           "site_id": "",
-          "official": true
+          "official": false
         }
       ]
     },
     {
-      "story_id": "story_f7b63d022353",
-      "creator_event_id": "creator-c8d6bb4a77969121",
+      "story_id": "story_5119ce14751d",
+      "creator_event_id": "creator-16d46781f3177b06",
       "merged_story_ids": [
-        "story_f7b63d022353",
-        "story_946b48cdca28"
+        "story_5119ce14751d"
       ],
-      "title": "ChatGPT for iOS 1.2026.237",
-      "url": "https://developers.openai.com/codex/changelog",
-      "primary_url": "https://developers.openai.com/codex/changelog",
-      "source": "OpenAI Codex Changelog",
-      "source_name": "Official AI Updates",
+      "title": "We have also reduced prices for Enterprise, API, and SDK customers. Cache reads on Fable 5.1 are now $0.25 per million tokens (previously: $1). Up to 38% cheaper for a typical Claude Code session.",
+      "url": "https://x.com/bcherny/status/2094864062186426373",
+      "primary_url": "https://x.com/bcherny/status/2094864062186426373",
+      "source": "Follow Builders · X · Boris Cherny",
+      "source_name": "Follow Builders",
       "source_count": 1,
       "source_names": [
-        "OpenAI Codex Changelog"
+        "Follow Builders · X · Boris Cherny"
       ],
-      "score": 0.8177,
-      "importance": 0.8177,
-      "importance_score": 0.8177,
-      "importance_label": "官方更新",
+      "score": 0.6104,
+      "importance": 0.6104,
+      "importance_score": 0.6104,
+      "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 1.0,
-        "recency": 0.7097,
+        "editorial": 0.5832,
+        "source_tier": 0.62,
+        "ai_relevance": 0.81,
+        "recency": 0.7612,
         "story_heat": 0.0
       },
-      "category": "official",
+      "category": "watch",
       "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
-      "earliest_at": "2026-09-01T00:00:00Z",
-      "latest_at": "2026-09-01T00:00:00Z",
-      "persona_id": "pragmatic",
-      "persona_score": 25,
-      "persona_review": "例行版本更新，无明显新功能，开发者不用理会。",
-      "creator_score": 86.6,
+      "earliest_at": "2026-09-01T19:04:47Z",
+      "latest_at": "2026-09-01T19:04:47Z",
+      "creator_score": 79.0,
       "creator_breakdown": {
         "relevance": 1.0,
-        "freshness": 0.5461,
-        "source": 1.0,
-        "impact": 1.0,
+        "freshness": 0.6677,
+        "source": 0.56,
+        "impact": 0.94,
         "novelty": 0.85,
-        "heat": 0.4362
+        "heat": 0.3636
       },
       "creator_bucket": "ai_coding",
-      "primary_entity": "codex",
-      "verification_status": "confirmed",
+      "primary_entity": "claude-code",
+      "verification_status": "early_signal",
       "creator_reasons": [
-        "entity:codex",
+        "entity:claude-code",
         "ai_coding_terms",
-        "workflow_impact",
-        "official_or_tier0_source"
+        "workflow_impact"
       ],
       "primary_item": {
-        "id": "099b73f8e0c31aac2c3850689319c442f111363e",
-        "title": "ChatGPT for iOS 1.2026.237",
-        "title_en": "ChatGPT for iOS 1.2026.237",
-        "title_original": "ChatGPT for iOS 1.2026.237",
-        "summary": "Latest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nFull Changelog : rust-v0.152.0...rust-v0.152.1\nFull release on Github\nVim-enabled composers now start fresh drafts in Insert mode, including after submitting messages or dispatching slash commands. ( #41921 )\nAutomatic approval reviews can retain longer messages and a larger conversation transcript. ( #41931 )\nAutomatic approval reviews preserve user ins",
-        "recommend_reason_zh": "新版ChatGPT与Codex更新：事件触发任务现可响应Gmail、Slack或GitHub活动，浏览器扩展新增Edge、Brave等支持，并修复Windows沙箱执行问题。",
-        "url": "https://developers.openai.com/codex/changelog",
-        "source": "OpenAI Codex Changelog",
-        "source_name": "Official AI Updates"
+        "id": "3ec8eb40b4c36030e3921e18131720b55a08508f",
+        "title": "We have also reduced prices for Enterprise, API, and SDK customers. Cache reads on Fable 5.1 are now $0.25 per million tokens (previously: $1). Up to 38% cheaper for a typical Claude Code session.",
+        "title_en": "We have also reduced prices for Enterprise, API, and SDK customers. Cache reads on Fable 5.1 are now $0.25 per million tokens (previously: $1). Up to 38% cheaper for a typical Claude Code session.",
+        "title_original": "We have also reduced prices for Enterprise, API, and SDK customers. Cache reads on Fable 5.1 are now $0.25 per million tokens (previously: $1). Up to 38% cheaper for a typical Claude Code session.",
+        "url": "https://x.com/bcherny/status/2094864062186426373",
+        "source": "Follow Builders · X · Boris Cherny",
+        "source_name": "Follow Builders"
       },
       "sources": [
         {
-          "story_id": "story_f7b63d022353",
-          "title": "ChatGPT for iOS 1.2026.237",
-          "url": "https://developers.openai.com/codex/changelog",
-          "source": "OpenAI Codex Changelog",
+          "story_id": "story_5119ce14751d",
+          "title": "We have also reduced prices for Enterprise, API, and SDK customers. Cache reads on Fable 5.1 are now $0.25 per million tokens (previously: $1). Up to 38% cheaper for a typical Claude Code session.",
+          "url": "https://x.com/bcherny/status/2094864062186426373",
+          "source": "Follow Builders · X · Boris Cherny",
           "site_id": "",
-          "official": true
+          "official": false
+        }
+      ]
+    },
+    {
+      "story_id": "story_52c5e76b8979",
+      "creator_event_id": "creator-796bb122a98daa94",
+      "merged_story_ids": [
+        "story_52c5e76b8979"
+      ],
+      "title": "腾讯WorkBuddy宣布开放平台能力，面向软硬件及开发者，共创AI Agent行业新标准",
+      "url": "https://www.aibase.com/news/30780",
+      "primary_url": "https://www.aibase.com/news/30780",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-02T13:58:21.449353Z",
+      "latest_at": "2026-09-02T13:58:21.449353Z",
+      "creator_score": 78.1,
+      "creator_breakdown": {
+        "relevance": 0.88,
+        "freshness": 1.0,
+        "source": 0.5,
+        "impact": 0.81,
+        "novelty": 0.75,
+        "heat": 0.4187
+      },
+      "creator_bucket": "ai_coding",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "ai_coding_terms",
+        "workflow_impact"
+      ],
+      "primary_item": {
+        "id": "6809c6ba3fff4ca80307c93e321f3aff7be828ca",
+        "title": "腾讯WorkBuddy宣布开放平台能力，面向软硬件及开发者，共创AI Agent行业新标准",
+        "title_zh": "腾讯WorkBuddy宣布开放平台能力，面向软硬件及开发者，共创AI Agent行业新标准",
+        "title_original": "腾讯WorkBuddy宣布开放平台能力，面向软硬件及开发者，共创AI Agent行业新标准",
+        "summary": "On September 2, Tencent WorkBuddy announced the official launch of its open platform (open.WorkBuddy.cn), with over 100 ecosystem partners initially introduced.\nOn September 2, Tencent WorkBuddy announced the official launch of its open platform (open.WorkBuddy.cn), with over 100 ecosystem partners initially introduced.\nOn September 2, Tencent WorkBuddy announced the official launch of its open platform (open.WorkBuddy.cn), with over 100 ecosystem partners initially introduced.\nExplore AI Fronti",
+        "url": "https://www.aibase.com/news/30780",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      },
+      "sources": [
+        {
+          "story_id": "story_52c5e76b8979",
+          "title": "腾讯WorkBuddy宣布开放平台能力，面向软硬件及开发者，共创AI Agent行业新标准",
+          "url": "https://www.aibase.com/news/30780",
+          "source": "AIbase",
+          "site_id": "",
+          "official": false
+        }
+      ]
+    },
+    {
+      "story_id": "story_bbc4c41b2306",
+      "creator_event_id": "creator-ec977add77f83d03",
+      "merged_story_ids": [
+        "story_bbc4c41b2306"
+      ],
+      "title": "UU远程新版本上线：完整 TUI 渲染与多终端会话管理，强化远程 Vibe Coding 体验",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685772&idx=1&sn=a073c30899a7f420147673def8209609",
+      "primary_url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685772&idx=1&sn=a073c30899a7f420147673def8209609",
+      "source": "公众号：数字生命卡兹克",
+      "source_name": "AI HOT",
+      "source_count": 1,
+      "source_names": [
+        "公众号：数字生命卡兹克"
+      ],
+      "score": 0.7214,
+      "importance": 0.7214,
+      "importance_score": 0.7214,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.65,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8601,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-09-02T03:32:20Z",
+      "latest_at": "2026-09-02T03:32:20Z",
+      "creator_score": 77.6,
+      "creator_breakdown": {
+        "relevance": 0.88,
+        "freshness": 0.8792,
+        "source": 0.5,
+        "impact": 0.94,
+        "novelty": 0.75,
+        "heat": 0.4025
+      },
+      "creator_bucket": "ai_coding",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "ai_coding_terms",
+        "workflow_impact"
+      ],
+      "primary_item": {
+        "id": "9521b8f8095c91c3c9eb3086448b8696ec57c408",
+        "title": "UU远程新版本上线：完整 TUI 渲染与多终端会话管理，强化远程 Vibe Coding 体验",
+        "title_zh": "UU远程新版本上线：完整 TUI 渲染与多终端会话管理，强化远程 Vibe Coding 体验",
+        "title_original": "UU远程新版本上线：完整 TUI 渲染与多终端会话管理，强化远程 Vibe Coding 体验",
+        "summary": "UU远程于9月2日上线新版本，重点优化终端功能，补齐 TUI 渲染交互与终端会话管理能力。主要更新包括：Mac 免密码登录、移动端输入优化并新增调用系统输入法的独立输入框、可同时创建和管理多个终端会话并支持手机与电脑间跨端同步接管（通过 uuyc-cli lterm 命令）。",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685772&idx=1&sn=a073c30899a7f420147673def8209609",
+        "source": "公众号：数字生命卡兹克",
+        "source_name": "AI HOT"
+      },
+      "sources": [
+        {
+          "story_id": "story_bbc4c41b2306",
+          "title": "UU远程新版本上线：完整 TUI 渲染与多终端会话管理，强化远程 Vibe Coding 体验",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685772&idx=1&sn=a073c30899a7f420147673def8209609",
+          "source": "公众号：数字生命卡兹克",
+          "site_id": "",
+          "official": false
+        }
+      ]
+    },
+    {
+      "story_id": "story_8c5b6e2e8a9f",
+      "creator_event_id": "creator-89baa32d26c16091",
+      "merged_story_ids": [
+        "story_8c5b6e2e8a9f"
+      ],
+      "title": "If you're trying out Fable 5.1 I highly recommend running: /claude-api prompt-audit on your skills. It finds a bunch of redundancies and rules to remove for the latest models. Running it for all my skills now.",
+      "url": "https://x.com/petergyang/status/2094987791566622971",
+      "primary_url": "https://x.com/petergyang/status/2094987791566622971",
+      "source": "Follow Builders · X · Peter Yang",
+      "source_name": "Follow Builders",
+      "source_count": 1,
+      "source_names": [
+        "Follow Builders · X · Peter Yang"
+      ],
+      "score": 0.6442,
+      "importance": 0.6442,
+      "importance_score": 0.6442,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.612,
+        "source_tier": 0.62,
+        "ai_relevance": 0.85,
+        "recency": 0.8569,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-09-02T03:16:27Z",
+      "latest_at": "2026-09-02T03:16:27Z",
+      "creator_score": 77.6,
+      "creator_breakdown": {
+        "relevance": 0.88,
+        "freshness": 0.8726,
+        "source": 0.56,
+        "impact": 0.81,
+        "novelty": 0.85,
+        "heat": 0.3755
+      },
+      "creator_bucket": "ai_coding",
+      "primary_entity": "anthropic",
+      "verification_status": "early_signal",
+      "creator_reasons": [
+        "entity:anthropic",
+        "ai_coding_terms",
+        "workflow_impact"
+      ],
+      "primary_item": {
+        "id": "e4d29ef681371f0f4814173abd0044ee93766733",
+        "title": "If you're trying out Fable 5.1 I highly recommend running: /claude-api prompt-audit on your skills. It finds a bunch of redundancies and rules to remove for the latest models. Running it for all my skills now.",
+        "title_en": "If you're trying out Fable 5.1 I highly recommend running: /claude-api prompt-audit on your skills. It finds a bunch of redundancies and rules to remove for the latest models. Running it for all my skills now.",
+        "title_original": "If you're trying out Fable 5.1 I highly recommend running: /claude-api prompt-audit on your skills. It finds a bunch of redundancies and rules to remove for the latest models. Running it for all my skills now.",
+        "url": "https://x.com/petergyang/status/2094987791566622971",
+        "source": "Follow Builders · X · Peter Yang",
+        "source_name": "Follow Builders"
+      },
+      "sources": [
+        {
+          "story_id": "story_8c5b6e2e8a9f",
+          "title": "If you're trying out Fable 5.1 I highly recommend running: /claude-api prompt-audit on your skills. It finds a bunch of redundancies and rules to remove for the latest models. Running it for all my skills now.",
+          "url": "https://x.com/petergyang/status/2094987791566622971",
+          "source": "Follow Builders · X · Peter Yang",
+          "site_id": "",
+          "official": false
         }
       ]
     },
@@ -398,15 +662,15 @@
       "source_names": [
         "Claude Code Releases"
       ],
-      "score": 0.6217,
-      "importance": 0.6217,
-      "importance_score": 0.6217,
+      "score": 0.5909,
+      "importance": 0.5909,
+      "importance_score": 0.5909,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.5688,
         "source_tier": 0.58,
         "ai_relevance": 0.79,
-        "recency": 0.919,
+        "recency": 0.7483,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -415,14 +679,14 @@
       ],
       "earliest_at": "2026-09-01T17:53:52Z",
       "latest_at": "2026-09-01T17:53:52Z",
-      "creator_score": 84.7,
+      "creator_score": 77.5,
       "creator_breakdown": {
         "relevance": 1.0,
-        "freshness": 0.9932,
+        "freshness": 0.6382,
         "source": 1.0,
         "impact": 0.43,
         "novelty": 0.65,
-        "heat": 0.3676
+        "heat": 0.3568
       },
       "creator_bucket": "ai_coding",
       "primary_entity": "claude-code",
@@ -451,6 +715,209 @@
       ]
     },
     {
+      "story_id": "story_6498b183261a",
+      "creator_event_id": "creator-71d11321f20d3a4c",
+      "merged_story_ids": [
+        "story_6498b183261a"
+      ],
+      "title": "UC Berkeley 团队发布 Vero 基准：测试 AI 智能体能否构建形式化验证的软件仓库 / Vero： Can AI Agents Build Formally Verified Software Repositories？",
+      "url": "https://rdi.berkeley.edu/blog/vero",
+      "primary_url": "https://rdi.berkeley.edu/blog/vero",
+      "source": "Berkeley RDI：Blog（AI 安全与评测）",
+      "source_name": "AI HOT",
+      "source_count": 1,
+      "source_names": [
+        "Berkeley RDI：Blog（AI 安全与评测）"
+      ],
+      "score": 0.7041,
+      "importance": 0.7041,
+      "importance_score": 0.7041,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.6,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.847,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-09-02T02:28:38.186000Z",
+      "latest_at": "2026-09-02T02:28:38.186000Z",
+      "creator_score": 77.0,
+      "creator_breakdown": {
+        "relevance": 0.88,
+        "freshness": 0.8527,
+        "source": 0.5,
+        "impact": 0.94,
+        "novelty": 0.75,
+        "heat": 0.3964
+      },
+      "creator_bucket": "ai_coding",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "ai_coding_terms",
+        "workflow_impact"
+      ],
+      "primary_item": {
+        "id": "37ed26d214f70e3713360f59891d006e62b21596",
+        "title": "UC Berkeley 团队发布 Vero 基准：测试 AI 智能体能否构建形式化验证的软件仓库 / Vero： Can AI Agents Build Formally Verified Software Repositories？",
+        "title_zh": "UC Berkeley 团队发布 Vero 基准：测试 AI 智能体能否构建形式化验证的软件仓库",
+        "title_en": "Vero： Can AI Agents Build Formally Verified Software Repositories？",
+        "title_original": "Vero： Can AI Agents Build Formally Verified Software Repositories？",
+        "summary": "UC Berkeley 等机构发布 Vero，据称是首个要求智能体在仓库级同时编写实现与证明的基准，含 43 个多模块 Lean 4 实例、743 个计分 API 和 2705 条形式化规范。",
+        "url": "https://rdi.berkeley.edu/blog/vero",
+        "source": "Berkeley RDI：Blog（AI 安全与评测）",
+        "source_name": "AI HOT"
+      },
+      "sources": [
+        {
+          "story_id": "story_6498b183261a",
+          "title": "UC Berkeley 团队发布 Vero 基准：测试 AI 智能体能否构建形式化验证的软件仓库 / Vero： Can AI Agents Build Formally Verified Software Repositories？",
+          "url": "https://rdi.berkeley.edu/blog/vero",
+          "source": "Berkeley RDI：Blog（AI 安全与评测）",
+          "site_id": "",
+          "official": false
+        }
+      ]
+    },
+    {
+      "story_id": "story_5bfaa48bb91c",
+      "creator_event_id": "creator-a7097a801c5829e5",
+      "merged_story_ids": [
+        "story_5bfaa48bb91c"
+      ],
+      "title": "A Single Flaw Lets Untrusted Repos Run Code in Claude Code, Codex, Cursor, Grok",
+      "url": "https://www.manifold.security/blog/ai-coding-agents-git-hijack",
+      "primary_url": "https://www.manifold.security/blog/ai-coding-agents-git-hijack",
+      "source": "HN Algolia · AI 24h",
+      "source_name": "Hacker News",
+      "source_count": 1,
+      "source_names": [
+        "HN Algolia · AI 24h"
+      ],
+      "score": 0.519,
+      "importance": 0.519,
+      "importance_score": 0.519,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.4896,
+        "source_tier": 0.32,
+        "ai_relevance": 0.68,
+        "recency": 0.9206,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-09-02T08:14:34Z",
+      "latest_at": "2026-09-02T08:14:34Z",
+      "creator_score": 76.1,
+      "creator_breakdown": {
+        "relevance": 1.0,
+        "freshness": 0.9968,
+        "source": 0.58,
+        "impact": 0.43,
+        "novelty": 0.65,
+        "heat": 0.3317
+      },
+      "creator_bucket": "ai_coding",
+      "primary_entity": "claude-code",
+      "verification_status": "rumor",
+      "creator_reasons": [
+        "entity:claude-code"
+      ],
+      "primary_item": {
+        "id": "0ea62fc4d634f08f01acd3fcd163053e584d9ed7",
+        "title": "A Single Flaw Lets Untrusted Repos Run Code in Claude Code, Codex, Cursor, Grok",
+        "title_en": "A Single Flaw Lets Untrusted Repos Run Code in Claude Code, Codex, Cursor, Grok",
+        "title_original": "A Single Flaw Lets Untrusted Repos Run Code in Claude Code, Codex, Cursor, Grok",
+        "url": "https://www.manifold.security/blog/ai-coding-agents-git-hijack",
+        "source": "HN Algolia · AI 24h",
+        "source_name": "Hacker News"
+      },
+      "sources": [
+        {
+          "story_id": "story_5bfaa48bb91c",
+          "title": "A Single Flaw Lets Untrusted Repos Run Code in Claude Code, Codex, Cursor, Grok",
+          "url": "https://www.manifold.security/blog/ai-coding-agents-git-hijack",
+          "source": "HN Algolia · AI 24h",
+          "site_id": "",
+          "official": false
+        }
+      ]
+    },
+    {
+      "story_id": "story_aa95429a880f",
+      "creator_event_id": "creator-3ead34699b4d535c",
+      "merged_story_ids": [
+        "story_aa95429a880f"
+      ],
+      "title": "When Claude Code went rogue, years of Bengaluru heritage work disappeared",
+      "url": "https://www.deccanherald.com/india/karnataka/bengaluru/when-claude-code-went-rogue-years-of-bengaluru-heritage-work-disappeared-4131958",
+      "primary_url": "https://www.deccanherald.com/india/karnataka/bengaluru/when-claude-code-went-rogue-years-of-bengaluru-heritage-work-disappeared-4131958",
+      "source": "HN Algolia · AI 24h",
+      "source_name": "Hacker News",
+      "source_count": 1,
+      "source_names": [
+        "HN Algolia · AI 24h"
+      ],
+      "score": 0.506,
+      "importance": 0.506,
+      "importance_score": 0.506,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9176,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-09-02T08:01:03Z",
+      "latest_at": "2026-09-02T08:01:03Z",
+      "creator_score": 76.0,
+      "creator_breakdown": {
+        "relevance": 1.0,
+        "freshness": 0.9912,
+        "source": 0.58,
+        "impact": 0.43,
+        "novelty": 0.65,
+        "heat": 0.3271
+      },
+      "creator_bucket": "ai_coding",
+      "primary_entity": "claude-code",
+      "verification_status": "rumor",
+      "creator_reasons": [
+        "entity:claude-code"
+      ],
+      "primary_item": {
+        "id": "05cebc09a547a7ce0b551a3bee00b591645ab752",
+        "title": "When Claude Code went rogue, years of Bengaluru heritage work disappeared",
+        "title_en": "When Claude Code went rogue, years of Bengaluru heritage work disappeared",
+        "title_original": "When Claude Code went rogue, years of Bengaluru heritage work disappeared",
+        "url": "https://www.deccanherald.com/india/karnataka/bengaluru/when-claude-code-went-rogue-years-of-bengaluru-heritage-work-disappeared-4131958",
+        "source": "HN Algolia · AI 24h",
+        "source_name": "Hacker News"
+      },
+      "sources": [
+        {
+          "story_id": "story_aa95429a880f",
+          "title": "When Claude Code went rogue, years of Bengaluru heritage work disappeared",
+          "url": "https://www.deccanherald.com/india/karnataka/bengaluru/when-claude-code-went-rogue-years-of-bengaluru-heritage-work-disappeared-4131958",
+          "source": "HN Algolia · AI 24h",
+          "site_id": "",
+          "official": false
+        }
+      ]
+    },
+    {
       "story_id": "story_ad13bde463ce",
       "creator_event_id": "creator-adcdc0956b0342c8",
       "merged_story_ids": [
@@ -465,15 +932,15 @@
       "source_names": [
         "OpenAI News"
       ],
-      "score": 0.8353,
-      "importance": 0.8353,
-      "importance_score": 0.8353,
+      "score": 0.805,
+      "importance": 0.805,
+      "importance_score": 0.805,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9071,
+        "recency": 0.7387,
         "story_heat": 0.0
       },
       "category": "official",
@@ -487,14 +954,14 @@
       "persona_id": "pragmatic",
       "persona_score": 52,
       "persona_review": "讲的是方法论，没有新工具开放，开发者不必立即行动。",
-      "creator_score": 81.0,
+      "creator_score": 73.8,
       "creator_breakdown": {
         "relevance": 0.88,
-        "freshness": 0.9708,
+        "freshness": 0.6157,
         "source": 1.0,
         "impact": 0.43,
         "novelty": 0.65,
-        "heat": 0.4424
+        "heat": 0.4317
       },
       "creator_bucket": "ai_coding",
       "primary_entity": "openai",
@@ -510,7 +977,6 @@
         "title_zh": "AI原生企业如何把工作流变成运营能力",
         "title_en": "How AI-native companies turn workflows into operating capability",
         "title_original": "How AI-native companies turn workflows into operating capability",
-        "summary": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.\nBasis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.\nBasis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.\nSeptember 1, 2026\nBasis, Clay, and Exa Labs use ag",
         "recommend_reason_zh": "本文以Basis、Clay、Exa Labs为例，展示企业如何用AI Agent改善入职、客户管理与开发者集成；其中Basis将入职时间从两小时缩至30分钟，OpenAI Enterprise Signals数据亦显示前沿企业每用户输出token已达普通企业的8.3倍。",
         "url": "https://openai.com/index/ai-native-company-workflows",
         "source": "OpenAI News",
@@ -528,489 +994,75 @@
       ]
     },
     {
-      "story_id": "story_cdd7daeeab03",
-      "creator_event_id": "creator-1858ad431fee7ce7",
+      "story_id": "story_d4b725b4f72d",
+      "creator_event_id": "creator-79d26ff433f9197c",
       "merged_story_ids": [
-        "story_cdd7daeeab03"
+        "story_d4b725b4f72d"
       ],
-      "title": "Claude Fable 5.1 and Mythos 5.1 are Anthropic's first models to watermark text outputs; a detection API is available to eligible groups as required under EU law (Ben Patterson/PCWorld)",
-      "url": "https://www.techmeme.com/260901/p48",
-      "primary_url": "https://www.techmeme.com/260901/p48",
-      "source": "Techmeme",
-      "source_name": "TechURLs",
+      "title": "Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1 / Introducing Claude Fable 5.1 and Claude Mythos 5.1",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "primary_url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "source": "Anthropic：Newsroom（网页）",
+      "source_name": "AI HOT",
       "source_count": 1,
       "source_names": [
-        "Techmeme"
+        "Anthropic：Newsroom（网页）"
       ],
-      "score": 0.5136,
-      "importance": 0.5136,
-      "importance_score": 0.5136,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9599,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-09-01T20:55:02Z",
-      "latest_at": "2026-09-01T20:55:02Z",
-      "creator_score": 78.7,
-      "creator_breakdown": {
-        "relevance": 0.88,
-        "freshness": 1.0,
-        "source": 0.5,
-        "impact": 0.81,
-        "novelty": 0.85,
-        "heat": 0.3298
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "anthropic",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "entity:anthropic",
-        "ai_coding_terms",
-        "workflow_impact"
-      ],
-      "primary_item": {
-        "id": "82095d6cb8f1fa40e107826fe34e5cb4777ce3e9",
-        "title": "Claude Fable 5.1 and Mythos 5.1 are Anthropic's first models to watermark text outputs; a detection API is available to eligible groups as required under EU law (Ben Patterson/PCWorld)",
-        "title_en": "Claude Fable 5.1 and Mythos 5.1 are Anthropic's first models to watermark text outputs; a detection API is available to eligible groups as required under EU law (Ben Patterson/PCWorld)",
-        "title_original": "Claude Fable 5.1 and Mythos 5.1 are Anthropic's first models to watermark text outputs; a detection API is available to eligible groups as required under EU law (Ben Patterson/PCWorld)",
-        "url": "https://www.techmeme.com/260901/p48",
-        "source": "Techmeme",
-        "source_name": "TechURLs"
-      },
-      "sources": [
-        {
-          "story_id": "story_cdd7daeeab03",
-          "title": "Claude Fable 5.1 and Mythos 5.1 are Anthropic's first models to watermark text outputs; a detection API is available to eligible groups as required under EU law (Ben Patterson/PCWorld)",
-          "url": "https://www.techmeme.com/260901/p48",
-          "source": "Techmeme",
-          "site_id": "",
-          "official": false
-        }
-      ]
-    },
-    {
-      "story_id": "story_d048fe91383f",
-      "creator_event_id": "creator-3afe8e396ebdd8d4",
-      "merged_story_ids": [
-        "story_d048fe91383f"
-      ],
-      "title": "医疗机构现可将电子健康记录及更多行业数据接入ChatGPT / Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
-      "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
-      "primary_url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
-      "source_names": [
-        "OpenAI News"
-      ],
-      "score": 0.8319,
-      "importance": 0.8319,
-      "importance_score": 0.8319,
+      "score": 0.8859,
+      "importance": 0.8859,
+      "importance_score": 0.8859,
       "importance_label": "官方更新",
       "importance_breakdown": {
-        "editorial": 0.9,
+        "editorial": 0.87,
         "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.844,
-        "story_heat": 0.0
+        "ai_relevance": 1.0,
+        "recency": 0.8604,
+        "story_heat": 0.5
       },
       "category": "official",
       "reasons": [
-        "official_source",
+        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-09-01T12:00:00Z",
-      "latest_at": "2026-09-01T12:00:00Z",
-      "persona_id": "pragmatic",
-      "persona_score": 72,
-      "persona_review": "医疗场景的API对接来了，做EHR集成的可以直接看文档，其他行业不用动。",
-      "creator_score": 78.5,
+      "earliest_at": "2026-09-01T18:01:24Z",
+      "latest_at": "2026-09-02T03:33:48.237000Z",
+      "creator_score": 79.7,
       "creator_breakdown": {
-        "relevance": 0.88,
-        "freshness": 0.8458,
+        "relevance": 0.68,
+        "freshness": 0.8798,
         "source": 1.0,
-        "impact": 0.43,
-        "novelty": 0.65,
-        "heat": 0.4412
+        "impact": 0.63,
+        "novelty": 0.85,
+        "heat": 0.7601
       },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "openai",
+      "creator_bucket": "general_ai",
+      "primary_entity": "anthropic",
       "verification_status": "confirmed",
       "creator_reasons": [
-        "entity:openai",
-        "ai_coding_terms",
+        "entity:anthropic",
+        "workflow_impact",
         "official_or_tier0_source"
       ],
       "primary_item": {
-        "id": "7a67f17ba50439bcdd9c0e031cdf68e41a427274",
-        "title": "医疗机构现可将电子健康记录及更多行业数据接入ChatGPT / Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
-        "title_zh": "医疗机构现可将电子健康记录及更多行业数据接入ChatGPT",
-        "title_en": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
-        "title_original": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
-        "summary": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.\nChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.\nChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.\nSeptember 1, 2026\nA new Epic integration and Healthcare Public Data plugin help teams review authorized ",
-        "recommend_reason_zh": "OpenAI为ChatGPT for Healthcare新增Epic EHR集成与Healthcare Public Data插件，连接PubMed、DailyMed、CMS Coverage等九大官方数据源，让临床团队安全调取患者情境并核实药品、试验与报销信息。",
-        "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
-        "source": "OpenAI News",
-        "source_name": "Official AI Updates"
+        "id": "ce63be131b37945285411d9f6a59acbd508fd131",
+        "title": "Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1 / Introducing Claude Fable 5.1 and Claude Mythos 5.1",
+        "title_zh": "Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1",
+        "title_en": "Introducing Claude Fable 5.1 and Claude Mythos 5.1",
+        "title_original": "Introducing Claude Fable 5.1 and Claude Mythos 5.1",
+        "summary": "Anthropic 发布 Claude Fable 5.1 和 Claude Mythos 5.1，两者为同一模型，Mythos 5.1 仅通过受信任访问计划提供给网络安全和生命科学领域。",
+        "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+        "source": "Anthropic：Newsroom（网页）",
+        "source_name": "AI HOT"
       },
       "sources": [
         {
-          "story_id": "story_d048fe91383f",
-          "title": "医疗机构现可将电子健康记录及更多行业数据接入ChatGPT / Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
-          "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
-          "source": "OpenAI News",
+          "story_id": "story_d4b725b4f72d",
+          "title": "Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1 / Introducing Claude Fable 5.1 and Claude Mythos 5.1",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+          "source": "Anthropic：Newsroom（网页）",
           "site_id": "",
           "official": true
-        }
-      ]
-    },
-    {
-      "story_id": "story_fccf1166077c",
-      "creator_event_id": "creator-faeef9e51dfa6b14",
-      "merged_story_ids": [
-        "story_fccf1166077c"
-      ],
-      "title": "OpenClaw 2.0 正式发布，开启\"多人协作\"式 AI 编程时代 / OpenClaw 2.0 Is Here, Ushering In the Era of 'Multiplayer' AI Coding",
-      "url": "https://developers.slashdot.org/story/26/09/01/1733206/openclaw-20-is-here-ushering-in-the-era-of-multiplayer-ai-coding",
-      "primary_url": "https://developers.slashdot.org/story/26/09/01/1733206/openclaw-20-is-here-ushering-in-the-era-of-multiplayer-ai-coding",
-      "source": "Slashdot",
-      "source_name": "TechURLs",
-      "source_count": 1,
-      "source_names": [
-        "Slashdot"
-      ],
-      "score": 0.5065,
-      "importance": 0.5065,
-      "importance_score": 0.5065,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9203,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-09-01T18:00:00Z",
-      "latest_at": "2026-09-01T18:00:00Z",
-      "creator_score": 77.6,
-      "creator_breakdown": {
-        "relevance": 0.88,
-        "freshness": 0.9958,
-        "source": 0.5,
-        "impact": 0.81,
-        "novelty": 0.75,
-        "heat": 0.3273
-      },
-      "creator_bucket": "ai_coding",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "ai_coding_terms",
-        "workflow_impact"
-      ],
-      "primary_item": {
-        "id": "4f729a99decff71987c1cd21e94932e28d5b5f49",
-        "title": "OpenClaw 2.0 正式发布，开启\"多人协作\"式 AI 编程时代 / OpenClaw 2.0 Is Here, Ushering In the Era of 'Multiplayer' AI Coding",
-        "title_zh": "OpenClaw 2.0 正式发布，开启\"多人协作\"式 AI 编程时代",
-        "title_en": "OpenClaw 2.0 Is Here, Ushering In the Era of 'Multiplayer' AI Coding",
-        "title_original": "OpenClaw 2.0 Is Here, Ushering In the Era of 'Multiplayer' AI Coding",
-        "url": "https://developers.slashdot.org/story/26/09/01/1733206/openclaw-20-is-here-ushering-in-the-era-of-multiplayer-ai-coding",
-        "source": "Slashdot",
-        "source_name": "TechURLs"
-      },
-      "sources": [
-        {
-          "story_id": "story_fccf1166077c",
-          "title": "OpenClaw 2.0 正式发布，开启\"多人协作\"式 AI 编程时代 / OpenClaw 2.0 Is Here, Ushering In the Era of 'Multiplayer' AI Coding",
-          "url": "https://developers.slashdot.org/story/26/09/01/1733206/openclaw-20-is-here-ushering-in-the-era-of-multiplayer-ai-coding",
-          "source": "Slashdot",
-          "site_id": "",
-          "official": false
-        }
-      ]
-    },
-    {
-      "story_id": "story_61a767ad19cd",
-      "creator_event_id": "creator-8e7c274b34c6b9d6",
-      "merged_story_ids": [
-        "story_61a767ad19cd"
-      ],
-      "title": "Anthropic 的 Claude Fable 5.1 承诺以最高 45% 的成本降低带来更出色的编程和研究体验。 / Anthropic's Claude Fable 5.1 promises better coding and research at up to 45 percent less",
-      "url": "https://the-decoder.com/anthropics-claude-fable-5-1-promises-better-coding-and-research-at-up-to-45-percent-less",
-      "primary_url": "https://the-decoder.com/anthropics-claude-fable-5-1-promises-better-coding-and-research-at-up-to-45-percent-less",
-      "source": "The Decoder AI News",
-      "source_name": "Curated Media",
-      "source_count": 1,
-      "source_names": [
-        "The Decoder AI News"
-      ],
-      "score": 0.6406,
-      "importance": 0.6406,
-      "importance_score": 0.6406,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5904,
-        "source_tier": 0.58,
-        "ai_relevance": 0.82,
-        "recency": 0.9548,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-09-01T20:32:55Z",
-      "latest_at": "2026-09-01T20:32:55Z",
-      "creator_score": 76.8,
-      "creator_breakdown": {
-        "relevance": 0.88,
-        "freshness": 1.0,
-        "source": 0.78,
-        "impact": 0.43,
-        "novelty": 0.65,
-        "heat": 0.3742
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "anthropic",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "entity:anthropic",
-        "ai_coding_terms"
-      ],
-      "primary_item": {
-        "id": "caaf9ede8304b5c7cb713b7066898111e75b104e",
-        "title": "Anthropic 的 Claude Fable 5.1 承诺以最高 45% 的成本降低带来更出色的编程和研究体验。 / Anthropic's Claude Fable 5.1 promises better coding and research at up to 45 percent less",
-        "title_zh": "Anthropic 的 Claude Fable 5.1 承诺以最高 45% 的成本降低带来更出色的编程和研究体验。",
-        "title_en": "Anthropic's Claude Fable 5.1 promises better coding and research at up to 45 percent less",
-        "title_original": "Anthropic's Claude Fable 5.1 promises better coding and research at up to 45 percent less",
-        "url": "https://the-decoder.com/anthropics-claude-fable-5-1-promises-better-coding-and-research-at-up-to-45-percent-less",
-        "source": "The Decoder AI News",
-        "source_name": "Curated Media"
-      },
-      "sources": [
-        {
-          "story_id": "story_61a767ad19cd",
-          "title": "Anthropic 的 Claude Fable 5.1 承诺以最高 45% 的成本降低带来更出色的编程和研究体验。 / Anthropic's Claude Fable 5.1 promises better coding and research at up to 45 percent less",
-          "url": "https://the-decoder.com/anthropics-claude-fable-5-1-promises-better-coding-and-research-at-up-to-45-percent-less",
-          "source": "The Decoder AI News",
-          "site_id": "",
-          "official": false
-        }
-      ]
-    },
-    {
-      "story_id": "story_d50e38f3313d",
-      "creator_event_id": "creator-86f7ccb687b58881",
-      "merged_story_ids": [
-        "story_d50e38f3313d"
-      ],
-      "title": "Runway发布首个界面世界模型Solaris，实时逐帧生成动态交互界面",
-      "url": "https://www.aibase.com/news/30756",
-      "primary_url": "https://www.aibase.com/news/30756",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "score": 0.7449,
-      "importance": 0.7449,
-      "importance_score": 0.7449,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8739,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-09-01T14:24:52.828077Z",
-      "latest_at": "2026-09-01T14:24:52.828077Z",
-      "creator_score": 76.2,
-      "creator_breakdown": {
-        "relevance": 0.88,
-        "freshness": 0.9061,
-        "source": 0.5,
-        "impact": 0.81,
-        "novelty": 0.75,
-        "heat": 0.4107
-      },
-      "creator_bucket": "ai_coding",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "ai_coding_terms",
-        "workflow_impact"
-      ],
-      "primary_item": {
-        "id": "993b62ebd3b045f88455749478a3a8a0eb01d374",
-        "title": "Runway发布首个界面世界模型Solaris，实时逐帧生成动态交互界面",
-        "title_zh": "Runway发布首个界面世界模型Solaris，实时逐帧生成动态交互界面",
-        "title_original": "Runway发布首个界面世界模型Solaris，实时逐帧生成动态交互界面",
-        "recommend_reason_zh": "Runway发布首个“界面世界模型”Solaris，能实时逐帧生成动态交互界面，不再依赖预写代码和固定框架，为软件与网页界面的交互方式带来全新突破。",
-        "url": "https://www.aibase.com/news/30756",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      },
-      "sources": [
-        {
-          "story_id": "story_d50e38f3313d",
-          "title": "Runway发布首个界面世界模型Solaris，实时逐帧生成动态交互界面",
-          "url": "https://www.aibase.com/news/30756",
-          "source": "AIbase",
-          "site_id": "",
-          "official": false
-        }
-      ]
-    },
-    {
-      "story_id": "story_18a954a364e8",
-      "creator_event_id": "creator-105a49ec0a3862af",
-      "merged_story_ids": [
-        "story_18a954a364e8"
-      ],
-      "title": "​百万 Token 上下文首次下放到端侧：讯飞星火 X2.5 双子星开源，全程国产算力训练",
-      "url": "https://www.aibase.com/news/30749",
-      "primary_url": "https://www.aibase.com/news/30749",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "score": 0.7438,
-      "importance": 0.7438,
-      "importance_score": 0.7438,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.868,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-09-01T13:56:52.828077Z",
-      "latest_at": "2026-09-01T13:56:52.828077Z",
-      "creator_score": 76.0,
-      "creator_breakdown": {
-        "relevance": 0.88,
-        "freshness": 0.8945,
-        "source": 0.5,
-        "impact": 0.81,
-        "novelty": 0.75,
-        "heat": 0.4103
-      },
-      "creator_bucket": "ai_coding",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "ai_coding_terms",
-        "workflow_impact"
-      ],
-      "primary_item": {
-        "id": "aafe723be9b968f91776e8c7d2d73bfdf9f013b1",
-        "title": "​百万 Token 上下文首次下放到端侧：讯飞星火 X2.5 双子星开源，全程国产算力训练",
-        "title_zh": "​百万 Token 上下文首次下放到端侧：讯飞星火 X2.5 双子星开源，全程国产算力训练",
-        "title_original": "​百万 Token 上下文首次下放到端侧：讯飞星火 X2.5 双子星开源，全程国产算力训练",
-        "recommend_reason_zh": "值得一读：iFLYTEK旗下Ciyuan Xinghuo于9月1日开源Xinghuo X2.5-4B与1.7B，首次在端侧原生支持百万Token上下文，开放权重和代码，训练数据达万亿Token级，且全程国产算力训练。",
-        "url": "https://www.aibase.com/news/30749",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      },
-      "sources": [
-        {
-          "story_id": "story_18a954a364e8",
-          "title": "​百万 Token 上下文首次下放到端侧：讯飞星火 X2.5 双子星开源，全程国产算力训练",
-          "url": "https://www.aibase.com/news/30749",
-          "source": "AIbase",
-          "site_id": "",
-          "official": false
-        }
-      ]
-    },
-    {
-      "story_id": "story_a3d3cdcfac3e",
-      "creator_event_id": "creator-d204e42560c466f4",
-      "merged_story_ids": [
-        "story_a3d3cdcfac3e"
-      ],
-      "title": "OpenClaude 开源编码代理CLI 支持云与本地模型提供商",
-      "url": "https://github.com/Gitlawb/openclaude",
-      "primary_url": "https://github.com/Gitlawb/openclaude",
-      "source": "github",
-      "source_name": "NewsNow",
-      "source_count": 1,
-      "source_names": [
-        "github"
-      ],
-      "score": 0.4981,
-      "importance": 0.4981,
-      "importance_score": 0.4981,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.874,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-09-01T14:25:20.215000Z",
-      "latest_at": "2026-09-01T14:25:20.215000Z",
-      "creator_score": 75.8,
-      "creator_breakdown": {
-        "relevance": 0.88,
-        "freshness": 0.9063,
-        "source": 0.5,
-        "impact": 0.81,
-        "novelty": 0.75,
-        "heat": 0.3243
-      },
-      "creator_bucket": "ai_coding",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "ai_coding_terms",
-        "workflow_impact"
-      ],
-      "primary_item": {
-        "id": "c64c74bf6b057751a7f4e798c2d8c5ec5ab09b94",
-        "title": "OpenClaude 开源编码代理CLI 支持云与本地模型提供商",
-        "title_zh": "OpenClaude 开源编码代理CLI 支持云与本地模型提供商",
-        "title_en": "Gitlawb /      openclaude",
-        "title_original": "Gitlawb /      openclaude",
-        "url": "https://github.com/Gitlawb/openclaude",
-        "source": "github",
-        "source_name": "NewsNow"
-      },
-      "sources": [
-        {
-          "story_id": "story_a3d3cdcfac3e",
-          "title": "OpenClaude 开源编码代理CLI 支持云与本地模型提供商",
-          "url": "https://github.com/Gitlawb/openclaude",
-          "source": "github",
-          "site_id": "",
-          "official": false
         }
       ]
     },
@@ -1029,15 +1081,15 @@
       "source_names": [
         "Google AI Blog"
       ],
-      "score": 0.8364,
-      "importance": 0.8364,
-      "importance_score": 0.8364,
+      "score": 0.8044,
+      "importance": 0.8044,
+      "importance_score": 0.8044,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9576,
+        "recency": 0.7798,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1051,14 +1103,14 @@
       "persona_id": "pragmatic",
       "persona_score": 50,
       "persona_review": "官方汇总标题无具体内容，等细节出来再判断值不值得动手。",
-      "creator_score": 82.5,
+      "creator_score": 74.7,
       "creator_breakdown": {
         "relevance": 0.68,
-        "freshness": 1.0,
+        "freshness": 0.7095,
         "source": 1.0,
-        "impact": 0.76,
+        "impact": 0.63,
         "novelty": 0.85,
-        "heat": 0.4427
+        "heat": 0.4315
       },
       "creator_bucket": "general_ai",
       "primary_entity": "gemini",
@@ -1074,7 +1126,6 @@
         "title_zh": "我们于2026年8月发布的最新AI新闻",
         "title_en": "The latest AI news we announced in August 2026",
         "title_original": "The latest AI news we announced in August 2026",
-        "summary": "Here are Google’s latest AI updates from August 2026\nHere are Google’s latest AI updates from August 2026\nHere are Google’s latest AI updates from August 2026\nSep 01, 2026\nHere’s a recap of some of our biggest AI updates from August, including the launch of Gemini 3.7 Flash, Gemini 3.5 Transcribe, and the all-new Pixel 11 series of devices.\nNews from Google Team\nYour browser does not support the audio element.\nGoogle’s August 2026 updates focus on making artificial intelligence more practical th",
         "recommend_reason_zh": "谷歌八月发布Gemini 3.7 Flash，价格仅为3.6 Flash一半，并推出Pixel 11系列搭载Tensor G6芯片，Gemini应用月活破10亿，还为学生提供一年免费AI计划。",
         "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026",
         "source": "Google AI Blog",
@@ -1086,84 +1137,6 @@
           "title": "我们于2026年8月发布的最新AI新闻 / The latest AI news we announced in August 2026",
           "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026",
           "source": "Google AI Blog",
-          "site_id": "",
-          "official": true
-        }
-      ]
-    },
-    {
-      "story_id": "story_0ce11be79fc0",
-      "creator_event_id": "creator-9b930b21e7a94696",
-      "merged_story_ids": [
-        "story_0ce11be79fc0"
-      ],
-      "title": "OpenAI 评定 Astra 达到网络安全 Critical 能力阈值，将受限发布 / Path to Astra: critical capabilities and frontier safeguards",
-      "url": "https://openai.com/index/path-to-astra",
-      "primary_url": "https://openai.com/index/path-to-astra",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
-      "source_names": [
-        "OpenAI News"
-      ],
-      "score": 0.8511,
-      "importance": 0.8511,
-      "importance_score": 0.8511,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.8562,
-        "story_heat": 0.25
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-01T13:00:00Z",
-      "latest_at": "2026-09-01T13:00:00Z",
-      "persona_id": "pragmatic",
-      "persona_score": 55,
-      "persona_review": "官方安全门槛消息，暂不涉及开放接口，等具体发布再看。",
-      "creator_score": 80.7,
-      "creator_breakdown": {
-        "relevance": 0.68,
-        "freshness": 0.8708,
-        "source": 1.0,
-        "impact": 0.76,
-        "novelty": 0.85,
-        "heat": 0.5979
-      },
-      "creator_bucket": "general_ai",
-      "primary_entity": "openai",
-      "verification_status": "confirmed",
-      "creator_reasons": [
-        "entity:openai",
-        "workflow_impact",
-        "official_or_tier0_source"
-      ],
-      "primary_item": {
-        "id": "ea4f64c9f4b8d986df58ae876ff49af581f9f771",
-        "title": "OpenAI 评定 Astra 达到网络安全 Critical 能力阈值，将受限发布 / Path to Astra: critical capabilities and frontier safeguards",
-        "title_zh": "OpenAI 评定 Astra 达到网络安全 Critical 能力阈值，将受限发布",
-        "title_en": "Path to Astra: critical capabilities and frontier safeguards",
-        "title_original": "Path to Astra: critical capabilities and frontier safeguards",
-        "summary": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.\nAstra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.\nAstra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.\nSeptember 1, 2026\nSi",
-        "recommend_reason_zh": "OpenAI新模型Astra成为首个达到Preparedness Framework关键网络安全阈值模型，在ExploitBench上拿到满分100%，比GPT-5.6 Sol更强，并配备更强防滥用保护，高级能力暂限测试者。",
-        "url": "https://openai.com/index/path-to-astra",
-        "source": "OpenAI News",
-        "source_name": "Official AI Updates"
-      },
-      "sources": [
-        {
-          "story_id": "story_0ce11be79fc0",
-          "title": "OpenAI 评定 Astra 达到网络安全 Critical 能力阈值，将受限发布 / Path to Astra: critical capabilities and frontier safeguards",
-          "url": "https://openai.com/index/path-to-astra",
-          "source": "OpenAI News",
           "site_id": "",
           "official": true
         }
@@ -1184,15 +1157,15 @@
       "source_names": [
         "Google DeepMind"
       ],
-      "score": 0.8356,
-      "importance": 0.8356,
-      "importance_score": 0.8356,
+      "score": 0.8053,
+      "importance": 0.8053,
+      "importance_score": 0.8053,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9091,
+        "recency": 0.7403,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1206,14 +1179,14 @@
       "persona_id": "pragmatic",
       "persona_score": 80,
       "persona_review": "视频理解进 API，做多模态应用的今天就能试。",
-      "creator_score": 80.1,
+      "creator_score": 72.9,
       "creator_breakdown": {
         "relevance": 0.68,
-        "freshness": 0.9744,
+        "freshness": 0.6194,
         "source": 1.0,
         "impact": 0.63,
         "novelty": 0.85,
-        "heat": 0.4425
+        "heat": 0.4319
       },
       "creator_bucket": "general_ai",
       "primary_entity": "gemini",
@@ -1229,7 +1202,6 @@
         "title_zh": "Google DeepMind 为 Gemini 推出 agentic 视频理解功能",
         "title_en": "Introducing agentic video understanding with Gemini",
         "title_original": "Introducing agentic video understanding with Gemini",
-        "summary": "We’re launching agentic video understanding across our latest Gemini models for improved accuracy and lower costs and token usage.\nWe’re launching agentic video understanding across our latest Gemini models for improved accuracy and lower costs and token usage.\nWe’re launching agentic video understanding across our latest Gemini models for improved accuracy and lower costs and token usage.\nSep 01, 2026\nOur new agentic feature for video analysis cuts token consumption by up to 88%, reduces costs ",
         "recommend_reason_zh": "Gemini上线agentic视频理解，动态扫描视频片段，token消耗最高降88%，成本降66%，准确率提升7%，支持3.7 Flash等模型。",
         "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini",
         "source": "Google DeepMind",
@@ -1243,6 +1215,76 @@
           "source": "Google DeepMind",
           "site_id": "",
           "official": true
+        }
+      ]
+    },
+    {
+      "story_id": "story_c38e53c69592",
+      "creator_event_id": "creator-d23235e68e07ff8f",
+      "merged_story_ids": [
+        "story_c38e53c69592"
+      ],
+      "title": "决战OpenAI与Anthropic！谷歌Gemini 3.8 Flash内测代号“Skimaki”最快周三上线",
+      "url": "https://www.aibase.com/news/30769",
+      "primary_url": "https://www.aibase.com/news/30769",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "score": 0.76,
+      "importance": 0.76,
+      "importance_score": 0.76,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9576,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-02T10:58:21.449353Z",
+      "latest_at": "2026-09-02T10:58:21.449353Z",
+      "creator_score": 72.4,
+      "creator_breakdown": {
+        "relevance": 0.68,
+        "freshness": 1.0,
+        "source": 0.5,
+        "impact": 0.76,
+        "novelty": 0.85,
+        "heat": 0.416
+      },
+      "creator_bucket": "general_ai",
+      "primary_entity": "anthropic",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "entity:anthropic",
+        "workflow_impact"
+      ],
+      "primary_item": {
+        "id": "661eac3dfe2fba93ceb32ca576245979f1406995",
+        "title": "决战OpenAI与Anthropic！谷歌Gemini 3.8 Flash内测代号“Skimaki”最快周三上线",
+        "title_zh": "决战OpenAI与Anthropic！谷歌Gemini 3.8 Flash内测代号“Skimaki”最快周三上线",
+        "title_original": "决战OpenAI与Anthropic！谷歌Gemini 3.8 Flash内测代号“Skimaki”最快周三上线",
+        "summary": "Google is about to make a key product update in the field of artificial intelligence. According to insiders, Google plans to officially launch a new model calle\nGoogle is about to make a key product update in the field of artificial intelligence. According to insiders, Google plans to officially launch a new model calle\nGoogle is about to make a key product update in the field of artificial intelligence. According to insiders, Google plans to officially launch a new model calle\nExplore AI Fronti",
+        "url": "https://www.aibase.com/news/30769",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      },
+      "sources": [
+        {
+          "story_id": "story_c38e53c69592",
+          "title": "决战OpenAI与Anthropic！谷歌Gemini 3.8 Flash内测代号“Skimaki”最快周三上线",
+          "url": "https://www.aibase.com/news/30769",
+          "source": "AIbase",
+          "site_id": "",
+          "official": false
         }
       ]
     },
@@ -1261,15 +1303,15 @@
       "source_names": [
         "TechCrunch AI"
       ],
-      "score": 0.6259,
-      "importance": 0.6259,
-      "importance_score": 0.6259,
+      "score": 0.5944,
+      "importance": 0.5944,
+      "importance_score": 0.5944,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.5688,
         "source_tier": 0.58,
         "ai_relevance": 0.79,
-        "recency": 0.9426,
+        "recency": 0.7676,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1278,14 +1320,14 @@
       ],
       "earliest_at": "2026-09-01T19:39:22Z",
       "latest_at": "2026-09-01T19:39:22Z",
-      "creator_score": 77.7,
+      "creator_score": 71.3,
       "creator_breakdown": {
         "relevance": 0.68,
-        "freshness": 1.0,
+        "freshness": 0.6821,
         "source": 0.78,
         "impact": 0.76,
         "novelty": 0.85,
-        "heat": 0.3691
+        "heat": 0.358
       },
       "creator_bucket": "general_ai",
       "primary_entity": "anthropic",
@@ -1330,15 +1372,15 @@
       "source_names": [
         "GitHub Changelog"
       ],
-      "score": 0.8405,
-      "importance": 0.8405,
-      "importance_score": 0.8405,
+      "score": 0.8078,
+      "importance": 0.8078,
+      "importance_score": 0.8078,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9808,
+        "recency": 0.7987,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1352,14 +1394,14 @@
       "persona_id": "pragmatic",
       "persona_score": 85,
       "persona_review": "企业自托管迁云今天就能用，免停机，管理员直接上手。",
-      "creator_score": 75.9,
+      "creator_score": 70.6,
       "creator_breakdown": {
-        "relevance": 0.4942,
-        "freshness": 1.0,
+        "relevance": 0.4827,
+        "freshness": 0.7509,
         "source": 1.0,
         "impact": 0.76,
         "novelty": 0.75,
-        "heat": 0.4442
+        "heat": 0.4327
       },
       "creator_bucket": "general_ai",
       "verification_status": "confirmed",
@@ -1373,7 +1415,6 @@
         "title_zh": "从 GHES 到 ghe.com 的企业实时迁移现已正式可用。",
         "title_en": "Enterprise Live Migrations from GHES to ghe.com generally available",
         "title_original": "Enterprise Live Migrations from GHES to ghe.com generally available",
-        "summary": "Enterprise Live Migrations (ELM) is now generally available, enabling near-zero-downtime repository migrations from GitHub Enterprise Server (GHES) to GitHub Enterprise Cloud with Data Residency (GHEC DR), so you can move…\nEnterprise Live Migrations (ELM) is now generally available, enabling near-zero-downtime repository migrations from GitHub Enterprise Server (GHES) to GitHub Enterprise Cloud with Data Residency (GHEC DR), so you can move even your largest, most active repositories while the c",
         "recommend_reason_zh": "GitHub宣布Enterprise Live Migrations正式可用，支持从GHES到GHEC DR的近乎零停机迁移，专为大型monorepo设计，兼容3.17.18+等多个GHES版本，并可搭配GEI并行使用。",
         "url": "https://github.blog/changelog/2026-09-01-enterprise-live-migrations-from-ghes-to-ghe-com-generally-available",
         "source": "GitHub Changelog",
@@ -1387,84 +1428,6 @@
           "source": "GitHub Changelog",
           "site_id": "",
           "official": true
-        }
-      ]
-    },
-    {
-      "story_id": "story_d4b725b4f72d",
-      "creator_event_id": "creator-788bf1e4deddcbc5",
-      "merged_story_ids": [
-        "story_d4b725b4f72d",
-        "story_6e35b04142f7"
-      ],
-      "title": "Claude Fable 5.1 和 Claude Mythos 5.1",
-      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
-      "primary_url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
-      "source": "www.anthropic.com",
-      "source_name": "Buzzing",
-      "source_count": 2,
-      "source_names": [
-        "www.anthropic.com",
-        "hackernews"
-      ],
-      "score": 0.5325,
-      "importance": 0.5325,
-      "importance_score": 0.5325,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9259,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-09-01T18:01:24Z",
-      "latest_at": "2026-09-01T18:25:13.352000Z",
-      "creator_score": 73.1,
-      "creator_breakdown": {
-        "relevance": 0.68,
-        "freshness": 1.0,
-        "source": 1.0,
-        "impact": 0.25,
-        "novelty": 0.65,
-        "heat": 0.4864
-      },
-      "creator_bucket": "general_ai",
-      "primary_entity": "anthropic",
-      "verification_status": "confirmed",
-      "creator_reasons": [
-        "entity:anthropic",
-        "official_or_tier0_source"
-      ],
-      "primary_item": {
-        "id": "6a3f79aae3b6d9e8943054897087b1fa6542c772",
-        "title": "Claude Fable 5.1 和 Claude Mythos 5.1",
-        "title_zh": "Claude Fable 5.1 和 Claude Mythos 5.1",
-        "title_original": "Claude Fable 5.1 和 Claude Mythos 5.1",
-        "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
-        "source": "www.anthropic.com",
-        "source_name": "Buzzing"
-      },
-      "sources": [
-        {
-          "story_id": "story_d4b725b4f72d",
-          "title": "Claude Fable 5.1 和 Claude Mythos 5.1",
-          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
-          "source": "www.anthropic.com",
-          "site_id": "",
-          "official": true
-        },
-        {
-          "story_id": "story_6e35b04142f7",
-          "title": "Claude Fable 5.1 and Claude Mythos 5.1",
-          "url": "https://news.ycombinator.com/item?id=49525378",
-          "source": "hackernews",
-          "site_id": "",
-          "official": false
         }
       ]
     }
