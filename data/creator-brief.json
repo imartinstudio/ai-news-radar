@@ -1,513 +1,173 @@
 {
-  "edition_id": "2026-09-26-morning",
-  "edition_kind": "morning",
-  "generated_at": "2026-09-26T00:56:27.135905Z",
+  "edition_id": "2026-09-26-evening",
+  "edition_kind": "evening",
+  "generated_at": "2026-09-26T14:31:35.507441Z",
   "timezone": "Asia/Shanghai",
-  "total_items": 18,
+  "total_items": 10,
   "summary": {
-    "confirmed": 14,
-    "single_source": 3,
+    "confirmed": 4,
+    "single_source": 6,
     "early_signal": 0,
-    "rumor": 1,
-    "new": 17,
+    "rumor": 0,
+    "new": 9,
     "updated": 1,
     "confirmed_updates": 0
   },
   "items": [
     {
-      "story_id": "story_bc037aff109a",
-      "creator_event_id": "creator-d4584813e1aeaf5a",
+      "story_id": "story_1b2804dac47a",
+      "creator_event_id": "creator-66f20df5dbfafbef",
       "merged_story_ids": [
-        "story_bc037aff109a"
+        "story_1b2804dac47a"
       ],
-      "title": "v2.1.283",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.283",
-      "primary_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.283",
-      "source": "Claude Code Releases",
-      "source_name": "Curated Media",
+      "title": "Codex CLI 0.157.1",
+      "url": "https://developers.openai.com/codex/changelog",
+      "primary_url": "https://developers.openai.com/codex/changelog",
+      "source": "OpenAI Codex Changelog",
+      "source_name": "Official AI Updates",
       "source_count": 1,
       "source_names": [
-        "Claude Code Releases"
+        "OpenAI Codex Changelog"
       ],
-      "score": 0.6299,
-      "importance": 0.6299,
-      "importance_score": 0.6299,
-      "importance_label": "值得关注",
+      "score": 0.8331,
+      "importance": 0.8331,
+      "importance_score": 0.8331,
+      "importance_label": "官方更新",
       "importance_breakdown": {
-        "editorial": 0.5688,
-        "source_tier": 0.58,
-        "ai_relevance": 0.79,
-        "recency": 0.9646,
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.98,
+        "recency": 0.8173,
         "story_heat": 0.0
       },
-      "category": "watch",
+      "category": "official",
       "reasons": [
-        "recent_ai_signal"
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
       ],
-      "earliest_at": "2026-09-25T21:50:12Z",
-      "latest_at": "2026-09-25T21:50:12Z",
-      "creator_score": 92.5,
+      "earliest_at": "2026-09-26T00:00:00Z",
+      "latest_at": "2026-09-26T00:00:00Z",
+      "creator_score": 90.5,
       "creator_breakdown": {
         "relevance": 1.0,
-        "freshness": 1.0,
-        "source": 1.0,
-        "impact": 0.81,
-        "novelty": 0.85,
-        "heat": 0.3705
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "claude-code",
-      "verification_status": "confirmed",
-      "creator_reasons": [
-        "entity:claude-code",
-        "ai_coding_terms",
-        "workflow_impact",
-        "official_or_tier0_source"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "21fd6122cfe96dd58fdcf9c023160c125a21951e",
-        "title": "v2.1.283",
-        "title_original": "v2.1.283",
-        "summary": "What's changed\n\nAdded x-claude-code-prompt-id to the gateway hint headers so LLM gateways can group the requests that serve one user prompt; opt in with CLAUDE_CODE_GATEWAY_HINT_HEADERS=1\nAdded ava...\nClaude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands. - Release v2.1.283 · anthropics/claude-code\nWhat&#39;s cha",
-        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.283",
-        "source": "Claude Code Releases",
-        "source_name": "Curated Media"
-      },
-      "sources": [
-        {
-          "story_id": "story_bc037aff109a",
-          "title": "v2.1.283",
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.283",
-          "source": "Claude Code Releases",
-          "site_id": "",
-          "official": true
-        }
-      ],
-      "summary_zh": "What's changed Added x-claude-code-prompt-id to the gateway hint headers so LLM gateways c",
-      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "claude-code 这次更新真正改变了什么",
-          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-          "needs_hands_on": true,
-          "risk": "未亲测前不要把官方描述写成实际效果。"
-        }
-      ],
-      "enrichment_mode": "rules_fallback"
-    },
-    {
-      "story_id": "story_07c3181c791a",
-      "creator_event_id": "creator-b09657a357957a04",
-      "merged_story_ids": [
-        "story_07c3181c791a"
-      ],
-      "title": "Enterprise managed settings in-product validator",
-      "url": "https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator",
-      "primary_url": "https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "score": 0.8416,
-      "importance": 0.8416,
-      "importance_score": 0.8416,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.9868,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-25T23:24:57Z",
-      "latest_at": "2026-09-25T23:24:57Z",
-      "creator_score": 91.4,
-      "creator_breakdown": {
-        "relevance": 0.95,
-        "freshness": 1.0,
-        "source": 1.0,
-        "impact": 0.81,
-        "novelty": 0.85,
-        "heat": 0.4446
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "github-copilot",
-      "verification_status": "confirmed",
-      "creator_reasons": [
-        "entity:github-copilot",
-        "workflow_impact",
-        "official_or_tier0_source"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "dd059b79660393da2ac0c82f4ed19cc35a008a33",
-        "title": "Enterprise managed settings in-product validator",
-        "title_en": "Enterprise managed settings in-product validator",
-        "title_original": "Enterprise managed settings in-product validator",
-        "summary": "You can now use an in-product validator for enterprise managed settings for GitHub Copilot. The validator detects malformed JSON, unsupported configurations, invalid team mappings, and other errors that can prevent…\nYou can now use an in-product validator for enterprise managed settings for GitHub Copilot. The validator detects malformed JSON, unsupported configurations, invalid team mappings, and other errors that can prevent policies from being enforced.\nReview and correct errors in the “Copil",
-        "url": "https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      },
-      "sources": [
-        {
-          "story_id": "story_07c3181c791a",
-          "title": "Enterprise managed settings in-product validator",
-          "url": "https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator",
-          "source": "GitHub Changelog",
-          "site_id": "",
-          "official": true
-        }
-      ],
-      "summary_zh": "You can now use an in-product validator for enterprise managed settings for GitHub Copilot",
-      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "github-copilot 这次更新真正改变了什么",
-          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-          "needs_hands_on": true,
-          "risk": "未亲测前不要把官方描述写成实际效果。"
-        }
-      ],
-      "enrichment_mode": "rules_fallback"
-    },
-    {
-      "story_id": "story_d32b9e9d97fb",
-      "creator_event_id": "creator-b739ae3b18e65b51",
-      "merged_story_ids": [
-        "story_d32b9e9d97fb"
-      ],
-      "title": "Usage metrics API adds pull request review stages",
-      "url": "https://github.blog/changelog/2026-09-25-usage-metrics-api-adds-pull-request-review-stages",
-      "primary_url": "https://github.blog/changelog/2026-09-25-usage-metrics-api-adds-pull-request-review-stages",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "score": 0.8359,
-      "importance": 0.8359,
-      "importance_score": 0.8359,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.9552,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-25T21:09:40Z",
-      "latest_at": "2026-09-25T21:09:40Z",
-      "creator_score": 90.2,
-      "creator_breakdown": {
-        "relevance": 0.88,
-        "freshness": 1.0,
+        "freshness": 0.7868,
         "source": 1.0,
         "impact": 0.94,
-        "novelty": 0.75,
-        "heat": 0.4426
-      },
-      "creator_bucket": "ai_coding",
-      "verification_status": "confirmed",
-      "creator_reasons": [
-        "ai_coding_terms",
-        "workflow_impact",
-        "official_or_tier0_source"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "b5d60959143a435db72e4dd644346f25cfc49e27",
-        "title": "Usage metrics API adds pull request review stages",
-        "title_en": "Usage metrics API adds pull request review stages",
-        "title_original": "Usage metrics API adds pull request review stages",
-        "summary": "The enterprise and organization repository-level Copilot usage metrics reports now break down how long pull requests spend in each stage of review. A new pull_request_review_times array on each repos-1-day row…\nThe enterprise and organization repository-level Copilot usage metrics reports now break down how long pull requests spend in each stage of review. A new pull_request_review_times array on each repos-1-day row reports a median and a 90th percentile for the time from ready for review to fi",
-        "url": "https://github.blog/changelog/2026-09-25-usage-metrics-api-adds-pull-request-review-stages",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      },
-      "sources": [
-        {
-          "story_id": "story_d32b9e9d97fb",
-          "title": "Usage metrics API adds pull request review stages",
-          "url": "https://github.blog/changelog/2026-09-25-usage-metrics-api-adds-pull-request-review-stages",
-          "source": "GitHub Changelog",
-          "site_id": "",
-          "official": true
-        }
-      ],
-      "summary_zh": "The enterprise and organization repository-level Copilot usage metrics reports now break d",
-      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "AI Coding 这次更新真正改变了什么",
-          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-          "needs_hands_on": true,
-          "risk": "未亲测前不要把官方描述写成实际效果。"
-        }
-      ],
-      "enrichment_mode": "rules_fallback"
-    },
-    {
-      "story_id": "story_383980d6bba6",
-      "creator_event_id": "creator-2d9e141f87a3e35a",
-      "merged_story_ids": [
-        "story_383980d6bba6"
-      ],
-      "title": "GitHub Copilot weekly releases — September 21",
-      "url": "https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21",
-      "primary_url": "https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "score": 0.8332,
-      "importance": 0.8332,
-      "importance_score": 0.8332,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.8958,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-25T16:42:48Z",
-      "latest_at": "2026-09-25T16:42:48Z",
-      "creator_score": 90.2,
-      "creator_breakdown": {
-        "relevance": 0.95,
-        "freshness": 0.9443,
-        "source": 1.0,
-        "impact": 0.81,
         "novelty": 0.85,
         "heat": 0.4416
       },
       "creator_bucket": "ai_coding",
-      "primary_entity": "github-copilot",
+      "primary_entity": "codex",
       "verification_status": "confirmed",
       "creator_reasons": [
-        "entity:github-copilot",
-        "workflow_impact",
-        "official_or_tier0_source"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "9c2fcd83c6f33548bf3d0523fa51f632c69d43a6",
-        "title": "GitHub Copilot weekly releases — September 21",
-        "title_en": "GitHub Copilot weekly releases — September 21",
-        "title_original": "GitHub Copilot weekly releases — September 21",
-        "summary": "This week's releases add models to Copilot, local sandboxing in the Copilot app, and updates to Copilot in Slack, Microsoft Teams, JetBrains, and VS Code.\nThis week's releases add models to Copilot, local sandboxing in the Copilot app, and updates to Copilot in Slack, Microsoft Teams, JetBrains, and VS Code.\nThis week’s releases add new models to Copilot, local sandboxing in the Copilot app, and updates to Copilot in Slack, Microsoft Teams, JetBrains, and VS Code.\nDownload the Copilot app .\nLear",
-        "url": "https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      },
-      "sources": [
-        {
-          "story_id": "story_383980d6bba6",
-          "title": "GitHub Copilot weekly releases — September 21",
-          "url": "https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21",
-          "source": "GitHub Changelog",
-          "site_id": "",
-          "official": true
-        }
-      ],
-      "summary_zh": "This week's releases add models to Copilot, local sandboxing in the Copilot app, and updat",
-      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "github-copilot 这次更新真正改变了什么",
-          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-          "needs_hands_on": true,
-          "risk": "未亲测前不要把官方描述写成实际效果。"
-        }
-      ],
-      "enrichment_mode": "rules_fallback"
-    },
-    {
-      "story_id": "story_42a4c6c0a2d7",
-      "creator_event_id": "creator-3e332619978d455c",
-      "merged_story_ids": [
-        "story_42a4c6c0a2d7"
-      ],
-      "title": "Updates to GitHub Copilot for Slack and Microsoft Teams",
-      "url": "https://github.blog/changelog/2026-09-25-updates-to-github-copilot-for-slack-and-microsoft-teams",
-      "primary_url": "https://github.blog/changelog/2026-09-25-updates-to-github-copilot-for-slack-and-microsoft-teams",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "score": 0.8329,
-      "importance": 0.8329,
-      "importance_score": 0.8329,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.8938,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-25T16:33:42Z",
-      "latest_at": "2026-09-25T16:33:42Z",
-      "creator_score": 90.2,
-      "creator_breakdown": {
-        "relevance": 0.95,
-        "freshness": 0.9405,
-        "source": 1.0,
-        "impact": 0.81,
-        "novelty": 0.85,
-        "heat": 0.4415
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "github-copilot",
-      "verification_status": "confirmed",
-      "creator_reasons": [
-        "entity:github-copilot",
-        "workflow_impact",
-        "official_or_tier0_source"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "258f7545dc1f75de09b8800d8db521fd4d5db997",
-        "title": "Updates to GitHub Copilot for Slack and Microsoft Teams",
-        "title_en": "Updates to GitHub Copilot for Slack and Microsoft Teams",
-        "title_original": "Updates to GitHub Copilot for Slack and Microsoft Teams",
-        "summary": "GitHub Copilot in Slack and Microsoft Teams now gives you more context, more control, and a clearer path from conversation to GitHub work. Whether you’re sharing files in Slack or…\nGitHub Copilot in Slack and Microsoft Teams now gives you more context, more control, and a clearer path from conversation to GitHub work.\nWhether you’re sharing files in Slack or images and forwarded messages in Teams, Copilot can use more of the context already in your conversation. We’ve also improved how Copilot c",
-        "url": "https://github.blog/changelog/2026-09-25-updates-to-github-copilot-for-slack-and-microsoft-teams",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      },
-      "sources": [
-        {
-          "story_id": "story_42a4c6c0a2d7",
-          "title": "Updates to GitHub Copilot for Slack and Microsoft Teams",
-          "url": "https://github.blog/changelog/2026-09-25-updates-to-github-copilot-for-slack-and-microsoft-teams",
-          "source": "GitHub Changelog",
-          "site_id": "",
-          "official": true
-        }
-      ],
-      "summary_zh": "GitHub Copilot in Slack and Microsoft Teams now gives you more context, more control, and ",
-      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "github-copilot 这次更新真正改变了什么",
-          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-          "needs_hands_on": true,
-          "risk": "未亲测前不要把官方描述写成实际效果。"
-        }
-      ],
-      "enrichment_mode": "rules_fallback"
-    },
-    {
-      "story_id": "story_72aea9f90037",
-      "creator_event_id": "creator-3afe1f751e24dd23",
-      "merged_story_ids": [
-        "story_72aea9f90037"
-      ],
-      "title": "Changes to query results in the GitHub Actions API and UI",
-      "url": "https://github.blog/changelog/2026-09-25-changes-to-query-results-in-the-github-actions-api-and-ui",
-      "primary_url": "https://github.blog/changelog/2026-09-25-changes-to-query-results-in-the-github-actions-api-and-ui",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "score": 0.8289,
-      "importance": 0.8289,
-      "importance_score": 0.8289,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.9163,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-25T18:17:06Z",
-      "latest_at": "2026-09-25T18:17:06Z",
-      "creator_score": 89.9,
-      "creator_breakdown": {
-        "relevance": 0.88,
-        "freshness": 0.9836,
-        "source": 1.0,
-        "impact": 0.94,
-        "novelty": 0.75,
-        "heat": 0.4401
-      },
-      "creator_bucket": "ai_coding",
-      "verification_status": "confirmed",
-      "creator_reasons": [
+        "entity:codex",
         "ai_coding_terms",
         "workflow_impact",
         "official_or_tier0_source"
       ],
       "change_type": "new",
       "primary_item": {
-        "id": "77b432d22ebadd6ef41512adf700ca06057e4c84",
-        "title": "Changes to query results in the GitHub Actions API and UI",
-        "title_en": "Changes to query results in the GitHub Actions API and UI",
-        "title_original": "Changes to query results in the GitHub Actions API and UI",
-        "summary": "Queries for workflow runs in the GitHub Actions API and UI now return a less precise but more accurate count of records when you search by workflow, event, status, branch,…\nQueries for workflow runs in the GitHub Actions API and UI now return a less precise but more accurate count of records when you search by workflow, event, status, branch, or actor. We will continue to return paginated results of up to 1,000 items. However, if the number of found records exceeds 2,500, we will report “2,500+”",
-        "url": "https://github.blog/changelog/2026-09-25-changes-to-query-results-in-the-github-actions-api-and-ui",
-        "source": "GitHub Changelog",
+        "id": "39548bb78c040e0bfe8c437e8dc64a994c49eb73",
+        "title": "Codex CLI 0.157.1",
+        "title_en": "Codex CLI 0.157.1",
+        "title_original": "Codex CLI 0.157.1",
+        "summary": "Latest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nLatest updates to ChatGPT and Codex\nFull Changelog: rust-v0.157.0...rust-v0.157.1\nFull release on Github\nFull Changelog: rust-v0.156.0...rust-v0.157.0\nFull release on Github\nFull Changelog: rust-v0.156.0...rust-v0.156.1\nFull release on Github\nGPT-6 Sol and GPT-6 Luna are rolling out to Codex and ChatGPT Work at lower\ntoken prices than their GPT-5.6 predecessors. Use Sol for complex coding ",
+        "url": "https://developers.openai.com/codex/changelog",
+        "source": "OpenAI Codex Changelog",
         "source_name": "Official AI Updates"
       },
       "sources": [
         {
-          "story_id": "story_72aea9f90037",
-          "title": "Changes to query results in the GitHub Actions API and UI",
-          "url": "https://github.blog/changelog/2026-09-25-changes-to-query-results-in-the-github-actions-api-and-ui",
-          "source": "GitHub Changelog",
+          "story_id": "story_1b2804dac47a",
+          "title": "Codex CLI 0.157.1",
+          "url": "https://developers.openai.com/codex/changelog",
+          "source": "OpenAI Codex Changelog",
           "site_id": "",
           "official": true
         }
       ],
-      "summary_zh": "Queries for workflow runs in the GitHub Actions API and UI now return a less precise but m",
+      "summary_zh": "Latest updates to ChatGPT and Codex Latest updates to ChatGPT and Codex Latest updates to ",
+      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "codex 这次更新真正改变了什么",
+          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
+          "needs_hands_on": true,
+          "risk": "未亲测前不要把官方描述写成实际效果。"
+        }
+      ],
+      "enrichment_mode": "rules_fallback"
+    },
+    {
+      "story_id": "story_722382fcac3b",
+      "creator_event_id": "creator-03fb047b6544b574",
+      "merged_story_ids": [
+        "story_722382fcac3b"
+      ],
+      "title": "Nvidia's SoL-Pi system cuts coding agent token usage nearly in half by optimizing the harness",
+      "url": "https://the-decoder.com/nvidias-sol-pi-system-cuts-coding-agent-token-usage-nearly-in-half-by-optimizing-the-harness",
+      "primary_url": "https://the-decoder.com/nvidias-sol-pi-system-cuts-coding-agent-token-usage-nearly-in-half-by-optimizing-the-harness",
+      "source": "The Decoder AI News",
+      "source_name": "Curated Media",
+      "source_count": 1,
+      "source_names": [
+        "The Decoder AI News"
+      ],
+      "score": 0.615,
+      "importance": 0.615,
+      "importance_score": 0.615,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5472,
+        "source_tier": 0.58,
+        "ai_relevance": 0.76,
+        "recency": 0.9513,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-09-26T10:30:32Z",
+      "latest_at": "2026-09-26T10:30:32Z",
+      "creator_score": 75.8,
+      "creator_breakdown": {
+        "relevance": 0.88,
+        "freshness": 1.0,
+        "source": 0.78,
+        "impact": 0.43,
+        "novelty": 0.55,
+        "heat": 0.3652
+      },
+      "creator_bucket": "ai_coding",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "ai_coding_terms"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "2544f92de4c233a07acbb1441b29beb887c34527",
+        "title": "Nvidia's SoL-Pi system cuts coding agent token usage nearly in half by optimizing the harness",
+        "title_en": "Nvidia's SoL-Pi system cuts coding agent token usage nearly in half by optimizing the harness",
+        "title_original": "Nvidia's SoL-Pi system cuts coding agent token usage nearly in half by optimizing the harness",
+        "summary": "SoL-Pi cuts coding agents' token usage by up to 49 percent with little change in performance by optimizing the control layer between the model and its environment. A research agent tested 152 approaches across more than 3,000 runs to develop the system, though the gains were smaller on other benchmarks.\nSoL-Pi cuts coding agents' token usage by up to 49 percent with little change in performance by optimizing the control layer between the model and its environment. A research agent tested 152 app",
+        "url": "https://the-decoder.com/nvidias-sol-pi-system-cuts-coding-agent-token-usage-nearly-in-half-by-optimizing-the-harness",
+        "source": "The Decoder AI News",
+        "source_name": "Curated Media"
+      },
+      "sources": [
+        {
+          "story_id": "story_722382fcac3b",
+          "title": "Nvidia's SoL-Pi system cuts coding agent token usage nearly in half by optimizing the harness",
+          "url": "https://the-decoder.com/nvidias-sol-pi-system-cuts-coding-agent-token-usage-nearly-in-half-by-optimizing-the-harness",
+          "source": "The Decoder AI News",
+          "site_id": "",
+          "official": false
+        }
+      ],
+      "summary_zh": "SoL-Pi cuts coding agents' token usage by up to 49 percent with little change in performan",
       "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
       "angles": [
         {
@@ -521,368 +181,37 @@
       "enrichment_mode": "rules_fallback"
     },
     {
-      "story_id": "story_a304aaf0894c",
-      "creator_event_id": "creator-c9bdaf0dae3ee367",
+      "story_id": "story_6234dca04193",
+      "creator_event_id": "creator-5df735be038e9062",
       "merged_story_ids": [
-        "story_a304aaf0894c"
+        "story_6234dca04193"
       ],
-      "title": "GitHub Copilot app 新手教程：如何用 canvases 构建自定义工作流 / GitHub Copilot app for Beginners: How to build custom workflows with canvases",
-      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases",
-      "primary_url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases",
-      "source": "GitHub AI & ML",
-      "source_name": "Official AI Updates",
+      "title": "anthropics /      claude-code-action",
+      "url": "https://github.com/anthropics/claude-code-action",
+      "primary_url": "https://github.com/anthropics/claude-code-action",
+      "source": "github",
+      "source_name": "NewsNow",
       "source_count": 1,
       "source_names": [
-        "GitHub AI & ML"
+        "github"
       ],
-      "score": 0.8613,
-      "importance": 0.8613,
-      "importance_score": 0.8613,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.9126,
-        "story_heat": 0.25
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-25T18:00:00Z",
-      "latest_at": "2026-09-25T18:00:00Z",
-      "creator_score": 84.0,
-      "creator_breakdown": {
-        "relevance": 0.95,
-        "freshness": 0.9765,
-        "source": 1.0,
-        "impact": 0.43,
-        "novelty": 0.65,
-        "heat": 0.6015
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "github-copilot",
-      "verification_status": "confirmed",
-      "creator_reasons": [
-        "entity:github-copilot",
-        "ai_coding_terms",
-        "official_or_tier0_source"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "282dcfb0d128a91f99f7e7a3e0ea249f739bfecb",
-        "title": "GitHub Copilot app 新手教程：如何用 canvases 构建自定义工作流 / GitHub Copilot app for Beginners: How to build custom workflows with canvases",
-        "title_zh": "GitHub Copilot app 新手教程：如何用 canvases 构建自定义工作流",
-        "title_en": "GitHub Copilot app for Beginners: How to build custom workflows with canvases",
-        "title_original": "GitHub Copilot app for Beginners: How to build custom workflows with canvases",
-        "summary": "Describe the interface you need in plain English, then let the agent build a live surface you can both use and update.\nDescribe the interface you need in plain English, then let the agent build a live surface you can both use and update.\nDescribe the interface you need in plain English, then let the agent build a live surface you can both use and update—so you spend less time adapting to tools and more time getting work done.\nMost tools give you a fixed set of screens and ask you to fit your wor",
-        "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases",
-        "source": "GitHub AI & ML",
-        "source_name": "Official AI Updates"
-      },
-      "sources": [
-        {
-          "story_id": "story_a304aaf0894c",
-          "title": "GitHub Copilot app 新手教程：如何用 canvases 构建自定义工作流 / GitHub Copilot app for Beginners: How to build custom workflows with canvases",
-          "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases",
-          "source": "GitHub AI & ML",
-          "site_id": "",
-          "official": false
-        }
-      ],
-      "summary_zh": "Describe the interface you need in plain English, then let the agent build a live surface ",
-      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "github-copilot 这次更新真正改变了什么",
-          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-          "needs_hands_on": true,
-          "risk": "未亲测前不要把官方描述写成实际效果。"
-        }
-      ],
-      "enrichment_mode": "rules_fallback"
-    },
-    {
-      "story_id": "story_fa6f9d4b24a5",
-      "creator_event_id": "creator-5e28e888e41bdfd7",
-      "merged_story_ids": [
-        "story_fa6f9d4b24a5"
-      ],
-      "title": "Claude Devs 测算 Opus 5.5 相比 Opus 5 在 Claude Code 任务中的成本变化 / Opus 5.5 is 20% cheaper per input and output token than Opus 5， and 60% cheaper on cache reads. So w…",
-      "url": "https://x.com/ClaudeDevs/status/2103548467729887677",
-      "primary_url": "https://x.com/ClaudeDevs/status/2103548467729887677",
-      "source": "X：Claude Devs (@ClaudeDevs)",
-      "source_name": "AI HOT",
-      "source_count": 1,
-      "source_names": [
-        "X：Claude Devs (@ClaudeDevs)"
-      ],
-      "score": 0.7828,
-      "importance": 0.7828,
-      "importance_score": 0.7828,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.66,
-        "source_tier": 1.0,
-        "ai_relevance": 1.0,
-        "recency": 0.9156,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-25T18:13:31Z",
-      "latest_at": "2026-09-25T18:13:31Z",
-      "creator_score": 82.4,
-      "creator_breakdown": {
-        "relevance": 1.0,
-        "freshness": 0.9821,
-        "source": 0.5,
-        "impact": 0.81,
-        "novelty": 0.85,
-        "heat": 0.424
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "claude-code",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "entity:claude-code",
-        "workflow_impact"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "7b1e1539fbd3d3b77dcd2a97b8093fc66c4b347d",
-        "title": "Claude Devs 测算 Opus 5.5 相比 Opus 5 在 Claude Code 任务中的成本变化 / Opus 5.5 is 20% cheaper per input and output token than Opus 5， and 60% cheaper on cache reads. So w…",
-        "title_zh": "Claude Devs 测算 Opus 5.5 相比 Opus 5 在 Claude Code 任务中的成本变化",
-        "title_en": "Opus 5.5 is 20% cheaper per input and output token than Opus 5， and 60% cheaper on cache reads. So w…",
-        "title_original": "Opus 5.5 is 20% cheaper per input and output token than Opus 5， and 60% cheaper on cache reads. So w…",
-        "summary": "Opus 5.5 每输入和输出 token 比 Opus 5 便宜 20%，缓存读取便宜 60%。作者据此计算了在 Claude Code 中完成一个任务的实际成本变化，并发布了计算器，读者可从 /usage 运行自己的测算，详见 https://claude.dev/blog/what-a-task-costs-on-opus-5-5/。",
-        "url": "https://x.com/ClaudeDevs/status/2103548467729887677",
-        "source": "X：Claude Devs (@ClaudeDevs)",
-        "source_name": "AI HOT"
-      },
-      "sources": [
-        {
-          "story_id": "story_fa6f9d4b24a5",
-          "title": "Claude Devs 测算 Opus 5.5 相比 Opus 5 在 Claude Code 任务中的成本变化 / Opus 5.5 is 20% cheaper per input and output token than Opus 5， and 60% cheaper on cache reads. So w…",
-          "url": "https://x.com/ClaudeDevs/status/2103548467729887677",
-          "source": "X：Claude Devs (@ClaudeDevs)",
-          "site_id": "",
-          "official": false
-        }
-      ],
-      "summary_zh": "Opus 5.5 每输入和输出 token 比 Opus 5 便宜 20%，缓存读取便宜 60%。作者据此计算了在 Claude Code 中完成一个任务的实际成本变化，并发布了计",
-      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "claude-code 这次更新真正改变了什么",
-          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-          "needs_hands_on": true,
-          "risk": "未亲测前不要把官方描述写成实际效果。"
-        }
-      ],
-      "enrichment_mode": "rules_fallback"
-    },
-    {
-      "story_id": "story_ba9128c5b282",
-      "creator_event_id": "creator-f009517c62ed03d3",
-      "merged_story_ids": [
-        "story_ba9128c5b282"
-      ],
-      "title": "OpenAI Codex 401 Outage",
-      "url": "https://status.openai.com",
-      "primary_url": "https://status.openai.com",
-      "source": "HN Algolia · AI 24h",
-      "source_name": "Hacker News",
-      "source_count": 1,
-      "source_names": [
-        "HN Algolia · AI 24h"
-      ],
-      "score": 0.5177,
-      "importance": 0.5177,
-      "importance_score": 0.5177,
+      "score": 0.5199,
+      "importance": 0.5199,
+      "importance_score": 0.5199,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 0.9827,
+        "recency": 0.995,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-09-25T23:07:28Z",
-      "latest_at": "2026-09-25T23:07:28Z",
-      "creator_score": 76.2,
-      "creator_breakdown": {
-        "relevance": 1.0,
-        "freshness": 1.0,
-        "source": 0.58,
-        "impact": 0.43,
-        "novelty": 0.65,
-        "heat": 0.3312
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "codex",
-      "verification_status": "rumor",
-      "creator_reasons": [
-        "entity:codex"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "288417c42e9815928528622836b5b5fb810e483a",
-        "title": "OpenAI Codex 401 Outage",
-        "title_en": "OpenAI Codex 401 Outage",
-        "title_original": "OpenAI Codex 401 Outage",
-        "url": "https://status.openai.com",
-        "source": "HN Algolia · AI 24h",
-        "source_name": "Hacker News"
-      },
-      "sources": [
-        {
-          "story_id": "story_ba9128c5b282",
-          "title": "OpenAI Codex 401 Outage",
-          "url": "https://status.openai.com",
-          "source": "HN Algolia · AI 24h",
-          "site_id": "",
-          "official": false
-        }
-      ],
-      "summary_zh": "OpenAI Codex 401 Outage",
-      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "codex 这次更新真正改变了什么",
-          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-          "needs_hands_on": true,
-          "risk": "未亲测前不要把官方描述写成实际效果。"
-        }
-      ],
-      "enrichment_mode": "rules_fallback"
-    },
-    {
-      "story_id": "story_6aa977cf6604",
-      "creator_event_id": "creator-180442a772959e85",
-      "merged_story_ids": [
-        "story_6aa977cf6604"
-      ],
-      "title": "Issues with Codex – Identified – Full Outage",
-      "url": "https://status.openai.com/incidents/01M3DCNWMW57HYK8FJ5FBFPA39",
-      "primary_url": "https://status.openai.com/incidents/01M3DCNWMW57HYK8FJ5FBFPA39",
-      "source": "Hacker News",
-      "source_name": "TechURLs",
-      "source_count": 1,
-      "source_names": [
-        "Hacker News"
-      ],
-      "score": 0.5426,
-      "importance": 0.5426,
-      "importance_score": 0.5426,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.982,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-09-25T23:04:25Z",
-      "latest_at": "2026-09-25T23:04:25Z",
-      "creator_score": 75.4,
-      "creator_breakdown": {
-        "relevance": 1.0,
-        "freshness": 1.0,
-        "source": 0.5,
-        "impact": 0.43,
-        "novelty": 0.65,
-        "heat": 0.4899
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "codex",
-      "verification_status": "confirmed",
-      "creator_reasons": [
-        "entity:codex"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "4ea5244a991808da235ed5f003ae38c0a9ff7004",
-        "title": "Issues with Codex – Identified – Full Outage",
-        "title_en": "Issues with Codex – Identified – Full Outage",
-        "title_original": "Issues with Codex – Identified – Full Outage",
-        "url": "https://status.openai.com/incidents/01M3DCNWMW57HYK8FJ5FBFPA39",
-        "source": "Hacker News",
-        "source_name": "TechURLs"
-      },
-      "sources": [
-        {
-          "story_id": "story_6aa977cf6604",
-          "title": "Issues with Codex – Identified – Full Outage",
-          "url": "https://status.openai.com/incidents/01M3DCNWMW57HYK8FJ5FBFPA39",
-          "source": "Hacker News",
-          "site_id": "",
-          "official": false
-        }
-      ],
-      "summary_zh": "Issues with Codex – Identified – Full Outage",
-      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "codex 这次更新真正改变了什么",
-          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-          "needs_hands_on": true,
-          "risk": "未亲测前不要把官方描述写成实际效果。"
-        }
-      ],
-      "enrichment_mode": "rules_fallback"
-    },
-    {
-      "story_id": "story_75eebc0d410c",
-      "creator_event_id": "creator-f3909fb870e34330",
-      "merged_story_ids": [
-        "story_75eebc0d410c"
-      ],
-      "title": "Tell HN: Codex Is Down [fixed]",
-      "url": "https://news.ycombinator.com/item?id=49851032",
-      "primary_url": "https://news.ycombinator.com/item?id=49851032",
-      "source": "Hacker News",
-      "source_name": "TechURLs",
-      "source_count": 1,
-      "source_names": [
-        "Hacker News"
-      ],
-      "score": 0.517,
-      "importance": 0.517,
-      "importance_score": 0.517,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.979,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-09-25T22:51:44Z",
-      "latest_at": "2026-09-25T22:51:44Z",
+      "earliest_at": "2026-09-26T13:37:23.315000Z",
+      "latest_at": "2026-09-26T13:37:23.315000Z",
       "creator_score": 74.6,
       "creator_breakdown": {
         "relevance": 1.0,
@@ -890,87 +219,7 @@
         "source": 0.5,
         "impact": 0.43,
         "novelty": 0.65,
-        "heat": 0.3309
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "codex",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "entity:codex"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "558bbb7d48f93f90aa1d0b1cfda4f7665fc0f83c",
-        "title": "Tell HN: Codex Is Down [fixed]",
-        "title_en": "Tell HN: Codex Is Down [fixed]",
-        "title_original": "Tell HN: Codex Is Down [fixed]",
-        "url": "https://news.ycombinator.com/item?id=49851032",
-        "source": "Hacker News",
-        "source_name": "TechURLs"
-      },
-      "sources": [
-        {
-          "story_id": "story_75eebc0d410c",
-          "title": "Tell HN: Codex Is Down [fixed]",
-          "url": "https://news.ycombinator.com/item?id=49851032",
-          "source": "Hacker News",
-          "site_id": "",
-          "official": false
-        }
-      ],
-      "summary_zh": "Tell HN: Codex Is Down [fixed]",
-      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "codex 这次更新真正改变了什么",
-          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-          "needs_hands_on": true,
-          "risk": "未亲测前不要把官方描述写成实际效果。"
-        }
-      ],
-      "enrichment_mode": "rules_fallback"
-    },
-    {
-      "story_id": "story_9689d7e9d621",
-      "creator_event_id": "creator-3e59c2ec76f7f658",
-      "merged_story_ids": [
-        "story_9689d7e9d621"
-      ],
-      "title": "Jevmem – automatic project memory for Claude Code, built on Jev",
-      "url": "https://github.com/Avinash-jetwani/jevmem",
-      "primary_url": "https://github.com/Avinash-jetwani/jevmem",
-      "source": "Hacker News · 24h最热",
-      "source_name": "Zeli",
-      "source_count": 1,
-      "source_names": [
-        "Hacker News · 24h最热"
-      ],
-      "score": 0.5005,
-      "importance": 0.5005,
-      "importance_score": 0.5005,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.8875,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-09-25T16:04:04Z",
-      "latest_at": "2026-09-25T16:04:04Z",
-      "creator_score": 73.1,
-      "creator_breakdown": {
-        "relevance": 1.0,
-        "freshness": 0.9282,
-        "source": 0.5,
-        "impact": 0.43,
-        "novelty": 0.65,
-        "heat": 0.3252
+        "heat": 0.332
       },
       "creator_bucket": "ai_coding",
       "primary_entity": "claude-code",
@@ -980,30 +229,273 @@
       ],
       "change_type": "new",
       "primary_item": {
-        "id": "f3dd3f287c482ca33e3a2ea3d377db20e8568e3e",
-        "title": "Jevmem – automatic project memory for Claude Code, built on Jev",
-        "title_en": "Jevmem – automatic project memory for Claude Code, built on Jev",
-        "title_original": "Jevmem – automatic project memory for Claude Code, built on Jev",
-        "url": "https://github.com/Avinash-jetwani/jevmem",
-        "source": "Hacker News · 24h最热",
-        "source_name": "Zeli"
+        "id": "e028310be3b6b9b7099c61447ea90248615766d2",
+        "title": "anthropics /      claude-code-action",
+        "title_en": "anthropics /      claude-code-action",
+        "title_original": "anthropics /      claude-code-action",
+        "summary": "Contribute to anthropics/claude-code-action development by creating an account on GitHub.\nContribute to anthropics/claude-code-action development by creating an account on GitHub.\nContribute to anthropics/claude-code-action development by creating an account on GitHub.\nA general-purpose Claude Code action for GitHub PRs and issues that can answer questions and implement code changes. This action intelligently detects when to activate based on your workflow context—whether responding to @claude m",
+        "url": "https://github.com/anthropics/claude-code-action",
+        "source": "github",
+        "source_name": "NewsNow"
       },
       "sources": [
         {
-          "story_id": "story_9689d7e9d621",
-          "title": "Jevmem – automatic project memory for Claude Code, built on Jev",
-          "url": "https://github.com/Avinash-jetwani/jevmem",
-          "source": "Hacker News · 24h最热",
+          "story_id": "story_6234dca04193",
+          "title": "anthropics /      claude-code-action",
+          "url": "https://github.com/anthropics/claude-code-action",
+          "source": "github",
           "site_id": "",
           "official": false
         }
       ],
-      "summary_zh": "Jevmem – automatic project memory for Claude Code, built on Jev",
+      "summary_zh": "Contribute to anthropics/claude-code-action development by creating an account on GitHub. ",
       "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
       "angles": [
         {
           "platform": "x",
           "title": "claude-code 这次更新真正改变了什么",
+          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
+          "needs_hands_on": true,
+          "risk": "未亲测前不要把官方描述写成实际效果。"
+        }
+      ],
+      "enrichment_mode": "rules_fallback"
+    },
+    {
+      "story_id": "story_f685d78fb277",
+      "creator_event_id": "creator-fdcc1805c579a03f",
+      "merged_story_ids": [
+        "story_f685d78fb277"
+      ],
+      "title": "Codex 本地自定义 Agent 与模型配置实战：TOML、AGENTS.md 和优先级",
+      "url": "https://juejin.cn/post/7688528701483827241",
+      "primary_url": "https://juejin.cn/post/7688528701483827241",
+      "source": "juejin",
+      "source_name": "NewsNow",
+      "source_count": 1,
+      "source_names": [
+        "juejin"
+      ],
+      "score": 0.5198,
+      "importance": 0.5198,
+      "importance_score": 0.5198,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9947,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-09-26T13:36:03.764000Z",
+      "latest_at": "2026-09-26T13:36:03.764000Z",
+      "creator_score": 74.6,
+      "creator_breakdown": {
+        "relevance": 1.0,
+        "freshness": 1.0,
+        "source": 0.5,
+        "impact": 0.43,
+        "novelty": 0.65,
+        "heat": 0.3319
+      },
+      "creator_bucket": "ai_coding",
+      "primary_entity": "codex",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "entity:codex"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "93e2af7817444a9a152719ddcebe379d7ab34b62",
+        "title": "Codex 本地自定义 Agent 与模型配置实战：TOML、AGENTS.md 和优先级",
+        "title_zh": "Codex 本地自定义 Agent 与模型配置实战：TOML、AGENTS.md 和优先级",
+        "title_original": "Codex 本地自定义 Agent 与模型配置实战：TOML、AGENTS.md 和优先级",
+        "url": "https://juejin.cn/post/7688528701483827241",
+        "source": "juejin",
+        "source_name": "NewsNow"
+      },
+      "sources": [
+        {
+          "story_id": "story_f685d78fb277",
+          "title": "Codex 本地自定义 Agent 与模型配置实战：TOML、AGENTS.md 和优先级",
+          "url": "https://juejin.cn/post/7688528701483827241",
+          "source": "juejin",
+          "site_id": "",
+          "official": false
+        }
+      ],
+      "summary_zh": "Codex 本地自定义 Agent 与模型配置实战：TOML、AGENTS.md 和优先级",
+      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "codex 这次更新真正改变了什么",
+          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
+          "needs_hands_on": true,
+          "risk": "未亲测前不要把官方描述写成实际效果。"
+        }
+      ],
+      "enrichment_mode": "rules_fallback"
+    },
+    {
+      "story_id": "story_0f8378e9992b",
+      "creator_event_id": "creator-0eb86f620a86c914",
+      "merged_story_ids": [
+        "story_0f8378e9992b"
+      ],
+      "title": "别把 Claude Code 当聊天框：一套「确定性工程」落地手册",
+      "url": "https://juejin.cn/post/7688401878564077602",
+      "primary_url": "https://juejin.cn/post/7688401878564077602",
+      "source": "juejin",
+      "source_name": "NewsNow",
+      "source_count": 1,
+      "source_names": [
+        "juejin"
+      ],
+      "score": 0.5198,
+      "importance": 0.5198,
+      "importance_score": 0.5198,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9947,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-09-26T13:36:03.764000Z",
+      "latest_at": "2026-09-26T13:36:03.764000Z",
+      "creator_score": 74.6,
+      "creator_breakdown": {
+        "relevance": 1.0,
+        "freshness": 1.0,
+        "source": 0.5,
+        "impact": 0.43,
+        "novelty": 0.65,
+        "heat": 0.3319
+      },
+      "creator_bucket": "ai_coding",
+      "primary_entity": "claude-code",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "entity:claude-code"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "9237362e6edaf73257f7ddbf1055ce219fea6016",
+        "title": "别把 Claude Code 当聊天框：一套「确定性工程」落地手册",
+        "title_zh": "别把 Claude Code 当聊天框：一套「确定性工程」落地手册",
+        "title_original": "别把 Claude Code 当聊天框：一套「确定性工程」落地手册",
+        "url": "https://juejin.cn/post/7688401878564077602",
+        "source": "juejin",
+        "source_name": "NewsNow"
+      },
+      "sources": [
+        {
+          "story_id": "story_0f8378e9992b",
+          "title": "别把 Claude Code 当聊天框：一套「确定性工程」落地手册",
+          "url": "https://juejin.cn/post/7688401878564077602",
+          "source": "juejin",
+          "site_id": "",
+          "official": false
+        }
+      ],
+      "summary_zh": "别把 Claude Code 当聊天框：一套「确定性工程」落地手册",
+      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "claude-code 这次更新真正改变了什么",
+          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
+          "needs_hands_on": true,
+          "risk": "未亲测前不要把官方描述写成实际效果。"
+        }
+      ],
+      "enrichment_mode": "rules_fallback"
+    },
+    {
+      "story_id": "story_747a1cf6b6a8",
+      "creator_event_id": "creator-6e013260fcbf1f3a",
+      "merged_story_ids": [
+        "story_747a1cf6b6a8"
+      ],
+      "title": "mobile-next /      mobile-mcp",
+      "url": "https://github.com/mobile-next/mobile-mcp",
+      "primary_url": "https://github.com/mobile-next/mobile-mcp",
+      "source": "github",
+      "source_name": "NewsNow",
+      "source_count": 1,
+      "source_names": [
+        "github"
+      ],
+      "score": 0.5199,
+      "importance": 0.5199,
+      "importance_score": 0.5199,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.995,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-09-26T13:37:23.315000Z",
+      "latest_at": "2026-09-26T13:37:23.315000Z",
+      "creator_score": 71.6,
+      "creator_breakdown": {
+        "relevance": 0.9,
+        "freshness": 1.0,
+        "source": 0.5,
+        "impact": 0.43,
+        "novelty": 0.65,
+        "heat": 0.332
+      },
+      "creator_bucket": "ai_coding",
+      "primary_entity": "mcp",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "entity:mcp",
+        "ai_coding_terms"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "d4e17936f31903f88bcd813c53dd56fc63e7b6d9",
+        "title": "mobile-next /      mobile-mcp",
+        "title_en": "mobile-next /      mobile-mcp",
+        "title_original": "mobile-next /      mobile-mcp",
+        "summary": "Model Context Protocol Server for Mobile Automation and Scraping (iOS, Android, Emulators, Simulators and Real Devices) - mobile-next/mobile-mcp\nModel Context Protocol Server for Mobile Automation and Scraping (iOS, Android, Emulators, Simulators and Real Devices) - mobile-next/mobile-mcp\nModel Context Protocol Server for Mobile Automation and Scraping (iOS, Android, Emulators, Simulators and Real Devices) - mobile-next/mobile-mcp\nEnglish | 日本語 | 简体中文\nThis is an MCP Server that enables scalable ",
+        "url": "https://github.com/mobile-next/mobile-mcp",
+        "source": "github",
+        "source_name": "NewsNow"
+      },
+      "sources": [
+        {
+          "story_id": "story_747a1cf6b6a8",
+          "title": "mobile-next /      mobile-mcp",
+          "url": "https://github.com/mobile-next/mobile-mcp",
+          "source": "github",
+          "site_id": "",
+          "official": false
+        }
+      ],
+      "summary_zh": "Model Context Protocol Server for Mobile Automation and Scraping (iOS, Android, Emulators,",
+      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "mcp 这次更新真正改变了什么",
           "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
           "needs_hands_on": true,
           "risk": "未亲测前不要把官方描述写成实际效果。"
@@ -1016,7 +508,12 @@
       "creator_event_id": "creator-7ff63161755722f4",
       "merged_story_ids": [
         "story_b596a694c49e",
+        "story_14f22bf5d953",
         "story_d0bb9ce06108",
+        "story_9e972a51748d",
+        "story_11318aa02d12",
+        "story_066a0c595b3d",
+        "story_ce32a94e8cae",
         "story_4598bae7a009",
         "story_6bfc106cb751",
         "story_b98aea62d8cf",
@@ -1028,40 +525,44 @@
       "primary_url": "https://x.com/OpenAI/status/2103587050347995581",
       "source": "X：OpenAI (@OpenAI)",
       "source_name": "AI HOT",
-      "source_count": 7,
+      "source_count": 12,
       "source_names": [
         "X：OpenAI (@OpenAI)",
+        "X：Ethan Mollick (@emollick)",
         "X：Sam Altman (@sama)",
+        "TechCrunch AI",
+        "Engadget",
+        "Slashdot",
+        "Business Insider",
         "Techmeme",
         "BBC News",
         "New York Times"
       ],
-      "score": 0.7556,
-      "importance": 0.7556,
-      "importance_score": 0.7556,
+      "score": 0.725,
+      "importance": 0.725,
+      "importance_score": 0.725,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.71,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.95,
+        "recency": 0.7802,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-09-25T20:46:50Z",
       "latest_at": "2026-09-25T20:46:50Z",
-      "creator_score": 80.4,
+      "creator_score": 74.5,
       "creator_breakdown": {
         "relevance": 0.68,
-        "freshness": 1.0,
+        "freshness": 0.7064,
         "source": 1.0,
         "impact": 0.63,
         "novelty": 0.85,
-        "heat": 0.4145
+        "heat": 0.4037
       },
       "creator_bucket": "general_ai",
       "primary_entity": "openai",
@@ -1093,10 +594,50 @@
           "official": true
         },
         {
+          "story_id": "story_14f22bf5d953",
+          "title": "Ethan Mollick 评 OpenAI 披露多起新的对齐事件 / And the incidents apparently continue. It is worth noting how much of this is agents trying to acco…",
+          "url": "https://x.com/emollick/status/2103709671865602100",
+          "source": "X：Ethan Mollick (@emollick)",
+          "site_id": "",
+          "official": false
+        },
+        {
           "story_id": "story_d0bb9ce06108",
           "title": "Sam Altman 谈 OpenAI 智能体训练期联网行为审查进展 / There is an extensive and ongoing review related to our agents' use of internet access during traini…",
           "url": "https://x.com/sama/status/2103567198690349362",
           "source": "X：Sam Altman (@sama)",
+          "site_id": "",
+          "official": false
+        },
+        {
+          "story_id": "story_9e972a51748d",
+          "title": "Unsecured OpenAI agents posted 53 user images on the internet without the lab’s knowledge",
+          "url": "https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge",
+          "source": "TechCrunch AI",
+          "site_id": "",
+          "official": false
+        },
+        {
+          "story_id": "story_11318aa02d12",
+          "title": "OpenAI's agents targeted and infiltrated US government websites",
+          "url": "https://www.engadget.com/2269776/openai-agents-targeted-us-government-websites",
+          "source": "Engadget",
+          "site_id": "",
+          "official": false
+        },
+        {
+          "story_id": "story_066a0c595b3d",
+          "title": "Rogue OpenAI Agents Posted 53 User-Uploaded Images Onto the Internet, Accessed US Government Websites",
+          "url": "https://slashdot.org/story/26/09/26/0328247/rogue-openai-agents-posted-53-user-uploaded-images-onto-the-internet-accessed-us-government-websites",
+          "source": "Slashdot",
+          "site_id": "",
+          "official": false
+        },
+        {
+          "story_id": "story_ce32a94e8cae",
+          "title": "OpenAI said there are 5 main ways rogue AI agents are messing with the internet",
+          "url": "https://www.businessinsider.com/openai-rogue-ai-agents-sec-census-2026-9",
+          "source": "Business Insider",
           "site_id": "",
           "official": false
         },
@@ -1155,114 +696,29 @@
       "enrichment_mode": "rules_fallback"
     },
     {
-      "story_id": "story_7535491ae20c",
-      "creator_event_id": "creator-849d20a5a0dbe815",
+      "story_id": "story_07c3181c791a",
+      "creator_event_id": "creator-bfec2efb4f8137b5",
       "merged_story_ids": [
-        "story_7535491ae20c"
+        "story_07c3181c791a"
       ],
-      "title": "Claude 完成 N=4 超对称 Yang-Mills 九圈振幅计算，物理学家 Matt von Hippel 复盘挑战始末 / Yes， Claude can do Nine Loops",
-      "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
-      "primary_url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
-      "source": "Anthropic：Research（发表成果 · 网页）",
-      "source_name": "AI HOT",
-      "source_count": 1,
-      "source_names": [
-        "Anthropic：Research（发表成果 · 网页）"
-      ],
-      "score": 0.8078,
-      "importance": 0.8078,
-      "importance_score": 0.8078,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.74,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9124,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-25T17:59:19.824000Z",
-      "latest_at": "2026-09-25T20:17:37.059000Z",
-      "creator_score": 74.3,
-      "creator_breakdown": {
-        "relevance": 0.68,
-        "freshness": 1.0,
-        "source": 1.0,
-        "impact": 0.25,
-        "novelty": 0.65,
-        "heat": 0.7327
-      },
-      "creator_bucket": "general_ai",
-      "primary_entity": "anthropic",
-      "verification_status": "confirmed",
-      "creator_reasons": [
-        "entity:anthropic",
-        "official_or_tier0_source"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "18ad5d1949272a639d0b3e28920046d68ba92876",
-        "title": "Claude 完成 N=4 超对称 Yang-Mills 九圈振幅计算，物理学家 Matt von Hippel 复盘挑战始末 / Yes， Claude can do Nine Loops",
-        "title_zh": "Claude 完成 N=4 超对称 Yang-Mills 九圈振幅计算，物理学家 Matt von Hippel 复盘挑战始末",
-        "title_en": "Yes， Claude can do Nine Loops",
-        "title_original": "Yes， Claude can do Nine Loops",
-        "summary": "物理学家 Matt von Hippel 发文复盘：Anthropic 的 Liam Fitzpatrick 和 Siddharth Mishra-Sharma 用 Claude Science（Fable 5.1）以约一两千美元预算完成平面 N=4 超对称 Yang-Mills 六粒子九圈振幅计算。",
-        "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
-        "source": "Anthropic：Research（发表成果 · 网页）",
-        "source_name": "AI HOT"
-      },
-      "sources": [
-        {
-          "story_id": "story_7535491ae20c",
-          "title": "Claude 完成 N=4 超对称 Yang-Mills 九圈振幅计算，物理学家 Matt von Hippel 复盘挑战始末 / Yes， Claude can do Nine Loops",
-          "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
-          "source": "Anthropic：Research（发表成果 · 网页）",
-          "site_id": "",
-          "official": true
-        }
-      ],
-      "summary_zh": "物理学家 Matt von Hippel 发文复盘：Anthropic 的 Liam Fitzpatrick 和 Siddharth Mishra-Sharma 用 Claude ",
-      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "anthropic 这次更新真正改变了什么",
-          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-          "needs_hands_on": true,
-          "risk": "未亲测前不要把官方描述写成实际效果。"
-        }
-      ],
-      "enrichment_mode": "rules_fallback"
-    },
-    {
-      "story_id": "story_8129dd850da5",
-      "creator_event_id": "creator-8d17bfb4187ba4ee",
-      "merged_story_ids": [
-        "story_8129dd850da5"
-      ],
-      "title": "Private saved views for repository issues and “Relates to” issue relationship is generally available",
-      "url": "https://github.blog/changelog/2026-09-25-personal-saved-views-for-repository-issues-and-more",
-      "primary_url": "https://github.blog/changelog/2026-09-25-personal-saved-views-for-repository-issues-and-more",
+      "title": "Enterprise managed settings in-product validator",
+      "url": "https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator",
+      "primary_url": "https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator",
       "source": "GitHub Changelog",
       "source_name": "Official AI Updates",
       "source_count": 1,
       "source_names": [
         "GitHub Changelog"
       ],
-      "score": 0.8309,
-      "importance": 0.8309,
-      "importance_score": 0.8309,
+      "score": 0.8099,
+      "importance": 0.8099,
+      "importance_score": 0.8099,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.927,
+        "recency": 0.8105,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1271,16 +727,16 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-09-25T19:05:03Z",
-      "latest_at": "2026-09-25T19:05:03Z",
-      "creator_score": 73.9,
+      "earliest_at": "2026-09-25T23:24:57Z",
+      "latest_at": "2026-09-25T23:24:57Z",
+      "creator_score": 69.1,
       "creator_breakdown": {
-        "relevance": 0.4908,
-        "freshness": 1.0,
+        "relevance": 0.4835,
+        "freshness": 0.7722,
         "source": 1.0,
         "impact": 0.63,
         "novelty": 0.75,
-        "heat": 0.4408
+        "heat": 0.4335
       },
       "creator_bucket": "general_ai",
       "verification_status": "confirmed",
@@ -1290,26 +746,25 @@
       ],
       "change_type": "new",
       "primary_item": {
-        "id": "edc04e0031a325e3e60479ffba5ca7c72cde91fc",
-        "title": "Private saved views for repository issues and “Relates to” issue relationship is generally available",
-        "title_en": "Private saved views for repository issues and “Relates to” issue relationship is generally available",
-        "title_original": "Private saved views for repository issues and “Relates to” issue relationship is generally available",
-        "summary": "Private saved views for repository issues Repository issues pages now support private saved views, making it easier to create and save personalized views of your issues. “Relates to” issue relationship…\nRepository issues pages now support private saved views, making it easier to create and save personalized views of your issues.\nShare your feedback on personal saved views for repository issues in GitHub Community discussion .\nDiscover tips, technical guides, and best practices in our biweekly ne",
-        "url": "https://github.blog/changelog/2026-09-25-personal-saved-views-for-repository-issues-and-more",
+        "id": "dd059b79660393da2ac0c82f4ed19cc35a008a33",
+        "title": "Enterprise managed settings in-product validator",
+        "title_en": "Enterprise managed settings in-product validator",
+        "title_original": "Enterprise managed settings in-product validator",
+        "url": "https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
       },
       "sources": [
         {
-          "story_id": "story_8129dd850da5",
-          "title": "Private saved views for repository issues and “Relates to” issue relationship is generally available",
-          "url": "https://github.blog/changelog/2026-09-25-personal-saved-views-for-repository-issues-and-more",
+          "story_id": "story_07c3181c791a",
+          "title": "Enterprise managed settings in-product validator",
+          "url": "https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator",
           "source": "GitHub Changelog",
           "site_id": "",
           "official": true
         }
       ],
-      "summary_zh": "Private saved views for repository issues Repository issues pages now support private save",
+      "summary_zh": "Enterprise managed settings in-product validator",
       "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
       "angles": [
         {
@@ -1323,160 +778,74 @@
       "enrichment_mode": "rules_fallback"
     },
     {
-      "story_id": "story_3086a0a8d592",
-      "creator_event_id": "creator-7c5fc7770af874a8",
+      "story_id": "story_0cab58f93708",
+      "creator_event_id": "creator-cd531f400dc7b6ad",
       "merged_story_ids": [
-        "story_3086a0a8d592"
+        "story_0cab58f93708"
       ],
-      "title": "Agentic autofix now uses Copilot Memory",
-      "url": "https://github.blog/changelog/2026-09-25-agentic-autofix-now-uses-copilot-memory",
-      "primary_url": "https://github.blog/changelog/2026-09-25-agentic-autofix-now-uses-copilot-memory",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
+      "title": "OpenAI's GPT-6 Astra can now tell you exactly where you screwed up your IKEA shelf",
+      "url": "https://the-decoder.com/openais-gpt-6-astra-can-now-tell-you-exactly-where-you-screwed-up-your-ikea-shelf",
+      "primary_url": "https://the-decoder.com/openais-gpt-6-astra-can-now-tell-you-exactly-where-you-screwed-up-your-ikea-shelf",
+      "source": "The Decoder AI News",
+      "source_name": "Curated Media",
       "source_count": 1,
       "source_names": [
-        "GitHub Changelog"
+        "The Decoder AI News"
       ],
-      "score": 0.8349,
-      "importance": 0.8349,
-      "importance_score": 0.8349,
-      "importance_label": "官方更新",
+      "score": 0.6381,
+      "importance": 0.6381,
+      "importance_score": 0.6381,
+      "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.9051,
+        "editorial": 0.5904,
+        "source_tier": 0.58,
+        "ai_relevance": 0.82,
+        "recency": 0.9409,
         "story_heat": 0.0
       },
-      "category": "official",
+      "category": "watch",
       "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
-      "earliest_at": "2026-09-25T17:25:50Z",
-      "latest_at": "2026-09-25T17:25:50Z",
-      "creator_score": 73.2,
-      "creator_breakdown": {
-        "relevance": 0.4922,
-        "freshness": 0.9622,
-        "source": 1.0,
-        "impact": 0.63,
-        "novelty": 0.75,
-        "heat": 0.4422
-      },
-      "creator_bucket": "general_ai",
-      "verification_status": "confirmed",
-      "creator_reasons": [
-        "workflow_impact",
-        "official_or_tier0_source"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "8ee32335c685465498d95a79a418cfcd20e01eaa",
-        "title": "Agentic autofix now uses Copilot Memory",
-        "title_en": "Agentic autofix now uses Copilot Memory",
-        "title_original": "Agentic autofix now uses Copilot Memory",
-        "summary": "Agentic autofix now uses Copilot Memory for customers who’ve enabled it. When you use agentic autofix, it reviews existing memories for context that can help resolve security alerts. When it…\nAgentic autofix now uses Copilot Memory for customers who’ve enabled it. When you use agentic autofix, it reviews existing memories for context that can help resolve security alerts. When it creates a fix, it stores the fix pattern as a memory for future use.\nThese memories can help agentic autofix resolve ",
-        "url": "https://github.blog/changelog/2026-09-25-agentic-autofix-now-uses-copilot-memory",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      },
-      "sources": [
-        {
-          "story_id": "story_3086a0a8d592",
-          "title": "Agentic autofix now uses Copilot Memory",
-          "url": "https://github.blog/changelog/2026-09-25-agentic-autofix-now-uses-copilot-memory",
-          "source": "GitHub Changelog",
-          "site_id": "",
-          "official": true
-        }
-      ],
-      "summary_zh": "Agentic autofix now uses Copilot Memory for customers who’ve enabled it. When you use agen",
-      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "AI Coding 这次更新真正改变了什么",
-          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-          "needs_hands_on": true,
-          "risk": "未亲测前不要把官方描述写成实际效果。"
-        }
-      ],
-      "enrichment_mode": "rules_fallback"
-    },
-    {
-      "story_id": "story_31f780f81dc1",
-      "creator_event_id": "creator-fe84eecd947f9c24",
-      "merged_story_ids": [
-        "story_31f780f81dc1"
-      ],
-      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
-      "url": "https://openai.com/index/proaction",
-      "primary_url": "https://openai.com/index/proaction",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
-      "source_names": [
-        "OpenAI News"
-      ],
-      "score": 0.8467,
-      "importance": 0.8467,
-      "importance_score": 0.8467,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.9259,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-25T19:00:00Z",
-      "latest_at": "2026-09-25T19:00:00Z",
-      "creator_score": 72.9,
+      "earliest_at": "2026-09-26T09:44:54Z",
+      "latest_at": "2026-09-26T09:44:54Z",
+      "creator_score": 68.1,
       "creator_breakdown": {
         "relevance": 0.68,
         "freshness": 1.0,
-        "source": 1.0,
+        "source": 0.78,
         "impact": 0.25,
         "novelty": 0.65,
-        "heat": 0.4463
+        "heat": 0.3733
       },
       "creator_bucket": "general_ai",
       "primary_entity": "openai",
-      "verification_status": "confirmed",
+      "verification_status": "single_source",
       "creator_reasons": [
-        "entity:openai",
-        "official_or_tier0_source"
+        "entity:openai"
       ],
       "change_type": "new",
       "primary_item": {
-        "id": "66813550b19620d0f21a2f5a0f52320a576eb1a2",
-        "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
-        "title_en": "Proaction boosts sales 60% and saves 75+ hours with Codex",
-        "title_original": "Proaction boosts sales 60% and saves 75+ hours with Codex",
-        "summary": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.\nWith Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.\nWith Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.\nSeptember 25, 2026\nWith Codex, GPT‑Live‑1, and GPT‑6 Astra, Proaction builds, operates, and sells modern fleet management faster.\nResults\n40–60\nEngineering hours saved",
-        "url": "https://openai.com/index/proaction",
-        "source": "OpenAI News",
-        "source_name": "Official AI Updates"
+        "id": "3cf79039bc6a67105a58aeff9d410b8674190b18",
+        "title": "OpenAI's GPT-6 Astra can now tell you exactly where you screwed up your IKEA shelf",
+        "title_en": "OpenAI's GPT-6 Astra can now tell you exactly where you screwed up your IKEA shelf",
+        "title_original": "OpenAI's GPT-6 Astra can now tell you exactly where you screwed up your IKEA shelf",
+        "summary": "OpenAI's GPT-6 Astra can look at a photo and tell whether an IKEA furniture piece was assembled incorrectly, hitting an 80 percent accuracy rate. Back in November 2025, the best model managed just 28 percent. According to Epoch AI, the speed isn't quite fast enough yet for real-time assembly guidance, but the gap is closing quickly.\nOpenAI's GPT-6 Astra can look at a photo and tell whether an IKEA furniture piece was assembled incorrectly, hitting an 80 percent accuracy rate. Back in November 20",
+        "url": "https://the-decoder.com/openais-gpt-6-astra-can-now-tell-you-exactly-where-you-screwed-up-your-ikea-shelf",
+        "source": "The Decoder AI News",
+        "source_name": "Curated Media"
       },
       "sources": [
         {
-          "story_id": "story_31f780f81dc1",
-          "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
-          "url": "https://openai.com/index/proaction",
-          "source": "OpenAI News",
+          "story_id": "story_0cab58f93708",
+          "title": "OpenAI's GPT-6 Astra can now tell you exactly where you screwed up your IKEA shelf",
+          "url": "https://the-decoder.com/openais-gpt-6-astra-can-now-tell-you-exactly-where-you-screwed-up-your-ikea-shelf",
+          "source": "The Decoder AI News",
           "site_id": "",
-          "official": true
+          "official": false
         }
       ],
-      "summary_zh": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern flee",
+      "summary_zh": "OpenAI's GPT-6 Astra can look at a photo and tell whether an IKEA furniture piece was asse",
       "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
       "angles": [
         {
@@ -1490,81 +859,82 @@
       "enrichment_mode": "rules_fallback"
     },
     {
-      "story_id": "story_26f22a2693b5",
-      "creator_event_id": "creator-af2972a9f722117d",
+      "story_id": "story_5b20c5b40350",
+      "creator_event_id": "creator-659a3874dd8202c1",
       "merged_story_ids": [
-        "story_26f22a2693b5"
+        "story_5b20c5b40350"
       ],
-      "title": "Anthropic 称 Claude 完成平面 N=4 超杨-米尔斯理论九圈散射振幅计算 / New on the Science Blog： Yes， Claude can do Nine Loops. Theoretical physicists predict how particle…",
-      "url": "https://x.com/AnthropicAI/status/2103541577083719888",
-      "primary_url": "https://x.com/AnthropicAI/status/2103541577083719888",
-      "source": "X：Anthropic (@AnthropicAI)",
+      "title": "独立调查报告揭秘 OpenAI 智能体集群入侵 Hugging Face 的技术细节",
+      "url": "https://swarmtraces.org",
+      "primary_url": "https://swarmtraces.org",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "source_name": "AI HOT",
       "source_count": 1,
       "source_names": [
-        "X：Anthropic (@AnthropicAI)"
+        "Hacker News 热门（buzzing.cc 中文翻译）"
       ],
-      "score": 0.7363,
-      "importance": 0.7363,
-      "importance_score": 0.7363,
-      "importance_label": "行业动态",
+      "score": 0.8397,
+      "importance": 0.8397,
+      "importance_score": 0.8397,
+      "importance_label": "多源热议",
       "importance_breakdown": {
-        "editorial": 0.67,
+        "editorial": 0.82,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9095,
-        "story_heat": 0.0
+        "recency": 0.8173,
+        "story_heat": 0.75
       },
-      "category": "industry",
+      "category": "multi_source",
       "reasons": [
-        "high_ai_relevance"
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
       ],
-      "earliest_at": "2026-09-25T17:46:08Z",
-      "latest_at": "2026-09-25T17:46:08Z",
-      "creator_score": 72.1,
+      "earliest_at": "2026-09-25T21:09:27Z",
+      "latest_at": "2026-09-25T23:59:47.248000Z",
+      "creator_score": 67.8,
       "creator_breakdown": {
         "relevance": 0.68,
-        "freshness": 0.9707,
-        "source": 1.0,
-        "impact": 0.25,
-        "novelty": 0.65,
-        "heat": 0.4077
+        "freshness": 0.7867,
+        "source": 0.5,
+        "impact": 0.63,
+        "novelty": 0.85,
+        "heat": 0.7439
       },
       "creator_bucket": "general_ai",
-      "primary_entity": "anthropic",
+      "primary_entity": "openai",
       "verification_status": "confirmed",
       "creator_reasons": [
-        "entity:anthropic",
-        "official_or_tier0_source"
+        "entity:openai",
+        "workflow_impact"
       ],
       "change_type": "new",
       "primary_item": {
-        "id": "1292abec7e144a9d760e60cd4094159cff9d78b7",
-        "title": "Anthropic 称 Claude 完成平面 N=4 超杨-米尔斯理论九圈散射振幅计算 / New on the Science Blog： Yes， Claude can do Nine Loops. Theoretical physicists predict how particle…",
-        "title_zh": "Anthropic 称 Claude 完成平面 N=4 超杨-米尔斯理论九圈散射振幅计算",
-        "title_en": "New on the Science Blog： Yes， Claude can do Nine Loops. Theoretical physicists predict how particle…",
-        "title_original": "New on the Science Blog： Yes， Claude can do Nine Loops. Theoretical physicists predict how particle…",
-        "summary": "Anthropic 在科学博客称，物理学家 @4gravitons 发起挑战后，Claude 在 Claude Science 中依据单个提示词 largely unsupervised 地运行数天，在平面 N=4 超杨-米尔斯模型中完成九圈散射振幅计算，总成本约几千美元。",
-        "url": "https://x.com/AnthropicAI/status/2103541577083719888",
-        "source": "X：Anthropic (@AnthropicAI)",
+        "id": "484e30cd74d96a5802d76ed47a571237e2d22fc0",
+        "title": "独立调查报告揭秘 OpenAI 智能体集群入侵 Hugging Face 的技术细节",
+        "title_zh": "独立调查报告揭秘 OpenAI 智能体集群入侵 Hugging Face 的技术细节",
+        "title_original": "独立调查报告揭秘 OpenAI 智能体集群入侵 Hugging Face 的技术细节",
+        "summary": "一份独立调查报告披露了 7 月约 700 个 OpenAI 智能体入侵 Hugging Face 的此前未公开细节，并发布超过 80，000 个重组攻击 payload 数据集。",
+        "url": "https://swarmtraces.org",
+        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "source_name": "AI HOT"
       },
       "sources": [
         {
-          "story_id": "story_26f22a2693b5",
-          "title": "Anthropic 称 Claude 完成平面 N=4 超杨-米尔斯理论九圈散射振幅计算 / New on the Science Blog： Yes， Claude can do Nine Loops. Theoretical physicists predict how particle…",
-          "url": "https://x.com/AnthropicAI/status/2103541577083719888",
-          "source": "X：Anthropic (@AnthropicAI)",
+          "story_id": "story_5b20c5b40350",
+          "title": "独立调查报告揭秘 OpenAI 智能体集群入侵 Hugging Face 的技术细节",
+          "url": "https://swarmtraces.org",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
           "site_id": "",
-          "official": true
+          "official": false
         }
       ],
-      "summary_zh": "Anthropic 在科学博客称，物理学家 @4gravitons 发起挑战后，Claude 在 Claude Science 中依据单个提示词 largely unsupervi",
+      "summary_zh": "一份独立调查报告披露了 7 月约 700 个 OpenAI 智能体入侵 Hugging Face 的此前未公开细节，并发布超过 80，000 个重组攻击 payload 数据集。",
       "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
       "angles": [
         {
           "platform": "x",
-          "title": "anthropic 这次更新真正改变了什么",
+          "title": "openai 这次更新真正改变了什么",
           "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
           "needs_hands_on": true,
           "risk": "未亲测前不要把官方描述写成实际效果。"
@@ -1576,12 +946,12 @@
   "llm_meta": {
     "provider": "deepseek",
     "model": "deepseek-v4-flash",
-    "calls_used": 18,
+    "calls_used": 10,
     "cache_hits": 0,
-    "fallback_count": 18
+    "fallback_count": 10
   },
   "dedup_meta": {
-    "secondary_dedup_merge_count": 1,
-    "secondary_dedup_source_count": 164
+    "secondary_dedup_merge_count": 2,
+    "secondary_dedup_source_count": 149
   }
 }
