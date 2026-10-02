@@ -1,95 +1,351 @@
 {
-  "edition_id": "2026-10-02-morning",
+  "edition_id": "2026-10-03-morning",
   "edition_kind": "morning",
-  "generated_at": "2026-10-02T01:52:43.564661Z",
+  "generated_at": "2026-10-02T16:04:46.274657Z",
   "timezone": "Asia/Shanghai",
-  "total_items": 15,
+  "total_items": 14,
   "summary": {
-    "confirmed": 10,
-    "single_source": 4,
+    "confirmed": 7,
+    "single_source": 7,
     "early_signal": 0,
-    "rumor": 1,
-    "new": 15,
-    "updated": 0,
+    "rumor": 0,
+    "new": 13,
+    "updated": 1,
     "confirmed_updates": 0
   },
   "items": [
     {
-      "story_id": "story_d47c9b61522f",
-      "creator_event_id": "creator-7cf1d5d353cfb16d",
+      "story_id": "story_14dc0c8581ff",
+      "creator_event_id": "creator-6438116743e64ab6",
       "merged_story_ids": [
-        "story_d47c9b61522f"
+        "story_14dc0c8581ff"
       ],
-      "title": "v2.1.287",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.287",
-      "primary_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.287",
-      "source": "Claude Code Releases",
-      "source_name": "Curated Media",
+      "title": "SecurityAdvisory GraphQL API 的新字段 / New fields for SecurityAdvisory GraphQL API",
+      "url": "https://github.blog/changelog/2026-10-02-new-fields-for-securityadvisory-graphql-api",
+      "primary_url": "https://github.blog/changelog/2026-10-02-new-fields-for-securityadvisory-graphql-api",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
       "source_count": 1,
       "source_names": [
-        "Claude Code Releases"
+        "GitHub Changelog"
       ],
-      "score": 0.62,
-      "importance": 0.62,
-      "importance_score": 0.62,
-      "importance_label": "值得关注",
+      "score": 0.837,
+      "importance": 0.837,
+      "importance_score": 0.837,
+      "importance_label": "官方更新",
       "importance_breakdown": {
-        "editorial": 0.5688,
-        "source_tier": 0.58,
-        "ai_relevance": 0.79,
-        "recency": 0.9099,
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.9614,
         "story_heat": 0.0
       },
-      "category": "watch",
+      "category": "official",
       "reasons": [
-        "recent_ai_signal"
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
       ],
-      "earliest_at": "2026-10-01T18:43:19Z",
-      "latest_at": "2026-10-01T18:43:19Z",
-      "creator_score": 91.9,
+      "earliest_at": "2026-10-02T13:18:00Z",
+      "latest_at": "2026-10-02T13:18:00Z",
+      "creator_score": 90.2,
       "creator_breakdown": {
-        "relevance": 1.0,
-        "freshness": 0.9711,
+        "relevance": 0.88,
+        "freshness": 1.0,
         "source": 1.0,
-        "impact": 0.81,
-        "novelty": 0.85,
-        "heat": 0.367
+        "impact": 0.94,
+        "novelty": 0.75,
+        "heat": 0.4429
       },
       "creator_bucket": "ai_coding",
-      "primary_entity": "claude-code",
       "verification_status": "confirmed",
       "creator_reasons": [
-        "entity:claude-code",
         "ai_coding_terms",
         "workflow_impact",
         "official_or_tier0_source"
       ],
       "change_type": "new",
       "primary_item": {
-        "id": "2acdd71110f8378434d4b6be637727061d1c11c3",
-        "title": "v2.1.287",
-        "title_original": "v2.1.287",
-        "summary": "What's changed\n\nAdded Claude Mods: plugins may now modify deeper behavior\nAdded You should know, a built-in mod where a side agent watches your back and flags things you or Claude might miss. Turn ...\nClaude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands. - Release v2.1.287 · anthropics/claude-code\nWhat&#39;s cha",
-        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.287",
-        "source": "Claude Code Releases",
-        "source_name": "Curated Media"
+        "id": "983d5abca127c992de7dd3b2e4793328644c2a8e",
+        "title": "SecurityAdvisory GraphQL API 的新字段 / New fields for SecurityAdvisory GraphQL API",
+        "title_zh": "SecurityAdvisory GraphQL API 的新字段",
+        "title_en": "New fields for SecurityAdvisory GraphQL API",
+        "title_original": "New fields for SecurityAdvisory GraphQL API",
+        "summary": "You can now read more of the GitHub Advisory Database directly from the GraphQL API without falling back to the REST API. The SecurityAdvisory object gained five new fields: cveId:…\nYou can now read more of the GitHub Advisory Database directly from the GraphQL API without falling back to the REST API.\nThe SecurityAdvisory object gained five new fields:\nThe securityAdvisories query also gained two new filters, severities and isWithdrawn , so you can narrow results on the server instead of downlo",
+        "url": "https://github.blog/changelog/2026-10-02-new-fields-for-securityadvisory-graphql-api",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
       },
       "sources": [
         {
-          "story_id": "story_d47c9b61522f",
-          "title": "v2.1.287",
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.287",
-          "source": "Claude Code Releases",
+          "story_id": "story_14dc0c8581ff",
+          "title": "SecurityAdvisory GraphQL API 的新字段 / New fields for SecurityAdvisory GraphQL API",
+          "url": "https://github.blog/changelog/2026-10-02-new-fields-for-securityadvisory-graphql-api",
+          "source": "GitHub Changelog",
           "site_id": "",
           "official": true
         }
       ],
-      "summary_zh": "What's changed Added Claude Mods: plugins may now modify deeper behavior Added You should ",
+      "summary_zh": "You can now read more of the GitHub Advisory Database directly from the GraphQL API withou",
       "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
       "angles": [
         {
           "platform": "x",
-          "title": "claude-code 这次更新真正改变了什么",
+          "title": "AI Coding 这次更新真正改变了什么",
+          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
+          "needs_hands_on": true,
+          "risk": "未亲测前不要把官方描述写成实际效果。"
+        }
+      ],
+      "enrichment_mode": "rules_fallback"
+    },
+    {
+      "story_id": "story_8251eed32ade",
+      "creator_event_id": "creator-0ae120be61d0c6db",
+      "merged_story_ids": [
+        "story_8251eed32ade"
+      ],
+      "title": "公共预览版中的代码仓库安全咨询评论 API / Repository security advisory comments API in public preview",
+      "url": "https://github.blog/changelog/2026-10-02-repository-security-advisory-comments-api-in-public-preview",
+      "primary_url": "https://github.blog/changelog/2026-10-02-repository-security-advisory-comments-api-in-public-preview",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "score": 0.8369,
+      "importance": 0.8369,
+      "importance_score": 0.8369,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.9608,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-02T13:15:25Z",
+      "latest_at": "2026-10-02T13:15:25Z",
+      "creator_score": 90.2,
+      "creator_breakdown": {
+        "relevance": 0.88,
+        "freshness": 1.0,
+        "source": 1.0,
+        "impact": 0.94,
+        "novelty": 0.75,
+        "heat": 0.4429
+      },
+      "creator_bucket": "ai_coding",
+      "verification_status": "confirmed",
+      "creator_reasons": [
+        "ai_coding_terms",
+        "workflow_impact",
+        "official_or_tier0_source"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "5cb2c95d9b30ba70feb24df708447eb935568270",
+        "title": "公共预览版中的代码仓库安全咨询评论 API / Repository security advisory comments API in public preview",
+        "title_zh": "公共预览版中的代码仓库安全咨询评论 API",
+        "title_en": "Repository security advisory comments API in public preview",
+        "title_original": "Repository security advisory comments API in public preview",
+        "summary": "You can now read, add, and edit comments on repository security advisories using the REST API, including advisories created from private vulnerability reports. Until now, the discussion on an advisory…\nYou can now read, add, and edit comments on repository security advisories using the REST API, including advisories created from private vulnerability reports.\nUntil now, the discussion on an advisory was only reachable in the web UI, even though it often holds the most useful triage context on a ",
+        "url": "https://github.blog/changelog/2026-10-02-repository-security-advisory-comments-api-in-public-preview",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      },
+      "sources": [
+        {
+          "story_id": "story_8251eed32ade",
+          "title": "公共预览版中的代码仓库安全咨询评论 API / Repository security advisory comments API in public preview",
+          "url": "https://github.blog/changelog/2026-10-02-repository-security-advisory-comments-api-in-public-preview",
+          "source": "GitHub Changelog",
+          "site_id": "",
+          "official": true
+        }
+      ],
+      "summary_zh": "You can now read, add, and edit comments on repository security advisories using the REST ",
+      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "AI Coding 这次更新真正改变了什么",
+          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
+          "needs_hands_on": true,
+          "risk": "未亲测前不要把官方描述写成实际效果。"
+        }
+      ],
+      "enrichment_mode": "rules_fallback"
+    },
+    {
+      "story_id": "story_7ba973037a20",
+      "creator_event_id": "creator-aa1bb9f9c5194cec",
+      "merged_story_ids": [
+        "story_7ba973037a20"
+      ],
+      "title": "关于代码仓库安全建议的机密评论 / Confidential comments on repository security advisories",
+      "url": "https://github.blog/changelog/2026-10-02-confidential-comments-on-repository-security-advisories",
+      "primary_url": "https://github.blog/changelog/2026-10-02-confidential-comments-on-repository-security-advisories",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "score": 0.837,
+      "importance": 0.837,
+      "importance_score": 0.837,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.9608,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-02T13:15:40Z",
+      "latest_at": "2026-10-02T13:15:40Z",
+      "creator_score": 88.3,
+      "creator_breakdown": {
+        "relevance": 0.88,
+        "freshness": 1.0,
+        "source": 1.0,
+        "impact": 0.81,
+        "novelty": 0.75,
+        "heat": 0.4429
+      },
+      "creator_bucket": "ai_coding",
+      "verification_status": "confirmed",
+      "creator_reasons": [
+        "ai_coding_terms",
+        "workflow_impact",
+        "official_or_tier0_source"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "75d3ae652733e012708727418c039e9c82d67827",
+        "title": "关于代码仓库安全建议的机密评论 / Confidential comments on repository security advisories",
+        "title_zh": "关于代码仓库安全建议的机密评论",
+        "title_en": "Confidential comments on repository security advisories",
+        "title_original": "Confidential comments on repository security advisories",
+        "summary": "You can now post confidential comments on repository security advisories. Confidential comments are visible only to people with write access to the repository, so you can discuss a report with…\nYou can now post confidential comments on repository security advisories. Confidential comments are visible only to people with write access to the repository, so you can discuss a report with your team without the reporter or other invited collaborators seeing it.\nPreviously, every comment on an advisory",
+        "url": "https://github.blog/changelog/2026-10-02-confidential-comments-on-repository-security-advisories",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      },
+      "sources": [
+        {
+          "story_id": "story_7ba973037a20",
+          "title": "关于代码仓库安全建议的机密评论 / Confidential comments on repository security advisories",
+          "url": "https://github.blog/changelog/2026-10-02-confidential-comments-on-repository-security-advisories",
+          "source": "GitHub Changelog",
+          "site_id": "",
+          "official": true
+        }
+      ],
+      "summary_zh": "You can now post confidential comments on repository security advisories. Confidential com",
+      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "AI Coding 这次更新真正改变了什么",
+          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
+          "needs_hands_on": true,
+          "risk": "未亲测前不要把官方描述写成实际效果。"
+        }
+      ],
+      "enrichment_mode": "rules_fallback"
+    },
+    {
+      "story_id": "story_8929dc6acd37",
+      "creator_event_id": "creator-742a0f899845cb79",
+      "merged_story_ids": [
+        "story_8929dc6acd37"
+      ],
+      "title": "人工智能正在改写开发者的职业阶梯。以下是如何脱颖而出。 / AI is rewriting the developer career ladder. Here’s how to stand out.",
+      "url": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out",
+      "primary_url": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out",
+      "source": "GitHub AI & ML",
+      "source_name": "Official AI Updates",
+      "source_count": 1,
+      "source_names": [
+        "GitHub AI & ML"
+      ],
+      "score": 0.8473,
+      "importance": 0.8473,
+      "importance_score": 0.8473,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.9,
+        "recency": 0.9853,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-02T15:00:00Z",
+      "latest_at": "2026-10-02T15:00:00Z",
+      "creator_score": 80.6,
+      "creator_breakdown": {
+        "relevance": 0.88,
+        "freshness": 1.0,
+        "source": 1.0,
+        "impact": 0.43,
+        "novelty": 0.55,
+        "heat": 0.4466
+      },
+      "creator_bucket": "ai_coding",
+      "verification_status": "confirmed",
+      "creator_reasons": [
+        "ai_coding_terms",
+        "official_or_tier0_source"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "16e311d52410a05b592402e68322476c2a4512bd",
+        "title": "人工智能正在改写开发者的职业阶梯。以下是如何脱颖而出。 / AI is rewriting the developer career ladder. Here’s how to stand out.",
+        "title_zh": "人工智能正在改写开发者的职业阶梯。以下是如何脱颖而出。",
+        "title_en": "AI is rewriting the developer career ladder. Here’s how to stand out.",
+        "title_original": "AI is rewriting the developer career ladder. Here’s how to stand out.",
+        "summary": "Learn three ways to get noticed and grow your career as AI reshapes how developers build software.\nLearn three ways to get noticed and grow your career as AI reshapes how developers build software.\nLearn three ways to get noticed and grow your career as AI reshapes how developers build software.\nAI is changing what it takes to stand out—and move forward—as a developer. Writing code is still essential, but developers increasingly need to know how to direct AI, evaluate its output, communicate tra",
+        "url": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out",
+        "source": "GitHub AI & ML",
+        "source_name": "Official AI Updates"
+      },
+      "sources": [
+        {
+          "story_id": "story_8929dc6acd37",
+          "title": "人工智能正在改写开发者的职业阶梯。以下是如何脱颖而出。 / AI is rewriting the developer career ladder. Here’s how to stand out.",
+          "url": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out",
+          "source": "GitHub AI & ML",
+          "site_id": "",
+          "official": false
+        }
+      ],
+      "summary_zh": "Learn three ways to get noticed and grow your career as AI reshapes how developers build s",
+      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "AI Coding 这次更新真正改变了什么",
           "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
           "needs_hands_on": true,
           "risk": "未亲测前不要把官方描述写成实际效果。"
@@ -99,7 +355,7 @@
     },
     {
       "story_id": "story_f107a55898ee",
-      "creator_event_id": "creator-837080eaf975990d",
+      "creator_event_id": "creator-74e04af3becc6b06",
       "merged_story_ids": [
         "story_f107a55898ee"
       ],
@@ -112,15 +368,15 @@
       "source_names": [
         "GitHub Changelog"
       ],
-      "score": 0.8306,
-      "importance": 0.8306,
-      "importance_score": 0.8306,
+      "score": 0.8002,
+      "importance": 0.8002,
+      "importance_score": 0.8002,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8812,
+        "recency": 0.712,
         "story_heat": 0.0
       },
       "category": "official",
@@ -131,20 +387,18 @@
       ],
       "earliest_at": "2026-10-01T16:30:10Z",
       "latest_at": "2026-10-01T16:30:10Z",
-      "creator_score": 91.6,
+      "creator_score": 79.4,
       "creator_breakdown": {
-        "relevance": 0.95,
-        "freshness": 0.9156,
+        "relevance": 0.88,
+        "freshness": 0.5606,
         "source": 1.0,
-        "impact": 0.94,
-        "novelty": 0.85,
-        "heat": 0.4407
+        "impact": 0.81,
+        "novelty": 0.75,
+        "heat": 0.4301
       },
       "creator_bucket": "ai_coding",
-      "primary_entity": "github-copilot",
       "verification_status": "confirmed",
       "creator_reasons": [
-        "entity:github-copilot",
         "ai_coding_terms",
         "workflow_impact",
         "official_or_tier0_source"
@@ -155,7 +409,6 @@
         "title": "Dynamic workflows in Copilot CLI and the Copilot app",
         "title_en": "Dynamic workflows in Copilot CLI and the Copilot app",
         "title_original": "Dynamic workflows in Copilot CLI and the Copilot app",
-        "summary": "Dynamic workflows are now available in Copilot CLI, the GitHub Copilot app, and the GitHub Copilot SDK. These let you define an orchestration in code to get the reliability and…\nDynamic workflows are now available in Copilot CLI, the GitHub Copilot app, and the GitHub Copilot SDK. These let you define an orchestration in code to get the reliability and observability that complex, multi-agent work demands.\nA dynamic workflow is a program that defines how a task is carried out. It combines automat",
         "url": "https://github.blog/changelog/2026-10-01-dynamic-workflows-in-copilot-cli-and-the-copilot-app",
         "source": "GitHub Changelog",
         "source_name": "Official AI Updates"
@@ -170,262 +423,7 @@
           "official": true
         }
       ],
-      "summary_zh": "Dynamic workflows are now available in Copilot CLI, the GitHub Copilot app, and the GitHub",
-      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "github-copilot 这次更新真正改变了什么",
-          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-          "needs_hands_on": true,
-          "risk": "未亲测前不要把官方描述写成实际效果。"
-        }
-      ],
-      "enrichment_mode": "rules_fallback"
-    },
-    {
-      "story_id": "story_a8a59d3ec43f",
-      "creator_event_id": "creator-829448894e3f22b5",
-      "merged_story_ids": [
-        "story_a8a59d3ec43f"
-      ],
-      "title": "GitHub Copilot can now interact with desktop apps with computer use",
-      "url": "https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps",
-      "primary_url": "https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "score": 0.8369,
-      "importance": 0.8369,
-      "importance_score": 0.8369,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.9161,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-10-01T19:11:26Z",
-      "latest_at": "2026-10-01T19:11:26Z",
-      "creator_score": 91.0,
-      "creator_breakdown": {
-        "relevance": 0.95,
-        "freshness": 0.9828,
-        "source": 1.0,
-        "impact": 0.81,
-        "novelty": 0.85,
-        "heat": 0.4429
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "github-copilot",
-      "verification_status": "confirmed",
-      "creator_reasons": [
-        "entity:github-copilot",
-        "ai_coding_terms",
-        "workflow_impact",
-        "official_or_tier0_source"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "9a48fa6ff9990eabb95b9c383f2b588984b0dbbf",
-        "title": "GitHub Copilot can now interact with desktop apps with computer use",
-        "title_en": "GitHub Copilot can now interact with desktop apps with computer use",
-        "title_original": "GitHub Copilot can now interact with desktop apps with computer use",
-        "summary": "Computer use is now available in public preview in GitHub Copilot CLI and the GitHub Copilot app on macOS and Windows. Copilot can interact with desktop applications on your behalf…\nComputer use is now available in public preview in GitHub Copilot CLI and the GitHub Copilot app on macOS and Windows.\nCopilot can interact with desktop applications on your behalf (e.g., reading accessible app content and visual context, clicking controls, entering and editing text, pressing keys, scrolling, draggin",
-        "url": "https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      },
-      "sources": [
-        {
-          "story_id": "story_a8a59d3ec43f",
-          "title": "GitHub Copilot can now interact with desktop apps with computer use",
-          "url": "https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps",
-          "source": "GitHub Changelog",
-          "site_id": "",
-          "official": true
-        }
-      ],
-      "summary_zh": "Computer use is now available in public preview in GitHub Copilot CLI and the GitHub Copil",
-      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "github-copilot 这次更新真正改变了什么",
-          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-          "needs_hands_on": true,
-          "risk": "未亲测前不要把官方描述写成实际效果。"
-        }
-      ],
-      "enrichment_mode": "rules_fallback"
-    },
-    {
-      "story_id": "story_4360c0773884",
-      "creator_event_id": "creator-26af6875d19e9a1f",
-      "merged_story_ids": [
-        "story_4360c0773884"
-      ],
-      "title": "GitHub Copilot in VS Code, September 2026 releases",
-      "url": "https://github.blog/changelog/2026-10-01-github-copilot-in-vs-code-september-2026-releases",
-      "primary_url": "https://github.blog/changelog/2026-10-01-github-copilot-in-vs-code-september-2026-releases",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "score": 0.8368,
-      "importance": 0.8368,
-      "importance_score": 0.8368,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.9156,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-10-01T19:09:10Z",
-      "latest_at": "2026-10-01T19:09:10Z",
-      "creator_score": 91.0,
-      "creator_breakdown": {
-        "relevance": 0.95,
-        "freshness": 0.9819,
-        "source": 1.0,
-        "impact": 0.81,
-        "novelty": 0.85,
-        "heat": 0.4429
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "github-copilot",
-      "verification_status": "confirmed",
-      "creator_reasons": [
-        "entity:github-copilot",
-        "workflow_impact",
-        "official_or_tier0_source"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "3670b29c6a73e7815010767521ad6c93921fd71a",
-        "title": "GitHub Copilot in VS Code, September 2026 releases",
-        "title_en": "GitHub Copilot in VS Code, September 2026 releases",
-        "title_original": "GitHub Copilot in VS Code, September 2026 releases",
-        "summary": "This changelog covers VS Code v1.136 through v1.140, shipped throughout September 2026. September’s releases streamline agent-driven development from implementation through pull request merge. Automations handle repeatable tasks, agent merge helps…\nThis changelog covers VS Code v1.136 through v1.140 , shipped throughout September 2026.\nSeptember’s releases streamline agent-driven development from implementation through pull request merge. Automations handle repeatable tasks, agent merge helps la",
-        "url": "https://github.blog/changelog/2026-10-01-github-copilot-in-vs-code-september-2026-releases",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      },
-      "sources": [
-        {
-          "story_id": "story_4360c0773884",
-          "title": "GitHub Copilot in VS Code, September 2026 releases",
-          "url": "https://github.blog/changelog/2026-10-01-github-copilot-in-vs-code-september-2026-releases",
-          "source": "GitHub Changelog",
-          "site_id": "",
-          "official": true
-        }
-      ],
-      "summary_zh": "This changelog covers VS Code v1.136 through v1.140, shipped throughout September 2026. Se",
-      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "github-copilot 这次更新真正改变了什么",
-          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-          "needs_hands_on": true,
-          "risk": "未亲测前不要把官方描述写成实际效果。"
-        }
-      ],
-      "enrichment_mode": "rules_fallback"
-    },
-    {
-      "story_id": "story_e4ed42a08a07",
-      "creator_event_id": "creator-f5e664d9a99f7fca",
-      "merged_story_ids": [
-        "story_e4ed42a08a07"
-      ],
-      "title": "Code coverage uploads no longer fail CI for new branches",
-      "url": "https://github.blog/changelog/2026-10-01-code-coverage-uploads-no-longer-fail-ci-for-new-branches",
-      "primary_url": "https://github.blog/changelog/2026-10-01-code-coverage-uploads-no-longer-fail-ci-for-new-branches",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "score": 0.8233,
-      "importance": 0.8233,
-      "importance_score": 0.8233,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.8852,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-10-01T16:49:05Z",
-      "latest_at": "2026-10-01T16:49:05Z",
-      "creator_score": 88.7,
-      "creator_breakdown": {
-        "relevance": 0.88,
-        "freshness": 0.9235,
-        "source": 1.0,
-        "impact": 0.94,
-        "novelty": 0.75,
-        "heat": 0.4382
-      },
-      "creator_bucket": "ai_coding",
-      "verification_status": "confirmed",
-      "creator_reasons": [
-        "ai_coding_terms",
-        "workflow_impact",
-        "official_or_tier0_source"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "08ac06ec77af73913bce3f0971b90477a877cc42",
-        "title": "Code coverage uploads no longer fail CI for new branches",
-        "title_en": "Code coverage uploads no longer fail CI for new branches",
-        "title_original": "Code coverage uploads no longer fail CI for new branches",
-        "summary": "Code coverage uploads from the GitHub Code Quality upload-code-coverage action no longer fail CI when you push a branch that doesn’t yet have an open pull request. Previously, the coverage…\nCode coverage uploads from the GitHub Code Quality upload-code-coverage action no longer fail CI when you push a branch that doesn’t yet have an open pull request.\nPreviously, the coverage API required a pull request number for any push to a non-default branch. Since that number only exists once a pull reques",
-        "url": "https://github.blog/changelog/2026-10-01-code-coverage-uploads-no-longer-fail-ci-for-new-branches",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      },
-      "sources": [
-        {
-          "story_id": "story_e4ed42a08a07",
-          "title": "Code coverage uploads no longer fail CI for new branches",
-          "url": "https://github.blog/changelog/2026-10-01-code-coverage-uploads-no-longer-fail-ci-for-new-branches",
-          "source": "GitHub Changelog",
-          "site_id": "",
-          "official": true
-        }
-      ],
-      "summary_zh": "Code coverage uploads from the GitHub Code Quality upload-code-coverage action no longer f",
+      "summary_zh": "Dynamic workflows in Copilot CLI and the Copilot app",
       "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
       "angles": [
         {
@@ -439,347 +437,12 @@
       "enrichment_mode": "rules_fallback"
     },
     {
-      "story_id": "story_51872f26e434",
-      "creator_event_id": "creator-c636bb3e29fde0fc",
-      "merged_story_ids": [
-        "story_51872f26e434"
-      ],
-      "title": "Artificial Analysis：Claude Sonnet 5.5、GPT-6.1 Sol 与 Gemini 4 Argon 登顶 Coding Agent Index 榜单但成本差异大 / This week Claude Sonnet 5.5, GPT-6.1 Sol and Gemini 4 Argon all launched near the top of the Coding Agent Index leaderboard, but each has...",
-      "url": "https://x.com/ArtificialAnlys/status/2105814318294114720",
-      "primary_url": "https://x.com/ArtificialAnlys/status/2105814318294114720",
-      "source": "X：Artificial Analysis (@ArtificialAnlys)",
-      "source_name": "AI HOT",
-      "source_count": 1,
-      "source_names": [
-        "X：Artificial Analysis (@ArtificialAnlys)"
-      ],
-      "score": 0.7681,
-      "importance": 0.7681,
-      "importance_score": 0.7681,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.73,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.986,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-10-02T00:17:12Z",
-      "latest_at": "2026-10-02T00:17:12Z",
-      "creator_score": 82.7,
-      "creator_breakdown": {
-        "relevance": 1.0,
-        "freshness": 1.0,
-        "source": 0.5,
-        "impact": 0.81,
-        "novelty": 0.85,
-        "heat": 0.4188
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "claude-code",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "entity:claude-code",
-        "ai_coding_terms",
-        "workflow_impact"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "0dde5101f760376bcf6b3203694e0dec223140bd",
-        "title": "Artificial Analysis：Claude Sonnet 5.5、GPT-6.1 Sol 与 Gemini 4 Argon 登顶 Coding Agent Index 榜单但成本差异大 / This week Claude Sonnet 5.5, GPT-6.1 Sol and Gemini 4 Argon all launched near the top of the Coding Agent Index leaderboard, but each has...",
-        "title_zh": "Artificial Analysis：Claude Sonnet 5.5、GPT-6.1 Sol 与 Gemini 4 Argon 登顶 Coding Agent Index 榜单但成本差异大",
-        "title_en": "This week Claude Sonnet 5.5, GPT-6.1 Sol and Gemini 4 Argon all launched near the top of the Coding Agent Index leaderboard, but each has...",
-        "title_original": "This week Claude Sonnet 5.5, GPT-6.1 Sol and Gemini 4 Argon all launched near the top of the Coding Agent Index leaderboard, but each has...",
-        "summary": "Artificial Analysis 发布 Coding Agent Index 榜单，Claude Sonnet 5.5 (max) 在 Claude Code 以 68 分居首，但每任务成本最高达 $14.19。",
-        "url": "https://x.com/ArtificialAnlys/status/2105814318294114720",
-        "source": "X：Artificial Analysis (@ArtificialAnlys)",
-        "source_name": "AI HOT"
-      },
-      "sources": [
-        {
-          "story_id": "story_51872f26e434",
-          "title": "Artificial Analysis：Claude Sonnet 5.5、GPT-6.1 Sol 与 Gemini 4 Argon 登顶 Coding Agent Index 榜单但成本差异大 / This week Claude Sonnet 5.5, GPT-6.1 Sol and Gemini 4 Argon all launched near the top of the Coding Agent Index leaderboard, but each has...",
-          "url": "https://x.com/ArtificialAnlys/status/2105814318294114720",
-          "source": "X：Artificial Analysis (@ArtificialAnlys)",
-          "site_id": "",
-          "official": false
-        }
-      ],
-      "summary_zh": "Artificial Analysis 发布 Coding Agent Index 榜单，Claude Sonnet 5.5 (max) 在 Claude Code 以 68 分居",
-      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "claude-code 这次更新真正改变了什么",
-          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-          "needs_hands_on": true,
-          "risk": "未亲测前不要把官方描述写成实际效果。"
-        }
-      ],
-      "enrichment_mode": "rules_fallback"
-    },
-    {
-      "story_id": "story_5548434c147f",
-      "creator_event_id": "creator-62065deed1c3846c",
-      "merged_story_ids": [
-        "story_5548434c147f"
-      ],
-      "title": "Claude Code mods 入门教程：从零构建 Token Weather 上下文窗口预报插件 / Getting started with Claude Code mods",
-      "url": "https://claude.dev/blog/getting-started-with-claude-code-mods",
-      "primary_url": "https://claude.dev/blog/getting-started-with-claude-code-mods",
-      "source": "Anthropic：Claude.dev 开发者博客（RSS）",
-      "source_name": "AI HOT",
-      "source_count": 1,
-      "source_names": [
-        "Anthropic：Claude.dev 开发者博客（RSS）"
-      ],
-      "score": 0.7242,
-      "importance": 0.7242,
-      "importance_score": 0.7242,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.68,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8257,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-10-01T12:00:00Z",
-      "latest_at": "2026-10-01T12:00:00Z",
-      "creator_score": 81.0,
-      "creator_breakdown": {
-        "relevance": 1.0,
-        "freshness": 0.803,
-        "source": 1.0,
-        "impact": 0.43,
-        "novelty": 0.65,
-        "heat": 0.4035
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "claude-code",
-      "verification_status": "confirmed",
-      "creator_reasons": [
-        "entity:claude-code",
-        "ai_coding_terms",
-        "official_or_tier0_source"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "c7ec9dce9a21dbd241c0fd74bfe26b174b11d1da",
-        "title": "Claude Code mods 入门教程：从零构建 Token Weather 上下文窗口预报插件 / Getting started with Claude Code mods",
-        "title_zh": "Claude Code mods 入门教程：从零构建 Token Weather 上下文窗口预报插件",
-        "title_en": "Getting started with Claude Code mods",
-        "title_original": "Getting started with Claude Code mods",
-        "summary": "这篇 Claude Code 官方开发者教程介绍 mods，即以 hooks 形式运行在插件内的 JavaScript 或 TypeScript 模块，可以观察、重写或拒绝事件，甚至绘制自定义 UI，需 Claude Code 2.1.287 或更高版本。",
-        "url": "https://claude.dev/blog/getting-started-with-claude-code-mods",
-        "source": "Anthropic：Claude.dev 开发者博客（RSS）",
-        "source_name": "AI HOT"
-      },
-      "sources": [
-        {
-          "story_id": "story_5548434c147f",
-          "title": "Claude Code mods 入门教程：从零构建 Token Weather 上下文窗口预报插件 / Getting started with Claude Code mods",
-          "url": "https://claude.dev/blog/getting-started-with-claude-code-mods",
-          "source": "Anthropic：Claude.dev 开发者博客（RSS）",
-          "site_id": "",
-          "official": true
-        }
-      ],
-      "summary_zh": "这篇 Claude Code 官方开发者教程介绍 mods，即以 hooks 形式运行在插件内的 JavaScript 或 TypeScript 模块，可以观察、重写或拒绝事件，甚",
-      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "claude-code 这次更新真正改变了什么",
-          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-          "needs_hands_on": true,
-          "risk": "未亲测前不要把官方描述写成实际效果。"
-        }
-      ],
-      "enrichment_mode": "rules_fallback"
-    },
-    {
-      "story_id": "story_692907dc8e4e",
-      "creator_event_id": "creator-1d2be98a2040b041",
-      "merged_story_ids": [
-        "story_692907dc8e4e"
-      ],
-      "title": "NVIDIA 介绍 Blackwell GPU 如何加速 OpenAI GPT-6 Astra Ultrafast / How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
-      "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast",
-      "primary_url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast",
-      "source": "NVIDIA Blog（RSS）",
-      "source_name": "AI HOT",
-      "source_count": 1,
-      "source_names": [
-        "NVIDIA Blog（RSS）"
-      ],
-      "score": 0.7547,
-      "importance": 0.7547,
-      "importance_score": 0.7547,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.69,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9782,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-10-01T23:44:13Z",
-      "latest_at": "2026-10-01T23:44:13Z",
-      "creator_score": 79.1,
-      "creator_breakdown": {
-        "relevance": 0.88,
-        "freshness": 1.0,
-        "source": 0.5,
-        "impact": 0.81,
-        "novelty": 0.85,
-        "heat": 0.4141
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "openai",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "entity:openai",
-        "ai_coding_terms",
-        "workflow_impact"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "e874f23f6b419b05e0da8c0a5789ba4223e709f9",
-        "title": "NVIDIA 介绍 Blackwell GPU 如何加速 OpenAI GPT-6 Astra Ultrafast / How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
-        "title_zh": "NVIDIA 介绍 Blackwell GPU 如何加速 OpenAI GPT-6 Astra Ultrafast",
-        "title_en": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
-        "title_original": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
-        "summary": "GPT-6 Astra Ultrafast 现已在 OpenAI API 及符合条件的 ChatGPT Work 和 Codex 用户中可用，运行在 NVIDIA Blackwell GPU 上。",
-        "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast",
-        "source": "NVIDIA Blog（RSS）",
-        "source_name": "AI HOT"
-      },
-      "sources": [
-        {
-          "story_id": "story_692907dc8e4e",
-          "title": "NVIDIA 介绍 Blackwell GPU 如何加速 OpenAI GPT-6 Astra Ultrafast / How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
-          "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast",
-          "source": "NVIDIA Blog（RSS）",
-          "site_id": "",
-          "official": false
-        }
-      ],
-      "summary_zh": "GPT-6 Astra Ultrafast 现已在 OpenAI API 及符合条件的 ChatGPT Work 和 Codex 用户中可用，运行在 NVIDIA Blackwel",
-      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "openai 这次更新真正改变了什么",
-          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-          "needs_hands_on": true,
-          "risk": "未亲测前不要把官方描述写成实际效果。"
-        }
-      ],
-      "enrichment_mode": "rules_fallback"
-    },
-    {
-      "story_id": "story_c3a20fe0c45e",
-      "creator_event_id": "creator-b3e5e27e9b4e7837",
-      "merged_story_ids": [
-        "story_c3a20fe0c45e"
-      ],
-      "title": "Etymon – Get rid of all your Claude.md, AGENTS.md, cursor/rules, mcp.json, etc.",
-      "url": "https://github.com/landoncrabtree/etymon",
-      "primary_url": "https://github.com/landoncrabtree/etymon",
-      "source": "HN Algolia · AI 24h",
-      "source_name": "Hacker News",
-      "source_count": 1,
-      "source_names": [
-        "HN Algolia · AI 24h"
-      ],
-      "score": 0.5067,
-      "importance": 0.5067,
-      "importance_score": 0.5067,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9215,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-10-01T19:35:49Z",
-      "latest_at": "2026-10-01T19:35:49Z",
-      "creator_score": 76.0,
-      "creator_breakdown": {
-        "relevance": 1.0,
-        "freshness": 0.993,
-        "source": 0.58,
-        "impact": 0.43,
-        "novelty": 0.65,
-        "heat": 0.3273
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "cursor",
-      "verification_status": "rumor",
-      "creator_reasons": [
-        "entity:cursor",
-        "ai_coding_terms"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "072de33aa5eab998f6cb7a9db37be04da947a6a2",
-        "title": "Etymon – Get rid of all your Claude.md, AGENTS.md, cursor/rules, mcp.json, etc.",
-        "title_en": "Etymon – Get rid of all your Claude.md, AGENTS.md, cursor/rules, mcp.json, etc.",
-        "title_original": "Etymon – Get rid of all your Claude.md, AGENTS.md, cursor/rules, mcp.json, etc.",
-        "url": "https://github.com/landoncrabtree/etymon",
-        "source": "HN Algolia · AI 24h",
-        "source_name": "Hacker News"
-      },
-      "sources": [
-        {
-          "story_id": "story_c3a20fe0c45e",
-          "title": "Etymon – Get rid of all your Claude.md, AGENTS.md, cursor/rules, mcp.json, etc.",
-          "url": "https://github.com/landoncrabtree/etymon",
-          "source": "HN Algolia · AI 24h",
-          "site_id": "",
-          "official": false
-        }
-      ],
-      "summary_zh": "Etymon – Get rid of all your Claude.md, AGENTS.md, cursor/rules, mcp.json, etc.",
-      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "cursor 这次更新真正改变了什么",
-          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-          "needs_hands_on": true,
-          "risk": "未亲测前不要把官方描述写成实际效果。"
-        }
-      ],
-      "enrichment_mode": "rules_fallback"
-    },
-    {
       "story_id": "story_fd2c0d323a62",
-      "creator_event_id": "creator-a693eb3948e604b7",
+      "creator_event_id": "creator-6b6f9d2e53ab8247",
       "merged_story_ids": [
         "story_fd2c0d323a62"
       ],
-      "title": "Pi 1.0 released - MCP support now included by default",
+      "title": "Pi 1.0 发布 - 现在默认包含 MCP 支持 / Pi 1.0 released - MCP support now included by default",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvffcr/pi_10_released_mcp_support_now_included_by_default",
       "primary_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvffcr/pi_10_released_mcp_support_now_included_by_default",
       "source": "r/LocalLLaMA",
@@ -788,15 +451,15 @@
       "source_names": [
         "r/LocalLLaMA"
       ],
-      "score": 0.5825,
-      "importance": 0.5825,
-      "importance_score": 0.5825,
+      "score": 0.5485,
+      "importance": 0.5485,
+      "importance_score": 0.5485,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.5112,
         "source_tier": 0.5,
         "ai_relevance": 0.71,
-        "recency": 0.9841,
+        "recency": 0.7951,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -805,26 +468,28 @@
       ],
       "earliest_at": "2026-10-02T00:09:04Z",
       "latest_at": "2026-10-02T00:09:04Z",
-      "creator_score": 75.7,
+      "creator_score": 78.4,
       "creator_breakdown": {
         "relevance": 0.9,
-        "freshness": 1.0,
+        "freshness": 0.7518,
         "source": 0.7,
-        "impact": 0.43,
-        "novelty": 0.65,
-        "heat": 0.3539
+        "impact": 0.81,
+        "novelty": 0.85,
+        "heat": 0.342
       },
       "creator_bucket": "ai_coding",
       "primary_entity": "mcp",
       "verification_status": "single_source",
       "creator_reasons": [
         "entity:mcp",
-        "ai_coding_terms"
+        "ai_coding_terms",
+        "workflow_impact"
       ],
       "change_type": "new",
       "primary_item": {
         "id": "18e68179ab6f0a048533f89f30e5e326851f5bb8",
-        "title": "Pi 1.0 released - MCP support now included by default",
+        "title": "Pi 1.0 发布 - 现在默认包含 MCP 支持 / Pi 1.0 released - MCP support now included by default",
+        "title_zh": "Pi 1.0 发布 - 现在默认包含 MCP 支持",
         "title_en": "Pi 1.0 released - MCP support now included by default",
         "title_original": "Pi 1.0 released - MCP support now included by default",
         "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvffcr/pi_10_released_mcp_support_now_included_by_default",
@@ -834,14 +499,14 @@
       "sources": [
         {
           "story_id": "story_fd2c0d323a62",
-          "title": "Pi 1.0 released - MCP support now included by default",
+          "title": "Pi 1.0 发布 - 现在默认包含 MCP 支持 / Pi 1.0 released - MCP support now included by default",
           "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wvffcr/pi_10_released_mcp_support_now_included_by_default",
           "source": "r/LocalLLaMA",
           "site_id": "",
           "official": false
         }
       ],
-      "summary_zh": "Pi 1.0 released - MCP support now included by default",
+      "summary_zh": "Pi 1.0 发布 - 现在默认包含 MCP 支持 / Pi 1.0 released - MCP support now included by default",
       "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
       "angles": [
         {
@@ -855,77 +520,73 @@
       "enrichment_mode": "rules_fallback"
     },
     {
-      "story_id": "story_a804da4308ce",
-      "creator_event_id": "creator-cb06cf7c28a67d3a",
+      "story_id": "story_66b6fcda7749",
+      "creator_event_id": "creator-d763022742a37d3a",
       "merged_story_ids": [
-        "story_a804da4308ce"
+        "story_66b6fcda7749"
       ],
-      "title": "Claude Code 推出 mods 功能，可用 TypeScript 定制行为与 UI / You can now mod Claude Code:",
-      "url": "https://x.com/ClaudeDevs/status/2105721434807083061",
-      "primary_url": "https://x.com/ClaudeDevs/status/2105721434807083061",
-      "source": "X：Claude Devs (@ClaudeDevs)",
-      "source_name": "AI HOT",
+      "title": "Claude Code 三大配置体系详解：settings.json / CLAUDE.md / memory",
+      "url": "https://juejin.cn/post/7690888878326087721",
+      "primary_url": "https://juejin.cn/post/7690888878326087721",
+      "source": "juejin",
+      "source_name": "NewsNow",
       "source_count": 1,
       "source_names": [
-        "X：Claude Devs (@ClaudeDevs)"
+        "juejin"
       ],
-      "score": 0.7834,
-      "importance": 0.7834,
-      "importance_score": 0.7834,
-      "importance_label": "官方更新",
+      "score": 0.5196,
+      "importance": 0.5196,
+      "importance_score": 0.5196,
+      "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.67,
-        "source_tier": 1.0,
-        "ai_relevance": 1.0,
-        "recency": 0.9022,
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9933,
         "story_heat": 0.0
       },
-      "category": "official",
+      "category": "watch",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "recent_ai_signal"
       ],
-      "earliest_at": "2026-10-01T18:08:07Z",
-      "latest_at": "2026-10-01T18:08:07Z",
-      "creator_score": 74.2,
+      "earliest_at": "2026-10-02T15:33:38.037000Z",
+      "latest_at": "2026-10-02T15:33:38.037000Z",
+      "creator_score": 74.6,
       "creator_breakdown": {
         "relevance": 1.0,
-        "freshness": 0.9564,
+        "freshness": 1.0,
         "source": 0.5,
         "impact": 0.43,
         "novelty": 0.65,
-        "heat": 0.4242
+        "heat": 0.3319
       },
       "creator_bucket": "ai_coding",
       "primary_entity": "claude-code",
       "verification_status": "single_source",
       "creator_reasons": [
-        "entity:claude-code",
-        "ai_coding_terms"
+        "entity:claude-code"
       ],
       "change_type": "new",
       "primary_item": {
-        "id": "7db0975ce244f1da554a8f5de278328282e7d7a1",
-        "title": "Claude Code 推出 mods 功能，可用 TypeScript 定制行为与 UI / You can now mod Claude Code:",
-        "title_zh": "Claude Code 推出 mods 功能，可用 TypeScript 定制行为与 UI",
-        "title_en": "You can now mod Claude Code:",
-        "title_original": "You can now mod Claude Code:",
-        "summary": "Claude Code 推出 mods 功能，支持修改模型行为、自定义 UI 并替换自有功能。用几行 TypeScript 即可编写，也可由 Claude 代为构建；mods 随插件分发，可在 CLI 或桌面应用中通过 /plugin 安装。",
-        "url": "https://x.com/ClaudeDevs/status/2105721434807083061",
-        "source": "X：Claude Devs (@ClaudeDevs)",
-        "source_name": "AI HOT"
+        "id": "d1565492c279527d9186ade1dbd7e67da6433318",
+        "title": "Claude Code 三大配置体系详解：settings.json / CLAUDE.md / memory",
+        "title_zh": "Claude Code 三大配置体系详解：settings.json / CLAUDE.md / memory",
+        "title_original": "Claude Code 三大配置体系详解：settings.json / CLAUDE.md / memory",
+        "url": "https://juejin.cn/post/7690888878326087721",
+        "source": "juejin",
+        "source_name": "NewsNow"
       },
       "sources": [
         {
-          "story_id": "story_a804da4308ce",
-          "title": "Claude Code 推出 mods 功能，可用 TypeScript 定制行为与 UI / You can now mod Claude Code:",
-          "url": "https://x.com/ClaudeDevs/status/2105721434807083061",
-          "source": "X：Claude Devs (@ClaudeDevs)",
+          "story_id": "story_66b6fcda7749",
+          "title": "Claude Code 三大配置体系详解：settings.json / CLAUDE.md / memory",
+          "url": "https://juejin.cn/post/7690888878326087721",
+          "source": "juejin",
           "site_id": "",
           "official": false
         }
       ],
-      "summary_zh": "Claude Code 推出 mods 功能，支持修改模型行为、自定义 UI 并替换自有功能。用几行 TypeScript 即可编写，也可由 Claude 代为构建；mods 随插",
+      "summary_zh": "Claude Code 三大配置体系详解：settings.json / CLAUDE.md / memory",
       "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
       "angles": [
         {
@@ -939,30 +600,111 @@
       "enrichment_mode": "rules_fallback"
     },
     {
-      "story_id": "story_2b054efbb49a",
-      "creator_event_id": "creator-ff76cf7ac372c2b0",
+      "story_id": "story_750e4822d3c2",
+      "creator_event_id": "creator-c2cbbe61a0a6bbe2",
       "merged_story_ids": [
-        "story_2b054efbb49a",
-        "story_025446a84602"
+        "story_750e4822d3c2"
       ],
-      "title": "Rate limits for private vulnerability reports",
-      "url": "https://github.blog/changelog/2026-10-01-rate-limits-for-private-vulnerability-reports",
-      "primary_url": "https://github.blog/changelog/2026-10-01-rate-limits-for-private-vulnerability-reports",
-      "source": "GitHub Changelog",
+      "title": "Windows 下 Claude Code 落地全指南：从安装配置到避坑优化",
+      "url": "https://juejin.cn/post/7690784318688804914",
+      "primary_url": "https://juejin.cn/post/7690784318688804914",
+      "source": "juejin",
+      "source_name": "NewsNow",
+      "source_count": 1,
+      "source_names": [
+        "juejin"
+      ],
+      "score": 0.5196,
+      "importance": 0.5196,
+      "importance_score": 0.5196,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9933,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-10-02T15:33:38.037000Z",
+      "latest_at": "2026-10-02T15:33:38.037000Z",
+      "creator_score": 74.6,
+      "creator_breakdown": {
+        "relevance": 1.0,
+        "freshness": 1.0,
+        "source": 0.5,
+        "impact": 0.43,
+        "novelty": 0.65,
+        "heat": 0.3319
+      },
+      "creator_bucket": "ai_coding",
+      "primary_entity": "claude-code",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "entity:claude-code"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "11f8bb0abd4a90a9bd25e16508ec6a55a389f36b",
+        "title": "Windows 下 Claude Code 落地全指南：从安装配置到避坑优化",
+        "title_zh": "Windows 下 Claude Code 落地全指南：从安装配置到避坑优化",
+        "title_original": "Windows 下 Claude Code 落地全指南：从安装配置到避坑优化",
+        "url": "https://juejin.cn/post/7690784318688804914",
+        "source": "juejin",
+        "source_name": "NewsNow"
+      },
+      "sources": [
+        {
+          "story_id": "story_750e4822d3c2",
+          "title": "Windows 下 Claude Code 落地全指南：从安装配置到避坑优化",
+          "url": "https://juejin.cn/post/7690784318688804914",
+          "source": "juejin",
+          "site_id": "",
+          "official": false
+        }
+      ],
+      "summary_zh": "Windows 下 Claude Code 落地全指南：从安装配置到避坑优化",
+      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "claude-code 这次更新真正改变了什么",
+          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
+          "needs_hands_on": true,
+          "risk": "未亲测前不要把官方描述写成实际效果。"
+        }
+      ],
+      "enrichment_mode": "rules_fallback"
+    },
+    {
+      "story_id": "story_2e2e433e3cb1",
+      "creator_event_id": "creator-4d8e271fe7aa9d09",
+      "merged_story_ids": [
+        "story_2e2e433e3cb1",
+        "story_889ed4512025"
+      ],
+      "title": "开源 AstaBrief，Asta 中的快速报告生成模型 / Open-sourcing AstaBrief, the fast report-generation model in Asta",
+      "url": "https://huggingface.co/blog/allenai/astabrief",
+      "primary_url": "https://huggingface.co/blog/allenai/astabrief",
+      "source": "Hugging Face Blog",
       "source_name": "Official AI Updates",
       "source_count": 2,
       "source_names": [
-        "GitHub Changelog"
+        "Hugging Face Blog",
+        "Ai2 / Allen Institute for AI（RSS）"
       ],
-      "score": 0.8307,
-      "importance": 0.8307,
-      "importance_score": 0.8307,
+      "score": 0.8582,
+      "importance": 0.8582,
+      "importance_score": 0.8582,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.9263,
+        "ai_relevance": 0.95,
+        "recency": 0.99,
         "story_heat": 0.0
       },
       "category": "official",
@@ -971,16 +713,16 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-10-01T19:57:39Z",
-      "latest_at": "2026-10-01T19:57:39Z",
-      "creator_score": 75.8,
+      "earliest_at": "2026-10-02T15:19:50Z",
+      "latest_at": "2026-10-02T15:19:50Z",
+      "creator_score": 74.2,
       "creator_breakdown": {
-        "relevance": 0.4907,
+        "relevance": 0.5004,
         "freshness": 1.0,
         "source": 1.0,
-        "impact": 0.76,
+        "impact": 0.63,
         "novelty": 0.75,
-        "heat": 0.4407
+        "heat": 0.4504
       },
       "creator_bucket": "general_ai",
       "verification_status": "confirmed",
@@ -990,34 +732,35 @@
       ],
       "change_type": "new",
       "primary_item": {
-        "id": "147a12f68e228f02b3cdd09aa33db76f7995db74",
-        "title": "Rate limits for private vulnerability reports",
-        "title_en": "Rate limits for private vulnerability reports",
-        "title_original": "Rate limits for private vulnerability reports",
-        "summary": "Open source maintainers are receiving more low-quality and automated vulnerability reports, which can bury the reports that matter. Rate limits cap how many new reports a single account can submit…\nOpen source maintainers are receiving more low-quality and automated vulnerability reports, which can bury the reports that matter. Rate limits cap how many new reports a single account can submit in a day, both to your repository and across GitHub. This helps protect you from bulk and automated submi",
-        "url": "https://github.blog/changelog/2026-10-01-rate-limits-for-private-vulnerability-reports",
-        "source": "GitHub Changelog",
+        "id": "48ab6be8be1ae5fa20bc6b26fcfcc2f5fdadf96d",
+        "title": "开源 AstaBrief，Asta 中的快速报告生成模型 / Open-sourcing AstaBrief, the fast report-generation model in Asta",
+        "title_zh": "开源 AstaBrief，Asta 中的快速报告生成模型",
+        "title_en": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+        "title_original": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+        "summary": "A Blog post by Ai2 on Hugging Face\nA Blog post by Ai2 on Hugging Face\nTraining the model Collecting SFT training data Creating DPO pairs Filtering data for better attribution Validating the approach Where this goes next 🤗 Model | 📊 Data\nLanguage models can already help researchers search the literature, synthesize evidence, and work through complex questions. But scientific work places particular demands on these models—answers need to stay grounded in evidence, the models need to preserve what ",
+        "url": "https://huggingface.co/blog/allenai/astabrief",
+        "source": "Hugging Face Blog",
         "source_name": "Official AI Updates"
       },
       "sources": [
         {
-          "story_id": "story_2b054efbb49a",
-          "title": "Rate limits for private vulnerability reports",
-          "url": "https://github.blog/changelog/2026-10-01-rate-limits-for-private-vulnerability-reports",
-          "source": "GitHub Changelog",
+          "story_id": "story_2e2e433e3cb1",
+          "title": "开源 AstaBrief，Asta 中的快速报告生成模型 / Open-sourcing AstaBrief, the fast report-generation model in Asta",
+          "url": "https://huggingface.co/blog/allenai/astabrief",
+          "source": "Hugging Face Blog",
           "site_id": "",
           "official": true
         },
         {
-          "story_id": "story_025446a84602",
-          "title": "Structured forms for private vulnerability reports",
-          "url": "https://github.blog/changelog/2026-10-01-structured-forms-for-private-vulnerability-reports",
-          "source": "GitHub Changelog",
+          "story_id": "story_889ed4512025",
+          "title": "Ai2 开源 8B 科学报告生成模型 AstaBrief / Open-sourcing AstaBrief, the fast report-generation model in Asta",
+          "url": "https://allenai.org/blog/astabrief",
+          "source": "Ai2 / Allen Institute for AI（RSS）",
           "site_id": "",
-          "official": true
+          "official": false
         }
       ],
-      "summary_zh": "Open source maintainers are receiving more low-quality and automated vulnerability reports",
+      "summary_zh": "A Blog post by Ai2 on Hugging Face A Blog post by Ai2 on Hugging Face Training the model C",
       "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
       "angles": [
         {
@@ -1031,29 +774,29 @@
       "enrichment_mode": "rules_fallback"
     },
     {
-      "story_id": "story_0b2fa78755e5",
-      "creator_event_id": "creator-852eaa948fc70c87",
+      "story_id": "story_79c5530db8f1",
+      "creator_event_id": "creator-e49ad0b0ca813b94",
       "merged_story_ids": [
-        "story_0b2fa78755e5"
+        "story_79c5530db8f1"
       ],
-      "title": "GitHub Actions: macOS 14 runner image retirement",
-      "url": "https://github.blog/changelog/2026-10-01-github-actions-macos-14-runner-image-retirement",
-      "primary_url": "https://github.blog/changelog/2026-10-01-github-actions-macos-14-runner-image-retirement",
-      "source": "GitHub Changelog",
+      "title": "我们于 2026 年 9 月公布的最新 AI 新闻 / The latest AI news we announced in September 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026",
+      "primary_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026",
+      "source": "Google AI Blog",
       "source_name": "Official AI Updates",
       "source_count": 1,
       "source_names": [
-        "GitHub Changelog"
+        "Google AI Blog"
       ],
-      "score": 0.8289,
-      "importance": 0.8289,
-      "importance_score": 0.8289,
+      "score": 0.8413,
+      "importance": 0.8413,
+      "importance_score": 0.8413,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9161,
+        "recency": 0.9853,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1062,211 +805,372 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-10-01T19:11:23Z",
-      "latest_at": "2026-10-01T19:11:23Z",
-      "creator_score": 73.5,
-      "creator_breakdown": {
-        "relevance": 0.4901,
-        "freshness": 0.9828,
-        "source": 1.0,
-        "impact": 0.63,
-        "novelty": 0.75,
-        "heat": 0.4401
-      },
-      "creator_bucket": "general_ai",
-      "verification_status": "confirmed",
-      "creator_reasons": [
-        "workflow_impact",
-        "official_or_tier0_source"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "05254a7af6bf234c903a7d53a1f88986f2d1af5a",
-        "title": "GitHub Actions: macOS 14 runner image retirement",
-        "title_en": "GitHub Actions: macOS 14 runner image retirement",
-        "title_original": "GitHub Actions: macOS 14 runner image retirement",
-        "summary": "The macOS 14 runner image will be retired on November 2, 2026. To raise awareness of the upcoming removal, jobs using macOS 14 will temporarily fail during the following scheduled…\nThe macOS 14 runner image will be retired on November 2, 2026. To raise awareness of the upcoming removal, jobs using macOS 14 will temporarily fail during the following scheduled brownout periods:\nThis deprecation includes the following labels:\nDuring the lead-up to retirement, GitHub may reduce macOS 14 runner capac",
-        "url": "https://github.blog/changelog/2026-10-01-github-actions-macos-14-runner-image-retirement",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      },
-      "sources": [
-        {
-          "story_id": "story_0b2fa78755e5",
-          "title": "GitHub Actions: macOS 14 runner image retirement",
-          "url": "https://github.blog/changelog/2026-10-01-github-actions-macos-14-runner-image-retirement",
-          "source": "GitHub Changelog",
-          "site_id": "",
-          "official": true
-        }
-      ],
-      "summary_zh": "The macOS 14 runner image will be retired on November 2, 2026. To raise awareness of the u",
-      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "AI Coding 这次更新真正改变了什么",
-          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-          "needs_hands_on": true,
-          "risk": "未亲测前不要把官方描述写成实际效果。"
-        }
-      ],
-      "enrichment_mode": "rules_fallback"
-    },
-    {
-      "story_id": "story_be7b746442ad",
-      "creator_event_id": "creator-c4bc7d741a4214c5",
-      "merged_story_ids": [
-        "story_be7b746442ad"
-      ],
-      "title": "Accessibility statements highlighted on repository overview",
-      "url": "https://github.blog/changelog/2026-10-01-accessibility-statements-highlighted-on-repository-overview",
-      "primary_url": "https://github.blog/changelog/2026-10-01-accessibility-statements-highlighted-on-repository-overview",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "score": 0.8286,
-      "importance": 0.8286,
-      "importance_score": 0.8286,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.9145,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-10-01T19:04:32Z",
-      "latest_at": "2026-10-01T19:04:32Z",
-      "creator_score": 73.4,
-      "creator_breakdown": {
-        "relevance": 0.49,
-        "freshness": 0.9799,
-        "source": 1.0,
-        "impact": 0.63,
-        "novelty": 0.75,
-        "heat": 0.44
-      },
-      "creator_bucket": "general_ai",
-      "verification_status": "confirmed",
-      "creator_reasons": [
-        "workflow_impact",
-        "official_or_tier0_source"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "f3074555f3facc02020dd6d7e8ef078c96c866f9",
-        "title": "Accessibility statements highlighted on repository overview",
-        "title_en": "Accessibility statements highlighted on repository overview",
-        "title_original": "Accessibility statements highlighted on repository overview",
-        "summary": "You can now find an ACCESSIBILITY.md file in your repository’s root, the .github/ directory, or the docs/ directory highlighted on the repository overview. You can also add or propose an…\nYou can now find an ACCESSIBILITY.md file in your repository’s root, the .github/ directory, or the docs/ directory highlighted on the repository overview. You can also add or propose an accessibility statement from a public repository’s Community Standards page.\nThis improvement is available on all GitHub plan",
-        "url": "https://github.blog/changelog/2026-10-01-accessibility-statements-highlighted-on-repository-overview",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      },
-      "sources": [
-        {
-          "story_id": "story_be7b746442ad",
-          "title": "Accessibility statements highlighted on repository overview",
-          "url": "https://github.blog/changelog/2026-10-01-accessibility-statements-highlighted-on-repository-overview",
-          "source": "GitHub Changelog",
-          "site_id": "",
-          "official": true
-        }
-      ],
-      "summary_zh": "You can now find an ACCESSIBILITY.md file in your repository’s root, the .github/ director",
-      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "AI Coding 这次更新真正改变了什么",
-          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-          "needs_hands_on": true,
-          "risk": "未亲测前不要把官方描述写成实际效果。"
-        }
-      ],
-      "enrichment_mode": "rules_fallback"
-    },
-    {
-      "story_id": "story_d6a6f0dfce45",
-      "creator_event_id": "creator-db47787448c0e6d1",
-      "merged_story_ids": [
-        "story_d6a6f0dfce45"
-      ],
-      "title": "Actions retention now covers checks, runs, and statuses",
-      "url": "https://github.blog/changelog/2026-10-01-actions-retention-now-covers-checks-runs-and-statuses",
-      "primary_url": "https://github.blog/changelog/2026-10-01-actions-retention-now-covers-checks-runs-and-statuses",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "score": 0.8261,
-      "importance": 0.8261,
-      "importance_score": 0.8261,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.9004,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-10-01T17:59:54Z",
-      "latest_at": "2026-10-01T17:59:54Z",
+      "earliest_at": "2026-10-02T15:00:00Z",
+      "latest_at": "2026-10-02T15:00:00Z",
       "creator_score": 72.9,
       "creator_breakdown": {
-        "relevance": 0.4891,
-        "freshness": 0.953,
+        "relevance": 0.68,
+        "freshness": 1.0,
         "source": 1.0,
-        "impact": 0.63,
-        "novelty": 0.75,
-        "heat": 0.4391
+        "impact": 0.25,
+        "novelty": 0.65,
+        "heat": 0.4445
       },
       "creator_bucket": "general_ai",
+      "primary_entity": "gemini",
       "verification_status": "confirmed",
       "creator_reasons": [
-        "workflow_impact",
+        "entity:gemini",
         "official_or_tier0_source"
       ],
       "change_type": "new",
       "primary_item": {
-        "id": "bd680e642074865eae97e27770212465ae6180e3",
-        "title": "Actions retention now covers checks, runs, and statuses",
-        "title_en": "Actions retention now covers checks, runs, and statuses",
-        "title_original": "Actions retention now covers checks, runs, and statuses",
-        "summary": "As previously announced, checks, workflow runs, and statuses are now governed by the same GitHub Actions retention setting that controls how long artifacts and logs are kept. These records are…\nAs previously announced , checks, workflow runs, and statuses are now governed by the same GitHub Actions retention setting that controls how long artifacts and logs are kept.\nThese records are automatically cleaned up when they exceed the retention period configured for your enterprise, organization, or ",
-        "url": "https://github.blog/changelog/2026-10-01-actions-retention-now-covers-checks-runs-and-statuses",
-        "source": "GitHub Changelog",
+        "id": "dd4c7d387fc53412a62e9d26adf403b628b46261",
+        "title": "我们于 2026 年 9 月公布的最新 AI 新闻 / The latest AI news we announced in September 2026",
+        "title_zh": "我们于 2026 年 9 月公布的最新 AI 新闻",
+        "title_en": "The latest AI news we announced in September 2026",
+        "title_original": "The latest AI news we announced in September 2026",
+        "summary": "Here are Google’s latest AI updates from September 2026\nSee the full list of September AI updates.\nHere are Google’s latest AI updates from September 2026\nOct 02, 2026\nHere’s a recap of some of our biggest AI updates from September, including Gemini 4 Argon,  new Connected Apps in the Gemini App, and WeatherNext 3.\nBlog Team\nYour browser does not support the audio element.\nGoogle just released a bunch of new AI updates, including the powerful Gemini 4 Argon model for solving complex problems. Th",
+        "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026",
+        "source": "Google AI Blog",
         "source_name": "Official AI Updates"
       },
       "sources": [
         {
-          "story_id": "story_d6a6f0dfce45",
-          "title": "Actions retention now covers checks, runs, and statuses",
-          "url": "https://github.blog/changelog/2026-10-01-actions-retention-now-covers-checks-runs-and-statuses",
-          "source": "GitHub Changelog",
+          "story_id": "story_79c5530db8f1",
+          "title": "我们于 2026 年 9 月公布的最新 AI 新闻 / The latest AI news we announced in September 2026",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026",
+          "source": "Google AI Blog",
           "site_id": "",
           "official": true
         }
       ],
-      "summary_zh": "As previously announced, checks, workflow runs, and statuses are now governed by the same ",
+      "summary_zh": "Here are Google’s latest AI updates from September 2026 See the full list of September AI ",
+      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "gemini 这次更新真正改变了什么",
+          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
+          "needs_hands_on": true,
+          "risk": "未亲测前不要把官方描述写成实际效果。"
+        }
+      ],
+      "enrichment_mode": "rules_fallback"
+    },
+    {
+      "story_id": "story_df2c1c5bf36c",
+      "creator_event_id": "creator-0db9dc3e6af29422",
+      "merged_story_ids": [
+        "story_df2c1c5bf36c"
+      ],
+      "title": "Claude Opus 5.5 最新焚诀发布了！",
+      "url": "https://juejin.cn/post/7690930433831354378",
+      "primary_url": "https://juejin.cn/post/7690930433831354378",
+      "source": "juejin",
+      "source_name": "NewsNow",
+      "source_count": 1,
+      "source_names": [
+        "juejin"
+      ],
+      "score": 0.5196,
+      "importance": 0.5196,
+      "importance_score": 0.5196,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9933,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-10-02T15:33:38.037000Z",
+      "latest_at": "2026-10-02T15:33:38.037000Z",
+      "creator_score": 70.0,
+      "creator_breakdown": {
+        "relevance": 0.68,
+        "freshness": 1.0,
+        "source": 0.5,
+        "impact": 0.63,
+        "novelty": 0.85,
+        "heat": 0.3319
+      },
+      "creator_bucket": "general_ai",
+      "primary_entity": "anthropic",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "entity:anthropic",
+        "workflow_impact"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "5af7ef2692340dd551ebafae12f2d3b054e07e7d",
+        "title": "Claude Opus 5.5 最新焚诀发布了！",
+        "title_zh": "Claude Opus 5.5 最新焚诀发布了！",
+        "title_original": "Claude Opus 5.5 最新焚诀发布了！",
+        "url": "https://juejin.cn/post/7690930433831354378",
+        "source": "juejin",
+        "source_name": "NewsNow"
+      },
+      "sources": [
+        {
+          "story_id": "story_df2c1c5bf36c",
+          "title": "Claude Opus 5.5 最新焚诀发布了！",
+          "url": "https://juejin.cn/post/7690930433831354378",
+          "source": "juejin",
+          "site_id": "",
+          "official": false
+        }
+      ],
+      "summary_zh": "Claude Opus 5.5 最新焚诀发布了！",
+      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "anthropic 这次更新真正改变了什么",
+          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
+          "needs_hands_on": true,
+          "risk": "未亲测前不要把官方描述写成实际效果。"
+        }
+      ],
+      "enrichment_mode": "rules_fallback"
+    },
+    {
+      "story_id": "story_99a4db3b8cc4",
+      "creator_event_id": "creator-19e3a657e49bbcf2",
+      "merged_story_ids": [
+        "story_99a4db3b8cc4"
+      ],
+      "title": "OpenAI 发布 GPT-6.1 Sol，能力逼近 Astra",
+      "url": "https://juejin.cn/post/7690930433831895050",
+      "primary_url": "https://juejin.cn/post/7690930433831895050",
+      "source": "juejin",
+      "source_name": "NewsNow",
+      "source_count": 1,
+      "source_names": [
+        "juejin"
+      ],
+      "score": 0.5196,
+      "importance": 0.5196,
+      "importance_score": 0.5196,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9933,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-10-02T15:33:38.037000Z",
+      "latest_at": "2026-10-02T15:33:38.037000Z",
+      "creator_score": 70.0,
+      "creator_breakdown": {
+        "relevance": 0.68,
+        "freshness": 1.0,
+        "source": 0.5,
+        "impact": 0.63,
+        "novelty": 0.85,
+        "heat": 0.3319
+      },
+      "creator_bucket": "general_ai",
+      "primary_entity": "openai",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "entity:openai",
+        "workflow_impact"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "31c66e769e2e4b34465f80c18a533a46372e4a87",
+        "title": "OpenAI 发布 GPT-6.1 Sol，能力逼近 Astra",
+        "title_zh": "OpenAI 发布 GPT-6.1 Sol，能力逼近 Astra",
+        "title_original": "OpenAI 发布 GPT-6.1 Sol，能力逼近 Astra",
+        "url": "https://juejin.cn/post/7690930433831895050",
+        "source": "juejin",
+        "source_name": "NewsNow"
+      },
+      "sources": [
+        {
+          "story_id": "story_99a4db3b8cc4",
+          "title": "OpenAI 发布 GPT-6.1 Sol，能力逼近 Astra",
+          "url": "https://juejin.cn/post/7690930433831895050",
+          "source": "juejin",
+          "site_id": "",
+          "official": false
+        }
+      ],
+      "summary_zh": "OpenAI 发布 GPT-6.1 Sol，能力逼近 Astra",
+      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "openai 这次更新真正改变了什么",
+          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
+          "needs_hands_on": true,
+          "risk": "未亲测前不要把官方描述写成实际效果。"
+        }
+      ],
+      "enrichment_mode": "rules_fallback"
+    },
+    {
+      "story_id": "story_aadd0c803eb2",
+      "creator_event_id": "creator-986c94440fd2f55f",
+      "merged_story_ids": [
+        "story_aadd0c803eb2"
+      ],
+      "title": "三次解雇和第四次离职震动了 OpenAI 的安全团队 / Three firings and a fourth departure shake up OpenAI's safety team",
+      "url": "https://the-decoder.com/three-firings-and-a-fourth-departure-shake-up-openais-safety-team",
+      "primary_url": "https://the-decoder.com/three-firings-and-a-fourth-departure-shake-up-openais-safety-team",
+      "source": "The Decoder AI News",
+      "source_name": "Curated Media",
+      "source_count": 1,
+      "source_names": [
+        "The Decoder AI News"
+      ],
+      "score": 0.6282,
+      "importance": 0.6282,
+      "importance_score": 0.6282,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5688,
+        "source_tier": 0.58,
+        "ai_relevance": 0.79,
+        "recency": 0.9552,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-10-02T12:51:08Z",
+      "latest_at": "2026-10-02T12:51:08Z",
+      "creator_score": 68.1,
+      "creator_breakdown": {
+        "relevance": 0.68,
+        "freshness": 1.0,
+        "source": 0.78,
+        "impact": 0.25,
+        "novelty": 0.65,
+        "heat": 0.3699
+      },
+      "creator_bucket": "general_ai",
+      "primary_entity": "openai",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "entity:openai"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "28d4e70d771ce676373d32552fc9f2b5968efabb",
+        "title": "三次解雇和第四次离职震动了 OpenAI 的安全团队 / Three firings and a fourth departure shake up OpenAI's safety team",
+        "title_zh": "三次解雇和第四次离职震动了 OpenAI 的安全团队",
+        "title_en": "Three firings and a fourth departure shake up OpenAI's safety team",
+        "title_original": "Three firings and a fourth departure shake up OpenAI's safety team",
+        "summary": "OpenAI has parted ways with three researchers who allegedly leaked confidential information to an outside AI safety organization, according to the Wall Street Journal.\nOpenAI has parted ways with three researchers who allegedly leaked confidential information to an outside AI safety organization, according to the Wall Street Journal.\nOpenAI has parted ways with three researchers who allegedly leaked confidential information to an outside AI safety organization, according to the Wall Street Journ",
+        "url": "https://the-decoder.com/three-firings-and-a-fourth-departure-shake-up-openais-safety-team",
+        "source": "The Decoder AI News",
+        "source_name": "Curated Media"
+      },
+      "sources": [
+        {
+          "story_id": "story_aadd0c803eb2",
+          "title": "三次解雇和第四次离职震动了 OpenAI 的安全团队 / Three firings and a fourth departure shake up OpenAI's safety team",
+          "url": "https://the-decoder.com/three-firings-and-a-fourth-departure-shake-up-openais-safety-team",
+          "source": "The Decoder AI News",
+          "site_id": "",
+          "official": false
+        }
+      ],
+      "summary_zh": "OpenAI has parted ways with three researchers who allegedly leaked confidential informatio",
+      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "openai 这次更新真正改变了什么",
+          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
+          "needs_hands_on": true,
+          "risk": "未亲测前不要把官方描述写成实际效果。"
+        }
+      ],
+      "enrichment_mode": "rules_fallback"
+    },
+    {
+      "story_id": "story_b438e8c82cfb",
+      "creator_event_id": "creator-0fef290197f2dc14",
+      "merged_story_ids": [
+        "story_b438e8c82cfb"
+      ],
+      "title": "微软 AI 发布用于语音代理的新转录和文本转语音模型 / Microsoft AI releases new transcription and text-to-speech models for voice agents",
+      "url": "https://the-decoder.com/microsoft-ai-releases-new-transcription-and-text-to-speech-models-for-voice-agents",
+      "primary_url": "https://the-decoder.com/microsoft-ai-releases-new-transcription-and-text-to-speech-models-for-voice-agents",
+      "source": "The Decoder AI News",
+      "source_name": "Curated Media",
+      "source_count": 1,
+      "source_names": [
+        "The Decoder AI News"
+      ],
+      "score": 0.6072,
+      "importance": 0.6072,
+      "importance_score": 0.6072,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5472,
+        "source_tier": 0.58,
+        "ai_relevance": 0.76,
+        "recency": 0.908,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-10-02T09:20:39Z",
+      "latest_at": "2026-10-02T09:20:39Z",
+      "creator_score": 66.4,
+      "creator_breakdown": {
+        "relevance": 0.4125,
+        "freshness": 0.9816,
+        "source": 0.78,
+        "impact": 0.63,
+        "novelty": 0.75,
+        "heat": 0.3625
+      },
+      "creator_bucket": "general_ai",
+      "verification_status": "single_source",
+      "creator_reasons": [
+        "workflow_impact"
+      ],
+      "change_type": "updated",
+      "primary_item": {
+        "id": "f645fa0a022f438b0b4e928ec4f3080215a6a7d4",
+        "title": "微软 AI 发布用于语音代理的新转录和文本转语音模型 / Microsoft AI releases new transcription and text-to-speech models for voice agents",
+        "title_zh": "微软 AI 发布用于语音代理的新转录和文本转语音模型",
+        "title_en": "Microsoft AI releases new transcription and text-to-speech models for voice agents",
+        "title_original": "Microsoft AI releases new transcription and text-to-speech models for voice agents",
+        "summary": "Microsoft AI has released MAI-Transcribe-2-Streaming, a new model for real-time transcription.\nMicrosoft AI has released MAI-Transcribe-2-Streaming, a new model for real-time transcription.\nMicrosoft AI has released MAI-Transcribe-2-Streaming, a new model for real-time transcription. Microsoft says it ranks first for accuracy on Artificial Analysis. The model transcribes 60 languages and delivers its first partial results in just over 100 milliseconds. Microsoft says this lets voice agents respo",
+        "url": "https://the-decoder.com/microsoft-ai-releases-new-transcription-and-text-to-speech-models-for-voice-agents",
+        "source": "The Decoder AI News",
+        "source_name": "Curated Media"
+      },
+      "sources": [
+        {
+          "story_id": "story_b438e8c82cfb",
+          "title": "微软 AI 发布用于语音代理的新转录和文本转语音模型 / Microsoft AI releases new transcription and text-to-speech models for voice agents",
+          "url": "https://the-decoder.com/microsoft-ai-releases-new-transcription-and-text-to-speech-models-for-voice-agents",
+          "source": "The Decoder AI News",
+          "site_id": "",
+          "official": false
+        }
+      ],
+      "summary_zh": "Microsoft AI has released MAI-Transcribe-2-Streaming, a new model for real-time transcript",
       "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
       "angles": [
         {
@@ -1283,12 +1187,12 @@
   "llm_meta": {
     "provider": "deepseek",
     "model": "deepseek-v4-flash",
-    "calls_used": 15,
+    "calls_used": 14,
     "cache_hits": 0,
-    "fallback_count": 15
+    "fallback_count": 14
   },
   "dedup_meta": {
     "secondary_dedup_merge_count": 6,
-    "secondary_dedup_source_count": 172
+    "secondary_dedup_source_count": 212
   }
 }
