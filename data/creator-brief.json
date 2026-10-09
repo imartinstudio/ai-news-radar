@@ -1,395 +1,59 @@
 {
   "edition_id": "2026-10-09-morning",
   "edition_kind": "morning",
-  "generated_at": "2026-10-08T17:44:03.713424Z",
+  "generated_at": "2026-10-09T01:44:40.383295Z",
   "timezone": "Asia/Shanghai",
-  "total_items": 15,
+  "total_items": 10,
   "summary": {
-    "confirmed": 6,
-    "single_source": 8,
-    "early_signal": 1,
+    "confirmed": 5,
+    "single_source": 5,
+    "early_signal": 0,
     "rumor": 0,
-    "new": 14,
+    "new": 10,
     "updated": 0,
-    "confirmed_updates": 1
+    "confirmed_updates": 0
   },
   "items": [
     {
-      "story_id": "story_69693d25de16",
-      "creator_event_id": "creator-6ba5a7ed28e5032b",
+      "story_id": "story_bd6d9acb15b6",
+      "creator_event_id": "creator-04cee80eb89f3bdd",
       "merged_story_ids": [
-        "story_69693d25de16"
+        "story_bd6d9acb15b6"
       ],
-      "title": "Anthropic 用 Claude Managed Agents 构建定时智能体自动化的实践指南 / Building effective agent automations",
-      "url": "https://claude.dev/blog/building-effective-agent-automations",
-      "primary_url": "https://claude.dev/blog/building-effective-agent-automations",
-      "source": "Anthropic：Claude.dev 开发者博客（RSS）",
-      "source_name": "AI HOT",
-      "source_count": 1,
-      "source_names": [
-        "Anthropic：Claude.dev 开发者博客（RSS）"
-      ],
-      "score": 0.7428,
-      "importance": 0.7428,
-      "importance_score": 0.7428,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.68,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9291,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-10-08T12:00:00Z",
-      "latest_at": "2026-10-08T12:00:00Z",
-      "creator_score": 89.1,
-      "creator_breakdown": {
-        "relevance": 0.88,
-        "freshness": 1.0,
-        "source": 1.0,
-        "impact": 0.81,
-        "novelty": 0.85,
-        "heat": 0.41
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "anthropic",
-      "verification_status": "confirmed",
-      "creator_reasons": [
-        "entity:anthropic",
-        "ai_coding_terms",
-        "workflow_impact",
-        "official_or_tier0_source"
-      ],
-      "change_type": "confirmed",
-      "primary_item": {
-        "id": "2684cbbd08e99b581673bf3478183d6f077bcf3e",
-        "title": "Anthropic 用 Claude Managed Agents 构建定时智能体自动化的实践指南 / Building effective agent automations",
-        "title_zh": "Anthropic 用 Claude Managed Agents 构建定时智能体自动化的实践指南",
-        "title_en": "Building effective agent automations",
-        "title_original": "Building effective agent automations",
-        "summary": "Anthropic 发布基于 Claude Managed Agents（beta）的每日简报参考实现，按计划读取 Slack 和 GitHub 来源并向 Slack 发布简报。",
-        "url": "https://claude.dev/blog/building-effective-agent-automations",
-        "source": "Anthropic：Claude.dev 开发者博客（RSS）",
-        "source_name": "AI HOT"
-      },
-      "sources": [
-        {
-          "story_id": "story_69693d25de16",
-          "title": "Anthropic 用 Claude Managed Agents 构建定时智能体自动化的实践指南 / Building effective agent automations",
-          "url": "https://claude.dev/blog/building-effective-agent-automations",
-          "source": "Anthropic：Claude.dev 开发者博客（RSS）",
-          "site_id": "",
-          "official": true
-        }
-      ],
-      "summary_zh": "Anthropic 发布基于 Claude Managed Agents（beta）的每日简报参考实现，按计划读取 Slack 和 GitHub 来源并向 Slack 发布简报。",
-      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "anthropic 这次更新真正改变了什么",
-          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-          "needs_hands_on": true,
-          "risk": "未亲测前不要把官方描述写成实际效果。"
-        }
-      ],
-      "enrichment_mode": "rules_fallback"
-    },
-    {
-      "story_id": "story_7656d3b30e51",
-      "creator_event_id": "creator-0952c182f7dc2c4d",
-      "merged_story_ids": [
-        "story_7656d3b30e51"
-      ],
-      "title": "Claude Haiku 5.5 in GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot",
-      "primary_url": "https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "score": 0.8131,
-      "importance": 0.8131,
-      "importance_score": 0.8131,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.7396,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-10-07T20:12:18Z",
-      "latest_at": "2026-10-07T20:12:18Z",
-      "creator_score": 83.6,
-      "creator_breakdown": {
-        "relevance": 0.95,
-        "freshness": 0.6118,
-        "source": 1.0,
-        "impact": 0.81,
-        "novelty": 0.85,
-        "heat": 0.4346
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "github-copilot",
-      "verification_status": "confirmed",
-      "creator_reasons": [
-        "entity:github-copilot",
-        "workflow_impact",
-        "official_or_tier0_source"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "19ce53b7b96cdf6c23e65be8f3d837c42dc378a3",
-        "title": "Claude Haiku 5.5 in GitHub Copilot",
-        "title_en": "Claude Haiku 5.5 in GitHub Copilot",
-        "title_original": "Claude Haiku 5.5 in GitHub Copilot",
-        "url": "https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      },
-      "sources": [
-        {
-          "story_id": "story_7656d3b30e51",
-          "title": "Claude Haiku 5.5 in GitHub Copilot",
-          "url": "https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot",
-          "source": "GitHub Changelog",
-          "site_id": "",
-          "official": true
-        }
-      ],
-      "summary_zh": "Claude Haiku 5.5 in GitHub Copilot",
-      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "github-copilot 这次更新真正改变了什么",
-          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-          "needs_hands_on": true,
-          "risk": "未亲测前不要把官方描述写成实际效果。"
-        }
-      ],
-      "enrichment_mode": "rules_fallback"
-    },
-    {
-      "story_id": "story_1d298045fcb8",
-      "creator_event_id": "creator-7bdf1c1c64ae3406",
-      "merged_story_ids": [
-        "story_1d298045fcb8"
-      ],
-      "title": "微软发布 MAI Code1.1Flash 模型，GitHub Copilot 将支持本地与云端混合推理",
-      "url": "https://www.aibase.com/news/31464",
-      "primary_url": "https://www.aibase.com/news/31464",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "score": 0.7551,
-      "importance": 0.7551,
-      "importance_score": 0.7551,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9303,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-10-08T12:05:26.445531Z",
-      "latest_at": "2026-10-08T12:05:26.445531Z",
-      "creator_score": 83.2,
-      "creator_breakdown": {
-        "relevance": 0.95,
-        "freshness": 1.0,
-        "source": 0.5,
-        "impact": 0.94,
-        "novelty": 0.85,
-        "heat": 0.4143
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "github-copilot",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "entity:github-copilot",
-        "workflow_impact"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "c0675054f2f6930dc400b0d3225c971d34de5970",
-        "title": "微软发布 MAI Code1.1Flash 模型，GitHub Copilot 将支持本地与云端混合推理",
-        "title_zh": "微软发布 MAI Code1.1Flash 模型，GitHub Copilot 将支持本地与云端混合推理",
-        "title_original": "微软发布 MAI Code1.1Flash 模型，GitHub Copilot 将支持本地与云端混合推理",
-        "summary": "Microsoft announced at its Windows and Surface launch event on October 7, 2026, that it will introduce local AI model support for GitHub Copilot by the end of t\nMicrosoft announced at its Windows and Surface launch event on October 7, 2026, that it will introduce local AI model support for GitHub Copilot by the end of t\nMicrosoft announced at its Windows and Surface launch event on October 7, 2026, that it will introduce local AI model support for GitHub Copilot by the end of t\nExplore AI Fronti",
-        "url": "https://www.aibase.com/news/31464",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      },
-      "sources": [
-        {
-          "story_id": "story_1d298045fcb8",
-          "title": "微软发布 MAI Code1.1Flash 模型，GitHub Copilot 将支持本地与云端混合推理",
-          "url": "https://www.aibase.com/news/31464",
-          "source": "AIbase",
-          "site_id": "",
-          "official": false
-        }
-      ],
-      "summary_zh": "Microsoft announced at its Windows and Surface launch event on October 7, 2026, that it wi",
-      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "github-copilot 这次更新真正改变了什么",
-          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-          "needs_hands_on": true,
-          "risk": "未亲测前不要把官方描述写成实际效果。"
-        }
-      ],
-      "enrichment_mode": "rules_fallback"
-    },
-    {
-      "story_id": "story_6550b85414dd",
-      "creator_event_id": "creator-35ab82166a8f15c1",
-      "merged_story_ids": [
-        "story_6550b85414dd"
-      ],
-      "title": "Claude 九月回顾：Chat 与 Cowork 合一，Claude 5.5 系列模型上线 / What's new in Claude: September recap",
-      "url": "https://www.youtube.com/shorts/n9WfoNW2XnE",
-      "primary_url": "https://www.youtube.com/shorts/n9WfoNW2XnE",
-      "source": "Claude：YouTube（RSS）",
-      "source_name": "AI HOT",
-      "source_count": 1,
-      "source_names": [
-        "Claude：YouTube（RSS）"
-      ],
-      "score": 0.7465,
-      "importance": 0.7465,
-      "importance_score": 0.7465,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.66,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9828,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-10-08T15:53:13Z",
-      "latest_at": "2026-10-08T15:53:13Z",
-      "creator_score": 82.0,
-      "creator_breakdown": {
-        "relevance": 0.88,
-        "freshness": 1.0,
-        "source": 0.5,
-        "impact": 1.0,
-        "novelty": 0.85,
-        "heat": 0.4113
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "anthropic",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "entity:anthropic",
-        "ai_coding_terms",
-        "workflow_impact"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "1a3a4140130097b5826407cc03271420f5e3c849",
-        "title": "Claude 九月回顾：Chat 与 Cowork 合一，Claude 5.5 系列模型上线 / What's new in Claude: September recap",
-        "title_zh": "Claude 九月回顾：Chat 与 Cowork 合一，Claude 5.5 系列模型上线",
-        "title_en": "What's new in Claude: September recap",
-        "title_original": "What's new in Claude: September recap",
-        "summary": "Claude 发布九月更新回顾，Chat 与 Cowork 合并为一个 Claude，工作流可在云端运行，合上笔记本后继续进行。Claude Docs 支持团队与 Claude 在同一文档中协作编辑，新推出的 Claude 5.5 系列提供 Opus 5.5 处理重任务、Sonnet 5.5 用于快速修改，并可通过 /slides、/docs、/designs 直接生成对应格式。",
-        "url": "https://www.youtube.com/shorts/n9WfoNW2XnE",
-        "source": "Claude：YouTube（RSS）",
-        "source_name": "AI HOT"
-      },
-      "sources": [
-        {
-          "story_id": "story_6550b85414dd",
-          "title": "Claude 九月回顾：Chat 与 Cowork 合一，Claude 5.5 系列模型上线 / What's new in Claude: September recap",
-          "url": "https://www.youtube.com/shorts/n9WfoNW2XnE",
-          "source": "Claude：YouTube（RSS）",
-          "site_id": "",
-          "official": false
-        }
-      ],
-      "summary_zh": "Claude 发布九月更新回顾，Chat 与 Cowork 合并为一个 Claude，工作流可在云端运行，合上笔记本后继续进行。Claude Docs 支持团队与 Claude 在",
-      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "anthropic 这次更新真正改变了什么",
-          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-          "needs_hands_on": true,
-          "risk": "未亲测前不要把官方描述写成实际效果。"
-        }
-      ],
-      "enrichment_mode": "rules_fallback"
-    },
-    {
-      "story_id": "story_50ab36b1fdac",
-      "creator_event_id": "creator-e09ac478b77cffcd",
-      "merged_story_ids": [
-        "story_50ab36b1fdac"
-      ],
-      "title": "v2.1.294",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.294",
-      "primary_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.294",
+      "title": "v2.1.295",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.295",
+      "primary_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.295",
       "source": "Claude Code Releases",
       "source_name": "Curated Media",
       "source_count": 1,
       "source_names": [
         "Claude Code Releases"
       ],
-      "score": 0.6075,
-      "importance": 0.6075,
-      "importance_score": 0.6075,
+      "score": 0.6216,
+      "importance": 0.6216,
+      "importance_score": 0.6216,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.5688,
         "source_tier": 0.58,
         "ai_relevance": 0.79,
-        "recency": 0.8406,
+        "recency": 0.9185,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-10-08T05:03:54Z",
-      "latest_at": "2026-10-08T05:03:54Z",
-      "creator_score": 81.4,
+      "earliest_at": "2026-10-08T19:48:38Z",
+      "latest_at": "2026-10-08T19:48:38Z",
+      "creator_score": 84.8,
       "creator_breakdown": {
         "relevance": 1.0,
-        "freshness": 0.8333,
+        "freshness": 1.0,
         "source": 1.0,
         "impact": 0.43,
         "novelty": 0.65,
-        "heat": 0.3626
+        "heat": 0.3676
       },
       "creator_bucket": "ai_coding",
       "primary_entity": "claude-code",
@@ -400,24 +64,24 @@
       ],
       "change_type": "new",
       "primary_item": {
-        "id": "754487808fd2ff9a31d9d8c85f69d5e1ee73415c",
-        "title": "v2.1.294",
-        "title_original": "v2.1.294",
-        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.294",
+        "id": "d944f855ce5cf73adc6300b07f888455056f7afe",
+        "title": "v2.1.295",
+        "title_original": "v2.1.295",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.295",
         "source": "Claude Code Releases",
         "source_name": "Curated Media"
       },
       "sources": [
         {
-          "story_id": "story_50ab36b1fdac",
-          "title": "v2.1.294",
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.294",
+          "story_id": "story_bd6d9acb15b6",
+          "title": "v2.1.295",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.295",
           "source": "Claude Code Releases",
           "site_id": "",
           "official": true
         }
       ],
-      "summary_zh": "v2.1.294",
+      "summary_zh": "v2.1.295",
       "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
       "angles": [
         {
@@ -431,109 +95,29 @@
       "enrichment_mode": "rules_fallback"
     },
     {
-      "story_id": "story_8698d84bcc1c",
-      "creator_event_id": "creator-eea2cd26f178aec9",
+      "story_id": "story_f475eed0f9a3",
+      "creator_event_id": "creator-533a9461b52968be",
       "merged_story_ids": [
-        "story_8698d84bcc1c"
+        "story_f475eed0f9a3"
       ],
-      "title": "Last week some of South Korea's biggest banks were hit by a cyberattack. We now know the entire hack may have been done by a single person. He used a combined stack of an open-source AI penetration tool named ARTEX, DeepSeek v4.1-Flash, GLM-5.3, Grok 4.6, and Claude Code (CrowdStrike)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0n4pt/last_week_some_of_south_koreas_biggest_banks_were",
-      "primary_url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0n4pt/last_week_some_of_south_koreas_biggest_banks_were",
-      "source": "r/LocalLLaMA",
-      "source_name": "OPML RSS",
+      "title": "OpenAI重磅发布GPT-6.1 Sol Ultrafast版，速度最高提升 8 倍",
+      "url": "https://www.aibase.com/news/31488",
+      "primary_url": "https://www.aibase.com/news/31488",
+      "source": "AIbase",
+      "source_name": "AIbase",
       "source_count": 1,
       "source_names": [
-        "r/LocalLLaMA"
+        "AIbase"
       ],
-      "score": 0.6016,
-      "importance": 0.6016,
-      "importance_score": 0.6016,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5688,
-        "source_tier": 0.5,
-        "ai_relevance": 0.79,
-        "recency": 0.9051,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-10-08T10:11:02Z",
-      "latest_at": "2026-10-08T10:11:02Z",
-      "creator_score": 78.0,
-      "creator_breakdown": {
-        "relevance": 1.0,
-        "freshness": 0.9612,
-        "source": 0.7,
-        "impact": 0.43,
-        "novelty": 0.65,
-        "heat": 0.3606
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "claude-code",
-      "verification_status": "single_source",
-      "creator_reasons": [
-        "entity:claude-code"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "15ee5cf69f3b0de4d1ec42ce0d79139e5caac7ac",
-        "title": "Last week some of South Korea's biggest banks were hit by a cyberattack. We now know the entire hack may have been done by a single person. He used a combined stack of an open-source AI penetration tool named ARTEX, DeepSeek v4.1-Flash, GLM-5.3, Grok 4.6, and Claude Code (CrowdStrike)",
-        "title_en": "Last week some of South Korea's biggest banks were hit by a cyberattack. We now know the entire hack may have been done by a single person. He used a combined stack of an open-source AI penetration tool named ARTEX, DeepSeek v4.1-Flash, GLM-5.3, Grok 4.6, and Claude Code (CrowdStrike)",
-        "title_original": "Last week some of South Korea's biggest banks were hit by a cyberattack. We now know the entire hack may have been done by a single person. He used a combined stack of an open-source AI penetration tool named ARTEX, DeepSeek v4.1-Flash, GLM-5.3, Grok 4.6, and Claude Code (CrowdStrike)",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0n4pt/last_week_some_of_south_koreas_biggest_banks_were",
-        "source": "r/LocalLLaMA",
-        "source_name": "OPML RSS"
-      },
-      "sources": [
-        {
-          "story_id": "story_8698d84bcc1c",
-          "title": "Last week some of South Korea's biggest banks were hit by a cyberattack. We now know the entire hack may have been done by a single person. He used a combined stack of an open-source AI penetration tool named ARTEX, DeepSeek v4.1-Flash, GLM-5.3, Grok 4.6, and Claude Code (CrowdStrike)",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x0n4pt/last_week_some_of_south_koreas_biggest_banks_were",
-          "source": "r/LocalLLaMA",
-          "site_id": "",
-          "official": false
-        }
-      ],
-      "summary_zh": "Last week some of South Korea's biggest banks were hit by a cyberattack. We now know the e",
-      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "claude-code 这次更新真正改变了什么",
-          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-          "needs_hands_on": true,
-          "risk": "未亲测前不要把官方描述写成实际效果。"
-        }
-      ],
-      "enrichment_mode": "rules_fallback"
-    },
-    {
-      "story_id": "story_6d9b4cd327fa",
-      "creator_event_id": "creator-08f42057ce422725",
-      "merged_story_ids": [
-        "story_6d9b4cd327fa"
-      ],
-      "title": "【AIHOT 通知】旧版接口 2026 年 10 月 31 日停用，推送机器人和脚本请尽快迁移 / AIHOT notice: the legacy API /api/public/* stops on 31 Oct 2026; bots and scripts should move to /api/v1",
-      "url": "https://aihot.news/agent?tab=api",
-      "primary_url": "https://aihot.news/agent?tab=api",
-      "source": "AIHOT",
-      "source_name": "AI HOT",
-      "source_count": 1,
-      "source_names": [
-        "AIHOT"
-      ],
-      "score": 0.8164,
-      "importance": 0.8164,
-      "importance_score": 0.8164,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 1.0,
+        "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8042,
+        "recency": 1.0,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -541,48 +125,129 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-10-08T02:00:00Z",
-      "latest_at": "2026-10-08T02:00:00Z",
-      "creator_score": 77.8,
+      "earliest_at": "2026-10-09T01:41:45.757748Z",
+      "latest_at": "2026-10-09T01:41:45.757748Z",
+      "creator_score": 82.0,
       "creator_breakdown": {
-        "relevance": 0.9,
-        "freshness": 0.7566,
+        "relevance": 0.88,
+        "freshness": 1.0,
         "source": 0.5,
         "impact": 1.0,
         "novelty": 0.85,
-        "heat": 0.4357
+        "heat": 0.4187
       },
       "creator_bucket": "ai_coding",
-      "primary_entity": "mcp",
+      "primary_entity": "openai",
       "verification_status": "single_source",
       "creator_reasons": [
-        "entity:mcp",
+        "entity:openai",
         "ai_coding_terms",
         "workflow_impact"
       ],
       "change_type": "new",
       "primary_item": {
-        "id": "b23efb1ac1501010c365eae2e54ffb4cf0dda3dd",
-        "title": "【AIHOT 通知】旧版接口 2026 年 10 月 31 日停用，推送机器人和脚本请尽快迁移 / AIHOT notice: the legacy API /api/public/* stops on 31 Oct 2026; bots and scripts should move to /api/v1",
-        "title_zh": "【AIHOT 通知】旧版接口 2026 年 10 月 31 日停用，推送机器人和脚本请尽快迁移",
-        "title_en": "AIHOT notice: the legacy API /api/public/* stops on 31 Oct 2026; bots and scripts should move to /api/v1",
-        "title_original": "AIHOT notice: the legacy API /api/public/* stops on 31 Oct 2026; bots and scripts should move to /api/v1",
-        "summary": "这条消息来自 AIHOT 旧版接口 /api/public/*：它将于 2026 年 10 月 31 日停用，之后这里不会再有新资讯。如果它是群机器人或脚本推送来的，请转告维护的人把地址换成 https://aihot.news/api/v1，字段一一对应；迁移指南和可以直接交给 AI 改写代码的提示词见 https://aihot.news/agent?tab=api#legacy-api-migration 。同一天起旧域名 aihot.virxact.com 的所有地址都只跳转到 aihot.news，RSS、MCP 等地址也请换成新域名；收藏的网页链接照样能打开。",
-        "url": "https://aihot.news/agent?tab=api",
-        "source": "AIHOT",
-        "source_name": "AI HOT"
+        "id": "74066b7ad6bcd3dc824de3a045119ca2fd196463",
+        "title": "OpenAI重磅发布GPT-6.1 Sol Ultrafast版，速度最高提升 8 倍",
+        "title_zh": "OpenAI重磅发布GPT-6.1 Sol Ultrafast版，速度最高提升 8 倍",
+        "title_original": "OpenAI重磅发布GPT-6.1 Sol Ultrafast版，速度最高提升 8 倍",
+        "summary": "OpenAI Developers officially announced the launch of the Ultrafast version of GPT-6.1Sol in the API, Codex, and ChatGPT Work platforms.As an upgraded performanc\nOpenAI Developers officially announced the launch of the Ultrafast version of GPT-6.1Sol in the API, Codex, and ChatGPT Work platforms.As an upgraded performanc\nOpenAI Developers officially announced the launch of the Ultrafast version of GPT-6.1Sol in the API, Codex, and ChatGPT Work platforms.As an upgraded performanc\nExplore AI Fronti",
+        "url": "https://www.aibase.com/news/31488",
+        "source": "AIbase",
+        "source_name": "AIbase"
       },
       "sources": [
         {
-          "story_id": "story_6d9b4cd327fa",
-          "title": "【AIHOT 通知】旧版接口 2026 年 10 月 31 日停用，推送机器人和脚本请尽快迁移 / AIHOT notice: the legacy API /api/public/* stops on 31 Oct 2026; bots and scripts should move to /api/v1",
-          "url": "https://aihot.news/agent?tab=api",
-          "source": "AIHOT",
+          "story_id": "story_f475eed0f9a3",
+          "title": "OpenAI重磅发布GPT-6.1 Sol Ultrafast版，速度最高提升 8 倍",
+          "url": "https://www.aibase.com/news/31488",
+          "source": "AIbase",
           "site_id": "",
           "official": false
         }
       ],
-      "summary_zh": "这条消息来自 AIHOT 旧版接口 /api/public/*：它将于 2026 年 10 月 31 日停用，之后这里不会再有新资讯。如果它是群机器人或脚本推送来的，请转告维护的人",
+      "summary_zh": "OpenAI Developers officially announced the launch of the Ultrafast version of GPT-6.1Sol i",
+      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "openai 这次更新真正改变了什么",
+          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
+          "needs_hands_on": true,
+          "risk": "未亲测前不要把官方描述写成实际效果。"
+        }
+      ],
+      "enrichment_mode": "rules_fallback"
+    },
+    {
+      "story_id": "story_b4f29770b7c6",
+      "creator_event_id": "creator-6fbdb56ccc821a02",
+      "merged_story_ids": [
+        "story_b4f29770b7c6"
+      ],
+      "title": "Show HN：Edi Life OS – 带有用于 AI 的 MCP 服务器的自托管生活仪表板 / Show HN: Edi Life OS – self-hosted life dashboard with an MCP server for AI",
+      "url": "https://github.com/edrisranjbar/lifeos",
+      "primary_url": "https://github.com/edrisranjbar/lifeos",
+      "source": "Hacker News (黑客新闻)",
+      "source_name": "Info Flow",
+      "source_count": 1,
+      "source_names": [
+        "Hacker News (黑客新闻)"
+      ],
+      "score": 0.5415,
+      "importance": 0.5415,
+      "importance_score": 0.5415,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.32,
+        "ai_relevance": 0.65,
+        "recency": 0.9763,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-10-09T00:02:19Z",
+      "latest_at": "2026-10-09T00:02:19Z",
+      "creator_score": 72.4,
+      "creator_breakdown": {
+        "relevance": 0.9,
+        "freshness": 1.0,
+        "source": 0.5,
+        "impact": 0.43,
+        "novelty": 0.65,
+        "heat": 0.4895
+      },
+      "creator_bucket": "ai_coding",
+      "primary_entity": "mcp",
+      "verification_status": "confirmed",
+      "creator_reasons": [
+        "entity:mcp",
+        "ai_coding_terms"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "ef1b530a7c53ca072767fcab348a1d1132a4b1a3",
+        "title": "Show HN：Edi Life OS – 带有用于 AI 的 MCP 服务器的自托管生活仪表板 / Show HN: Edi Life OS – self-hosted life dashboard with an MCP server for AI",
+        "title_zh": "Show HN：Edi Life OS – 带有用于 AI 的 MCP 服务器的自托管生活仪表板",
+        "title_en": "Show HN: Edi Life OS – self-hosted life dashboard with an MCP server for AI",
+        "title_original": "Show HN: Edi Life OS – self-hosted life dashboard with an MCP server for AI",
+        "url": "https://github.com/edrisranjbar/lifeos",
+        "source": "Hacker News (黑客新闻)",
+        "source_name": "Info Flow"
+      },
+      "sources": [
+        {
+          "story_id": "story_b4f29770b7c6",
+          "title": "Show HN：Edi Life OS – 带有用于 AI 的 MCP 服务器的自托管生活仪表板 / Show HN: Edi Life OS – self-hosted life dashboard with an MCP server for AI",
+          "url": "https://github.com/edrisranjbar/lifeos",
+          "source": "Hacker News (黑客新闻)",
+          "site_id": "",
+          "official": false
+        }
+      ],
+      "summary_zh": "Show HN：Edi Life OS – 带有用于 AI 的 MCP 服务器的自托管生活仪表板 / Show HN: Edi Life OS – self-hosted life",
       "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
       "angles": [
         {
@@ -596,109 +261,29 @@
       "enrichment_mode": "rules_fallback"
     },
     {
-      "story_id": "story_0fed1517bef4",
-      "creator_event_id": "creator-d791d503e26bd09a",
+      "story_id": "story_553155f04821",
+      "creator_event_id": "creator-b1c80ce96c7f0e20",
       "merged_story_ids": [
-        "story_0fed1517bef4"
+        "story_553155f04821"
       ],
-      "title": "\"I think I found a planet nobody knew existed. I used Claude Code to find it\"",
-      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wzw8zd/i_think_i_found_a_planet_nobody_knew_existed_i",
-      "primary_url": "https://www.reddit.com/r/ClaudeAI/comments/1wzw8zd/i_think_i_found_a_planet_nobody_knew_existed_i",
-      "source": "HN Algolia · AI 24h",
-      "source_name": "Hacker News",
-      "source_count": 1,
-      "source_names": [
-        "HN Algolia · AI 24h"
-      ],
-      "score": 0.5292,
-      "importance": 0.5292,
-      "importance_score": 0.5292,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.468,
-        "source_tier": 0.32,
-        "ai_relevance": 0.65,
-        "recency": 0.9079,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-10-08T07:07:34Z",
-      "latest_at": "2026-10-08T10:24:01Z",
-      "creator_score": 76.3,
-      "creator_breakdown": {
-        "relevance": 1.0,
-        "freshness": 0.9666,
-        "source": 0.58,
-        "impact": 0.43,
-        "novelty": 0.65,
-        "heat": 0.4852
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "claude-code",
-      "verification_status": "confirmed",
-      "creator_reasons": [
-        "entity:claude-code"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "5ad3a5d1d049e0d312fa520cc6a54b76a1d640f1",
-        "title": "\"I think I found a planet nobody knew existed. I used Claude Code to find it\"",
-        "title_en": "\"I think I found a planet nobody knew existed. I used Claude Code to find it\"",
-        "title_original": "\"I think I found a planet nobody knew existed. I used Claude Code to find it\"",
-        "url": "https://www.reddit.com/r/ClaudeAI/comments/1wzw8zd/i_think_i_found_a_planet_nobody_knew_existed_i",
-        "source": "HN Algolia · AI 24h",
-        "source_name": "Hacker News"
-      },
-      "sources": [
-        {
-          "story_id": "story_0fed1517bef4",
-          "title": "\"I think I found a planet nobody knew existed. I used Claude Code to find it\"",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1wzw8zd/i_think_i_found_a_planet_nobody_knew_existed_i",
-          "source": "HN Algolia · AI 24h",
-          "site_id": "",
-          "official": false
-        }
-      ],
-      "summary_zh": "\"I think I found a planet nobody knew existed. I used Claude Code to find it\"",
-      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "claude-code 这次更新真正改变了什么",
-          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-          "needs_hands_on": true,
-          "risk": "未亲测前不要把官方描述写成实际效果。"
-        }
-      ],
-      "enrichment_mode": "rules_fallback"
-    },
-    {
-      "story_id": "story_fe64b501ffdf",
-      "creator_event_id": "creator-54e800e937ac7257",
-      "merged_story_ids": [
-        "story_fe64b501ffdf"
-      ],
-      "title": "程序员 Codex 提问急救卡：7 个常用模板＋组合写法",
-      "url": "https://juejin.cn/post/7694106511605317658",
-      "primary_url": "https://juejin.cn/post/7694106511605317658",
+      "title": "当 AI 承包了 90% 的代码，架构师那致命的 10% 到底在控什么？",
+      "url": "https://juejin.cn/post/7693451894564765696",
+      "primary_url": "https://juejin.cn/post/7693451894564765696",
       "source": "juejin",
       "source_name": "NewsNow",
       "source_count": 1,
       "source_names": [
         "juejin"
       ],
-      "score": 0.5208,
-      "importance": 0.5208,
-      "importance_score": 0.5208,
+      "score": 0.4998,
+      "importance": 0.4998,
+      "importance_score": 0.4998,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.468,
         "source_tier": 0.32,
         "ai_relevance": 0.65,
-        "recency": 1.0,
+        "recency": 0.8832,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -707,205 +292,41 @@
       ],
       "earliest_at": "2026-10-08T17:05:54.487000Z",
       "latest_at": "2026-10-08T17:05:54.487000Z",
-      "creator_score": 74.6,
+      "creator_score": 68.7,
       "creator_breakdown": {
-        "relevance": 1.0,
-        "freshness": 1.0,
+        "relevance": 0.88,
+        "freshness": 0.9338,
         "source": 0.5,
         "impact": 0.43,
-        "novelty": 0.65,
-        "heat": 0.3323
+        "novelty": 0.55,
+        "heat": 0.3249
       },
       "creator_bucket": "ai_coding",
-      "primary_entity": "codex",
       "verification_status": "single_source",
       "creator_reasons": [
-        "entity:codex"
+        "ai_coding_terms"
       ],
       "change_type": "new",
       "primary_item": {
-        "id": "e0a67bc4393fe3930a0aadff3217101d02430b5e",
-        "title": "程序员 Codex 提问急救卡：7 个常用模板＋组合写法",
-        "title_zh": "程序员 Codex 提问急救卡：7 个常用模板＋组合写法",
-        "title_original": "程序员 Codex 提问急救卡：7 个常用模板＋组合写法",
-        "url": "https://juejin.cn/post/7694106511605317658",
+        "id": "ff9cb91d676caad2cc951fc40b5773c514694c8e",
+        "title": "当 AI 承包了 90% 的代码，架构师那致命的 10% 到底在控什么？",
+        "title_zh": "当 AI 承包了 90% 的代码，架构师那致命的 10% 到底在控什么？",
+        "title_original": "当 AI 承包了 90% 的代码，架构师那致命的 10% 到底在控什么？",
+        "url": "https://juejin.cn/post/7693451894564765696",
         "source": "juejin",
         "source_name": "NewsNow"
       },
       "sources": [
         {
-          "story_id": "story_fe64b501ffdf",
-          "title": "程序员 Codex 提问急救卡：7 个常用模板＋组合写法",
-          "url": "https://juejin.cn/post/7694106511605317658",
+          "story_id": "story_553155f04821",
+          "title": "当 AI 承包了 90% 的代码，架构师那致命的 10% 到底在控什么？",
+          "url": "https://juejin.cn/post/7693451894564765696",
           "source": "juejin",
           "site_id": "",
           "official": false
         }
       ],
-      "summary_zh": "程序员 Codex 提问急救卡：7 个常用模板＋组合写法",
-      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "codex 这次更新真正改变了什么",
-          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-          "needs_hands_on": true,
-          "risk": "未亲测前不要把官方描述写成实际效果。"
-        }
-      ],
-      "enrichment_mode": "rules_fallback"
-    },
-    {
-      "story_id": "story_5f14bb641b16",
-      "creator_event_id": "creator-1790fe31d27ae2db",
-      "merged_story_ids": [
-        "story_5f14bb641b16"
-      ],
-      "title": "Day 3 (encore)/ We silently re-shipped codex cloud. It’s pretty good now https://t.co/Fau14sCke8",
-      "url": "https://x.com/thsottiaux/status/2108084615349170480",
-      "primary_url": "https://x.com/thsottiaux/status/2108084615349170480",
-      "source": "Follow Builders · X · Thibault Sottiaux",
-      "source_name": "Follow Builders",
-      "source_count": 1,
-      "source_names": [
-        "Follow Builders · X · Thibault Sottiaux"
-      ],
-      "score": 0.6406,
-      "importance": 0.6406,
-      "importance_score": 0.6406,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.6048,
-        "source_tier": 0.62,
-        "ai_relevance": 0.84,
-        "recency": 0.86,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-10-08T06:38:33Z",
-      "latest_at": "2026-10-08T06:38:33Z",
-      "creator_score": 73.5,
-      "creator_breakdown": {
-        "relevance": 1.0,
-        "freshness": 0.8727,
-        "source": 0.56,
-        "impact": 0.43,
-        "novelty": 0.65,
-        "heat": 0.3742
-      },
-      "creator_bucket": "ai_coding",
-      "primary_entity": "codex",
-      "verification_status": "early_signal",
-      "creator_reasons": [
-        "entity:codex"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "9f1cd5ea4d2c3cd3b6acfe54e82515de0f7784e0",
-        "title": "Day 3 (encore)/ We silently re-shipped codex cloud. It’s pretty good now https://t.co/Fau14sCke8",
-        "title_en": "Day 3 (encore)/ We silently re-shipped codex cloud. It’s pretty good now https://t.co/Fau14sCke8",
-        "title_original": "Day 3 (encore)/ We silently re-shipped codex cloud. It’s pretty good now https://t.co/Fau14sCke8",
-        "url": "https://x.com/thsottiaux/status/2108084615349170480",
-        "source": "Follow Builders · X · Thibault Sottiaux",
-        "source_name": "Follow Builders"
-      },
-      "sources": [
-        {
-          "story_id": "story_5f14bb641b16",
-          "title": "Day 3 (encore)/ We silently re-shipped codex cloud. It’s pretty good now https://t.co/Fau14sCke8",
-          "url": "https://x.com/thsottiaux/status/2108084615349170480",
-          "source": "Follow Builders · X · Thibault Sottiaux",
-          "site_id": "",
-          "official": false
-        }
-      ],
-      "summary_zh": "Day 3 (encore)/ We silently re-shipped codex cloud. It’s pretty good now https://t.co/Fau1",
-      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "codex 这次更新真正改变了什么",
-          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-          "needs_hands_on": true,
-          "risk": "未亲测前不要把官方描述写成实际效果。"
-        }
-      ],
-      "enrichment_mode": "rules_fallback"
-    },
-    {
-      "story_id": "story_68365110a7bb",
-      "creator_event_id": "creator-57f2e26d90d7dcee",
-      "merged_story_ids": [
-        "story_68365110a7bb"
-      ],
-      "title": "Screen readers can navigate timelines as lists",
-      "url": "https://github.blog/changelog/2026-10-08-screen-readers-can-navigate-timelines-as-lists",
-      "primary_url": "https://github.blog/changelog/2026-10-08-screen-readers-can-navigate-timelines-as-lists",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "score": 0.8412,
-      "importance": 0.8412,
-      "importance_score": 0.8412,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.9846,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-10-08T16:00:56Z",
-      "latest_at": "2026-10-08T16:00:56Z",
-      "creator_score": 74.0,
-      "creator_breakdown": {
-        "relevance": 0.4944,
-        "freshness": 1.0,
-        "source": 1.0,
-        "impact": 0.63,
-        "novelty": 0.75,
-        "heat": 0.4444
-      },
-      "creator_bucket": "general_ai",
-      "verification_status": "confirmed",
-      "creator_reasons": [
-        "workflow_impact",
-        "official_or_tier0_source"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "cd8f8fb984076cfd31fce125baf23c1db553b830",
-        "title": "Screen readers can navigate timelines as lists",
-        "title_en": "Screen readers can navigate timelines as lists",
-        "title_original": "Screen readers can navigate timelines as lists",
-        "summary": "Screen readers can now navigate issue and pull request timelines as a list. When you move through a timeline, assistive technology can announce the list structure, item count, current position,…\nScreen readers can now navigate issue and pull request timelines as a list. When you move through a timeline, assistive technology can announce the list structure, item count, current position, and how to move between events. This makes it easier to understand long histories and jump to relevant updates ",
-        "url": "https://github.blog/changelog/2026-10-08-screen-readers-can-navigate-timelines-as-lists",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      },
-      "sources": [
-        {
-          "story_id": "story_68365110a7bb",
-          "title": "Screen readers can navigate timelines as lists",
-          "url": "https://github.blog/changelog/2026-10-08-screen-readers-can-navigate-timelines-as-lists",
-          "source": "GitHub Changelog",
-          "site_id": "",
-          "official": true
-        }
-      ],
-      "summary_zh": "Screen readers can now navigate issue and pull request timelines as a list. When you move ",
+      "summary_zh": "当 AI 承包了 90% 的代码，架构师那致命的 10% 到底在控什么？",
       "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
       "angles": [
         {
@@ -919,112 +340,29 @@
       "enrichment_mode": "rules_fallback"
     },
     {
-      "story_id": "story_8cec8cc46a95",
-      "creator_event_id": "creator-8fad31c525fb40e4",
+      "story_id": "story_e42c7cb753df",
+      "creator_event_id": "creator-e1734fc255c89dca",
       "merged_story_ids": [
-        "story_8cec8cc46a95"
+        "story_e42c7cb753df"
       ],
-      "title": "Draft pull requests count toward pull request limits",
-      "url": "https://github.blog/changelog/2026-10-08-draft-pull-requests-count-toward-pull-request-limits",
-      "primary_url": "https://github.blog/changelog/2026-10-08-draft-pull-requests-count-toward-pull-request-limits",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "score": 0.8372,
-      "importance": 0.8372,
-      "importance_score": 0.8372,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.9623,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-10-08T14:25:53Z",
-      "latest_at": "2026-10-08T14:25:53Z",
-      "creator_score": 74.0,
-      "creator_breakdown": {
-        "relevance": 0.493,
-        "freshness": 1.0,
-        "source": 1.0,
-        "impact": 0.63,
-        "novelty": 0.75,
-        "heat": 0.443
-      },
-      "creator_bucket": "general_ai",
-      "verification_status": "confirmed",
-      "creator_reasons": [
-        "workflow_impact",
-        "official_or_tier0_source"
-      ],
-      "change_type": "new",
-      "primary_item": {
-        "id": "367c2d3069e0a7aa53005a90af5bf895d1e1f373",
-        "title": "Draft pull requests count toward pull request limits",
-        "title_en": "Draft pull requests count toward pull request limits",
-        "title_original": "Draft pull requests count toward pull request limits",
-        "summary": "Maintainers are seeing more low-quality contributions in their repositories and need better ways to manage them. You can now configure pull request limits to also include draft pull requests. Previously,…\nMaintainers are seeing more low-quality contributions in their repositories and need better ways to manage them. You can now configure pull request limits to also include draft pull requests.\nPreviously, draft pull requests didn’t count toward a user’s limit. That meant someone could open any n",
-        "url": "https://github.blog/changelog/2026-10-08-draft-pull-requests-count-toward-pull-request-limits",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      },
-      "sources": [
-        {
-          "story_id": "story_8cec8cc46a95",
-          "title": "Draft pull requests count toward pull request limits",
-          "url": "https://github.blog/changelog/2026-10-08-draft-pull-requests-count-toward-pull-request-limits",
-          "source": "GitHub Changelog",
-          "site_id": "",
-          "official": true
-        }
-      ],
-      "summary_zh": "Maintainers are seeing more low-quality contributions in their repositories and need bette",
-      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
-      "angles": [
-        {
-          "platform": "x",
-          "title": "AI Coding 这次更新真正改变了什么",
-          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
-          "needs_hands_on": true,
-          "risk": "未亲测前不要把官方描述写成实际效果。"
-        }
-      ],
-      "enrichment_mode": "rules_fallback"
-    },
-    {
-      "story_id": "story_9d420c28c726",
-      "creator_event_id": "creator-ae24eaf74f5f6f0f",
-      "merged_story_ids": [
-        "story_9d420c28c726"
-      ],
-      "title": "Artificial Analysis 评测 Google Nano Banana 2.1，两榜居第 4 且价格为前代一半 / Google's Nano Banana 2.1 takes #4 on both AA-Image-T2I v2.0 and AA-Image-Editing v2.0, at half the price of Nano Banana 2",
-      "url": "https://x.com/ArtificialAnlys/status/2108236656700768310",
-      "primary_url": "https://x.com/ArtificialAnlys/status/2108236656700768310",
-      "source": "X：Artificial Analysis (@ArtificialAnlys)",
+      "title": "Zenity 研究人员发现一条提示词即可劫持 AWS 账户内全部 AgentCore 智能体 / A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found",
+      "url": "https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found",
+      "primary_url": "https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found",
+      "source": "The Decoder：AI News（RSS）",
       "source_name": "AI HOT",
       "source_count": 1,
       "source_names": [
-        "X：Artificial Analysis (@ArtificialAnlys)"
+        "The Decoder：AI News（RSS）"
       ],
-      "score": 0.7756,
-      "importance": 0.7756,
-      "importance_score": 0.7756,
+      "score": 0.7615,
+      "importance": 0.7615,
+      "importance_score": 0.7615,
       "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.75,
+        "editorial": 0.8,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9945,
+        "recency": 0.8327,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1032,45 +370,45 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-10-08T16:42:42Z",
-      "latest_at": "2026-10-08T16:42:42Z",
-      "creator_score": 70.5,
+      "earliest_at": "2026-10-08T13:01:01Z",
+      "latest_at": "2026-10-08T13:01:01Z",
+      "creator_score": 67.1,
       "creator_breakdown": {
-        "relevance": 0.65,
-        "freshness": 1.0,
+        "relevance": 0.88,
+        "freshness": 0.8318,
         "source": 0.5,
-        "impact": 0.76,
-        "novelty": 0.75,
-        "heat": 0.4215
+        "impact": 0.43,
+        "novelty": 0.55,
+        "heat": 0.4165
       },
-      "creator_bucket": "general_ai",
+      "creator_bucket": "ai_coding",
       "verification_status": "single_source",
       "creator_reasons": [
-        "workflow_impact"
+        "ai_coding_terms"
       ],
       "change_type": "new",
       "primary_item": {
-        "id": "1f9823f40d994730810318520de0f53b02b350ca",
-        "title": "Artificial Analysis 评测 Google Nano Banana 2.1，两榜居第 4 且价格为前代一半 / Google's Nano Banana 2.1 takes #4 on both AA-Image-T2I v2.0 and AA-Image-Editing v2.0, at half the price of Nano Banana 2",
-        "title_zh": "Artificial Analysis 评测 Google Nano Banana 2.1，两榜居第 4 且价格为前代一半",
-        "title_en": "Google's Nano Banana 2.1 takes #4 on both AA-Image-T2I v2.0 and AA-Image-Editing v2.0, at half the price of Nano Banana 2",
-        "title_original": "Google's Nano Banana 2.1 takes #4 on both AA-Image-T2I v2.0 and AA-Image-Editing v2.0, at half the price of Nano Banana 2",
-        "summary": "Artificial Analysis 评测 Google 于 10 月 6 日发布的图像模型 Nano Banana 2.1，在 AA-Image-T2I v2.0 和 AA-Image-Editing v2.0 两个榜单均排名第 4。",
-        "url": "https://x.com/ArtificialAnlys/status/2108236656700768310",
-        "source": "X：Artificial Analysis (@ArtificialAnlys)",
+        "id": "53da602216c4fe60a67d386a9ccbd530bab544a0",
+        "title": "Zenity 研究人员发现一条提示词即可劫持 AWS 账户内全部 AgentCore 智能体 / A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found",
+        "title_zh": "Zenity 研究人员发现一条提示词即可劫持 AWS 账户内全部 AgentCore 智能体",
+        "title_en": "A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found",
+        "title_original": "A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found",
+        "summary": "Zenity Labs 研究人员披露名为 AgentCorruption 的漏洞链，只需对一个公开的 Amazon Bedrock AgentCore 智能体发送一条提示词，即可通过元数据服务 169.254.169.254 窃取其 AWS 凭据，进而控制同账户同区域内的所有 AgentCore 智能体，读取私人对话、源代码和存储的凭据，还能篡改长期记忆。",
+        "url": "https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found",
+        "source": "The Decoder：AI News（RSS）",
         "source_name": "AI HOT"
       },
       "sources": [
         {
-          "story_id": "story_9d420c28c726",
-          "title": "Artificial Analysis 评测 Google Nano Banana 2.1，两榜居第 4 且价格为前代一半 / Google's Nano Banana 2.1 takes #4 on both AA-Image-T2I v2.0 and AA-Image-Editing v2.0, at half the price of Nano Banana 2",
-          "url": "https://x.com/ArtificialAnlys/status/2108236656700768310",
-          "source": "X：Artificial Analysis (@ArtificialAnlys)",
+          "story_id": "story_e42c7cb753df",
+          "title": "Zenity 研究人员发现一条提示词即可劫持 AWS 账户内全部 AgentCore 智能体 / A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found",
+          "url": "https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found",
+          "source": "The Decoder：AI News（RSS）",
           "site_id": "",
           "official": false
         }
       ],
-      "summary_zh": "Artificial Analysis 评测 Google 于 10 月 6 日发布的图像模型 Nano Banana 2.1，在 AA-Image-T2I v2.0 和 AA-I",
+      "summary_zh": "Zenity Labs 研究人员披露名为 AgentCorruption 的漏洞链，只需对一个公开的 Amazon Bedrock AgentCore 智能体发送一条提示词，即可通",
       "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
       "angles": [
         {
@@ -1084,46 +422,45 @@
       "enrichment_mode": "rules_fallback"
     },
     {
-      "story_id": "story_82e34aba148b",
-      "creator_event_id": "creator-98d9daf930535238",
+      "story_id": "story_619fb9ede1e5",
+      "creator_event_id": "creator-78908a84e3b53bda",
       "merged_story_ids": [
-        "story_82e34aba148b"
+        "story_619fb9ede1e5"
       ],
-      "title": "Anthropic 重磅发布 Claude Haiku 5.5！价格暴降 90% 但面临隐性成本",
-      "url": "https://www.aibase.com/news/31467",
-      "primary_url": "https://www.aibase.com/news/31467",
-      "source": "AIbase",
-      "source_name": "AIbase",
+      "title": "Anthropic 为开源项目推出免费的人工智能安全扫描 / Anthropic launches free AI security scans for open-source projects",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
+      "primary_url": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
+      "source": "The Verge",
+      "source_name": "Curated Media",
       "source_count": 1,
       "source_names": [
-        "AIbase"
+        "The Verge"
       ],
-      "score": 0.76,
-      "importance": 0.76,
-      "importance_score": 0.76,
-      "importance_label": "行业动态",
+      "score": 0.5934,
+      "importance": 0.5934,
+      "importance_score": 0.5934,
+      "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9576,
+        "editorial": 0.5112,
+        "source_tier": 0.58,
+        "ai_relevance": 0.71,
+        "recency": 0.9466,
         "story_heat": 0.0
       },
-      "category": "industry",
+      "category": "watch",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "recent_ai_signal"
       ],
-      "earliest_at": "2026-10-08T14:05:26.445531Z",
-      "latest_at": "2026-10-08T14:05:26.445531Z",
-      "creator_score": 70.4,
+      "earliest_at": "2026-10-08T21:53:51Z",
+      "latest_at": "2026-10-08T21:53:51Z",
+      "creator_score": 75.7,
       "creator_breakdown": {
         "relevance": 0.68,
         "freshness": 1.0,
-        "source": 0.5,
+        "source": 0.78,
         "impact": 0.63,
         "novelty": 0.85,
-        "heat": 0.416
+        "heat": 0.3577
       },
       "creator_bucket": "general_ai",
       "primary_entity": "anthropic",
@@ -1134,26 +471,26 @@
       ],
       "change_type": "new",
       "primary_item": {
-        "id": "8ce647e2abcfc95f104ef55327c8bdf80dee6afd",
-        "title": "Anthropic 重磅发布 Claude Haiku 5.5！价格暴降 90% 但面临隐性成本",
-        "title_zh": "Anthropic 重磅发布 Claude Haiku 5.5！价格暴降 90% 但面临隐性成本",
-        "title_original": "Anthropic 重磅发布 Claude Haiku 5.5！价格暴降 90% 但面临隐性成本",
-        "summary": "Anthropic recently officially launched the latest lightweight model in the Claude 5.5 series, Claude Haiku 5.5. For regular requests within 100,000 tokens, the\nAnthropic recently officially launched the latest lightweight model in the Claude 5.5 series, Claude Haiku 5.5. For regular requests within 100,000 tokens, the\nAnthropic recently officially launched the latest lightweight model in the Claude 5.5 series, Claude Haiku 5.5. For regular requests within 100,000 tokens, the\nExplore AI Frontiers",
-        "url": "https://www.aibase.com/news/31467",
-        "source": "AIbase",
-        "source_name": "AIbase"
+        "id": "3b97ff886c39359ed6b1b224e6426428aad20d6f",
+        "title": "Anthropic 为开源项目推出免费的人工智能安全扫描 / Anthropic launches free AI security scans for open-source projects",
+        "title_zh": "Anthropic 为开源项目推出免费的人工智能安全扫描",
+        "title_en": "Anthropic launches free AI security scans for open-source projects",
+        "title_original": "Anthropic launches free AI security scans for open-source projects",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
+        "source": "The Verge",
+        "source_name": "Curated Media"
       },
       "sources": [
         {
-          "story_id": "story_82e34aba148b",
-          "title": "Anthropic 重磅发布 Claude Haiku 5.5！价格暴降 90% 但面临隐性成本",
-          "url": "https://www.aibase.com/news/31467",
-          "source": "AIbase",
+          "story_id": "story_619fb9ede1e5",
+          "title": "Anthropic 为开源项目推出免费的人工智能安全扫描 / Anthropic launches free AI security scans for open-source projects",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
+          "source": "The Verge",
           "site_id": "",
           "official": false
         }
       ],
-      "summary_zh": "Anthropic recently officially launched the latest lightweight model in the Claude 5.5 seri",
+      "summary_zh": "Anthropic 为开源项目推出免费的人工智能安全扫描 / Anthropic launches free AI security scans for open-source p",
       "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
       "angles": [
         {
@@ -1167,46 +504,129 @@
       "enrichment_mode": "rules_fallback"
     },
     {
-      "story_id": "story_3dba4140caff",
-      "creator_event_id": "creator-d847b8a9015b542c",
+      "story_id": "story_02d66470e18a",
+      "creator_event_id": "creator-59c2fe9a7bda147a",
       "merged_story_ids": [
-        "story_3dba4140caff"
+        "story_02d66470e18a"
       ],
-      "title": "非营利组织发布新报告：ChatGPT 青少年模式安全风险过高  ​",
-      "url": "https://www.aibase.com/news/31461",
-      "primary_url": "https://www.aibase.com/news/31461",
-      "source": "AIbase",
-      "source_name": "AIbase",
+      "title": "分类角色用户或更高级别现在可以存档拉取请求 / Triage role users or higher can now archive pull requests",
+      "url": "https://github.blog/changelog/2026-10-08-triage-role-users-or-higher-can-now-archive-pull-requests",
+      "primary_url": "https://github.blog/changelog/2026-10-08-triage-role-users-or-higher-can-now-archive-pull-requests",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
       "source_count": 1,
       "source_names": [
-        "AIbase"
+        "GitHub Changelog"
       ],
-      "score": 0.7527,
-      "importance": 0.7527,
-      "importance_score": 0.7527,
-      "importance_label": "行业动态",
+      "score": 0.8275,
+      "importance": 0.8275,
+      "importance_score": 0.8275,
+      "importance_label": "官方更新",
       "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.917,
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.9082,
         "story_heat": 0.0
       },
-      "category": "industry",
+      "category": "official",
       "reasons": [
+        "official_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-10-08T11:05:26.445531Z",
-      "latest_at": "2026-10-08T11:05:26.445531Z",
-      "creator_score": 70.1,
+      "earliest_at": "2026-10-08T19:01:42Z",
+      "latest_at": "2026-10-08T19:01:42Z",
+      "creator_score": 73.5,
+      "creator_breakdown": {
+        "relevance": 0.4896,
+        "freshness": 0.9821,
+        "source": 1.0,
+        "impact": 0.63,
+        "novelty": 0.75,
+        "heat": 0.4396
+      },
+      "creator_bucket": "general_ai",
+      "verification_status": "confirmed",
+      "creator_reasons": [
+        "workflow_impact",
+        "official_or_tier0_source"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "e790d6f1f2dfa3f47f2dbe0473f2c63181e17290",
+        "title": "分类角色用户或更高级别现在可以存档拉取请求 / Triage role users or higher can now archive pull requests",
+        "title_zh": "分类角色用户或更高级别现在可以存档拉取请求",
+        "title_en": "Triage role users or higher can now archive pull requests",
+        "title_original": "Triage role users or higher can now archive pull requests",
+        "summary": "Users with the triage role or higher in a repository can now archive and unarchive pull requests. Previously, archiving was limited to repository administrators, requiring trusted triagers to hand routine…\nUsers with the triage role or higher in a repository can now archive and unarchive pull requests. Previously, archiving was limited to repository administrators, requiring trusted triagers to hand routine moderation work to someone with higher permissions.\nMaintainers increasingly rely on tria",
+        "url": "https://github.blog/changelog/2026-10-08-triage-role-users-or-higher-can-now-archive-pull-requests",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      },
+      "sources": [
+        {
+          "story_id": "story_02d66470e18a",
+          "title": "分类角色用户或更高级别现在可以存档拉取请求 / Triage role users or higher can now archive pull requests",
+          "url": "https://github.blog/changelog/2026-10-08-triage-role-users-or-higher-can-now-archive-pull-requests",
+          "source": "GitHub Changelog",
+          "site_id": "",
+          "official": true
+        }
+      ],
+      "summary_zh": "Users with the triage role or higher in a repository can now archive and unarchive pull re",
+      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "AI Coding 这次更新真正改变了什么",
+          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
+          "needs_hands_on": true,
+          "risk": "未亲测前不要把官方描述写成实际效果。"
+        }
+      ],
+      "enrichment_mode": "rules_fallback"
+    },
+    {
+      "story_id": "story_f1b30a68532a",
+      "creator_event_id": "creator-4133e8dc15b850e0",
+      "merged_story_ids": [
+        "story_f1b30a68532a"
+      ],
+      "title": "ChatGPT 上线【交互 UI】，让每个回答都能交互",
+      "url": "https://waytoagi.feishu.cn/wiki/ST1YwNO0qi3ba0kxfcmcoVP4nUf?from=from_copylink",
+      "primary_url": "https://waytoagi.feishu.cn/wiki/ST1YwNO0qi3ba0kxfcmcoVP4nUf?from=from_copylink",
+      "source": "社区更新 · 2026-10-08",
+      "source_name": "WaytoAGI",
+      "source_count": 1,
+      "source_names": [
+        "社区更新 · 2026-10-08"
+      ],
+      "score": 0.5692,
+      "importance": 0.5692,
+      "importance_score": 0.5692,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.468,
+        "source_tier": 0.54,
+        "ai_relevance": 0.65,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-10-09T01:41:45.757748Z",
+      "latest_at": "2026-10-09T01:41:45.757748Z",
+      "creator_score": 72.0,
       "creator_breakdown": {
         "relevance": 0.68,
-        "freshness": 0.9839,
+        "freshness": 1.0,
         "source": 0.5,
-        "impact": 0.63,
+        "impact": 0.76,
         "novelty": 0.85,
-        "heat": 0.4134
+        "heat": 0.3492
       },
       "creator_bucket": "general_ai",
       "primary_entity": "openai",
@@ -1217,26 +637,194 @@
       ],
       "change_type": "new",
       "primary_item": {
-        "id": "a66d92d8c0191adb45d91612ad902be5af2de7c6",
-        "title": "非营利组织发布新报告：ChatGPT 青少年模式安全风险过高  ​",
-        "title_zh": "非营利组织发布新报告：ChatGPT 青少年模式安全风险过高  ​",
-        "title_original": "非营利组织发布新报告：ChatGPT 青少年模式安全风险过高  ​",
-        "summary": "California-based non-profit organization Common Sense Media recently released a report stating that OpenAI's ChatGPT Teen Mode poses a high risk for minors. Tes\nCalifornia-based non-profit organization Common Sense Media recently released a report stating that OpenAI's ChatGPT Teen Mode poses a high risk for minors. Tes\nCalifornia-based non-profit organization Common Sense Media recently released a report stating that OpenAI's ChatGPT Teen Mode poses a high risk for minors. Tes\nExplore AI Fronti",
-        "url": "https://www.aibase.com/news/31461",
-        "source": "AIbase",
-        "source_name": "AIbase"
+        "id": "8e676fd56ae1a620d05aaf712db934543d68c2d9",
+        "title": "ChatGPT 上线【交互 UI】，让每个回答都能交互",
+        "title_zh": "ChatGPT 上线【交互 UI】，让每个回答都能交互",
+        "title_original": "ChatGPT 上线【交互 UI】，让每个回答都能交互",
+        "summary": "OpenAI带来Intelligent UI交互能力，彻底跳出纯文本回复模式。对话内可直接生成可操作组件：滑块、动态图表、清单计算器，甚至简易小游戏。不管是规划聚餐采购、定制旅行穿搭，还是理解三门问题、中心极限定理这类抽象知识，都能通过交互直观上手。还能按需快速搭建分账工具、储蓄计算器等轻应用。",
+        "url": "https://waytoagi.feishu.cn/wiki/ST1YwNO0qi3ba0kxfcmcoVP4nUf?from=from_copylink",
+        "source": "社区更新 · 2026-10-08",
+        "source_name": "WaytoAGI"
       },
       "sources": [
         {
-          "story_id": "story_3dba4140caff",
-          "title": "非营利组织发布新报告：ChatGPT 青少年模式安全风险过高  ​",
-          "url": "https://www.aibase.com/news/31461",
-          "source": "AIbase",
+          "story_id": "story_f1b30a68532a",
+          "title": "ChatGPT 上线【交互 UI】，让每个回答都能交互",
+          "url": "https://waytoagi.feishu.cn/wiki/ST1YwNO0qi3ba0kxfcmcoVP4nUf?from=from_copylink",
+          "source": "社区更新 · 2026-10-08",
           "site_id": "",
           "official": false
         }
       ],
-      "summary_zh": "California-based non-profit organization Common Sense Media recently released a report sta",
+      "summary_zh": "OpenAI带来Intelligent UI交互能力，彻底跳出纯文本回复模式。对话内可直接生成可操作组件：滑块、动态图表、清单计算器，甚至简易小游戏。不管是规划聚餐采购、定制旅行穿",
+      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "openai 这次更新真正改变了什么",
+          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
+          "needs_hands_on": true,
+          "risk": "未亲测前不要把官方描述写成实际效果。"
+        }
+      ],
+      "enrichment_mode": "rules_fallback"
+    },
+    {
+      "story_id": "story_68365110a7bb",
+      "creator_event_id": "creator-ced4823e4b43bfd6",
+      "merged_story_ids": [
+        "story_68365110a7bb"
+      ],
+      "title": "屏幕阅读器可以以列表的形式浏览时间线 / Screen readers can navigate timelines as lists",
+      "url": "https://github.blog/changelog/2026-10-08-screen-readers-can-navigate-timelines-as-lists",
+      "primary_url": "https://github.blog/changelog/2026-10-08-screen-readers-can-navigate-timelines-as-lists",
+      "source": "GitHub Changelog",
+      "source_name": "Official AI Updates",
+      "source_count": 1,
+      "source_names": [
+        "GitHub Changelog"
+      ],
+      "score": 0.8205,
+      "importance": 0.8205,
+      "importance_score": 0.8205,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.87,
+        "recency": 0.8695,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-08T16:00:56Z",
+      "latest_at": "2026-10-08T16:00:56Z",
+      "creator_score": 71.9,
+      "creator_breakdown": {
+        "relevance": 0.4872,
+        "freshness": 0.9068,
+        "source": 1.0,
+        "impact": 0.63,
+        "novelty": 0.75,
+        "heat": 0.4372
+      },
+      "creator_bucket": "general_ai",
+      "verification_status": "confirmed",
+      "creator_reasons": [
+        "workflow_impact",
+        "official_or_tier0_source"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "cd8f8fb984076cfd31fce125baf23c1db553b830",
+        "title": "屏幕阅读器可以以列表的形式浏览时间线 / Screen readers can navigate timelines as lists",
+        "title_zh": "屏幕阅读器可以以列表的形式浏览时间线",
+        "title_en": "Screen readers can navigate timelines as lists",
+        "title_original": "Screen readers can navigate timelines as lists",
+        "url": "https://github.blog/changelog/2026-10-08-screen-readers-can-navigate-timelines-as-lists",
+        "source": "GitHub Changelog",
+        "source_name": "Official AI Updates"
+      },
+      "sources": [
+        {
+          "story_id": "story_68365110a7bb",
+          "title": "屏幕阅读器可以以列表的形式浏览时间线 / Screen readers can navigate timelines as lists",
+          "url": "https://github.blog/changelog/2026-10-08-screen-readers-can-navigate-timelines-as-lists",
+          "source": "GitHub Changelog",
+          "site_id": "",
+          "official": true
+        }
+      ],
+      "summary_zh": "屏幕阅读器可以以列表的形式浏览时间线 / Screen readers can navigate timelines as lists",
+      "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
+      "angles": [
+        {
+          "platform": "x",
+          "title": "AI Coding 这次更新真正改变了什么",
+          "angle": "先核对原始发布，再结合自己的开发体验给出判断。",
+          "needs_hands_on": true,
+          "risk": "未亲测前不要把官方描述写成实际效果。"
+        }
+      ],
+      "enrichment_mode": "rules_fallback"
+    },
+    {
+      "story_id": "story_f913596b9697",
+      "creator_event_id": "creator-f77f37d86ecaa532",
+      "merged_story_ids": [
+        "story_f913596b9697"
+      ],
+      "title": "Oracle 如何利用 ChatGPT 和 Codex 将几天的工作变成几分钟 / How Oracle turns days of work into minutes with ChatGPT and Codex",
+      "url": "https://openai.com/index/oracle",
+      "primary_url": "https://openai.com/index/oracle",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
+      "source_count": 1,
+      "source_names": [
+        "OpenAI News"
+      ],
+      "score": 0.8445,
+      "importance": 0.8445,
+      "importance_score": 0.8445,
+      "importance_label": "官方更新",
+      "importance_breakdown": {
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.99,
+        "recency": 0.8693,
+        "story_heat": 0.0
+      },
+      "category": "official",
+      "reasons": [
+        "official_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-10-08T16:00:00Z",
+      "latest_at": "2026-10-08T16:00:00Z",
+      "creator_score": 71.0,
+      "creator_breakdown": {
+        "relevance": 0.68,
+        "freshness": 0.9064,
+        "source": 1.0,
+        "impact": 0.25,
+        "novelty": 0.65,
+        "heat": 0.4456
+      },
+      "creator_bucket": "general_ai",
+      "primary_entity": "openai",
+      "verification_status": "confirmed",
+      "creator_reasons": [
+        "entity:openai",
+        "official_or_tier0_source"
+      ],
+      "change_type": "new",
+      "primary_item": {
+        "id": "49c769f79b514578c15edc1fb6ff5c6708b86570",
+        "title": "Oracle 如何利用 ChatGPT 和 Codex 将几天的工作变成几分钟 / How Oracle turns days of work into minutes with ChatGPT and Codex",
+        "title_zh": "Oracle 如何利用 ChatGPT 和 Codex 将几天的工作变成几分钟",
+        "title_en": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+        "title_original": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+        "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.\nAcross recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.\nAcross recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.\nOctober 8, 2026\nAcross recruiting, engineering, and operations, Oracle ",
+        "url": "https://openai.com/index/oracle",
+        "source": "OpenAI News",
+        "source_name": "Official AI Updates"
+      },
+      "sources": [
+        {
+          "story_id": "story_f913596b9697",
+          "title": "Oracle 如何利用 ChatGPT 和 Codex 将几天的工作变成几分钟 / How Oracle turns days of work into minutes with ChatGPT and Codex",
+          "url": "https://openai.com/index/oracle",
+          "source": "OpenAI News",
+          "site_id": "",
+          "official": true
+        }
+      ],
+      "summary_zh": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fas",
       "why_it_matters": "该信息可能影响开发工具选择、工作流或模型能力判断。",
       "angles": [
         {
@@ -1253,12 +841,12 @@
   "llm_meta": {
     "provider": "deepseek",
     "model": "deepseek-v4-flash",
-    "calls_used": 15,
+    "calls_used": 10,
     "cache_hits": 0,
-    "fallback_count": 15
+    "fallback_count": 10
   },
   "dedup_meta": {
-    "secondary_dedup_merge_count": 6,
-    "secondary_dedup_source_count": 211
+    "secondary_dedup_merge_count": 5,
+    "secondary_dedup_source_count": 199
   }
 }
